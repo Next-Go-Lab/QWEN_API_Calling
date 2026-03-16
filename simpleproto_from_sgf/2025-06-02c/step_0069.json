@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_068",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 68,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B8"
+      },
+      {
+        "color": 0,
+        "point": "C5"
+      },
+      {
+        "color": 1,
+        "point": "C6"
+      },
+      {
+        "color": 0,
+        "point": "B6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "B4"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G7"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_058",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 58,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      },
+      {
+        "color": 0,
+        "point": "C8"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E9",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F8"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

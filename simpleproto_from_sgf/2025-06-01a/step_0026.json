@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_025",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 25,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "P18"
+      },
+      {
+        "color": 1,
+        "point": "O17"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "N18"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

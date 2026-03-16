@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_006",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "O17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R14"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

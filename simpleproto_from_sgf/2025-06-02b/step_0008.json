@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_007",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 7,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R16"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

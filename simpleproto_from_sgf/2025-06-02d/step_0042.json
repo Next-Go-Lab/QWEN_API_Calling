@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_041",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 41,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H6"
+      },
+      {
+        "color": 1,
+        "point": "P3"
+      },
+      {
+        "color": 0,
+        "point": "P4"
+      },
+      {
+        "color": 1,
+        "point": "J5"
+      },
+      {
+        "color": 0,
+        "point": "H5"
+      },
+      {
+        "color": 1,
+        "point": "J3"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "Q6",
+      "R6",
+      "E7",
+      "P7",
+      "N8",
+      "L10",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H3"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

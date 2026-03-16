@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_142",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 142,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "N12"
+      },
+      {
+        "color": 1,
+        "point": "N13"
+      },
+      {
+        "color": 0,
+        "point": "M13"
+      },
+      {
+        "color": 1,
+        "point": "L12"
+      },
+      {
+        "color": 0,
+        "point": "P12"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "O7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "M9",
+      "P9",
+      "Q9",
+      "O10",
+      "R10",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "L12",
+      "M12",
+      "N13",
+      "O13",
+      "P13",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "N11",
+      "N12",
+      "O12",
+      "P12",
+      "M13",
+      "O14",
+      "P14",
+      "O15",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q12"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

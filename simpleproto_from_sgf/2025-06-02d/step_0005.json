@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_004",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 4,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D16"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      }
+    ],
+    "black_stones": [
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "E4"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

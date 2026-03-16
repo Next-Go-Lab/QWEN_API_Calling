@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_139",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 139,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N8"
+      },
+      {
+        "color": 1,
+        "point": "H8"
+      },
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P8"
+      },
+      {
+        "color": 0,
+        "point": "P9"
+      },
+      {
+        "color": 1,
+        "point": "R7"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "C9",
+      "L9",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "S17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q7"
+  },
+  "semantic_description": {
+    "global_tags": [],
+    "strategic_focus": [],
+    "global_summary_cn": "",
+    "phase_explanation": ""
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}
