@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_009",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 9,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "C6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "Q4_corner",
+      "D3_E3_E4_F3_F4_local_battle"
+    ],
+    "global_summary_cn": "第9手，黑方刚落子F4，形成右下角局部激烈对攻；白棋在D3、E3、C4、Q4布子，黑棋在D16、R16、F3、E4、F4应战，全局呈双角开局、中腹未启、右下短兵相接态势。",
+    "phase_explanation": "开局早期（前10手），双方集中于右下角与右上角展开试探性接触，尚未进入中腹争夺或大规模模样构建阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "天元附近空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋占Q4，黑棋占R16，构成右上角初步配置；Q4为白拆一守角，R16为黑小目挂角意图。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "white_corner",
+        "black_kakari"
+      ],
+      "key_points": [
+        "Q4",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及D16一带：黑棋D16为小目守角，孤立无援，暂无明显发展。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_corner"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域完全空旷，无任何着子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹空旷，仅Q4白子延伸影响，尚无实质势力。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中腹空旷，但C4、D3、E3、E4、F3、F4密集交战，形成右下角微型战斗群。",
+      "shapes": [
+        "local_fight",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "black_eye_shape_attempt",
+        "white_pressure"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "black_group_weak",
+        "white_group_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角核心战场：白C4、D3、E3；黑E4、F3、F4，六子围成紧凑对杀结构，黑F4为最新一手，意在扩张眼位或反打。",
+      "shapes": [
+        "fight_cluster",
+        "triangle"
+      ],
+      "local_tags": [
+        "tsumego_like",
+        "life_and_death_early"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "black_group_vulnerable",
+        "white_group_solid"
+      ]
+    }
+  ]
+}

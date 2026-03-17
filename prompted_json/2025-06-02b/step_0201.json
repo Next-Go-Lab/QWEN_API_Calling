@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_200",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 200,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "T15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S6"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "B2"
+      },
+      {
+        "color": 0,
+        "point": "S9"
+      },
+      {
+        "color": 1,
+        "point": "O10"
+      },
+      {
+        "color": 0,
+        "point": "T15"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "J2",
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "C2",
+      "L2",
+      "P2",
+      "D3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "T13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "white_compromised_right_side"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's top-right influence",
+      "black_eye_shape_in_center"
+    ],
+    "global_summary_cn": "对局进入收官阶段，黑棋领先明显；白棋右上角大龙虽活但目数亏损，右下角被黑棋深入搜刮；黑棋在中腹已围成可观实地，白棋仅存左上小空及中腹零星潜力。",
+    "phase_explanation": "第200手，黑方即将落子，全局无明显劫争，胜负已定。白棋T15为勉强扩张右下，但黑棋T13为精准官子，压缩白棋最后空间。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋B17、B18、C18与黑棋C17、C19构成小规模接触战，白空薄弱，黑有打入A16或B16余味。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "fragile_white_corner",
+        "black_sente_entry"
+      ],
+      "key_points": [
+        "A16",
+        "B16"
+      ],
+      "group_status": [
+        "white_alive_but_small",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋D17、F17、J17、R17与黑棋E17、G17、Q17形成宽广对峙带；黑棋H16-Q16-T16一线厚势压制白棋上边潜力。",
+      "shapes": [
+        "side_wall",
+        "influence_band"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_reduced_influence"
+      ],
+      "key_points": [
+        "E16",
+        "H16",
+        "Q16"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S17、S18、S19、R17与黑棋Q17、T17、T18、R18形成复杂边界；白棋S19一子孤立，黑棋T13瞄向此处收气。",
+      "shapes": [
+        "edge_group",
+        "loose_group"
+      ],
+      "local_tags": [
+        "white_overextended",
+        "black_cutting_potential"
+      ],
+      "key_points": [
+        "T13",
+        "S19",
+        "R18"
+      ],
+      "group_status": [
+        "white_vulnerable",
+        "black_threatening"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D12–D13–E14–E15与白棋C13、C12、E12、F12形成交错阵地；黑棋D12-E14-F15三角结构稳固，白棋左中腹眼位不足。",
+      "shapes": [
+        "triangle",
+        "territory_boundary"
+      ],
+      "local_tags": [
+        "black_foundation",
+        "white_eye_trouble"
+      ],
+      "key_points": [
+        "D12",
+        "E14",
+        "F15"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑棋K10–L10–M10–O10–P11与白棋J10–K12–L11–M12构成中腹核心争夺区；黑棋已围出约18目实空，形状如‘眼形’，近乎成空。",
+      "shapes": [
+        "eye_shape",
+        "central_territory"
+      ],
+      "local_tags": [
+        "black_eyespace",
+        "white_no_invasion_chance"
+      ],
+      "key_points": [
+        "K10",
+        "O10",
+        "P11"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_entirely_outside"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋N10–O9–P9–Q9与黑棋O10–Q10–Q8–S8形成右中腹拉锯；白棋O9-P9虽连，但被黑棋Q10、Q8双面压迫，仅存微弱做活余地。",
+      "shapes": [
+        "leaning_position",
+        "compromised_group"
+      ],
+      "local_tags": [
+        "white_squeezed",
+        "black_leverage"
+      ],
+      "key_points": [
+        "O9",
+        "Q10",
+        "Q8"
+      ],
+      "group_status": [
+        "white_almost_dead",
+        "black_dominating"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B2–C2–C3–B4与白棋C2–D3–D4构成经典角部定式残局；黑棋已活且有B1、A2等官子，白棋仅剩A1单官。",
+      "shapes": [
+        "standard_corner",
+        "finished_local"
+      ],
+      "local_tags": [
+        "black_completed",
+        "white_no_more_moves"
+      ],
+      "key_points": [
+        "A1",
+        "B1"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_fully_contained"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F5–G5–H5–G6–H6与白棋F6–E6–D6–E7–F7形成中下腹厚薄对比；黑棋厚势辐射至中央，白棋F6孤子面临攻击。",
+      "shapes": [
+        "thick_wall",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "black_sente",
+        "white_weak_point"
+      ],
+      "key_points": [
+        "F6",
+        "E7",
+        "G6"
+      ],
+      "group_status": [
+        "black_in_control",
+        "white_under_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋T15为本区域最后一手，试图扩张但被黑棋S6–S8–R7–Q8封锁；黑棋S6、R7、Q8、O7构成铁壁，白棋T15孤立无援，黑T13可立即点入破眼。",
+      "shapes": [
+        "encirclement",
+        "vital_point_target"
+      ],
+      "local_tags": [
+        "black_decisive",
+        "white_doomed"
+      ],
+      "key_points": [
+        "T13",
+        "T15",
+        "S6"
+      ],
+      "group_status": [
+        "white_dying",
+        "black_finalizing"
+      ]
+    }
+  ]
+}

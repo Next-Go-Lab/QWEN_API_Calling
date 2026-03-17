@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_036",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 36,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D18"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "H16"
+      },
+      {
+        "color": 0,
+        "point": "D10"
+      },
+      {
+        "color": 1,
+        "point": "C12"
+      },
+      {
+        "color": 0,
+        "point": "D12"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "C12",
+      "R12",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "Q10",
+      "D12",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋厚势主导",
+      "黑棋右下孤棋未活"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下黑棋大龙治孤",
+      "左上角定式余味"
+    ],
+    "global_summary_cn": "第36手，黑方行棋。白棋刚于D12落子，强化中腹与右下联络；黑棋近期在右上（H16、K16、Q14等）与左下（D18、C12）积极扩张，但右下R12、Q13、Q14等黑子被白F15、K15、M15、P14多点压迫，眼位不足；中央黑J14-J15-H16与白K14-K15-M15形成对峙；左上角C14白子与黑C12构成未定型接触战；全局白棋厚实连贯，黑棋需在B5（政策目标点）寻求突破或补强左下薄弱处。",
+    "phase_explanation": "中盘阶段，双方完成大致布局，进入关键攻防转换期；白棋掌握主动节奏，借厚势施压黑棋薄弱环节；黑棋亟需处理右下大龙并缓解中央压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角C12黑与C14白形成接触战，余味浓厚；黑D18为高拆二守角，白D16呼应；暂无明显死活问题，但存在后续打入或夹击可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部未定型",
+        "接触战",
+        "余味"
+      ],
+      "key_points": [
+        "C12",
+        "C14",
+        "D16",
+        "D18"
+      ],
+      "group_status": [
+        "黑棋轻灵",
+        "白棋厚实"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑H16、K16、Q17与白K14、P14、P16、P17构成右上势力交错带；黑Q14、Q13、R12呈斜跳阵势，但被白P14、K15压制；黑J14-J15为联络要点。",
+      "shapes": [
+        "side_wall",
+        "diagonal_chain"
+      ],
+      "local_tags": [
+        "势力对抗",
+        "斜跳阵势",
+        "受压"
+      ],
+      "key_points": [
+        "H16",
+        "J14",
+        "J15",
+        "K16",
+        "P14",
+        "K15"
+      ],
+      "group_status": [
+        "黑棋薄",
+        "白棋厚"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q5-Q6-R6与黑Q3-R4-R5形成上下对称但不对等的角部结构；白占据高位外势，黑实地偏小；R6白子与R5黑子直接接触，存在局部劫争伏笔。",
+      "shapes": [
+        "ladder_base",
+        "side_pressure"
+      ],
+      "local_tags": [
+        "高位外势",
+        "接触点",
+        "潜在劫材"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "白棋外势强",
+        "黑棋实地弱"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C12-D10-D12一线与白D4、F3构成左中腹攻防轴；白D10、D12连续压迫黑C12，黑尚未安定；B5为黑方潜在腾挪点，呼应此处薄弱。",
+      "shapes": [
+        "vertical_line",
+        "pressure_axis"
+      ],
+      "local_tags": [
+        "受攻孤棋",
+        "腾挪要点",
+        "压迫链"
+      ],
+      "key_points": [
+        "C12",
+        "D10",
+        "D12",
+        "D4",
+        "B5"
+      ],
+      "group_status": [
+        "黑棋未活",
+        "白棋主动"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑M13、M15与白K14、K15、M15、F15形成星罗棋布的散落子力；F15白子为关键跳点，牵制黑M13与J14；暂无成形大模样，属战略要冲。",
+      "shapes": [
+        "scattered",
+        "influence_hub"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "影响力辐射",
+        "未定型"
+      ],
+      "key_points": [
+        "F15",
+        "K14",
+        "K15",
+        "M13",
+        "M15"
+      ],
+      "group_status": [
+        "双方均势",
+        "待发展"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q10、L12、L17与黑Q13、Q14、R12、R16构成右中腹复杂缠斗；黑R12-Q13-Q14呈‘蛇形’但气紧，白L12、P14、K15形成合围雏形；L17黑子为接应孤棋。",
+      "shapes": [
+        "snake_shape",
+        "encirclement"
+      ],
+      "local_tags": [
+        "大龙治孤",
+        "合围初现",
+        "接应点"
+      ],
+      "key_points": [
+        "R12",
+        "Q13",
+        "Q14",
+        "L12",
+        "P14",
+        "L17"
+      ],
+      "group_status": [
+        "黑棋危急",
+        "白棋优势"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑O3、Q3与白F3、D4构成典型低中国流开局残余；黑Q3-O3为双飞燕雏形，白D4尖顶后黑尚未反击；实地已基本分清，属平稳区域。",
+      "shapes": [
+        "low_chinese",
+        "settled"
+      ],
+      "local_tags": [
+        "定型完毕",
+        "实地清晰",
+        "无争端"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "F3",
+        "D4"
+      ],
+      "group_status": [
+        "双方安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空点密集，仅黑F17、白P17位于边线；中央至下方大片空白，为双方未来大场及厚势延伸方向；当前无直接冲突，属战略预备区。",
+      "shapes": [
+        "empty_zone",
+        "future_large_point"
+      ],
+      "local_tags": [
+        "大场预留",
+        "厚势延伸区",
+        "空旷"
+      ],
+      "key_points": [
+        "F17",
+        "P17"
+      ],
+      "group_status": [
+        "未介入",
+        "待开发"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白R6、Q6、Q5与黑R5、R4构成右下角激烈接触；黑R4-R5为低位双飞燕，白Q5-Q6反夹；该处为全盘最早交火点，已趋定型但仍有细微出入。",
+      "shapes": [
+        "contact_fight",
+        "low_side"
+      ],
+      "local_tags": [
+        "最早接触",
+        "定型收束",
+        "细微出入"
+      ],
+      "key_points": [
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "双方安定",
+        "余味轻微"
+      ]
+    }
+  ]
+}

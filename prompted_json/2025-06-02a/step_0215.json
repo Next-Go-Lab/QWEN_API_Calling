@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_214",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 214,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J13"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J17"
+      },
+      {
+        "color": 0,
+        "point": "H17"
+      },
+      {
+        "color": 1,
+        "point": "K15"
+      },
+      {
+        "color": 0,
+        "point": "J14"
+      },
+      {
+        "color": 1,
+        "point": "K14"
+      },
+      {
+        "color": 0,
+        "point": "J13"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "K13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death"
+    ],
+    "strategic_focus": [
+      "right_side_group_life",
+      "center_influence_vs_territory",
+      "bottom_right_eye_space"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先但白棋在右下和中腹仍有劫争与做活机会；K13为关键一手，意在压缩白棋中腹眼位并威胁J13一子。",
+    "phase_explanation": "第214手，黑方行棋，局面处于官子收束期。双方在右上、中腹及右下形成多处未定形区域，尤其J13附近存在潜在劫材与联络问题。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋厚势已定型，白棋A1-A3一带残子无眼，面临被攻杀风险。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "dead_group",
+        "black_thickness"
+      ],
+      "key_points": [
+        "A1",
+        "A3",
+        "C2"
+      ],
+      "group_status": [
+        "dead"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方交错，黑Q3-R4与白Q4-O4形成对峙，黑有拆二潜力，白需防断点。",
+      "shapes": [
+        "side_framework",
+        "potential_extension"
+      ],
+      "local_tags": [
+        "incomplete_framework",
+        "light_fighting"
+      ],
+      "key_points": [
+        "Q3",
+        "Q4",
+        "O4"
+      ],
+      "group_status": [
+        "alive_with_difficulty"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型，黑J17-K15与白H17-J14构成典型攻防序列，白棋局部勉强做活，但气紧。",
+      "shapes": [
+        "living_group",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "narrow_eyespace",
+        "vulnerable_living"
+      ],
+      "key_points": [
+        "J17",
+        "K15",
+        "H17",
+        "J14",
+        "K14"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋L7-O7与白K7-Q7对峙，黑F6-H6与白E6-F5形成薄厚对比，黑有打入潜力。",
+      "shapes": [
+        "side_influence",
+        "potential_invasion_point"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_weakness"
+      ],
+      "key_points": [
+        "L7",
+        "K7",
+        "F6",
+        "E6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑L12-M12与白N12-O12形成虚势对峙；K13落点直指中央眼位核心，意图破白根基。",
+      "shapes": [
+        "central_influence",
+        "vital_point"
+      ],
+      "local_tags": [
+        "vital_point_K13",
+        "eye_space_restriction"
+      ],
+      "key_points": [
+        "K13",
+        "L12",
+        "M12",
+        "N12"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P13-Q13与白O13-P14形成接触战，白J13刚落子，黑K14已回应，此处为当前主战场。",
+      "shapes": [
+        "contact_fight",
+        "ladder_related"
+      ],
+      "local_tags": [
+        "active_battlefield",
+        "recent_moves_cluster"
+      ],
+      "key_points": [
+        "J13",
+        "K14",
+        "P13",
+        "Q13",
+        "O13",
+        "P14"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B11-C11与白A6-B7构成经典低位守角，黑棋实地稳固，白棋外势单薄。",
+      "shapes": [
+        "low_corner_enclosure"
+      ],
+      "local_tags": [
+        "secure_territory",
+        "black_foundation"
+      ],
+      "key_points": [
+        "B11",
+        "C11",
+        "A6",
+        "B7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F12-G12与白E12形成对峙，黑R10-S11与白Q10-T10互不相让，存在打劫隐患。",
+      "shapes": [
+        "side_fight",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "ko_threat_area",
+        "edge_tension"
+      ],
+      "key_points": [
+        "F12",
+        "E12",
+        "R10",
+        "Q10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白C16-D16与黑J16-Q16形成大模样，白O16-R16试图侵消，黑Q16-P16反夹，眼位争夺激烈。",
+      "shapes": [
+        "large_framework",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "eye_space_contest",
+        "framework_vs_invasion"
+      ],
+      "key_points": [
+        "C16",
+        "D16",
+        "J16",
+        "Q16",
+        "O16",
+        "R16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

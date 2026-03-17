@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_019",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 19,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H15"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "G15"
+      },
+      {
+        "color": 1,
+        "point": "C11"
+      },
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "Q17附近对杀"
+    ],
+    "global_summary_cn": "第19手，黑方刚于P17落子，与白棋Q17形成直接对峙；右上角黑白交错密集，F14–H15–G15构成局部战斗核心；黑棋在C11、D13、E14等处构建斜向势力，白棋D4守角、D16–D17–E15–F15构筑厚壁；全局尚未定型，但右上为当前焦点。",
+    "phase_explanation": "中盘初期，双方在右上展开接触战，黑棋试图打入白棋阵势，白棋以厚势反制；无明显大龙生死，但局部存在劫争隐患（如E15/F15/G15三角）；黑方下一着目标R17意在扩张或试探白棋Q17一子联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅黑Q3孤子，无交战，属黑潜在模样的起点。",
+      "shapes": [],
+      "local_tags": [
+        "单官守角",
+        "模样雏形"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "孤立"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，无子，属战略缓冲带；临近右上战场但未卷入。",
+      "shapes": [],
+      "local_tags": [
+        "空白要地",
+        "潜在拆边线"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈交战区：黑P17、Q16、E16、D15、C15、D13、E14；白Q17、D17、D16、E15、F15、G15、H15；形成复杂对杀与眼位争夺。",
+      "shapes": [
+        "ladder_fragment",
+        "net_shape"
+      ],
+      "local_tags": [
+        "对杀前沿",
+        "眼位敏感",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "P17",
+        "Q17",
+        "G15",
+        "H15",
+        "F14"
+      ],
+      "group_status": [
+        "黑P17-Q16-D15-E16呈斜飞结构",
+        "白Q17-D17-D16-E15-F15-G15-H15连成厚势"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹稀疏，黑C11孤立，白C13压镇，构成高低配置；暂无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "高位挂角后续",
+        "低挂应对"
+      ],
+      "key_points": [
+        "C11",
+        "C13"
+      ],
+      "group_status": [
+        "黑C11待连络",
+        "白C13施压"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，无子，但为未来势力辐射中心；黑E14/F14与白E15/F15隔一路对峙，隐含中腹影响力博弈。",
+      "shapes": [],
+      "local_tags": [
+        "势力辐射点",
+        "对峙前沿"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "黑白隔一路相望"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹空虚，仅黑Q3与右上战场遥呼，是黑棋潜在扩张方向；白无子，属战略薄弱区。",
+      "shapes": [],
+      "local_tags": [
+        "扩张通道",
+        "白棋空档"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何棋子，属未开发区域；黑Q3与之距离最远，尚不构成影响。",
+      "shapes": [],
+      "local_tags": [
+        "完全空场",
+        "开局预留"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，唯一相关是白D4守角，孤立稳固，无后续发展。",
+      "shapes": [],
+      "local_tags": [
+        "守角完成",
+        "静止定式"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "安定"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下空旷，无子；与右上战场距离较近，但尚未介入；黑棋若走R17即指向此区域联动。",
+      "shapes": [],
+      "local_tags": [
+        "潜在配合点",
+        "R17延伸方向"
+      ],
+      "key_points": [
+        "R17"
+      ],
+      "group_status": [
+        "待激活"
+      ]
+    }
+  ]
+}

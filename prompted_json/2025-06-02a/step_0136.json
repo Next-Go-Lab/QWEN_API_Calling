@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_135",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 135,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "L10"
+      },
+      {
+        "color": 1,
+        "point": "K11"
+      },
+      {
+        "color": 0,
+        "point": "N11"
+      },
+      {
+        "color": 1,
+        "point": "O13"
+      },
+      {
+        "color": 0,
+        "point": "K10"
+      },
+      {
+        "color": 1,
+        "point": "H11"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "O7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "M9",
+      "P9",
+      "Q9",
+      "O10",
+      "R10",
+      "H11",
+      "K11",
+      "O11",
+      "Q11",
+      "M12",
+      "O13",
+      "P13",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "N11",
+      "O14",
+      "P14",
+      "O15",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋实地优先"
+    ],
+    "strategic_focus": [
+      "O12点刺破眼位",
+      "H11-K11-N11形成劫争雏形",
+      "右下角白棋大龙未净活"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，黑棋在右上与中央持续施压，白棋依托厚势展开反击；右下角白大龙尚有生死未定之虞，O12为双方争夺焦点，意在破坏白棋眼位结构。",
+    "phase_explanation": "第135手，黑方刚落子H11，构成与K11、N11的三角攻击阵型，局部已隐现劫争可能；白方需在O12或M11等处应对，否则右下白棋眼位不足。全局黑稍优，但胜负仍系于数处薄味处理。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋小目守角稳固，白棋C2-D2-E2连片厚势但无明显进攻目标。",
+      "shapes": [
+        "corner enclosure"
+      ],
+      "local_tags": [
+        "黑守角",
+        "白厚势"
+      ],
+      "key_points": [
+        "A3",
+        "B1",
+        "D1"
+      ],
+      "group_status": [
+        "black: alive",
+        "white: thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋Q2-Q3-R4-R5连成厚壁，白棋Q4-Q5-Q6-Q7形成平行阻渡，双方对峙平稳。",
+      "shapes": [
+        "wall",
+        "parallel formation"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白阻渡"
+      ],
+      "key_points": [
+        "Q2",
+        "Q4",
+        "Q6"
+      ],
+      "group_status": [
+        "black: strong",
+        "white: stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R14-Q14-P15-P16-Q16与白棋O14-P14-O15-O16形成复杂接触，黑棋略占主动。",
+      "shapes": [
+        "contact fight",
+        "corner skirmish"
+      ],
+      "local_tags": [
+        "黑侵消",
+        "白苦活"
+      ],
+      "key_points": [
+        "Q14",
+        "O14",
+        "P15"
+      ],
+      "group_status": [
+        "black: pressing",
+        "white: unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑棋A7-D7-E7-G7与白棋B7-C7-S7形成高低配合，黑棋A8-D8-F8延伸，白棋C8-E8呼应，暂无激烈冲突。",
+      "shapes": [
+        "ladder shape",
+        "extension"
+      ],
+      "local_tags": [
+        "黑轻灵",
+        "白联络"
+      ],
+      "key_points": [
+        "A7",
+        "C8",
+        "E8"
+      ],
+      "group_status": [
+        "black: flexible",
+        "white: connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，黑棋M12、O13、P13与白棋N11、O11、N10构成潜在对攻前沿，H11-K11-N11三角为当前焦点。",
+      "shapes": [
+        "triangle",
+        "potential eye space"
+      ],
+      "local_tags": [
+        "对攻起点",
+        "劫材储备"
+      ],
+      "key_points": [
+        "H11",
+        "K11",
+        "N11",
+        "M12"
+      ],
+      "group_status": [
+        "black: attacking",
+        "white: vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O10-O7-R7-R6与白棋O8-P8-Q8-R8形成缠斗，O12为双方必争之点，关系白棋眼位存亡。",
+      "shapes": [
+        "eye shape",
+        "vital point"
+      ],
+      "local_tags": [
+        "O12点刺",
+        "白眼位危机"
+      ],
+      "key_points": [
+        "O10",
+        "O12",
+        "P8",
+        "R8"
+      ],
+      "group_status": [
+        "black: threatening",
+        "white: weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A3-B3-C3-C4-D5与白棋A4-A5-B7形成典型双飞燕定式余味，黑棋实地扎实。",
+      "shapes": [
+        "double-wing",
+        "territorial base"
+      ],
+      "local_tags": [
+        "黑实利",
+        "白外势"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B7"
+      ],
+      "group_status": [
+        "black: alive",
+        "white: influence"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑棋G1-H1-H2-G3-G4-G5-G7与白棋D1-D2-D3-D4-D5-D6-D7形成交错，黑棋根基厚实，白棋难以深入。",
+      "shapes": [
+        "foundation",
+        "interlocking"
+      ],
+      "local_tags": [
+        "黑厚实",
+        "白受制"
+      ],
+      "key_points": [
+        "G1",
+        "D4",
+        "G5"
+      ],
+      "group_status": [
+        "black: solid",
+        "white: passive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋P2-Q2-R4-R5-R6-R7-T6-T7与白棋Q8-R8-T8-R10-R15-R16-Q17-R17形成庞大对杀局面，白大龙尚未活净，是全盘最大不安定因素。",
+      "shapes": [
+        "life-and-death",
+        "large group"
+      ],
+      "local_tags": [
+        "白大龙未活",
+        "黑围剿"
+      ],
+      "key_points": [
+        "P2",
+        "R10",
+        "R15",
+        "Q17"
+      ],
+      "group_status": [
+        "black: surrounding",
+        "white: dead or alive"
+      ]
+    }
+  ]
+}

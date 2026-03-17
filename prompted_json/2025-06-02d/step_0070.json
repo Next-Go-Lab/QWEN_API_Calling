@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_069",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 69,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L9"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "O8"
+      },
+      {
+        "color": 0,
+        "point": "O10"
+      },
+      {
+        "color": 1,
+        "point": "L8"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "L9"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "L9",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "R8",
+      "K9",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "L12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央厚势构建",
+      "右下角争夺",
+      "L12点刺试探"
+    ],
+    "global_summary_cn": "第69手，轮白（Ueno Asami）行棋，黑刚于L9落子。当前局面呈中央密集对攻态势，白棋在右下与中腹形成厚势，黑棋在左上与中腹有数块未安定棋形；L12为关键试探点，意在冲击白中腹薄弱联络。",
+    "phase_explanation": "中盘后期，双方在中腹及右下展开复杂攻防，白棋凭借K9、O10、N7等子形成弹性厚壁，黑棋L8-L9-N9-O8构成向上延伸的孤龙雏形，L12是针对白中腹眼位与联络的精准侵消点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑D4/E4/F4与J5形成小飞守角，白C3/C4/H3/H4构成低位挂角应对，局部平稳。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角",
+        "低位挂"
+      ],
+      "key_points": [
+        "D4",
+        "C4",
+        "J5"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑J17、D16与白L16、P17形成上下呼应，但无直接接触，属战略牵制区域。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "高位布局",
+        "牵制"
+      ],
+      "key_points": [
+        "J17",
+        "D16",
+        "L16"
+      ],
+      "group_status": [
+        "quiet"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R16/R12/R11/Q11/Q10/Q9与黑Q15/R10/R9/S8构成右上大模样雏形，白厚实，黑有打入潜力。",
+      "shapes": [
+        "moyo"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑打入点"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "Q11"
+      ],
+      "group_status": [
+        "thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F3/J3/L3/M3/P3与白H2/H3/C3/D3/E3形成下边激烈接触战，黑棋略显薄味。",
+      "shapes": [
+        "side",
+        "contact"
+      ],
+      "local_tags": [
+        "下边攻防",
+        "黑薄"
+      ],
+      "key_points": [
+        "F3",
+        "H3",
+        "J3"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心战场：黑K4/K7/O7/P7/N8/O8/L9/N9与白H4/H5/H6/N6/O6/Q7/R8/K9/O9/Q9等密集交错，L12为最新焦点。",
+      "shapes": [
+        "complex_group",
+        "fighting"
+      ],
+      "local_tags": [
+        "中央对杀",
+        "L12点刺"
+      ],
+      "key_points": [
+        "L9",
+        "K9",
+        "O8",
+        "L12"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白N2/N3/N7/N10/O10/O12/O13与黑M4/O7/P7/Q6/R6形成右中腹缠斗，白占据主动。",
+      "shapes": [
+        "fighting",
+        "side"
+      ],
+      "local_tags": [
+        "白主导",
+        "联络战"
+      ],
+      "key_points": [
+        "N7",
+        "O10",
+        "O13"
+      ],
+      "group_status": [
+        "dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑E7与白C6/C3/D3/E3形成低段定式余味，黑E7孤立，白可伺机压迫。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "孤子",
+        "压迫点"
+      ],
+      "key_points": [
+        "E7",
+        "C6"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑L10/L8与白K9/O9/N10/O10构成L9周边立体攻防，黑L10为接应要点，白K9为眼形核心。",
+      "shapes": [
+        "eye_shape",
+        "connection"
+      ],
+      "local_tags": [
+        "眼位争夺",
+        "联络关键"
+      ],
+      "key_points": [
+        "L10",
+        "K9",
+        "O10"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P4/Q4/R5/Q7与黑Q6/R6/S8/R9/R10形成右下角大规模接触，白已活出但仍有劫材余味。",
+      "shapes": [
+        "life_death",
+        "contact"
+      ],
+      "local_tags": [
+        "活形",
+        "劫材储备"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "S8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

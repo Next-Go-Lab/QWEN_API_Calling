@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_038",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 38,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "H16"
+      },
+      {
+        "color": 0,
+        "point": "D10"
+      },
+      {
+        "color": 1,
+        "point": "C12"
+      },
+      {
+        "color": 0,
+        "point": "D12"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C12",
+      "R12",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "Q10",
+      "D12",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋厚势主导",
+      "黑棋右下孤棋受攻"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央潜力争夺",
+      "左上黑空未定"
+    ],
+    "global_summary_cn": "第38手，黑方行棋，局面进入中盘关键阶段。白棋在右下（C4/D4/D10/D12）构建厚势并持续施压，黑棋B5、C12、H16等子呈分散态势；中央尚未形成明确大模样，但白棋Q10/P16/P17与黑棋H16/K16/Q16形成对峙；左上黑棋D18/F17/L17与白棋C14/K14/F15构成潜在接触战；目标点D11位于白棋右下厚势辐射区，是黑棋寻求腾挪或分断的关键选点。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开缠斗，无明显定式收束，胜负焦点集中于右下攻防效率与中央势力转化。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋D18/F17/L17成小空雏形，白棋C14/K14/F15呈包围之势，存在浅消与侵消可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑空雏形",
+        "白棋浅消",
+        "未定型"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "C14",
+        "F15"
+      ],
+      "group_status": [
+        "黑棋弱连",
+        "白棋厚实"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋J14/J15/H16/K16/Q16与白棋K14/M15/P14/P16形成复杂对峙，黑棋厚味偏弱，白棋联络更佳。",
+      "shapes": [
+        "side_wall",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "对峙带",
+        "白棋联络强",
+        "黑棋薄味"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "Q16",
+        "K14",
+        "P16"
+      ],
+      "group_status": [
+        "黑棋浮棋",
+        "白棋厚势"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q17/R16/R12/Q13/Q14与白棋Q10/Q5/Q6/R6形成高低配合，白棋占据外势主动，黑棋实地稍丰但欠厚。",
+      "shapes": [
+        "side_influence",
+        "territory_vs_potential"
+      ],
+      "local_tags": [
+        "白棋外势",
+        "黑棋实地",
+        "轻重失衡"
+      ],
+      "key_points": [
+        "Q17",
+        "R16",
+        "Q10",
+        "Q5",
+        "R6"
+      ],
+      "group_status": [
+        "黑棋可弃",
+        "白棋控局"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋M13/C12与白棋L12/D10/C4/D4构成斜向攻防链，黑棋B5为孤子呼应不足，白棋厚势向中央延伸。",
+      "shapes": [
+        "diagonal_chain",
+        "attack_base"
+      ],
+      "local_tags": [
+        "白棋厚势基底",
+        "黑棋孤子",
+        "攻击发起点"
+      ],
+      "key_points": [
+        "B5",
+        "C12",
+        "D10",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "黑棋危险",
+        "白棋稳固"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央尚无成形势力，黑棋J15/K16与白棋M15/K14形成松散对峙，D11为目标点，是黑棋打入或白棋封锁的枢纽。",
+      "shapes": [
+        "junction",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "战略枢纽",
+        "未定重心",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "D11",
+        "J15",
+        "K14",
+        "M15"
+      ],
+      "group_status": [
+        "中立地带",
+        "待定归属"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋R5/R4/Q3/O3与白棋Q5/Q6/R6形成角部对抗余波，白棋已活角，黑棋外势薄弱，存在被搜刮风险。",
+      "shapes": [
+        "live_corner",
+        "weak_outside"
+      ],
+      "local_tags": [
+        "白棋活角",
+        "黑棋外势虚",
+        "搜刮要点"
+      ],
+      "key_points": [
+        "R5",
+        "Q5",
+        "R6",
+        "O3"
+      ],
+      "group_status": [
+        "白棋安定",
+        "黑棋漂浮"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋无子，白棋F3为单官守角，黑棋尚未涉足，属全局最空旷区域，未来可能成为黑棋大模样起点。",
+      "shapes": [
+        "empty_corner"
+      ],
+      "local_tags": [
+        "空角",
+        "黑棋后招",
+        "潜力区"
+      ],
+      "key_points": [
+        "F3"
+      ],
+      "group_status": [
+        "无集团",
+        "待开发"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋无子，白棋F3/C4/D4构成低位厚势，黑棋缺乏有效应手，此区域白棋控制力强。",
+      "shapes": [
+        "low_thickness"
+      ],
+      "local_tags": [
+        "白棋低位厚势",
+        "黑棋无策",
+        "压迫感强"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "白棋主导",
+        "黑棋被动"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋C4/D4/D10/D12构筑坚实厚势，黑棋B5孤立难援，C12受攻，此区域为当前主战场。",
+      "shapes": [
+        "thick_wall",
+        "attack_target"
+      ],
+      "local_tags": [
+        "主战场",
+        "厚势压制",
+        "黑棋苦战"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4",
+        "D10",
+        "D12"
+      ],
+      "group_status": [
+        "白棋优势",
+        "黑棋危急"
+      ]
+    }
+  ]
+}

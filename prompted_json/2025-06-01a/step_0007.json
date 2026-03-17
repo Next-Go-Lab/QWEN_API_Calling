@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_006",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C13"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "C15"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "asymmetric_development"
+    ],
+    "strategic_focus": [
+      "Q16_corner",
+      "D4_corner",
+      "C13_invasion",
+      "E16_response_target"
+    ],
+    "global_summary_cn": "开局第六手，黑棋在右上（Q16）、左下（Q3）和左上（C15）布点，白棋占据右下（D4）、左上（D17）及中腹偏左（C13）；当前焦点为白C13对黑C15的局部压迫，黑方下一着预期于E16展开反击或联络。",
+    "phase_explanation": "处于布局早期，双方尚未形成明确大模样，但已在四个角落落子，C13与C15构成左上角小型接触战，E16是自然的延伸/腾挪点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑C15与白D17、C13构成左上角初步接触，白棋占据高位，黑棋试图深入。",
+      "shapes": [
+        "point_group"
+      ],
+      "local_tags": [
+        "invasion",
+        "high_approach",
+        "tension"
+      ],
+      "key_points": [
+        "C15",
+        "D17",
+        "C13"
+      ],
+      "group_status": [
+        "black_weak_group",
+        "white_sente_position"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属中央势力辐射区，暂无直接争夺。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，结构完整，暂无威胁。",
+      "shapes": [
+        "corner_eye_shape"
+      ],
+      "local_tags": [
+        "secure_corner",
+        "black_foundation"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "C13与C15附近为当前最紧张区域，白子切入黑阵，黑需应对。",
+      "shapes": [
+        "line_segment"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "initiative_contest"
+      ],
+      "key_points": [
+        "C13",
+        "C15",
+        "E16"
+      ],
+      "group_status": [
+        "unclosed_black_group",
+        "white_prying"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未被任何一方影响，属未来中腹作战预备区。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "potential_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，Q3黑子位于右下角上方，尚未与中心联动。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_black_stone"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_lonely"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "空旷，无子，远离当前焦点。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白D4守右下角，结构稳固，黑未在此处施加压力。",
+      "shapes": [
+        "corner_eye_shape"
+      ],
+      "local_tags": [
+        "white_secure_corner"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    }
+  ]
+}

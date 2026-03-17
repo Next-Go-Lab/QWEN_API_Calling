@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_094",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 94,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F7"
+      },
+      {
+        "color": 0,
+        "point": "H6"
+      },
+      {
+        "color": 1,
+        "point": "H7"
+      },
+      {
+        "color": 0,
+        "point": "J7"
+      },
+      {
+        "color": 1,
+        "point": "J8"
+      },
+      {
+        "color": 0,
+        "point": "K8"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "B8",
+      "C8",
+      "D8",
+      "J8",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "G13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "F6",
+      "H6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "J7",
+      "E8",
+      "K8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "G6点位争夺",
+      "K8附近联络与切断",
+      "中央大龙生死"
+    ],
+    "global_summary_cn": "第94手，黑方即将落子，局面处于中盘关键阶段。白棋在右上至中央形成厚势，黑棋多块孤棋需处理；近期六手围绕J7–K8一带激烈接触，G6为双方共同关注的急所，关系到中央黑大龙眼位与白棋封锁效率。",
+    "phase_explanation": "当前为中盘攻防高峰期，黑棋F7–H7–J8–J10等子构成潜在大龙但尚未活净，白棋H6–K8–J11–K11形成压迫性厚壁，全局胜负焦点集中于中央及右上区域的攻防转换。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋O3、Q3、R4、R5构成小堡垒，白棋B4、C4、C5、B6压制，黑C6–D6–D7–E7有向中腹延伸趋势。",
+      "shapes": [
+        "corner_enclosure",
+        "side_extension"
+      ],
+      "local_tags": [
+        "黑角稳固",
+        "白压边"
+      ],
+      "key_points": [
+        "B5",
+        "C6"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_sente"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑C10–F10–G10–J10、白D10–E10–H10–Q10形成对峙，黑J12、Q13与白Q10、Q6呼应，存在边空争夺。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "边空未定",
+        "轻重交错"
+      ],
+      "key_points": [
+        "F10",
+        "H10"
+      ],
+      "group_status": [
+        "black_uncertain",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R12、Q13、Q14、R16与白Q5、Q6、R6、Q10、P16形成复杂接触，黑H16–K16–R16呈斜飞阵势，白P17、P16施加压力。",
+      "shapes": [
+        "diagonal_influence",
+        "edge_pressure"
+      ],
+      "local_tags": [
+        "黑势张开",
+        "白压缩"
+      ],
+      "key_points": [
+        "H16",
+        "P16"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_restraining"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑C12–C13–D13–D14–D18与白B11–B12–B13–C14–C15–D16构成长条形攻防带，黑棋试图连络下边与中央，白棋封锁意图明显。",
+      "shapes": [
+        "vertical_chain",
+        "blockade_line"
+      ],
+      "local_tags": [
+        "黑连络要点",
+        "白封锁线"
+      ],
+      "key_points": [
+        "C13",
+        "D14"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域密集交战：黑E7–F7–G7–H7–J8–J10–G11–H11与白H6–K8–J11–K11–E9–F9–G9–H9形成大混战，G6为双方必争之眼位/扳头点。",
+      "shapes": [
+        "fighting_cluster",
+        "life_and_death_core"
+      ],
+      "local_tags": [
+        "大龙治孤",
+        "眼位争夺",
+        "G6急所"
+      ],
+      "key_points": [
+        "G6",
+        "K8",
+        "J11"
+      ],
+      "group_status": [
+        "black_life_threatened",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J12–J14–J15–K14–K15–M13–M15与白J7–K8–K11–K12–L12–L17–K14–P14构成缠斗，黑棋多子分散，白棋K8–K11–K12呈铁壁。",
+      "shapes": [
+        "scattered_groups",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "黑棋分断尝试",
+        "白铁壁成型"
+      ],
+      "key_points": [
+        "J14",
+        "K12"
+      ],
+      "group_status": [
+        "black_divided",
+        "white_unbreakable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D18、F17、B5、C6与白F3、B4、C4、D4、F6形成低地争夺，黑D18孤棋待援，白F3–F6–E7构成低位厚势。",
+      "shapes": [
+        "low_side_fight",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白低位厚势"
+      ],
+      "key_points": [
+        "D18",
+        "F6"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑E11–F11–G11–G12–G13–G14与白E12–F12–E10–F9–G9–H9形成上下夹击，黑G12–G13–G14呈‘一串’薄味，白H9–G9–F9具攻击性。",
+      "shapes": [
+        "horizontal_chain",
+        "attacking_arc"
+      ],
+      "local_tags": [
+        "黑薄味显露",
+        "白攻击弧"
+      ],
+      "key_points": [
+        "G12",
+        "H9"
+      ],
+      "group_status": [
+        "black_fragile",
+        "white_aggressive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑Q13–Q14–Q17与白Q5–Q6–R6–Q10–P14–P16–P17构成大范围牵制，黑Q17孤高，白P16–P17封头，黑需补强或弃子。",
+      "shapes": [
+        "high_floating",
+        "sealing_move"
+      ],
+      "local_tags": [
+        "黑高位孤棋",
+        "白封头"
+      ],
+      "key_points": [
+        "Q17",
+        "P16"
+      ],
+      "group_status": [
+        "black_overextended",
+        "white_controlling"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_000",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 0,
+    "to_play": 1,
+    "last_move": null,
+    "recent_moves": [],
+    "black_stones": [],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "Q16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "opening",
+      "symmetrical",
+      "empty_board"
+    ],
+    "strategic_focus": [
+      "corner_influence",
+      "center_control_potential"
+    ],
+    "global_summary_cn": "棋局初始状态，十九路空棋盘，黑方先行，全局无子，处于布局前的对称静止阶段。",
+    "phase_explanation": "开局前准备阶段，双方尚未落子，所有区域均为空，战略选择完全开放。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，传统小目/星位开局热点区域。",
+      "shapes": [],
+      "local_tags": [
+        "corner",
+        "potential_star_point",
+        "influence_zone"
+      ],
+      "key_points": [
+        "D4",
+        "Q4",
+        "D16",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中央开阔，未来可能发展为势力延伸或拆边要点。",
+      "shapes": [],
+      "local_tags": [
+        "side",
+        "extension_zone",
+        "potential_framework"
+      ],
+      "key_points": [
+        "K4",
+        "D4",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角对称于左上，空点密集，具备同等开局价值。",
+      "shapes": [],
+      "local_tags": [
+        "corner",
+        "mirror_symmetry",
+        "potential_star_point"
+      ],
+      "key_points": [
+        "D4",
+        "Q4",
+        "D16",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹边缘，连接上下两翼，属早期挂角或守角关联区域。",
+      "shapes": [],
+      "local_tags": [
+        "side",
+        "connection_zone",
+        "potential_kakari_target"
+      ],
+      "key_points": [
+        "D10",
+        "K10",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元及周边八点构成绝对中心，当前完全空旷，是全局影响力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "center",
+        "influence_hub",
+        "symmetry_axis"
+      ],
+      "key_points": [
+        "K10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹边缘，与左侧对称，具类似战略功能。",
+      "shapes": [],
+      "local_tags": [
+        "side",
+        "connection_zone",
+        "potential_kakari_target"
+      ],
+      "key_points": [
+        "Q10",
+        "K10",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空位，与左上角镜像对应，常见小目、三三等开局选点。",
+      "shapes": [],
+      "local_tags": [
+        "corner",
+        "potential_star_point",
+        "influence_zone"
+      ],
+      "key_points": [
+        "D4",
+        "D16",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央，未来可能成为拆二、缔角或厚势构建区域。",
+      "shapes": [],
+      "local_tags": [
+        "side",
+        "extension_zone",
+        "potential_framework"
+      ],
+      "key_points": [
+        "K16",
+        "D16",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角，全局最远端角落，对称性最强，开局常作为第二或第三选点。",
+      "shapes": [],
+      "local_tags": [
+        "corner",
+        "mirror_symmetry",
+        "potential_star_point"
+      ],
+      "key_points": [
+        "D4",
+        "Q4",
+        "D16",
+        "Q16"
+      ],
+      "group_status": []
+    }
+  ]
+}

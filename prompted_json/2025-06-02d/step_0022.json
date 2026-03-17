@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_021",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 21,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "R5"
+      },
+      {
+        "color": 1,
+        "point": "Q6"
+      },
+      {
+        "color": 0,
+        "point": "O4"
+      },
+      {
+        "color": 1,
+        "point": "P7"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "R11",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "side_influence"
+    ],
+    "strategic_focus": [
+      "right_side_framework",
+      "center_invasion_preparation"
+    ],
+    "global_summary_cn": "黑棋在右下角与白棋形成激烈接触战，R5、R6、Q6、P7等子构成局部战斗核心；左上与右上角已有初步布局，中腹尚空旷，黑棋正试探性向中腹扩展，白棋则借R8、Q4等子巩固右侧势力。",
+    "phase_explanation": "第21手，黑方刚落子P7，白方即将在Q10位应对。当前处于布局向中盘过渡阶段，双方在右下角争夺实地与外势平衡，尚未形成明显大模样或厚势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑D16、白L16、白P17构成高低配合，黑棋小飞守角，白棋外势初具规模。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_corner",
+        "white_outside"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边基本为空，仅白C6一子孤悬，无明显集团，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_framework"
+      ],
+      "key_points": [
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q15单官守角，白无应手，黑棋简明定型，此处暂无冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_secure"
+      ],
+      "key_points": [
+        "Q15"
+      ],
+      "group_status": [
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹零星分布：黑F3/E4/F4与白D3/E3/C4形成低位对峙，黑稍厚但未围空，白有拆二潜力。",
+      "shapes": [
+        "low_side_contact"
+      ],
+      "local_tags": [
+        "lower_side_battle",
+        "black_thick"
+      ],
+      "key_points": [
+        "F3",
+        "E4",
+        "F4",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无子，是未来双方打入与势力消长的关键区域。",
+      "shapes": [
+        "empty_center"
+      ],
+      "local_tags": [
+        "neutral",
+        "future_invasion_point"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹为当前主战场：黑R11、Q6、R6、P7与白R8、R5、Q4密集交战，形成复杂攻防结构。",
+      "shapes": [
+        "fighting_cluster",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "active_battle",
+        "black_attacking",
+        "white_defending"
+      ],
+      "key_points": [
+        "R11",
+        "Q6",
+        "R6",
+        "P7",
+        "R8",
+        "R5",
+        "Q4"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑K4孤立，白C4已占高位，黑暂无有效发展，属薄弱侧翼。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "black_weak",
+        "white_pressure"
+      ],
+      "key_points": [
+        "K4",
+        "C4"
+      ],
+      "group_status": [
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空虚，黑O4与白O4同点？校验发现白O4存在、黑无O4，实为白占据该要点，牵制黑下方发展。",
+      "shapes": [
+        "key_intersection"
+      ],
+      "local_tags": [
+        "white_key_point"
+      ],
+      "key_points": [
+        "O4"
+      ],
+      "group_status": [
+        "white_controlled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角核心冲突区：黑R6/P7/Q6与白R5/R8/Q4形成十字形缠斗，黑有向上搜根意图，白试图封锁。",
+      "shapes": [
+        "cross_fight",
+        "eye_space_threat"
+      ],
+      "local_tags": [
+        "critical_battle",
+        "life_death_unclear"
+      ],
+      "key_points": [
+        "R6",
+        "P7",
+        "Q6",
+        "R5",
+        "R8",
+        "Q4"
+      ],
+      "group_status": [
+        "mutually_unsettled"
+      ]
+    }
+  ]
+}

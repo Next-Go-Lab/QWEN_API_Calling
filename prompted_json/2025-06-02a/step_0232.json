@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_231",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 231,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D13"
+      },
+      {
+        "color": 1,
+        "point": "B13"
+      },
+      {
+        "color": 0,
+        "point": "B14"
+      },
+      {
+        "color": 1,
+        "point": "A14"
+      },
+      {
+        "color": 0,
+        "point": "B15"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "K6",
+      "M6",
+      "O6",
+      "R6",
+      "T6",
+      "E7",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "D12",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "B13",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "A14",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17",
+      "J18"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "J8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "C13",
+      "D13",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "B14",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "B15",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17",
+      "H18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_counting",
+      "life_and_death_uncertainty"
+    ],
+    "strategic_focus": [
+      "D7_invasion",
+      "E7_recent_play",
+      "right_side_white_group_vulnerability",
+      "bottom_left_black_eye_shape"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑方领先但右下与中腹存在细微劫争与眼位争夺；白棋在右上与中腹数块未净活，黑棋正通过D7点入施加压力。",
+    "phase_explanation": "第231手，黑方刚于E7落子，白方即将在D7应手；局面已无大规模战斗，焦点转向小官子与局部死活确认，尤其关注右下白棋大龙眼位及中央黑棋厚势对白棋中腹联络的影响。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，白A1-A9形成稳固边空，黑B1-B3与A4构成小堡垒，无明显冲突。",
+      "shapes": [
+        "corner_enclosure",
+        "small_eye_shape"
+      ],
+      "local_tags": [
+        "settled",
+        "white_territory"
+      ],
+      "key_points": [
+        "A1",
+        "A4",
+        "B3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋Q2-T4连片厚势，黑Q3-R4零星侵消未深入；白Q4、Q5、Q6等子构成横向厚壁，压制黑上方发展。",
+      "shapes": [
+        "wall",
+        "influence_projection"
+      ],
+      "local_tags": [
+        "white_influence",
+        "black_thinning"
+      ],
+      "key_points": [
+        "Q2",
+        "Q4",
+        "Q6"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑J16-Q16形成大模样雏形，白H16-K16、O16-R16分断黑阵，双方在K16、Q16附近存在未定型接触战。",
+      "shapes": [
+        "framework",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "unstable",
+        "potential_ko"
+      ],
+      "key_points": [
+        "J16",
+        "K16",
+        "Q16",
+        "R16"
+      ],
+      "group_status": [
+        "uncertain_life"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B11-D12与白C10-E12交错，黑D11-E11与白E12-F11形成对峙；黑B13-A14与白B14-A14构成局部劫材储备区。",
+      "shapes": [
+        "ladder_fragment",
+        "sacrifice_feelers"
+      ],
+      "local_tags": [
+        "tactical_tension",
+        "sente_for_ko"
+      ],
+      "key_points": [
+        "B13",
+        "A14",
+        "B14",
+        "D11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，黑E7为最新一手，威胁白K7-L8一带联络；白K7、Q7与黑L7-O7形成‘十字’对峙，此处为全局战略支点。",
+      "shapes": [
+        "cross_shaped_fight",
+        "vital_point_pressure"
+      ],
+      "local_tags": [
+        "critical_point",
+        "E7_effect"
+      ],
+      "key_points": [
+        "E7",
+        "K7",
+        "L7",
+        "Q7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹白M13-P14成片但气紧，黑O13-Q14压强其头；白N14-O14眼位单薄，黑F15-H15可随时刺入，存在杀棋隐患。",
+      "shapes": [
+        "weak_eye_shape",
+        "pressing_from_above"
+      ],
+      "local_tags": [
+        "vulnerable",
+        "life_and_death"
+      ],
+      "key_points": [
+        "N14",
+        "O14",
+        "F15",
+        "H15"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑A1-C3与白A6-C8形成经典‘双飞燕’衍生结构，黑B5-C5-D5构成完整眼形基础，白A7-B7-C7被封锁，仅剩一线逃生。",
+      "shapes": [
+        "living_eye_shape",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "black_alive",
+        "white_captured_soon"
+      ],
+      "key_points": [
+        "B5",
+        "C5",
+        "A7",
+        "B7"
+      ],
+      "group_status": [
+        "alive",
+        "captured"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑F1-G3与白E2-G2对峙，黑E3-F3-G3呈‘蛇形’厚势，白E5-F5-G5虽连但受黑D5-E6压制，整体偏弱。",
+      "shapes": [
+        "thick_chain",
+        "pressing_under"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_compromised"
+      ],
+      "key_points": [
+        "D5",
+        "E5",
+        "E6",
+        "F3"
+      ],
+      "group_status": [
+        "strong",
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白S2-T2与黑R4-T6构成复杂角部，白T8-S9-R9与黑Q10-S10形成‘倒扑’式纠缠；黑J17-J18与白H17-H18对杀未尽，存有收气劫可能。",
+      "shapes": [
+        "mutual_life",
+        "semeai"
+      ],
+      "local_tags": [
+        "semeai",
+        "timing_critical"
+      ],
+      "key_points": [
+        "J17",
+        "H17",
+        "R4",
+        "T6"
+      ],
+      "group_status": [
+        "mutual_life"
+      ]
+    }
+  ]
+}

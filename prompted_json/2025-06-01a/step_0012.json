@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_011",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 11,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "E16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "D15"
+      },
+      {
+        "color": 0,
+        "point": "E15"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "E14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "center_influence"
+    ],
+    "strategic_focus": [
+      "top_side",
+      "central_control"
+    ],
+    "global_summary_cn": "黑棋在右上角与白棋形成局部缠斗，E14为最新一手，双方在D15-E16一带形成交错接触；黑棋Q3与Q16两子遥相呼应，白棋D4守角稳固，全局尚处布局阶段。",
+    "phase_explanation": "第11手，黑方行棋，局面处于布局中期，双方在右上角展开小规模攻防，中央尚未定型，边角势力轮廓初显。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白D17、D16、E15与黑E16、D15、E14、C15密集交战，形成复杂接触战；F15为潜在急所。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "tension_high"
+      ],
+      "key_points": [
+        "D15",
+        "E14",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，白无应手，属黑优势安定角。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "secure_black_corner"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_group_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，仅黑C13（白）与黑C15（黑）斜向呼应，尚未构成实质结构。",
+      "shapes": [],
+      "local_tags": [
+        "potential_influence"
+      ],
+      "key_points": [
+        "C13",
+        "C15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，无直接落子，但D15-E14等子辐射影响中腹，未来争夺焦点。",
+      "shapes": [
+        "influence_radius"
+      ],
+      "local_tags": [
+        "central_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹空旷，黑Q3孤子远距呼应右上，暂无直接互动。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_stone",
+        "long_range_influence"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_group_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，无子，无明显势力指向。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，仅白D4守角，属白方基础阵地。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "white_secure_corner"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_group_alive"
+      ]
+    }
+  ]
+}

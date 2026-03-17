@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_008",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 8,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "asymmetric_development"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "right_side_influence",
+      "central_projection"
+    ],
+    "global_summary_cn": "开局第8手，黑方执先，双方在右上角形成初步接触战；白棋占据D4、D16两角，黑棋占据R4、Q16、Q17，右上角黑棋三子呈小飞+跳接形态，白棋R16、R17构成连扳试探；黑方下一目标指向R14，意图强化右上势力或分断白棋。",
+    "phase_explanation": "处于布局初期，双方尚未展开中腹争夺，焦点集中于右上角攻防与边路呼应，黑棋略占主动，白棋需处理R16/R17一子的安定性。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子落点。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中央（K19–O19）无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交锋区：黑Q16、Q17，白R16、R17构成对峙；黑方有R4遥相呼应，白D16为远角呼应。",
+      "shapes": [
+        "corner_fight",
+        "two-stone_contact"
+      ],
+      "local_tags": [
+        "black_dominant",
+        "white_weak_eye_shape"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "R16",
+        "R17",
+        "R14"
+      ],
+      "group_status": [
+        "black_group_alive",
+        "white_group_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及边路空旷，仅白D4孤子位于左下角，暂无关联发展。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何着子，尚未成为战略焦点。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右路中段（P10–T10）空旷，但受右上角辐射影响，未来可能成为黑棋扩张通道。",
+      "shapes": [],
+      "local_tags": [
+        "potential_expansion_route"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角仅白D4一子，孤立且远离其他棋子，暂处静默状态。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "white_isolated"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_group_lonely"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央（K3–O3）无子，全局最空旷横向区域之一。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角有黑R4单子，与右上角形成斜线呼应，构成‘大斜’雏形，具潜在联络与压迫价值。",
+      "shapes": [
+        "diagonal_anchor"
+      ],
+      "local_tags": [
+        "black_footing_point",
+        "long_range_influence"
+      ],
+      "key_points": [
+        "R4"
+      ],
+      "group_status": [
+        "black_group_potential_link"
+      ]
+    }
+  ]
+}

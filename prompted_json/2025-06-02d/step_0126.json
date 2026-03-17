@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_125",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 125,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "B13"
+      },
+      {
+        "color": 0,
+        "point": "D14"
+      },
+      {
+        "color": 1,
+        "point": "S14"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "白胜定式",
+      "实地优先"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上孤棋治孤"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，白方凭借右下与中腹厚势确立优势，黑棋左上大龙尚未完全安定，需谨慎处理；白方在125手K6后持续压缩黑棋空间，局面呈现白简明胜势。",
+    "phase_explanation": "第125手为白方K6，属典型官子延伸，配合此前F13、D14等点三三相关手段，系统性收束右下与中腹边界；黑棋虽在左上（B13、L14等）尝试扩张，但白方L12、N12、O12形成坚实封锁，战略主动权稳固。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B13、C11-D11构成小规模侵消，白D12、L12形成弹性封锁；黑C9、D11与白C3-C4存在潜在对杀关系。",
+      "shapes": [
+        "corner_invasion"
+      ],
+      "local_tags": [
+        "侵消",
+        "未净活",
+        "对杀雏形"
+      ],
+      "key_points": [
+        "B13",
+        "D12",
+        "C11"
+      ],
+      "group_status": [
+        "weak_black_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑L14、S14与白K14、O14形成上下对峙，白Q12-R12-R11构成厚壁，黑S13-S14略显单薄。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "边空争夺"
+      ],
+      "key_points": [
+        "L14",
+        "S14",
+        "Q12"
+      ],
+      "group_status": [
+        "stable_white_wall"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R16-Q16-P16与黑Q15-P15构成右上角收官定型，白已围实空，黑仅存微弱渗透可能。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "实空已定",
+        "无劫材"
+      ],
+      "key_points": [
+        "R16",
+        "Q15",
+        "P16"
+      ],
+      "group_status": [
+        "alive_white_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F8-H8-G7与白G8-F7-E6形成中腹缠斗焦点，黑J10-L10与白H10-N10对峙，局部未定型。",
+      "shapes": [
+        "central_fight"
+      ],
+      "local_tags": [
+        "中腹战斗",
+        "气紧",
+        "攻防转换"
+      ],
+      "key_points": [
+        "F8",
+        "G7",
+        "H10"
+      ],
+      "group_status": [
+        "fighting_groups"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑K7-K6-J6与白J6-K6形成直接接触战，K6为最新手，白借劲强化中腹联络，黑K7略显孤立。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "接触战",
+        "先手价值",
+        "联络要点"
+      ],
+      "key_points": [
+        "K6",
+        "J6",
+        "K7"
+      ],
+      "group_status": [
+        "unstable_black_stone"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白O7-P7-Q7与黑O8-P8-R8构成中右部厚薄对比，白厚势辐射中腹，黑R9-R10略显漂浮。",
+      "shapes": [
+        "thickness_radiation"
+      ],
+      "local_tags": [
+        "厚势辐射",
+        "外势利用"
+      ],
+      "key_points": [
+        "O7",
+        "R9",
+        "Q7"
+      ],
+      "group_status": [
+        "strong_white_thickness"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3-J3-L3与白C3-D3-E3-H3形成经典低位对峙，黑F4-E4-D4被白C4压制，实地不足。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "低位苦活",
+        "实地亏损"
+      ],
+      "key_points": [
+        "F3",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "struggling_black_group"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑K4-J5与白H5-H6-F6构成中央下部攻防，黑K6刚落子，白J6为应手，局部呈‘扭十字’雏形。",
+      "shapes": [
+        "twisting_knot"
+      ],
+      "local_tags": [
+        "扭十字雏形",
+        "气合应对"
+      ],
+      "key_points": [
+        "K4",
+        "J5",
+        "J6"
+      ],
+      "group_status": [
+        "tension_high"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白N2-O4-P4与黑P3-Q6-R6形成右下大模样，白N6-O6-P6彻底封锁，黑仅剩O18一着试探，已难撼动。",
+      "shapes": [
+        "sealed_territory"
+      ],
+      "local_tags": [
+        "封口完成",
+        "官子定型"
+      ],
+      "key_points": [
+        "N6",
+        "Q6",
+        "O18"
+      ],
+      "group_status": [
+        "secured_white_territory"
+      ]
+    }
+  ]
+}

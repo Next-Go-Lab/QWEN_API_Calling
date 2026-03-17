@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_016",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 16,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "Q6"
+      },
+      {
+        "color": 1,
+        "point": "O3"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "D16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fighting",
+      "corner_invasion_response"
+    ],
+    "strategic_focus": [
+      "top_right_influence",
+      "bottom_right_eye_space",
+      "center_sabaki_potential"
+    ],
+    "global_summary_cn": "黑棋在右下角形成厚势但尚未安定，白棋在右上角连续压迫并占据P17要点；全局呈现黑取实地、白取外势的早期格局，中腹尚未展开，双方在边角局部存在攻防张力。",
+    "phase_explanation": "第16手，黑方即将落子（to_play: 1），局面处于布局向中盘过渡阶段；最近六手集中在右半棋盘，尤其R4–P17一线形成局部接触战雏形，Q17为当前最富战略价值的空点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅白D4一子，无集团，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "uncontested"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，黑F17、L17与白C14、D16构成松散对峙，但未形成有效联络或攻击目标。",
+      "shapes": [],
+      "local_tags": [
+        "loose_presence",
+        "potential_framework"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "C14",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋占据Q5、Q6、R6、Q10、P17五子，呈阶梯式向上扩张；黑R12、R16试图侵消但尚未构成威胁，白在此处掌握主动权。",
+      "shapes": [
+        "ladder_like_structure"
+      ],
+      "local_tags": [
+        "white_influence",
+        "pressure_zone"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "Q10",
+        "P17",
+        "R12",
+        "R16"
+      ],
+      "group_status": [
+        "white_group_connected",
+        "black_groups_separated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，无任何着子，属完全中立区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无子，是未来大场及势力交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "strategic_void",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑O3、Q3、R4、R5与白Q5、Q6、R6形成右下角复杂接触：黑两子跳（O3/R4）与白小飞守（Q5/Q6）对峙，R5为黑打入要点，Q6为白应手关键。",
+      "shapes": [
+        "contact_fight",
+        "corner_framework"
+      ],
+      "local_tags": [
+        "local_fight",
+        "eye_shape_preliminary"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_groups_partially_connected",
+        "white_group_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，无子，属未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "untouched"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中央空旷，仅黑O3位于底部边缘，孤立无援，暂无延伸。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_stone",
+        "edge_anchor"
+      ],
+      "key_points": [
+        "O3"
+      ],
+      "group_status": [
+        "black_single_stone"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R4、R5、Q3与白Q5、Q6、R6围出典型低位小目定式变形；黑R12、R16为高位呼应，整体呈‘高低配合’态势，但尚未完成眼位或根据。",
+      "shapes": [
+        "low_side_framework",
+        "high_low_coordination"
+      ],
+      "local_tags": [
+        "development_in_progress",
+        "vulnerable_eye_space"
+      ],
+      "key_points": [
+        "R4",
+        "R5",
+        "Q3",
+        "R12",
+        "R16",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_groups_unstable",
+        "white_group_solid"
+      ]
+    }
+  ]
+}

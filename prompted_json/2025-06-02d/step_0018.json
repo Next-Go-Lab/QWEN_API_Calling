@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_017",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 17,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "L16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "R6",
+      "R11",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6",
+      "R8",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fighting",
+      "corner_invasion"
+    ],
+    "strategic_focus": [
+      "right_side_pressure",
+      "center_influence_contest",
+      "lower_right_eye_space_vulnerability"
+    ],
+    "global_summary_cn": "第17手，白方刚落子R11，对黑棋右下角形成连续压迫；黑棋在右上（P17、Q15）与右下（R6、R11）布下两处强子，但R5为关键急所，白方若抢占可破坏黑棋眼位；全局呈现白棋主动施压、黑棋局部治孤态势。",
+    "phase_explanation": "开局中段，双方已完成基本占角，进入边路展开与中腹势力博弈阶段；右下角成形未稳，存在攻防转换焦点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑D16、白L16、白P17构成右上角初步接触，黑Q15为跳入，白有封锁意图。",
+      "shapes": [
+        "corner_contact"
+      ],
+      "local_tags": [
+        "corner_fight_init",
+        "white_pressure"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17",
+        "Q15"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R16单子孤立，白P17与Q15对其形成夹击之势，存在被搜根风险。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "vulnerable_extension",
+        "white_squeeze"
+      ],
+      "key_points": [
+        "R16",
+        "P17",
+        "Q15"
+      ],
+      "group_status": [
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，仅黑K4一子，无明显战斗痕迹。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央尚无着子，但R5为双方潜在争夺点，影响右下眼形与中腹发展。",
+      "shapes": [
+        "vital_point"
+      ],
+      "local_tags": [
+        "key_liberty",
+        "influence_hub"
+      ],
+      "key_points": [
+        "R5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R11刚落，白R8、黑R6、白Q4构成右中腹复杂关系；R6-R8-R11呈斜线对峙，黑需补强眼位。",
+      "shapes": [
+        "diagonal_confrontation"
+      ],
+      "local_tags": [
+        "eye_space_threat",
+        "black_life_uncertain"
+      ],
+      "key_points": [
+        "R6",
+        "R8",
+        "R11",
+        "Q4"
+      ],
+      "group_status": [
+        "black_group_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3/E4/F4与白D3/E3/C4形成经典小目定式后续，已大致定型，黑稍厚。",
+      "shapes": [
+        "corner_settled"
+      ],
+      "local_tags": [
+        "balanced_corner",
+        "black_thickness"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下部空旷，仅黑C6一子，位置偏高，暂无战略意义。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R6、白R8、黑R11形成攻击链条，白C6遥相呼应；黑若不补R5，眼位将受严重威胁。",
+      "shapes": [
+        "attacking_sequence"
+      ],
+      "local_tags": [
+        "life_and_death_critical",
+        "white_attacking",
+        "black_must_respond"
+      ],
+      "key_points": [
+        "R6",
+        "R8",
+        "R11",
+        "C6",
+        "R5"
+      ],
+      "group_status": [
+        "black_group_in_atari_risk"
+      ]
+    }
+  ]
+}

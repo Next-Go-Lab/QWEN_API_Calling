@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_070",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 70,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C6"
+      },
+      {
+        "color": 0,
+        "point": "B6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "B4"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "F12"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "白棋厚势",
+      "黑棋孤棋",
+      "边角争夺"
+    ],
+    "strategic_focus": [
+      "中央势力对抗",
+      "右下白空潜力",
+      "左上黑棋外势"
+    ],
+    "global_summary_cn": "第70手，黑方即将落子，局面处于中盘激烈攻防阶段。白棋在右下与中腹形成厚势，黑棋在左上、中腹及右上拥有外势但存在数块未安定孤棋；F12为白方最新一手，对黑棋D11-E11-F11一串施加压力；目标点G12是切断黑棋联络的关键位置。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方围绕中央与边路展开攻防，黑棋需处理中腹与右下两处薄弱环节，白棋则借厚势谋求扩大实空或攻击获利。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋占据O3、Q3、R4、R5等高位，构成左上外势；白棋B4、C4、C5、B6、B7、C7形成低位封锁，但尚未完全封住黑势发展。",
+      "shapes": [
+        "corner_influence",
+        "black_wall"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白低位封锁"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "B4",
+        "C5"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋H16、K16、Q16、Q17与白棋P16、P17、Q10形成上下呼应；右上角黑棋略显单薄，白棋C15、F15、K15、M15构成中腹厚味延伸。",
+      "shapes": [
+        "side_framework",
+        "scattered_groups"
+      ],
+      "local_tags": [
+        "黑角不完整",
+        "白厚味辐射"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "Q16",
+        "C15",
+        "F15"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋Q5、Q6、R6、Q10、Q13、Q14、Q17占据右上大半区域；黑棋R12、R16、Q13、Q14呈断续分布，缺乏连贯性，局部有被分断风险。",
+      "shapes": [
+        "white_side_control",
+        "black_fragmentation"
+      ],
+      "local_tags": [
+        "白控边",
+        "黑棋分散"
+      ],
+      "key_points": [
+        "Q5",
+        "R6",
+        "Q10",
+        "R12",
+        "Q13"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B5、C6、D6、D7、E7、G7、B8、C8、D8、C10、F10、D11、E11、F11、C12、C13、D13、D14等密集分布；白棋B4、C4、C5、B6、B7、C7、E8、E9、G9、D10、E10、B11、C11、B12、D12、E12、B13、C14等穿插其中，形成复杂缠斗。",
+      "shapes": [
+        "complex_entanglement",
+        "central_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "黑白交错"
+      ],
+      "key_points": [
+        "C6",
+        "D7",
+        "G7",
+        "F10",
+        "D11",
+        "F12"
+      ],
+      "group_status": [
+        "mixed_life_and_death",
+        "unclear_territory"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑棋D11-E11-F11与白棋E12-F12-D12构成核心对峙；G12为关键断点；J14、J15、K16、K15、M13、M15等形成中腹势力网络，白棋略占厚度优势。",
+      "shapes": [
+        "key_cutting_point",
+        "thickness_vs_influence"
+      ],
+      "local_tags": [
+        "G12要害",
+        "白厚黑薄"
+      ],
+      "key_points": [
+        "D11",
+        "E11",
+        "F11",
+        "E12",
+        "F12",
+        "G12",
+        "J14"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋L12、L17、K16、J15、H16与白棋L12、K14、P14、P16、P17形成斜向对峙；右中腹黑棋虽有高度但根基松散，白棋控制要点较多。",
+      "shapes": [
+        "diagonal_pressure",
+        "height_vs_stability"
+      ],
+      "local_tags": [
+        "黑高而虚",
+        "白控要点"
+      ],
+      "key_points": [
+        "L12",
+        "K14",
+        "P14",
+        "J15",
+        "H16"
+      ],
+      "group_status": [
+        "black_unstable",
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋D18、F17、D14、C13、D13、C12、C10等构成左下小规模阵势；白棋C14、D16、C15等渗透其中；整体实地不足，属未定型区域。",
+      "shapes": [
+        "small_framework",
+        "invasion_zone"
+      ],
+      "local_tags": [
+        "黑小模样",
+        "白侵消"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "C14",
+        "D16",
+        "C15"
+      ],
+      "group_status": [
+        "black_incomplete",
+        "white_invading"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋E7、F10、D11、E11、F11、C12、D12、E12、F12集中于此；白棋F3、E8、E9、G9、D10、E10等环绕；F12为白最新手，强化对黑中腹压迫。",
+      "shapes": [
+        "pressure_zone",
+        "attack_target"
+      ],
+      "local_tags": [
+        "F12压迫点",
+        "黑棋受攻"
+      ],
+      "key_points": [
+        "F3",
+        "E7",
+        "G9",
+        "F10",
+        "F12"
+      ],
+      "group_status": [
+        "black_under_pressure",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋F3、Q3、R4、Q5、R5、Q6、R6、Q10、Q13、Q14、Q17、P17等占据大部；黑棋仅R12、R16零星分布；白棋已确立明显实地优势。",
+      "shapes": [
+        "white_territory",
+        "black_sparse"
+      ],
+      "local_tags": [
+        "白实空稳固",
+        "黑无争胜点"
+      ],
+      "key_points": [
+        "F3",
+        "Q3",
+        "R4",
+        "Q5",
+        "R6"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_absent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_007",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 7,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布局",
+      "星位定式",
+      "双飞燕雏形",
+      "边角争夺"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "左下星位呼应",
+      "中央势力雏形"
+    ],
+    "global_summary_cn": "黑棋在右上角连续落子形成双飞燕雏形，白棋在左下与右下各占星位，双方尚未形成明显厚薄对比，全局处于快速布阵阶段。",
+    "phase_explanation": "第7手，黑方刚于Q17落子，构成对R17白子的直接压迫；白方下一步大概率需在R16或P16应对，否则右上角黑势将迅速扩张。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16为白星位，孤立存在；附近无其他子，属单点占角。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "白星位",
+        "独立占角"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16、Q17与白R17构成右上角激烈接触，黑方占据主动，呈压迫态势。",
+      "shapes": [
+        "line_segment"
+      ],
+      "local_tags": [
+        "黑压迫",
+        "白受攻",
+        "接触战"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_weak_eye"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，尚未出现任何着子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空腹",
+        "未介入"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "P4、R4、D4构成右下与左下连线，但D4属左下，此处仅P4、R4两黑子，呈低位小飞趋势。",
+      "shapes": [
+        "line_segment"
+      ],
+      "local_tags": [
+        "黑低位双子",
+        "小飞雏形"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "connected_black"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "D4为白星位，唯一子，属标准守角布局起点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "白星位",
+        "守角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "P4、R4位于此区，黑方在此形成低位双子结构，具备向边与中央发展的潜力。",
+      "shapes": [
+        "pair"
+      ],
+      "local_tags": [
+        "黑双子",
+        "低位展开"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    }
+  ]
+}

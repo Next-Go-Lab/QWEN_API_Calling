@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_066",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 66,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "M5"
+      },
+      {
+        "color": 1,
+        "point": "J4"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "F3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E3",
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "M5",
+      "Q5",
+      "C6",
+      "E6",
+      "P6",
+      "Q6",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "F6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "E6附近接触战"
+    ],
+    "global_summary_cn": "第66手，黑方即将落子，局面处于中盘关键阶段。白棋在右下和上边形成厚势，黑棋在左下、中腹及右上保持实地与潜力均衡。E6是最新一手白棋，引发F6（政策目标）的强烈打入意图。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部持续交锋，尚未进入明显收官。黑棋需处理右下白厚势压迫，同时谋求中央成空或破空；白棋则试图巩固边空并限制黑棋中腹发展。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，C9-C10-C11-D10-D11构成白小堡垒，B15-C15-D15-E16为黑低位阵势。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式完成",
+        "白小堡垒",
+        "黑低位阵"
+      ],
+      "key_points": [
+        "C9",
+        "C10",
+        "C11",
+        "D10",
+        "D11",
+        "B15",
+        "E16"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋Q16-R16-Q17-R17-P18-O18-N18连片厚势，黑Q2-R2-Q3-R4-S7-S8形成外势呼应，但未完全成空。",
+      "shapes": [
+        "side_wall",
+        "influence_outline"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑外势",
+        "未封口"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17",
+        "R17",
+        "P18",
+        "Q2",
+        "R2",
+        "S7",
+        "S8"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑M17-N17-O17-P17与白Q17-R17-P18形成对峙，黑有侵消意图，白保持弹性。",
+      "shapes": [
+        "edge_fight",
+        "invasion_preparation"
+      ],
+      "local_tags": [
+        "对峙前沿",
+        "黑侵消点",
+        "白弹性强"
+      ],
+      "key_points": [
+        "M17",
+        "N17",
+        "O17",
+        "P17",
+        "Q17",
+        "R17",
+        "P18"
+      ],
+      "group_status": [
+        "unclosed",
+        "mutual_pressure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D13-E14-F14与白C13-E15-F15-G15-H15形成南北向拉锯，黑有断点隐患，白厚实但略显凝重。",
+      "shapes": [
+        "central_column",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "拉锯带",
+        "黑断点",
+        "白厚而滞"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "F14",
+        "C13",
+        "E15",
+        "F15",
+        "G15",
+        "H15"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近相对空旷，仅黑J4、白L4、M5、J4附近存微弱接触，是未来主战场；F6为黑方关键打入点。",
+      "shapes": [
+        "open_center",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "空旷中枢",
+        "F6打入点",
+        "潜在眼位"
+      ],
+      "key_points": [
+        "J4",
+        "L4",
+        "M5",
+        "F6"
+      ],
+      "group_status": [
+        "neutral",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N3-O5-P5-R5-R6-Q7与白O4-P6-Q6-R7-R8形成复杂缠斗，E6刚落，F6成为焦点。",
+      "shapes": [
+        "fighting_cluster",
+        "contact_zone"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "E6新形",
+        "F6急所"
+      ],
+      "key_points": [
+        "N3",
+        "O5",
+        "P5",
+        "R5",
+        "R6",
+        "Q7",
+        "O4",
+        "P6",
+        "Q6",
+        "R7",
+        "R8",
+        "E6",
+        "F6"
+      ],
+      "group_status": [
+        "fighting",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑Q2-R2-R4与白P3-R3形成低段对峙，黑F3-F4与白E3-E6构成斜向攻防链，黑稍主动。",
+      "shapes": [
+        "low_side_fight",
+        "diagonal_chain"
+      ],
+      "local_tags": [
+        "低段对峙",
+        "斜向攻防",
+        "黑主动权"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "R4",
+        "P3",
+        "R3",
+        "F3",
+        "F4",
+        "E3",
+        "E6"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_defensive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下区域黑N5-O5-P5与白M5-Q5-P7-Q7形成交错，黑有活形基础，白试图封锁但未净活。",
+      "shapes": [
+        "interlocking_groups",
+        "life_death_unclear"
+      ],
+      "local_tags": [
+        "交错群",
+        "死活未定",
+        "白封锁未果"
+      ],
+      "key_points": [
+        "N5",
+        "O5",
+        "P5",
+        "M5",
+        "Q5",
+        "P7",
+        "Q7"
+      ],
+      "group_status": [
+        "uncertain_life",
+        "mutual_weakness"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白D4-L4-O4-Q4-Q5-P6-Q6与黑F3-F4-J4形成大模样对抗，黑F6打入将直刺白腹心。",
+      "shapes": [
+        "large_framework",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "白大模",
+        "黑打入靶",
+        "D4根基"
+      ],
+      "key_points": [
+        "D4",
+        "L4",
+        "O4",
+        "Q4",
+        "Q5",
+        "P6",
+        "Q6",
+        "F3",
+        "F4",
+        "J4",
+        "F6"
+      ],
+      "group_status": [
+        "white_framework",
+        "black_invading"
+      ]
+    }
+  ]
+}

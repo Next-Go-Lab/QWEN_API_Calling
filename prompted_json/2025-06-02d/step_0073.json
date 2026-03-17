@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_072",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 72,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "G8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L8"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "L9"
+      },
+      {
+        "color": 0,
+        "point": "L12"
+      },
+      {
+        "color": 1,
+        "point": "H9"
+      },
+      {
+        "color": 0,
+        "point": "G8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "K9",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "Q11",
+      "L12",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "E9点位试探",
+      "中央眼位争夺",
+      "L8-G8-K9-L9局部劫争雏形"
+    ],
+    "global_summary_cn": "第72手，黑方即将落子于E9，局面处于中盘关键阶段。白棋在右上至中央形成厚势，黑棋在L8、H9、L9等处构筑攻击阵型，但G8、K9等白子构成坚实防线；中央区域双方子力密集，存在潜在对杀与眼位争夺；右下角黑P17与白L16形成小规模接触战。",
+    "phase_explanation": "当前为中盘中后期，双方在中央及右上展开深度缠斗，局部已出现劫争征兆，全局尚未进入明显收官，胜负关键在于中央势力消长与E9一子引发的连锁反应。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑D4/E4/F4与白C3/C4/D3形成低挂守角结构，黑J17孤高，白L16呼应，暂无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角",
+        "低挂",
+        "孤高一子"
+      ],
+      "key_points": [
+        "D4",
+        "C3",
+        "J17",
+        "L16"
+      ],
+      "group_status": [
+        "black:alive",
+        "white:alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白Q15、R16与黑Q15附近无直接接触，白R10/R11/Q10/Q11形成横向厚壁，黑P11/P12/R12略显薄弱，白势压迫感强。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "厚壁",
+        "压迫",
+        "边空潜力"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "R10",
+        "Q11",
+        "P12"
+      ],
+      "group_status": [
+        "white:strong",
+        "black:weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白O9/Q9/R9/R8与黑N9/R10/R11形成复杂接触，白Q7/R5/O6等子构成外势骨架，黑S8/N8/O8试图侵消但未深入。",
+      "shapes": [
+        "contact",
+        "framework"
+      ],
+      "local_tags": [
+        "外势",
+        "侵消未果",
+        "角部未净"
+      ],
+      "key_points": [
+        "O9",
+        "Q9",
+        "R9",
+        "S8",
+        "N8"
+      ],
+      "group_status": [
+        "white:influential",
+        "black:unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑F3/J3/L3/M3/P3与白H2/H3/C3/C4等形成高低配合，黑E4/E7/K4/K7呈斜线呼应，白H4/H5/H6构成纵向封锁链。",
+      "shapes": [
+        "diagonal",
+        "chain"
+      ],
+      "local_tags": [
+        "斜飞结构",
+        "纵向封锁",
+        "联络试探"
+      ],
+      "key_points": [
+        "E4",
+        "E7",
+        "K4",
+        "K7",
+        "H4",
+        "H5"
+      ],
+      "group_status": [
+        "black:connected",
+        "white:linked"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域高度密集：黑L8/H9/L9/N9与白G8/K9/O9/L12/N12/O12等交错，E9为当前焦点，存在劫材与眼位双重意义；H9-G8-K9-L9构成典型‘四角’对峙结构。",
+      "shapes": [
+        "cross",
+        "knight",
+        "four_point"
+      ],
+      "local_tags": [
+        "四角对峙",
+        "劫争温床",
+        "眼位敏感区"
+      ],
+      "key_points": [
+        "E9",
+        "H9",
+        "G8",
+        "K9",
+        "L9"
+      ],
+      "group_status": [
+        "black:fighting",
+        "white:fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O7/P7/Q6/R6与白O4/P4/Q4/R5/N6等形成上下夹击态势，白N7/Q7与黑O7/P7对峙，黑P11/R11与白O10/Q10形成横向拉锯。",
+      "shapes": [
+        "ladder",
+        "squeeze"
+      ],
+      "local_tags": [
+        "夹击",
+        "对峙",
+        "拉锯"
+      ],
+      "key_points": [
+        "O7",
+        "P7",
+        "Q6",
+        "N7",
+        "Q7"
+      ],
+      "group_status": [
+        "black:pressing",
+        "white:resisting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3/J3/L3/M3/P3与白C3/D3/E3/H2/H3形成大模样雏形，黑E4/E7构成根基，白H4/H5/H6略带侵分意图但未破空。",
+      "shapes": [
+        "moyo"
+      ],
+      "local_tags": [
+        "模样",
+        "根基稳固",
+        "侵分未效"
+      ],
+      "key_points": [
+        "F3",
+        "E4",
+        "E7",
+        "H2",
+        "H4"
+      ],
+      "group_status": [
+        "black:territorial",
+        "white:minor"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑D4/E4/F4与白C3/C4/D3/E3/H3形成低位混战，黑J5/N5与白H5/N6对峙，黑Q6/R6与白P6/Q4构成边空争夺。",
+      "shapes": [
+        "low_side",
+        "border_fight"
+      ],
+      "local_tags": [
+        "低位混战",
+        "边空争夺",
+        "对峙平衡"
+      ],
+      "key_points": [
+        "D4",
+        "J5",
+        "N5",
+        "Q6",
+        "P6"
+      ],
+      "group_status": [
+        "black:balanced",
+        "white:balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P17与白L16、P17附近无其他子，属孤立接触点；黑R16与白Q15、R16形成角部余味，整体平静但存后续手段。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "孤立接触",
+        "角部余味",
+        "平静"
+      ],
+      "key_points": [
+        "P17",
+        "L16",
+        "R16",
+        "Q15"
+      ],
+      "group_status": [
+        "black:quiet",
+        "white:quiet"
+      ]
+    }
+  ]
+}

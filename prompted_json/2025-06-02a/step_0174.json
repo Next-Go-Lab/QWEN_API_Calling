@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_173",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 173,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E13"
+      },
+      {
+        "color": 1,
+        "point": "F12"
+      },
+      {
+        "color": 0,
+        "point": "B8"
+      },
+      {
+        "color": 1,
+        "point": "A7"
+      },
+      {
+        "color": 0,
+        "point": "A8"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      }
+    ],
+    "black_stones": [
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "D7",
+      "E7",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "D8",
+      "F8",
+      "H9",
+      "M9",
+      "P9",
+      "Q9",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "C14",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "M13",
+      "N14",
+      "O14",
+      "P14",
+      "O15",
+      "C16",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "A7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_right_eye_space",
+      "center_influence_vs_territory",
+      "top_side_weak_white_group"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先但需谨慎处理右下角白棋残子与中腹厚势的互动；左上白棋大龙已活但眼位不丰，右下黑棋围空潜力大但存在打劫隐患。",
+    "phase_explanation": "第173手为白方（Hirose Yuichi）在F3落子，属官子阶段关键一扳，意图压缩黑棋右下角实空并试探黑棋眼形缺陷；当前局面黑棋实地稍优，但多处薄味待补。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋A1-A9形成厚势但眼位单薄，黑棋B8/A7/A8构成侵消要点，局部存在攻防转换可能。",
+      "shapes": [
+        "corner_enclosure",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "weak_eye_shape",
+        "invasion_target"
+      ],
+      "key_points": [
+        "A7",
+        "A8",
+        "B8"
+      ],
+      "group_status": [
+        "alive_with_difficulty"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "双方在D9-E9-F9一带形成接触战余波，白棋E9/D9与黑棋F8/H9对峙，中腹影响力延伸至此。",
+      "shapes": [
+        "side_framework",
+        "light_contact"
+      ],
+      "local_tags": [
+        "influence_extension",
+        "light_group"
+      ],
+      "key_points": [
+        "D9",
+        "E9",
+        "F8",
+        "H9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S9/T10与黑棋Q16/R16/P16构成右上角大模样，白棋R17/Q17/F17为外势支点，黑棋尚未深入。",
+      "shapes": [
+        "large_framework",
+        "outer_strength"
+      ],
+      "local_tags": [
+        "framework",
+        "potential_invasion"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P16",
+        "R17"
+      ],
+      "group_status": [
+        "strong_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D7/E7/G7与白棋B7/C7/K7形成中腹缠斗，黑棋L7/O7为联络要点，白棋K7略显孤立。",
+      "shapes": [
+        "central_fight",
+        "connection_point"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "vital_point"
+      ],
+      "key_points": [
+        "D7",
+        "E7",
+        "K7",
+        "L7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，黑棋M9/N11/O12与白棋N10/O10/P10形成对称张力，此处为全局厚薄转换枢纽。",
+      "shapes": [
+        "neutral_zone",
+        "balance_point"
+      ],
+      "local_tags": [
+        "thickness_balance",
+        "potential_eye_space"
+      ],
+      "key_points": [
+        "M9",
+        "N11",
+        "O10",
+        "P10"
+      ],
+      "group_status": [
+        "quiet"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋O13-P13-Q13与白棋O12-P12-O14-P14形成典型‘葫芦’形对杀雏形，Q12为黑棋先手要点。",
+      "shapes": [
+        "ladder_like",
+        "mutual_life_risk"
+      ],
+      "local_tags": [
+        "sente_point",
+        "life_and_death"
+      ],
+      "key_points": [
+        "O13",
+        "P13",
+        "Q13",
+        "Q12"
+      ],
+      "group_status": [
+        "critical_life_death"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋A3-C4与白棋A1-D2构成经典低位角地，黑棋A3/B3/C3已成活，白棋C2/D2为残子但有借用。",
+      "shapes": [
+        "secured_corner",
+        "residual_sente"
+      ],
+      "local_tags": [
+        "secure_territory",
+        "sente_residue"
+      ],
+      "key_points": [
+        "A3",
+        "B3",
+        "C3",
+        "C2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F1-G1-H1-R1-S2-T2与白棋F2-G2构成下边大空雏形，黑棋F3-G3-F4-G4为眼形核心，白棋E2-D1施压。",
+      "shapes": [
+        "side_territory",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "territory_core",
+        "eye_shape"
+      ],
+      "key_points": [
+        "F3",
+        "G3",
+        "F4",
+        "G4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋P15-Q16与白棋O17-R17形成激烈收官争夺，F3最新一手意在强化此区域眼位并限制白棋做活空间。",
+      "shapes": [
+        "endgame_battle",
+        "eye_space_pressure"
+      ],
+      "local_tags": [
+        "endgame_priority",
+        "eye_space_threat"
+      ],
+      "key_points": [
+        "F3",
+        "P15",
+        "Q16",
+        "O17"
+      ],
+      "group_status": [
+        "endgame_critical"
+      ]
+    }
+  ]
+}

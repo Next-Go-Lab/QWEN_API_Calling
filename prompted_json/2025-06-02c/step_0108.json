@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_107",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 107,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "A14"
+      },
+      {
+        "color": 1,
+        "point": "G4"
+      },
+      {
+        "color": 0,
+        "point": "H3"
+      },
+      {
+        "color": 1,
+        "point": "E3"
+      },
+      {
+        "color": 0,
+        "point": "E4"
+      },
+      {
+        "color": 1,
+        "point": "G3"
+      }
+    ],
+    "black_stones": [
+      "E3",
+      "G3",
+      "O3",
+      "Q3",
+      "G4",
+      "R4",
+      "B5",
+      "G5",
+      "R5",
+      "C6",
+      "D6",
+      "G6",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "B8",
+      "C8",
+      "D8",
+      "J8",
+      "B10",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "G13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "C17",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "H3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "H4",
+      "C5",
+      "H5",
+      "Q5",
+      "B6",
+      "F6",
+      "H6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "J7",
+      "E8",
+      "K8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "J9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "A14",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "边角争夺",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右下角实地定型",
+      "左上角薄味处理",
+      "中腹潜力未定"
+    ],
+    "global_summary_cn": "全局进入官子阶段，白棋凭借厚势与实地领先保持胜势；黑棋在右下试图搅乱，但白棋应对稳健；左上黑棋数子略显单薄，存在被搜刮风险；中腹双方均无明显大模样，焦点集中于边线细微目数争夺。",
+    "phase_explanation": "第107手为黑方（Kojima Takaho）落子G3，属右下角局部收束动作；此前六手形成紧凑对攻，白棋通过H3、E4、F3等子构筑坚实外势并压缩黑空；当前局面白棋胜率高，黑棋需在左上或中腹寻求最后机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C17、B17、C15等子构成小堡垒，但外围白C14、B13、B12形成压迫，黑棋B10-C12一带略显单薄，存在被点入或搜根可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "薄味",
+        "潜在攻击目标",
+        "低位守角"
+      ],
+      "key_points": [
+        "A14",
+        "B13",
+        "C15"
+      ],
+      "group_status": [
+        "黑棋不活",
+        "白棋可侵分"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段以白Q10、Q6、Q5及黑Q13、Q14、P14为主，白棋Q10-Q6一线厚实，黑棋Q13-Q14略显孤立；P16、P17白子呼应，控制高位。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑孤棋",
+        "高位控制"
+      ],
+      "key_points": [
+        "Q10",
+        "Q13",
+        "P16"
+      ],
+      "group_status": [
+        "白棋安定",
+        "黑棋未连通"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型：白R6、R5、Q5与黑R4、R12、Q13形成典型星位拆二对抗，白棋R16、Q17占据高位，黑K16、J15稍显局促，实地不足。",
+      "shapes": [
+        "corner",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "白棋优势",
+        "黑棋局促",
+        "高位压制"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "K16"
+      ],
+      "group_status": [
+        "白棋活形",
+        "黑棋眼位紧张"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑C10、D11、C13与白B11、C11、D12形成交错接触，黑棋C8-D8-E7一线有断点隐患，白B12、C12施加压力。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "对攻前沿",
+        "断点风险",
+        "轻重判断"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "C13"
+      ],
+      "group_status": [
+        "双方未净活",
+        "需补强"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，黑E9-G9-H9与白F9-G9-H9形成微妙平衡，黑F10、G10与白E10、F10紧邻，此处为潜在劫材源与味道要点，尚未定型。",
+      "shapes": [
+        "neutral_zone"
+      ],
+      "local_tags": [
+        "未定型",
+        "劫材储备",
+        "味道要点"
+      ],
+      "key_points": [
+        "F9",
+        "G10",
+        "E10"
+      ],
+      "group_status": [
+        "双方无眼",
+        "可争先手"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J12、J14、J15与白J11、J9、K11、K14形成纵向缠斗，黑棋J15-K16略显飘浮，白K15、M15封锁有力，黑L17为孤子接应。",
+      "shapes": [
+        "vertical_fight"
+      ],
+      "local_tags": [
+        "封锁战",
+        "孤子求生",
+        "联络困难"
+      ],
+      "key_points": [
+        "J14",
+        "K15",
+        "L17"
+      ],
+      "group_status": [
+        "黑棋不活",
+        "白棋主导"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5、B8、C8、D6与白B4、C4、B6、B7构成经典低中国流对抗，白棋B4-B7厚势完整，黑棋B5-C6-D6虽成形但气紧，存在被扳头或点三三余味。",
+      "shapes": [
+        "corner",
+        "low_chinese"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑棋凝重",
+        "点三三余味"
+      ],
+      "key_points": [
+        "B4",
+        "C6",
+        "D6"
+      ],
+      "group_status": [
+        "白棋安定",
+        "黑棋需补"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E3-G3-G4与白F3-H3-E4-F4形成激烈短兵相接，黑G3最新一子意在扩张，但白H3、E4已筑起防线；此区域是当前最敏感交火带。",
+      "shapes": [
+        "contact_fight",
+        "edge_fight"
+      ],
+      "local_tags": [
+        "最新战场",
+        "气紧对杀",
+        "胜负手区域"
+      ],
+      "key_points": [
+        "G3",
+        "H3",
+        "E4"
+      ],
+      "group_status": [
+        "双方未活",
+        "需立即应对"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O3、Q3、R4与白Q5、R6、Q6构成典型小目挂角定式后续，黑棋O3-Q3-R4呈跳守，白棋Q5-R6反夹，黑G3最新打入意图破空，白F2为目标点，预示下一步将尖顶或点入。",
+      "shapes": [
+        "corner",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑棋打入",
+        "白棋待反击",
+        "F2要点"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "F2"
+      ],
+      "group_status": [
+        "黑棋未定型",
+        "白棋可攻"
+      ]
+    }
+  ]
+}

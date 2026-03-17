@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_008",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 8,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "C15"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "E16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "asymmetric_development"
+    ],
+    "strategic_focus": [
+      "top_left_corner",
+      "right_side_influence",
+      "center_projection"
+    ],
+    "global_summary_cn": "开局第8手，黑方占据右下角Q3与左上C15、E16，白方在左上形成D17-D16-C13三子结构，双方在左上角展开初步接触战；黑刚落子Q16强化右上，白最新一手D16意在巩固左上阵势，全局呈现黑取外势、白重实地的早期格局。",
+    "phase_explanation": "处于布局初期（前10手），双方尚未完成大场占角与守角，关键冲突集中在左上角（C13/D16/D17/C15/E16），D15为当前最紧迫的拆二或夹击要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角激烈接触：白D17、D16、C13呈小飞守角雏形，黑C15尖顶、E16跳起构成夹击态势，D15为空点要害。",
+      "shapes": [
+        "corner_triangle"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "vulnerable_eye_space",
+        "key_intersection_D15"
+      ],
+      "key_points": [
+        "C15",
+        "D16",
+        "D17",
+        "C13",
+        "E16",
+        "D15"
+      ],
+      "group_status": [
+        "white_group_partially_surrounded",
+        "black_group_extending"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，但为左上战斗向中央发展的必经通道，未来黑可能Q16→P15→O14方向展开。",
+      "shapes": [],
+      "local_tags": [
+        "potential_influence_path",
+        "quiet_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，构成右上角基础，目前孤立但具发展潜力；白无子，属黑势力辐射区。",
+      "shapes": [
+        "single_stone_anchor"
+      ],
+      "local_tags": [
+        "black_foothold",
+        "uncontested"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_isolated_stone"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，连接左上战场与中腹的过渡带，暂无直接交锋，但D15的影响力向下延伸至此。",
+      "shapes": [],
+      "local_tags": [
+        "transition_zone",
+        "latent_pressure"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未被任何一方影响，典型中腹未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "undeveloped"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，但受右上Q16与右下Q3双黑子遥相呼应，隐含横向势力投射可能。",
+      "shapes": [],
+      "local_tags": [
+        "black_influence_radius",
+        "potential_framework"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白D4单子守角，孤立且远离主战场，属早期常规占角，暂无互动。",
+      "shapes": [
+        "single_stone_corner"
+      ],
+      "local_tags": [
+        "white_standard_opening",
+        "quiet"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_isolated_stone"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，距离所有现存棋子均较远，属全局最安静区域。",
+      "shapes": [],
+      "local_tags": [
+        "silent_zone",
+        "future_tengen_area"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3守右下角，形态稳固，与Q16形成对角呼应，构成黑方基本骨架。",
+      "shapes": [
+        "corner_anchor"
+      ],
+      "local_tags": [
+        "black_foundation",
+        "symmetric_counterpart_to_Q16"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_secure_corner"
+      ]
+    }
+  ]
+}

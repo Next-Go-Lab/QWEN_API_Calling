@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_129",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 129,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "M18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N18"
+      },
+      {
+        "color": 0,
+        "point": "L18"
+      },
+      {
+        "color": 1,
+        "point": "M18"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "M18",
+      "N18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "L18",
+      "O18"
+    ]
+  },
+  "targets": {
+    "policy_target": "S15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "边空争夺",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右上角对杀收束",
+      "中腹厚势转化",
+      "左下实地确认"
+    ],
+    "global_summary_cn": "全局进入官子阶段，白棋在右上角连续压制黑棋三子（L18、M18、N18），形成实质性获利；中腹黑棋K11–P16一带厚势尚未完全转化为实地，白棋Q15为潜在扳头点；左下黑棋F3–P3与白棋C3–H3形成复杂边界，需精细计算目数。",
+    "phase_explanation": "第129手为黑方行棋（to_play: 0 表示黑方），但白棋刚于M18完成右上角最后一击，实际主导权在白方。局面已无大规模攻防，转入以单官、劫材、目数出入为核心的终局计算。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "定型",
+        "平稳"
+      ],
+      "key_points": [
+        "C7",
+        "C9",
+        "D11"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部黑棋H9–R12呈厚势但未围实空，白棋G10–Q12构成弹性防守阵型。",
+      "shapes": [
+        "influence",
+        "framework"
+      ],
+      "local_tags": [
+        "外势",
+        "未封口"
+      ],
+      "key_points": [
+        "J10",
+        "L12",
+        "Q11"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑棋L18、M18、N18被白棋O18、N18（白）、L18（白）压缩至仅存一线眼位，濒临净死。",
+      "shapes": [
+        "fighting",
+        "life_death"
+      ],
+      "local_tags": [
+        "对杀",
+        "紧气",
+        "败势"
+      ],
+      "key_points": [
+        "L18",
+        "M18",
+        "N18",
+        "O18"
+      ],
+      "group_status": [
+        "dying"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋C11–H11与白棋E10–G11形成接触战余波，局部存在劫争隐患。",
+      "shapes": [
+        "contact_fight",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "劫材相关",
+        "薄味"
+      ],
+      "key_points": [
+        "E11",
+        "G11",
+        "H11"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋K11–P16呈大块厚势，但缺乏明确眼形；白棋Q15为典型‘扳头’试探点，意在限制发展。",
+      "shapes": [
+        "thickness",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "厚势",
+        "待压缩"
+      ],
+      "key_points": [
+        "K11",
+        "M16",
+        "Q15"
+      ],
+      "group_status": [
+        "strong_unstable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O13–S14与白棋N12–R14形成交错包围，实地归属未明，存在细微官子争夺。",
+      "shapes": [
+        "border",
+        "endgame"
+      ],
+      "local_tags": [
+        "细棋",
+        "先手价值"
+      ],
+      "key_points": [
+        "O13",
+        "R13",
+        "P14"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋F3–P3与白棋C3–H3形成经典‘低中国流’边界，双方均活，但白棋C4、D6等子效率更高。",
+      "shapes": [
+        "territory",
+        "boundary"
+      ],
+      "local_tags": [
+        "实地",
+        "效率对比"
+      ],
+      "key_points": [
+        "F3",
+        "C4",
+        "D6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋J5–N5与白棋H5–N6形成平衡对峙，无明显弱点，属平稳收官区。",
+      "shapes": [
+        "balance",
+        "endgame"
+      ],
+      "local_tags": [
+        "均势",
+        "单官"
+      ],
+      "key_points": [
+        "J5",
+        "K6",
+        "N6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q6–S8与白棋R5–R8构成紧凑接触，黑棋S8为关键接应点，白棋R8具先手潜力。",
+      "shapes": [
+        "contact",
+        "endgame"
+      ],
+      "local_tags": [
+        "接应",
+        "先手点"
+      ],
+      "key_points": [
+        "Q6",
+        "S8",
+        "R8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

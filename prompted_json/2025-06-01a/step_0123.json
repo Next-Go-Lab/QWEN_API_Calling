@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_122",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 122,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J16"
+      },
+      {
+        "color": 0,
+        "point": "H17"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "P11"
+      },
+      {
+        "color": 1,
+        "point": "E17"
+      },
+      {
+        "color": 0,
+        "point": "E18"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "J16",
+      "Q16",
+      "R16",
+      "S16",
+      "E17",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "P11",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "E18",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋右下厚势",
+      "黑棋中央潜力",
+      "边角争夺激烈"
+    ],
+    "strategic_focus": [
+      "右下角实地定型",
+      "中央黑棋大龙联络",
+      "左上白空未净"
+    ],
+    "global_summary_cn": "对局进行至第122手，黑方Son Makoto执黑，当前轮到黑方行棋。局面处于中盘向官子过渡阶段，右下角白棋厚实但存在断点，黑棋在中央及右上形成潜力，左上白空尚有侵消余地；最后几手围绕E17–E18一线展开攻防，黑方正寻求扩大中央影响力。",
+    "phase_explanation": "双方已基本完成布局与中腹接触战，进入局部定型与官子争夺阶段；黑方稍优（最终B+0.5），当前需谨慎处理右下白厚势的渗透与自身中央薄味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋占据A4–C4、B3、C10等要点，围出较大模样，但黑有C11–D11、B15–D15等侵消手段，空未凝固。",
+      "shapes": [
+        "territory",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "白模様",
+        "黑侵消点",
+        "未净空"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "B15",
+        "C15"
+      ],
+      "group_status": [
+        "white_floating",
+        "black_invasion_ready"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段以Q16、R16、S16黑阵为主，白有B16、D16、Q17、R17等夹击，黑Q16–S16与白D17–H17形成对峙，中央势力交错。",
+      "shapes": [
+        "side_wall",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑边墙",
+        "白压强",
+        "对峙带"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "S16",
+        "D17",
+        "H17"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋P2–R2、Q3–R4成势，白R3、Q4、R9等点构成封锁，但黑E17–E18连续打入，白E18为最新防守，局部尚未安定。",
+      "shapes": [
+        "corner_invasion",
+        "defensive_line"
+      ],
+      "local_tags": [
+        "黑打入成功",
+        "白防线吃紧",
+        "E线激战"
+      ],
+      "key_points": [
+        "E17",
+        "E18",
+        "R3",
+        "Q4"
+      ],
+      "group_status": [
+        "black_invading",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D10、C13、D13与白C9、C10、C13形成纠缠，黑F14–G15与白E15–H15对顶，此处为中央联络关键通道。",
+      "shapes": [
+        "central_corridor",
+        "connection_race"
+      ],
+      "local_tags": [
+        "联络要道",
+        "黑白对顶",
+        "薄味交汇"
+      ],
+      "key_points": [
+        "D10",
+        "C13",
+        "F14",
+        "E15"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_pressure"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近无密集落子，但黑J16、M17、N17与白K17、L6、J6等构成斜向势力网，中央黑棋潜力大但尚未实地化。",
+      "shapes": [
+        "influence_zone",
+        "potential_territory"
+      ],
+      "local_tags": [
+        "黑势力圈",
+        "未实利",
+        "影响辐射"
+      ],
+      "key_points": [
+        "J16",
+        "M17",
+        "N17",
+        "K17"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_sparse"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P11被白占据，黑R11立即反夹，形成P11–R11对杀雏形；该处是当前最紧迫战斗焦点，关系右下全局安危。",
+      "shapes": [
+        "fighting_point",
+        "sacrifice_candidate"
+      ],
+      "local_tags": [
+        "对杀起点",
+        "R11反击",
+        "P11孤子"
+      ],
+      "key_points": [
+        "R11",
+        "P11",
+        "O11",
+        "Q11"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C2–F2、C3–F3、C5–F5连片，白B3、B4、B5、C4等嵌入其中，黑有D1–E1–D2–E2等活形基础，实地稳固。",
+      "shapes": [
+        "live_group",
+        "solid_territory"
+      ],
+      "local_tags": [
+        "黑活棋",
+        "白被压缩",
+        "根基扎实"
+      ],
+      "key_points": [
+        "D1",
+        "E1",
+        "D2",
+        "E2"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_squeezed"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑K2–O3、J4–N5成厚势，白K4–O4、K5–M5等呈扁平状应对，黑F4–G5–F6与白E6–G6对峙，局部厚薄分明。",
+      "shapes": [
+        "thick_wall",
+        "flat_response"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白薄形",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "F4",
+        "G5",
+        "F6",
+        "E6"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白D16、D17、E18、N18–P18围出大空，黑仅R11、P2–R4零星侵入；但黑E17–E18持续施压，白空存在断点与味道问题。",
+      "shapes": [
+        "large_territory",
+        "pressure_target"
+      ],
+      "local_tags": [
+        "白大空",
+        "黑压迫",
+        "味道不佳"
+      ],
+      "key_points": [
+        "E17",
+        "E18",
+        "D17",
+        "N18"
+      ],
+      "group_status": [
+        "white_large",
+        "black_pressuring"
+      ]
+    }
+  ]
+}

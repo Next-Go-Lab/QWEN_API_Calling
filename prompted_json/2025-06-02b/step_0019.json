@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_018",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 18,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "R15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "N3"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "边角争夺激烈",
+      "白棋右下厚势",
+      "黑棋右上实空雏形"
+    ],
+    "strategic_focus": [
+      "右上攻防",
+      "右下厚势转化",
+      "中央潜力争夺"
+    ],
+    "global_summary_cn": "第18手，黑方行棋，局面处于中盘初段。黑棋在右上（Q15-Q17、R12-S12）构建小规模实空与外势结合的结构；白棋在右下（R15-R17、S13-S14、N3）形成厚味并威胁黑棋右上弱棋；左上D4与D16两点呼应，但尚未联动；中央尚空旷，双方近期落子密集于右半盘。",
+    "phase_explanation": "双方刚结束布局，进入中盘战斗初期。黑棋上一手R12意图扩张右上，白棋N3打入试探黑棋薄弱处，黑方下一步R18为典型补强兼张势选择。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角D4与D16两点孤立，无直接联络，属未定型缓手区域。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "缓手区"
+      ],
+      "key_points": [
+        "D4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边基本为空，仅J16一子白棋，属战略预备区，暂无攻防焦点。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "预备位"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q15-Q17、R12-S12构成斜向阵势，白棋R16-R17、S13-S14反向压迫，Q16为双方共活要点。",
+      "shapes": [
+        "line",
+        "diagonal"
+      ],
+      "local_tags": [
+        "对攻前沿",
+        "共活要点",
+        "斜阵"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "R12",
+        "S12",
+        "R16",
+        "R17",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "black:alive_with_liberties",
+        "white:strong_wall"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧完全空旷，无子，属未来势力辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "辐射预备"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近全空，双方均未涉足，是后续中央作战核心预备域。",
+      "shapes": [],
+      "local_tags": [
+        "真空",
+        "中央枢纽"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "N3白子孤入黑阵，R12-S12黑棋呈镇头之势，此区域为当前主战场。",
+      "shapes": [
+        "invasion",
+        "pressing"
+      ],
+      "local_tags": [
+        "侵消点",
+        "镇头压制",
+        "主战场"
+      ],
+      "key_points": [
+        "N3",
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "white:invasion_group",
+        "black:pressing_group"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全域无子，完全空白，属远期战略后方。",
+      "shapes": [],
+      "local_tags": [
+        "空白",
+        "远期后方"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹P4、R4两子黑棋，孤立且间距过大，暂未成形。",
+      "shapes": [],
+      "local_tags": [
+        "散子",
+        "未成形"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角N3为白棋打入点，周边无接应，但R15等子构成外围呼应，厚势初具。",
+      "shapes": [
+        "invasion_base",
+        "wall_foundation"
+      ],
+      "local_tags": [
+        "打入基点",
+        "厚势雏形"
+      ],
+      "key_points": [
+        "N3",
+        "R15"
+      ],
+      "group_status": [
+        "white:potential_wall"
+      ]
+    }
+  ]
+}

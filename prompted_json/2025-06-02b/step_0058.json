@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_057",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 57,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C5"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      },
+      {
+        "color": 0,
+        "point": "C8"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上黑厚势与白孤棋对峙"
+    ],
+    "global_summary_cn": "第57手，黑方刚于C3落子，形成左下角复杂接触战；白棋在右上Q15–S19构筑厚势但外围松散，黑棋Q16–R18呼应成势；中腹E9为关键未占要点，双方在C5–C8、B5–C3一线持续短兵相接。",
+    "phase_explanation": "中盘中后期，局部战斗密集，全局尚未定型，胜负焦点集中于中腹潜力与右下实地转换。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋Q16–R18连片厚势，白棋J16、D16孤立，黑有向中腹扩张意图。",
+      "shapes": [
+        "territory",
+        "influence"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白孤棋",
+        "高位压迫"
+      ],
+      "key_points": [
+        "Q16",
+        "R18",
+        "J16",
+        "D16"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上空旷，白S13–S14–R15–R16–R17–S18–S19构成斜向厚壁，但气紧且无根据地，黑Q15为打入要点。",
+      "shapes": [
+        "wall",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑试探",
+        "气紧"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "S14",
+        "R17"
+      ],
+      "group_status": [
+        "white_thick_but_vulnerable",
+        "black_preparing_invasion"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本安定，白S19–R18–Q17–Q16–R14–S13围出大模样，黑仅R12–S12–R13小块依附，暂处守势。",
+      "shapes": [
+        "moyo",
+        "small_group"
+      ],
+      "local_tags": [
+        "白大模样",
+        "黑小活棋",
+        "轻重对比"
+      ],
+      "key_points": [
+        "S19",
+        "Q16",
+        "R12",
+        "S12"
+      ],
+      "group_status": [
+        "white_moyo",
+        "black_alive_small"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹C6–D7–C7–C8–B6–B5–C5一线黑白交错，黑C3新子深入白阵，白C5–C7–C8呈断点链，局部存劫争可能。",
+      "shapes": [
+        "contact_fight",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "白断点链",
+        "黑侵消"
+      ],
+      "key_points": [
+        "C3",
+        "C5",
+        "C7",
+        "C8",
+        "B6"
+      ],
+      "group_status": [
+        "unclear",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，E9为双方均未占据的关键战略点，控制此点可辐射上下两翼，影响中腹厚薄与攻防主动权。",
+      "shapes": [
+        "vital_point",
+        "influence_center"
+      ],
+      "local_tags": [
+        "战略要点",
+        "未占",
+        "辐射中心"
+      ],
+      "key_points": [
+        "E9"
+      ],
+      "group_status": [
+        "neutral",
+        "high_value"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹N10、L11为白孤棋，黑K2–J3–K4–K5–K6–L6–M6–N6–O4–P4–Q3–R4–R3形成庞大外势，白N10处境危险。",
+      "shapes": [
+        "surrounding",
+        "isolated_group"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白孤棋",
+        "攻击目标"
+      ],
+      "key_points": [
+        "N10",
+        "L11",
+        "K2",
+        "R4"
+      ],
+      "group_status": [
+        "white_isolated",
+        "black_attacking"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4–B5–B6–C6–C3与白D4–D6–E6–F3形成典型扭杀结构，黑C3为最新打入，白需补强或反击。",
+      "shapes": [
+        "twisting_fight",
+        "life_death"
+      ],
+      "local_tags": [
+        "扭杀",
+        "黑先手",
+        "白需应"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "D4",
+        "D6"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑P2–Q3–R3–R4–O4–N4–M4–L4–K4–K3–L3–M3–N3–O3–P3–Q3一线黑白犬牙交错，白K3–N3厚实但略显凝重，黑有腾挪空间。",
+      "shapes": [
+        "edge_fight",
+        "thickness_vs_lightness"
+      ],
+      "local_tags": [
+        "边路缠斗",
+        "白厚实",
+        "黑灵活"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "K3",
+        "N3"
+      ],
+      "group_status": [
+        "balanced",
+        "tactical"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q3–R4–S12–R13–R14与白P2–O4–N4–M4–L4–K4–K3–L3–M3–N3–O3–P3形成大规模接触，黑S12–R13–R14已活，白P2孤子待救。",
+      "shapes": [
+        "living_group",
+        "weak_group"
+      ],
+      "local_tags": [
+        "黑活棋",
+        "白孤子",
+        "实地争夺"
+      ],
+      "key_points": [
+        "S12",
+        "R13",
+        "P2",
+        "O4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_weak"
+      ]
+    }
+  ]
+}

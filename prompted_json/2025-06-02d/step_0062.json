@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_061",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 61,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "S8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O6"
+      },
+      {
+        "color": 1,
+        "point": "R9"
+      },
+      {
+        "color": 0,
+        "point": "P6"
+      },
+      {
+        "color": 1,
+        "point": "O7"
+      },
+      {
+        "color": 0,
+        "point": "Q7"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "N8",
+      "S8",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "O6",
+      "P6",
+      "Q7",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "N6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "N6点争夺",
+      "右下角未定型",
+      "中央黑厚势与白棋联络"
+    ],
+    "global_summary_cn": "第61手，轮白（Ueno Asami）行棋，局面进入中盘关键阶段。黑棋在右上至中央形成厚势，但右下角（O6-P6-Q7-S8-R9）存在复杂攻防；白棋占据左下与中腹多处要点，全局实地领先。N6为当前最富变化的急所，关系到中央势力消长与右下死活。",
+    "phase_explanation": "中盘后期，双方围绕中央与右下展开深度接触战，黑棋试图借厚势侵消白空，白棋则巩固实地并寻求反击机会。胜负焦点集中于N6及周边数子的攻防效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3-D3-E3-H3与黑D4-E4-F4形成平稳分野，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，黑J17、D16与白L16、P17呈对峙状，尚未形成明显势力范围。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "对峙",
+        "未合围"
+      ],
+      "key_points": [
+        "J17",
+        "L16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q15、R16与白Q10-Q11-Q9形成高低配合，白略占外势主动权。",
+      "shapes": [
+        "corner",
+        "influence"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑孤子"
+      ],
+      "key_points": [
+        "Q15",
+        "Q10"
+      ],
+      "group_status": [
+        "alive",
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑F3-J3-L3-M3与白H2-H3-H4-H5-H6构成典型‘大飞守角+挂角’结构，黑厚实但稍显滞重。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白轻灵"
+      ],
+      "key_points": [
+        "F3",
+        "H5"
+      ],
+      "group_status": [
+        "alive",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域密集交战：黑O7-P7-Q7-R8-S8-R9与白O6-P6-Q7-R8形成缠斗，N6为未落子的关键急所。",
+      "shapes": [
+        "fighting",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "攻防枢纽",
+        "急所N6"
+      ],
+      "key_points": [
+        "N6",
+        "O7",
+        "Q7"
+      ],
+      "group_status": [
+        "unsettled",
+        "life_and_death"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R10-R11-R12与白O9-Q9-N10-Q10-Q11形成上下夹击态势，黑R系列子有被搜根风险。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "搜根征兆",
+        "黑棋薄味"
+      ],
+      "key_points": [
+        "R10",
+        "O9"
+      ],
+      "group_status": [
+        "weak",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角白C4与黑F3-E4等构成低中国流变例，白已活角，黑外势单薄。",
+      "shapes": [
+        "corner",
+        "territory"
+      ],
+      "local_tags": [
+        "白活角",
+        "黑外势未厚"
+      ],
+      "key_points": [
+        "C4",
+        "F3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑K4-J5-K7与白M4-O4-P4-Q4形成横向对峙，黑K7为眼位关键，白P4-Q4具压迫性。",
+      "shapes": [
+        "side",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "眼位争夺",
+        "白压迫"
+      ],
+      "key_points": [
+        "K7",
+        "P4"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最复杂区域：黑Q6-R6-N5与白O6-P6-Q7-R8-S8-R9形成多重接触，N6为唯一未填关键点，决定此块生死。",
+      "shapes": [
+        "fighting",
+        "life_and_death",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "死活焦点",
+        "N6急所",
+        "白胜率高"
+      ],
+      "key_points": [
+        "N6",
+        "Q6",
+        "S8"
+      ],
+      "group_status": [
+        "critical",
+        "life_and_death"
+      ]
+    }
+  ]
+}

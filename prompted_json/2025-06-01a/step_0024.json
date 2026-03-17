@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_023",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "O17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P17"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "P18"
+      },
+      {
+        "color": 1,
+        "point": "O17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "O18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角争夺",
+      "上边激战",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "上边三路与四路拉锯",
+      "O18点三三试探",
+      "白棋R17-P18连贯守角"
+    ],
+    "global_summary_cn": "第23手，黑方刚于O17落子，双方在上边形成密集接触：黑棋Q16-R16-O17-P17构成斜向联络，白棋Q17-R17-P18-D17-H15一线构筑厚壁；当前焦点集中于上边空域归属与O18打入可能性。",
+    "phase_explanation": "布局末期向中盘过渡阶段，双方已完成大致占角布势，正围绕上边大场展开实质性攻防，局部存在未定型战斗与潜在打入点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边激烈对峙区：黑棋Q16、R16、O17、P17与白棋Q17、R17、P18、D17、H15等形成复杂接触，O18为关键待选点。",
+      "shapes": [
+        "line",
+        "wall",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "边战",
+        "厚薄对比",
+        "打入预备"
+      ],
+      "key_points": [
+        "O18",
+        "O17",
+        "P17",
+        "Q17",
+        "R17",
+        "P18"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_wall_like"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角仅存黑Q3与白D4两颗孤子，距离遥远，无互动。",
+      "shapes": [],
+      "local_tags": [
+        "无关孤子",
+        "远场"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹有黑C11、C15、D13、D15、E14、F14、E16及白C13、D16、E15、F15、G15等，构成中腹早期势力雏形，黑略显松散，白呈横向厚势。",
+      "shapes": [
+        "chain",
+        "thickness"
+      ],
+      "local_tags": [
+        "中腹雏形",
+        "白厚势",
+        "黑拆二倾向"
+      ],
+      "key_points": [
+        "C13",
+        "D15",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_partially_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域目前无子，但为未来势力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹空旷，仅黑Q3孤立存在，暂无实质影响。",
+      "shapes": [],
+      "local_tags": [
+        "孤立",
+        "低效"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

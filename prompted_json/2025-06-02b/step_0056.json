@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_055",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 55,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "L3"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "C5"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "C8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "黑势主导"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左上厚势扩张",
+      "中腹潜力"
+    ],
+    "global_summary_cn": "黑方在右下与左上建立厚势，白方在中腹及右上构筑薄形；第55手黑棋B6强化左下联络，全局进入实地与外势平衡的关键阶段。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部持续施压，黑方掌握主动权，白方需在中腹或右上寻求突破以缓解局势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D16、J16与黑Q16-Q18、R18形成对峙，黑势厚重但未完全封锁，白S13-S14-S18-S19构成边空雏形。",
+      "shapes": [
+        "corner_influence",
+        "side_framework"
+      ],
+      "local_tags": [
+        "白边空",
+        "黑厚势",
+        "未定型"
+      ],
+      "key_points": [
+        "D16",
+        "J16",
+        "Q16",
+        "R18",
+        "S19"
+      ],
+      "group_status": [
+        "black_firm",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑Q15-R15-R16-R17与白R15-R16-R17形成复杂接触战，双方数子纠缠，存在劫争隐患。",
+      "shapes": [
+        "contact_fight",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "对杀未决",
+        "劫材敏感"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "R16",
+        "R17",
+        "S14"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白S18-S19与黑R18构成角部收束尾声，黑已大致安定，白仅存微弱侵消余地。",
+      "shapes": [
+        "settled_corner"
+      ],
+      "local_tags": [
+        "黑安定",
+        "白无策"
+      ],
+      "key_points": [
+        "R18",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_dead"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑K2-J3-K4-K5-L6-M6-N6与白F3-K3-L3-M3-N3-D4-L4-N4-C5-L5-M5-O5形成典型上下夹击结构，黑C6-B5-B6-C7与白C7-D6-E6-D7构成左下焦点。",
+      "shapes": [
+        "ladder_like",
+        "cross_cut",
+        "invasion_response"
+      ],
+      "local_tags": [
+        "黑厚势压迫",
+        "白孤棋求活",
+        "C7要冲"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "B6",
+        "C5",
+        "C6",
+        "C7",
+        "D6",
+        "D7",
+        "E6"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_weak_group"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央近乎空白，仅黑N5、M6、L6与白L5、M5、O5零星分布，是未来大场与势力辐射核心。",
+      "shapes": [
+        "open_center",
+        "influence_radiation"
+      ],
+      "local_tags": [
+        "战略制高点",
+        "未开发"
+      ],
+      "key_points": [
+        "N5",
+        "L6",
+        "M6",
+        "O5"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑P4-O4-R4-Q3与白P2、O5等构成右中腹浅消与反消态势，黑R12-S12-R13-R14略具模样雏形。",
+      "shapes": [
+        "side_framework",
+        "light_invasion"
+      ],
+      "local_tags": [
+        "黑模样初成",
+        "白试探性侵入"
+      ],
+      "key_points": [
+        "P2",
+        "O4",
+        "P4",
+        "Q3",
+        "R12",
+        "R14"
+      ],
+      "group_status": [
+        "black_potential",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑B4-B5-B6-C6-C7与白C5-D4-D6-E6-D7形成密集攻防带，黑刚落子B6强化联络，白C5-D4为眼位关键。",
+      "shapes": [
+        "tight_fight",
+        "life_and_death_critical"
+      ],
+      "local_tags": [
+        "黑强攻",
+        "白做眼紧迫",
+        "B6新要点"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "B6",
+        "C5",
+        "C6",
+        "C7",
+        "D4",
+        "D6",
+        "D7"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_struggling"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑L3与白L3同点冲突（应为记录误差？），实际L3为白占；附近K2-J3-K4-K5与白F3-K3构成左下主战场延伸，K6-L6-M6-N6黑厚势向中腹辐射。",
+      "shapes": [
+        "extension",
+        "influence_flow"
+      ],
+      "local_tags": [
+        "黑势力流",
+        "白被压缩"
+      ],
+      "key_points": [
+        "K2",
+        "J3",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "L6",
+        "M6",
+        "N6"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_squeezed"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P2与黑Q3-R4-P4-S3（缺）形成低段位对峙，黑R4-P4-O4与白P2孤立，黑势明显占优；L3为白最新打入点。",
+      "shapes": [
+        "isolated_stone",
+        "territorial_pressure"
+      ],
+      "local_tags": [
+        "白孤子",
+        "黑围剿中",
+        "L3打入"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "R4",
+        "P4",
+        "O4",
+        "L3"
+      ],
+      "group_status": [
+        "white_isolated",
+        "black_surrounding"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_202",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 202,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "T19"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B2"
+      },
+      {
+        "color": 0,
+        "point": "S9"
+      },
+      {
+        "color": 1,
+        "point": "O10"
+      },
+      {
+        "color": 0,
+        "point": "T15"
+      },
+      {
+        "color": 1,
+        "point": "T13"
+      },
+      {
+        "color": 0,
+        "point": "T19"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "J2",
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "C2",
+      "L2",
+      "P2",
+      "D3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "T17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "white_compensation_play"
+    ],
+    "strategic_focus": [
+      "T17_invasion_attempt",
+      "right_side_life_and_death",
+      "bottom_right_eye_space_pressure"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑方领先但右下角存在细微劫争隐患；白方刚在T19落子强化边空，黑方需在T17打入试探白棋大龙眼位。双方在中腹与右下形成多处未定型边界。",
+    "phase_explanation": "第202手，黑方行棋，局面处于官子收束中期，实空基本划定但右下角、中腹局部仍有数处需定型的薄味点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋厚势完整，白棋C2-B2-D3构成小堡垒但无发展空间。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "secure",
+        "no_vulnerability"
+      ],
+      "key_points": [
+        "B2",
+        "C2",
+        "D3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q2-R4-P4连片，白棋P2-L2-N3形成低配守势，黑势压迫明显。",
+      "shapes": [
+        "side_wall",
+        "influence_projection"
+      ],
+      "local_tags": [
+        "dominant",
+        "thickness"
+      ],
+      "key_points": [
+        "Q2",
+        "R4",
+        "P2"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋S9-T15-T19-S18-S19构筑大空雏形，黑棋Q16-R16-Q17仅外围骚扰，尚未深入。",
+      "shapes": [
+        "large_framework",
+        "unsettled_perimeter"
+      ],
+      "local_tags": [
+        "framework",
+        "vulnerable_edge"
+      ],
+      "key_points": [
+        "S9",
+        "T15",
+        "T19",
+        "Q16"
+      ],
+      "group_status": [
+        "uncertain"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋F5-G5-H5-J5-K5与白棋F3-G4-H4形成对峙，黑棋C6-D7-E7一线有断点隐忧。",
+      "shapes": [
+        "contact_fight_zone",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "tension",
+        "light_group"
+      ],
+      "key_points": [
+        "F5",
+        "G4",
+        "D7"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋O10-P11-Q10与白棋N10-O9-P9形成微型对杀，黑棋稍优但未净活。",
+      "shapes": [
+        "mini_semeai",
+        "life_and_death_unclear"
+      ],
+      "local_tags": [
+        "critical",
+        "urgent"
+      ],
+      "key_points": [
+        "O10",
+        "N10",
+        "P9"
+      ],
+      "group_status": [
+        "not_alive_yet"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋R7-S8-T13与白棋S9-T15-T19构成复杂边界，T13为黑方最新压迫点。",
+      "shapes": [
+        "boundary_contest",
+        "pressure_point"
+      ],
+      "local_tags": [
+        "active",
+        "initiative"
+      ],
+      "key_points": [
+        "T13",
+        "S9",
+        "T15"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B10-C11-D12与白棋A10-C10-D9形成稳固双活，已无变数。",
+      "shapes": [
+        "settled_dual_living"
+      ],
+      "local_tags": [
+        "finished",
+        "safe"
+      ],
+      "key_points": [
+        "B10",
+        "A10",
+        "C11"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋E14-F14-G14-H14与白棋E12-F12-G12-H12形成平行对峙，实地均衡。",
+      "shapes": [
+        "balanced_side"
+      ],
+      "local_tags": [
+        "stable",
+        "even"
+      ],
+      "key_points": [
+        "E14",
+        "E12",
+        "H14"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋T17为本手目标，白棋S18-S19-T19-R17构成眼位薄弱带，存致命缺陷。",
+      "shapes": [
+        "vital_point_target",
+        "eye_deficiency"
+      ],
+      "local_tags": [
+        "target",
+        "decisive",
+        "life_threat"
+      ],
+      "key_points": [
+        "T17",
+        "S18",
+        "T19"
+      ],
+      "group_status": [
+        "at_risk"
+      ]
+    }
+  ]
+}

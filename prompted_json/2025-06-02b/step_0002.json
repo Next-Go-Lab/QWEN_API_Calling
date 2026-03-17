@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_001",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 1,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      }
+    ],
+    "black_stones": [
+      "Q16"
+    ],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "D4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "黑先",
+      "星位开局",
+      "高位布局"
+    ],
+    "strategic_focus": [
+      "占据大场",
+      "构建外势",
+      "控制边角平衡"
+    ],
+    "global_summary_cn": "对局第一手，黑方于右上星位Q16落子，典型高位开局，意在快速展开、掌握全局主动权。",
+    "phase_explanation": "处于布局初期，仅一子落盘，尚未形成具体定式或攻防关系，重点在于选点价值与方向感。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋首着落于Q16，属本区域核心星位，奠定右上势力雏形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "高位",
+        "开局要点"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "single_stone"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

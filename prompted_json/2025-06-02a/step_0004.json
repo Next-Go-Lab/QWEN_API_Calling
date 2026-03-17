@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_003",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 3,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "targets": {
+    "policy_target": "D16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局三手",
+      "星位布局",
+      "高低配合"
+    ],
+    "strategic_focus": [
+      "右上角势力构建",
+      "左下角潜在挂角点",
+      "中腹未落子"
+    ],
+    "global_summary_cn": "黑棋双星位（Q16、Q3）形成高低呼应，白棋小目D4单点守角；全局尚处布局初期，无接触战，空旷区域居多。",
+    "phase_explanation": "第三手，黑方在右上Q3落子，与左上Q16构成对角星布局，白方于左下D4小目守角，典型现代布局起手。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋星位Q16，孤立存在，尚未展开。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "star_point",
+        "black"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属中央高位潜力区。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "high_ground"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q3星位，与右上角呼应，初步建立右翼势力雏形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "star_point",
+        "black",
+        "corner_influence"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，邻近白棋D4但未构成直接关联。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，全局中心，未来战略要地。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_control"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，靠近Q3但无延伸，暂无明显意图。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋小目D4，稳固守角，已成形基础眼位结构。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "small_eye",
+        "white",
+        "corner_stability"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "live_base"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，连接左右下角，未来可能成为分投或侵消点。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "完全空旷，无子，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

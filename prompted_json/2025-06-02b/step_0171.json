@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_170",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 170,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "L2"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "Q2"
+      },
+      {
+        "color": 0,
+        "point": "H4"
+      },
+      {
+        "color": 1,
+        "point": "J4"
+      },
+      {
+        "color": 0,
+        "point": "L2"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "L2",
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "Q7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_fight",
+      "ko_threats",
+      "life_and_death"
+    ],
+    "strategic_focus": [
+      "bottom_right_eye_space",
+      "center_influence",
+      "top_side_vulnerability"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑方领先但右下角存在未定死活，中腹白棋大龙尚未完全安定，左上与右上双方厚势对峙；黑方刚于R11落子施加压力，白方上一手L2意在补强右下，但F16为关键官子点。",
+    "phase_explanation": "第170手，黑方行棋，局面属官子收束期。双方在边角持续争夺细微目数，右下角（L2、Q2、R2一带）存有劫争隐患；中腹J11–K11–L11–M11白棋薄味明显；黑棋Q15–Q16–Q17–R17–S17形成厚势，但T16孤子待连络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白B9、C10、A10构成坚实外势，黑C3、B4、B5、B6、C6围小空；黑C17、B17、B18与白B17、B18形成接触战余味。",
+      "shapes": [
+        "corner_enclosure",
+        "side_wall"
+      ],
+      "local_tags": [
+        "stable_white_wall",
+        "small_black_territory",
+        "potential_invasion_point_at_D2"
+      ],
+      "key_points": [
+        "B9",
+        "C10",
+        "C3",
+        "B4"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段激烈争夺，黑F11、H11、J11、K11与白E11、L11、M11形成对攻；白K13、L13、J13构成厚壁，黑G13、H13、J14试图渗透。",
+      "shapes": [
+        "side_fighting_line",
+        "thickness_vs_invading_group"
+      ],
+      "local_tags": [
+        "white_thickness",
+        "black_invasion_attempt",
+        "unsettled_center_top"
+      ],
+      "key_points": [
+        "F11",
+        "J11",
+        "K11",
+        "E11",
+        "L11"
+      ],
+      "group_status": [
+        "white_group_thick",
+        "black_group_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16、Q17、R17、S17、T17、S18、T18构筑庞大外势，白R16、S16、R15、S15、R14局部成空但受压；黑T16为孤子，白J17、F17伺机攻击。",
+      "shapes": [
+        "large_framework",
+        "floating_stone"
+      ],
+      "local_tags": [
+        "black_framework",
+        "white_local_territory",
+        "vulnerable_black_stone_at_T16"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "T16",
+        "R16",
+        "J17"
+      ],
+      "group_status": [
+        "black_framework_unconnected",
+        "white_alive_locally"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑D7、F7、F8、H8、G10、H10与白C7、E7、C8、E8、D9、E9形成缠斗；黑B10、C12、D12与白B9、C10、C13构成上下呼应。",
+      "shapes": [
+        "ladder_shape",
+        "mutual_sente"
+      ],
+      "local_tags": [
+        "ladder_potential",
+        "mutual_influence",
+        "side_pressure"
+      ],
+      "key_points": [
+        "D7",
+        "F7",
+        "C7",
+        "E7",
+        "B10"
+      ],
+      "group_status": [
+        "both_groups_unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心地带黑J11、K11、N11、O11、P11与白L11、M11、K12、M12、N12形成密集对峙；黑K14、H14、H15与白J16、M16构成势力消长焦点。",
+      "shapes": [
+        "central_cluster",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "central_battlefield",
+        "white_thick_line",
+        "black_eye_space_pressure"
+      ],
+      "key_points": [
+        "J11",
+        "K11",
+        "L11",
+        "M11",
+        "K14"
+      ],
+      "group_status": [
+        "white_group_thick",
+        "black_group_pressuring"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O4、P4、R4、O7、P8、Q10与白N4、L4、L5、M5、O5、L8、N8构成复杂攻防；黑Q12、R12、S12与白P12、O12、N12形成边路拉锯。",
+      "shapes": [
+        "side_ladder",
+        "edge_fighting"
+      ],
+      "local_tags": [
+        "black_side_strength",
+        "white_compact_group",
+        "sente_for_Q10"
+      ],
+      "key_points": [
+        "O4",
+        "R4",
+        "Q10",
+        "N4",
+        "L4"
+      ],
+      "group_status": [
+        "black_dominant_on_edge",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4、B5、B6、C6、C3与白C5、D4、D6、E6、C7形成经典‘无忧角’对抗变体；黑D7、F7与白E7、C7构成轻重转换枢纽。",
+      "shapes": [
+        "classic_corner",
+        "light_vs_heavy"
+      ],
+      "local_tags": [
+        "black_classic_corner",
+        "white_counter_attack",
+        "key_point_at_D6"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "D4",
+        "D6",
+        "D7"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑K2、K4、K5、K6、L6、M6、N6、O6与白L2、L3、L4、L5、L8、K3、M3构成纵向控制链；黑J4、J3与白H4、K3形成局部死活要点。",
+      "shapes": [
+        "vertical_chain",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "black_vertical_wall",
+        "white_eye_shape",
+        "critical_point_at_J4"
+      ],
+      "key_points": [
+        "K2",
+        "L2",
+        "J4",
+        "H4",
+        "K4"
+      ],
+      "group_status": [
+        "black_wall_stable",
+        "white_group_needs_eyes"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最敏感区域：黑Q2、R2、Q3、R4、Q10与白L2、P2、N3、L3、L4、N4、L5、M5、O5形成复杂死活；黑R11最新打入，白L2为应手，F16是双方必争官子。",
+      "shapes": [
+        "unsettled_corner",
+        "ko_threat_zone"
+      ],
+      "local_tags": [
+        "critical_life_and_death",
+        "ko_threat_at_F16",
+        "black_invasion_at_R11"
+      ],
+      "key_points": [
+        "Q2",
+        "L2",
+        "R11",
+        "F16",
+        "N4"
+      ],
+      "group_status": [
+        "white_group_vulnerable",
+        "black_attacking"
+      ]
+    }
+  ]
+}

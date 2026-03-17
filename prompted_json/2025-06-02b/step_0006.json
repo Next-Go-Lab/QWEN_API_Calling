@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_005",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 5,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "R17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "星位布局",
+      "双小目倾向",
+      "边路快速展开"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "左下角对称应对",
+      "中央势力雏形"
+    ],
+    "global_summary_cn": "黑方连续在右上角Q16、R4、P4落子，形成高效率的边路压迫；白方以D4、D16两颗星位回应，呈现对称布局意图。当前为序盘早期，双方尚未发生直接接触战，但右上已隐含局部攻防线索。",
+    "phase_explanation": "第5手，黑方刚落于P4，完成右上三连星式扩张；白方下一步大概率在Q3或O3等位置消长，或转向其他大场。局面开阔，重心仍在边角配置阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋占据Q16（星位），构成左上方向的潜在影响力起点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑棋单子",
+        "高位布局"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角密集：黑棋R4、P4与白棋无子，但临近白D16（实际在bottom_left？校验坐标——D16位于左上，此处应为误判；D16属top_left；故top_right当前仅黑R4、P4，呈斜向小飞守角雏形。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "黑棋双子",
+        "边路压迫",
+        "小飞趋势"
+      ],
+      "key_points": [
+        "R4",
+        "P4"
+      ],
+      "group_status": [
+        "未成型"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无棋子，连接左上与左下，暂无战略动向。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未出现任何着子，为未来势力交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "空心",
+        "待发展"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，但紧邻右上黑阵，是后续黑棋可能向中腹延伸的通道。",
+      "shapes": [],
+      "local_tags": [
+        "延伸通道",
+        "潜在厚势"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋D16位于此区（GTP坐标D16即第4列第16行，属top_left？需按标准GTP映射：A1为左下，T19为右上；故D16 = 第4列、第16行 → 纵坐标16从下往上数为第16行，即靠近顶边，实为top_left区域。因此bottom_left实际无子。修正：D4（第4列第4行）属bottom_left；D16属top_left。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "白棋星位",
+        "低位守角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，与bottom_left白D4及bottom_right无关联，尚处静默期。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，唯一相关点为黑方目标点R17（属bottom_right），尚未落子，暗示后续打入或守角意向。",
+      "shapes": [],
+      "local_tags": [
+        "预设点",
+        "潜在打入"
+      ],
+      "key_points": [
+        "R17"
+      ],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_135",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 135,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "S15"
+      },
+      {
+        "color": 1,
+        "point": "R15"
+      },
+      {
+        "color": 0,
+        "point": "S17"
+      },
+      {
+        "color": 1,
+        "point": "Q18"
+      },
+      {
+        "color": 0,
+        "point": "R18"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "R15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "Q17",
+      "M18",
+      "N18",
+      "Q18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "S17",
+      "L18",
+      "O18",
+      "R18"
+    ]
+  },
+  "targets": {
+    "policy_target": "S16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "白棋优势",
+      "边角争夺激烈",
+      "中央厚势初成"
+    ],
+    "strategic_focus": [
+      "右上角劫争余波",
+      "中腹眼位争夺",
+      "左下黑空未净"
+    ],
+    "global_summary_cn": "对局进入收官尾声，白棋凭借全局厚势与实地优势领先，黑棋在右上、右下连续尝试搅局但未能逆转；当前焦点集中于S16一子的攻防价值，关系到右上黑大龙眼位与白棋外势连接。",
+    "phase_explanation": "第135手为黑方（Yoshida Mika）落子Q17，白方刚完成对右上角的压制；局面已过官子中盘，胜负基本明朗，但局部仍有数处需精确计算的单官与劫材争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角双方平稳定式，白C3-D3-E3与黑F3-E4-D4形成低中国流雏形，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "E3",
+        "D4",
+        "E4",
+        "F3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白H2-H3-H4-H5-H6-H7与黑G7-J7-K7形成对峙，白棋厚实但未围空，黑棋有断点隐患。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑薄味"
+      ],
+      "key_points": [
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "G7",
+        "J7",
+        "K7"
+      ],
+      "group_status": [
+        "strong",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激战核心：白Q4-R5-Q7-R8-S7与黑Q6-R6-Q17-R15-S15-Q18-R18-S17形成复杂劫争余波，黑Q17为最新一手，意图破眼。",
+      "shapes": [
+        "corner_fight",
+        "liberty_race"
+      ],
+      "local_tags": [
+        "劫争未尽",
+        "眼位关键",
+        "S16待落"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "Q6",
+        "R6",
+        "Q7",
+        "R8",
+        "S7",
+        "Q17",
+        "R15",
+        "S15",
+        "Q18",
+        "R18",
+        "S17"
+      ],
+      "group_status": [
+        "critical",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑C7-C9-C11-D11与白C6-D6-E6-F6形成上下呼应，黑B13孤子受攻，白F7-G8-G9施压。",
+      "shapes": [
+        "ladder",
+        "attack"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白攻击流"
+      ],
+      "key_points": [
+        "B13",
+        "C7",
+        "C9",
+        "C11",
+        "D11",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "F7",
+        "G8",
+        "G9"
+      ],
+      "group_status": [
+        "weak",
+        "attacked"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带黑J10-L10-L12-N12-O12与白N10-O10-Q10-Q11形成交错厚壁，双方均无明显死活问题，但存在潜在对杀可能。",
+      "shapes": [
+        "thick_wall"
+      ],
+      "local_tags": [
+        "厚势对峙",
+        "无眼位紧迫"
+      ],
+      "key_points": [
+        "J10",
+        "L10",
+        "L12",
+        "N12",
+        "O12",
+        "N10",
+        "O10",
+        "Q10",
+        "Q11"
+      ],
+      "group_status": [
+        "alive",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑M16-P16-Q16-R16与白L16-O16-P17-Q17-R17构成大模样轮廓，黑M17-N17-N18-M18略显凝重，白L17-P17-S17具弹性。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "黑模様未实",
+        "白灵活应对"
+      ],
+      "key_points": [
+        "M16",
+        "P16",
+        "Q16",
+        "R16",
+        "L16",
+        "O16",
+        "P17",
+        "Q17",
+        "R17",
+        "M17",
+        "N17",
+        "N18",
+        "M18",
+        "L17",
+        "S17"
+      ],
+      "group_status": [
+        "influence",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C11-D11-E9-F8与白C6-D6-E6-F6-G7形成典型‘小猪嘴’结构，黑C11-D11-E9尚未净活，白有后续搜根手段。",
+      "shapes": [
+        "small_pig_snout"
+      ],
+      "local_tags": [
+        "黑未活",
+        "白可搜根"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "E9",
+        "F8",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G7"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑J3-K4-J5-K6与白H2-H3-H4-H5-H6形成经典‘高中国流’对抗，黑K6为守角要点，白H6为拆二要点，整体平衡。",
+      "shapes": [
+        "high_chinese"
+      ],
+      "local_tags": [
+        "定式延续",
+        "均衡"
+      ],
+      "key_points": [
+        "J3",
+        "K4",
+        "J5",
+        "K6",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "group_status": [
+        "alive",
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P3-Q6-R6与白O4-P4-Q4-R5形成‘无忧角’变体，黑S8-R9-Q9与白R8-Q9-O9纠缠，黑S13-S14-S15与白R13-R14-R15-S17构成边路拉锯。",
+      "shapes": [
+        "corner_fight",
+        "side_fight"
+      ],
+      "local_tags": [
+        "边路收束",
+        "黑稍损"
+      ],
+      "key_points": [
+        "P3",
+        "Q6",
+        "R6",
+        "O4",
+        "P4",
+        "Q4",
+        "R5",
+        "S8",
+        "R9",
+        "Q9",
+        "R8",
+        "O9",
+        "S13",
+        "S14",
+        "S15",
+        "R13",
+        "R14",
+        "R15",
+        "S17"
+      ],
+      "group_status": [
+        "settled",
+        "white_advantage"
+      ]
+    }
+  ]
+}

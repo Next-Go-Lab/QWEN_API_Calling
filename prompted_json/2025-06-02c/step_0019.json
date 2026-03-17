@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_018",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 18,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "O3"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "P16"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fighting",
+      "corner_invasion_response"
+    ],
+    "strategic_focus": [
+      "right_side_influence",
+      "top_right_eye_space_pressure",
+      "bottom_right_framework_vulnerability"
+    ],
+    "global_summary_cn": "黑棋在右下与右上积极构筑势力，白棋通过Q10、P16等点压缩黑棋空间；当前局面处于布局向中盘过渡阶段，双方在右半盘形成局部对峙，黑方需处理R12与Q17的联络问题，白方则试图扩大P16-Q10一线影响力。",
+    "phase_explanation": "第18手，黑方即将落子，全局尚未形成明显大模样或厚势，但右上角（Q17/P17/P16/Q10）与右下角（O3/Q3/R4/R5/R12）均存在未定型战斗，属典型早期攻防交错阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力分布，属未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "quiet"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋F17、L17占据高位，白棋D16形成低位呼应，构成高低配合雏形；C14为白棋跳点，意在限制黑棋上方发展。",
+      "shapes": [
+        "point_group"
+      ],
+      "local_tags": [
+        "high_low_balance",
+        "white_influence_base"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "D16",
+        "C14"
+      ],
+      "group_status": [
+        "white_solid",
+        "black_loose"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈争夺区：黑Q17、P17与白P16、Q10形成上下夹击态势；R16孤立但具牵制力；Q14为目标点，暗示黑方意图打入或分断。",
+      "shapes": [
+        "ladder_like",
+        "pressing_wall"
+      ],
+      "local_tags": [
+        "tension_zone",
+        "eye_space_threat",
+        "target_adjacent"
+      ],
+      "key_points": [
+        "Q17",
+        "P17",
+        "P16",
+        "Q10",
+        "R16",
+        "Q14"
+      ],
+      "group_status": [
+        "black_weak_connection",
+        "white_compact"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，仅黑F17延伸意向，白无子，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "potential_extension"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何着子，为未来战役主战场预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "empty_core",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋Q5、Q6、R6构成小堡垒，黑R5、R4紧邻压迫；Q3、O3形成黑棋低位阵势，双方在此处呈低姿态对峙。",
+      "shapes": [
+        "small_fortress",
+        "pressing_base"
+      ],
+      "local_tags": [
+        "low_pressure",
+        "territorial_contest"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "R5",
+        "R4",
+        "Q3",
+        "O3"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_extending"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何棋子，属完全未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "strategic_reserve"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中央空旷，仅黑O3、Q3延伸至该区域，白无子，黑有潜在拆二或守角意图。",
+      "shapes": [
+        "extension_base"
+      ],
+      "local_tags": [
+        "black_outpost",
+        "uncontested"
+      ],
+      "key_points": [
+        "O3",
+        "Q3"
+      ],
+      "group_status": [
+        "black_floating"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R12孤子深入白阵，白Q10为关键应手，形成攻防焦点；黑R16遥相呼应，但联络薄弱，存在被分断风险。",
+      "shapes": [
+        "invasion_point",
+        "weak_connection"
+      ],
+      "local_tags": [
+        "invasion_response",
+        "cutting_target",
+        "vulnerable_group"
+      ],
+      "key_points": [
+        "R12",
+        "Q10",
+        "R16"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_reactive"
+      ]
+    }
+  ]
+}

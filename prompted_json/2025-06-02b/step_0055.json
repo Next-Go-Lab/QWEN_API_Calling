@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_054",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 54,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K2"
+      },
+      {
+        "color": 0,
+        "point": "L3"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "C5"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "B6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "B6点攻防",
+      "右下角未定型",
+      "中央黑棋联络"
+    ],
+    "global_summary_cn": "第54手，黑方即将在B6落子，意图强化左下角黑棋并威胁白棋C5、C7两子；白棋在右下和右上形成厚势但存在断点，黑棋在Q15-R18一带构筑大模样，全局呈现黑取实地、白争外势的格局。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，尤其左下与右下为焦点；黑棋掌握主动权，白棋需谨慎处理C7一子的联络与眼位。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D16、J16与黑棋Q16-Q18形成对峙，黑棋占据高位，白棋有S19、S18等守角子，局部略显单薄。",
+      "shapes": [
+        "territory",
+        "influence"
+      ],
+      "local_tags": [
+        "高位黑阵",
+        "白棋守角"
+      ],
+      "key_points": [
+        "D16",
+        "J16",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋R12-S14与白棋S13-S14、R15形成纠缠，R13-R14黑棋厚实，白棋R15、R16略显孤立。",
+      "shapes": [
+        "contact_fight",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "双边对杀",
+        "白棋孤子"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "S13",
+        "S14",
+        "R15",
+        "R16",
+        "Q15"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S19、S18与黑棋R18构成角部收官残局，无激烈战斗，属平稳收束区域。",
+      "shapes": [
+        "endgame"
+      ],
+      "local_tags": [
+        "角部收官",
+        "白棋安定"
+      ],
+      "key_points": [
+        "R18",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B4-B5-C6-D7与白棋C5-C7-D4-D6-E6形成典型左下攻防，B6为关键打入点，黑棋正欲扩张。",
+      "shapes": [
+        "invasion",
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "B6急所",
+        "白棋C5/C7受攻",
+        "黑棋联络"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "C5",
+        "C6",
+        "C7",
+        "D4",
+        "D6",
+        "D7",
+        "E6",
+        "B6"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑K4-K6-L6-M6-N6与白L4-L5-M5-N5-O5形成横向对峙，尚未形成明确势力范围。",
+      "shapes": [
+        "influence_zone",
+        "potential_eye"
+      ],
+      "local_tags": [
+        "中央对峙",
+        "未定型"
+      ],
+      "key_points": [
+        "K4",
+        "K5",
+        "K6",
+        "L6",
+        "M6",
+        "N6",
+        "L4",
+        "L5",
+        "M5",
+        "N5",
+        "O5"
+      ],
+      "group_status": [
+        "neutral",
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋N10、L11与黑棋O4-P4-Q4-R4形成右中腹牵制，黑棋P4-R4连片厚实，白棋缺乏有效侵入手段。",
+      "shapes": [
+        "thickness",
+        "wall"
+      ],
+      "local_tags": [
+        "黑棋厚壁",
+        "白棋受限"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "Q4",
+        "R4",
+        "N10",
+        "L11"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋K2-J3与白棋F3、K3、L3、M3、N3构成复杂下边交界，黑K2与白L3-M3形成对杀雏形，K2为关键气点。",
+      "shapes": [
+        "sacrifice",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "K2活棋要点",
+        "白棋厚势但欠目"
+      ],
+      "key_points": [
+        "K2",
+        "J3",
+        "F3",
+        "K3",
+        "L3",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "black_living",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "白棋P2与黑棋Q3形成低位对峙，Q3为黑棋跳入要点，白P2孤立，暂无明显发展。",
+      "shapes": [
+        "probe",
+        "isolation"
+      ],
+      "local_tags": [
+        "白棋P2孤子",
+        "黑棋Q3试探"
+      ],
+      "key_points": [
+        "P2",
+        "Q3"
+      ],
+      "group_status": [
+        "white_isolated",
+        "black_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋M3-N3-O5与黑棋O4-P4-R4-S4（注：S4无子，应为R4延伸）构成右下角未定型区域，黑棋有R4-S4扳头潜力，白棋需补强。",
+      "shapes": [
+        "unsettled_corner",
+        "sente"
+      ],
+      "local_tags": [
+        "右下未定",
+        "黑棋扳头机会"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "R4",
+        "M3",
+        "N3",
+        "O5"
+      ],
+      "group_status": [
+        "unsettled",
+        "black_sente"
+      ]
+    }
+  ]
+}

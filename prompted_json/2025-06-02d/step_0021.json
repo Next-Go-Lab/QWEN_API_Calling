@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_020",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 20,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "R5"
+      },
+      {
+        "color": 1,
+        "point": "Q6"
+      },
+      {
+        "color": 0,
+        "point": "O4"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "R11",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋外势雏形"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "白棋R5-O4-R8三角厚味"
+    ],
+    "global_summary_cn": "第20手，黑方行棋，局面处于中盘初段。右下角（R5、O4、R8）形成白棋厚势三角，黑棋在R6、Q6、R11连续落子试图扩张外势；左上D16、R16与右上P17构成大场呼应；黑棋F3-E4-F4小飞守角稳固，白棋C4-D3-E3构成低位坚实阵型；全局未见明显死活危机，但P7为双方潜在打入/侵消要点。",
+    "phase_explanation": "双方完成布局，进入中盘接触战初期。黑棋侧重外势与高位发展，白棋侧重实地与边角安定，右下成为当前战略焦点区域。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑D16、R16与白L16、P17形成高低配合，黑棋占据高位，白棋低位拆二稳健。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "高位黑阵",
+        "白棋低位守势"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，无密集子力，仅黑Q15孤立存在，暂无明显结构。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "待发展"
+      ],
+      "key_points": [
+        "Q15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白P17单关守角，黑R16呼应，尚未形成完整角地，属未定型大场。",
+      "shapes": [
+        "single-keima"
+      ],
+      "local_tags": [
+        "未定型",
+        "大场"
+      ],
+      "key_points": [
+        "P17",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑K4孤子，白C6遥相呼应，黑E4-F4-F3与白C4-D3-E3形成东西对峙，局部厚薄对比明显。",
+      "shapes": [
+        "small-knight",
+        "solid-base"
+      ],
+      "local_tags": [
+        "黑小飞守角",
+        "白坚实低位"
+      ],
+      "key_points": [
+        "K4",
+        "E4",
+        "F4",
+        "F3",
+        "C4",
+        "D3",
+        "E3",
+        "C6"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何棋子，是未来中腹作战的战略中枢。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹集中激烈：黑R6-Q6-R11呈斜线张势，白R5-O4-R8构成厚味三角，P7为双方共认急所。",
+      "shapes": [
+        "diagonal",
+        "triangle"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白厚势",
+        "攻防前沿"
+      ],
+      "key_points": [
+        "R6",
+        "Q6",
+        "R11",
+        "R5",
+        "O4",
+        "R8",
+        "P7"
+      ],
+      "group_status": [
+        "influential",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3-E4-F4小飞守角已定型，白C4-D3-E3低位坚实，黑棋角地完整，白棋外势微弱。",
+      "shapes": [
+        "small-knight-corner"
+      ],
+      "local_tags": [
+        "黑定式守角",
+        "白低位实利"
+      ],
+      "key_points": [
+        "F3",
+        "E4",
+        "F4",
+        "C4",
+        "D3",
+        "E3"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅有黑K4延伸意向，白无子，属潜在黑棋拆边或白棋打入区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在拆边"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前主战场：白O4、R5、R8构成厚势三角，黑R6、Q6、R11积极压迫，局部攻防未决。",
+      "shapes": [
+        "triangle",
+        "pressing"
+      ],
+      "local_tags": [
+        "主战场",
+        "厚薄对抗",
+        "未定型"
+      ],
+      "key_points": [
+        "O4",
+        "R5",
+        "R8",
+        "R6",
+        "Q6",
+        "R11"
+      ],
+      "group_status": [
+        "fighting",
+        "unsettled"
+      ]
+    }
+  ]
+}

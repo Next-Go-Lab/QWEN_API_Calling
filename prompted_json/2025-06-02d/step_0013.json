@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_012",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 12,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "white_influence_focus"
+    ],
+    "strategic_focus": [
+      "bottom_right_corner",
+      "center_control",
+      "white_thickness_building"
+    ],
+    "global_summary_cn": "第12手，黑方刚落子F3，白方上一手P17强化右上角，全局呈现黑白在右上与左下角初步接触、中腹尚未展开的早期格局；白棋在D3-E3-C4形成小堡垒，黑棋F3-F4-E4构成低位连扳试探。",
+    "phase_explanation": "布局初期，双方侧重角部定式雏形与边路拆二节奏，尚未进入中腹争夺；白棋通过P17巩固右上势力，黑棋意图在左下角（C6附近）及右下（R16/D16）寻求根据地。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋Q4单子孤立，黑无应手；P17为白最新一子，构成右上角高位守势。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "white_high_anchor",
+        "corner_support"
+      ],
+      "key_points": [
+        "P17",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白P17与Q4呼应，隐约成角地雏形；黑R16为低位挂角回应，但尚未构成直接冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "white_influence",
+        "black_low_entrance"
+      ],
+      "key_points": [
+        "P17",
+        "Q4",
+        "R16"
+      ],
+      "group_status": [
+        "white_solidifying"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "C6为白棋关键一子，牵制黑左下发展；黑无子在此区，白暂控此带。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "white_pressure_point",
+        "strategic_hinge"
+      ],
+      "key_points": [
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，属未来主战场。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "K4为黑棋唯一中腹子，位置偏高孤立；白无子，此处为黑薄弱延伸点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "black_outlier",
+        "potential_weakness"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": [
+        "black_unconnected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3、F4、E4与白D3、E3、C4密集交战，形成典型‘小目低挂’局部对抗雏形。",
+      "shapes": [
+        "local_fight"
+      ],
+      "local_tags": [
+        "low_side_fight",
+        "black_aggression",
+        "white_stability"
+      ],
+      "key_points": [
+        "F3",
+        "F4",
+        "E4",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "group_status": [
+        "black_active",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅黑D16位于左下角边缘，尚未向中腹扩展。",
+      "shapes": [],
+      "local_tags": [
+        "black_peripheral"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R16与白P17形成对角呼应，但R16孤立，白P17更具弹性；该区为当前战略焦点之一。",
+      "shapes": [
+        "diagonal_tension"
+      ],
+      "local_tags": [
+        "asymmetric_corner",
+        "white_advantage",
+        "black_vulnerability"
+      ],
+      "key_points": [
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "white_dominant"
+      ]
+    }
+  ]
+}

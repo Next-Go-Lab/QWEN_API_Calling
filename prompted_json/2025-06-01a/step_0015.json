@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_014",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 14,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D15"
+      },
+      {
+        "color": 0,
+        "point": "E15"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "H15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "D13",
+      "E14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "H15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "top_side_contest",
+      "center_influence_balance"
+    ],
+    "global_summary_cn": "第14手，黑方即将落子，当前局面集中在棋盘上侧展开激烈争夺，黑棋在左上角与右上角均有布局，白棋在右上形成厚势并压制黑棋D15-E14-E15-F15一线；黑棋E16、C15、Q16等子构成高低呼应，白棋D4孤子尚未连络；F14为关键打入点。",
+    "phase_explanation": "开局阶段（前20手），双方围绕上边展开接触战，黑棋试图扩张左上模样，白棋选择高位阻渡并构筑右上势力，全局尚未形成明显大模样或实地定型。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C15、D15、E16构成小飞守角雏形，白棋D16、D17压迫上方，黑D13为拆二应手，局部呈攻防未定态。",
+      "shapes": [
+        "corner_triangle"
+      ],
+      "local_tags": [
+        "black_corner_setup",
+        "white_pressure"
+      ],
+      "key_points": [
+        "C15",
+        "D15",
+        "E16",
+        "D16",
+        "D17",
+        "D13"
+      ],
+      "group_status": [
+        "black_group_weak",
+        "white_group_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "核心战场：黑E14、白E15/F15/H15与黑D15形成连续接触，F14为空点，是黑棋下一手最可能的打入位，关系到上边厚薄与对杀潜力。",
+      "shapes": [
+        "ladder_fragment",
+        "side_ladder"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "key_intersection"
+      ],
+      "key_points": [
+        "D15",
+        "E14",
+        "E15",
+        "F15",
+        "H15",
+        "F14"
+      ],
+      "group_status": [
+        "mutual_eye_space_tension"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，白无子侵入，属黑棋安定但效率偏低区域，暂无战斗，可作后援或将来引征之用。",
+      "shapes": [
+        "single_stone_corner"
+      ],
+      "local_tags": [
+        "black_safe_corner",
+        "quiet_zone"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_group_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷地带，仅黑Q3孤子位于右下角对应方位，此处尚未启动，属未来拆边或引征方向。",
+      "shapes": [],
+      "local_tags": [
+        "empty_region",
+        "potential_extension"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空点，无任何棋子，是未来双方影响力辐射交汇区，当前战略价值高于实地价值。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_center",
+        "influence_hub"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子，连接上下边的潜在通道，目前未被利用。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corridor"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白D4孤子独立存在，距离黑Q3甚远，尚未构成威胁或联络，属待发展孤子。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "white_isolated",
+        "long_range_potential"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_group_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无子，低优先级区域，当前无战术意义。",
+      "shapes": [],
+      "local_tags": [
+        "vacant"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "全空，无子，与Q3距离较远，尚不构成关联。",
+      "shapes": [],
+      "local_tags": [
+        "vacant"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

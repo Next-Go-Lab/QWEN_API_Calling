@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_047",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 47,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F3"
+      },
+      {
+        "color": 1,
+        "point": "B4"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "黑棋主动",
+      "白棋厚势"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上大模样构建"
+    ],
+    "global_summary_cn": "第47手，黑方Yu Zhengqi执黑刚于K4落子，白方Fujisawa Rina即将在K3应手。当前局面呈现多点对抗：右下角（F3–K4一带）形成激烈接触战，黑棋在J3、K4、L6等处构筑攻击阵型，白棋以F3、D4、D6、E6组成弹性防线；左上角黑棋Q15–R18与白棋R15–S19对峙，黑棋略占实地，白棋保留侵消余地；中腹尚空旷但黑有M6、N6、L6等子向中心辐射，白棋L11、N10构成潜在厚壁。全局无明显死活危机，属典型中盘战略相持阶段。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开试探与定型，尚未进入大规模攻杀或收官，胜负关键在于后续对右下角战斗的处理效率及中腹潜力转化能力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q15–R18连片成势，白棋R15–S19贴身压制，形成大模样对峙；D16、J16两颗白子遥相呼应，意在限制黑势发展。",
+      "shapes": [
+        "territory_outline"
+      ],
+      "local_tags": [
+        "黑棋大模样",
+        "白棋浅消",
+        "高位对峙"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "R17",
+        "R16",
+        "S19",
+        "S18",
+        "R15",
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，仅白棋S13、S14零星占据边线，黑棋无子，属待开发地带；S13–S14可能成为未来白棋扩张支点。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "空白大场",
+        "潜在扩张点"
+      ],
+      "key_points": [
+        "S13",
+        "S14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S19、R18、S18构成右上角守势，黑棋R18为共用眼位；该处已大致定型，白棋小实地稳固。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "白棋守角",
+        "定型完成",
+        "小目守角变体"
+      ],
+      "key_points": [
+        "R18",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C6、D7与白棋D4、D6、E6形成斜向对峙；C6–D7–L6构成黑棋外势骨架，白棋D4–E6试图封锁但气较紧。",
+      "shapes": [
+        "diagonal_fight"
+      ],
+      "local_tags": [
+        "黑棋外势",
+        "白棋封锁尝试",
+        "气紧对峙"
+      ],
+      "key_points": [
+        "C6",
+        "D4",
+        "D6",
+        "E6",
+        "D7",
+        "L6"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹完全空旷，黑棋M6、N6、L6、M5等子呈辐射状指向中央，白棋L11、N10构成远距离厚势，双方均未深入，属战略制高点争夺前夜。",
+      "shapes": [
+        "central_influence_zone"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "双方影响力交汇",
+        "战略要冲"
+      ],
+      "key_points": [
+        "L6",
+        "M6",
+        "N6",
+        "M5",
+        "L11",
+        "N10"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋K4、K5、J3与白棋L4、L5、M3、N3、N4、O5围成复杂接触战；K4为最新一手，黑棋意图扩大攻击或做活，白棋需谨慎应对。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防转换点",
+        "K4急所"
+      ],
+      "key_points": [
+        "K4",
+        "K5",
+        "J3",
+        "L4",
+        "L5",
+        "M3",
+        "N3",
+        "N4",
+        "O5"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B4孤子单立，白棋D4、F3呼应，黑棋暂无配合；该处为薄弱环节，黑需补强或弃子取势。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "黑棋孤子",
+        "白棋牵制",
+        "待补弱点"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋P4、O4、R4、Q3与白棋P2、M3、N3构成下边大型纠缠；黑棋四子横向铺开具速度，白棋P2为低位守角，整体呈黑快白厚格局。",
+      "shapes": [
+        "side_framework"
+      ],
+      "local_tags": [
+        "黑棋速度优势",
+        "白棋低位实利",
+        "边路拉锯"
+      ],
+      "key_points": [
+        "P4",
+        "O4",
+        "R4",
+        "Q3",
+        "P2",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "black_fast",
+        "white_solid"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R12–R14、S12–S13与白棋S13–S14、R15交错，形成右下角混战核心区；黑棋R12–R14试图打入，白棋S13–R15反夹，K3为下一关键应手。",
+      "shapes": [
+        "corner_invasion"
+      ],
+      "local_tags": [
+        "右下角主战场",
+        "黑棋打入",
+        "白棋反夹",
+        "K3急所"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "R14",
+        "S12",
+        "S13",
+        "R15",
+        "K3"
+      ],
+      "group_status": [
+        "black_invading",
+        "white_containing"
+      ]
+    }
+  ]
+}

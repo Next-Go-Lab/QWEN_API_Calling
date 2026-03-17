@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_016",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 16,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R13"
+      },
+      {
+        "color": 0,
+        "point": "S13"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "R15"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "right_side_pressure",
+      "center_influence_building"
+    ],
+    "global_summary_cn": "黑棋在右上角与白棋形成激烈接触战，黑棋R12、R13、S12等子构成攻击阵型，白棋R15、S13、S14呈防守反击态势；左上D16与右下P4/R4形成对称布局雏形；全局尚未形成大模样，处于势力划分关键阶段。",
+    "phase_explanation": "第16手，黑方即将落子Q15，意在切断白棋R15与S14的联络，扩大右上攻势，同时兼顾向中腹渗透。当前为布局中期向中盘过渡阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D16孤子，黑Q16/Q17构成小飞守角，局部平稳。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "white_isolated",
+        "black_corner_secure"
+      ],
+      "key_points": [
+        "D16",
+        "Q16",
+        "Q17"
+      ],
+      "group_status": [
+        "white_weak_group",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "J16为白棋打入点，但未形成有效根据地；黑无子，属空白发展带。",
+      "shapes": [
+        "side_entry"
+      ],
+      "local_tags": [
+        "white_invasion",
+        "under_development"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": [
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈交战区：黑R12/R13/S12，白R15/S13/S14/R16/R17，Q15为紧要断点。",
+      "shapes": [
+        "ladder",
+        "net",
+        "eye_shape_threat"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "cutting_point",
+        "life_and_death_tension"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "S12",
+        "R15",
+        "S13",
+        "S14",
+        "Q15",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "both_unsettled",
+        "mutual_sente"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子，潜在黑棋拆二或白棋镇头区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty_zone",
+        "future_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未被任何一方有效影响。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_center",
+        "potential_eye_space"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "Q15下方至R10一带为空白，但临近右上战场，具延伸性压力。",
+      "shapes": [
+        "extension"
+      ],
+      "local_tags": [
+        "pressure_zone",
+        "follow_up_area"
+      ],
+      "key_points": [
+        "Q15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑P4/R4与白D4构成低位对称配置，黑稍占实地优势。",
+      "shapes": [
+        "low_side",
+        "mirror"
+      ],
+      "local_tags": [
+        "black_sente_ground",
+        "white_passive"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "D4"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，属中腹预备战场。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_potential"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子，尚未激活。",
+      "shapes": [],
+      "local_tags": [
+        "dormant",
+        "late_development"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

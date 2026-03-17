@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_020",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 20,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      },
+      {
+        "color": 0,
+        "point": "E5"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "P4",
+      "C5",
+      "D5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "C6",
+      "D6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "fighting",
+      "corner_conflict",
+      "center_influence"
+    ],
+    "strategic_focus": [
+      "E4_target",
+      "D5_E5_contact_fight",
+      "Q3_Q4_R6_R14_black_framework",
+      "D16_O17_F17_white_upper_right"
+    ],
+    "global_summary_cn": "第20手，黑方即将落子于E4，意图强化对白棋D5-E5集团的压迫；左下与右上角形成黑白各自构筑框架的格局，中腹尚未定型，局部战斗集中在右下角（C3–D4–C4–C5–D5–E5）及左上小目附近（B6–C6–B7）。",
+    "phase_explanation": "开局阶段（前30手），双方在多个角落展开接触战，未形成明显厚势，胜负关键点集中于E4一子对中央势力与右下攻防的影响。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白B7、C6，黑B6构成小规模对峙；白F17、O17、D16在右上延伸，但此区属左上，仅B6/B7/C6三子，属试探性布局。",
+      "shapes": [],
+      "local_tags": [
+        "small_fight",
+        "probe"
+      ],
+      "key_points": [
+        "B6",
+        "B7",
+        "C6"
+      ],
+      "group_status": [
+        "black_weak_group",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子；白F17、O17位于右上，不在此区；本区为典型未开发天元上方区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白D16、O17、F17构成高位联络阵势；黑Q16单子孤立，暂无配合，白占据主动。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "white_framework",
+        "high_position",
+        "black_isolation"
+      ],
+      "key_points": [
+        "D16",
+        "O17",
+        "F17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_lonely"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3、C4、C5、B6与白C6、B7、D6、D5、E5形成密集右下角战区；此处实为中腹偏左下方，但按九宫格划归middle_left（D–G列，7–13行）。",
+      "shapes": [
+        "ladder",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "main_battlefield",
+        "life_death_unclear",
+        "E4_critical"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "C5",
+        "D5",
+        "E5",
+        "D6",
+        "C6",
+        "B6",
+        "B7"
+      ],
+      "group_status": [
+        "mixed_groups",
+        "black_eye_space_thin",
+        "white_squeeze"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点密集，仅E4为待落关键点；周边D5/E5/D6/C6等子辐射影响此区，是未来势力争夺核心。",
+      "shapes": [],
+      "local_tags": [
+        "key_intersection",
+        "influence_hub",
+        "unoccupied"
+      ],
+      "key_points": [
+        "E4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑P4、Q3、R6与白Q4、R14构成松散呼应；P4-Q4为对角张挂，R6-R14为黑大飞守角意向，但尚未闭合。",
+      "shapes": [
+        "diagonal",
+        "loose_framework"
+      ],
+      "local_tags": [
+        "black_framework",
+        "white_response",
+        "asymmetric"
+      ],
+      "key_points": [
+        "P4",
+        "Q3",
+        "Q4",
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3、C4、C5、D3、D4、D5、E5、D6、C6、B6、B7全部位于下侧，但C3–D3–D4属真正左下角；此区含黑C3/D3/白D3/D4，为初始占角。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "corner_fight",
+        "3_3_and_4_4",
+        "early_exchange"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "black_corner",
+        "white_invasion_response"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "E5为最新一手，D5、D6、E4（目标）均在此区；是当前最激烈交火带，黑欲扳头，白欲封锁。",
+      "shapes": [
+        "net",
+        "press"
+      ],
+      "local_tags": [
+        "critical_pressure_zone",
+        "move_20_focus",
+        "tension_peak"
+      ],
+      "key_points": [
+        "D5",
+        "E5",
+        "D6",
+        "E4"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3、R6、Q16、R14分散，白Q4、O17、D16亦跨区；本区实际空旷，仅Q3/R6/Q4三点略近，但无实质连接。",
+      "shapes": [],
+      "local_tags": [
+        "sparse",
+        "transitional"
+      ],
+      "key_points": [
+        "Q3",
+        "Q4",
+        "R6"
+      ],
+      "group_status": []
+    }
+  ]
+}

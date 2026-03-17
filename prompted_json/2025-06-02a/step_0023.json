@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_022",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 22,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E2"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      },
+      {
+        "color": 0,
+        "point": "E5"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E2"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "E4",
+      "P4",
+      "C5",
+      "D5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "C6",
+      "D6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "角部争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角定式后续",
+      "中央潜力争夺",
+      "E2一子引发的攻防转换"
+    ],
+    "global_summary_cn": "第22手，黑方即将落子，局面处于中盘初段。右下角（C3–E5区域）形成激烈接触战，白棋在D3、D4、E2、E5构成厚壁，黑棋C5、D5、E4试图侵消；左上与右上存在分散布局，全局尚未形成明显大模样。",
+    "phase_explanation": "当前为中盘初段，双方围绕右下角展开局部战斗，黑棋掌握主动权（to_play=1），需应对白棋厚势下的反击可能；F4是政策目标点，意在打入白棋势力腹地。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑Q16、白D16、F17、O17呈分散配置，无直接接触，属布局余味区域。",
+      "shapes": [],
+      "local_tags": [
+        "布局余味",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中腹上方空旷，仅白O17、F17略带影响，无实质集团，属待发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在大场"
+      ],
+      "key_points": [
+        "O17",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R14、R6、P4与白Q4形成轻微对峙，但距离较远，尚未构成攻防焦点。",
+      "shapes": [],
+      "local_tags": [
+        "松散对峙",
+        "低优先级"
+      ],
+      "key_points": [
+        "R14",
+        "R6",
+        "P4",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C3、C4、C5、B6与白C6、B7形成小规模角部对抗，黑稍占实地，白有外势潜力。",
+      "shapes": [
+        "L-shape"
+      ],
+      "local_tags": [
+        "角部定式尾声",
+        "黑实利",
+        "白外势"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "C5",
+        "B6",
+        "C6",
+        "B7"
+      ],
+      "group_status": [
+        "black_group_stable",
+        "white_group_light"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，近期无落子，但F4为政策目标点，预示即将在此处展开打入或拆逼。",
+      "shapes": [],
+      "local_tags": [
+        "战略要冲",
+        "待开发"
+      ],
+      "key_points": [
+        "F4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q3、P4与白Q4构成低位对峙，黑有连络意向，白Q4为守角兼窥视下方。",
+      "shapes": [],
+      "local_tags": [
+        "低位对峙",
+        "连络试探"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C3–C5与白D3、D4、D6形成典型‘无忧角’对抗变体，黑E4、白E5、E2构成激烈接触战核心。",
+      "shapes": [
+        "knight_move",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "厚薄对比明显"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "C5",
+        "D3",
+        "D4",
+        "D6",
+        "E4",
+        "E5",
+        "E2"
+      ],
+      "group_status": [
+        "black_group_vulnerable",
+        "white_wall_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下腹空旷，仅有黑E4、白E5、E2等残子延伸至此，F4正位于此区上沿，为下一战关键入口。",
+      "shapes": [],
+      "local_tags": [
+        "战线前沿",
+        "打入预备点"
+      ],
+      "key_points": [
+        "E4",
+        "E5",
+        "E2",
+        "F4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角无子，完全空旷，属远期大场，当前无战术意义。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "远期"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

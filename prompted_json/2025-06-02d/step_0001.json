@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_000",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 0,
+    "to_play": 1,
+    "last_move": null,
+    "recent_moves": [],
+    "black_stones": [],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "R16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "opening",
+      "empty_board",
+      "first_move_target"
+    ],
+    "strategic_focus": [
+      "corner_play",
+      "influence_vs_territory"
+    ],
+    "global_summary_cn": "棋盘为空，对局尚未开始，黑方即将落子，目标点为R16（右上角小目）。",
+    "phase_explanation": "处于布局阶段起始点，无任何实地或势力结构，全局对称开放。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力，属潜在开局点之一。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "D16",
+        "D4",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中央区域完全空置，尚未形成任何方向性倾向。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "K16",
+        "J16",
+        "L16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角存在目标点R16，为典型小目位置，预示黑方可能在此展开布局。",
+      "shapes": [],
+      "local_tags": [
+        "target_corner",
+        "hoshi_variation"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹开阔，无子力分布，属未来势力延伸区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "D10",
+        "E10",
+        "F10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "棋盘中心完全空置，星位与天元均未落子，全局平衡未被打破。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "K10",
+        "TENGEN"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹空旷，与top_right区域相邻，可能成为后续挂角或拆边的关联区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "R10",
+        "Q10",
+        "P10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空置，对称于top_right，暂无布局信号。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "D3",
+        "Q3",
+        "D13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央无子，与top_center对称，尚未出现方向性发展。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "K3",
+        "J3",
+        "L3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空置，对称于top_left，当前无战略活动。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R13"
+      ],
+      "group_status": []
+    }
+  ]
+}

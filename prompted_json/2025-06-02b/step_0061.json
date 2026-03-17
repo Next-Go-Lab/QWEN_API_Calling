@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_060",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 60,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B6"
+      },
+      {
+        "color": 0,
+        "point": "C8"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "F8"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "T16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "左上黑空潜力"
+    ],
+    "global_summary_cn": "第60手，黑方即将落子，局面处于中盘关键阶段。黑棋在左上、右上及中腹形成多块厚势，白棋则在右下、中腹偏右构筑厚壁并保持外势张力；双方在E8附近刚完成连续接触战，中央数子呈对峙态势。",
+    "phase_explanation": "当前为中盘中后期，双方已完成大致布局，进入实地与外势的平衡博弈阶段；黑棋稍占实地优势（最终B+R），但白棋中腹厚势仍有潜在攻击价值。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋K2、B4、B5、B6、C3、C6等构成稳固左上阵势，Q16-Q18、R12-R14形成大模样雏形；白棋J16、D16零星侵入但未深入。",
+      "shapes": [
+        "corner_framework",
+        "large_influence"
+      ],
+      "local_tags": [
+        "黑模様",
+        "高位拆边",
+        "白浅消"
+      ],
+      "key_points": [
+        "B4",
+        "C3",
+        "Q16",
+        "J16"
+      ],
+      "group_status": [
+        "alive",
+        "influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑Q15-Q18、R18与白R15、R16、S13-S14、S18-S19激烈交错，右上角尚未净活，存在劫争或搜根可能；白S19为高目守角，黑Q17为尖顶试探。",
+      "shapes": [
+        "unresolved_corner",
+        "edge_fighting"
+      ],
+      "local_tags": [
+        "角部未定",
+        "白高目",
+        "黑尖顶"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "S18",
+        "Q17"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白S19、S18、R17、R16与黑Q18、Q17、R18形成密集接触，白棋外势厚实但眼位不足；黑棋有断点隐患，如T16为潜在打入点。",
+      "shapes": [
+        "thick_wall",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑待补",
+        "T16要点"
+      ],
+      "key_points": [
+        "T16",
+        "R17",
+        "S19",
+        "Q18"
+      ],
+      "group_status": [
+        "thick",
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑D7、C3-C6、B4-B6与白C5、C7-C8、D4-D6形成中腹左侧缠斗带；E8为最新白子，F8为黑应手，此处已成局部主战场。",
+      "shapes": [
+        "contact_fight",
+        "central_ladder"
+      ],
+      "local_tags": [
+        "E8接触点",
+        "F8反夹",
+        "C7断点"
+      ],
+      "key_points": [
+        "E8",
+        "F8",
+        "C7",
+        "D7"
+      ],
+      "group_status": [
+        "fighting",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央无明确大空，黑F8、D7与白E8、E9、D6、E6构成十字交叉状对峙；L6-M6-N6黑厚势向中腹辐射，白L5-M5-O5呼应，但中央控制权尚不明确。",
+      "shapes": [
+        "cross_shaped_fight",
+        "influence_overlap"
+      ],
+      "local_tags": [
+        "中央对称",
+        "厚薄对比",
+        "眼位紧张"
+      ],
+      "key_points": [
+        "E8",
+        "F8",
+        "D7",
+        "L6"
+      ],
+      "group_status": [
+        "contested",
+        "unclear_eye"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白N10、L11与黑R12-R14、Q15构成右中腹势力分界；黑棋试图扩张，白棋L11跳守兼顾联络与限制，此区为双方外势延伸交汇处。",
+      "shapes": [
+        "influence_boundary",
+        "extension_race"
+      ],
+      "local_tags": [
+        "黑扩张",
+        "白跳守",
+        "分界线"
+      ],
+      "key_points": [
+        "N10",
+        "L11",
+        "R12",
+        "Q15"
+      ],
+      "group_status": [
+        "stable",
+        "borderline"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑K2、K3-K6、J3与白P2、F3、L3-M3-N3形成左下复杂结构；黑K4-K6连片厚实，白F3-P2为低位拆二，实地扎实但缺乏发展。",
+      "shapes": [
+        "low_side_framework",
+        "solid_territory"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白实地",
+        "低位稳健"
+      ],
+      "key_points": [
+        "K4",
+        "P2",
+        "F3",
+        "K2"
+      ],
+      "group_status": [
+        "alive",
+        "territorial"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑O4-P4-Q3-R4与白N4-L4-D4构成下边攻防；黑棋Q3-R4为高拆，白D4为小飞守角，中间O5、N5、M5白子形成横向厚壁，压制黑下方发展。",
+      "shapes": [
+        "side_thick_wall",
+        "high_vs_low"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑高拆",
+        "D4守角"
+      ],
+      "key_points": [
+        "D4",
+        "O4",
+        "Q3",
+        "N5"
+      ],
+      "group_status": [
+        "thick",
+        "restrained"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白S13-S14、R15与黑R12-R14、Q15形成右下角未定型区域；黑R14压、Q15扳为积极手段，白S14长、R15立属应对，局部仍存变化。",
+      "shapes": [
+        "corner_fighting",
+        "press_and_cut"
+      ],
+      "local_tags": [
+        "右下未定",
+        "黑压扳",
+        "白长立"
+      ],
+      "key_points": [
+        "R14",
+        "Q15",
+        "S14",
+        "R15"
+      ],
+      "group_status": [
+        "unsettled",
+        "tactical"
+      ]
+    }
+  ]
+}

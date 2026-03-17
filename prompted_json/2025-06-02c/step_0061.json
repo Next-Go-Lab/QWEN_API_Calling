@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_060",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 60,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "D6"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D6",
+      "E7",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋求活"
+    ],
+    "strategic_focus": [
+      "C8点攻防焦点",
+      "右下角对杀未定",
+      "中央黑棋薄味"
+    ],
+    "global_summary_cn": "第60手，黑方即将落子于C8，局面处于中盘关键阶段。白棋在右下与左上形成厚势，黑棋在中腹及右侧构筑大模样但存在断点；C7刚被白棋占据，与D6、E7等黑子形成近身接触，局部紧张。全局无明显死活定型，多处存在劫争与对杀可能。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方在多个区域展开接触战，尚未进入官子阶段。黑棋需处理C8附近数子联络与眼位问题，白棋则意图借势扩张或搜根。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋Q3、R4、R5与白棋Q5、Q6形成小规模对峙，黑棋有拆二潜力，白棋Q6压强，局部平稳。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "黑拆二",
+        "白压迫"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑F10、E11、F11、D11与白E10、D10、Q10零星分布，黑棋试图向中腹张势，白棋Q10守角兼瞄断。",
+      "shapes": [
+        "floating_group",
+        "influence_projection"
+      ],
+      "local_tags": [
+        "黑势向中腹",
+        "白守角反制"
+      ],
+      "key_points": [
+        "F10",
+        "E11",
+        "D10",
+        "Q10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q13、Q14、Q17与白Q10、P14、P16、P17构成复杂接触，黑棋三子斜跳，白棋P线厚壁成形，黑Q17孤高易受攻。",
+      "shapes": [
+        "ladder_shape",
+        "wall_vs_floating"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑孤棋"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "P14",
+        "P16",
+        "Q17"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑C10、C12、C13、D13、D14与白C4、D4、C7、B11、B12、B13、C11、C14、C15密集交战；C7为最新白子，直刺黑阵腹心，威胁C8、B8等要点。",
+      "shapes": [
+        "invasion",
+        "neck_cut"
+      ],
+      "local_tags": [
+        "白侵分",
+        "黑联络危急"
+      ],
+      "key_points": [
+        "C7",
+        "C8",
+        "D6",
+        "D8",
+        "E7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑E7、D6、E9（白）、G9（白）交错，黑棋D6-E7一线薄弱，白E8、E9、G9呈雁行取势，中央控制权待定。",
+      "shapes": [
+        "cross_cut",
+        "influence_race"
+      ],
+      "local_tags": [
+        "中央争夺",
+        "黑薄味"
+      ],
+      "key_points": [
+        "D6",
+        "E7",
+        "E8",
+        "E9",
+        "G9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J14、K14、J15、K15、M15与白K14、K15、M15同形对顶，黑H16、L17与白D16、P16互瞄，局部呈双活雏形但未定型。",
+      "shapes": [
+        "mutual_life_hint",
+        "territory_contest"
+      ],
+      "local_tags": [
+        "对顶平衡",
+        "未定双活"
+      ],
+      "key_points": [
+        "J14",
+        "K14",
+        "J15",
+        "K15",
+        "H16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5、C4（白）、D4（白）、O3、R3（无，实为O3/Q3）等构成低段布局，黑O3、Q3、R4已活，白C4、D4守角稳固，无激烈冲突。",
+      "shapes": [
+        "living_corner",
+        "secure_base"
+      ],
+      "local_tags": [
+        "黑活角",
+        "白守角"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F17、L17、Q17与白F3、F15、D16、P16形成纵向牵制；黑F17孤立，白F15、D16呼应，黑L17与Q17间距过大，联络存疑。",
+      "shapes": [
+        "disconnected_group",
+        "vertical_pressure"
+      ],
+      "local_tags": [
+        "黑分散",
+        "白纵向施压"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "F15",
+        "D16"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R5、R6（白）、R12、R16与白Q5、Q6、R6、Q10、P14等形成大规模混战区；黑R12-C12一线被白B11-B13压制，黑R16孤高，白P16、P17厚势逼迫黑棋做活。",
+      "shapes": [
+        "life_and_death_struggle",
+        "surrounding_wall"
+      ],
+      "local_tags": [
+        "右下对杀",
+        "白厚势围攻"
+      ],
+      "key_points": [
+        "R5",
+        "R6",
+        "R12",
+        "R16",
+        "P16"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    }
+  ]
+}

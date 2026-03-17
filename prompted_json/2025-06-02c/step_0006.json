@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_005",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 5,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "F17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16",
+      "F17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "C14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布局",
+      "星位与小目混合",
+      "高低配合"
+    ],
+    "strategic_focus": [
+      "右上角势力构建",
+      "左下角潜在挂角点",
+      "中腹未落子"
+    ],
+    "global_summary_cn": "黑方三子分占右上（R16）、左下（Q3）和右上高（F17），白方两子占据左上（D16）与右下（D4），形成对角呼应；当前为布局早期，双方尚未接触，重点在大场选择与势力平衡。",
+    "phase_explanation": "第5手，黑刚落子F17，属高挂或守角意图；白下一步可能于C14（policy_target）夹击右上黑棋，或抢占天元附近大场。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D16位于此区，属小目守角，结构完整；无其他子，属安静守势区域。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白守角",
+        "小目"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子；临近D16与F17，未来可能成为白方拆边或黑方压长方向。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R16与F17同在此区，构成高位双子配置；R16为星位，F17为高挂/守角延伸，具外势潜力。",
+      "shapes": [
+        "two-stone-extension"
+      ],
+      "local_tags": [
+        "黑双子",
+        "高位配合",
+        "外势雏形"
+      ],
+      "key_points": [
+        "R16",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷；D4白子位于本区最下方，属低位守角，与D16形成对角呼应。",
+      "shapes": [],
+      "local_tags": [
+        "白低位守角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷；无任何着子，是全局最大未争大场，后续争夺焦点。",
+      "shapes": [],
+      "local_tags": [
+        "空中心",
+        "战略要地"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷；临近Q3与R16，是黑左下与右上联络的潜在通道。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑Q3位于此区，属小目守角；孤立但结构坚实，具备发展基础。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑守角",
+        "小目"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷；Q3斜向延伸方向，未来黑可能拆二或白挂角。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷；当前无子，但C14（policy_target）位于本区偏上位置，暗示白将在此发动攻击。",
+      "shapes": [],
+      "local_tags": [
+        "待攻区域",
+        "潜在夹击点"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": []
+    }
+  ]
+}

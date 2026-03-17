@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_013",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 13,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "S14"
+      },
+      {
+        "color": 1,
+        "point": "R13"
+      },
+      {
+        "color": 0,
+        "point": "S13"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "R13",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S13",
+      "S14",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边路激战",
+      "右上角争夺",
+      "黑棋厚势",
+      "白棋拆二"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "黑棋中腹潜力",
+      "白棋下边薄弱"
+    ],
+    "global_summary_cn": "第13手，黑方刚于R12落子，形成右上角连续紧逼；黑棋在R12–R14–Q16一线构筑厚势，白棋S13–S14–R16呈小飞守角但略显单薄；全局尚未形成大模样，处于布局早期激烈接触阶段。",
+    "phase_explanation": "布局阶段，双方聚焦右上角，黑棋主动压迫，白棋应对偏重实地，中腹与下边尚未展开，存在J16等大场待选。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16、D4两颗白子分居上下，孤立无援；Q17、Q16黑子构成左上小堡垒，但未连通。",
+      "shapes": [],
+      "local_tags": [
+        "分散",
+        "未连通"
+      ],
+      "key_points": [
+        "D16",
+        "D4",
+        "Q16",
+        "Q17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：黑R12–R13–R14–Q16与白R16–R17–S14–S13形成密集对峙，黑棋占据攻击主动。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "压迫链",
+        "角部缠斗"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "R14",
+        "Q16",
+        "R16",
+        "R17",
+        "S14",
+        "S13"
+      ],
+      "group_status": [
+        "黑棋连通",
+        "白棋松散"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧及中央偏左区域全空，无子，为后续势力延伸关键通道。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略通道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何着子，是未来中腹作战核心区域。",
+      "shapes": [],
+      "local_tags": [
+        "绝对空点",
+        "中腹中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹（K–O列，10–15行）空旷，仅目标点J16位于此区边缘，具发展潜力。",
+      "shapes": [],
+      "local_tags": [
+        "潜在大场",
+        "发展区"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角P4、R4黑子呈低位小飞守角，结构稳固但范围有限。",
+      "shapes": [
+        "small_knight"
+      ],
+      "local_tags": [
+        "守角",
+        "低位",
+        "稳固"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑棋成活"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段（E–M列，3–6行）空旷，黑P4/R4与白D4之间留有广阔发展余地。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "低位潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角全空，无子，属全局最晚开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "远期大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

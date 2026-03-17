@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_222",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 222,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B3"
+      },
+      {
+        "color": 0,
+        "point": "B1"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "F9"
+      },
+      {
+        "color": 1,
+        "point": "G9"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "E2",
+      "G2",
+      "J2",
+      "K2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "G9",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "T12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "B1",
+      "K1",
+      "C2",
+      "D2",
+      "L2",
+      "P2",
+      "D3",
+      "E3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "C4",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "F9",
+      "J9",
+      "K9",
+      "M9",
+      "N9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "Q14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑棋优势",
+      "实地与外势平衡"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上角未定型"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋凭借前期厚势和实地积累保持微弱优势；右下角（F9–G9–F17）形成复杂劫争与官子争夺焦点，中腹黑棋厚势尚未完全转化为实地，左上角（A1–C3）仍有数处未定型接触战。",
+    "phase_explanation": "第222手，黑方即将落子，白方刚于F17补强右下，黑方此前在B3、F16连续施压。当前局面属典型细棋收官期，胜负取决于局部劫材储备与单官价值判断。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角存在黑白交错小飞挂与夹击，A1、B1、C1、B2、C2、C3等点构成未净活的接触战区域，黑C3与白B1/B2形成对峙。",
+      "shapes": [
+        "corner_enclosure",
+        "incomplete_eye_shape"
+      ],
+      "local_tags": [
+        "未定型",
+        "攻防转换点",
+        "潜在劫材源"
+      ],
+      "key_points": [
+        "A1",
+        "B1",
+        "C3"
+      ],
+      "group_status": [
+        "black_weak_group",
+        "white_sente_potential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（D10–J12）黑棋呈厚势但无明确根据地，白棋K10–L11–M11构成薄味，双方在此处均未深入经营。",
+      "shapes": [
+        "thick_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "外势待用",
+        "轻灵白棋",
+        "黑棋厚味"
+      ],
+      "key_points": [
+        "J10",
+        "K11",
+        "M11"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角（Q15–T19）黑棋占据大模样，白棋S19/T19为侵消试探，黑Q16/R17与白R16/S16形成对峙，局部尚有余味。",
+      "shapes": [
+        "moyo",
+        "invasion_attempt"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白侵消未果",
+        "边空未封口"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "S19"
+      ],
+      "group_status": [
+        "black_moyo",
+        "white_invasion_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边（B4–D7）黑棋连片但气紧，白C4/D4/E3形成低位封锁，黑B3/C3/D7为联络要点，存在断点风险。",
+      "shapes": [
+        "ladder_shape",
+        "connection_point"
+      ],
+      "local_tags": [
+        "黑棋联络关键",
+        "白棋封锁线",
+        "潜在征子"
+      ],
+      "key_points": [
+        "B3",
+        "C4",
+        "D7"
+      ],
+      "group_status": [
+        "black_connected_but_thin",
+        "white_sealing_wall"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央（E5–H11）为全盘战略要冲，黑F7/G7/H8与白E7/H7/J7犬牙交错，E5为政策目标点，是双方厚薄转换与眼位争夺核心。",
+      "shapes": [
+        "central_influence",
+        "eye_shape_contest"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "眼位争夺",
+        "厚薄分界"
+      ],
+      "key_points": [
+        "E5",
+        "F7",
+        "H7"
+      ],
+      "group_status": [
+        "mixed_influence",
+        "mutual_threat"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（K10–P14）黑棋K10/L10/M10与白K12/L12/M12形成平行对峙，黑O10/P11与白N12/O12构成小规模缠斗，实地归属未明。",
+      "shapes": [
+        "parallel_wall",
+        "local_fight"
+      ],
+      "local_tags": [
+        "平行对峙",
+        "小规模接触战",
+        "实地模糊"
+      ],
+      "key_points": [
+        "K10",
+        "N12",
+        "P11"
+      ],
+      "group_status": [
+        "balanced_local_fight",
+        "no_clear_owner"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（B1–G3）已基本定型：白B1/C2/D2与黑B2/C3/E2构成典型‘无忧角’变体，黑棋稍厚但白棋有先手搜根潜力。",
+      "shapes": [
+        "corner_enclosure",
+        "standard_pattern"
+      ],
+      "local_tags": [
+        "定式完成",
+        "白棋先手余味",
+        "黑棋实利"
+      ],
+      "key_points": [
+        "B1",
+        "B2",
+        "C3"
+      ],
+      "group_status": [
+        "settled_black_corner",
+        "white_sente_remnant"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（F4–J6）黑棋F4/F5/G5/G6与白F3/F6/G4形成密集接触，黑J4/K4与白J6/K3构成横向牵制，此处为近期频繁落子区。",
+      "shapes": [
+        "dense_contact",
+        "cross_cut"
+      ],
+      "local_tags": [
+        "近期激战区",
+        "气紧对杀",
+        "断点密集"
+      ],
+      "key_points": [
+        "F4",
+        "F6",
+        "J4"
+      ],
+      "group_status": [
+        "fighting_groups",
+        "mutual_vulnerability"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（D9–F17）为当前最激烈战场：白F9/E9/D9与黑F10/G9/G10形成劫争雏形，白F17为最新补棋，黑G9与白F9/F17构成典型‘倒脱靴’相关劫材链。",
+      "shapes": [
+        "ko_fight",
+        "sacrifice_shape"
+      ],
+      "local_tags": [
+        "主战场",
+        "劫争焦点",
+        "倒脱靴关联"
+      ],
+      "key_points": [
+        "F9",
+        "G9",
+        "F17"
+      ],
+      "group_status": [
+        "active_ko",
+        "life_and_death_unclear"
+      ]
+    }
+  ]
+}

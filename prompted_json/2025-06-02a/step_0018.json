@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_017",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 17,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "C5"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "P4",
+      "C5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "Q4",
+      "C6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "C5_pressure",
+      "Q4_contest",
+      "bottom_left_framework"
+    ],
+    "global_summary_cn": "第17手，黑方刚于C5落子施压，白方上一手在B7应，双方在左下角（C3-C6-B6-B7）形成局部缠斗；右上角Q4/P4/C6/B7一带出现交叉争夺；黑棋在右下Q16、R14布有低位大场，白棋D16、F17、O17呼应成势。",
+    "phase_explanation": "布局中期，双方尚未完成大模样构建，焦点集中于左下角攻防与右上边线控制权争夺，D6为潜在急所，可能用于切断或补强。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D3/D4与黑C3/C4构成经典小目定式雏形，无激烈接触。",
+      "shapes": [
+        "small_enclosure"
+      ],
+      "local_tags": [
+        "quiet",
+        "foundation"
+      ],
+      "key_points": [
+        "D3",
+        "D4",
+        "C3",
+        "C4"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白F17/O17与黑Q16/R14形成高低配合，白棋试图向中腹延伸，黑棋保持低位厚势。",
+      "shapes": [
+        "asymmetric_framework"
+      ],
+      "local_tags": [
+        "white_influence",
+        "black_thickness"
+      ],
+      "key_points": [
+        "F17",
+        "O17",
+        "Q16",
+        "R14"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷，仅黑Q16、R14与白O17、F17遥相呼应，暂无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "open",
+        "potential_extension"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "核心战场：黑C5、B6、C4、C3 vs 白C6、B7、D4，形成紧凑对杀结构，D6为关键断点。",
+      "shapes": [
+        "ladder_setup",
+        "net_shape"
+      ],
+      "local_tags": [
+        "tension",
+        "vital_point_D6",
+        "black_attack"
+      ],
+      "key_points": [
+        "C5",
+        "B6",
+        "C6",
+        "B7",
+        "D6"
+      ],
+      "group_status": [
+        "fighting",
+        "uncertain_life"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，为未来势力辐射中心。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "future_eye_space"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q4、P4与黑Q4同型争点，白已占Q4，黑P4反夹，形成边路对峙。",
+      "shapes": [
+        "pincer"
+      ],
+      "local_tags": [
+        "edge_contest",
+        "white_holding"
+      ],
+      "key_points": [
+        "Q4",
+        "P4"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3/C4/C5/B6与白D3/D4/C6/B7密集交战，黑略占主动，白需处理B7孤棋。",
+      "shapes": [
+        "clump",
+        "sacrifice_feel"
+      ],
+      "local_tags": [
+        "complex",
+        "black_dominant"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "C5",
+        "B6",
+        "D3",
+        "D4",
+        "C6",
+        "B7"
+      ],
+      "group_status": [
+        "unresolved",
+        "life_and_death_critical"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅黑R6一子孤立，暂无配合，属待发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_stone",
+        "latent_influence"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3与白D3/D4分居两侧，无直接关联；Q3为低位守角，D3/D4为高位小目，风格迥异。",
+      "shapes": [
+        "separate_corners"
+      ],
+      "local_tags": [
+        "quiet",
+        "non_interaction"
+      ],
+      "key_points": [
+        "Q3",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    }
+  ]
+}

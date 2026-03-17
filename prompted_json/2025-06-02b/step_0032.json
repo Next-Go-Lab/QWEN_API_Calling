@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_031",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 31,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "M6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O5"
+      },
+      {
+        "color": 1,
+        "point": "O4"
+      },
+      {
+        "color": 0,
+        "point": "M5"
+      },
+      {
+        "color": 1,
+        "point": "N6"
+      },
+      {
+        "color": 0,
+        "point": "L4"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "O4",
+      "P4",
+      "R4",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "M3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "白棋上边厚味转化"
+    ],
+    "global_summary_cn": "第31手，黑方刚于M6落子，形成右下角复杂接触战；白棋在上边D4、D16、J16、R16-R18构筑厚势，黑棋则在右下Q15-Q18及R12-R14展开实地扩张与侵消。当前局面重心集中于右下角（O4–L4–M5–N6–M6）的短兵相接，双方数子纠缠，存在劫争隐患与眼位争夺。",
+    "phase_explanation": "中盘初期，双方完成大致布局，进入局部战斗主导阶段；右下为当前最激烈交点，中腹尚未定型但已有潜在势力辐射。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅白D4孤子，无集团，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "单官守角",
+        "待发展"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边白棋连成厚势：D16、J16、R16、R17、S18、S19构成大模样，黑Q15–Q18、R12–R14反向压缩。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑压缩",
+        "模样对抗"
+      ],
+      "key_points": [
+        "D16",
+        "J16",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "S13",
+        "S14",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_invasion"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上基本空旷，仅黑R18、S19附近有零星子，无实质争夺。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "未涉足"
+      ],
+      "key_points": [
+        "R18",
+        "S19"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中段平静，无双方重点子力，仅黑P4、R4等低位子，白无应手。",
+      "shapes": [],
+      "local_tags": [
+        "低位缓手",
+        "静默区"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央尚无成形势力，黑M4、N5、M6、N6与白M5、N4、O4、O5密集交错，是全局气紧焦点。",
+      "shapes": [
+        "cluster"
+      ],
+      "local_tags": [
+        "气紧集群",
+        "对杀雏形",
+        "潜在劫材"
+      ],
+      "key_points": [
+        "M4",
+        "N5",
+        "M6",
+        "N6",
+        "M5",
+        "N4",
+        "O4",
+        "O5"
+      ],
+      "group_status": [
+        "mutual_life_threat"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹以L4–O5–M6为核心战场，黑O5、M6、N6与白L4、M5、N4、O4反复交换，已形成局部死活难题。",
+      "shapes": [
+        "net"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "眼位争夺",
+        "扳粘定式残留"
+      ],
+      "key_points": [
+        "L4",
+        "M5",
+        "N4",
+        "O4",
+        "O5",
+        "M6",
+        "N6"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何棋子，属完全未启动区域。",
+      "shapes": [],
+      "local_tags": [
+        "空白",
+        "远期潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅黑M4、P4、R4等低位延伸，白无对应子，暂无战略价值。",
+      "shapes": [],
+      "local_tags": [
+        "低位铺垫",
+        "无对抗"
+      ],
+      "key_points": [
+        "M4",
+        "P4",
+        "R4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前主战场：黑O4、P4、R4、N5、M6、N6 vs 白N3、N4、M5、O5、L4，已出现断点与打劫征兆。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "角部死活",
+        "断点密集",
+        "劫争前夜"
+      ],
+      "key_points": [
+        "N3",
+        "N4",
+        "M5",
+        "O4",
+        "O5",
+        "L4",
+        "M4",
+        "P4",
+        "R4",
+        "N5",
+        "M6",
+        "N6"
+      ],
+      "group_status": [
+        "critical_fight",
+        "sente_target_M3"
+      ]
+    }
+  ]
+}

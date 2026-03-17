@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_088",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 88,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F2"
+      },
+      {
+        "color": 0,
+        "point": "H7"
+      },
+      {
+        "color": 1,
+        "point": "G8"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "D3"
+      },
+      {
+        "color": 0,
+        "point": "E4"
+      }
+    ],
+    "black_stones": [
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "E4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角定式余波",
+      "白棋厚势",
+      "黑棋实地优先"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中央潜力判断",
+      "左上厚味转化"
+    ],
+    "global_summary_cn": "第88手，黑方即将落子，局面处于中盘向官子过渡阶段。白棋在右下与中腹形成厚势，黑棋则在左上、中腹及右上占据较多实地。近期连续在E4、D3、F2等低位交锋，显示双方聚焦于边角收官与薄味处理。",
+    "phase_explanation": "当前为中盘后期，双方大模样已基本成形，局部仍有未定型战斗（如右下J6-E4一带），全局胜负取决于实地与厚势的转换效率及最后几处官子价值判断。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C11-C15连片厚势，白棋B3、B5、C9构成低位封锁，但黑有B15-C15-D15-D16跳点潜力。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白封锁链",
+        "低位对峙"
+      ],
+      "key_points": [
+        "B15",
+        "C11",
+        "C9"
+      ],
+      "group_status": [
+        "alive",
+        "influence"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋Q16-R17一线厚壁，黑棋P17-O17-M17呼应，中央上方呈对称厚势对峙；无明显死活问题。",
+      "shapes": [
+        "wall",
+        "ladder"
+      ],
+      "local_tags": [
+        "双厚壁",
+        "对称布局",
+        "无劫争"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "O17"
+      ],
+      "group_status": [
+        "alive",
+        "influence"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q2-R2-R4-Q3构成角部实空，白棋P3-Q4-R3压制但未深入；黑角稳固，白仅存浅消可能。",
+      "shapes": [
+        "corner enclosure",
+        "small eye"
+      ],
+      "local_tags": [
+        "黑实空",
+        "白浅消",
+        "安定"
+      ],
+      "key_points": [
+        "Q2",
+        "R4",
+        "Q4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3-D3-D5-E5-F5连片，白C4-D4-E4-E3-E2围住下方；E4刚被白占据，黑F2-D3正施加压力。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "接触战焦点",
+        "白新占要点",
+        "黑反攻"
+      ],
+      "key_points": [
+        "D3",
+        "E4",
+        "F2"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹空旷，黑G7-G8-S7-S8与白F7-H7-N7-P7形成交错影响区；G8为黑最新打入点，白H7为应手，此处将决定中腹归属。",
+      "shapes": [
+        "influence zone",
+        "potential moyo"
+      ],
+      "local_tags": [
+        "中腹争夺",
+        "打入与应对",
+        "影响力博弈"
+      ],
+      "key_points": [
+        "G8",
+        "H7",
+        "N7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白J6-P6-Q6与黑J4-P4-Q5形成上下夹击态势；右中腹存在未定型战斗，黑若补强则取实地，白若扩张则谋外势。",
+      "shapes": [
+        "squeeze",
+        "framework"
+      ],
+      "local_tags": [
+        "夹击战",
+        "未定型",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "J6",
+        "J4",
+        "Q5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F2-F3-F4-F5与白E2-E3-E4-D4-D3-D5形成密集混战区；E4为白最新一手，黑D3为前一手，局部气紧，存在劫材与对杀风险。",
+      "shapes": [
+        "fighting group",
+        "liberty race"
+      ],
+      "local_tags": [
+        "近身肉搏",
+        "气紧",
+        "劫争温床"
+      ],
+      "key_points": [
+        "F2",
+        "D3",
+        "E4"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑G6与白G6无石，但G7-G8黑厚、F6黑、E6白、D6白、C6白构成斜向势力带；此区域为双方厚味延伸交汇点。",
+      "shapes": [
+        "diagonal influence",
+        "thickness overlap"
+      ],
+      "local_tags": [
+        "厚味交汇",
+        "无直接冲突",
+        "潜在策应"
+      ],
+      "key_points": [
+        "G7",
+        "F6",
+        "C6"
+      ],
+      "group_status": [
+        "influence"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P18-O18-N18与黑Q17-P17构成右下角复杂形势；白有R9-C10-C13一线联络，黑有E14-F14-F15-G15-H15高位阵势，尚未收束。",
+      "shapes": [
+        "framework",
+        "moyo"
+      ],
+      "local_tags": [
+        "右下未定",
+        "高位阵势",
+        "联络与切断"
+      ],
+      "key_points": [
+        "P18",
+        "Q17",
+        "E14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_089",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 89,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "G12"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "G13"
+      },
+      {
+        "color": 0,
+        "point": "H12"
+      },
+      {
+        "color": 1,
+        "point": "E15"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "O12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "E15附近接触战"
+    ],
+    "global_summary_cn": "第89手，黑方刚于E15落子，形成与白棋F15、G13、H12等子的密集接触。全局呈现黑棋在右下和上边积极扩张，白棋依托左上、中腹及右上构建厚势并伺机反击的态势。O12为当前政策目标点，位于中腹偏右，是双方势力消长的关键枢纽。",
+    "phase_explanation": "中盘中后期，局部战斗频繁但尚未进入大规模决战；双方在多个区域保持张力，胜负关键在于中腹效率与边角实地平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在A1–J10区域构筑坚实左上阵势，C3、K3、L3、M3、N3、C5、C7、C8等子形成厚壁，黑棋仅K2、B4、B5、B6零星侵入，暂处守势。",
+      "shapes": [
+        "wall",
+        "thickness"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑浅消",
+        "安定"
+      ],
+      "key_points": [
+        "C3",
+        "K3",
+        "C5",
+        "C7"
+      ],
+      "group_status": [
+        "alive",
+        "connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q3、R4、S12、S13、S14、S15、S16、S18、S19与白棋R15、R16、R17、T17、T18构成右上激烈对峙；黑Q15–Q18连片但略显单薄，白R15–S16封锁线严密。",
+      "shapes": [
+        "ladder",
+        "invasion",
+        "blockade"
+      ],
+      "local_tags": [
+        "黑大龙雏形",
+        "白封锁带",
+        "气紧"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "S15",
+        "T17"
+      ],
+      "group_status": [
+        "unsettled",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋T19空缺，黑T18、S19、R18占据高位，但白S16、R17、T17反向压迫；该区尚未定型，存在劫争或弃子转换可能。",
+      "shapes": [
+        "sacrifice",
+        "potential_eye"
+      ],
+      "local_tags": [
+        "未净活",
+        "劫材关联",
+        "高位对杀"
+      ],
+      "key_points": [
+        "S19",
+        "T18",
+        "R18",
+        "S16"
+      ],
+      "group_status": [
+        "vulnerable",
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑D7、F8、G10、G13、E14、E15与白E6、E9、G12、H12形成中腹左侧主战场；E15最新一手引发连锁反应，F15、G13已接战，黑有向上联络意图。",
+      "shapes": [
+        "contact_fight",
+        "connection_attempt"
+      ],
+      "local_tags": [
+        "主战场",
+        "E列焦点",
+        "黑主动"
+      ],
+      "key_points": [
+        "E15",
+        "F15",
+        "G13",
+        "G12"
+      ],
+      "group_status": [
+        "fighting",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点密集，O12为政策目标，周边无直接子力；但辐射至N10–N12（白）、M10–O11（黑）、L11–M11（白）构成潜在势力交界；此区将决定中腹归属。",
+      "shapes": [
+        "influence_zone",
+        "junction"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "未落子要冲",
+        "影响力博弈"
+      ],
+      "key_points": [
+        "O12",
+        "N11",
+        "M10",
+        "O11"
+      ],
+      "group_status": [
+        "neutral",
+        "contested"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R12、R13、R14、Q16、H14与白N12、N10、L11、M11、S13形成右中腹犬牙交错；黑R12–R14三子呈断点结构，白有N12扳头威胁。",
+      "shapes": [
+        "cut",
+        "sabaki",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "断点隐患",
+        "白扳头机会",
+        "黑需补强"
+      ],
+      "key_points": [
+        "R12",
+        "N12",
+        "R14",
+        "Q16"
+      ],
+      "group_status": [
+        "weak",
+        "needs_defense"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑K2、C3、J3、B4、K4、B5、K5、B6、C6、K6、L6、M6、N6与白P2、F3、K3、L3、M3、N3、D4、L4、N4、C5、L5、M5、O5、D6、E6、C7、C8、E8、E9构成庞大左下角攻防体系；黑棋实地扎实但外势薄弱，白棋厚味明显。",
+      "shapes": [
+        "territory",
+        "thickness",
+        "framework"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白外势",
+        "定式余味"
+      ],
+      "key_points": [
+        "K2",
+        "C3",
+        "D4",
+        "C5",
+        "E6"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑D7孤子深入，白E6、E9、C7、C8围而不攻；该子与上方G10、G13呼应，构成黑棋中腹渗透轴心，但自身气紧，需谨慎处理。",
+      "shapes": [
+        "probe",
+        "light_play"
+      ],
+      "local_tags": [
+        "黑探子",
+        "白待机",
+        "轻重转换点"
+      ],
+      "key_points": [
+        "D7",
+        "E6",
+        "C7",
+        "G10"
+      ],
+      "group_status": [
+        "light",
+        "flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑O4、P4、R4、S12及白N3、N4、O5、N10、M11构成右下角复杂定式后续；黑Q3、R4、S12呈斜飞结构，白N10、M11压强，局部存在打劫或转换可能。",
+      "shapes": [
+        "corner_fight",
+        "ko_threat"
+      ],
+      "local_tags": [
+        "右下未定",
+        "白压迫",
+        "黑腾挪"
+      ],
+      "key_points": [
+        "O4",
+        "N10",
+        "M11",
+        "S12"
+      ],
+      "group_status": [
+        "unsettled",
+        "ko_related"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_098",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 98,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "K10"
+      },
+      {
+        "color": 0,
+        "point": "J10"
+      },
+      {
+        "color": 1,
+        "point": "K11"
+      },
+      {
+        "color": 0,
+        "point": "K12"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "K10",
+      "L10",
+      "M10",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "K12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对杀",
+      "白棋厚势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "L12点刺破眼位",
+      "K12白子孤立",
+      "中央黑龙大龙未净活"
+    ],
+    "global_summary_cn": "局面处于中盘关键阶段，双方在中央及右上激烈缠斗。白棋刚于K12落子，但该子被黑棋L10、K10、K11、J10等子包围，形成局部对杀焦点；黑棋L12为强烈点入手段，意图破坏白棋眼位并威胁K12一子。全局黑棋大龙（含K10-L10-K11-M10-N11等）尚未安定，白棋则依托J16、M16、R16等厚势施压。",
+    "phase_explanation": "第98手，黑方行棋。当前为中盘攻防转换期，胜负手集中于中央K10–N12一带，L12是打破平衡的关键选点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3/F3/C5/C7/C8与黑B4/B5/B6/C6形成低地交界，无激烈冲突。",
+      "shapes": [],
+      "local_tags": [
+        "定式余味",
+        "实地稳固"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "C5"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑Q3/R4/P4/O4与白P2/L3/M3/N3形成宽广接触，黑棋稍厚但未深入，白棋有拆二潜力。",
+      "shapes": [],
+      "local_tags": [
+        "势力对峙",
+        "浅消"
+      ],
+      "key_points": [
+        "Q3",
+        "P2",
+        "O4"
+      ],
+      "group_status": [
+        "黑厚",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16/Q17/Q18/R18/T18与白R15/S15/R16/S16/S17/S18/S19构成复杂边界，黑棋外势庞大，白棋小块需做活。",
+      "shapes": [
+        "corner_eye_shape"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白孤棋",
+        "边空未定"
+      ],
+      "key_points": [
+        "Q16",
+        "S15",
+        "S19"
+      ],
+      "group_status": [
+        "黑厚",
+        "白弱"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑D7/E9与白C7/C8/E6/E8/D4形成断点与联络争斗，黑E14/E15/E17与白D16/D17/C15/F15互相对峙，局势平稳。",
+      "shapes": [],
+      "local_tags": [
+        "平稳对峙",
+        "联络要点"
+      ],
+      "key_points": [
+        "D7",
+        "E9",
+        "E14"
+      ],
+      "group_status": [
+        "黑可连",
+        "白可连"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "全局核心战场：黑K10/L10/K11/M10/N11/O11/P11与白K9/J10/K12/L11/M11/N10/N12/O12形成密集对杀结构；L12为黑方待落之要害点，直指白棋眼形缺陷。",
+      "shapes": [
+        "ladder_fragment",
+        "net_shape",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "对杀中枢",
+        "L12急所",
+        "白棋气紧"
+      ],
+      "key_points": [
+        "K10",
+        "J10",
+        "K12",
+        "L11",
+        "L12"
+      ],
+      "group_status": [
+        "黑攻击中",
+        "白危"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R12/S12/G13/R13与白G12/H12/N12/O12/S13/S14形成上下夹击，黑棋有向上搜根之势，白棋S13-S14一线需补强。",
+      "shapes": [],
+      "local_tags": [
+        "黑压迫",
+        "白薄味"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "S13"
+      ],
+      "group_status": [
+        "黑主动",
+        "白待补"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D18与白C18/H18形成低位接触，黑E17/G17与白D17/J17对峙，局部平静，黑稍占实地。",
+      "shapes": [],
+      "local_tags": [
+        "实地优先",
+        "低挂应对"
+      ],
+      "key_points": [
+        "D18",
+        "E17",
+        "C18"
+      ],
+      "group_status": [
+        "黑实地",
+        "白轻"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下黑F8/G10与白E9/E8/F15形成斜向呼应，黑H14/H16与白J16/M16构成中腹厚薄对比，黑棋略显单薄。",
+      "shapes": [],
+      "local_tags": [
+        "厚薄对比",
+        "中腹延伸"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "H14"
+      ],
+      "group_status": [
+        "黑薄",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑T16/T17/T18与白S18/S19/S17形成角部收束，黑T16为守角要点，白S19为尖顶余味，双方均无明显弱点。",
+      "shapes": [
+        "corner_life_shape"
+      ],
+      "local_tags": [
+        "定型完成",
+        "余味轻微"
+      ],
+      "key_points": [
+        "T16",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "双活",
+        "安定"
+      ]
+    }
+  ]
+}

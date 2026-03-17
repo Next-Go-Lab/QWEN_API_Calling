@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_038",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 38,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F2"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B2"
+      },
+      {
+        "color": 0,
+        "point": "B1"
+      },
+      {
+        "color": 1,
+        "point": "B3"
+      },
+      {
+        "color": 0,
+        "point": "G2"
+      },
+      {
+        "color": 1,
+        "point": "H2"
+      },
+      {
+        "color": 0,
+        "point": "F2"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "H2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角争夺激烈",
+      "下边形成对杀雏形",
+      "白棋厚势但欠实地",
+      "黑棋意图扩张中腹"
+    ],
+    "strategic_focus": [
+      "下边攻防",
+      "右上角未定型",
+      "中腹潜力争夺"
+    ],
+    "global_summary_cn": "第38手，黑方即将落子，当前局面集中在下边（B1–H3一带）展开激烈接触战，黑棋在B2、B3、C3、G3等处构筑外势，白棋以B1、C2、D3、F2等点形成薄味但有弹性。右上角Q3/Q4/D16/O17存在潜在劫争可能；中腹尚空旷，H6为关键打入点。",
+    "phase_explanation": "中盘初期，双方在低位完成布局后转入局部战斗，下边成为主战场，兼具攻防与死活要素；全局尚未进入大规模收官，但已有实地与外势的初步转换迹象。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角较为空旷，仅有黑Q16、白D16、O17散落，暂无明显冲突。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在大场"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边基本无子，仅白F17孤子，属战略冷区。",
+      "shapes": [],
+      "local_tags": [
+        "冷区",
+        "远端孤子"
+      ],
+      "key_points": [
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16与白D16、O17构成不对称配置，存在角部定式余味及潜在劫材关联。",
+      "shapes": [],
+      "local_tags": [
+        "角部余味",
+        "劫材牵连"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹至四路一带稀疏，黑C4/C5/D5与白C6/D6形成上下呼应，但未连接，属潜在缠斗区域。",
+      "shapes": [],
+      "local_tags": [
+        "未连接",
+        "上下呼应"
+      ],
+      "key_points": [
+        "C4",
+        "C5",
+        "D5",
+        "C6",
+        "D6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何着子，是未来势力辐射与打入焦点。",
+      "shapes": [],
+      "local_tags": [
+        "绝对空域",
+        "势力辐射中心"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P4/Q4附近黑白云子交错，Q4为白棋孤立高点，P4为黑棋低配，存在轻重判断空间。",
+      "shapes": [],
+      "local_tags": [
+        "高低对比",
+        "轻重未明"
+      ],
+      "key_points": [
+        "P4",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角B1–C3密集交战：白B1/C2/D3，黑B2/B3/C3/G3，已形成复杂对杀结构，黑有B5/C5/D5支援。",
+      "shapes": [
+        "L形黑阵",
+        "斜线白链"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "气紧",
+        "联络关键"
+      ],
+      "key_points": [
+        "B1",
+        "B2",
+        "B3",
+        "C2",
+        "C3",
+        "D3",
+        "B5",
+        "C5",
+        "D5"
+      ],
+      "group_status": [
+        "黑B2-B3-C3气紧待补",
+        "白C2-D3需防断"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段E2–H5为当前主战场：白E2/F2/G2，黑E4/F4/G4/H2，双方在此反复进出，H6为黑方下一招强烈打入点。",
+      "shapes": [
+        "白底边三连",
+        "黑横向厚势"
+      ],
+      "local_tags": [
+        "主战场",
+        "打入点明确",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "E2",
+        "F2",
+        "G2",
+        "E4",
+        "F4",
+        "G4",
+        "H2",
+        "H6"
+      ],
+      "group_status": [
+        "白F2-G2易被分断",
+        "黑H2-G3-E4具攻击弹性"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角R6/R14零星分布，R6为黑孤子，R14稍远，暂无互动，属战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "战略预备"
+      ],
+      "key_points": [
+        "R6",
+        "R14"
+      ],
+      "group_status": []
+    }
+  ]
+}

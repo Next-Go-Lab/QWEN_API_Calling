@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_097",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 97,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M9"
+      },
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "K10"
+      },
+      {
+        "color": 0,
+        "point": "J10"
+      },
+      {
+        "color": 1,
+        "point": "K11"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "K10",
+      "L10",
+      "M10",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "K12点入破眼位",
+      "中央龙对杀",
+      "右下角未定型"
+    ],
+    "global_summary_cn": "第97手，黑方刚于K11落子，形成中央复杂对杀局面；白棋在J10、L11、M11构筑厚壁，黑棋K10-L10-M10-N11一线试图治孤并威胁白棋大龙；K12为双方争夺焦点，是黑棋打入白空的关键一手。",
+    "phase_explanation": "中盘后段，双方围绕中央及右下展开高强度攻防，黑棋略占主动，但白棋厚势蕴含反击潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑棋C3-C6-B4-B5与白棋C5-C7-C8构成典型小目守角结构，无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "C5",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中腹空旷，黑棋Q3-R4-S12-S13与白棋S13-S14-S15-S16-S19形成南北对峙，白棋边空较厚。",
+      "shapes": [
+        "side_wall",
+        "territory_edge"
+      ],
+      "local_tags": [
+        "白边空",
+        "黑棋浅消"
+      ],
+      "key_points": [
+        "Q3",
+        "S13",
+        "S16"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋T16-T18与白棋S18-S19-S16构成劫争余味，黑棋R16-R17-Q17-Q18连片但气紧，存在劫材隐患。",
+      "shapes": [
+        "corner_complication",
+        "liberty_sensitive"
+      ],
+      "local_tags": [
+        "劫材相关",
+        "薄味"
+      ],
+      "key_points": [
+        "T16",
+        "S18",
+        "R17"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑棋D7-E9-F8与白棋E6-E8-D6-D4形成缠斗，黑棋G10孤立但有联络意向，白棋C8-C6-B4构成低位厚势。",
+      "shapes": [
+        "ladder_shape",
+        "connection_attempt"
+      ],
+      "local_tags": [
+        "断点密集",
+        "黑棋联络关键"
+      ],
+      "key_points": [
+        "D7",
+        "E9",
+        "G10"
+      ],
+      "group_status": [
+        "uncertain"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "全局焦点：黑棋K10-L10-M10-K11-N11-O11-P11与白棋J10-K9-L11-M11-N10形成中央对杀雏形；K12为双方必争之点，关系生死。",
+      "shapes": [
+        "fighting_core",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "对杀核心",
+        "眼位争夺",
+        "K12敏感点"
+      ],
+      "key_points": [
+        "K10",
+        "J10",
+        "K11",
+        "L11",
+        "K12"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋R12-R13-R14-Q15-Q16与白棋O12-N12-N10-O5构成势力拉锯；白棋N12-O12具攻击性，黑棋Q16-R16稍显单薄。",
+      "shapes": [
+        "influence_vs_territory"
+      ],
+      "local_tags": [
+        "白棋外势",
+        "黑棋实空"
+      ],
+      "key_points": [
+        "R12",
+        "O12",
+        "Q16"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B4-B5-B6-C6与白棋C3-C5-D4-D6构成经典双飞燕变例，已大致定型，黑棋稍厚。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "黑棋稍优"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋F8-G10-H14-H16与白棋F3-G12-H12-J16构成斜向对峙；黑棋H14-H16有向上联络意图，白棋J16具牵制力。",
+      "shapes": [
+        "diagonal_influence"
+      ],
+      "local_tags": [
+        "联络试探",
+        "白棋压制"
+      ],
+      "key_points": [
+        "G10",
+        "H14",
+        "J16"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角尚未封口：黑棋P2-Q3-O4-P4-R4与白棋P2-L3-M3-N3-N4-O5形成复杂接触战；黑棋R4-S12与白棋S13-S14存转换可能，属未定型区域。",
+      "shapes": [
+        "unsettled_corner",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "未定型",
+        "转换频繁"
+      ],
+      "key_points": [
+        "P2",
+        "O4",
+        "S12",
+        "S13"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

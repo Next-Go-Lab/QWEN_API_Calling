@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_031",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 31,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K15"
+      },
+      {
+        "color": 1,
+        "point": "J15"
+      },
+      {
+        "color": 0,
+        "point": "K14"
+      },
+      {
+        "color": 1,
+        "point": "J14"
+      },
+      {
+        "color": 0,
+        "point": "L12"
+      },
+      {
+        "color": 1,
+        "point": "D18"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "D18新打入点"
+    ],
+    "global_summary_cn": "第31手，轮白方行棋。黑棋在右上与中腹形成数块未安定棋形，白棋占据左下与中腹厚势，并在右下K14-J14-L12一线持续施压；D18为黑方最新打入点，意图搅乱白棋左上阵型。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，尚未进入大规模收官，胜负关键在于对右下与左上两处黑棋孤棋的攻防效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋D18单子深入，白有C14、D16呼应，构成潜在攻击目标。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "打入",
+        "薄味",
+        "攻击目标"
+      ],
+      "key_points": [
+        "D18",
+        "C14",
+        "D16"
+      ],
+      "group_status": [
+        "黑孤棋"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段相对空旷，黑Q17、R16与白P16、P17形成对峙，但无直接接触。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "对峙",
+        "未定型"
+      ],
+      "key_points": [
+        "Q17",
+        "R16",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "双方均势"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑K16、Q13、Q14、J15、K15、J14、K14密集交战，已形成复杂劫争雏形。",
+      "shapes": [
+        "cluster"
+      ],
+      "local_tags": [
+        "缠斗",
+        "劫材储备",
+        "眼位紧张"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "K14",
+        "K15",
+        "Q13",
+        "Q14",
+        "K16"
+      ],
+      "group_status": [
+        "黑白交错",
+        "未活净"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑M13、R12与白L12形成小规模接触，黑棋略显单薄。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "联络薄弱",
+        "试探性接触"
+      ],
+      "key_points": [
+        "R12",
+        "M13",
+        "L12"
+      ],
+      "group_status": [
+        "黑待连络"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑F17、白Q10等子星罗棋布，但尚无实质战斗，属战略要冲。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "战略要点",
+        "未来战场"
+      ],
+      "key_points": [
+        "F17",
+        "Q10",
+        "K15",
+        "J15"
+      ],
+      "group_status": [
+        "无成形势力"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q13-Q14-K14-K15-J14-J15集群与白P14、M15形成攻防前沿，黑棋气紧。",
+      "shapes": [
+        "cluster"
+      ],
+      "local_tags": [
+        "攻防前线",
+        "气紧",
+        "眼形缺陷"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "K14",
+        "K15",
+        "J14",
+        "J15",
+        "P14",
+        "M15"
+      ],
+      "group_status": [
+        "黑棋未活",
+        "白棋主动"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角白F3、D4与黑O3、Q3、R4、R5构成典型低中国流对抗，白棋厚实。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "厚势",
+        "外势",
+        "实地不足"
+      ],
+      "key_points": [
+        "F3",
+        "D4",
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "白厚",
+        "黑取地"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅黑R12孤立存在，白无对应子力，暂为缓手区。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "缓手区",
+        "潜在扩张"
+      ],
+      "key_points": [
+        "R12"
+      ],
+      "group_status": [
+        "黑单官"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白Q5、Q6、R6与黑Q3、R4、R5形成角部定式余波，白稍占优。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "白稍优"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "白实地稳固"
+      ]
+    }
+  ]
+}

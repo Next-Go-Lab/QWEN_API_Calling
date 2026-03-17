@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_026",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q13"
+      },
+      {
+        "color": 0,
+        "point": "M15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      },
+      {
+        "color": 0,
+        "point": "F3"
+      },
+      {
+        "color": 1,
+        "point": "M13"
+      },
+      {
+        "color": 0,
+        "point": "K15"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "M13",
+      "Q13",
+      "Q14",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "J15点刺试探",
+      "K15-M15白阵腹地",
+      "Q13-Q14黑棋右上势力"
+    ],
+    "global_summary_cn": "第26手，黑方即将落子于J15，意图侵消白棋K15-M15一带厚势；白棋在右上（Q17/P17/P16/D16）与中腹（K15/M15）形成连贯厚壁，黑棋Q13-K16一线虽有联络但略显单薄；左下黑棋O3/Q3/R4/R5呈低位实空雏形，白棋F3/D4构成对应低位封锁。",
+    "phase_explanation": "中盘阶段，双方在右上至中腹展开战略接触，白棋掌握主动厚势，黑棋寻求打入或分断机会。J15为典型试探性一手，意在动摇白棋中央根基。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅C14一子孤立，无成形势力。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "未定型"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16、P16、P17、Q17、F17、L17构成白黑交错高位布局，白棋D16-P16连线厚实，黑棋Q17-L17略松散。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑浮棋"
+      ],
+      "key_points": [
+        "D16",
+        "P16",
+        "Q17"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_weak_connection"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "R16、R12、Q14、Q13、K16形成黑棋右上集团，但K16与Q13之间存在断点隐患；白棋Q10为潜在压制点。",
+      "shapes": [
+        "ladder",
+        "potential_eye_shape"
+      ],
+      "local_tags": [
+        "黑大模样",
+        "断点风险"
+      ],
+      "key_points": [
+        "Q13",
+        "K16",
+        "Q10"
+      ],
+      "group_status": [
+        "black_group",
+        "vulnerable_at_M14"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "M13、M15、K15构成中腹核心争夺区，白棋K15-M15双子厚势压迫黑M13，黑需补强或反击。",
+      "shapes": [
+        "fuseki_anchor",
+        "pressure_point"
+      ],
+      "local_tags": [
+        "白厚势中心",
+        "黑受压"
+      ],
+      "key_points": [
+        "K15",
+        "M15",
+        "M13"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_compromised"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "J15为当前焦点，尚未落子，是黑棋打入白中腹厚势的最简路径；周边无其他子，属纯粹战略要冲。",
+      "shapes": [
+        "vital_point"
+      ],
+      "local_tags": [
+        "待落点",
+        "打入点"
+      ],
+      "key_points": [
+        "J15"
+      ],
+      "group_status": [
+        "unoccupied_critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "Q5、Q6、R6、P14构成白棋右中腹小堡垒，与右上厚势呼应；黑棋暂无有效侵入手段。",
+      "shapes": [
+        "small_eye_shape",
+        "territorial_base"
+      ],
+      "local_tags": [
+        "白实地",
+        "稳固"
+      ],
+      "key_points": [
+        "Q5",
+        "P14"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "O3、Q3、R4、R5、F3形成黑棋左下低位实空雏形，白F3为先手封锁要点，黑尚有扩展余地。",
+      "shapes": [
+        "corner_enclosure",
+        "low_side_framework"
+      ],
+      "local_tags": [
+        "黑实地雏形",
+        "白封锁"
+      ],
+      "key_points": [
+        "F3",
+        "O3",
+        "R5"
+      ],
+      "group_status": [
+        "black_potential_territory"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无任何棋子，属全局最空旷区域，未来可能成为大场或转换战场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "大场候选"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "全空，无子，与右上厚势遥相呼应，但当前无直接关联，属远期战略方向。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "远期方向"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

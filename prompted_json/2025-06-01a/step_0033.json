@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_032",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 32,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "M17"
+      },
+      {
+        "color": 0,
+        "point": "C10"
+      },
+      {
+        "color": 1,
+        "point": "D10"
+      },
+      {
+        "color": 0,
+        "point": "C9"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "R6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角对峙",
+      "白棋厚势",
+      "黑棋外势"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中腹潜力",
+      "左下实地未定"
+    ],
+    "global_summary_cn": "第32手，黑方行棋，局面处于中盘激烈攻防阶段。右上角黑棋（M17-P17）与白棋（N18-P18、Q17、R17）形成大模样对峙；左下C6-C10一带白棋连片厚实，黑棋D10-D11-C11等子试图渗透；中央D13-E14-F14及E15-G15白棋厚壁初成，黑棋在E16-C15一带寻求联络与扩张。",
+    "phase_explanation": "双方已完成布局，进入中盘战斗关键期。白棋掌握左下厚势与右上边空主动权，黑棋侧重中腹发展与右上侵消，R6为黑方下一着潜在打入点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "空点",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋占据M17–P17六子构成厚势，白棋N18–P18三子及Q17、R17呼应，形成典型边空对抗。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白边空",
+        "接触战前沿"
+      ],
+      "key_points": [
+        "M17",
+        "N17",
+        "O17",
+        "P17",
+        "N18",
+        "O18",
+        "P18",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "black:connected",
+        "white:connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角完全空旷，无任何落子，属全局最开阔战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "大场",
+        "未来拆边点",
+        "空点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "C6–C10白棋四子纵向连贯，D10–D11–C11黑棋三子贴身压迫，形成局部攻防焦点。",
+      "shapes": [
+        "vertical_line",
+        "adjacent_pressure"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑试探",
+        "局部紧逼"
+      ],
+      "key_points": [
+        "C6",
+        "C9",
+        "C10",
+        "D10",
+        "D11",
+        "C11"
+      ],
+      "group_status": [
+        "white:connected",
+        "black:connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "D13–F14黑棋三子斜向展开，E15–H15白棋五子横向厚壁，中央势力犬牙交错，黑E16、C15为延伸支点。",
+      "shapes": [
+        "diagonal",
+        "wall"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白厚壁",
+        "中腹潜力"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "F14",
+        "E15",
+        "F15",
+        "G15",
+        "H15",
+        "E16",
+        "C15",
+        "D15"
+      ],
+      "group_status": [
+        "black:partially_connected",
+        "white:connected"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧Q3、Q16、R16黑棋两点孤立，暂无直接关联；白D16、D17构成小堡垒，但孤立于主阵。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "黑孤子",
+        "白弱联络"
+      ],
+      "key_points": [
+        "Q3",
+        "Q16",
+        "R16",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "black:disconnected",
+        "white:connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "D4白子单官守角，周边全空，属早期定式遗留点，当前无争端。",
+      "shapes": [
+        "single"
+      ],
+      "local_tags": [
+        "守角",
+        "静止点"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中腹下方大面积空白，仅黑Q3一子深入，暂无集团，属未来行棋纵深地带。",
+      "shapes": [
+        "single"
+      ],
+      "local_tags": [
+        "孤子",
+        "深远点",
+        "潜在打入区"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全域空旷，无任何落子，为全局最大空白区域，具备高价值大场属性。",
+      "shapes": [],
+      "local_tags": [
+        "大场",
+        "空点",
+        "终盘潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

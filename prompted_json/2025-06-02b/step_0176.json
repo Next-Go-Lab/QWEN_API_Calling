@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_175",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 175,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "L2"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "J7"
+      },
+      {
+        "color": 1,
+        "point": "H6"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "N17"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "L2",
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_invasion_containment",
+      "bottom_right_eye_space",
+      "center_influence_vs_territory_tradeoff"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑方以B+R领先，右上与右下角部争夺激烈；白棋在右下试图做活但眼位不足，黑棋在N17一子强化边空并威胁白棋L13-M13薄味；中腹双方厚势对峙，但无明显战斗爆发点。",
+    "phase_explanation": "第175手为黑方N17，属典型官子收束兼补强，压制白棋右上潜力；全盘已无大规模未定型区域，胜负取决于细微目数计算与局部死活确认。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，C3-C5-D4构成白小飞守角，B3-B4-B5-B6-B10-C11-C12-C13-C17-C19为黑厚势延伸，无明显冲突。",
+      "shapes": [
+        "corner_enclosure",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "settled",
+        "no_fight"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "C11",
+        "C17"
+      ],
+      "group_status": [
+        "alive",
+        "connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空旷，黑有Q3-Q4-R4-R7-Q10-Q11-Q12-Q15-Q16-Q17-Q18，白有P2-P9-Q7-Q9-Q12，形成交错但未接触的势力带；J11-K11-L11-M11-N11-O11-P11为黑大模样雏形。",
+      "shapes": [
+        "influence_line",
+        "floating_group"
+      ],
+      "local_tags": [
+        "influence",
+        "unsettled_periphery"
+      ],
+      "key_points": [
+        "Q10",
+        "J11",
+        "Q16"
+      ],
+      "group_status": [
+        "strong",
+        "not_surrounded"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑F16、F17、G17、H16、J17、Q16、S17、T17、T18与白E16、D16、G16、J16、M16、R16、S16、R17、S19形成复杂边界；F17与N17为最新交换，黑压缩白眼位。",
+      "shapes": [
+        "border_fight",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "critical_ld",
+        "endgame_pressure"
+      ],
+      "key_points": [
+        "F16",
+        "F17",
+        "N17",
+        "J17"
+      ],
+      "group_status": [
+        "vulnerable",
+        "needs_two_eyes"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹以K2-L2-J3-K3-L3-M3-N3-K4-L4-N4-K5-L5-M5-O5等构成黑白交错阵势；黑K2/K4/K5/K6/K10/K11/K12/K14与白L2/L3/L4/L5/L8/L9/L11/L13形成纵向对峙；J7-H6-H8-G10-H10-H11-H14-H15-H16为黑厚势主干。",
+      "shapes": [
+        "central_thick_chain",
+        "contact_fight_residual"
+      ],
+      "local_tags": [
+        "thick",
+        "dominant"
+      ],
+      "key_points": [
+        "J7",
+        "H6",
+        "K10",
+        "L13"
+      ],
+      "group_status": [
+        "alive",
+        "influential"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近相对稀疏，黑E14-F14-F15-G15-G13-H14-H15-J13-K14与白E12-F12-G12-H12-K12-M12-N12-O12-P12形成松散对峙；无活棋亦无死棋，属影响力缓冲区。",
+      "shapes": [
+        "influence_buffer",
+        "sparse"
+      ],
+      "local_tags": [
+        "quiet",
+        "no_immediate_target"
+      ],
+      "key_points": [
+        "F14",
+        "H14",
+        "K14"
+      ],
+      "group_status": [
+        "neutral",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹密集交战区：黑O4-P4-R4-O7-P8-Q10-Q11-Q12-Q15-Q16-Q17-Q18与白N3-N4-O5-N8-P9-Q9-Q12-R13-S13-S14-R15-S15-R16-S16-R17-S18-S19构成犬牙交错；Q8为政策目标点，当前为空点，是白最后一丝腾挪空间。",
+      "shapes": [
+        "entanglement",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "policy_target",
+        "life_or_death_decisive"
+      ],
+      "key_points": [
+        "Q8",
+        "O7",
+        "R13",
+        "S14"
+      ],
+      "group_status": [
+        "unresolved",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B10-B12-C12-D12-D13-E14-E15-C17-D17-E17与白A10-C10-D9-E9-E6-D4-C5-C13-B13-B17-B18-C18构成完整攻防体系；黑厚实围空，白仅存B9-D9-E9一线薄味，但暂无打入手段。",
+      "shapes": [
+        "territorial_wall",
+        "thin_group"
+      ],
+      "local_tags": [
+        "secure",
+        "minor_weakness"
+      ],
+      "key_points": [
+        "B10",
+        "D12",
+        "E14",
+        "B9"
+      ],
+      "group_status": [
+        "alive",
+        "marginally_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央以L2-M2-N2-O2-P2-Q2-R2-S2-T2为白初始布局，现被黑K2-Q2-R4-R7-Q10等逐步压缩；黑L6-M6-N6-O7-P8-Q10与白L8-N8-M9-O9-P9-Q9形成局部对杀余波，黑稍优。",
+      "shapes": [
+        "reduction",
+        "residual_fight"
+      ],
+      "local_tags": [
+        "reduced",
+        "black_advantage"
+      ],
+      "key_points": [
+        "L2",
+        "L6",
+        "P8",
+        "Q10"
+      ],
+      "group_status": [
+        "settled",
+        "black_controlled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为本局最敏感区域：黑Q2-R2-R4-R7-R13-R14-R15-R16-R17-R18-R19与白P2-P9-Q7-Q9-Q12-Q15-Q16-Q17-Q18-Q19形成超长边界；黑Q15-Q16-Q17-Q18-Q19连贯厚势，白仅靠S10-S13-S14-S15-S16-S17-S18-S19勉强成空，但眼位严重不足；Q8若被黑占据则白右下铁死。",
+      "shapes": [
+        "life_and_death_critical",
+        "edge_squeeze"
+      ],
+      "local_tags": [
+        "do_or_die",
+        "black_to_kill"
+      ],
+      "key_points": [
+        "Q8",
+        "Q15",
+        "S10",
+        "S19"
+      ],
+      "group_status": [
+        "dying",
+        "needs_rescue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_010",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 10,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S14"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "S14"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S14",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "white_thickness",
+      "black_invasion"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "center_influence",
+      "R13_target"
+    ],
+    "global_summary_cn": "第10手，黑方执先，局面处于布局早期。白棋在右上角（R16/R17/S14）形成厚势，黑棋Q16/Q17/R14连续侵消，双方在右上角展开局部攻防；黑棋P4与R4构成低位双飞燕雏形，白棋D4/D16呈对角守角；全局重心集中于右上，R13为关键打入点。",
+    "phase_explanation": "布局阶段，双方尚未完成大场占位，右上角成为首个激烈交锋区域，黑棋主动挑战白棋角地结构，白棋以厚势应对，尚未形成明确模样或实地。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发大场。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corner",
+        "future_framework"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中腹上方空旷，仅白D16一子，孤立守角，未连络。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_white_stone",
+        "potential_framework"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈角部战斗区：白R17/S14/R16成三角厚势，黑Q17/Q16/R14深入侵消，R13为待落关键点。",
+      "shapes": [
+        "triangle",
+        "invasion_shape"
+      ],
+      "local_tags": [
+        "corner_fight",
+        "white_thickness",
+        "black_invasion",
+        "vital_point_nearby"
+      ],
+      "key_points": [
+        "R17",
+        "S14",
+        "R16",
+        "Q17",
+        "Q16",
+        "R14",
+        "R13"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_partially_connected"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，无子，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone",
+        "future_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，尚未有势力投子，为后续影响力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "empty_center",
+        "influence_hub"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹空旷，但受右上角战斗波及，R13落子将直接牵动此区。",
+      "shapes": [],
+      "local_tags": [
+        "influence_radius",
+        "tension_zone"
+      ],
+      "key_points": [
+        "R13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，无子，D4白子孤悬于下边，暂未构成有效配合。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_white_stone",
+        "empty_corner"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，黑P4/R4构成低位双飞燕雏形，具发展潜力。",
+      "shapes": [
+        "double_flying_swan"
+      ],
+      "local_tags": [
+        "black_framework",
+        "low_side_development"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "black_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，无子，属未占大场。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corner",
+        "future_territory"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

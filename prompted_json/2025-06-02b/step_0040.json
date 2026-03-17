@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_039",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 39,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P2"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "L11"
+      },
+      {
+        "color": 1,
+        "point": "J3"
+      },
+      {
+        "color": 0,
+        "point": "L5"
+      },
+      {
+        "color": 1,
+        "point": "L6"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "L6",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央潜力争夺",
+      "左上大模样构建"
+    ],
+    "global_summary_cn": "第39手，黑方刚于L6落子，白方即将在N10应对。当前局面呈现典型中盘格局：右下角黑棋（L6/M6/N6）与白棋（L5/M5/N4/L4）形成激烈接触战；左上黑棋Q16-R18构筑大模样，白棋R15/S14/S13施加压力；右上白棋D4与黑棋Q3-P4-R4对峙；左下黑棋L11与白棋D16、J16遥相呼应；中央尚空旷，N10为双方必争之要点。",
+    "phase_explanation": "处于中盘中后期，局部战斗密集，全局战略走向尚未明朗，N10一着将影响中央势力归属与左右两翼厚薄平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q16-Q18+R18-R12构成庞大上边阵势，白棋R15+S14+S13+R17+S18+S19反向压迫，形成模样与侵消对抗。",
+      "shapes": [
+        "territory",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "大模样",
+        "浅消",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "Q16",
+        "R15",
+        "S14"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋O4/P4/R4与白棋M3/N3/P2形成右上角小规模接触，黑Q3为高点策应，白D4孤子暂未受攻但位置偏高。",
+      "shapes": [
+        "corner_fight",
+        "loose_group"
+      ],
+      "local_tags": [
+        "角部试探",
+        "高位白子"
+      ],
+      "key_points": [
+        "Q3",
+        "P2",
+        "D4"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷区域，仅存白S19与黑R18，无实质交锋，属双方潜在扩展方向。",
+      "shapes": [
+        "open_area"
+      ],
+      "local_tags": [
+        "待开发",
+        "轻灵延伸"
+      ],
+      "key_points": [
+        "S19",
+        "R18"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑L11单子深入白阵，白D16/J16遥相呼应，构成左下牵制线；黑K5/N5与白L4/M5/N4/L5在L6附近形成主战场。",
+      "shapes": [
+        "invasion",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "打入点",
+        "攻防枢纽"
+      ],
+      "key_points": [
+        "L11",
+        "L6",
+        "L5"
+      ],
+      "group_status": [
+        "black_in_danger",
+        "white_surrounding"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，N10为全局最大急所，牵动中央势力与左右联络，是白方本手应对点。",
+      "shapes": [
+        "vital_point",
+        "influence_center"
+      ],
+      "local_tags": [
+        "天王山",
+        "战略制高点"
+      ],
+      "key_points": [
+        "N10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R12-R14+Q15与白S13-S14-R15形成中腹右侧对峙带，黑棋略显松散，白棋结构紧凑。",
+      "shapes": [
+        "side_wall",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "厚势对峙",
+        "外势比拼"
+      ],
+      "key_points": [
+        "R12",
+        "S13",
+        "Q15"
+      ],
+      "group_status": [
+        "black_weak_connection",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "空旷，仅有白D16与黑无子，属冷区，但D16具辐射潜力。",
+      "shapes": [
+        "isolated_stone_influence"
+      ],
+      "local_tags": [
+        "远距离影响",
+        "潜在扩张"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_lonely"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷地带，黑P2被白M3/N3压制后暂无发展，白棋下方无实地，黑棋亦未经营。",
+      "shapes": [
+        "quiet_zone"
+      ],
+      "local_tags": [
+        "沉寂",
+        "未启动"
+      ],
+      "key_points": [
+        "P2"
+      ],
+      "group_status": [
+        "white_pressed"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角核心战场：黑J3/K5/L6/M6/N6 vs 白M3/N3/L4/M5/N4/L5/O5，已形成复杂扭杀雏形，L6为最新打入点。",
+      "shapes": [
+        "life_death",
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "近身肉搏",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "L6",
+        "L5",
+        "M5",
+        "N4"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    }
+  ]
+}

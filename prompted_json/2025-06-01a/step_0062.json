@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_061",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 61,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R9"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "P7"
+      },
+      {
+        "color": 1,
+        "point": "R2"
+      },
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "F3",
+      "N3",
+      "Q3",
+      "P4",
+      "R4",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "Q5",
+      "C6",
+      "P6",
+      "Q6",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "左上厚势未定型"
+    ],
+    "global_summary_cn": "第61手，黑方Son Makoto刚于F3落子，白方Ueno Asami即将在E3应手。当前局面呈现典型中盘格局：右下角（R2–R9）形成复杂攻防，黑棋在R2、N5、F3等处连续施压；白棋在P3、Q4、R7一带构筑厚壁但存在断点；左上（B15–D10）黑棋小堡垒与白棋C9–C13阵势对峙；中腹尚空旷，黑棋O17–P17与白棋Q17–R17形成高低呼应；全局无明显死活危机，但多处薄味待消解。",
+    "phase_explanation": "中盘中后期，双方完成大致布阵，进入局部战斗深化阶段。黑棋掌握主动权，持续在右下及中腹施加压力；白棋需兼顾守势与反击机会，尤其关注F3附近黑棋侵入引发的连锁反应。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋B15–D15成小堡垒，白棋C9–C13呈低位厚势，D10–D11为双方接触部，略显凝重。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑小堡垒",
+        "白低位厚势",
+        "接触战"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "D15",
+        "C9",
+        "C10",
+        "D10",
+        "D11"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑E14–F14–E16与白E15–G15形成斜向对峙，尚未构成实质交锋。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "潜在势力线",
+        "未定型"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15",
+        "G15",
+        "E16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16–R16–S7–S8与白B16–D16–Q17–R17形成高低缠斗，黑M17–P17大飞阵势覆盖中腹上沿。",
+      "shapes": [
+        "side",
+        "influence"
+      ],
+      "local_tags": [
+        "黑大飞阵",
+        "白高位联络",
+        "势力对抗"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "S7",
+        "S8",
+        "B16",
+        "D16",
+        "Q17",
+        "R17",
+        "M17",
+        "N17",
+        "O17",
+        "P17"
+      ],
+      "group_status": [
+        "黑厚",
+        "白联络中"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D13、C11–D11与白C6、C10形成纵向牵制，D13为黑孤子，有被搜刮风险。",
+      "shapes": [
+        "central_vertical"
+      ],
+      "local_tags": [
+        "黑孤子",
+        "白纵向压制"
+      ],
+      "key_points": [
+        "D13",
+        "C11",
+        "D11",
+        "C10",
+        "C6"
+      ],
+      "group_status": [
+        "黑薄"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑N5–O5–P5与白Q5–Q6–P6形成中腹前沿对峙，N7为白棋关键守点，亦是黑棋后续打入要点。",
+      "shapes": [
+        "central_cluster"
+      ],
+      "local_tags": [
+        "中腹前沿",
+        "攻防枢纽"
+      ],
+      "key_points": [
+        "N5",
+        "O5",
+        "P5",
+        "Q5",
+        "Q6",
+        "P6",
+        "N7"
+      ],
+      "group_status": [
+        "平衡"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q3–R4–R5–Q7与白P3–Q4–R3–R7构成密集混战区，F3新落子直刺白棋P3–R3防线软点，E3为白必应之点。",
+      "shapes": [
+        "fighting_zone"
+      ],
+      "local_tags": [
+        "主战场",
+        "新刺点",
+        "白弱点"
+      ],
+      "key_points": [
+        "Q3",
+        "R2",
+        "R3",
+        "P3",
+        "Q4",
+        "R4",
+        "R5",
+        "Q7",
+        "P7",
+        "R7",
+        "F3",
+        "E3"
+      ],
+      "group_status": [
+        "激烈对杀中"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，仅有黑D4与白L4、C6零星分布，无集团，属战略预备区。",
+      "shapes": [
+        "empty_corner"
+      ],
+      "local_tags": [
+        "空角",
+        "预备地"
+      ],
+      "key_points": [
+        "D4",
+        "L4",
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑N3、P4与白O4、Q6形成低段交错，黑F3刚落，威胁白P3–R3整体安定，此处为当前焦点。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "焦点区域",
+        "新落子冲击"
+      ],
+      "key_points": [
+        "N3",
+        "P4",
+        "O4",
+        "Q6",
+        "F3",
+        "P3",
+        "R3"
+      ],
+      "group_status": [
+        "黑主动",
+        "白待补"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R2–R6–S7与白R3–R7–R8–R9构成典型边角攻防，黑R2、R4、R5连片但气紧，白R7–R9呈厚势反制。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "边角死活未定",
+        "黑气紧",
+        "白厚势"
+      ],
+      "key_points": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "S7",
+        "S8"
+      ],
+      "group_status": [
+        "黑不活",
+        "白厚"
+      ]
+    }
+  ]
+}

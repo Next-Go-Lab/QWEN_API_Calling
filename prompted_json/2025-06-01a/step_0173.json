@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_172",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 172,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S4"
+      },
+      {
+        "color": 0,
+        "point": "S17"
+      },
+      {
+        "color": 1,
+        "point": "T17"
+      },
+      {
+        "color": 0,
+        "point": "R18"
+      },
+      {
+        "color": 1,
+        "point": "R19"
+      },
+      {
+        "color": 0,
+        "point": "Q18"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "K11",
+      "M11",
+      "R11",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "L14",
+      "O14",
+      "P14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_invasion",
+      "top_right_eye_space",
+      "center_influence_vs_territory"
+    ],
+    "global_summary_cn": "全局进入收官阶段，右上角白棋Q18一子引发连锁应对，黑棋在右下与中腹形成厚势但存在眼位隐患；白棋在左上与中腹多处薄味待补，N11为关键打入点，牵动中腹与右上两片战场。",
+    "phase_explanation": "第172手，黑方行棋，局面处于官子收束初期，胜负差仅0.5目。双方在右上（R17–T17）、右下（S4–R6）及中腹（K11–Q15）形成三处未定型区域，其中N11是唯一可动摇白棋中腹根基的严厉一手。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋B3–D4构成坚实模样，黑棋C2–D3小飞守角，白C10、C13形成低位厚势，无明显战斗。",
+      "shapes": [
+        "corner_enclosure",
+        "low_thickness"
+      ],
+      "local_tags": [
+        "settled",
+        "white_thickness"
+      ],
+      "key_points": [
+        "B3",
+        "C4",
+        "C10",
+        "C13"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段激烈对攻：白J2–M3与黑K2–L3形成接触战，白M4–O4压强，黑J4–K5跳起，白K5–M5反夹，局部尚未活净。",
+      "shapes": [
+        "side_fight",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "unstable",
+        "mutual_sente"
+      ],
+      "key_points": [
+        "J2",
+        "K2",
+        "M3",
+        "J4",
+        "K5",
+        "M5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋S17–Q18–R18–Q17–R17–T17构成复杂劫争外围，黑R19、S18、Q16施加压力，白P17–O17–N17连络但眼位不足，存死活危机。",
+      "shapes": [
+        "ko_perimeter",
+        "eye_deficit"
+      ],
+      "local_tags": [
+        "life_and_death",
+        "ko_threat_zone"
+      ],
+      "key_points": [
+        "R19",
+        "S18",
+        "Q16",
+        "R17",
+        "S17",
+        "Q18",
+        "T17"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D10–D11–C11–C15与白C9–C10–C13–D16形成高低配合，黑棋厚实但缺乏实地，白棋C17–D17–F17有断点，存在轻重转换可能。",
+      "shapes": [
+        "high_low_balance",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "thick",
+        "latent_weakness"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "C13",
+        "C17",
+        "D17",
+        "F17"
+      ],
+      "group_status": [
+        "alive",
+        "overconcentrated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，黑K11–M11–Q13与白O11–P11–M12–Q12交错，N11为唯一未落子要点，打入后可分断白中腹联络并威胁白M13–O13大龙。",
+      "shapes": [
+        "central_vacancy",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "critical_point",
+        "invasion_target"
+      ],
+      "key_points": [
+        "N11",
+        "K11",
+        "M11",
+        "O11",
+        "Q13"
+      ],
+      "group_status": [
+        "unsettled",
+        "strategically_important"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L14–O14–P14与白M14–N14–O15–P15形成对峙，黑Q15–R16–S16压制白右下，白Q17–R17–S17试图反扑，局部呈双活倾向但仍有劫材争夺。",
+      "shapes": [
+        "border_race",
+        "dual_life_tendency"
+      ],
+      "local_tags": [
+        "territory_contest",
+        "ko_material"
+      ],
+      "key_points": [
+        "L14",
+        "O14",
+        "Q15",
+        "R16",
+        "Q17",
+        "S16"
+      ],
+      "group_status": [
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B15–C15–D15–E14与白B16–C17–D16构成典型中国流变例，黑棋实地扎实，白棋B15–C16–D17外势单薄，暂无攻击手段。",
+      "shapes": [
+        "corner_territory",
+        "outer_strength"
+      ],
+      "local_tags": [
+        "secured",
+        "white_thin"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "D15",
+        "B16",
+        "C17"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F2–G5–F6–G7与白E2–E3–E4–E6–E7形成横向拉锯，黑棋F4–G5–F6成形小堡垒，白E7–F7–G6有断点，但黑H3–J4–J5略显孤立。",
+      "shapes": [
+        "horizontal_wall",
+        "isolated_group"
+      ],
+      "local_tags": [
+        "solid",
+        "loose_connection"
+      ],
+      "key_points": [
+        "F2",
+        "G5",
+        "F6",
+        "E7",
+        "H3",
+        "J4"
+      ],
+      "group_status": [
+        "alive",
+        "partially_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑S4–R4–R5–S7与白S3–R3–Q4–R8–S9构成大型攻防，黑S4–R6–S7已活，白R9–S9仅余一线眼位，黑P2–Q2–R2–Q3封锁外围，白棋大龙未净。",
+      "shapes": [
+        "living_group",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "alive",
+        "white_struggling"
+      ],
+      "key_points": [
+        "S4",
+        "R4",
+        "S7",
+        "R9",
+        "S9",
+        "P2"
+      ],
+      "group_status": [
+        "alive",
+        "under_pressure"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_033",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 33,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C10"
+      },
+      {
+        "color": 1,
+        "point": "D10"
+      },
+      {
+        "color": 0,
+        "point": "C9"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "B16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中腹潜力",
+      "左上厚势对攻"
+    ],
+    "global_summary_cn": "第33手，黑方刚于R6落子，形成右下角复杂接触战；白棋在左上C6-C10-D17一线构筑厚势，黑棋则在右上Q16-R16及中腹D10-D11-E14等处积极扩张；全局呈黑白势力交错、攻防转换频繁的中盘格局。",
+    "phase_explanation": "当前处于中盘中后期，双方在多个局部展开连续交换，尚未进入明显收官阶段；黑棋掌握主动权，但白棋厚势蕴含后续攻击潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C6、C9、C10、C13与黑棋C11、D13构成左上角攻防链，白厚实，黑伺机侵消。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "厚势",
+        "侵消点",
+        "拆二"
+      ],
+      "key_points": [
+        "C6",
+        "C9",
+        "C10",
+        "C11",
+        "D13",
+        "C13"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋E14-F14-C15-D15-E16与白棋E15-F15-G15-H15-D16-D17形成中上部对峙，黑棋略占实地，白棋外势绵延。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "外势",
+        "实地平衡",
+        "联络要点"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "C15",
+        "D15",
+        "E16",
+        "E15",
+        "F15",
+        "G15",
+        "H15",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_wall"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q16-R16-P17-O17-N17-M17与白棋Q17-R17-P18-O18-N18构成右上大模样，黑棋根基扎实，白棋试探性侵入。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "大模样",
+        "浅消",
+        "眼位雏形"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P17",
+        "O17",
+        "N17",
+        "M17",
+        "Q17",
+        "R17",
+        "P18",
+        "O18",
+        "N18"
+      ],
+      "group_status": [
+        "black_moyo",
+        "white_invasion_attempt"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C10-D10-C9-D11形成小飞挂应对，白棋C6为跳守支点，局部呈定式延伸后复杂变化。",
+      "shapes": [
+        "knight_move",
+        "diagonal"
+      ],
+      "local_tags": [
+        "定式后续",
+        "攻防急所",
+        "扳头"
+      ],
+      "key_points": [
+        "C10",
+        "D10",
+        "C9",
+        "D11",
+        "C6"
+      ],
+      "group_status": [
+        "mixed_contact_fight"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央暂无密集子力，但D10-D11-E14等黑子指向中腹，白棋无直接控制点，属潜在势力辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "中腹潜力",
+        "势力辐射",
+        "空点"
+      ],
+      "key_points": [
+        "D10",
+        "D11",
+        "E14"
+      ],
+      "group_status": [
+        "black_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋R6为最新一手，与Q3呼应形成右下双翼结构；白棋尚无对应强子，存在打入或分投空间。",
+      "shapes": [
+        "two_wings"
+      ],
+      "local_tags": [
+        "新战场",
+        "双翼呼应",
+        "分投点"
+      ],
+      "key_points": [
+        "R6",
+        "Q3"
+      ],
+      "group_status": [
+        "black_initiative"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，仅黑Q3一子孤悬，暂无有效发展，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "单官",
+        "发展潜力"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "底部中央完全空旷，无任何着子，为典型未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "空点",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角R6为黑最新着手，附近无白子压制，B16为政策目标点，暗示此处存在潜在打入或腾挪机会。",
+      "shapes": [
+        "target_zone"
+      ],
+      "local_tags": [
+        "政策目标",
+        "打入候选",
+        "腾挪空间"
+      ],
+      "key_points": [
+        "R6",
+        "B16"
+      ],
+      "group_status": [
+        "black_active"
+      ]
+    }
+  ]
+}

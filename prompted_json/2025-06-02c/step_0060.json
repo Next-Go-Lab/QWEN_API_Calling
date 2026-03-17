@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_059",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 59,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "D8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "D6"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D6",
+      "E7",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角缠斗",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中腹潜力",
+      "黑棋孤棋治孤"
+    ],
+    "global_summary_cn": "第59手，轮白方行棋。当前局面白棋占据右上与左下实地，黑棋在中腹及左上构筑薄势，D6一子引发局部激战；右上E7-D8-E9-G9形成复杂接触战，C7为关键打入点。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开对攻，白棋通过连续压迫扩大优势，黑棋需在中腹寻求补偿或转换。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C10-C12-D11-E11-F11成小堡垒，白棋B11-B12-C11-C13施压，黑棋略显凝重。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "黑角阵",
+        "白侵消"
+      ],
+      "key_points": [
+        "C10",
+        "B11",
+        "C12"
+      ],
+      "group_status": [
+        "black_fortified",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑Q13-Q14-R12-R16与白Q10-Q5-Q6-R6形成上下对峙，Q10为白厚势支点。",
+      "shapes": [
+        "side_wall",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑外势"
+      ],
+      "key_points": [
+        "Q10",
+        "Q13",
+        "R12"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈接触：黑E7-D8、白E8-E9-G9-D6-C7构成典型攻防链，D6为最新白子，C7是黑方待选打入点。",
+      "shapes": [
+        "ladder_like",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "急所附近"
+      ],
+      "key_points": [
+        "D6",
+        "E7",
+        "E8",
+        "E9",
+        "G9",
+        "C7"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "mutual_weakness"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D13-D14-C13-C14与白D12-E12-D10-E10形成平行对峙，黑J14-K14与白K15-L12呼应，存在潜在对杀。",
+      "shapes": [
+        "parallel_wall",
+        "potential_sacrifice"
+      ],
+      "local_tags": [
+        "对称压迫",
+        "中腹薄味"
+      ],
+      "key_points": [
+        "D13",
+        "D12",
+        "J14",
+        "K15"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑F10-J15-H16-K16与白F15-K15-M15形成斜向势力网，尚未定型，是未来胜负关键区域。",
+      "shapes": [
+        "central_influence"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "势力交错"
+      ],
+      "key_points": [
+        "F10",
+        "J15",
+        "H16",
+        "F15"
+      ],
+      "group_status": [
+        "neutral_zone",
+        "future_battlefield"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q14-P14与白P14-P16-P17-Q17形成角部拉锯，黑Q17与白P17对峙，黑棋稍显单薄。",
+      "shapes": [
+        "side_fight",
+        "edge_pressure"
+      ],
+      "local_tags": [
+        "白实利",
+        "黑取势"
+      ],
+      "key_points": [
+        "Q14",
+        "P14",
+        "P17",
+        "Q17"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5-C4-D4-F3与白C4-D4-F3已交换，黑O3-Q3-R4-R5与白F3形成低地对峙，黑棋实地稍优。",
+      "shapes": [
+        "corner_fight",
+        "low_side"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白外势"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "O3",
+        "R4"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，黑D18与白F17-L17构成松散联系，无明显战斗，属过渡地带。",
+      "shapes": [
+        "open_side"
+      ],
+      "local_tags": [
+        "平稳过渡",
+        "无急所"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "L17"
+      ],
+      "group_status": [
+        "quiet",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q5-Q6-R6与白Q5-Q6-R6已互换，白R6-Q6与黑Q3-O3-R4形成远距离呼应，白棋控制力较强。",
+      "shapes": [
+        "corner_exchange",
+        "long_range_influence"
+      ],
+      "local_tags": [
+        "白控角",
+        "黑轻灵"
+      ],
+      "key_points": [
+        "Q5",
+        "R6",
+        "Q3",
+        "O3"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_flexible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_027",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 27,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E2"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "F5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      },
+      {
+        "color": 1,
+        "point": "G3"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "P4",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力构建",
+      "G3一子牵动全局"
+    ],
+    "global_summary_cn": "第27手，黑方刚落子G3，形成对白棋F5-G6阵型的直接压迫；右下角（E2–G6）密集交战，黑棋在三线布子积极侵消，白棋四线构筑厚壁但眼位尚不充分；左上与右上局部平静，中央尚未形成明显大模样。",
+    "phase_explanation": "处于中盘早期向中期过渡阶段，双方在低位展开接触战，尚未进入大规模攻杀或大场定式，关键在于局部战斗结果对中央潜力的影响。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅黑Q16、白D16、F17、O17散落，无激烈接触，属潜在大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在大场",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，无子力，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "缓冲带"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上白F17、O17构成斜跳守角雏形，黑Q16为高位挂角应手，尚未定型。",
+      "shapes": [
+        "corner_f17_o17"
+      ],
+      "local_tags": [
+        "白守角雏形",
+        "高位挂角"
+      ],
+      "key_points": [
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_corner_f17_o17_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧C3–C6、B6–D6形成黑白交错小块，黑C3/C4/D5、白C6/D6/D3相互牵制，黑B6与白B7对峙。",
+      "shapes": [
+        "ladder_fragment_c3_d5_b6"
+      ],
+      "local_tags": [
+        "缠斗区",
+        "低段对峙",
+        "气紧"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "C4",
+        "D5",
+        "C6",
+        "D6",
+        "B6",
+        "B7"
+      ],
+      "group_status": [
+        "black_group_c3_d5_b6_weak",
+        "white_group_c6_d6_b7_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，仅黑E4、白E5零星存在，G3新落子辐射影响此域，是未来势力扩展焦点。",
+      "shapes": [],
+      "local_tags": [
+        "辐射中心",
+        "潜力区",
+        "未控"
+      ],
+      "key_points": [
+        "E4",
+        "E5",
+        "G3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P4、Q4为黑棋低位拆二，白Q4为打入反制，形成局部平衡。",
+      "shapes": [
+        "low_extension_p4_q4"
+      ],
+      "local_tags": [
+        "低位拆二",
+        "打入反制"
+      ],
+      "key_points": [
+        "P4",
+        "Q4"
+      ],
+      "group_status": [
+        "black_extension_p4_q4_slightly_overextended"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角C3–D3–E2–F4–F5–G5–G6–G3构成密集战场，黑棋连续深入，白棋筑壁但被切断联络。",
+      "shapes": [
+        "fighting_cluster_bottom_left"
+      ],
+      "local_tags": [
+        "主战场",
+        "断点密集",
+        "G3为胜负手"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "E2",
+        "F4",
+        "F5",
+        "G5",
+        "G6",
+        "G3"
+      ],
+      "group_status": [
+        "black_attack_g3_f5_g5",
+        "white_wall_f5_g6_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下腹E4–G3–F4–G5一带黑棋成势，白E5孤立，H5为目标点，预示黑将扩张。",
+      "shapes": [
+        "black_influence_e4_g3_f4_g5"
+      ],
+      "local_tags": [
+        "黑势力圈",
+        "H5为急所",
+        "白孤子"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G3",
+        "G5",
+        "E5",
+        "H5"
+      ],
+      "group_status": [
+        "white_e5_isolated",
+        "black_influence_spreading_north"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角R6、R14、Q3为黑棋分散据点，白无子，属黑棋战略纵深，暂无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "黑战略纵深",
+        "空点",
+        "无接触"
+      ],
+      "key_points": [
+        "R6",
+        "R14",
+        "Q3"
+      ],
+      "group_status": []
+    }
+  ]
+}

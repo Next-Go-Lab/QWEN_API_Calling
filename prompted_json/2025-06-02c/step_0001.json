@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_000",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 0,
+    "to_play": 1,
+    "last_move": null,
+    "recent_moves": [],
+    "black_stones": [],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "R16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "opening",
+      "empty_board",
+      "first_move_target"
+    ],
+    "strategic_focus": [
+      "corner_play",
+      "influence_balance"
+    ],
+    "global_summary_cn": "棋局初始状态，十九路空盘，黑方即将落子，目标点为R16（右上角小目位）。",
+    "phase_explanation": "布局阶段起始，尚未形成任何实地或势力结构，全局对称，无攻防关系。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角区域，完全空旷，无子力分布。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corner"
+      ],
+      "key_points": [
+        "D16",
+        "D4",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中央区域，空旷，连接左右两角。",
+      "shapes": [],
+      "local_tags": [
+        "empty_side"
+      ],
+      "key_points": [
+        "K16",
+        "J16",
+        "L16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角区域，目标点R16位于此，为典型小目选点。",
+      "shapes": [],
+      "local_tags": [
+        "target_corner",
+        "small_eye"
+      ],
+      "key_points": [
+        "R16",
+        "R4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中央区域，空旷，未来可能发展为势力或拆边方向。",
+      "shapes": [],
+      "local_tags": [
+        "empty_side"
+      ],
+      "key_points": [
+        "D10",
+        "K10",
+        "D9"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元及中腹区域，完全空旷，战略制高点未被占据。",
+      "shapes": [],
+      "local_tags": [
+        "empty_center"
+      ],
+      "key_points": [
+        "K10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中央区域，空旷，与右上角呼应潜力强。",
+      "shapes": [],
+      "local_tags": [
+        "empty_side"
+      ],
+      "key_points": [
+        "R10",
+        "K10",
+        "R9"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角区域，完全空旷，对称于右上角。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corner"
+      ],
+      "key_points": [
+        "D4",
+        "Q4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央区域，空旷，尚未有子力介入。",
+      "shapes": [],
+      "local_tags": [
+        "empty_side"
+      ],
+      "key_points": [
+        "K4",
+        "J4",
+        "L4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角区域，完全空旷，对称于左上角。",
+      "shapes": [],
+      "local_tags": [
+        "empty_corner"
+      ],
+      "key_points": [
+        "Q4",
+        "R4",
+        "D4"
+      ],
+      "group_status": []
+    }
+  ]
+}

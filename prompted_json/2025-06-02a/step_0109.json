@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_108",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 108,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P16"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "T2"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "Q11"
+      },
+      {
+        "color": 0,
+        "point": "O15"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "Q11",
+      "R14",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "O15",
+      "Q15",
+      "D16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "实地争夺激烈",
+      "白棋右上厚势未完全转化为实地",
+      "黑棋中央潜力待开发"
+    ],
+    "strategic_focus": [
+      "R10点刺试探白棋中腹薄弱处",
+      "右下角黑棋P2-T2一线与白棋R1-R8形成对峙",
+      "左上角黑棋A3-C3与白棋A4-A5构成小规模接触战"
+    ],
+    "global_summary_cn": "第108手，黑方行棋，局面进入中盘向收官过渡的关键阶段。黑棋在右下和左下占据较大实地，白棋则在右上和中腹构建厚势但尚未定型；双方在中腹R10附近展开新接触，意图打破平衡。",
+    "phase_explanation": "当前为中盘后期，多数大场已落定，局部攻防成为焦点。黑棋掌握主动权，通过R10点刺瞄准白棋中腹联络弱点；白棋需谨慎处理Q11、O15等孤子与大龙的呼应关系。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角小规模接触战，黑A3-C3与白A4-A5、C2-D2对峙，黑棋稍显局促。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "接触战",
+        "低效定式"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "C2"
+      ],
+      "group_status": [
+        "黑棋不活",
+        "白棋安定"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，白棋F17、O17、Q17、R17连成厚壁，黑棋仅Q16、P16两子浅入，暂无强攻手段。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "浅消"
+      ],
+      "key_points": [
+        "F17",
+        "Q17",
+        "R17",
+        "Q16"
+      ],
+      "group_status": [
+        "白棋厚实",
+        "黑棋漂浮"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋D16、R16、Q15、O15构成大模样，黑棋R14、R15、Q11试图侵消，但尚未深入腹地。",
+      "shapes": [
+        "moyo"
+      ],
+      "local_tags": [
+        "模样",
+        "侵消未果"
+      ],
+      "key_points": [
+        "D16",
+        "R16",
+        "O15",
+        "Q11"
+      ],
+      "group_status": [
+        "白棋未封口",
+        "黑棋孤子"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋G1-G7、E4-E7、D7-D8与白棋C2-C8、B7-B9形成交错，局部存在劫争隐患。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "缠斗",
+        "潜在劫材"
+      ],
+      "key_points": [
+        "G5",
+        "E5",
+        "C6",
+        "D7"
+      ],
+      "group_status": [
+        "双方未净活",
+        "对杀未决"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷地带，黑Q11为关键跳点，白无直接应对，R10为黑方最新试探点，意在分断白棋中腹联络。",
+      "shapes": [
+        "probe"
+      ],
+      "local_tags": [
+        "点刺",
+        "分断意图"
+      ],
+      "key_points": [
+        "Q11",
+        "R10"
+      ],
+      "group_status": [
+        "黑棋主动",
+        "白棋待补"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3-O6、R4-R7与白棋O4-Q8、S7-S9形成复杂对峙，黑棋R5-R6有断点风险。",
+      "shapes": [
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "O4",
+        "R5",
+        "S7",
+        "Q8"
+      ],
+      "group_status": [
+        "黑棋薄",
+        "白棋可攻"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A3-C5、B2-H2与白棋B1-C2-D1-D2-E2-F2-G2构成典型‘无忧角’对抗结构，黑棋实地稍优。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "无忧角",
+        "实地优先"
+      ],
+      "key_points": [
+        "A3",
+        "B2",
+        "D1",
+        "G2"
+      ],
+      "group_status": [
+        "黑棋活棋",
+        "白棋安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋P2-T2、P4-T4、P5-T6呈横向厚势，白棋仅O4、Q4、Q5零星应手，黑棋控制力强。",
+      "shapes": [
+        "influence"
+      ],
+      "local_tags": [
+        "厚势压迫",
+        "低位扩张"
+      ],
+      "key_points": [
+        "T2",
+        "P4",
+        "R5"
+      ],
+      "group_status": [
+        "黑棋厚实",
+        "白棋受压"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q2-S2、R4-T4、R5-T6与白棋Q4-Q8、R8-T8形成大规模接触，黑棋实地庞大，白棋外势单薄。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "大实地",
+        "外势薄弱"
+      ],
+      "key_points": [
+        "T2",
+        "R4",
+        "Q4",
+        "T8"
+      ],
+      "group_status": [
+        "黑棋活棋",
+        "白棋未厚"
+      ]
+    }
+  ]
+}

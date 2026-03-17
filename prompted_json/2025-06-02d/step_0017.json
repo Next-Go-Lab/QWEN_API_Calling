@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_016",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 16,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "L16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "R6",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6",
+      "R8",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "invasion_preparation"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "right_side_influence",
+      "center_projection"
+    ],
+    "global_summary_cn": "黑棋在右上角Q15、R16与白棋P17、R8形成局部对峙，左下F3-E4-F4黑阵初具雏形，白棋C4-D3-E3占据左下角并试探黑棋D16一子；全局尚未形成大模样，双方侧重实地与外势平衡。",
+    "phase_explanation": "第16手，黑方即将落子（to_play: 1），局面处于布局中期向中盘过渡阶段，关键争夺点集中在右上角及右侧边路，R11为政策目标点，暗示中央潜力开发意图。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16黑子孤立，附近无邻接子，存在被攻击风险；白棋暂无压迫。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_black"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "Q15黑、P17白、R16黑、R8白构成复杂角部关系；黑有Q15-R16连线，白有P17-R8斜跳，潜在对杀或定式未定。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "unresolved_corner",
+        "mutual_sente"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "P17",
+        "R8"
+      ],
+      "group_status": [
+        "uncertain",
+        "contact_fight"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "C4白、D3白、E3白、E4黑、F4黑、F3黑形成左下角典型小目守角与夹攻结构；黑棋E4-F4-F3呈三角厚势，白棋C4-D3-E3稳健取地。",
+      "shapes": [
+        "small_knight_corner",
+        "triangle_shape"
+      ],
+      "local_tags": [
+        "balanced_local",
+        "territorial_focus"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4",
+        "F4",
+        "F3"
+      ],
+      "group_status": [
+        "alive",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，仅政策目标R11位于此区，是未来势力投送与眼位争夺焦点。",
+      "shapes": [],
+      "local_tags": [
+        "target_zone",
+        "potential_eye_space"
+      ],
+      "key_points": [
+        "R11"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "K4黑、Q4白、R6黑构成右侧中腹牵制链；K4与R6呼应，Q4白子略显单薄，存在被分断可能。",
+      "shapes": [
+        "two_point_jump",
+        "loose_connection"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_vulnerability"
+      ],
+      "key_points": [
+        "K4",
+        "Q4",
+        "R6"
+      ],
+      "group_status": [
+        "floating",
+        "semi_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角已定型，白C4-D3-E3成实空，黑F3-E4-F4围住小空但未封口，整体白稍优。",
+      "shapes": [
+        "corner_territory"
+      ],
+      "local_tags": [
+        "settled",
+        "white_advantage"
+      ],
+      "key_points": [],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "底部中央无子，连接左右两角的通道，目前为战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，仅R6黑子靠近边线，孤立且缺乏支援，属待发展薄弱点。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_black",
+        "under_development"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    }
+  ]
+}

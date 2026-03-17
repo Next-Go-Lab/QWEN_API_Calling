@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_011",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 11,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6"
+    ]
+  },
+  "targets": {
+    "policy_target": "P17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "side_influence"
+    ],
+    "strategic_focus": [
+      "bottom_left_corner",
+      "right_side_framework",
+      "center_influence_balance"
+    ],
+    "global_summary_cn": "第11手，黑方刚落子K4，双方在右下与左上角已有初步布点，底部三三附近形成短兵相接；白棋在D3/E3/C4构筑小堡垒，黑棋以E4/F3/F4呼应，K4一子试探白棋右下势力范围；全局尚处布局初期，实地与外势尚未定型。",
+    "phase_explanation": "布局阶段（前20手），双方侧重角部定式雏形与边路拆二/跳守，尚未进入中盘战斗，但右下D3–F4一带已显局部紧张感。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑D16、白C6两子遥相呼应，无直接接触，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "undeveloped",
+        "potential_invasion_point"
+      ],
+      "key_points": [
+        "D16",
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "天元上方完全空旷，无任何着子，属纯战略空白区。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_influence_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角仅白Q4一子单官守角，黑无应手，属白简易守角雏形。",
+      "shapes": [],
+      "local_tags": [
+        "white_solo_corner",
+        "underdeveloped"
+      ],
+      "key_points": [
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及四路一带空旷，黑R16位于边线高点，但未形成结构，白无子。",
+      "shapes": [],
+      "local_tags": [
+        "black_high_point",
+        "uncontested"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域完全空旷，无任何着子，为未来势力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "vacant_core",
+        "influence_hub"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "K4为最新一手黑棋，位于右下势力边缘，与白C6、Q4构成斜线张力；附近无其他子，属试探性打入预备位。",
+      "shapes": [],
+      "local_tags": [
+        "black_probe",
+        "edge_tension"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "D3/E3/F3/F4/E4/C4构成密集局部战场：白D3/E3/C4呈小堡垒，黑E4/F3/F4反向压迫，已形成微型攻防结构。",
+      "shapes": [
+        "triangle",
+        "local_fight"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "three_three_area",
+        "white_eye_shape",
+        "black_pressure"
+      ],
+      "key_points": [
+        "D3",
+        "E3",
+        "C4",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "white_group_weak_eye",
+        "black_group_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "G3–H4一带空旷，但紧邻底部战斗区，为双方后续腾挪或切断要点。",
+      "shapes": [],
+      "local_tags": [
+        "tactical_junction",
+        "potential_cut"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角仅黑R16一子位于边线，白无子，与中腹K4无直接关联，属孤立高位点。",
+      "shapes": [],
+      "local_tags": [
+        "black_high_side",
+        "disconnected"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_006",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "O17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布阵",
+      "三连星雏形",
+      "高低配合"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中腹潜力",
+      "边路速度"
+    ],
+    "global_summary_cn": "黑棋以Q16、R6、Q3构成高低错落的外势结构，白棋D4、D16对称守角，O17为白棋试应手式侵消；全局呈早期布局阶段，双方尚未接触作战，重点在势力范围划分与子效平衡。",
+    "phase_explanation": "第六手，属布局初期。黑方掌握主动，连续占据高位要点；白方采取稳健守角+轻袭策略，O17意在试探黑棋右上结构弹性。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待挂"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q16镇守天元左上方，构成高位据点；白棋D16守角，但距离较远，未形成直接对抗。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "高位镇",
+        "守角",
+        "非接触"
+      ],
+      "key_points": [
+        "Q16",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q3与R6形成右上小飞+跳的配合雏形，指向中腹；白棋O17为浅消，尚未深入。",
+      "shapes": [
+        "ladder",
+        "diagonal"
+      ],
+      "local_tags": [
+        "高低配合",
+        "浅消应对",
+        "势力延伸"
+      ],
+      "key_points": [
+        "Q3",
+        "R6",
+        "O17"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及四线以下全空，无任何着子，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "空带",
+        "未来拆边"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，黑棋尚未向中心投子，但Q16与R6已辐射影响中腹上半部。",
+      "shapes": [],
+      "local_tags": [
+        "空心",
+        "辐射影响"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "O17为白棋打入点，临近黑棋R6与Q3，构成潜在攻防焦点；R14为目标点，暗示黑棋下一着可能强化此处。",
+      "shapes": [
+        "triangle"
+      ],
+      "local_tags": [
+        "打入点",
+        "攻防前沿",
+        "目标关联"
+      ],
+      "key_points": [
+        "O17",
+        "R14"
+      ],
+      "group_status": [
+        "potentially_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全域空旷，无子，属最晚开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "远期大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中腹及D4周边空旷，白棋D4为守角一子，孤立存在，暂无配合。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "守角",
+        "孤立子"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全域空旷，无子，当前无战略动作。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "静观"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

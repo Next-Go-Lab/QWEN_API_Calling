@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_011",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 11,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "S14"
+      },
+      {
+        "color": 1,
+        "point": "R13"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R13",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S14",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局争夺",
+      "右上角激战",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "边路联络"
+    ],
+    "global_summary_cn": "第11手，黑方刚于R13落子，形成右上角连续攻防序列；白棋在R16、R17、S14构成厚壁，黑棋Q16、Q17、R14、R13呈侵入姿态，双方在右上激烈接触；全局尚处布局早期，重心集中于右上角及右边一带。",
+    "phase_explanation": "布局阶段，双方围绕右上角展开典型小目·高挂定式后续争夺，黑棋试图深入拆解白棋阵势，白棋借厚势谋求外势与实地平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "左中上部空旷，仅D16一子（白），孤立且偏高，暂无明显互动。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "高位试探"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：白棋R17、Q17、R16、S14四子成势，黑棋Q16、R14、R13三子深入，S13为下一手关键点。",
+      "shapes": [
+        "corner_fight",
+        "wall_vs_invasion"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "厚薄对比",
+        "急所待落"
+      ],
+      "key_points": [
+        "R17",
+        "Q17",
+        "R16",
+        "S14",
+        "Q16",
+        "R14",
+        "R13",
+        "S13"
+      ],
+      "group_status": [
+        "white_wall",
+        "black_invasion_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及四线以下空旷，仅D4（白）一子，位置偏低，尚未展开。",
+      "shapes": [],
+      "local_tags": [
+        "低位守角",
+        "孤立守点"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何棋子，为未来势力发展与眼位争夺预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "潜力区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边中腹（约M–P列，8–12线）空旷，但紧邻右上战场，是黑棋R13之后的潜在扩张方向。",
+      "shapes": [],
+      "local_tags": [
+        "延伸通道",
+        "联络要道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无子，属远期布局区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（D–Q列，1–5线）有黑棋P4、R4与白棋D4，呈低位对峙雏形，但尚未形成关联。",
+      "shapes": [],
+      "local_tags": [
+        "低位双飞",
+        "未连接"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下空旷，仅黑棋R4一子靠边，孤立存在，暂无战略动作。",
+      "shapes": [],
+      "local_tags": [
+        "单关守角",
+        "未发展"
+      ],
+      "key_points": [
+        "R4"
+      ],
+      "group_status": []
+    }
+  ]
+}

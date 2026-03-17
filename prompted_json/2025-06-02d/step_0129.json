@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_128",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 128,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "L18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S14"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N18"
+      },
+      {
+        "color": 0,
+        "point": "L18"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "N18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "L18",
+      "O18"
+    ]
+  },
+  "targets": {
+    "policy_target": "M18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "白胜定式",
+      "边空争夺",
+      "中腹薄味"
+    ],
+    "strategic_focus": [
+      "右上角收官",
+      "中腹黑棋厚势未发挥",
+      "白棋右下实空稳固",
+      "黑棋左下大龙未净活"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，白棋凭借右下与右上实地优势领先，黑棋虽在中腹成势但缺乏有效攻击目标；右上角L18一子引发局部劫争余味，M18为双方争夺要点。",
+    "phase_explanation": "第128手，黑方行棋，局面处于终局官子阶段。白棋以6.5目贴目优势稳守，黑棋需在右上、中腹寻找最后逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守小空，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋K7-L9-R9一线形成薄势，白棋G9-K9-O9反制，存在侵消可能。",
+      "shapes": [
+        "side_wall",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "黑势单薄",
+        "白棋侵消点"
+      ],
+      "key_points": [
+        "K7",
+        "L9",
+        "R9",
+        "G9",
+        "K9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：白O18、L18与黑N18、S14构成对杀余味，M18为关键劫材点。",
+      "shapes": [
+        "corner_fight",
+        "ko_threat"
+      ],
+      "local_tags": [
+        "劫争焦点",
+        "官子胜负手"
+      ],
+      "key_points": [
+        "O18",
+        "L18",
+        "N18",
+        "S14",
+        "M18"
+      ],
+      "group_status": [
+        "critical_ko"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑B13-O13-S13与白F13-K13-R13对峙，黑棋联络尚可但眼位不足。",
+      "shapes": [
+        "side_chain",
+        "eye_deficit"
+      ],
+      "local_tags": [
+        "黑棋欠一手活",
+        "白棋可点入"
+      ],
+      "key_points": [
+        "B13",
+        "O13",
+        "S13",
+        "F13",
+        "K13"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑J10-L10-R10与白E10-G10-H10形成厚薄对比，黑势宏大但缺乏攻击落点。",
+      "shapes": [
+        "central_influence",
+        "floating_group"
+      ],
+      "local_tags": [
+        "黑势虚张",
+        "白棋安定"
+      ],
+      "key_points": [
+        "J10",
+        "L10",
+        "R10",
+        "E10",
+        "G10"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P11-Q15与白O12-Q12-P14形成缠斗，白棋已活透，黑棋外势未转化。",
+      "shapes": [
+        "live_group",
+        "influence_barrier"
+      ],
+      "local_tags": [
+        "白棋实空已固",
+        "黑势被封锁"
+      ],
+      "key_points": [
+        "P11",
+        "Q15",
+        "O12",
+        "Q12",
+        "P14"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑F3-M3与白C3-E3-H3形成复杂接触战，黑棋F3-L3-M3大龙尚未净活。",
+      "shapes": [
+        "ladder",
+        "life_death"
+      ],
+      "local_tags": [
+        "黑大龙未活",
+        "白棋可搜根"
+      ],
+      "key_points": [
+        "F3",
+        "L3",
+        "M3",
+        "C3",
+        "H3"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E7-G7-K7与白F7-N7-Q7对峙，黑棋K7为孤子，白棋厚实。",
+      "shapes": [
+        "isolated_stone",
+        "thickness"
+      ],
+      "local_tags": [
+        "黑孤子",
+        "白厚势"
+      ],
+      "key_points": [
+        "E7",
+        "G7",
+        "K7",
+        "F7",
+        "N7"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白C6-F6-P4-Q4完全围空，黑仅C7-D11零星数子，白实空巨大且稳固。",
+      "shapes": [
+        "territory",
+        "secure"
+      ],
+      "local_tags": [
+        "白铁壁",
+        "黑无侵入点"
+      ],
+      "key_points": [
+        "C6",
+        "F6",
+        "P4",
+        "Q4",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

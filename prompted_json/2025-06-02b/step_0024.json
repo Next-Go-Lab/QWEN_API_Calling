@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_023",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "M4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N3"
+      },
+      {
+        "color": 1,
+        "point": "R18"
+      },
+      {
+        "color": 0,
+        "point": "S18"
+      },
+      {
+        "color": 1,
+        "point": "Q18"
+      },
+      {
+        "color": 0,
+        "point": "S19"
+      },
+      {
+        "color": 1,
+        "point": "M4"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "下边黑棋拆二潜力",
+      "中央黑棋联络薄弱"
+    ],
+    "global_summary_cn": "第23手，黑方刚于M4落子，形成右下小飞挂后跳的结构；白棋在右上S18、S19连扳定型，黑Q18、R18反扳，局部未净；左下D4白子孤立，黑P4、R4呼应；中央尚空旷，N4为双方争夺要点。",
+    "phase_explanation": "中盘初期，双方在右上与右下展开多点接触，尚未形成明显大模样或实地，胜负关键在于中央势力发展与边角定型效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅D16、J16两颗白子呈低位守角态势，无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "守角",
+        "低位布局"
+      ],
+      "key_points": [
+        "D16",
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上区域空旷，黑Q15-Q17、R12-R14成斜向阵势，白R15-R17、S13-S14反夹，对峙初显。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "对峙",
+        "斜阵"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "黑棋未连通",
+        "白棋厚实"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈定型：黑Q18、R18、S12-S14，白R15、R16、R17、S13-S14、S18-S19形成复杂扳粘关系，黑棋略显滞重。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "定型未完",
+        "扳粘战",
+        "白棋厚势"
+      ],
+      "key_points": [
+        "Q18",
+        "R18",
+        "S18",
+        "S19",
+        "R15",
+        "S13"
+      ],
+      "group_status": [
+        "白棋活形",
+        "黑棋需补"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，仅黑R12、S12、R13、R14构成松散阵型，白无子，属黑棋潜在影响力区。",
+      "shapes": [],
+      "local_tags": [
+        "影响力",
+        "未实尖"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "黑棋孤子群"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，是全局战略要冲；N4为当前最急迫打入点，牵动中央与上下边路。",
+      "shapes": [],
+      "local_tags": [
+        "战略中枢",
+        "待打入"
+      ],
+      "key_points": [
+        "N4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑M4、P4、R4一线三子呈跳守结构，白N3紧邻压迫，黑棋有拆二或跳起意图。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "跳守",
+        "压迫应对"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑棋未连通",
+        "白棋试探"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角仅D4一颗白子，孤立浅薄，黑方暂未进攻，但构成潜在攻击目标。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "待攻"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "白棋单官"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，黑无子，白亦无子，属全局最开阔地带，未来可能成为大模样或大转换战场。",
+      "shapes": [],
+      "local_tags": [
+        "开阔地",
+        "未开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑M4、P4、R4与白N3构成典型小飞挂后跳守vs夹击结构，黑棋稍显被动，N4为最佳反击点。",
+      "shapes": [
+        "small_knight"
+      ],
+      "local_tags": [
+        "小飞挂",
+        "跳守",
+        "夹击"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑棋需联络"
+      ]
+    }
+  ]
+}

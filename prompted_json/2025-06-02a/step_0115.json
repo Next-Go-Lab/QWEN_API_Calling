@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_114",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 114,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R10"
+      },
+      {
+        "color": 0,
+        "point": "O9"
+      },
+      {
+        "color": 1,
+        "point": "P15"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q14"
+      },
+      {
+        "color": 0,
+        "point": "O16"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R10",
+      "Q11",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "O9",
+      "S9",
+      "P14",
+      "O15",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边空争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹联络",
+      "P13打入点"
+    ],
+    "global_summary_cn": "局面进入中盘关键阶段，黑棋在右上持续施压，白棋O16一子强化边空但留下P13打入手段；双方在中腹形成对峙，黑棋Q14、P15、R15构成攻击阵型，白棋P14、O9、O15构筑防线；全局厚薄对比明显，黑棋中央潜力大，白棋边地实空厚实。",
+    "phase_explanation": "第114手，黑方即将落子，当前为中盘中后期，胜负焦点集中于右上与中腹交汇处，P13是典型侵消兼试探的选点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白A3-A6、B1-B2等构成坚实模样，黑C3-C5略有侵消但未深入。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "白模様"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，黑G1-G5、H1-H6与白D1-D4、E2-E6交错，局部呈接触战态势，但无明显死活问题。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "接触战",
+        "平稳"
+      ],
+      "key_points": [
+        "D4",
+        "G4",
+        "H6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈攻防核心区域：黑Q14、R14、P15、Q16、R15与白P14、O9、O15、O16、Q4、Q5、Q6、Q7、Q8、R8、S7、R16、Q17、R17形成复杂缠斗；P13为关键打入点。",
+      "shapes": [
+        "corner",
+        "attack",
+        "invasion"
+      ],
+      "local_tags": [
+        "主战场",
+        "P13待落",
+        "白厚势",
+        "黑攻击流"
+      ],
+      "key_points": [
+        "P13",
+        "O16",
+        "P14",
+        "Q14",
+        "R15"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑A7-D7、D8、F8与白B7-C7、C8、E8形成小规模对峙，黑棋略占主动但未形成有效攻击。",
+      "shapes": [
+        "side",
+        "center_edge"
+      ],
+      "local_tags": [
+        "牵制",
+        "轻灵"
+      ],
+      "key_points": [
+        "A7",
+        "D7",
+        "D8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带尚未完全展开，黑E7、F6、G7、G5与白E5-E6、F5、H5、H6互相对应，存在潜在联络与切断可能，是后续战略要冲。",
+      "shapes": [
+        "center"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "联络要点"
+      ],
+      "key_points": [
+        "E7",
+        "F6",
+        "G5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O3-O6、R6-T7与白O4、Q4-Q8、R8、S7、T8构成宽广势力范围，白棋实地厚实，黑棋外势向中腹延伸。",
+      "shapes": [
+        "side",
+        "influence"
+      ],
+      "local_tags": [
+        "白实空",
+        "黑外势"
+      ],
+      "key_points": [
+        "O6",
+        "R6",
+        "T7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A3-C3、B2、G1-G3与白B1、C2、D1-D3已大致安定，属早期定式结果，无紧迫变化。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型",
+        "平稳"
+      ],
+      "key_points": [
+        "A3",
+        "B2",
+        "C2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑P2-R4、T2-T4与白E2-G2、J2-J3、O4构成松散对峙，黑棋占据更多实地，白棋稍显单薄。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白薄弱"
+      ],
+      "key_points": [
+        "P2",
+        "R4",
+        "T4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2-S2、T2-T4与白R8、S7、T8、R16、Q17、R17形成高低呼应，白棋厚势覆盖大半，黑棋仅存小块实地，处于守势。",
+      "shapes": [
+        "corner",
+        "thickness"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑苦活"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "T2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

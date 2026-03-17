@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_092",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 92,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D3"
+      },
+      {
+        "color": 0,
+        "point": "E4"
+      },
+      {
+        "color": 1,
+        "point": "E1"
+      },
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      },
+      {
+        "color": 0,
+        "point": "J3"
+      }
+    ],
+    "black_stones": [
+      "E1",
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "B3",
+      "E3",
+      "J3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "E4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "C2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左下黑空潜力",
+      "中央势力对峙"
+    ],
+    "global_summary_cn": "第92手，黑方行棋，局面处于中盘关键阶段。白棋在右下和中腹形成厚势，黑棋则在左下、左上及中腹局部保持实地与厚味平衡。近期连续在低位（1-4线）交锋，尤其D3-E4-D2-J3一线形成复杂接触战，C2为当前急所。",
+    "phase_explanation": "中盘后期，双方大场基本落定，转入局部攻防与眼位争夺。黑棋握有先手，需处理右下白厚势压迫下的联络与做活问题；白棋则伺机扩大中腹影响力或侵消黑左下潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋占据B15-C15-D15-E16及Q16-R16，白棋B16-D16形成浅消，黑棋M17-O17连片厚实。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白浅消",
+        "安定"
+      ],
+      "key_points": [
+        "B15",
+        "D16",
+        "M17"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_semi_stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋P4-Q4-R4-S7与白棋O4-Q5-R7形成对峙，黑S7-R6-M6一线具弹性，白Q6-P7-R9施加压力。",
+      "shapes": [
+        "side_wall",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "对攻",
+        "轻重转换"
+      ],
+      "key_points": [
+        "P4",
+        "Q5",
+        "S7"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R2-Q2-Q3-R3-R4被白P3-Q4-R3压制，白R9-C9横跨上边，黑Q7-S8略显单薄。",
+      "shapes": [
+        "corner_pressure"
+      ],
+      "local_tags": [
+        "白压迫",
+        "黑待补"
+      ],
+      "key_points": [
+        "R2",
+        "P3",
+        "R9"
+      ],
+      "group_status": [
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑C3-C4-C5-D5-E5-F5与白B3-C4-D4-E4形成经典‘双飞燕’变体，黑已活角但外围未厚，白C6-D6-E6具侵分潜力。",
+      "shapes": [
+        "fuseki_residual",
+        "side_chain"
+      ],
+      "local_tags": [
+        "定式余味",
+        "黑实地优先"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑F6-G7-G8与白E6-F7-G6-H7交错，黑M6与白J6-L4构成中腹势力拉锯，无明确活形，属典型中腹作战区。",
+      "shapes": [
+        "central_web",
+        "influence_race"
+      ],
+      "local_tags": [
+        "中腹对峙",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "F6",
+        "J6",
+        "M6"
+      ],
+      "group_status": [
+        "mutual_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N3-O5-P5与白M5-O4-P6-Q6形成犬牙交错，黑N5-O5受白M5、Q5夹击，存在联络隐忧。",
+      "shapes": [
+        "interlocking_groups"
+      ],
+      "local_tags": [
+        "缠斗",
+        "联络要点"
+      ],
+      "key_points": [
+        "N3",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑C11-D11-D10-D13与白C9-C10-C13构成‘三连星’低位对抗，黑D13为重要据点，白C13为扳头要点，黑尚有扩张空间。",
+      "shapes": [
+        "low_side_framework"
+      ],
+      "local_tags": [
+        "黑潜力",
+        "白守势"
+      ],
+      "key_points": [
+        "C11",
+        "D13",
+        "C13"
+      ],
+      "group_status": [
+        "black_potential"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑E1-F2-F3-F4与白D2-E2-E3-E4-D4密集交战，黑E1-D3-F3成三角厚势，白J3为最新打入点，正威胁黑下边根基。",
+      "shapes": [
+        "contact_fight",
+        "triangle"
+      ],
+      "local_tags": [
+        "激烈接触战",
+        "白打入"
+      ],
+      "key_points": [
+        "E1",
+        "D3",
+        "J3"
+      ],
+      "group_status": [
+        "black_under_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2-R2-R3-R4-R5-R6与白P3-Q4-Q5-Q6-R7-R8形成大规模攻防，黑R6为关键联络子，白R8、P7具攻击性，C2为黑方亟待补强的急所。",
+      "shapes": [
+        "large_contact_fight",
+        "life_death_critical"
+      ],
+      "local_tags": [
+        "生死大劫",
+        "黑急所"
+      ],
+      "key_points": [
+        "Q2",
+        "R6",
+        "C2"
+      ],
+      "group_status": [
+        "critical_life_death"
+      ]
+    }
+  ]
+}

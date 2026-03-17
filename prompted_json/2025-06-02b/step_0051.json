@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_050",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 50,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "L3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "K3"
+      },
+      {
+        "color": 1,
+        "point": "K2"
+      },
+      {
+        "color": 0,
+        "point": "L3"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "L3附近对杀未定"
+    ],
+    "global_summary_cn": "第50手，黑方即将落子，局面处于中盘关键阶段。右下角（L3/K3/K2/J3）形成复杂对杀，白棋占据K3、L3、M3、N3构成厚壁，黑棋K2、J3、K4试图破眼；左上黑棋Q15–R18成势但尚未安定；右上白棋S13–S19构筑大模样；全局厚薄对比明显，黑需在中腹或右下寻求突破。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，尚未进入官子。右下为当前最紧迫战场，L3是刚落下的白棋一子，黑若不立即应对可能面临死活危机。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上黑棋Q15-Q18/R16-R18成大飞守角结构，但外围松散，白有D16/J16双点削弱可能。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "未完全安定"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R16",
+        "R17",
+        "R18"
+      ],
+      "group_status": [
+        "alive_with_liberties"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，白D16与黑Q15遥相对峙，暂无直接冲突，属潜在势力辐射区。",
+      "shapes": [
+        "open_area"
+      ],
+      "local_tags": [
+        "势力交界",
+        "待发展"
+      ],
+      "key_points": [
+        "D16",
+        "J16",
+        "Q15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上白棋S13-S14/R15/R16/R17/S18/S19构成大型外势，黑仅R12-S12两点孤子，面临被封锁风险。",
+      "shapes": [
+        "moyo",
+        "wall"
+      ],
+      "local_tags": [
+        "白大模样",
+        "黑孤棋"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "S13",
+        "S14",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black_group_weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑C6/D7与白D4/D6/E6形成小规模接触，黑稍显被动，白有连络与压迫手段。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "白取势",
+        "黑需补强"
+      ],
+      "key_points": [
+        "C6",
+        "D4",
+        "D6",
+        "D7",
+        "E6"
+      ],
+      "group_status": [
+        "black_group_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，黑N5/M6/L6与白L5/M5/O5呈对称分布，中腹潜力待开发，是未来胜负关键。",
+      "shapes": [
+        "open_center"
+      ],
+      "local_tags": [
+        "中腹争先",
+        "双方未深入"
+      ],
+      "key_points": [
+        "L5",
+        "M5",
+        "N5",
+        "L6",
+        "M6",
+        "N6",
+        "O5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹K2-K4-J3-L3-M3-N3形成密集对杀区域，黑K2/J3/K4三子与白K3/L3/M3/N3对峙，气紧且存在劫材关联。",
+      "shapes": [
+        "fighting_cluster",
+        "life_death_critical"
+      ],
+      "local_tags": [
+        "对杀焦点",
+        "L3刚落子",
+        "黑需K6破眼"
+      ],
+      "key_points": [
+        "K2",
+        "J3",
+        "K3",
+        "K4",
+        "L3",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "mutual_life_threat"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B4/C6与白F3/D4构成低段定式余味，黑B4孤立，白F3可伺机跳入，暂处静止状态。",
+      "shapes": [
+        "settled_corner"
+      ],
+      "local_tags": [
+        "定式余味",
+        "白略优"
+      ],
+      "key_points": [
+        "B4",
+        "C6",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "white_group_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中腹P2/Q3/R4/P4/O4等黑白交错，黑Q3/R4/P4/O4成斜形阵势，白P2单子薄弱，但有L4/N4呼应。",
+      "shapes": [
+        "diagonal_shape",
+        "light_group"
+      ],
+      "local_tags": [
+        "黑阵初成",
+        "白P2待补"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "R4",
+        "P4",
+        "O4",
+        "L4",
+        "N4"
+      ],
+      "group_status": [
+        "black_group_slightly_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角已成典型攻防战场：黑K2/K4/J3 vs 白K3/L3/M3/N3，黑若不走K6将难活；白L3为最新一手，意在收紧气。",
+      "shapes": [
+        "life_death_problem",
+        "tight_fight"
+      ],
+      "local_tags": [
+        "死活题",
+        "黑必应",
+        "K6为急所"
+      ],
+      "key_points": [
+        "K2",
+        "J3",
+        "K3",
+        "K4",
+        "L3",
+        "M3",
+        "N3",
+        "K6"
+      ],
+      "group_status": [
+        "black_group_in_atari_risk"
+      ]
+    }
+  ]
+}

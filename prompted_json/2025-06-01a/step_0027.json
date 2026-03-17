@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_026",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "P18"
+      },
+      {
+        "color": 1,
+        "point": "O17"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N17"
+      },
+      {
+        "color": 0,
+        "point": "N18"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "M17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "黑棋M17打入意图"
+    ],
+    "global_summary_cn": "第26手，黑方即将在M17打入右上白棋厚势空隙，形成局部激烈对杀；右上角（N17–P18）黑白交错密集，白棋占据外势，黑棋试图深入破空；全局黑棋实地稍优但面临中腹薄味风险。",
+    "phase_explanation": "中盘阶段，双方围绕右上角展开连续接触战，最近6手全部发生在Q16–R17一带，呈现典型‘角部定式后延伸战’特征；黑方握有先手，正寻求主动打破平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力交集，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D13–F14一带黑棋小飞守角，C13白子挂角形成浅消，局部平稳。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑守角",
+        "白浅消"
+      ],
+      "key_points": [
+        "D13",
+        "C13",
+        "E14"
+      ],
+      "group_status": [
+        "黑棋安定",
+        "白棋未深入"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：黑Q16/R16/N17/O17/P17 vs 白Q17/R17/N18/O18/P18，呈典型‘双飞燕后复杂定式’延续，M17为当前打入要点。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "厚薄对比",
+        "打入点"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "N17",
+        "O17",
+        "P17",
+        "Q17",
+        "R17",
+        "N18",
+        "O18",
+        "P18",
+        "M17"
+      ],
+      "group_status": [
+        "黑棋不活需做眼",
+        "白棋外势雄厚"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "C11、C15、D15、E16构成黑棋中腹潜力支点，白D16/D17略施压迫。",
+      "shapes": [
+        "influence_line"
+      ],
+      "local_tags": [
+        "黑棋势力基点",
+        "白棋试探"
+      ],
+      "key_points": [
+        "C11",
+        "C15",
+        "D15",
+        "E16",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "黑棋未连通",
+        "潜在厚势"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何着子，是未来大场与厚势辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略要地"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "E15–H15一线白棋连片厚势，F14/E14黑子孤悬其前，存在被攻击风险。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "白棋厚壁",
+        "黑棋孤子"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15",
+        "G15",
+        "H15"
+      ],
+      "group_status": [
+        "白棋坚固",
+        "黑棋薄弱"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "Q3孤子独立，远离主战场，暂为无关闲子。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "孤子",
+        "无关"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "无联络"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方全空，无子力分布，属待开发大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全空，仅D4一子孤立，属早期布局遗留，尚未参与中盘战斗。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "单子",
+        "布局余味"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "无配合"
+      ]
+    }
+  ]
+}

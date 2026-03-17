@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_023",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R5"
+      },
+      {
+        "color": 1,
+        "point": "Q6"
+      },
+      {
+        "color": 0,
+        "point": "O4"
+      },
+      {
+        "color": 1,
+        "point": "P7"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R10"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "R10",
+      "R11",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "右下角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "Q9点刺试探",
+      "R10白棋新断点",
+      "O4白棋跳守"
+    ],
+    "global_summary_cn": "第23手，轮白（Ueno Asami）刚于R10落子，形成对黑棋R11与Q10的双重压迫；黑棋在右下（R5–R11）呈散兵状，白棋则以O4、Q4、R5、R8构成厚实外势；全局黑棋大龙尚未连通，白棋掌握主动权。",
+    "phase_explanation": "中盘初期，双方在右下角展开接触战，白棋通过连续靠压占据先机，黑棋需在Q9附近寻求治孤或反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅D16黑、C6白两子遥相呼应，无直接接触。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未开发"
+      ],
+      "key_points": [
+        "D16",
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，黑Q15与白L16、P17呈斜向对峙，但距离较远，暂无攻防。",
+      "shapes": [],
+      "local_tags": [
+        "缓战",
+        "布局余味"
+      ],
+      "key_points": [
+        "Q15",
+        "L16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R16单官守角，白P17夹击，黑棋尚未完成定式，存在被搜根可能。",
+      "shapes": [],
+      "local_tags": [
+        "未定型",
+        "单关守角"
+      ],
+      "key_points": [
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "黑孤子"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹F3–F4–E4–K4黑棋成小块，白C4、D3、E3围逼，黑棋眼位不足。",
+      "shapes": [
+        "小堡垒"
+      ],
+      "local_tags": [
+        "黑薄味",
+        "白压迫"
+      ],
+      "key_points": [
+        "F3",
+        "E4",
+        "C4"
+      ],
+      "group_status": [
+        "黑弱"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，无密集子力；Q9为当前焦点，是黑棋潜在打入点或白棋封锁要点。",
+      "shapes": [],
+      "local_tags": [
+        "战略要津",
+        "待落点"
+      ],
+      "key_points": [
+        "Q9"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹Q6–P7–R10–R11黑棋呈斜飞阵型，但被白Q10、R8、R5切断联络，局部受攻。",
+      "shapes": [
+        "斜飞阵",
+        "断点群"
+      ],
+      "local_tags": [
+        "黑棋断裂",
+        "白厚势"
+      ],
+      "key_points": [
+        "Q6",
+        "P7",
+        "R10",
+        "R11",
+        "Q10",
+        "R8"
+      ],
+      "group_status": [
+        "黑不活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，仅黑E4/F4/F3与白D3/E3/C4构成微型接触，属早期布局残留。",
+      "shapes": [],
+      "local_tags": [
+        "布局尾声",
+        "低烈度"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，无子力分布，属未来战场预备区。",
+      "shapes": [],
+      "local_tags": [
+        "真空带",
+        "待发展"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角激烈交战：黑O4被白压制后转至R5–R10一线，白O4、Q4、R5、R8构成厚壁，黑R11、R10、Q6呈断续孤形。",
+      "shapes": [
+        "厚壁",
+        "断续链"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防焦点"
+      ],
+      "key_points": [
+        "O4",
+        "Q4",
+        "R5",
+        "R8",
+        "R10",
+        "R11",
+        "Q6"
+      ],
+      "group_status": [
+        "黑危",
+        "白优"
+      ]
+    }
+  ]
+}

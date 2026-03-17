@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_012",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 12,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "C4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "C6",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局定式阶段",
+      "角部争夺激烈",
+      "白棋抢占高位",
+      "黑棋注重实地"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左上角未定型",
+      "中腹潜力待开发"
+    ],
+    "global_summary_cn": "第12手，黑方即将落子，局面处于开局中期。黑棋在右下（R14、Q16）、左下（C3、C4）形成两处角地雏形；白棋占据左上（F17、O17）、右上（D16）及左下（D3、D4、C6）多个要点，尤其C6一子对黑C3-C4结构构成压迫。B6为关键拆二点，意在巩固左下并限制白棋向中腹发展。",
+    "phase_explanation": "双方已完成初步占角，进入布阵与势力消长阶段。黑方掌握先手主动权，需应对白棋在左下角的侵消；白棋则试图通过高位布局构建外势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋F17、O17与黑棋Q16形成高低呼应，左上角尚未完成定式，存在打入与夹击可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "高位布局",
+        "未定型角"
+      ],
+      "key_points": [
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_influence"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无子分布，属双方未来势力延伸方向，当前无直接争夺。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在势力区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋D16单官守角，黑棋无子，白方暂时控制该角，但缺乏后续加强手段。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白守角",
+        "单官守角"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3、C4与白D3、D4、C6密集交战，构成典型‘无忧角vs小飞挂’衍生变化，C6为白强力侵消点。",
+      "shapes": [
+        "ladder_like",
+        "invasion"
+      ],
+      "local_tags": [
+        "角部攻防",
+        "侵消点",
+        "紧凑战斗"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何棋子，是未来中腹作战的核心预备区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "中腹起点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R14、R6构成斜线配置，白无子，黑方在此有初步势力雏形，但尚未连络或成空。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "黑势力雏形",
+        "未连络"
+      ],
+      "key_points": [
+        "R14",
+        "R6"
+      ],
+      "group_status": [
+        "black_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3、C4与白D3、D4、C6形成局部焦点；B6为黑方最优应手，可稳固角地并阻断白棋渗透。",
+      "shapes": [
+        "corner",
+        "extension"
+      ],
+      "local_tags": [
+        "关键点B6",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "C6",
+        "B6"
+      ],
+      "group_status": [
+        "critical_junction",
+        "black_to_play"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅临近左下角战区，暂为缓冲地带。",
+      "shapes": [],
+      "local_tags": [
+        "缓冲区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3单子孤立，白无子，黑方此角尚未展开，存在被挂角风险。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "孤子",
+        "待发展角"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_weak"
+      ]
+    }
+  ]
+}

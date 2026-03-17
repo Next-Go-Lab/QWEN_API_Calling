@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_061",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 61,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q7"
+      },
+      {
+        "color": 1,
+        "point": "R7"
+      },
+      {
+        "color": 0,
+        "point": "Q8"
+      },
+      {
+        "color": 1,
+        "point": "O3"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "D8"
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "G7",
+      "R7",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "Q8",
+      "R8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "D9点试探"
+    ],
+    "global_summary_cn": "第61手，黑方刚于D8落子，全局进入中盘关键阶段。右下角（Q7-R8）形成密集接触战，黑棋Q7、R7、Q8、R8与白棋缠斗；左上黑棋H1、B2等构成小堡垒，白棋B1、C2等呼应；中央黑棋O3、G7与白棋E5、F5对峙；D9为黑方下一着可能的侵消点。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部展开攻防，尚未进入明显收官，但已有部分边角接近定型。黑棋稍占实地优势，白棋握有外势潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋H1、B2、B3、C3、C4构筑小空，白棋B1、C2、D3压制。黑棋略显凝重，白棋保持压迫感。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑小堡垒",
+        "白压迫"
+      ],
+      "key_points": [
+        "B1",
+        "H1",
+        "B2",
+        "C2",
+        "D3"
+      ],
+      "group_status": [
+        "黑活形待补",
+        "白厚势"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，仅黑Q2、Q3、R3、R4、R5、R6及白P3、Q4、Q5、Q6、Q7、Q8、R7、R8密集交战，形成右上角主战场。",
+      "shapes": [
+        "side_fight",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "右上接触战",
+        "多层缠斗"
+      ],
+      "key_points": [
+        "Q7",
+        "R7",
+        "Q8",
+        "R8"
+      ],
+      "group_status": [
+        "黑白未净杀",
+        "气紧"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高位黑Q16、白D16、F17、O17分散布局，黑Q16孤高，白D16守角，F17/O17构成大模样雏形。",
+      "shapes": [
+        "high_point",
+        "framework"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白模样"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "黑Q16待联络",
+        "白外势未成"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑H2、H3、G3、G4、G5、F6、H6、G7与白E2、F2、G2、J2、E5、F5、H5形成横向对峙带，黑棋略厚。",
+      "shapes": [
+        "central_band",
+        "influence_line"
+      ],
+      "local_tags": [
+        "黑厚势带",
+        "白薄味"
+      ],
+      "key_points": [
+        "G3",
+        "G5",
+        "G7",
+        "E5",
+        "F5"
+      ],
+      "group_status": [
+        "黑连贯",
+        "白数块孤立"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近相对空旷，黑O3、P4、P5、O6与白O4、O5、O6、P3交错，O3为黑重要据点，白O4/O5试图封锁。",
+      "shapes": [
+        "invasion_point",
+        "junction"
+      ],
+      "local_tags": [
+        "黑O3据点",
+        "白封锁尝试"
+      ],
+      "key_points": [
+        "O3",
+        "O4",
+        "P4",
+        "O5"
+      ],
+      "group_status": [
+        "黑O3安定",
+        "白围而不死"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R14、白Q6、Q5、Q4、P4、P5、R3、R4、R5、R6构成复杂纠缠，黑R14孤悬，白多子呼应。",
+      "shapes": [
+        "isolated_stone",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "黑R14孤棋",
+        "白包围网"
+      ],
+      "key_points": [
+        "R14",
+        "Q6",
+        "R6",
+        "P5"
+      ],
+      "group_status": [
+        "黑R14需治孤",
+        "白未完成合围"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5、B6、C5、C6、D5、D6、E4、E5、F4、F5、F6与白C6、D6、E6、C8等混战，黑棋实地稍优，白棋寻求腾挪。",
+      "shapes": [
+        "corner_fight",
+        "life_death_unclear"
+      ],
+      "local_tags": [
+        "左下乱战",
+        "未定型"
+      ],
+      "key_points": [
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "F5"
+      ],
+      "group_status": [
+        "黑有望做活",
+        "白眼位不足"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑P4、P5、R4、R5、R6与白Q4、Q5、Q6、R3、R4、R5、R8形成拉锯，黑棋占据多数交叉点，白棋压缩空间。",
+      "shapes": [
+        "side_contest",
+        "territory_race"
+      ],
+      "local_tags": [
+        "黑实地领先",
+        "白争先手"
+      ],
+      "key_points": [
+        "P4",
+        "Q4",
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "group_status": [
+        "黑成空倾向",
+        "白需破空"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑D8新落子，与白C8、D4、C4形成直接对抗；黑D8为打入要点，白C8为应手，后续D9为典型继续手段。",
+      "shapes": [
+        "invasion",
+        "response_chain"
+      ],
+      "local_tags": [
+        "D8打入",
+        "D9待选"
+      ],
+      "key_points": [
+        "D8",
+        "C8",
+        "D4",
+        "C4",
+        "D9"
+      ],
+      "group_status": [
+        "黑D8未安定",
+        "白C8守角"
+      ]
+    }
+  ]
+}

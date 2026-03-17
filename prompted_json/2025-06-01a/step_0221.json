@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_220",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 220,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q10"
+      },
+      {
+        "color": 0,
+        "point": "P9"
+      },
+      {
+        "color": 1,
+        "point": "H11"
+      },
+      {
+        "color": 0,
+        "point": "H13"
+      },
+      {
+        "color": 1,
+        "point": "G13"
+      },
+      {
+        "color": 0,
+        "point": "H12"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "G12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_fight",
+      "territory_race",
+      "life_and_death"
+    ],
+    "strategic_focus": [
+      "center_control",
+      "right_side_invasion",
+      "bottom_right_eye_space"
+    ],
+    "global_summary_cn": "全局进入收官阶段，中央与右下角存在激烈劫争，黑棋在右下围出大空但白棋有劫材威胁；左上与右上实地已基本定型，中腹黑棋厚势尚未完全转化为实地。",
+    "phase_explanation": "第220手，黑方即将落子（to_play: 1），上一手白走H12，形成局部劫争焦点；近期六手围绕H11–H13–G13–H12展开攻防，目标点G12为关键劫材兼眼位要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C1–D1–C2–D2等构成坚实小堡垒，白棋B1–B2–B3–C4形成外势但无深入手段。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "secure_corner",
+        "white_thickness"
+      ],
+      "key_points": [
+        "C1",
+        "B1",
+        "C4"
+      ],
+      "group_status": [
+        "alive",
+        "no_liberties_needed"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋K2–L3–M2–O2与白棋J2–J3–K4–L4对峙，黑棋略占实地，白棋保持弹性。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "side_framework",
+        "light_fighting"
+      ],
+      "key_points": [
+        "K2",
+        "J2",
+        "K4"
+      ],
+      "group_status": [
+        "settled",
+        "semi_secure"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q2–R2–S3–Q3与白棋R3–S3–Q4–R4形成典型双活雏形，双方均未补净。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "mutual_life",
+        "unsettled_corner"
+      ],
+      "key_points": [
+        "Q2",
+        "R3",
+        "Q4"
+      ],
+      "group_status": [
+        "unsettled",
+        "shared_liberties"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋C5–D5–E5–F5–G5与白棋C6–D6–E6–F7–E7形成厚薄对比，黑棋厚势向中腹辐射。",
+      "shapes": [
+        "thick_wall",
+        "influence_line"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_squeeze"
+      ],
+      "key_points": [
+        "F5",
+        "E7",
+        "C5"
+      ],
+      "group_status": [
+        "strong",
+        "no_immediate_attack"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域密集交战：H11–G13–H12–H13–G12构成核心劫争群，黑棋试图做活，白棋持续施压。",
+      "shapes": [
+        "killing_shape",
+        "ko_fight"
+      ],
+      "local_tags": [
+        "critical_ko",
+        "life_and_death",
+        "key_liberty"
+      ],
+      "key_points": [
+        "H11",
+        "G13",
+        "H12",
+        "G12"
+      ],
+      "group_status": [
+        "fighting",
+        "ko_dependent"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋Q10–Q13–P16与白棋P9–O9–Q12–P13形成缠斗，黑棋试图侵分，白棋封锁中带反击。",
+      "shapes": [
+        "invasion",
+        "net"
+      ],
+      "local_tags": [
+        "invasion_attempt",
+        "counter_pincer"
+      ],
+      "key_points": [
+        "Q10",
+        "P9",
+        "Q12"
+      ],
+      "group_status": [
+        "unstable",
+        "under_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B15–C15–D15–C16与白棋B16–C17–D17构成典型低中国流定式余味，黑棋稍厚。",
+      "shapes": [
+        "corner_enclosure",
+        "low_formation"
+      ],
+      "local_tags": [
+        "settled",
+        "black_advantage"
+      ],
+      "key_points": [
+        "B15",
+        "C17",
+        "D15"
+      ],
+      "group_status": [
+        "alive",
+        "no_threats"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋E14–F14–J14与白棋E15–F15–G15–H15形成实地与外势拉锯，黑棋略优但未净活。",
+      "shapes": [
+        "territory_border",
+        "flexible_group"
+      ],
+      "local_tags": [
+        "border_race",
+        "potential_eye"
+      ],
+      "key_points": [
+        "E14",
+        "F15",
+        "J14"
+      ],
+      "group_status": [
+        "semi_alive",
+        "needs_one_move"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q15–Q16–R16–S16–R19与白棋Q17–R17–S17–P18–Q18构成大模样，黑棋实空庞大但存在断点与眼位隐患。",
+      "shapes": [
+        "large_territory",
+        "vulnerable_eye"
+      ],
+      "local_tags": [
+        "big_eye",
+        "cutting_point",
+        "endgame_target"
+      ],
+      "key_points": [
+        "Q15",
+        "R19",
+        "Q17"
+      ],
+      "group_status": [
+        "territorial",
+        "weak_eye_space"
+      ]
+    }
+  ]
+}

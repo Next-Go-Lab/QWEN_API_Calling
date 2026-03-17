@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_045",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 45,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C11"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "E10"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "E12"
+      },
+      {
+        "color": 1,
+        "point": "F11"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "D13",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "E10",
+      "Q10",
+      "C11",
+      "D12",
+      "E12",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "边角定型未稳"
+    ],
+    "strategic_focus": [
+      "F11附近白黑缠斗",
+      "E10–E12局部生死劫材争夺",
+      "B12为潜在打入点"
+    ],
+    "global_summary_cn": "第45手，黑方刚于F11落子，形成E10–F11–E11–D11–E12–D12六点密集接触战；中央偏右区域黑白交错激烈，白棋在E10、E12、D12成形厚势但气紧，黑棋D11、E11、F11、D13试图扩张眼位；左下与右上已有大致模样，但中腹尚未定型，B12为黑方可能的后续侵消要点。",
+    "phase_explanation": "处于中盘中后期，双方在中腹展开直接攻防，局部存在未净活/未净杀关系，全局无明显大龙死活危机，但多处薄味待补。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑占J14、J15、H16、K16，白有C14、D16，黑势稍厚但未封角；白Q17、P17、R16与黑Q16、R16对峙。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑模様",
+        "未定型角"
+      ],
+      "key_points": [
+        "J14",
+        "C14",
+        "D16",
+        "H16"
+      ],
+      "group_status": [
+        "黑厚",
+        "白可侵"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白Q10、Q6、R6与黑Q13、Q14、Q17形成横向牵制；黑M13、K14、K15、M15与白K14、K15、M15混战，局部双活倾向。",
+      "shapes": [
+        "side",
+        "ladder"
+      ],
+      "local_tags": [
+        "纠缠",
+        "双活雏形"
+      ],
+      "key_points": [
+        "Q10",
+        "Q13",
+        "K14",
+        "M15"
+      ],
+      "group_status": [
+        "未净活",
+        "需补棋"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R4、R5、Q3、Q5、Q6、R6、Q10等星位布局，白Q5、Q6、R6、P14、P16、P17构成外势；黑O3、R5、Q3略显松散。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑拆二不稳"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "P14",
+        "P17"
+      ],
+      "group_status": [
+        "白厚",
+        "黑薄"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑B5、C11、C12、D11、D12、D13与白C4、D4、D10、E10、E12密集交战；D11–E11–F11–E10–E12为当前焦点。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "主战场",
+        "气紧",
+        "劫材敏感"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "E10",
+        "E11",
+        "F11",
+        "E12"
+      ],
+      "group_status": [
+        "黑攻击中",
+        "白苦活"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带空旷，仅黑J14、J15、K14、K15、M13、M15与白K14、K15、M15交错；无明确大集团，属战略缓冲区。",
+      "shapes": [
+        "empty_center"
+      ],
+      "local_tags": [
+        "中央虚势",
+        "待发展"
+      ],
+      "key_points": [
+        "K14",
+        "M15",
+        "J15"
+      ],
+      "group_status": [
+        "双方均势",
+        "无死活"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q13、Q14、Q17、R12、R16与白Q5、Q6、R6、Q10、P14、P16形成宽广接触；白P14–P16–Q17一线厚实。",
+      "shapes": [
+        "side_framework"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑浅消"
+      ],
+      "key_points": [
+        "Q13",
+        "P14",
+        "Q17",
+        "R12"
+      ],
+      "group_status": [
+        "白安定",
+        "黑未深入"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5、D18、O3、Q3与白C4、D4、F3构成典型小目守角+挂角结构；黑D18一子孤悬，白F3、C4呼应。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑守角未全",
+        "白挂角成功"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4",
+        "D18"
+      ],
+      "group_status": [
+        "黑弱",
+        "白主动"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅有黑R5、R4、Q3与白F3；黑R5–R4–Q3呈跳守，白F3单子试探，暂无实质冲突。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "平静",
+        "未接触"
+      ],
+      "key_points": [
+        "R5",
+        "F3",
+        "Q3"
+      ],
+      "group_status": [
+        "各自安定",
+        "无威胁"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q3、R4、R5、Q5、Q6、R6与白F3、C4、D4已形成完整对角布局；白Q5–Q6–R6构筑坚实外势，黑Q3–R4–R5略显单薄。",
+      "shapes": [
+        "corner",
+        "side"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑守角缓"
+      ],
+      "key_points": [
+        "Q3",
+        "Q5",
+        "R6",
+        "F3"
+      ],
+      "group_status": [
+        "白优",
+        "黑需补"
+      ]
+    }
+  ]
+}

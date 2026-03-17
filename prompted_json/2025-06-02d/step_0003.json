@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_002",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 2,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      }
+    ],
+    "black_stones": [
+      "R16"
+    ],
+    "white_stones": [
+      "C4"
+    ]
+  },
+  "targets": {
+    "policy_target": "D16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "星位挂角",
+      "对角布局"
+    ],
+    "strategic_focus": [
+      "右上角挂角应对",
+      "左下空投试探"
+    ],
+    "global_summary_cn": "黑棋先行占右上星位R16，白棋第二手挂左下角C4，形成典型对角开局；全局空旷，尚未形成任何势力或战斗。",
+    "phase_explanation": "序盘初期，双方各占一隅，未发生接触战，重心在选点扩张与限制对手发展。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据星位R16，属高位开拆起点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑先"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "live"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，未来可能成为势力交汇区。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋挂角C4，属小目低位挂，意图侵消或构形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "挂角",
+        "白棋"
+      ],
+      "key_points": [
+        "C4"
+      ],
+      "group_status": [
+        "live"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_024",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 24,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q14"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q13"
+      },
+      {
+        "color": 0,
+        "point": "M15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      },
+      {
+        "color": 0,
+        "point": "F3"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "Q13",
+      "Q14",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "M13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fighting",
+      "corner_invasion_response"
+    ],
+    "strategic_focus": [
+      "right_side_influence",
+      "bottom_right_eye_space",
+      "center_reinforcement"
+    ],
+    "global_summary_cn": "黑方在右上角连续落子形成局部战斗，白方以P14、M15等点进行反制；左下F3一子孤立但牵制黑棋下方发展；全局黑棋厚势偏右上，白棋侧重中腹与右下呼应，当前第24手轮黑，目标点M13意在打入白棋中腹薄弱处。",
+    "phase_explanation": "布局末期向中盘过渡阶段，双方在右上角完成初步接触战，尚未形成明确大模样或实地定型，关键在于中腹潜力争夺与各集团联络效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅D4、C14两颗白子分居边角，无直接冲突，属潜在挂角区域。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "uncontested"
+      ],
+      "key_points": [
+        "D4",
+        "C14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段暂无子力，Q13-Q14-R16黑阵初具雏形，但未连贯；白P16、P17构成低位呼应。",
+      "shapes": [],
+      "local_tags": [
+        "black_framework",
+        "white_lower_edge_support"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "R16",
+        "P16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角K16黑子深入，白Q10为守势要点，黑Q13/Q14与白P14形成近身缠斗，局部未定型。",
+      "shapes": [
+        "ladder_attempt_candidate"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "unsettled"
+      ],
+      "key_points": [
+        "K16",
+        "Q10",
+        "Q13",
+        "Q14",
+        "P14"
+      ],
+      "group_status": [
+        "black_group_weak",
+        "white_group_thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅L17黑子单官守角，D16白子孤高，尚未构成有效配合。",
+      "shapes": [],
+      "local_tags": [
+        "sparse",
+        "potential_invasion_point"
+      ],
+      "key_points": [
+        "L17",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何子力，是当前战略焦点；黑方下一着M13即瞄准此区域发动侵消。",
+      "shapes": [],
+      "local_tags": [
+        "strategic_void",
+        "target_zone"
+      ],
+      "key_points": [
+        "M13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹M15白子为近期关键一手，与Q10、P14构成三角呼应，压制黑棋向中腹延伸。",
+      "shapes": [
+        "triangle"
+      ],
+      "local_tags": [
+        "white_influence_base",
+        "pressure_point"
+      ],
+      "key_points": [
+        "M15",
+        "Q10",
+        "P14"
+      ],
+      "group_status": [
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下F17黑子与D4白子遥相呼应，但F3白子突入黑阵下方，形成孤子但具搅局价值。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_white",
+        "black_vulnerability"
+      ],
+      "key_points": [
+        "F17",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "white_isolated",
+        "black_loose"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹O3、Q3、R4、R5黑子呈低位连片，但缺乏眼位；白Q5、Q6、R6构成反夹雏形。",
+      "shapes": [
+        "black_low_chain",
+        "white_pincer_setup"
+      ],
+      "local_tags": [
+        "black_territorial_base",
+        "white_countering"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_coordinating"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角R12黑子单立，Q5-Q6-R6白子成势，黑R16与白P16/P17对峙，局部存在眼形与攻防余味。",
+      "shapes": [],
+      "local_tags": [
+        "edge_tension",
+        "eye_space_contest"
+      ],
+      "key_points": [
+        "R12",
+        "Q5",
+        "Q6",
+        "R6",
+        "R16",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "mutually_uncertain"
+      ]
+    }
+  ]
+}

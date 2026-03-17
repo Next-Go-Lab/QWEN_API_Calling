@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_055",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 55,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N12"
+      },
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "O9"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "Q11"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "P7",
+      "N8",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角争夺",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右下角实地定型",
+      "中腹潜力博弈",
+      "左上厚势未发挥"
+    ],
+    "global_summary_cn": "第55手，轮白（Ueno Asami）行棋，局面进入中盘关键阶段。白棋在右下角Q11、O12、R12等处连续压迫，黑棋N5、P11、R12虽奋力抵抗，但右下黑棋大龙尚未活净；左上黑棋D4、D16、J17形成厚势但缺乏明确攻击目标；中腹E7、K7、O9等点呈现复杂接触战，双方均未完全掌控主动权。",
+    "phase_explanation": "当前为中盘中后期，胜负焦点集中于右下攻防与中腹势力消长。白棋凭借近期连续打入和分断占据主动，黑棋需在O6（政策目标点）附近寻求治孤或反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋D4、D16、J17构成高配位厚势，白C3、C4、C6形成低位小堡垒，双方无直接接触，属潜在攻击策源地。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "厚势",
+        "未动用潜力",
+        "高位布局"
+      ],
+      "key_points": [
+        "D4",
+        "D16",
+        "J17",
+        "C3",
+        "C6"
+      ],
+      "group_status": [
+        "黑厚",
+        "白实"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，仅黑J17、白L16、P17散落，无成形势力，属战略缓冲带。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "空旷",
+        "待发展",
+        "次要战场"
+      ],
+      "key_points": [
+        "J17",
+        "L16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R16、Q15、Q10、Q11与黑R16、R12、Q11形成交错，右上角基本定型，白稍厚实。",
+      "shapes": [
+        "side",
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "白略优",
+        "边空稳固"
+      ],
+      "key_points": [
+        "R16",
+        "Q15",
+        "Q11",
+        "R12"
+      ],
+      "group_status": [
+        "白实",
+        "黑薄"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F3、E4、F4、E7、K7与白H2、H3、H4、H5、H6形成东西对峙，中腹左侧呈‘双飞翼’雏形，但尚未展开。",
+      "shapes": [
+        "central_wing"
+      ],
+      "local_tags": [
+        "对峙",
+        "未爆发",
+        "潜力区"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "E7",
+        "K7",
+        "H4",
+        "H5"
+      ],
+      "group_status": [
+        "黑厚",
+        "白稳"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心混战区：黑O9、N8、L10与白O9、Q9、N10、Q10、O12、P11、R12密集交缠，O6为关键腾挪点，双方大龙均未安定。",
+      "shapes": [
+        "complex_contact",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "生死未卜",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "O9",
+        "N8",
+        "L10",
+        "O12",
+        "P11",
+        "R12",
+        "O6"
+      ],
+      "group_status": [
+        "黑危",
+        "白紧"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白R5、R8、Q10、Q11、R12与黑Q6、R6、R10、P11构成右中腹拉锯，黑棋试图联络，白棋持续施压。",
+      "shapes": [
+        "side_pressure"
+      ],
+      "local_tags": [
+        "压迫进行中",
+        "联络战",
+        "白主导"
+      ],
+      "key_points": [
+        "R5",
+        "R8",
+        "Q6",
+        "R6",
+        "R10",
+        "Q11",
+        "R12"
+      ],
+      "group_status": [
+        "黑弱连",
+        "白强攻"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3、J3、L3、M3、P3与白H2、N2、C3、D3、E3、H3形成下边大规模对峙，黑棋外势厚实但实地不足，白棋低位扎实。",
+      "shapes": [
+        "side_wall",
+        "territory_vs_influence"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "实地优先",
+        "黑外势"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "C3",
+        "D3",
+        "E3",
+        "H2",
+        "N2"
+      ],
+      "group_status": [
+        "黑厚",
+        "白实"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑N5、M4与白O4、P4、Q4、R5构成下边中段激烈接触，N5为黑最新打入点，白以连片应对，局部未定型。",
+      "shapes": [
+        "invasion",
+        "connection"
+      ],
+      "local_tags": [
+        "打入反制",
+        "未定型",
+        "节奏紧凑"
+      ],
+      "key_points": [
+        "N5",
+        "M4",
+        "O4",
+        "P4",
+        "Q4",
+        "R5"
+      ],
+      "group_status": [
+        "黑侵",
+        "白围"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白N3、P3、Q4、R6与黑Q6、R6、P7、R10形成右下角复杂死活，黑棋大龙仅一气，白棋Q9、Q10、O12持续追击，是当前胜负手所在。",
+      "shapes": [
+        "life_and_death",
+        "running_race"
+      ],
+      "local_tags": [
+        "大龙生死",
+        "白胜率高",
+        "黑需治孤"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "Q9",
+        "Q10",
+        "O12",
+        "N3"
+      ],
+      "group_status": [
+        "黑危",
+        "白杀"
+      ]
+    }
+  ]
+}

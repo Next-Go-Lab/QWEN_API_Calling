@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_044",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 44,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J2"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "H6"
+      },
+      {
+        "color": 0,
+        "point": "A4"
+      },
+      {
+        "color": 1,
+        "point": "F6"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "J2"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "H2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "F6",
+      "H6",
+      "R6",
+      "G7",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "左上未定型"
+    ],
+    "global_summary_cn": "第44手，黑方即将落子，局面处于中盘关键阶段。白棋在右下（J2）与中腹（E6、F5等）形成厚势，黑棋则在左下（B2-B6）、中腹（F6、G7）及右上（Q16、R14）多点渗透。双方在右下角存在潜在对杀可能，左上角（A4、B1、C2）尚属未定型区域。",
+    "phase_explanation": "当前为中盘中后期，双方已完成大致布局，进入实地与外势的平衡博弈阶段；局部战斗密集，尤其右下与中腹存在多个未净活/未死之棋形。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角星位附近，白D16、F17、O17构成高位阵势，黑Q16单点侵入，尚未形成明确定式结果。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "高位阵势",
+        "单点侵入",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_invasion"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅白O17一子，黑无子，属双方势力待争区域，潜在大场。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "空旷边路",
+        "潜在大场"
+      ],
+      "key_points": [
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本平静，黑R14与白O17呼应，但无直接接触，暂无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "平静角落",
+        "遥相呼应"
+      ],
+      "key_points": [
+        "R14",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹（D3–C8）白棋连片厚势：C2、D3、C6、C8、B7等构成稳固外势；黑B2、B3、C3、B5、C5等呈低位实利结构，双方呈厚薄对比。",
+      "shapes": [
+        "side",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑低位实利",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "C2",
+        "D3",
+        "B7",
+        "C8",
+        "B2",
+        "C3"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_territorial"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央（E4–G7）密集交战区：黑E4/F4/G4/G5/F6/G7与白E5/F5/G2/E6/D6等犬牙交错，F6–G7为最新黑棋打入要点，存在对杀隐患。",
+      "shapes": [
+        "fighting_zone",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "密集接触",
+        "对杀雏形",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "F6",
+        "G7",
+        "E5",
+        "F5",
+        "E6",
+        "D6"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（H5–Q4）白棋占据主动：H5、Q4、P4为白子，黑H6、G7已深入，但白J2刚落子形成下方封锁支点，黑需应对。",
+      "shapes": [
+        "invasion_response"
+      ],
+      "local_tags": [
+        "封锁支点",
+        "黑棋深入",
+        "白棋呼应"
+      ],
+      "key_points": [
+        "J2",
+        "H6",
+        "G7",
+        "H5",
+        "Q4"
+      ],
+      "group_status": [
+        "white_supporting",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A4–C4）白棋完成小目守角：A4、D4、C2、B1构成经典守角结构；黑B2/B3/C3/D5等尝试浅消，但尚未破空。",
+      "shapes": [
+        "corner",
+        "small_knight"
+      ],
+      "local_tags": [
+        "白守角完成",
+        "黑浅消未果"
+      ],
+      "key_points": [
+        "A4",
+        "D4",
+        "B1",
+        "C2",
+        "B2"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_inadequate_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段（E2–H2）白棋连成厚壁：B1–G2一线白子密集，黑H2、G3、F4等贴身试探，但白厚势完整，黑难觅突破口。",
+      "shapes": [
+        "thick_wall",
+        "edge"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑贴身试探",
+        "难以突破"
+      ],
+      "key_points": [
+        "E2",
+        "F2",
+        "G2",
+        "H2",
+        "G3"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（J2–R6）为当前焦点：白J2为最新一手，配合D3、E2、F2等构成下方封锁网；黑R6、Q3、P4、H6等试图做活或出头，局部生死未明。",
+      "shapes": [
+        "corner",
+        "life_death"
+      ],
+      "local_tags": [
+        "焦点战场",
+        "封锁与突围",
+        "生死未判"
+      ],
+      "key_points": [
+        "J2",
+        "R6",
+        "Q3",
+        "P4",
+        "H6"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "white_sealing",
+        "black_struggling"
+      ]
+    }
+  ]
+}

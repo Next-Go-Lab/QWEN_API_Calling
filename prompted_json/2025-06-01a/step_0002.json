@@ -37,16 +37,14 @@
     "global_tags": [
       "开局",
       "黑先",
-      "星位开局",
-      "高位布局"
+      "星位布局"
     ],
     "strategic_focus": [
-      "抢占大场",
-      "构建外势",
-      "限制白棋发展"
+      "角部守势",
+      "高位展开"
     ],
-    "global_summary_cn": "黑方首手落于右上角星位Q16，典型高位开局，意在控制边角与中腹潜力，全局尚处布局初期，无实地争夺，重在势力范围划分。",
-    "phase_explanation": "当前为第一手，属于布局阶段的起始点，黑棋选择星位强调速度与灵活性，尚未形成任何定式或战斗。"
+    "global_summary_cn": "对局刚进入第一手，黑方Son Makoto于右上角Q16星位落子，开启全局布局；白方尚未行棋，局面处于最初始的对称未破阶段。",
+    "phase_explanation": "属于布局初期（第1手），典型的小目/星位开局准备阶段，无实地争夺，重在势力范围与方向选择。"
   },
   "regions": [
     {
@@ -59,7 +57,7 @@
     },
     {
       "region_id": "top_center",
-      "summary": "上边中央空旷，无子力，黑棋尚未在此施加影响。",
+      "summary": "上边中央区域空旷，临近黑棋Q16但未形成影响。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],
@@ -67,25 +65,25 @@
     },
     {
       "region_id": "top_right",
-      "summary": "黑棋已占据星位Q16，构成右上角战略支点，具备发展潜力与辐射力。",
+      "summary": "黑棋占据Q16星位，构成右上角基本骨架，具备向边、向中发展的双重潜力。",
       "shapes": [
         "corner_star"
       ],
       "local_tags": [
-        "黑棋据点",
-        "高位",
-        "未受攻击"
+        "星位",
+        "黑棋首着",
+        "高位"
       ],
       "key_points": [
         "Q16"
       ],
       "group_status": [
-        "live_single"
+        "single_stone"
       ]
     },
     {
       "region_id": "middle_left",
-      "summary": "左侧中腹及四线以下区域完全空旷，无任何着子。",
+      "summary": "左侧中腹及四线以下区域完全空旷。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],
@@ -93,7 +91,7 @@
     },
     {
       "region_id": "center",
-      "summary": "天元及周边九点区域全空，是未来中腹争夺核心，当前无影响力。",
+      "summary": "天元及周边九点区域全空，尚无任何影响力投射。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],
@@ -101,17 +99,15 @@
     },
     {
       "region_id": "middle_right",
-      "summary": "右侧中腹开阔，Q16黑子对其有微弱辐射，但尚未形成实际影响范围。",
+      "summary": "右侧中腹开阔，Q16黑子对其有微弱辐射，但未构成实际形状。",
       "shapes": [],
-      "local_tags": [
-        "潜在势力圈"
-      ],
+      "local_tags": [],
       "key_points": [],
       "group_status": []
     },
     {
       "region_id": "bottom_left",
-      "summary": "左下角及下方区域全空，无子力分布。",
+      "summary": "左下角及下方大片区域未落子，完全空白。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],
@@ -119,7 +115,7 @@
     },
     {
       "region_id": "bottom_center",
-      "summary": "下边中央空旷，远离当前落子点，暂无战略关联。",
+      "summary": "下边中央及三线以下区域空旷，无任何棋形痕迹。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],
@@ -127,7 +123,7 @@
     },
     {
       "region_id": "bottom_right",
-      "summary": "右下角空旷，与Q16对角呼应，但尚未被利用。",
+      "summary": "右下角空旷，与Q16对角对称，是未来可能的对应选点区域。",
       "shapes": [],
       "local_tags": [],
       "key_points": [],

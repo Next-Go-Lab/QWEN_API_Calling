@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_026",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P7"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R10"
+      },
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P12"
+      },
+      {
+        "color": 0,
+        "point": "N10"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "N8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "N8点位试探"
+    ],
+    "global_summary_cn": "对局进行至第26手，白方刚于N10落子，形成右上角复杂接触战；黑棋在P7、R10、P12等处连续扩张，但Q9、N10、Q10一线白子构成厚壁；黑棋D3附近根基稳固，白棋L16-P17上边成势；全局呈白略优的中盘格局。",
+    "phase_explanation": "处于中盘早期向中期过渡阶段，双方围绕右上角（Q9–R11–N10）展开局部缠斗，尚未形成明确大模样或实地定型，关键胜负点可能落在N8这一潜在打入/分断点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑D16、白L16、白P17散落，无直接接触，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未定型",
+        "潜在挂角区"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白P17与黑Q15形成高低呼应，但无实质交锋，属势力延伸带。",
+      "shapes": [],
+      "local_tags": [
+        "势力延伸",
+        "低度对抗"
+      ],
+      "key_points": [
+        "Q15",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈接触：白Q9、Q10、R8与黑R10、R11、Q15形成角部攻防链，黑R11孤立，白有压迫之势。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部攻防",
+        "黑孤棋",
+        "白厚势"
+      ],
+      "key_points": [
+        "Q9",
+        "Q10",
+        "R8",
+        "R10",
+        "R11"
+      ],
+      "group_status": [
+        "black_r11_weak",
+        "white_q9_q10_thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹零星分布：黑F3/E4/F4与白D3/E3/C4构成低位小雪崩雏形，C6白子跳入，黑暂无强应手。",
+      "shapes": [
+        "small_snow"
+      ],
+      "local_tags": [
+        "低位定式雏形",
+        "白子深入"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "F3",
+        "E4",
+        "F4",
+        "C6"
+      ],
+      "group_status": [
+        "white_c4_d3_e3_connected",
+        "black_f3_f4_e4_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑K4单子孤立，白无子进入，为后续N8打入提供战略纵深。",
+      "shapes": [],
+      "local_tags": [
+        "空旷中枢",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "K4",
+        "N8"
+      ],
+      "group_status": [
+        "black_k4_isolated"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹密集交战区：白O4/Q4/R5与黑Q6/R6/P7形成横向对峙；白N10最新一着强化厚势，黑P12反夹试探。",
+      "shapes": [
+        "side_fight"
+      ],
+      "local_tags": [
+        "边路对峙",
+        "厚薄对比",
+        "N10加固"
+      ],
+      "key_points": [
+        "O4",
+        "Q4",
+        "R5",
+        "Q6",
+        "R6",
+        "P7",
+        "N10",
+        "P12"
+      ],
+      "group_status": [
+        "white_o4_q4_r5_connected",
+        "black_q6_r6_p7_partially_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角全空，无任何棋子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅黑E4/F4延伸至此，白无子，属黑低位势力辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "黑低位辐射",
+        "空旷"
+      ],
+      "key_points": [
+        "E4",
+        "F4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角仅黑Q6/R6/P7与白R5/Q4/O4构成斜向接触，但尚未深入，属边路前沿缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "边路前沿",
+        "缓冲带"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "R5",
+        "Q4",
+        "O4"
+      ],
+      "group_status": []
+    }
+  ]
+}

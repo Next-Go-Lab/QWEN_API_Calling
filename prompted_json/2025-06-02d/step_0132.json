@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_131",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 131,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N18"
+      },
+      {
+        "color": 0,
+        "point": "L18"
+      },
+      {
+        "color": 1,
+        "point": "M18"
+      },
+      {
+        "color": 0,
+        "point": "S15"
+      },
+      {
+        "color": 1,
+        "point": "R15"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "R15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "M18",
+      "N18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "L18",
+      "O18"
+    ]
+  },
+  "targets": {
+    "policy_target": "S17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "白棋优势",
+      "边角定型完成",
+      "中腹潜力争夺"
+    ],
+    "strategic_focus": [
+      "右上角劫争余波",
+      "中腹黑棋薄味",
+      "白棋厚势向中央辐射"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，白棋凭借厚势与实地优势领先，黑棋在右上、右下尝试搅局但未形成有效威胁；中腹黑棋数子孤立，面临被搜刮风险。",
+    "phase_explanation": "第131手为白方R15，是右上角局部定型后的稳健搜根，呼应此前O18、L18、M18、S15等连续边线落子；当前局面白棋胜率稳固，黑棋无明显逆转手段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑白各守一隅，C3–D3–E3白阵与C7–D11黑势对峙，无激烈接触。",
+      "shapes": [
+        "corner_enclosure",
+        "side_wall"
+      ],
+      "local_tags": [
+        "安定",
+        "低效侵消"
+      ],
+      "key_points": [
+        "C3",
+        "C7",
+        "D11"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段呈拉锯状，黑J17/M17/N18/M18与白L18/O18形成交错，但白棋联络更佳，黑棋略显凝重。",
+      "shapes": [
+        "ladder_like",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "局部未净",
+        "白稍优"
+      ],
+      "key_points": [
+        "J17",
+        "L18",
+        "M18",
+        "N18",
+        "O18"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑Q16/R16/S14/S13与白R14/P14/O14/Q12等构成复杂收官序列，R15为白方最新搜根，意在压缩黑Q15–R15–S15眼位。",
+      "shapes": [
+        "eye_space_restriction",
+        "endgame_sequence"
+      ],
+      "local_tags": [
+        "劫材相关",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "S15",
+        "R14",
+        "Q16"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋K11–H11–G9–K9–K13与白G10–E11–D12形成缠斗，黑虽有厚势但缺乏明确攻击目标，白棋轻灵腾挪。",
+      "shapes": [
+        "influence_pattern",
+        "light_shape"
+      ],
+      "local_tags": [
+        "虚势主导",
+        "攻防不明"
+      ],
+      "key_points": [
+        "K11",
+        "G10",
+        "E11",
+        "K13"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑F8/H8/L8/N8/O8与白G8/R8形成南北对峙，但白R8–Q7–P6–O6–N6构成厚壁，黑棋中腹孤子（如N9/O9）受制。",
+      "shapes": [
+        "central_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "黑棋薄味"
+      ],
+      "key_points": [
+        "G8",
+        "N8",
+        "O8",
+        "N9",
+        "O9"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L14–L15–N15–O15–Q15与白K15–P15–R14–Q12–O12构成密集收官带，白棋通过P15/R14持续施压，黑棋需苦活。",
+      "shapes": [
+        "life_and_death",
+        "endgame_pressure"
+      ],
+      "local_tags": [
+        "做眼困难",
+        "白主导节奏"
+      ],
+      "key_points": [
+        "L15",
+        "N15",
+        "P15",
+        "K15",
+        "Q15"
+      ],
+      "group_status": [
+        "black_struggling",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B13/C3–D3–E3–F3白阵与黑C9/D11/E9/F8形成典型高低配合，黑势厚实但实地有限，白棋根基稳固。",
+      "shapes": [
+        "low_side_framework",
+        "high_side_influence"
+      ],
+      "local_tags": [
+        "黑厚白实",
+        "平稳定型"
+      ],
+      "key_points": [
+        "B13",
+        "C3",
+        "D11",
+        "F8"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F4/G7/H7/K7与白F6/G8/H6/H4形成犬牙交错，黑棋K7–J5–K4–J3略显重复，白棋F6–E6–D6–C6成坚实阵势。",
+      "shapes": [
+        "interlocking",
+        "efficiency_comparison"
+      ],
+      "local_tags": [
+        "黑欠简明",
+        "白效率高"
+      ],
+      "key_points": [
+        "F4",
+        "K7",
+        "F6",
+        "D6"
+      ],
+      "group_status": [
+        "black_overconcentrated",
+        "white_efficient"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P3/Q6/R6/S8与白R5/Q4/P4/O4形成典型角部攻防残局，黑棋虽有角地但外势单薄，白棋O4–P4–Q4–R5构成坚实外势，压制黑S8–R9–Q9。",
+      "shapes": [
+        "corner_life",
+        "outside_pressure"
+      ],
+      "local_tags": [
+        "黑小富",
+        "白大模样"
+      ],
+      "key_points": [
+        "P3",
+        "R6",
+        "S8",
+        "R5",
+        "Q4"
+      ],
+      "group_status": [
+        "black_small_territory",
+        "white_influential"
+      ]
+    }
+  ]
+}

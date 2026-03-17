@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_016",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 16,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "G15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E14"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "H15"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "G15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "center_influence",
+      "white_thickness",
+      "black_lightness"
+    ],
+    "strategic_focus": [
+      "top_side",
+      "center_projection",
+      "C11_invitation"
+    ],
+    "global_summary_cn": "第16手，黑方即将落子C11，局面处于开局向中盘过渡阶段。上方黑白双方在D13–H15一带形成激烈接触战，白棋在E15–H15连成厚势，黑棋则以E14、F14、D13等轻灵跳点寻求腾挪与拆二呼应；右下Q3与左上Q16两角已布子，但尚未定型；全局无明显死活危机，重心在于上边攻防与中央潜力争夺。",
+    "phase_explanation": "Early opening: local fights dominate top side; central influence is emerging but not yet contested; no major life-death groups; strategic tension centers on whether Black's C11 will initiate a new front or reinforce the left-side framework."
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角Q16为黑单关守角，白未挂角；附近空旷，属潜在发展区。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_corner",
+        "uninvaded"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "核心战斗区域：黑D13/E14/F14与白C13/E15/F15/G15/H15形成密集接触，白厚势明显，黑呈轻灵反击态势。",
+      "shapes": [
+        "ladder_fragment",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "white_thickness",
+        "black_light_shape"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "F14",
+        "E15",
+        "F15",
+        "G15",
+        "H15"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上空旷，仅黑C15/D15/E16与白D16/D17构成微弱对峙，尚未形成有效结构。",
+      "shapes": [
+        "loose_framework"
+      ],
+      "local_tags": [
+        "under_development",
+        "black_framework"
+      ],
+      "key_points": [
+        "C15",
+        "D15",
+        "E16",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，黑无子，白仅D4一子孤立，属未来黑方拆逼或打入要点。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "white_isolated",
+        "black_influence_zone"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，尚无实子，但黑E14/F14与白E15/G15等形成向上辐射的影响力，C11为关键战略点。",
+      "shapes": [
+        "influence_radius"
+      ],
+      "local_tags": [
+        "strategic_point",
+        "projection_zone"
+      ],
+      "key_points": [
+        "C11"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "中右腹空旷，无子，属双方后续拆边或镇头方向，当前静默。",
+      "shapes": [],
+      "local_tags": [
+        "quiet_zone",
+        "future_development"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角Q3为黑小目守角，白未应，属稳固但未展开的根基。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_corner",
+        "stable"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，无子，属全局最安静区域，暂无战术焦点。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下空旷，无子，完全未开发，属远期布局空间。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "long_term"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

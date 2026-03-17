@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_097",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 97,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J3"
+      },
+      {
+        "color": 1,
+        "point": "C2"
+      },
+      {
+        "color": 0,
+        "point": "A4"
+      },
+      {
+        "color": 1,
+        "point": "D1"
+      },
+      {
+        "color": 0,
+        "point": "B4"
+      },
+      {
+        "color": 1,
+        "point": "K3"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "K3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "B3",
+      "E3",
+      "J3",
+      "P3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "K4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "实地争夺",
+      "边角定型"
+    ],
+    "strategic_focus": [
+      "右下角白棋厚势压迫",
+      "左上黑棋大模样未净活",
+      "中腹潜在劫争"
+    ],
+    "global_summary_cn": "第97手，黑方刚于K3落子，白方即将在K4应手。全局进入官子收束阶段，双方在多个边角展开精细争夺，右下白棋厚势对黑棋K3一子形成压制，左上黑棋大空尚未完全安定，中腹存在潜在劫材与联络要点。",
+    "phase_explanation": "当前为终局前关键官子阶段，胜负差仅0.5目，每手棋需兼顾目数效率与棋形弹性；黑方握有先手但局部气紧，白方需谨慎避免被搜刮或诱发劫争。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C11–D11–C15–D15–E16构成大模样雏形，白棋B15–C13–B16施加压力，但黑棋尚有A12、A13等侵消点。",
+      "shapes": [
+        "territory_outline",
+        "incomplete_framework"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白侵消",
+        "未净活"
+      ],
+      "key_points": [
+        "A12",
+        "A13",
+        "B12"
+      ],
+      "group_status": [
+        "alive_with_liberties",
+        "vulnerable_to_invasion"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋D16、E15、F15、G15、H15连成厚壁，黑棋Q16、R16、R17、Q17形成低位实空，双方呈厚薄对比。",
+      "shapes": [
+        "white_wall",
+        "black_low_territory"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑实地",
+        "厚薄分明"
+      ],
+      "key_points": [
+        "E16",
+        "F16",
+        "P16"
+      ],
+      "group_status": [
+        "secure",
+        "solid"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋P17–O17–N17–M17与白棋N18–O18–P18形成上下对峙，黑棋上方潜力大但无明确眼位，白棋下方坚实。",
+      "shapes": [
+        "ladder_like_structure",
+        "edge_contact"
+      ],
+      "local_tags": [
+        "对峙",
+        "眼位不足",
+        "低位安定"
+      ],
+      "key_points": [
+        "M18",
+        "N16",
+        "O16"
+      ],
+      "group_status": [
+        "unsettled",
+        "partially_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C9–C10–C11–D10–D11–D13与白棋C9–C10–C4–D4–E4–C6–D6–E6交织，形成复杂接触战，C9为双方共用急所。",
+      "shapes": [
+        "contact_fight",
+        "shared_liberties"
+      ],
+      "local_tags": [
+        "缠斗",
+        "共用气",
+        "急所密集"
+      ],
+      "key_points": [
+        "C9",
+        "C5",
+        "E5"
+      ],
+      "group_status": [
+        "fighting",
+        "mutually_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹空旷，黑棋G7–Q7–S7–S8与白棋E7–F7–H7–N7–P7–R7形成南北张力，Q5、P6为潜在劫材点。",
+      "shapes": [
+        "central_tension",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "中腹张力",
+        "劫材储备",
+        "无明确归属"
+      ],
+      "key_points": [
+        "Q5",
+        "P6",
+        "M7"
+      ],
+      "group_status": [
+        "unstable",
+        "ko_sensitive"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋J4–N3–N5–O5–P5与白棋L4–O4–Q4–Q5–P6–Q6形成右中腹拉锯，K3新落子加剧此处紧迫性。",
+      "shapes": [
+        "tight_contact",
+        "recent_play_impact"
+      ],
+      "local_tags": [
+        "K3效应",
+        "攻防转换",
+        "气紧"
+      ],
+      "key_points": [
+        "K4",
+        "J5",
+        "L5"
+      ],
+      "group_status": [
+        "under_pressure",
+        "needs_defense"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋A4、B4已被白棋占据，黑棋C2–D1–E1–C3–D3–E5构成低位实空，白棋B3–D2–E2–C4–D4–E4围住外围，黑空较厚但略显凝重。",
+      "shapes": [
+        "black_base",
+        "white_surrounding"
+      ],
+      "local_tags": [
+        "黑实空",
+        "白封锁",
+        "低效但安全"
+      ],
+      "key_points": [
+        "C2",
+        "D1",
+        "B3"
+      ],
+      "group_status": [
+        "alive",
+        "efficient"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F2–F3–F4–F5–F6–G6–G7与白棋E2–E3–E4–E6–E7–F7–G6形成典型“双飞燕”衍生结构，G6为双方共活要点。",
+      "shapes": [
+        "dual_wings_variant",
+        "shared_point"
+      ],
+      "local_tags": [
+        "双飞燕变体",
+        "共活点",
+        "攻守平衡"
+      ],
+      "key_points": [
+        "G6",
+        "F7",
+        "E5"
+      ],
+      "group_status": [
+        "stable",
+        "mutually_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋P3–R3–R4–R5–R6–R7–R8–R9与黑棋Q2–Q3–Q4–Q5–Q6–Q7–S7–S8构成右下大型对杀雏形，R3为白棋眼形核心，Q4为黑棋联络要津。",
+      "shapes": [
+        "large_scale_fighting",
+        "eye_shape_vs_connection"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "眼形关键",
+        "联络要点"
+      ],
+      "key_points": [
+        "R3",
+        "Q4",
+        "S6"
+      ],
+      "group_status": [
+        "fighting",
+        "life_and_death_critical"
+      ]
+    }
+  ]
+}

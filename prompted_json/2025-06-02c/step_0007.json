@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_006",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C14"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "F17"
+      },
+      {
+        "color": 0,
+        "point": "C14"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16",
+      "F17"
+    ],
+    "white_stones": [
+      "D4",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "L17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布阵",
+      "星位与小目混合",
+      "边角争夺初显"
+    ],
+    "strategic_focus": [
+      "右上角定式雏形",
+      "左下角潜在冲突",
+      "中央势力萌芽"
+    ],
+    "global_summary_cn": "对局进行至第6手，黑方占据R16（右上星位）、Q3（左下星位）、F17（右上小目附近），白方落子D4（右下星位）、D16（右上小目）、C14（右上拆二）。双方呈对角布阵态势，右上角形成初步接触，左下角黑棋单关跳具发展潜力，全局尚无明显厚薄或死活问题。",
+    "phase_explanation": "处于布局早期阶段，双方以大场选点为主，尚未进入具体定式或攻防战斗，重心在占据空旷大场与构建外势轮廓。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑F17与白D16、C14构成右上角初步配置；F17为小目型守角，D16为高位挂角，C14为拆二应手。",
+      "shapes": [
+        "triangle"
+      ],
+      "local_tags": [
+        "小目守角",
+        "高位挂角",
+        "拆二应手"
+      ],
+      "key_points": [
+        "F17",
+        "D16",
+        "C14"
+      ],
+      "group_status": [
+        "黑孤子",
+        "白连络中"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R16位于右上角星位，是典型占角起点；目前无直接邻接子，属独立大场。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位占角"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "黑孤子"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有落子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑Q3位于左下星位，是典型对角布局一子；周边开阔，具备向边或中央发展的弹性。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位占角",
+        "对角布局"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "黑孤子"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白D4位于右下星位，完成对角呼应；与左下黑Q3形成对角平衡格局。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位占角",
+        "对角呼应"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "白孤子"
+      ]
+    }
+  ]
+}

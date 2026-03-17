@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_032",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 32,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "M3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "O4"
+      },
+      {
+        "color": 0,
+        "point": "M5"
+      },
+      {
+        "color": 1,
+        "point": "N6"
+      },
+      {
+        "color": 0,
+        "point": "L4"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      },
+      {
+        "color": 0,
+        "point": "M3"
+      }
+    ],
+    "black_stones": [
+      "O4",
+      "P4",
+      "R4",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋取地"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上厚势牵制"
+    ],
+    "global_summary_cn": "第32手，黑方即将落子，局面处于中盘关键阶段。右下角（M3–O5）形成密集接触战，黑白多子交错；左上黑棋Q15–R18与白棋R15–S19对峙，呈现厚势对峙；右上D4、D16两点白棋孤子但有联络可能；中腹暂无大块，K5为政策目标点，暗示潜在打入或分投意图。",
+    "phase_explanation": "当前为中盘战斗高峰期，局部未定型，双方在右下与左上持续施压，全局尚未进入收官，胜负关键在于后续攻防转换与中腹潜力兑现。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D4孤立但可向C3、E5发展；黑无子，属白势力辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "白孤子",
+        "潜力方向"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "孤立"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白D16、J16构成高位双子，呼应左上厚势；黑无子，白主导空间。",
+      "shapes": [],
+      "local_tags": [
+        "高位双子",
+        "厚势延伸"
+      ],
+      "key_points": [
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "未连接"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q15–R18连片厚势，白R15–S19贴身压迫，形成典型厚薄对抗。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白侵消"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "R18",
+        "S19"
+      ],
+      "group_status": [
+        "黑活形",
+        "白未净活"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，仅黑R12–S12–R13–R14小块，白无子，属黑潜力扩展区。",
+      "shapes": [
+        "l-shape"
+      ],
+      "local_tags": [
+        "黑小堡垒",
+        "待扩张"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "安定"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，K5为政策目标点，是未来打入或分投焦点。",
+      "shapes": [],
+      "local_tags": [
+        "战略空白",
+        "政策点"
+      ],
+      "key_points": [
+        "K5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右下角核心战场：黑O4、P4、R4、N5、M6、N6 vs 白M3、N3、L4、M5、N4、O5，密集混战。",
+      "shapes": [
+        "cluster"
+      ],
+      "local_tags": [
+        "接触战",
+        "未定型",
+        "攻防交织"
+      ],
+      "key_points": [
+        "O4",
+        "M3",
+        "N4",
+        "M5",
+        "N5",
+        "M6"
+      ],
+      "group_status": [
+        "双方不活",
+        "需紧气"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无任何棋子，属全局最安静区域。",
+      "shapes": [],
+      "local_tags": [
+        "绝对空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无子，与中心共同构成中腹腹地。",
+      "shapes": [],
+      "local_tags": [
+        "中腹腹地"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "全空，无子，尚未被波及。",
+      "shapes": [],
+      "local_tags": [
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

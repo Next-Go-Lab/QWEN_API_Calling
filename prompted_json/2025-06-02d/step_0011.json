@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_010",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 10,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6"
+    ]
+  },
+  "targets": {
+    "policy_target": "K4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "stone_contact"
+    ],
+    "strategic_focus": [
+      "bottom_left_corner",
+      "center_influence",
+      "right_side_framework"
+    ],
+    "global_summary_cn": "开局第10手，黑方刚落子C6，白方在右下角（Q4）与左下角（C4）布点，黑方在左上（D16、R16）占边，中腹尚未展开；当前焦点集中于右下E3–F4一带的短兵相接，形成局部对杀雏形。",
+    "phase_explanation": "布局初期，双方在多个角落试探性落子，尚未形成明确大模样或厚势，但右下角E3/F3/D3/F4/C4构成密集接触战，存在劫争或眼位争夺可能。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋占D16，白无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "single_stone",
+        "corner_occupancy"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占R16，白无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "single_stone",
+        "corner_occupancy"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "白C4与黑C6相邻，构成斜向压迫关系；C6为白最新一手。",
+      "shapes": [
+        "diagonal_pressure"
+      ],
+      "local_tags": [
+        "tension",
+        "recent_move"
+      ],
+      "key_points": [
+        "C4",
+        "C6"
+      ],
+      "group_status": [
+        "vulnerable",
+        "not_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷，但K4为黑方政策目标点，尚未落子。",
+      "shapes": [],
+      "local_tags": [
+        "target_point",
+        "unoccupied"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q4孤立存在，距其他白子较远；附近无黑子直接威胁。",
+      "shapes": [],
+      "local_tags": [
+        "outpost",
+        "side_framework_start"
+      ],
+      "key_points": [
+        "Q4"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑E4、F4与白D3、E3、F3密集交错，形成微型战斗群；黑F3与白F4贴身，黑E4与白E3对顶。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "local_battle",
+        "eye_space_concern"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "D3",
+        "E3",
+        "F3"
+      ],
+      "group_status": [
+        "engaged",
+        "unclear_life_and_death"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "C6为白最新一手，位于此区左缘；附近无其他子，属延伸落点。",
+      "shapes": [],
+      "local_tags": [
+        "extension",
+        "recent_move"
+      ],
+      "key_points": [
+        "C6"
+      ],
+      "group_status": [
+        "loose_connection"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

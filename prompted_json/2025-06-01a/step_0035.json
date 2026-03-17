@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_034",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 34,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D10"
+      },
+      {
+        "color": 0,
+        "point": "C9"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "B16"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "B15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "左下拆二未定型"
+    ],
+    "global_summary_cn": "第34手，黑方轮走，局面处于中盘关键阶段。白棋在右上（B16、D16、Q17等）构筑厚势并压制黑棋大龙；黑棋在左上（Q3、P17等）与中腹（D10-D11-C11）形成两块势力，但右下（R6、C6）存在薄味。全局实地与外势平衡偏黑，但白棋厚味蕴含后续攻击机会。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方在多个局部展开接触战：右上角白B16刚落子，意在压缩黑Q16-P17阵势；左下C6-C9-D4构成白棋低位堡垒；中腹D10-D11-C11与C13-E15形成对峙带；黑棋政策目标点B15直指白棋右上薄弱联络点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q3孤子试探，白D4守角稳固，暂无激烈冲突。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "单官试应手",
+        "守角定式"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": [
+        "黑孤棋",
+        "白安定"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑C11-D11-D13-E14-F14与白C13-E15-F15-G15-H15形成中腹对峙带，黑略占主动但未净活。",
+      "shapes": [
+        "line",
+        "ladder"
+      ],
+      "local_tags": [
+        "中腹对攻",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "C13",
+        "E15"
+      ],
+      "group_status": [
+        "黑未连通",
+        "白厚势"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白B16、D16、Q17、R17、N18-O18-P18围成庞大厚势，压制黑Q16-R16-M17-N17-O17-P17大龙，黑B15为关键打入点。",
+      "shapes": [
+        "wall",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "厚势压迫",
+        "大龙治孤",
+        "打入要点"
+      ],
+      "key_points": [
+        "B16",
+        "Q16",
+        "B15",
+        "D16"
+      ],
+      "group_status": [
+        "黑大龙未活",
+        "白外势雄厚"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C9-C10被白C6、C9反夹，黑D10-D11形成小飞挂后跳，局部呈缠斗状，白有C9-D10断点。",
+      "shapes": [
+        "knight_move",
+        "cut_point"
+      ],
+      "local_tags": [
+        "夹击",
+        "小飞挂",
+        "断点隐患"
+      ],
+      "key_points": [
+        "C9",
+        "D10",
+        "C6"
+      ],
+      "group_status": [
+        "黑白交错",
+        "未定型"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，仅黑E16、F14与白E15、F15相邻，构成潜在中腹作战起点，目前无直接接触。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "中腹雏形",
+        "潜力区"
+      ],
+      "key_points": [
+        "E16",
+        "F15"
+      ],
+      "group_status": [
+        "双方未深入"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R6孤子深入白腹，白C6、R6附近无强应手，但白Q17-R17厚势可随时支援，黑需谨慎处理。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "深入孤棋",
+        "厚势辐射"
+      ],
+      "key_points": [
+        "R6",
+        "C6",
+        "Q17"
+      ],
+      "group_status": [
+        "黑孤棋",
+        "白厚势覆盖"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白D4、C6、C9、C10构成低位坚实阵型，黑无有效侵入手段，属白棋稳固根据地。",
+      "shapes": [
+        "territory_base"
+      ],
+      "local_tags": [
+        "低位实利",
+        "坚实守角"
+      ],
+      "key_points": [
+        "D4",
+        "C6",
+        "C9"
+      ],
+      "group_status": [
+        "白安定",
+        "黑无隙可乘"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "完全空旷，无任何着子，属全局最空旷区域，未来可能成为大场或大模样战场。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "大场预留",
+        "空旷中枢"
+      ],
+      "key_points": [],
+      "group_status": [
+        "无子"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3孤立，白无对应子力，但Q3位置偏低且远离主战场，战略价值有限，属试探性布局。",
+      "shapes": [
+        "probe"
+      ],
+      "local_tags": [
+        "低位试探",
+        "无关大局"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "黑孤棋",
+        "无影响"
+      ]
+    }
+  ]
+}

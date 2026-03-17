@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_003",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 3,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      }
+    ],
+    "black_stones": [
+      "R4",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "targets": {
+    "policy_target": "D16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "三手棋",
+      "星位布局",
+      "对角星"
+    ],
+    "strategic_focus": [
+      "角地争夺",
+      "外势构建",
+      "子效评估"
+    ],
+    "global_summary_cn": "黑方连续占据右上Q16与右下R4两颗星位，白方应以左下D4星位形成对角布局；当前为典型小目-星定式前的早期布阵阶段，双方尚未接触，侧重势力范围划分。",
+    "phase_explanation": "第三手，黑方R4落子完成对角星配置，全局呈开放型布局；无战斗，无死活问题，属布局初期的战略选点阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子，属潜在挂角或守角区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，中央高位尚未涉足。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据Q16星位，构成右上角根基，具守角潜力。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑棋据点",
+        "角部"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子，左半边尚未展开。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，未有任何着子，为未来势力交汇核心。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，但临近黑棋R4，可能成为后续拆边或侵消方向。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋占据D4星位，构成左下角根基，与黑棋形成对角呼应。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "白棋据点",
+        "角部"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，靠近D4但尚未延伸。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋占据R4星位，构成右下角根基，与Q16形成双星遥相呼应。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑棋据点",
+        "角部"
+      ],
+      "key_points": [
+        "R4"
+      ],
+      "group_status": [
+        "single"
+      ]
+    }
+  ]
+}

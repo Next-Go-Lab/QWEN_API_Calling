@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_200",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 200,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "M8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "O2"
+      },
+      {
+        "color": 0,
+        "point": "M9"
+      },
+      {
+        "color": 1,
+        "point": "L9"
+      },
+      {
+        "color": 0,
+        "point": "K6"
+      },
+      {
+        "color": 1,
+        "point": "K10"
+      },
+      {
+        "color": 0,
+        "point": "M8"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "K10",
+      "C11",
+      "D11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "B12",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "K9",
+      "M9",
+      "O9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "L10",
+      "B11",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "M10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "center_influence_contest",
+      "right_side_eye_space",
+      "bottom_right_life_status"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋以微弱优势领先；中腹与右下角存在未定形死活，白棋M8一子构成潜在劫材，黑棋O2、L9等子形成厚势但右上角仍有薄味。",
+    "phase_explanation": "第200手，黑方行棋，局面处于官子收束关键期。双方在中腹（K7–M9）、右下（O9–R13）及左下（B12–D15）存在多处未完全安定的棋形，其中M10为黑方最优官子点，兼具补强自身与压缩白空双重效用。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋B3/C4/D4/B4与黑棋C2/D3/E1形成平稳对峙，无明显战斗。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "balanced"
+      ],
+      "key_points": [
+        "C2",
+        "B3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋J4/K5/L4与白棋J3/K4形成浅消与反浅消，黑棋Q3/R4/S4构成边路厚势，白棋Q4/R3略显单薄。",
+      "shapes": [
+        "side_thickness",
+        "light_attack"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_light"
+      ],
+      "key_points": [
+        "J4",
+        "K5",
+        "Q4"
+      ],
+      "group_status": [
+        "alive",
+        "not_fully_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋P16/Q16/R16/S16与白棋Q17/R17/S17形成大模样对峙，黑棋T17孤子待援，白棋有S9/O9侵分余地。",
+      "shapes": [
+        "large_framework",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "black_framework",
+        "white_invasion_potential"
+      ],
+      "key_points": [
+        "P16",
+        "S17",
+        "T17"
+      ],
+      "group_status": [
+        "unclosed",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D11/E11/D13与白棋C13/B12/B11形成缠斗，黑棋C11–D15呈斜跳守势，白棋B12/C13具反击可能。",
+      "shapes": [
+        "ladder_shape",
+        "side_fight"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "mutual_weakness"
+      ],
+      "key_points": [
+        "D11",
+        "C13",
+        "B12"
+      ],
+      "group_status": [
+        "unsettled",
+        "eyeless"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域激烈争夺：黑棋K7/L7/K10/L9/M8与白棋K6/K8/M9/L6形成复杂接触战，M8为白刚落子，K10为黑应手，此处关乎中腹厚薄与眼位。",
+      "shapes": [
+        "contact_fight",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "critical_intersection",
+        "ko_related"
+      ],
+      "key_points": [
+        "K7",
+        "K10",
+        "M8",
+        "K6"
+      ],
+      "group_status": [
+        "unstable",
+        "life_or_death"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋N9/O9/P11与白棋O9/R9/S9构成角部攻防，黑棋L9/M9/N9三子与白棋M8/K9/M9形成局部对杀雏形，需关注气紧程度。",
+      "shapes": [
+        "corner_fight",
+        "semeai"
+      ],
+      "local_tags": [
+        "semeai_zone",
+        "short_on_liberties"
+      ],
+      "key_points": [
+        "L9",
+        "M8",
+        "O9",
+        "R9"
+      ],
+      "group_status": [
+        "in_semeai",
+        "critical_liberties"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B15/C15/D15与白棋B16/C17/D17形成低段定式延伸，黑棋E14/F14与白棋E15/F15对顶，实地均衡。",
+      "shapes": [
+        "low_side_fight",
+        "territory_balance"
+      ],
+      "local_tags": [
+        "balanced",
+        "quiet"
+      ],
+      "key_points": [
+        "B15",
+        "E14",
+        "E15"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑棋M2/O2/P2/Q2/R2与白棋N2/M3/R3/S3形成大规模边空对抗，黑棋厚势已成，白棋仅存小块活棋于R3/S3。",
+      "shapes": [
+        "side_wall",
+        "territory_defense"
+      ],
+      "local_tags": [
+        "black_wall",
+        "white_territory_reduced"
+      ],
+      "key_points": [
+        "O2",
+        "R2",
+        "R3"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q13/R13/R14/Q15与白棋P13/O13/N14/Q14形成典型攻杀结构，黑棋R19孤子牵制白棋右下联络，M10为黑方最佳后续点。",
+      "shapes": [
+        "corner_attack",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "attacking_position",
+        "vital_point_M10"
+      ],
+      "key_points": [
+        "Q13",
+        "R14",
+        "R19",
+        "M10"
+      ],
+      "group_status": [
+        "attacking",
+        "life_uncertain"
+      ]
+    }
+  ]
+}

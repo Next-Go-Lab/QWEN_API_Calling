@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_099",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 99,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K8"
+      },
+      {
+        "color": 1,
+        "point": "G6"
+      },
+      {
+        "color": 0,
+        "point": "H5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "H4"
+      },
+      {
+        "color": 1,
+        "point": "B10"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "G5",
+      "R5",
+      "C6",
+      "D6",
+      "G6",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "B8",
+      "C8",
+      "D8",
+      "J8",
+      "B10",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "G13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "H4",
+      "C5",
+      "H5",
+      "Q5",
+      "B6",
+      "F6",
+      "H6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "J7",
+      "E8",
+      "K8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋优势",
+      "边角定型中",
+      "中央厚势对峙"
+    ],
+    "strategic_focus": [
+      "J9点攻防焦点",
+      "右下白空稳固",
+      "左上黑势待张"
+    ],
+    "global_summary_cn": "第99手，黑方刚于B10落子，全局进入中盘关键阶段。白棋在右下、中腹及左下形成多块厚势与实地，黑棋则在左上、中腹偏左及右上保持势力范围。J9为当前最富变化的急所，牵动中腹与右边数块棋形安危。",
+    "phase_explanation": "属中盘中后期，双方大模样与实地争夺趋于白热化；白棋凭借K8、H5、G5等连续手段强化中腹联络，黑棋B10试图扩张左上并试探白棋右边弱点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋O3、Q3、R4构成高位阵势，白棋F3、B4、C4、D4形成低位坚实守角，黑C5被白压制，局部呈黑取势白取地格局。",
+      "shapes": [
+        "corner_enclosure",
+        "high_framework"
+      ],
+      "local_tags": [
+        "黑势",
+        "白实",
+        "低挂应对"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "D4"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑R5、Q5、Q6、R6与白Q5、Q6、R6形成交错接触，中腹上方黑G7-H7-E7-F7连片，白H6、J7、K8施压，黑K8前已失先手，此处为厚薄转换要冲。",
+      "shapes": [
+        "side_contact",
+        "central_pressure"
+      ],
+      "local_tags": [
+        "中腹缠斗",
+        "厚薄分界"
+      ],
+      "key_points": [
+        "K8",
+        "J7",
+        "G7"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q10、Q13、Q14、P14、P16、P17与黑Q13、Q14、R12、R16构成右上复杂阵地；黑R16、Q17与白P17对峙，黑K16、H16呼应，但白D16、C15、F15形成下方支撑。",
+      "shapes": [
+        "large_framework",
+        "edge_stability"
+      ],
+      "local_tags": [
+        "右上大模样",
+        "白下方根基"
+      ],
+      "key_points": [
+        "Q10",
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑B5、B6、B7、B8、B10、C10、C12、C13、D13、D14与白B4、C4、C5、B6、B7、C7、B11、C11、B12、B13密集交战；黑B10新落子强化左路，白B11-C11-B12构成封锁链。",
+      "shapes": [
+        "ladder_like",
+        "wall_building"
+      ],
+      "local_tags": [
+        "左路封锁战",
+        "黑B10试应手"
+      ],
+      "key_points": [
+        "B10",
+        "B11",
+        "C11"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_wall"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心战场：黑E7-F7-G7-H7、G5-G6-G9-G10-G11-G12-G13-G14与白F6-H6、H4-H5-H9-H10、E8-E9-F9、E10、F10、H10纵横交织；J9为空缺要点，左右牵动G9/H9/E8/F8等气眼与眼位。",
+      "shapes": [
+        "crossroads",
+        "vital_point_surrounding"
+      ],
+      "local_tags": [
+        "J9急所",
+        "中腹生死劫材区"
+      ],
+      "key_points": [
+        "J9",
+        "G9",
+        "H9",
+        "E8"
+      ],
+      "group_status": [
+        "mutual_life_threat",
+        "critical_balance"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑J10-J11-J12-J14-J15与白J7-J11-K11-K12-K14-K15-M15形成纵向拉锯；白K8、K11、K14、K15构成斜线厚壁，黑J15孤高，白M13、L12、L17呼应补强。",
+      "shapes": [
+        "vertical_chain",
+        "diagonal_thickness"
+      ],
+      "local_tags": [
+        "右中厚壁",
+        "黑J15单官"
+      ],
+      "key_points": [
+        "J15",
+        "K14",
+        "M13"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑D6-D7-E7-F7与白C4-D4-C5-B6-C7-B7-D6（白占）形成典型‘小目一间低夹’定式余波；黑C8-D8、E11-F11-G11与白E12-F12、D12、C11构成下边攻防，白D12为联络要点。",
+      "shapes": [
+        "low_side_fight",
+        "connection_point"
+      ],
+      "local_tags": [
+        "下边定式尾声",
+        "白D12控局"
+      ],
+      "key_points": [
+        "D12",
+        "C8",
+        "E11"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_compact"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F10-G10-G11-H11与白E10-H10、F9-G9-H9、E9构成密集中腹底部；黑H11、G12、F14、G14与白F13、K14、C14、C15形成上下呼应，此处为实地与外势转换带。",
+      "shapes": [
+        "dense_cluster",
+        "territory_thickness_tradeoff"
+      ],
+      "local_tags": [
+        "底边厚薄平衡区",
+        "白F13跳"
+      ],
+      "key_points": [
+        "F10",
+        "H11",
+        "F13"
+      ],
+      "group_status": [
+        "balanced",
+        "mutual_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白F3、Q3、Q5、Q6、R6、Q10、Q13、Q14、P14、P16、P17与黑O3、R4、R5、R12、R16构成庞大右下体系；白占据绝对实地，黑仅靠R16、Q17、P17边缘渗透，但白D16、C15、F15、K15封住所有出路。",
+      "shapes": [
+        "massive_territory",
+        "perimeter_pressure"
+      ],
+      "local_tags": [
+        "右下白空铁壁",
+        "黑势难入"
+      ],
+      "key_points": [
+        "D16",
+        "Q10",
+        "R16"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_outside_only"
+      ]
+    }
+  ]
+}

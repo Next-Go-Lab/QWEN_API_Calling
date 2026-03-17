@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_066",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 66,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D8"
+      },
+      {
+        "color": 0,
+        "point": "D9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "A8"
+      },
+      {
+        "color": 0,
+        "point": "B9"
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "左上孤棋治孤"
+    ],
+    "global_summary_cn": "第66手，黑方即将落子，局面处于中盘关键阶段。白棋在右下和左上形成厚势，黑棋在中腹与右边积极渗透；近期六手集中在D8–B9一带形成局部对杀雏形，G1为潜在打入点。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部展开接触战，尚未进入明显收官，但已有部分边角定型。全局厚薄对比明显，黑需处理左上A8/B7一带白棋外势压力，同时谋求中央主动。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C2、D3、C4、A4构成稳固小堡垒，黑A8孤子受压，B7白子呼应成势。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑孤棋",
+        "治孤要点"
+      ],
+      "key_points": [
+        "A4",
+        "B7",
+        "A8"
+      ],
+      "group_status": [
+        "white_fortress",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，仅Q16黑子与Q8/Q7/Q6/Q5白子遥相呼应，暂无激烈冲突。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "空旷",
+        "潜在大场"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R8、Q8、Q7、R7、Q6、R6、Q5、R5、R4、Q4、P3、R3构成庞大右上阵势，黑Q3、O3、P4、O4零星应对。",
+      "shapes": [
+        "side_wall",
+        "influence_zone"
+      ],
+      "local_tags": [
+        "白模样",
+        "黑侵消",
+        "高位压迫"
+      ],
+      "key_points": [
+        "Q8",
+        "R8",
+        "Q16"
+      ],
+      "group_status": [
+        "white_influence",
+        "black_light_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "D8–B9密集交战区：黑D8、E7、E8、A8；白D9、B9、C8、E5/E6/F6等形成局部对杀态势，D4白子为眼位支点。",
+      "shapes": [
+        "ladder_shape",
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "近身战",
+        "气紧",
+        "对杀未定"
+      ],
+      "key_points": [
+        "D8",
+        "E7",
+        "D9",
+        "B9"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷但暗藏张力：黑G5/G7、白F5/H5/H6等呈对称分布，E7黑子为打入尖兵，F4/E4黑子与E5/F5白子形成势力拉锯。",
+      "shapes": [
+        "symmetric_tension",
+        "central_influence"
+      ],
+      "local_tags": [
+        "中央控制权",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "E7",
+        "F5",
+        "G5"
+      ],
+      "group_status": [
+        "balanced_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R14孤子深入白阵，白O17/F17/D16构成斜线厚势反制，O6/P5/R6等黑子试图联络。",
+      "shapes": [
+        "invasion",
+        "counter_pressure"
+      ],
+      "local_tags": [
+        "黑深入",
+        "白封锁",
+        "联络要点"
+      ],
+      "key_points": [
+        "R14",
+        "O17",
+        "D16"
+      ],
+      "group_status": [
+        "black_invading",
+        "white_wall"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑H1/B2/B3/C3/C4/C5/D5/B6与白B1/C2/D3/E2/F2/G2/J2形成复杂交错，黑棋根基稍厚，白棋有断点隐患。",
+      "shapes": [
+        "complex_intersection",
+        "foundation_battle"
+      ],
+      "local_tags": [
+        "实地争夺",
+        "断点隐忧",
+        "黑棋厚实"
+      ],
+      "key_points": [
+        "B2",
+        "C3",
+        "D3"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑E4/F4/G4/G5/G3/H2/H6与白E5/F5/H5构成中腹核心战场，G1为黑方潜在打入点，目前空位。",
+      "shapes": [
+        "central_core",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "主战场",
+        "G1打入点",
+        "眼形要冲"
+      ],
+      "key_points": [
+        "G1",
+        "E4",
+        "G4"
+      ],
+      "group_status": [
+        "unresolved_fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q2/Q3/P4/P5/R4/R5/R6/R7与白P3/Q4/O4/Q5/Q6/Q7/R8形成右下大型攻防圈，黑棋略显被动。",
+      "shapes": [
+        "large_encirclement",
+        "perimeter_fight"
+      ],
+      "local_tags": [
+        "白围空",
+        "黑苦活",
+        "外势转换"
+      ],
+      "key_points": [
+        "Q2",
+        "R7",
+        "Q4"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_struggling"
+      ]
+    }
+  ]
+}

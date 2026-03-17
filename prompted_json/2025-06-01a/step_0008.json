@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_007",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 7,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "C15"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "E16"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布局",
+      "星位与小目配合",
+      "白棋守角",
+      "黑棋挂角",
+      "未定型"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "左下角试探",
+      "中央势力雏形"
+    ],
+    "global_summary_cn": "对局进行至第7手，黑棋占据Q3、C15、E16、Q16四点，形成双星位加小目+高挂的灵活布局；白棋落子D4（小目）、C13（拆二）、D17（守角），侧重实地与边角安定。当前局面处于布局早期，各处尚未接触，但右上E16挂角已埋下局部战斗伏笔。",
+    "phase_explanation": "布局阶段初期，双方以占空角、守角、挂角为主，无直接攻杀，但D16为潜在急所，可能成为下一步双方争夺焦点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D17守角，黑棋C15小目与C13白子形成对峙，存在低位夹击可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角",
+        "小目",
+        "低位对峙"
+      ],
+      "key_points": [
+        "D17",
+        "C15",
+        "C13"
+      ],
+      "group_status": [
+        "white_stable",
+        "black_developing"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋E16挂角，直指白棋D17角部，构成典型高挂应对结构，尚未定型。",
+      "shapes": [
+        "side_extension",
+        "high_approach"
+      ],
+      "local_tags": [
+        "挂角",
+        "角部侵消",
+        "未定型"
+      ],
+      "key_points": [
+        "E16",
+        "D17"
+      ],
+      "group_status": [
+        "black_invasive",
+        "white_defensive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q16与Q3构成大斜飞布局，Q16为守角，Q3为星位，形成左右呼应之势。",
+      "shapes": [
+        "diagonal",
+        "corner"
+      ],
+      "local_tags": [
+        "星位",
+        "守角",
+        "大斜飞"
+      ],
+      "key_points": [
+        "Q16",
+        "Q3"
+      ],
+      "group_status": [
+        "black_stable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "暂无着子，属空旷区域，未来可能成为黑棋C15向中腹发展的通道。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "发展通道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未出现任何着子，是未来双方势力扩张的核心区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "中腹",
+        "战略要地"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "暂无着子，但临近Q3与Q16，未来或成黑棋势力延伸方向。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "延伸方向"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋D4小目守角，布局根基稳固，目前无其他子力干扰。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "实地"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷区域，位于D4与中央之间，后续可能成为白棋拆边或黑棋打入点。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "拆边预备"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "完全空旷，远离现有子力，尚无战略动向。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

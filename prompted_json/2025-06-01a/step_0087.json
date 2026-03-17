@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_086",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 86,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F5"
+      },
+      {
+        "color": 0,
+        "point": "E7"
+      },
+      {
+        "color": 1,
+        "point": "F2"
+      },
+      {
+        "color": 0,
+        "point": "H7"
+      },
+      {
+        "color": 1,
+        "point": "G8"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      }
+    ],
+    "black_stones": [
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "左上潜力点"
+    ],
+    "global_summary_cn": "第86手，黑方即将落子，局面处于中盘关键阶段。白棋在右下和中腹形成厚势，黑棋则在左上、中腹及右上保持多处渗透与联络可能；D3为黑方政策目标点，意在侵消白棋左下模样并试探薄弱环节。",
+    "phase_explanation": "当前为中盘中后期，双方已完成主要布局，进入实地与外势的转换博弈。黑棋稍优但优势微弱（B+0.5），需谨慎处理右下白厚势与中央断点关联。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋在B4、C3-C5、B15-D15形成双层厚势，白棋B3、B5、C4、C9-C10构成低位封锁链，存在黑棋C2或A4等打入点。",
+      "shapes": [
+        "corner_influence",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白封锁",
+        "潜在打入"
+      ],
+      "key_points": [
+        "B4",
+        "C3",
+        "C4",
+        "C9",
+        "D10"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋R9、Q7、S7-S8与黑棋Q2-R2-R4-Q3构成上边拉锯；黑Q16-R16-P17-O17与白B16-D16-Q17-R17形成右上角复杂对杀雏形。",
+      "shapes": [
+        "side_wall",
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "边空未定",
+        "角部对杀前兆",
+        "白棋外势"
+      ],
+      "key_points": [
+        "Q7",
+        "R7",
+        "Q16",
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "uncertain",
+        "mutual_life_risk"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q2-R2-R4-Q3与白棋R3-Q4-R4-Q5形成交错接触；白R8、R9与黑S7-S8构成局部劫争伏笔，黑棋有S6扳头机会。",
+      "shapes": [
+        "contact_fight",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "接触战密集",
+        "劫材储备关注",
+        "黑棋弹性"
+      ],
+      "key_points": [
+        "R3",
+        "Q4",
+        "R4",
+        "S7",
+        "R8"
+      ],
+      "group_status": [
+        "tenuki_vulnerable",
+        "black_flexible"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C11-D11-D13-E14-F14与白C13、E15-F15-G15-H15形成中腹南北走向对峙；D3为黑方政策目标，直指白棋左下薄弱侧翼。",
+      "shapes": [
+        "central_corridor",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "D3侵消点",
+        "白棋薄味",
+        "黑棋主动权"
+      ],
+      "key_points": [
+        "D3",
+        "C11",
+        "D13",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑G7-G8、F5-F6与白E6-G6-J6-H7-F7构成中央核心缠斗区；J6为白最新一手，强化中腹联络，但F7-E7-H7存在断点隐患。",
+      "shapes": [
+        "central_knot",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "中央绞杀",
+        "白棋联络加强",
+        "黑棋断点试探"
+      ],
+      "key_points": [
+        "F5",
+        "G7",
+        "H7",
+        "J6",
+        "F7"
+      ],
+      "group_status": [
+        "complex_interaction",
+        "white_connected_but_tense"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑N3-O5-P4-P5与白M5-O4-P6-Q6-Q5形成右中腹大模样对抗；白N7-P7-R7与黑Q7-S7构成上下呼应，黑棋有M6跳入意向。",
+      "shapes": [
+        "framework",
+        "invasion_zone"
+      ],
+      "local_tags": [
+        "白棋模样",
+        "黑棋侵削",
+        "M6潜入点"
+      ],
+      "key_points": [
+        "N3",
+        "O5",
+        "P6",
+        "Q7",
+        "N7"
+      ],
+      "group_status": [
+        "white_framework",
+        "black_invading"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑E2-F2-F3-F4与白E2-E3-D4-C4-C3形成左下角激烈争夺；黑F5已落子，白E6、D6、C6构筑防线，但黑D3为直接威胁。",
+      "shapes": [
+        "corner_battle",
+        "invasion_route"
+      ],
+      "local_tags": [
+        "角部未净",
+        "D3战略要冲",
+        "白棋眼位不足"
+      ],
+      "key_points": [
+        "E2",
+        "F2",
+        "D3",
+        "D4",
+        "C4"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defensive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F5-F6-G7-G8与白E6-F7-G6-H7-J6构成中腹下方主战场；黑棋近期连走F5→G8，意图切断白棋中腹与右下联络。",
+      "shapes": [
+        "cutting_zone",
+        "connection_race"
+      ],
+      "local_tags": [
+        "切断焦点",
+        "白棋联络线",
+        "黑棋攻势延续"
+      ],
+      "key_points": [
+        "F5",
+        "F6",
+        "G7",
+        "G8",
+        "H7"
+      ],
+      "group_status": [
+        "black_cutting_attempt",
+        "white_connected_via_J6"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P3-Q4-Q5-Q6-R6-R7-R8与黑Q2-R2-R4-R5-R6-S7-S8形成右下巨阵；黑棋虽有R6双色交叉，但白棋厚势完整，黑需谨慎深入。",
+      "shapes": [
+        "thick_wall",
+        "territorial_framework"
+      ],
+      "local_tags": [
+        "白棋厚势",
+        "黑棋外围渗透",
+        "S6扳头要点"
+      ],
+      "key_points": [
+        "P3",
+        "Q4",
+        "R6",
+        "S7",
+        "R8"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_outside_pressure"
+      ]
+    }
+  ]
+}

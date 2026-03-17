@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_073",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 73,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M11"
+      },
+      {
+        "color": 1,
+        "point": "N11"
+      },
+      {
+        "color": 0,
+        "point": "N12"
+      },
+      {
+        "color": 1,
+        "point": "O11"
+      },
+      {
+        "color": 0,
+        "point": "C15"
+      },
+      {
+        "color": 1,
+        "point": "G10"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "T16",
+      "Q17",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "N12",
+      "S13",
+      "S14",
+      "C15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "R16",
+      "S16",
+      "R17",
+      "T17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "M16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上厚味转化"
+    ],
+    "global_summary_cn": "第73手，黑方刚于G10落子，白方即将在M16应手。当前局面呈现典型中盘格局：黑棋在右下（Q15–T18）与左上（B3–C8）构建大块实地，白棋则在右上（R15–S19）、中腹（L11–N12）及左下（C15、D16等）形成厚势与薄味并存的复杂结构；双方近五手集中于中右腹（M11–O11），显示此处为当前战略焦点。",
+    "phase_explanation": "处于中盘中后期，局部战斗密集但未进入收官；胜负关键在于厚势向实地或外势的转化效率，尤其关注M16一手对中腹势力平衡的影响。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C3、B4、C5、C6、C7、C8、D4、D6、E6、E8、E9构成厚实左上阵型；黑棋K2、K3、K4、K5、K6、J3、L6形成小块但略显孤立；存在白棋厚味压制黑棋发展的态势。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑孤棋",
+        "压迫感"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "C5",
+        "K2",
+        "J3"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q15、Q16、T16、Q17、Q18、R18、T18围出巨大右上实地；白棋R15、S15、R16、S16、R17、T17、S18、S19反向构筑外势，形成典型‘实地vs外势’对抗；R13–S14白子构成联络要点。",
+      "shapes": [
+        "territory",
+        "framework"
+      ],
+      "local_tags": [
+        "黑大空",
+        "白高墙",
+        "边界敏感"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "S15",
+        "Q16",
+        "R16"
+      ],
+      "group_status": [
+        "black_territory",
+        "white_framework"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R12、S12、R13、R14占据右上角低位实地；白棋S13、S14嵌入其中构成侵消点；该区域已趋定型，但S14仍具余味，可能影响黑棋上方联络。",
+      "shapes": [
+        "corner_territory",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "黑角地",
+        "白打入",
+        "余味点"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_invasion"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B15附近无子，白棋C15、D16孤立深入；黑棋F8、G10、M10、N11、O11与白棋N10、L11、M11、N12形成中腹激烈接触战；G10为最新黑棋打入点，意图破坏白棋中腹结构。",
+      "shapes": [
+        "contact_fight",
+        "invasion"
+      ],
+      "local_tags": [
+        "中腹激战",
+        "黑新尖",
+        "白联络待解"
+      ],
+      "key_points": [
+        "G10",
+        "N10",
+        "L11",
+        "M11",
+        "N12"
+      ],
+      "group_status": [
+        "fighting",
+        "black_attacking",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，仅黑M10、白N10、L11、M11、N12、O11构成松散接触网；无成形眼位或活形，属典型‘势力真空区’；M16目标点正位于此区边缘，将决定中腹主导权归属。",
+      "shapes": [
+        "vacant_zone",
+        "influence_boundary"
+      ],
+      "local_tags": [
+        "势力交界",
+        "真空地带",
+        "M16要冲"
+      ],
+      "key_points": [
+        "M10",
+        "N10",
+        "L11",
+        "M16"
+      ],
+      "group_status": [
+        "neutral",
+        "influence_contest"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋P4、O4、N5、M6、N6、L6、K6、K5、K4、J3与白棋L3、M3、N3、O5、L4、N4、L5、M5构成右中腹大规模交错；黑棋呈斜飞状厚势，白棋多为断点与薄形，如M5–N4–O5一线易受攻击。",
+      "shapes": [
+        "ladder",
+        "sabaki",
+        "weak_group"
+      ],
+      "local_tags": [
+        "黑斜飞",
+        "白断点群",
+        "攻防枢纽"
+      ],
+      "key_points": [
+        "P4",
+        "O4",
+        "N5",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B4、B5、B6、C6、D7与白棋F3、D4、E6、C7、C8形成低段纠缠；黑棋B2–C3一带空虚，白棋F3–E6构成潜在攻击线；整体属未定型低位战区。",
+      "shapes": [
+        "low_side_fight",
+        "attack_line"
+      ],
+      "local_tags": [
+        "低位缠斗",
+        "白攻击流",
+        "黑空虚"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "F3",
+        "D7"
+      ],
+      "group_status": [
+        "unstable",
+        "white_attacking"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F8、G10构成跳点连线；白棋E8、E9、N10构成横向呼应；该区连接中腹与右下，是双方势力延伸通道；G10为黑棋最新发力点，意在切断白棋上下联络。",
+      "shapes": [
+        "connection",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "联络通道",
+        "黑跳攻",
+        "白断点"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "E8",
+        "E9"
+      ],
+      "group_status": [
+        "black_cutting",
+        "white_connection_risk"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋Q3、R4、S12、R12、R13、R14、Q15与白棋P2、N3、O4、N4、O5、R12附近白子形成右下角复杂共存；黑棋实地庞大但外围单薄；白棋P2、N3为低位据点，具备渗透潜力。",
+      "shapes": [
+        "large_territory",
+        "penetration_base"
+      ],
+      "local_tags": [
+        "黑大模样",
+        "白低位根",
+        "渗透预备"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "P2",
+        "N3",
+        "O4"
+      ],
+      "group_status": [
+        "black_large_territory",
+        "white_base"
+      ]
+    }
+  ]
+}

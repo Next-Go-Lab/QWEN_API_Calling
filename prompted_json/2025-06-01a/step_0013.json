@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_012",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 12,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "D15"
+      },
+      {
+        "color": 0,
+        "point": "E15"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "E14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "center_influence"
+    ],
+    "strategic_focus": [
+      "top_side_contest",
+      "D13_invasion_preparation"
+    ],
+    "global_summary_cn": "第12手，黑方即将在D13点入白棋上边薄弱处，当前局面聚焦于右上角与上边的攻防转换，黑白在E14–F15一带形成接触战，白棋D16–D17与黑棋E16–D15构成对峙结构。",
+    "phase_explanation": "布局中期，双方已完成三连星与小目类开局配置，正进入局部战斗驱动全局节奏阶段；黑方掌握主动权，意图通过D13打入破坏白棋上边模样。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_framework"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "核心战场：黑E16、D15、E14与白D16、E15、F15密集交战；黑棋呈斜跳守势，白棋试图封锁但气紧。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "black_sente",
+        "white_weak_eye_space"
+      ],
+      "key_points": [
+        "E14",
+        "D15",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "black_group_partially_surrounded",
+        "white_group_overextended"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，白无应手；右上角为黑稳定势力范围。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "secure_black_corner",
+        "quiet"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C15孤子试探，白C13呼应；中腹左侧初具牵制意味，尚未成形。",
+      "shapes": [
+        "probe",
+        "loose_connection"
+      ],
+      "local_tags": [
+        "black_probe",
+        "white_response"
+      ],
+      "key_points": [
+        "C15",
+        "C13"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑E14略向中心辐射；双方均未深入，属待争夺影响力区域。",
+      "shapes": [],
+      "local_tags": [
+        "influence_radiation",
+        "neutral"
+      ],
+      "key_points": [
+        "E14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹暂无落子；D13目标点位于此区左缘，是下一回合关键侵消入口。",
+      "shapes": [
+        "invasion_point"
+      ],
+      "local_tags": [
+        "target_zone",
+        "imminent_invasion"
+      ],
+      "key_points": [
+        "D13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑Q3守角，白D4对应守角；左下双小目格局，平稳开局遗留。",
+      "shapes": [
+        "small_knight_corner"
+      ],
+      "local_tags": [
+        "balanced",
+        "settled"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中腹下方完全空旷，无任何着子；属全局最安静区域。",
+      "shapes": [],
+      "local_tags": [
+        "silent",
+        "future_framework"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全空，无子；尚未启动，属后期战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "late_game_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

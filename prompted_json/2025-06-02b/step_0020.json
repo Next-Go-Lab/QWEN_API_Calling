@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_019",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 19,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "R15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "N3"
+      },
+      {
+        "color": 1,
+        "point": "R18"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "右上角争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中央潜力争夺",
+      "下边孤棋处理"
+    ],
+    "global_summary_cn": "第19手，黑方刚于R18落子，强化右上黑棋阵势；白棋在R15、R16、R17形成厚壁，但S13、S14略显单薄；黑棋Q15-Q17-R18构成斜向攻击链，直指白棋右上弱点；全局焦点集中于右上角攻防与中央联络，黑棋意图破空，白棋谋求外势转化实地。",
+    "phase_explanation": "中盘初期，双方在右上角展开复杂接触战，黑棋主动挑起战斗，白棋以厚势应对但局部存在断点；下边N3白子孤立，可能成为后续攻击目标；中央尚无定型，为双方势力延伸关键区域。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16白子孤立，上方无应援；黑棋暂无子，但Q16、Q17、R18黑子斜压向此区，具潜在压迫性。",
+      "shapes": [],
+      "local_tags": [
+        "高位压迫",
+        "白孤子"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈交战区：黑棋Q15-Q16-Q17-R18-R13-R14-R12-S12连成攻击阵形；白棋S13-S14-R15-R16-R17构成厚壁但气紧，S18为空点且为黑方政策目标。",
+      "shapes": [
+        "line",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防焦点",
+        "断点密集"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "S18"
+      ],
+      "group_status": [
+        "黑棋攻击群",
+        "白棋厚势待验证"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "J16白子为近期一手，孤立于中腹左侧；附近无其他子，暂无明显关联。",
+      "shapes": [],
+      "local_tags": [
+        "单官飞入",
+        "试探性落子"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何棋子，是未来势力扩张与眼位争夺的核心缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "战略真空",
+        "眼位储备区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "R4、P4黑子与D4白子分居右下与左下，本区仅S12黑子延伸至此，但尚未深入；整体稀疏。",
+      "shapes": [],
+      "local_tags": [
+        "连接过渡带"
+      ],
+      "key_points": [
+        "S12"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "N3白子孤悬于下边，远离己方阵营，黑棋暂无近身压迫，但构成潜在攻击目标。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "后手隐患"
+      ],
+      "key_points": [
+        "N3"
+      ],
+      "group_status": [
+        "白孤棋"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，D4白子偏左，R4/P4黑子偏右，中间大片空白，为双方未来拆边或打入要点。",
+      "shapes": [],
+      "local_tags": [
+        "拆边预备区",
+        "对称张力"
+      ],
+      "key_points": [
+        "D4",
+        "P4",
+        "R4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "R4、P4黑子构成低位双子结构，略有联络意向；右侧及下方全空，黑棋可考虑守角或拆二，白棋无子在此。",
+      "shapes": [
+        "pair"
+      ],
+      "local_tags": [
+        "黑低位据点",
+        "守势雏形"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑棋基础"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_132",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 132,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P13"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B17"
+      },
+      {
+        "color": 0,
+        "point": "F16"
+      },
+      {
+        "color": 1,
+        "point": "B18"
+      },
+      {
+        "color": 0,
+        "point": "S9"
+      },
+      {
+        "color": 1,
+        "point": "Q13"
+      },
+      {
+        "color": 0,
+        "point": "P13"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "D13",
+      "Q13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "C16",
+      "J16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "B18",
+      "D18"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "P11",
+      "C13",
+      "P13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "F16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "E18",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "P14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官",
+      "实地争夺",
+      "边角定型"
+    ],
+    "strategic_focus": [
+      "右下角白棋厚势压迫",
+      "左上黑棋大模样未净活",
+      "中央黑棋孤棋需联络"
+    ],
+    "global_summary_cn": "全局进入中盘收官阶段，黑棋略占实地优势但多处薄味；白棋在右下与中腹形成厚势，伺机侵消黑棋上方潜力；双方在P14附近存在关键攻防点。",
+    "phase_explanation": "第132手，黑方即将落子P14，此为双方在右下角与中腹交界处的胜负手候选，关系到黑棋Q13/P13一队孤子的生死及白棋S9-P13厚势的发挥效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋B17/B18/C16/C15/D15/D18与白棋B16/C17/D17形成复杂接触战，黑棋大模样尚未安定，白棋有打入A15或C14等手段。",
+      "shapes": [
+        "corner_enclosure",
+        "incomplete_framework"
+      ],
+      "local_tags": [
+        "未净活",
+        "潜在打入点",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "B17",
+        "B18",
+        "C15",
+        "D15",
+        "C16",
+        "B16",
+        "C17",
+        "D17"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段相对平静，黑棋J16/Q16/R16/S16与白棋Q17/R17/S16构成小规模对峙，黑棋有向中腹延伸意图。",
+      "shapes": [
+        "side_extension",
+        "light_group"
+      ],
+      "local_tags": [
+        "轻灵",
+        "方向性明确"
+      ],
+      "key_points": [
+        "J16",
+        "Q16",
+        "R16",
+        "S16",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "black_light",
+        "white_solid"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型，白棋B4/C4/D4/E4与黑棋C3/D3/E3/F3形成典型星位小目定式余味，无明显争端。",
+      "shapes": [
+        "settled_corner"
+      ],
+      "local_tags": [
+        "已定型",
+        "余味轻微"
+      ],
+      "key_points": [
+        "B4",
+        "C4",
+        "D4",
+        "E4",
+        "C3",
+        "D3",
+        "E3",
+        "F3"
+      ],
+      "group_status": [
+        "both_settled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D10/C11/D11与白棋C9/C10形成低位对峙，黑棋有向下方C13扩展趋势，白棋C13为关键据点。",
+      "shapes": [
+        "low_side_fight",
+        "point_contest"
+      ],
+      "local_tags": [
+        "据点争夺",
+        "低位缠斗"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "D11",
+        "C9",
+        "C10",
+        "C13"
+      ],
+      "group_status": [
+        "black_pressing",
+        "white_resisting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑棋Q7/S7/G7与白棋E7/F7/H7/N7/P7形成松散包围圈，黑棋M6/Q13与白棋P13、Q5等构成跨区域联络焦点。",
+      "shapes": [
+        "central_influence",
+        "loose_encirclement"
+      ],
+      "local_tags": [
+        "影响力博弈",
+        "联络关键"
+      ],
+      "key_points": [
+        "Q7",
+        "S7",
+        "G7",
+        "E7",
+        "F7",
+        "H7",
+        "N7",
+        "P7",
+        "M6",
+        "Q13",
+        "P13",
+        "Q5"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_coordinated"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹激烈交锋区：黑棋P4/R4/Q5/R5/P6/R6/Q7与白棋Q4/O4/N4/M4/L4/K4/F6等密集交错，P14为当前最紧迫打入/补强点。",
+      "shapes": [
+        "complex_intersection",
+        "urgent_point_zone"
+      ],
+      "local_tags": [
+        "急所集中",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "Q5",
+        "R5",
+        "P6",
+        "R6",
+        "Q7",
+        "Q4",
+        "O4",
+        "N4",
+        "M4",
+        "L4",
+        "K4",
+        "F6",
+        "P14"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_aggressive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋D1/E1/C2/D2/F2与白棋D2/E2/B3/C4形成经典低中国流变例，黑棋实地厚实但缺乏发展，白棋有A3等试探。",
+      "shapes": [
+        "low_chinese",
+        "solid_territory"
+      ],
+      "local_tags": [
+        "实地稳固",
+        "发展潜力弱"
+      ],
+      "key_points": [
+        "D1",
+        "E1",
+        "C2",
+        "D2",
+        "F2",
+        "E2",
+        "B3",
+        "C4"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋F3/H3/J4/J5/G5与白棋E3/J3/K4/K5等形成宽广接触带，黑棋K2/L3/N3/O3/Q2/Q3与白棋J2/M3/R3构成边路拉锯。",
+      "shapes": [
+        "broad_contact",
+        "side_race"
+      ],
+      "local_tags": [
+        "边路拉锯",
+        "厚势比拼"
+      ],
+      "key_points": [
+        "F3",
+        "H3",
+        "J4",
+        "J5",
+        "G5",
+        "E3",
+        "J3",
+        "K4",
+        "K5",
+        "K2",
+        "L3",
+        "N3",
+        "O3",
+        "Q2",
+        "Q3",
+        "J2",
+        "M3",
+        "R3"
+      ],
+      "group_status": [
+        "black_spreading",
+        "white_containing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前主战场：黑棋P2/Q2/R2/R4/P5/R5/R6/S7/S8与白棋Q4/O4/N4/M4/L4/K4/F6/P6/Q6/R7/R8/S9/P13等大规模绞杀，白棋厚势压迫感强，黑棋P14为唯一有效腾挪点。",
+      "shapes": [
+        "main_battlefield",
+        "thickness_vs_life"
+      ],
+      "local_tags": [
+        "主战场",
+        "厚势压迫",
+        "生死攸关"
+      ],
+      "key_points": [
+        "P2",
+        "Q2",
+        "R2",
+        "R4",
+        "P5",
+        "R5",
+        "R6",
+        "S7",
+        "S8",
+        "Q4",
+        "O4",
+        "N4",
+        "M4",
+        "L4",
+        "K4",
+        "F6",
+        "P6",
+        "Q6",
+        "R7",
+        "R8",
+        "S9",
+        "P13",
+        "P14"
+      ],
+      "group_status": [
+        "black_struggling",
+        "white_dominant"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_028",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 28,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "O17"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N17"
+      },
+      {
+        "color": 0,
+        "point": "N18"
+      },
+      {
+        "color": 1,
+        "point": "M17"
+      },
+      {
+        "color": 0,
+        "point": "C10"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角争夺激烈",
+      "白棋厚势成形",
+      "黑棋中腹潜力",
+      "局部对杀未定"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹联络与切断",
+      "左下黑棋孤棋治孤"
+    ],
+    "global_summary_cn": "第28手，黑方即将落子，局面处于中盘关键阶段。右上角（M17–P18）形成复杂接触战，黑白交错密集；左下C10一子深入黑阵，构成威胁；中腹D10为政策目标点，暗示黑方意图扩张或分断。全局黑棋实地稍优但薄味明显，白棋外势雄厚但需防范渗透。",
+    "phase_explanation": "中盘战斗期：局部定式已结束，进入势力消长与攻防转换阶段；双方在右上持续交换，形成多组未净活棋形；全局尚未出现明显大龙生死，但局部存在潜在对杀与眼位争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅黑Q3单子镇边，无直接冲突，属战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "单官守角",
+        "空旷待侵"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，黑E14/F14/E16、白E15/F15/G15/D16等子构成松散阵势，尚未形成明确形状。",
+      "shapes": [],
+      "local_tags": [
+        "浮棋未定",
+        "阵势雏形"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：黑M17/N17/O17/P17/Q16/R16 vs 白N18/O18/P18/Q17/R17/D17，形成典型‘楼梯’式接触战，双方数子互围，存在对杀与做活双重可能。",
+      "shapes": [
+        "ladder-like",
+        "mutual-surround"
+      ],
+      "local_tags": [
+        "楼梯对杀",
+        "共活边缘",
+        "眼位紧要"
+      ],
+      "key_points": [
+        "M17",
+        "N17",
+        "O17",
+        "P17",
+        "N18",
+        "O18",
+        "P18"
+      ],
+      "group_status": [
+        "black-group-weak",
+        "white-group-thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹：黑C11/C15/D13/D15、白C10/C13/D4等子分布，C10白子深入黑阵，构成打入要点；黑方需处理C10与上方黑棋联络问题。",
+      "shapes": [
+        "invasion-point",
+        "connection-problem"
+      ],
+      "local_tags": [
+        "白棋打入",
+        "黑棋联络弱",
+        "治孤起点"
+      ],
+      "key_points": [
+        "C10",
+        "C11",
+        "C13",
+        "D13"
+      ],
+      "group_status": [
+        "black-group-vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，仅黑E16、白D16/E15等零星子力，D10为政策目标，是黑方下一着最可能的扩张/分断点，牵动中腹走向。",
+      "shapes": [
+        "potential-expansion",
+        "key-junction"
+      ],
+      "local_tags": [
+        "战略枢纽",
+        "政策落点",
+        "未控中枢"
+      ],
+      "key_points": [
+        "D10",
+        "E16",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹较空，黑Q16/R16、白Q17/R17形成上下呼应，但缺乏纵深连接，属浮动外势区域。",
+      "shapes": [],
+      "local_tags": [
+        "外势浮薄",
+        "呼应未实"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C11/C15/D13/D15与白C10/C13构成微型战场，C10为白棋尖兵，黑方若不及时应对恐被搜刮。",
+      "shapes": [
+        "invasion-response-zone"
+      ],
+      "local_tags": [
+        "尖兵威胁",
+        "局部急所",
+        "先手争夺"
+      ],
+      "key_points": [
+        "C10",
+        "C11",
+        "D13"
+      ],
+      "group_status": [
+        "black-group-under-pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅有白D4孤子守角，黑方无对应子力，属待开发实地或侵消区域。",
+      "shapes": [
+        "corner-anchor"
+      ],
+      "local_tags": [
+        "白守无忧角",
+        "黑未挂角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角完全空旷，无任何棋子，属全局唯一全空白区域，未来可能成为大场或劫材储备区。",
+      "shapes": [
+        "empty-corner"
+      ],
+      "local_tags": [
+        "全空待占",
+        "终局潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

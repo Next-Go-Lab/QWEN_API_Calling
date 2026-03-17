@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_036",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 36,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "L11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "M6"
+      },
+      {
+        "color": 0,
+        "point": "M3"
+      },
+      {
+        "color": 1,
+        "point": "K5"
+      },
+      {
+        "color": 0,
+        "point": "P2"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "L11"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "J3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋外势"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央潜力争夺",
+      "左上厚味利用"
+    ],
+    "global_summary_cn": "第36手，黑方即将落子，局面处于中盘关键阶段。白棋在右下（P2、Q3、R4等）与左上（D4、D16、J16）形成两块厚势；黑棋则在右上（Q15–R18）构筑大模样，并在中腹（M6、K5、L11）持续施压。近期连续在右下小范围激烈接触，L11为白方最新一手，意在巩固角地并限制黑棋向中腹发展。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方在多个局部存在未定型战斗，尤其右下角（M3–Q3区域）和中央（K5–M6–L11）形成战术焦点；全局尚未进入官子，但已有部分边角接近定型。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D4与D16构成高位双飞燕雏形，J16为联络要点；黑棋暂无子力，属白棋厚味辐射区。",
+      "shapes": [
+        "point_group"
+      ],
+      "local_tags": [
+        "高位双飞燕",
+        "厚味辐射",
+        "空旷"
+      ],
+      "key_points": [
+        "D4",
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q15–S19形成庞大右上阵势，白棋R15–S18反夹，局部对峙紧张；Q18、R18、S18为双方势力交界线。",
+      "shapes": [
+        "large_framework",
+        "border_line"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白反夹",
+        "边界对峙"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S18",
+        "S19",
+        "R15",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "black_framework",
+        "white_invasion_attempt"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R12–R14与S12–S13构成右上角根基，白棋S13–S14反扳试探；R16、R17为白棋深入要点，但尚未安定。",
+      "shapes": [
+        "corner_base",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "角部根基",
+        "白深入未稳",
+        "局部未定"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "S13",
+        "S14",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "black_alive_part",
+        "white_weak_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷区域，仅黑K5、白L4/M5/O5零星分布；K5为黑棋向中央跳入要点，白棋L4–O5呈斜阵呼应，但无成形结构。",
+      "shapes": [
+        "scattered_stones"
+      ],
+      "local_tags": [
+        "中腹跳点",
+        "白斜阵",
+        "未构形"
+      ],
+      "key_points": [
+        "K5",
+        "L4",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_influence",
+        "white_loose"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心战场：黑M6/N6/K5与白L11/M3/N3/N4形成复杂接触；L11为白刚落之子，旨在封锁黑中腹出路并强化自身眼位。",
+      "shapes": [
+        "contact_fight",
+        "eye_shape_hint"
+      ],
+      "local_tags": [
+        "主战场",
+        "封锁要点",
+        "眼形相关"
+      ],
+      "key_points": [
+        "M6",
+        "N6",
+        "K5",
+        "L11",
+        "M3",
+        "N3",
+        "N4"
+      ],
+      "group_status": [
+        "fighting",
+        "white_eye_potential",
+        "black_influence_under_pressure"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑O4/P4/R4与白O5/P2/Q3构成右中腹混战带；P2白子孤悬但有Q3接应，黑R4为高拆兼攻防要点。",
+      "shapes": [
+        "mixed_contact",
+        "floating_stone"
+      ],
+      "local_tags": [
+        "混战带",
+        "白孤子",
+        "黑高拆"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "R4",
+        "O5",
+        "P2",
+        "Q3"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空区域，无任何棋子，属全局最空旷地带，潜在大场或后半盘收官要点。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "全空",
+        "大场预留"
+      ],
+      "key_points": [],
+      "group_status": [
+        "empty"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "仅白M3/N3/N4与黑M6/N6构成斜向对峙，但距离较远；该区为双方势力延伸交汇处，尚未发生直接接触。",
+      "shapes": [
+        "loose_alignment"
+      ],
+      "local_tags": [
+        "势力延伸",
+        "未接触"
+      ],
+      "key_points": [
+        "M3",
+        "N3",
+        "N4",
+        "M6",
+        "N6"
+      ],
+      "group_status": [
+        "white_influence",
+        "black_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P2、Q3与黑O4/P4/R4形成典型右下角攻防结构；P2为白薄弱一子，Q3为联络眼位，黑R4具压迫性；目标点J3位于此区左上方边缘，属黑棋潜在打入点。",
+      "shapes": [
+        "corner_fight",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "右下角战",
+        "白薄弱",
+        "黑压迫",
+        "J3为打入候选"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "O4",
+        "P4",
+        "R4",
+        "J3"
+      ],
+      "group_status": [
+        "white_weak_group",
+        "black_pressuring"
+      ]
+    }
+  ]
+}

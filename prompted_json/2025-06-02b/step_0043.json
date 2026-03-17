@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_042",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 42,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J3"
+      },
+      {
+        "color": 0,
+        "point": "L5"
+      },
+      {
+        "color": 1,
+        "point": "L6"
+      },
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "C6"
+      },
+      {
+        "color": 0,
+        "point": "F3"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "B4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋外势"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上大模样构建"
+    ],
+    "global_summary_cn": "第42手，黑方行棋，局面处于中盘激烈对抗阶段。右下角（F3附近）形成复杂接触战，白棋刚落子F3，黑棋此前在J3、L6等处连续压迫；左上黑棋Q15-Q18-R18-S18构成大模样雏形，白棋R15、S13-S14、S18-S19反向侵消；中腹暂无明显大块，但C6、N5-M6等黑子与L5、M5、O5等白子形成潜在对攻；全局黑白势力犬牙交错，胜负关键在于右下定型与中腹效率。",
+    "phase_explanation": "当前为中盘中后期，双方尚未进入官子，多处战场并存：右下为近身攻防焦点，左上为模样与侵消较量，中腹为潜在决战区域。黑棋握有先手，需在B4（政策目标点）附近寻求主动或补强。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q15-Q18-R18-S18连片成势，白棋D16、J16、R16、S13-S14-S18-S19穿插侵削，形成模样与反模样的典型对抗。",
+      "shapes": [
+        "large_framework",
+        "invasion_chain"
+      ],
+      "local_tags": [
+        "黑大模样",
+        "白侵消",
+        "轻重判断"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S18",
+        "R17",
+        "S19",
+        "D16",
+        "J16",
+        "R16",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "black_floating_framework",
+        "white_invasive_groups"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "相对空旷，仅白棋J16、R16及黑棋Q15-Q18边缘延伸，无实质战斗，属战略缓冲带。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "战略空白",
+        "连接通道"
+      ],
+      "key_points": [
+        "J16",
+        "R16",
+        "Q15",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S13-S14-S18-S19构成斜向厚壁，黑棋R12-R13-R14-R15-R16-R17-R18局部密集但受制于白厚势，存在联络与眼位隐忧。",
+      "shapes": [
+        "white_wall",
+        "black_cluster_under_pressure"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑孤棋",
+        "眼形缺陷"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "Q15",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "S13",
+        "S14",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "white_solid_wall",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C6单子深入，白棋D4、L4-L5-M5-O5等子呈横向封锁态势；中腹K5、N5、M6、N6黑子与白L5、M5、O5形成对峙前沿。",
+      "shapes": [
+        "black_probe",
+        "white_fence"
+      ],
+      "local_tags": [
+        "黑打入",
+        "白封锁",
+        "中腹前沿"
+      ],
+      "key_points": [
+        "C6",
+        "D4",
+        "K5",
+        "N5",
+        "M6",
+        "N6",
+        "L4",
+        "L5",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_light_probe",
+        "white_coordinated_fence"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点较多，但黑J3、O4-P4-Q3-R4与白P2-M3-N3-N4-O5-F3等子环绕，中腹潜力待开发，B4为关键扩展点。",
+      "shapes": [
+        "potential_center",
+        "peripheral_pressure"
+      ],
+      "local_tags": [
+        "中腹潜力",
+        "外围施压",
+        "B4要点"
+      ],
+      "key_points": [
+        "J3",
+        "O4",
+        "P4",
+        "Q3",
+        "R4",
+        "P2",
+        "M3",
+        "N3",
+        "N4",
+        "O5",
+        "F3",
+        "B4"
+      ],
+      "group_status": [
+        "black_peripheral_strength",
+        "white_scattered_presence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋L11、N10与黑棋L6-M6-N6-O4等构成右中腹接触部，N10为白重要据点，黑L6-M6-N6具攻击性，但白L5-M5-O5可呼应。",
+      "shapes": [
+        "contact_zone",
+        "key_point_anchor"
+      ],
+      "local_tags": [
+        "攻防接触部",
+        "N10据点",
+        "黑三子攻击链"
+      ],
+      "key_points": [
+        "L6",
+        "M6",
+        "N6",
+        "O4",
+        "L11",
+        "N10",
+        "L5",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_attacking_chain",
+        "white_anchored_point"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋无子，白棋D4孤立但有发展余地；C6为黑唯一低位子，构成低位试探，尚未形成有效配合。",
+      "shapes": [
+        "isolated_stone",
+        "low_probe"
+      ],
+      "local_tags": [
+        "白孤子",
+        "黑低位试应手"
+      ],
+      "key_points": [
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "white_isolated_stone",
+        "black_low_probe"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "右下角F3为白最新一手，黑J3、K5、N5、O4、P4、Q3、R4与白P2、M3、N3、N4、F3、L4、L5、M5、O5密集交战，是当前最激烈战场。",
+      "shapes": [
+        "fighting_complex",
+        "corner_battle"
+      ],
+      "local_tags": [
+        "右下角战",
+        "F3扳头",
+        "黑J3跳攻",
+        "白厚势反击"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "K5",
+        "N5",
+        "O4",
+        "P4",
+        "Q3",
+        "R4",
+        "P2",
+        "M3",
+        "N3",
+        "N4",
+        "L4",
+        "L5",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_aggressive_groups",
+        "white_resisting_thick_group"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋无子，白棋F3、M3、N3、N4、L4、L5、M5、O5、P2等占据右下大半，已形成局部厚势与实地基础，黑需谨慎处理。",
+      "shapes": [
+        "white_territory_base",
+        "black_threatened_periphery"
+      ],
+      "local_tags": [
+        "白实地根基",
+        "黑外围薄弱"
+      ],
+      "key_points": [
+        "F3",
+        "M3",
+        "N3",
+        "N4",
+        "L4",
+        "L5",
+        "M5",
+        "O5",
+        "P2"
+      ],
+      "group_status": [
+        "white_consolidated_base",
+        "black_unsettled_outside"
+      ]
+    }
+  ]
+}

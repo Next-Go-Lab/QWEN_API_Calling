@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_080",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 80,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "G6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "B5"
+      },
+      {
+        "color": 1,
+        "point": "B4"
+      },
+      {
+        "color": 0,
+        "point": "B3"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "C3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "P6",
+      "Q6",
+      "F7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "F5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "左上黑厚势待发挥"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，黑白双方在多个局部激烈接触。右下角（B3–G6）形成复杂攻防，黑棋C5/B4连续打入，白棋B5/B3构筑防线；中央F5为当前焦点，是双方争夺的要冲点；左上黑棋Q16–P17成势，但尚未完全安定；右上白棋R9–R17厚实但略显凝重。",
+    "phase_explanation": "第80手，黑方即将落子，局面处于中盘中后期。黑棋稍占实地优势（最终B+0.5），但白棋在中腹与右边保持厚味与潜力。F5为空点，恰处黑棋C5–G7与白棋D4–G6两组势力交界中枢，为典型‘三线交汇’战略要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋Q16、R16、Q17、P17、O17、N17成厚势，白棋B16、C13、C10零星呼应，但未构成有效对抗。",
+      "shapes": [
+        "territory",
+        "thickness"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "未完全围空",
+        "潜在攻击方向"
+      ],
+      "key_points": [
+        "Q16",
+        "P17",
+        "C13"
+      ],
+      "group_status": [
+        "alive",
+        "influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空旷，黑E14–F14–E15与白E15–F15–G15–H15对峙，呈薄味交错，无明显活形。",
+      "shapes": [
+        "thin_wall",
+        "contact_point"
+      ],
+      "local_tags": [
+        "对峙带",
+        "未定型",
+        "轻灵试探"
+      ],
+      "key_points": [
+        "E14",
+        "F15",
+        "H15"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋R9、R17、Q17、P18、O18、N18连成厚壁，黑棋S7、S8、R7局部成形但气紧，存在劫争隐患。",
+      "shapes": [
+        "wall",
+        "vulnerable_eye"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑孤棋",
+        "劫材相关"
+      ],
+      "key_points": [
+        "R9",
+        "S7",
+        "R7"
+      ],
+      "group_status": [
+        "alive_with_difficulty",
+        "sente_potential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑C11–D11–C15–D15–E16与白C9–C10–C13–D16形成高低配合，黑棋略占主动，白棋C13为眼位支点。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "黑棋联络",
+        "白棋眼形",
+        "低位厚势"
+      ],
+      "key_points": [
+        "C11",
+        "C13",
+        "D15"
+      ],
+      "group_status": [
+        "connected",
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，F5为绝对焦点，临近黑G7、F6、E5与白G6、F7、E6，是双方势力辐射交汇点，兼具攻防枢纽与破眼要冲双重属性。",
+      "shapes": [
+        "junction",
+        "vital_point"
+      ],
+      "local_tags": [
+        "F5要冲",
+        "攻防十字路口",
+        "全局中枢"
+      ],
+      "key_points": [
+        "F5",
+        "G7",
+        "G6",
+        "F7"
+      ],
+      "group_status": [
+        "critical",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P4–Q4–Q5–P5–O5与白O4–Q4–Q5–Q6–P6密集交错，形成典型‘微型战场’，黑棋有断点风险（如P5–Q6），白棋Q6为守角关键。",
+      "shapes": [
+        "net",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "密集接触",
+        "断点隐忧",
+        "角部延伸"
+      ],
+      "key_points": [
+        "P5",
+        "Q6",
+        "O5"
+      ],
+      "group_status": [
+        "fighting",
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C3、B4、C5、D5、E5与白B3、C4、D4、E3、E2形成经典‘无忧角vs小目挂’演变，黑棋已活，白棋外势初具但未厚实。",
+      "shapes": [
+        "living_group",
+        "potential_thickness"
+      ],
+      "local_tags": [
+        "黑活角",
+        "白外势未成",
+        "低效交换"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "C5"
+      ],
+      "group_status": [
+        "alive",
+        "influence_pending"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F3、F4、F6、G7与白E2、E3、E6、G6形成斜向对峙，黑棋F5空点为双方必争，此处若被黑占据则可连通上下，白若抢占则压缩黑中央发展。",
+      "shapes": [
+        "diagonal_fight",
+        "key_empty_point"
+      ],
+      "local_tags": [
+        "F5争夺",
+        "上下联络点",
+        "厚薄转换"
+      ],
+      "key_points": [
+        "F5",
+        "F6",
+        "G6"
+      ],
+      "group_status": [
+        "decisive",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈战场：黑C5–B4–B3（已失）与白B3–B5–C6–D6–E6–G6构成攻防链，黑G7为反扳要点，白G6为最新一手，黑方亟需在F5或H5寻求突破。",
+      "shapes": [
+        "fighting_chain",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防链",
+        "打劫预备"
+      ],
+      "key_points": [
+        "C5",
+        "B4",
+        "G7",
+        "G6"
+      ],
+      "group_status": [
+        "fighting",
+        "life_and_death_unclear"
+      ]
+    }
+  ]
+}

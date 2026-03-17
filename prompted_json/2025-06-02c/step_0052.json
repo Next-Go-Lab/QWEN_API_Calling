@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_051",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 51,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "B12"
+      },
+      {
+        "color": 1,
+        "point": "C13"
+      },
+      {
+        "color": 0,
+        "point": "B13"
+      },
+      {
+        "color": 1,
+        "point": "D14"
+      },
+      {
+        "color": 0,
+        "point": "C15"
+      },
+      {
+        "color": 1,
+        "point": "C10"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "E10",
+      "Q10",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "左上黑棋薄味"
+    ],
+    "global_summary_cn": "第51手，轮白（Ueno Risa）行棋。黑棋在左中腹（C10-D14）形成断点密集区，白棋在C11、B12、C14、C15等处连续压迫，B11为关键打入点；右上黑棋Q13-Q17与白棋P16-P17对峙；左下黑棋D18与白棋C4-D4形成早期接触；全局呈现白棋借厚势取势、黑棋奋力治孤态势。",
+    "phase_explanation": "中盘阶段，双方在中腹与边路多点交锋，局部尚未定型，胜负关键在于B11一子能否成功侵入及后续攻防转换。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋O3-Q3-R4-R5与白棋F3-C4-D4构成早期接触，黑棋R5与白棋Q5-Q6-R6形成角部对峙，黑棋略显单薄。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部未定",
+        "黑棋薄味"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "F3",
+        "C4",
+        "D4",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q13-Q14-Q17与白棋P14-P16-P17形成拉锯，K14-K15-M15为白棋联络要点，黑棋J14-J15-H16-K16略显分散。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "边空未固",
+        "白棋厚势"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "Q17",
+        "P14",
+        "P16",
+        "P17",
+        "J14",
+        "J15",
+        "H16",
+        "K16",
+        "K14",
+        "K15",
+        "M15"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_separated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R12-R16与白棋Q10-Q5构成大模样雏形，但白棋Q6-R6已深入，黑棋L12-L17-M13为薄弱联络带。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "模样被破",
+        "联络隐忧"
+      ],
+      "key_points": [
+        "R12",
+        "R16",
+        "Q10",
+        "Q5",
+        "Q6",
+        "R6",
+        "L12",
+        "L17",
+        "M13"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_invasive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹核心战场：黑棋B5-C10-C12-C13-D14与白棋C11-B12-D12-E12-C14-C15形成密集缠斗，B11为当前最急迫打入点。",
+      "shapes": [
+        "fighting_cluster",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "主战场",
+        "断点密集",
+        "B11急所"
+      ],
+      "key_points": [
+        "B5",
+        "C10",
+        "C12",
+        "C13",
+        "D14",
+        "C11",
+        "B12",
+        "D12",
+        "E12",
+        "C14",
+        "C15",
+        "B11"
+      ],
+      "group_status": [
+        "black_complicated",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域相对空旷，黑棋E11-F11-D11与白棋E10-D10形成小规模对峙，尚未扩展成大势，是未来腾挪与眼位争夺焦点。",
+      "shapes": [
+        "neutral_zone",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "中央待开发",
+        "眼位敏感"
+      ],
+      "key_points": [
+        "E11",
+        "F11",
+        "D11",
+        "E10",
+        "D10"
+      ],
+      "group_status": [
+        "both_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋M13-M15与白棋K14-K15-P14形成斜向牵制，黑棋Q13与白棋P14存在对杀风险，局部气紧。",
+      "shapes": [
+        "diagonal_fight",
+        "life_death"
+      ],
+      "local_tags": [
+        "气紧",
+        "对杀初现"
+      ],
+      "key_points": [
+        "M13",
+        "M15",
+        "K14",
+        "K15",
+        "P14",
+        "Q13"
+      ],
+      "group_status": [
+        "black_low_on_liberties",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋D18与白棋C4-D4-F3构成远距离呼应，黑棋孤立，白棋有向上搜根潜力，但暂无直接攻击手段。",
+      "shapes": [
+        "isolated_stone",
+        "long_range_influence"
+      ],
+      "local_tags": [
+        "孤棋",
+        "搜根预备"
+      ],
+      "key_points": [
+        "D18",
+        "C4",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段基本为空，仅黑棋F17与白棋F15构成微弱对应，属双方潜在发展区域，目前无实质冲突。",
+      "shapes": [
+        "empty_side",
+        "future_moyo"
+      ],
+      "local_tags": [
+        "空白地带",
+        "发展潜力"
+      ],
+      "key_points": [
+        "F17",
+        "F15"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q3-R4-R5与白棋Q5-Q6-R6已形成局部定式化接触，但黑棋R5与白棋Q6之间留有余味，尚存小规模劫争可能。",
+      "shapes": [
+        "settled_corner",
+        "residual_joseki"
+      ],
+      "local_tags": [
+        "余味",
+        "潜在劫材"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "mostly_settled",
+        "light_tension"
+      ]
+    }
+  ]
+}

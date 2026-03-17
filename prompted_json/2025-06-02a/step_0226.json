@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_225",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 225,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H18"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      },
+      {
+        "color": 0,
+        "point": "J8"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "D12"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "K6",
+      "M6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "D12",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17",
+      "J18"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "J8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "C13",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17",
+      "H18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_counting",
+      "ko_threats_absent",
+      "life_and_death_resolved"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "finalizing center influence",
+      "reducing white's top side potential"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先明显，双方大龙均已活净，重点在于细微目数争夺与边角官子收束。",
+    "phase_explanation": "第225手为黑方D12，是典型终局官子；白方上一手H18属补棋性质；当前局面无未定形死活，所有大块均确认活棋或已成实地。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在A1–C7形成厚势但实地有限，黑棋A3/B3/C3等构成低位小堡垒，局部呈平稳对峙。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "white_thickness",
+        "black_low_base",
+        "quiet_position"
+      ],
+      "key_points": [
+        "A1",
+        "C2",
+        "B3",
+        "C7"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋J2/Q2/Q4等构成上边厚壁，黑棋H1/H2/J3等试探性侵消未深入，白空轮廓清晰。",
+      "shapes": [
+        "wall",
+        "border"
+      ],
+      "local_tags": [
+        "white_wall",
+        "limited_black_invasion",
+        "secure_territory"
+      ],
+      "key_points": [
+        "J2",
+        "Q2",
+        "Q4",
+        "H1"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋P2/Q2/R2/S2/T2与白棋T8/S9等形成上下对称结构，右上角基本为白空，黑棋仅外围飞压。",
+      "shapes": [
+        "side_framework",
+        "edge_pressure"
+      ],
+      "local_tags": [
+        "white_corner_territory",
+        "black_flying_squeeze"
+      ],
+      "key_points": [
+        "P2",
+        "T2",
+        "T8",
+        "S9"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D5/D11/E11与白棋D4/D6/C6等形成复杂交错，D12最新一手强化黑棋中腹联络，局部存在微细劫材余味。",
+      "shapes": [
+        "ladder_like",
+        "connection_emphasis"
+      ],
+      "local_tags": [
+        "black_connection_move",
+        "subtle_sente",
+        "nearby_ko_threat"
+      ],
+      "key_points": [
+        "D4",
+        "D5",
+        "D6",
+        "D11",
+        "D12"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹由黑K6/M6/K8/M9与白K7/L8/M8等构成均衡势力范围，无明显薄弱点，属典型‘两分’中空。",
+      "shapes": [
+        "balanced_framework",
+        "mutual_influence"
+      ],
+      "local_tags": [
+        "neutral_influence",
+        "no_weak_group",
+        "stable_balance"
+      ],
+      "key_points": [
+        "K6",
+        "M6",
+        "K7",
+        "M8",
+        "K8"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋O10/O11/P11/Q11与白棋N10/O10/P10/Q10密集交战，O12/P12为黑棋最新巩固，白棋J12/N12为应手，此处为官子焦点区。",
+      "shapes": [
+        "dense_local_fight",
+        "gote_sequence"
+      ],
+      "local_tags": [
+        "endgame_battlefield",
+        "point_by_point",
+        "low_value_fights"
+      ],
+      "key_points": [
+        "J12",
+        "N12",
+        "O12",
+        "P12",
+        "Q11"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋A1–C3与白棋A6–C7形成经典‘低中国流’残局，黑棋根基扎实，白棋仅存浅薄外势，实地已定。",
+      "shapes": [
+        "low_base",
+        "thin_wall"
+      ],
+      "local_tags": [
+        "black_secure_base",
+        "white_thin",
+        "no_danger"
+      ],
+      "key_points": [
+        "A1",
+        "C3",
+        "A6",
+        "C7"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F1–H2/G3/G4与白棋E2–F5构成下边主战场，黑棋F6/H6/K6连片厚实，白棋E5/F5略显单薄但无断点。",
+      "shapes": [
+        "thick_chain",
+        "defensive_line"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_defensive",
+        "no_cutting_points"
+      ],
+      "key_points": [
+        "F1",
+        "H2",
+        "G4",
+        "F5",
+        "F6"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R10–T12与白棋R15–T17形成典型‘小目守角+挂角后拆’终局形态，黑棋R12/T12为最后定型手，白棋角地已封口。",
+      "shapes": [
+        "corner_enclosure",
+        "final_shape"
+      ],
+      "local_tags": [
+        "black_corner_secured",
+        "white_limited",
+        "endgame_closure"
+      ],
+      "key_points": [
+        "R10",
+        "T12",
+        "R15",
+        "T17"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    }
+  ]
+}

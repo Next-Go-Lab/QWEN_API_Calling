@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_082",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 82,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "H12"
+      },
+      {
+        "color": 0,
+        "point": "E11"
+      },
+      {
+        "color": 1,
+        "point": "C7"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "D12"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "D11",
+      "H11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋优势",
+      "边角争夺激烈",
+      "中央尚未定型"
+    ],
+    "strategic_focus": [
+      "白棋巩固右下大空",
+      "黑棋试图侵消左上与中腹潜力",
+      "D12一子引发局部对杀"
+    ],
+    "global_summary_cn": "第82手，轮黑方行棋。当前局面白棋实地领先，右下大空稳固，左上黑势厚但未围实；中腹双方数块棋纠缠，D12为白方最新打入点，黑需应对；全局进入中盘关键攻防阶段。",
+    "phase_explanation": "属中盘中后期，胜负焦点集中于中腹联络与边角效率比拼，白棋凭借厚势掌控主动权，黑棋须在有限空间内寻求逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋占角（J17、C7等），白棋C3-D3-E3小飞守角，黑有K9、L9等厚势向中腹延伸。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白守角",
+        "潜力待开发"
+      ],
+      "key_points": [
+        "C7",
+        "J17",
+        "K9"
+      ],
+      "group_status": [
+        "alive",
+        "influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋R9-R10-R11-R12连片，白Q9-Q10-Q11-Q15呼应，形成对峙；O9、N10等白子构成封锁链。",
+      "shapes": [
+        "side_wall",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "黑边阵",
+        "白封锁",
+        "对杀雏形"
+      ],
+      "key_points": [
+        "R9",
+        "Q11",
+        "Q15"
+      ],
+      "group_status": [
+        "alive",
+        "semi_solid"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型：白R5-R6-R7-R8-R9与黑Q6-P7-O7等形成复杂接触，白棋略厚，黑棋有P11、O13等外势。",
+      "shapes": [
+        "corner_contact",
+        "outer_influence"
+      ],
+      "local_tags": [
+        "白厚角",
+        "黑外势",
+        "轻重未明"
+      ],
+      "key_points": [
+        "R6",
+        "Q6",
+        "P11"
+      ],
+      "group_status": [
+        "alive",
+        "light"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑E7-H9-L9-L10与白H5-G8-G9-K9形成缠斗；D11-E11-D12为最新交锋点，黑H11与白G11对峙。",
+      "shapes": [
+        "cross_cut",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀热点",
+        "D12打入",
+        "眼位紧张"
+      ],
+      "key_points": [
+        "D11",
+        "E11",
+        "D12",
+        "H11"
+      ],
+      "group_status": [
+        "unstable",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑H12、P12、O13与白N12、O12、N10等交错，尚未形成明确势力范围，是未来主战场。",
+      "shapes": [
+        "open_center",
+        "floating_groups"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "双方薄味",
+        "潜在劫材区"
+      ],
+      "key_points": [
+        "H12",
+        "O13",
+        "N12"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P11-P12-R11-R12与白O12-N12-Q11-Q10形成密集接触，白棋N6-O6-P6-Q6构筑厚壁，压制黑棋发展。",
+      "shapes": [
+        "wall_pressure",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑受压",
+        "联络关键"
+      ],
+      "key_points": [
+        "P11",
+        "Q11",
+        "N6"
+      ],
+      "group_status": [
+        "alive",
+        "pressured"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3-J3-L3-M3-P3与白C3-D3-E3-H2-H3形成典型星-小目对抗，黑棋实地稍优，白棋C4-H4一线保持弹性。",
+      "shapes": [
+        "corner_fight",
+        "territory_balance"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白弹性",
+        "定式余味"
+      ],
+      "key_points": [
+        "F3",
+        "C4",
+        "H4"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑E4-F4-K4与白H4-M4-O4-P4-Q4形成横向拉锯，黑E7与白H6、G8构成斜向呼应，存在断点风险。",
+      "shapes": [
+        "side_race",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "实地比拼",
+        "断点隐忧",
+        "轻子机动"
+      ],
+      "key_points": [
+        "E4",
+        "H4",
+        "H6"
+      ],
+      "group_status": [
+        "alive",
+        "fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋C6-D6-H6-N6-O6-P6-Q6-R6-R5及Q7等构成庞大实空，黑仅S8、R8零星侵消，白空近乎凝固。",
+      "shapes": [
+        "large_territory",
+        "invasion_resisted"
+      ],
+      "local_tags": [
+        "白大空",
+        "黑难入",
+        "胜势根基"
+      ],
+      "key_points": [
+        "D6",
+        "N6",
+        "R6"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    }
+  ]
+}

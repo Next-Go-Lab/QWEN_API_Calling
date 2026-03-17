@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_023",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      },
+      {
+        "color": 0,
+        "point": "E5"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E2"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "P4",
+      "C5",
+      "D5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "C6",
+      "D6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "center_influence_building"
+    ],
+    "strategic_focus": [
+      "D3–F4 local battle",
+      "Q3–Q16 black framework",
+      "D16–O17 white right-side presence"
+    ],
+    "global_summary_cn": "黑棋在左下与中腹形成初步势力，白棋在右上构建外势；当前焦点集中于D3-F4一带的短兵相接，黑刚落子F4完成局部压迫，白需应对是否脱先或继续缠斗。",
+    "phase_explanation": "第23手，黑方行棋，局面处于布局中期向中盘过渡阶段，双方尚未形成明确大模样，但局部战斗已升温。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白B7、C6与黑B6构成小规模接触，黑稍厚但未围空；无明显形状或死活问题。",
+      "shapes": [],
+      "local_tags": [
+        "light_contact",
+        "quiet_corner"
+      ],
+      "key_points": [
+        "B6",
+        "C6",
+        "B7"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白D16、F17、O17呈斜线外势，黑Q16单点呼应，白势较厚但实地薄弱。",
+      "shapes": [
+        "diagonal_framework"
+      ],
+      "local_tags": [
+        "white_outside",
+        "black_leaning"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "white_influential",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷，无子，属双方未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "potential_extension"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3、C4、C5、D5与白D3、D4、E5形成密集交错带；黑E4、F4为最新打入，白E2为应手，局部激烈。",
+      "shapes": [
+        "ladder_like",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "hot_zone",
+        "black_pressure",
+        "white_defensive"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "C5",
+        "D3",
+        "D4",
+        "D5",
+        "E4",
+        "E5",
+        "F4",
+        "E2"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点为主，仅黑D6、E5（白）、F4（黑）延伸至此，尚未形成中心势力，但为未来争夺要地。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "future_eye_space"
+      ],
+      "key_points": [
+        "D6",
+        "E5",
+        "F4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑P4、Q3与白Q4构成右中腹小对峙；黑Q3为高位置，白Q4为守角，黑略占主动。",
+      "shapes": [
+        "asymmetric_corner"
+      ],
+      "local_tags": [
+        "black_high",
+        "white_local_defense"
+      ],
+      "key_points": [
+        "Q3",
+        "Q4",
+        "P4"
+      ],
+      "group_status": [
+        "black_flexible",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3–C5、B6与白D3–D4、E2构成主战场延伸区；黑F4为尖冲要点，白E2为试应手，后续F5为双方关注点。",
+      "shapes": [
+        "invasion_shape",
+        "shoulder_hit_followup"
+      ],
+      "local_tags": [
+        "critical_battlefield",
+        "target_F5"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "E2",
+        "F4",
+        "TARGETS:F5"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑R6、白R14分居两侧，中间大片空白；黑有向中腹跳入潜力，白可考虑拆二或镇头。",
+      "shapes": [],
+      "local_tags": [
+        "open_center_approach",
+        "potential_jump"
+      ],
+      "key_points": [
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "black_loose",
+        "white_distant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3、P4与白O17、F17距离遥远，暂无互动；属战略缓冲区。",
+      "shapes": [],
+      "local_tags": [
+        "strategic_distance",
+        "quiet"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

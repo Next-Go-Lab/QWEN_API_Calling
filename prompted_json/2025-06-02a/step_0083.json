@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_082",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 82,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C1"
+      },
+      {
+        "color": 0,
+        "point": "D1"
+      },
+      {
+        "color": 1,
+        "point": "S5"
+      },
+      {
+        "color": 0,
+        "point": "S3"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "S9"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "S8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "S9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "T7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "左上薄弱"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，黑棋在右下角连续落子（S5、S8、S9）试图扩张，白棋在S3、S4、S9形成厚势反制；左下黑棋C1-D1与白棋B1-D2形成接触战，中腹黑棋Q16、R14与白棋O17、F17构成势力对峙；黑棋整体实地稍优但外势单薄。",
+    "phase_explanation": "第82手，黑方即将落子，局面处于中盘向官子过渡期。白方刚于S9粘劫，黑方需应对右下角潜在搜根或转战他处。双方在多个边角存在未定型局部，中腹尚未完全展开。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋A3-B3-C3-A4与白棋A5-A6-B7形成小规模接触，黑棋有拆二潜力，白棋A7-B9构成轻薄外势。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "轻攻",
+        "拆二意向",
+        "外势薄弱"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑棋Q16、白棋O17、F17零星分布，属双方势力辐射交汇区，暂无直接冲突。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "势力交界",
+        "待发展"
+      ],
+      "key_points": [
+        "Q16",
+        "O17",
+        "F17"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本空旷，仅有黑棋Q16一子，白棋无子，属黑棋潜在大场，但距离过远尚未启动。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "大场预留",
+        "未启动"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋A7-E7-G7与白棋B7-Q7形成横向对峙，黑棋E7-G7有连络意图，白棋Q7-C8-E8构成斜跳阵势。",
+      "shapes": [
+        "line",
+        "diagonal"
+      ],
+      "local_tags": [
+        "联络战",
+        "斜跳阵"
+      ],
+      "key_points": [
+        "A7",
+        "E7",
+        "G7",
+        "B7",
+        "Q7",
+        "C8",
+        "E8"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑棋G5-G4-G3与白棋F5-E6-F6等零星分布，无成形眼位，属未来中腹决战预备区。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "中腹雏形",
+        "未定型"
+      ],
+      "key_points": [
+        "G3",
+        "G4",
+        "G5",
+        "F5",
+        "E6",
+        "F6"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋P2-Q2-O3-P4-R4-S5与白棋R2-R3-S3-S4-S9形成密集缠斗，黑棋S5-S8-S9三子深入，白棋S3-S4-S9筑起厚壁。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "厚壁",
+        "深入孤棋",
+        "攻防焦点"
+      ],
+      "key_points": [
+        "S5",
+        "S8",
+        "S9",
+        "R2",
+        "R3",
+        "S3",
+        "S4"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A1-C1-B2-C2-C3与白棋B1-C2-D1-D2-D3激烈接触，黑C1-D1被白D1-D2夹击，局部存死活疑问。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "接触战",
+        "死活未定",
+        "紧气"
+      ],
+      "key_points": [
+        "C1",
+        "D1",
+        "B1",
+        "C2",
+        "D2",
+        "D3"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋G1-H1-H2-G3与白棋G2-J2形成交错，黑棋H6-F6-G5构成小飞守角结构，白棋E2-F2-G2为坚实根基。",
+      "shapes": [
+        "small_knight",
+        "foundation"
+      ],
+      "local_tags": [
+        "守角",
+        "根基稳固"
+      ],
+      "key_points": [
+        "G1",
+        "H1",
+        "H2",
+        "G3",
+        "H6",
+        "F6",
+        "G5",
+        "G2",
+        "J2"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈战场：黑棋S5-S8-S9三子深入，白棋S3-S4-S9围成厚势，黑T7为政策目标点，意在破壁或做眼。",
+      "shapes": [
+        "invasion",
+        "wall"
+      ],
+      "local_tags": [
+        "入侵",
+        "厚势反制",
+        "政策点"
+      ],
+      "key_points": [
+        "S5",
+        "S8",
+        "S9",
+        "S3",
+        "S4",
+        "T7"
+      ],
+      "group_status": [
+        "black_invasive",
+        "white_thick"
+      ]
+    }
+  ]
+}

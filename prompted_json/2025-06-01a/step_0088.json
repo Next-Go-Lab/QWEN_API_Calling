@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_087",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 87,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E7"
+      },
+      {
+        "color": 1,
+        "point": "F2"
+      },
+      {
+        "color": 0,
+        "point": "H7"
+      },
+      {
+        "color": 1,
+        "point": "G8"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "D3"
+      }
+    ],
+    "black_stones": [
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋右下厚势",
+      "黑棋左上大龙未净活",
+      "中央对攻胶着"
+    ],
+    "strategic_focus": [
+      "E4点刺试探白棋中央联络",
+      "黑棋需处理D3一子孤危性",
+      "白棋可能于F4或E5加强中腹"
+    ],
+    "global_summary_cn": "第87手，轮白（to_play: 0），黑刚落子D3形成局部尖顶，但自身E4位存断点；白棋在右下（P2–R8）与左上（B15–P17）均有厚势，中央黑棋F6–G8与白棋E7–H7对峙，全局呈实地与外势拉锯态势。",
+    "phase_explanation": "属中盘向官子过渡阶段：大模样基本定型，双方开始争夺中央要点与边角余味，E4为当前最富变化的急所。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B15–P17构成庞大厚势，白棋B16、D16、Q17等子嵌入但未深入，黑棋有扩张潜力。",
+      "shapes": [
+        "territory",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "外势",
+        "未完全围空"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "D15",
+        "E16",
+        "Q16"
+      ],
+      "group_status": [
+        "alive_with_liberties"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋C9、C10、C13与黑棋D13、D11形成上下呼应，中央上部呈对峙平衡，无明显死活危机。",
+      "shapes": [
+        "ladder",
+        "influence_balance"
+      ],
+      "local_tags": [
+        "平稳",
+        "对称牵制"
+      ],
+      "key_points": [
+        "C9",
+        "C10",
+        "C13",
+        "D11",
+        "D13"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋R9、Q17、R17、N18–P18构筑坚实右上阵型，黑棋Q16、R16虽贴身但缺乏有效打入手段。",
+      "shapes": [
+        "wall",
+        "territory_outline"
+      ],
+      "local_tags": [
+        "实空稳固",
+        "白棋厚味"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "R9",
+        "Q17",
+        "N18"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C3–F5与白棋B3–E6形成复杂接触战，D4白子为关键眼位，黑棋C5/D5/E5呈连片但气紧。",
+      "shapes": [
+        "fighting_group",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "气紧",
+        "D4眼位"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4",
+        "C5",
+        "E5"
+      ],
+      "group_status": [
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑白交错密集：黑F6/G7/G8 vs 白E7/F7/H7/J6，中央七子链呈扭十字状，E4为空缺急所。",
+      "shapes": [
+        "knight_move_chain",
+        "vital_point"
+      ],
+      "local_tags": [
+        "对攻核心",
+        "E4急所",
+        "未定型"
+      ],
+      "key_points": [
+        "E4",
+        "F6",
+        "G7",
+        "E7",
+        "J6"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋L4、O4、Q4–Q6与黑棋P4–R6形成边路拉锯，P6白子为联络要冲，黑R5/R6略显孤立。",
+      "shapes": [
+        "side_fight",
+        "connection_point"
+      ],
+      "local_tags": [
+        "边路争夺",
+        "P6联络点"
+      ],
+      "key_points": [
+        "L4",
+        "O4",
+        "P6",
+        "Q4",
+        "R5"
+      ],
+      "group_status": [
+        "tenuous"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B4、C3、F2–F4与白棋E2、B3、E3构成典型角部攻防，黑D3新落子加剧局部紧张。",
+      "shapes": [
+        "corner_fight",
+        "sacrifice_feel"
+      ],
+      "local_tags": [
+        "角部未定",
+        "D3尖顶",
+        "白E2接应"
+      ],
+      "key_points": [
+        "B3",
+        "C3",
+        "D3",
+        "E2",
+        "B4"
+      ],
+      "group_status": [
+        "unclear"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F2、Q2–R4与白E2、P3、R3形成下边双飞燕式布局，黑Q3/R3与白P3/R3互瞄弱点。",
+      "shapes": [
+        "symmetric_side",
+        "weak_point_pair"
+      ],
+      "local_tags": [
+        "下边对称",
+        "R3对冲"
+      ],
+      "key_points": [
+        "F2",
+        "Q2",
+        "R2",
+        "P3",
+        "R3"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋N3、N5、O4–P7、R7–R8构建庞大右下厚势，黑Q3/Q7/S7/S8仅外围骚扰，尚未构成实质威胁。",
+      "shapes": [
+        "moyo",
+        "thickness"
+      ],
+      "local_tags": [
+        "白棋厚势",
+        "黑棋浅消"
+      ],
+      "key_points": [
+        "N3",
+        "N5",
+        "P7",
+        "R7",
+        "S7"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    }
+  ]
+}

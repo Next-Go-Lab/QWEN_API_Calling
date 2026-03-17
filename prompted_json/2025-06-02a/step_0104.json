@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_103",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 103,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "T4"
+      },
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P16"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "F17",
+      "O17",
+      "Q17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "左下大模样未定型",
+      "中央联络关键"
+    ],
+    "global_summary_cn": "第103手，黑方刚于P16落子，强化右上角势力；白方上一手Q17意在侵消，当前局面呈黑取实地、白取外势格局。右上角（Q16/P16/Q17）形成三足鼎立，左下（A3–C5/B1–C2）黑棋厚实但白有腾挪空间，中央（D7/C7/E7）双方接触战激烈，T5与D7构成对攻支点。",
+    "phase_explanation": "中盘中后期，胜负焦点集中于右上交界与中央联络效率，黑方握有先手主动权，白方需在左下或中腹寻求转换机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白占A4/A5/A6，黑守B3/C3/D3一线，白棋小飞守角稳固。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白守角",
+        "定式完成"
+      ],
+      "key_points": [
+        "A4",
+        "A5",
+        "A6",
+        "B3",
+        "C3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部空旷，白有Q8/R8/S7/T8等子构成薄势，黑无直接压迫手段，属待发展区域。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "白侧翼",
+        "潜力区"
+      ],
+      "key_points": [
+        "Q8",
+        "R8",
+        "S7",
+        "T8"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对抗核心：黑Q16/P16、白Q17/F17/O17构成攻防枢纽，T4/D7/C7为延伸战线，存在劫争隐患。",
+      "shapes": [
+        "fighting_cluster",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "劫材相关",
+        "三劫循环风险"
+      ],
+      "key_points": [
+        "Q16",
+        "P16",
+        "Q17",
+        "T4",
+        "D7",
+        "C7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋从A3延展至G5，白以C6/D6/E6/E5等子嵌入，形成复杂缠斗，黑F6/H6为联络要点。",
+      "shapes": [
+        "ladder",
+        "connection"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白打入",
+        "联络战"
+      ],
+      "key_points": [
+        "A3",
+        "C5",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "H6",
+        "G5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷地带，黑E7/G7、白E5/F5/H5等子呈对峙状，尚未形成明确势力范围，是后续战略机动主战场。",
+      "shapes": [
+        "neutral_zone"
+      ],
+      "local_tags": [
+        "中央未定",
+        "机动要冲"
+      ],
+      "key_points": [
+        "E7",
+        "G7",
+        "E5",
+        "F5",
+        "H5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O3–R7成斜向厚壁，白Q5/Q6/Q7/Q8呼应，但黑P4/P5/R5等子封锁严密，白略显局促。",
+      "shapes": [
+        "wall",
+        "squeeze"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白受压"
+      ],
+      "key_points": [
+        "O3",
+        "P4",
+        "P5",
+        "Q5",
+        "Q6",
+        "Q7",
+        "R5",
+        "R7"
+      ],
+      "group_status": [
+        "black_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A3–C5/B1–H2连片厚势，白B1/C2/D1/D2/E2/F2/G2/J2形成低位长龙，尚未活净，存在被搜刮可能。",
+      "shapes": [
+        "dragon",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白大龙未活"
+      ],
+      "key_points": [
+        "A3",
+        "B1",
+        "C2",
+        "D1",
+        "G1",
+        "H1",
+        "H2"
+      ],
+      "group_status": [
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑R1–S2/T3与白R2/S3/T3交错，黑T5为最新打入点，白暂无强应手，局部呈黑主动态势。",
+      "shapes": [
+        "invasion"
+      ],
+      "local_tags": [
+        "黑打入",
+        "白应对薄弱"
+      ],
+      "key_points": [
+        "R1",
+        "S2",
+        "T3",
+        "R2",
+        "S3",
+        "T5"
+      ],
+      "group_status": [
+        "black_advantage"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R14–R15与白T8/S9构成远距离对峙，黑P2/Q2/S2/T4已布阵，白F17/O17为援军，但尚未形成有效配合。",
+      "shapes": [
+        "distant_support"
+      ],
+      "local_tags": [
+        "黑阵初成",
+        "白援军未及"
+      ],
+      "key_points": [
+        "R14",
+        "R15",
+        "P2",
+        "Q2",
+        "S2",
+        "T4",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "black_building"
+      ]
+    }
+  ]
+}

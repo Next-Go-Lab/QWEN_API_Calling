@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_080",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 80,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J3"
+      },
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "C1"
+      },
+      {
+        "color": 0,
+        "point": "D1"
+      },
+      {
+        "color": 1,
+        "point": "S5"
+      },
+      {
+        "color": 0,
+        "point": "S3"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地领先"
+    ],
+    "strategic_focus": [
+      "右下角劫争余味",
+      "左下黑空稳固",
+      "中腹白棋潜力"
+    ],
+    "global_summary_cn": "第80手，黑方领先3.5目，进入官子收束阶段。右下角（S3、S5、R3等）形成复杂劫材与余味；左下（A1–C5）黑棋构筑坚实模样；白棋在中腹及右上（Q16、O17）保有外势潜力。",
+    "phase_explanation": "双方已基本完成大场与势力划分，当前聚焦于边角细节定型与目数精算，尤其右下角存在未净活/未净杀的局部对杀余味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋占据A4、A5、A6、B9、C8等点，形成小堡垒；黑棋仅A7、A8零星应手，白势稍厚但无明显攻击目标。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白小堡垒",
+        "低效围空"
+      ],
+      "key_points": [
+        "A4",
+        "A5",
+        "A6",
+        "B9",
+        "C8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上区域空旷，黑棋无子，白棋仅有D9、F17、O17等远端飞点，属双方未深入经营的浮点区。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "外势延伸",
+        "未定型"
+      ],
+      "key_points": [
+        "D9",
+        "F17",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q16孤子单官守角，白棋R8、Q8、Q7、Q5构成斜向压制链，黑棋尚未安定。",
+      "shapes": [
+        "leaning",
+        "single_stone"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白压迫"
+      ],
+      "key_points": [
+        "Q16",
+        "R8",
+        "Q8",
+        "Q7",
+        "Q5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹（B2–G7）黑白交错密集：黑B2/B3/C3/C4/C5/D5/E4/F4/G4/G5/G7，白B1/C2/D2/E2/F2/G2/D3/A4等，形成典型‘豆腐块’混战区，多处眼位待确认。",
+      "shapes": [
+        "compact_group",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "混战区",
+        "眼形丰富"
+      ],
+      "key_points": [
+        "B2",
+        "C3",
+        "D5",
+        "E4",
+        "G5",
+        "G7"
+      ],
+      "group_status": [
+        "alive",
+        "seki_possible"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，仅黑E7、F6、H6、H5，白E5、F5、E6等零星分布，无成形势力，属双方潜在中腹作战预备区。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "中腹预备",
+        "无主战场"
+      ],
+      "key_points": [
+        "E7",
+        "F6",
+        "H6",
+        "E5",
+        "F5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（O2–R7）黑棋P2/Q2/O3/Q3/P4/R4/P5/R5/S5/R6/R7，白棋R2/R3/S3/S4/Q4/Q5/Q6/Q7，形成右下主战场，S3为白最新一子，S5为黑反击点，局部存劫争余味。",
+      "shapes": [
+        "fighting_zone",
+        "ko_threat"
+      ],
+      "local_tags": [
+        "主战场",
+        "劫材密集",
+        "胜负手区域"
+      ],
+      "key_points": [
+        "S3",
+        "S5",
+        "R3",
+        "R4",
+        "Q5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A1–C5）黑棋完全实空：A1/A3/B3/C3/C4/C5/B2/B5/A7/D8等连片，白仅B1/C2/D1/D2/E2/F2/G2，被彻底封锁，已成黑铁壁。",
+      "shapes": [
+        "territory",
+        "wall"
+      ],
+      "local_tags": [
+        "黑铁壁",
+        "实空稳固"
+      ],
+      "key_points": [
+        "A1",
+        "A3",
+        "B3",
+        "C4",
+        "D8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央（D3–H3）黑J3、G3、H1/H2，白D3/E2/F2/G2/J2，黑棋略占优但未净活；H3、G1、H1构成黑底边基础，白难以渗透。",
+      "shapes": [
+        "edge_territory"
+      ],
+      "local_tags": [
+        "黑边空",
+        "白难侵入"
+      ],
+      "key_points": [
+        "J3",
+        "G3",
+        "H1",
+        "D3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（R1–S8）为全局焦点：黑R14/S5/R5/S6?（缺S6但有S5/R5/R6/R7）、白R2/R3/S3/S4/Q4/Q5/Q6，S8为黑下一招目标点，此处存在未解劫争与生死余味。",
+      "shapes": [
+        "ko_zone",
+        "vital_point"
+      ],
+      "local_tags": [
+        "胜负手区域",
+        "劫争核心",
+        "S8为急所"
+      ],
+      "key_points": [
+        "S3",
+        "S5",
+        "R3",
+        "R5",
+        "S8"
+      ],
+      "group_status": [
+        "fighting",
+        "ko_pending"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_127",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 127,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "O7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "O11"
+      },
+      {
+        "color": 0,
+        "point": "N8"
+      },
+      {
+        "color": 1,
+        "point": "M9"
+      },
+      {
+        "color": 0,
+        "point": "N9"
+      },
+      {
+        "color": 1,
+        "point": "O7"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "O7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "M9",
+      "P9",
+      "Q9",
+      "O10",
+      "R10",
+      "O11",
+      "Q11",
+      "P13",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "N8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "N10",
+      "P10",
+      "O14",
+      "P14",
+      "O15",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "O8点位争夺",
+      "N9-M9-O7三角攻防",
+      "右下角未定型"
+    ],
+    "global_summary_cn": "第127手，黑方刚于O7落子，形成N9-M9-O7黑棋三角结构；白棋在N8、N9、O9构成局部厚势，双方围绕O8展开关键争夺。全局黑棋大龙尚未安定，白棋中央厚势可观但缺乏明确攻击目标。",
+    "phase_explanation": "处于中盘向官子过渡阶段，局部战斗密集，胜负手集中于中腹与右下角交接处。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋小目守角（C3）与白棋高挂（C2/D2）已定型，黑棋外势向中腹延伸。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式完成",
+        "黑外势"
+      ],
+      "key_points": [
+        "C3",
+        "C2",
+        "D2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋Q2-Q3-R4-R5连片，白棋Q4-Q5-Q6-Q7压制，形成横向对峙；黑棋T2/T4/T6/T7一线保持联络。",
+      "shapes": [
+        "side_wall",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白压缩"
+      ],
+      "key_points": [
+        "Q2",
+        "Q4",
+        "Q6",
+        "Q7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋P15-Q16-R16与白棋O16-R17形成复杂接触，黑棋Q14/R14/P16有断点隐患。",
+      "shapes": [
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "未净活",
+        "劫材相关"
+      ],
+      "key_points": [
+        "Q14",
+        "O16",
+        "R17"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑棋A3-A4-A5-A6-A7-A8与白棋A5-B7-C7-C8形成缠斗，黑棋大龙根基尚稳但气紧。",
+      "shapes": [
+        "ladder",
+        "running_group"
+      ],
+      "local_tags": [
+        "黑大龙",
+        "白搜根"
+      ],
+      "key_points": [
+        "A7",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，黑棋M9/O7/O11与白棋N8/N9/O9构成动态三角，O8为双方必争之点。",
+      "shapes": [
+        "triangle_fight",
+        "vital_point"
+      ],
+      "local_tags": [
+        "焦点区域",
+        "攻防枢纽"
+      ],
+      "key_points": [
+        "M9",
+        "N9",
+        "O7",
+        "O8",
+        "O9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3-O4-O6-O10-O11与白棋O4/Q4/Q5/Q6/Q7/Q8形成交错，黑棋O10-O11为眼位关键。",
+      "shapes": [
+        "eye_shape",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑眼形",
+        "白封锁"
+      ],
+      "key_points": [
+        "O10",
+        "O11",
+        "Q8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋G1-G2-G3-G4-G5-G7与白棋B1-C2-D1-D2-D3-D4形成经典双飞燕定式，已基本定型。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式完成",
+        "黑实地"
+      ],
+      "key_points": [
+        "G1",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑棋P2-P4-P5-P9与白棋Q2-Q3-Q4-Q5-Q6-Q7形成厚薄对比，黑棋P9为联络要点。",
+      "shapes": [
+        "side_connection"
+      ],
+      "local_tags": [
+        "黑联络",
+        "白厚势"
+      ],
+      "key_points": [
+        "P9",
+        "Q2",
+        "Q7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋R1-R2-R4-R5-R6-R7-R10与白棋S2-S7-T2-T4-T6-T7-T8形成大规模接触战，黑棋R10为生死要点。",
+      "shapes": [
+        "corner_fighting",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "死活未定",
+        "白厚势压迫"
+      ],
+      "key_points": [
+        "R10",
+        "S7",
+        "T8"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

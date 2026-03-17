@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_172",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 172,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "A8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F1"
+      },
+      {
+        "color": 0,
+        "point": "E13"
+      },
+      {
+        "color": 1,
+        "point": "F12"
+      },
+      {
+        "color": 0,
+        "point": "B8"
+      },
+      {
+        "color": 1,
+        "point": "A7"
+      },
+      {
+        "color": 0,
+        "point": "A8"
+      }
+    ],
+    "black_stones": [
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "D7",
+      "E7",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "D8",
+      "F8",
+      "H9",
+      "M9",
+      "P9",
+      "Q9",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "C14",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "M13",
+      "N14",
+      "O14",
+      "P14",
+      "O15",
+      "C16",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "实地争夺",
+      "边角收官"
+    ],
+    "strategic_focus": [
+      "右下角白棋厚势压迫",
+      "左上黑棋孤棋治孤",
+      "中腹未定型"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋领先但需谨慎应对白棋在右下与中腹的渗透；左上黑棋B2-B4一带存在薄味，白棋A8-B8构成压迫；右下角白棋F17-R17形成厚势，黑棋P16-Q16试图侵消；中腹L7-M9-N11一带双方势力交错，尚未明确归属。",
+    "phase_explanation": "第172手，黑方行棋，局面处于终局官子阶段。双方大场已基本占据，焦点转向边角细微目数争夺与局部死活确认。黑棋握有实地优势，白棋需通过劫争或搜刮挽回差距。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋A3-C4成空，白棋A8-A9-B8-B9构成外势压迫，黑棋B2-B4略显单薄。",
+      "shapes": [
+        "corner_enclosure",
+        "pressing_wall"
+      ],
+      "local_tags": [
+        "黑空",
+        "白厚势",
+        "薄味"
+      ],
+      "key_points": [
+        "A3",
+        "B2",
+        "A8",
+        "B8"
+      ],
+      "group_status": [
+        "alive",
+        "influence"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋J3、Q3-Q5与白棋Q4-Q7形成对峙，Q6-Q7为白棋眼位要点，黑棋Q9-P9略显孤立。",
+      "shapes": [
+        "side_fight",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对攻",
+        "眼形要点",
+        "孤棋"
+      ],
+      "key_points": [
+        "J3",
+        "Q4",
+        "Q6",
+        "Q9"
+      ],
+      "group_status": [
+        "unsettled",
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R1-T2成小空，白棋S9-T10压制，黑棋R14-R15-S14-S15尚未成活，存在劫争可能。",
+      "shapes": [
+        "small_eye",
+        "squeezing"
+      ],
+      "local_tags": [
+        "未活净",
+        "劫材相关",
+        "压缩"
+      ],
+      "key_points": [
+        "R1",
+        "T2",
+        "S9",
+        "R14"
+      ],
+      "group_status": [
+        "vulnerable",
+        "ko_threat"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑棋D7-E7-D8与白棋B7-C7-A6-C6形成缠斗，D6-E6为双方共用急所，黑棋C5-D5-E4呈厚势。",
+      "shapes": [
+        "ladder",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "厚薄对比",
+        "急所"
+      ],
+      "key_points": [
+        "D7",
+        "B7",
+        "D6",
+        "E4"
+      ],
+      "group_status": [
+        "fighting",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹L7-O11一带黑白交错，黑棋M9-O10-P11与白棋N10-N11-O12形成势力拉锯，L12-M12为关键连接点。",
+      "shapes": [
+        "influence_web",
+        "connection_point"
+      ],
+      "local_tags": [
+        "中腹主导权",
+        "联络战",
+        "未定型"
+      ],
+      "key_points": [
+        "L7",
+        "M9",
+        "N10",
+        "L12"
+      ],
+      "group_status": [
+        "unsettled",
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹O13-Q14黑棋成势，白棋O14-P14-O15-P15反扑，黑棋P16-Q16为打入点，白棋O17-Q17厚势呼应。",
+      "shapes": [
+        "invasion",
+        "counter_invasion"
+      ],
+      "local_tags": [
+        "打入",
+        "反冲击",
+        "厚势"
+      ],
+      "key_points": [
+        "O13",
+        "Q14",
+        "O15",
+        "P16"
+      ],
+      "group_status": [
+        "invasion",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋F1-H1-H2-G3与白棋B1-E2-D3形成复杂接触战，F3为当前政策目标点，是双方争夺要津。",
+      "shapes": [
+        "contact_fight",
+        "vital_point"
+      ],
+      "local_tags": [
+        "接触战",
+        "急所",
+        "政策目标"
+      ],
+      "key_points": [
+        "F1",
+        "D3",
+        "F3"
+      ],
+      "group_status": [
+        "fighting",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋P2-T2与白棋O4-Q5形成实地对抗，黑棋P4-R5厚实，白棋Q6-Q7试图分断，但黑棋R7-T7稳固。",
+      "shapes": [
+        "side_wall",
+        "division_attempt"
+      ],
+      "local_tags": [
+        "实地",
+        "厚势",
+        "分断失败"
+      ],
+      "key_points": [
+        "P2",
+        "O4",
+        "R7",
+        "T7"
+      ],
+      "group_status": [
+        "alive",
+        "solid"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋F17-R17构筑庞大厚势，黑棋P16-Q16-R16为浅消，白棋O16-R16-R17形成封锁网，黑棋Q17为试探。",
+      "shapes": [
+        "moyo",
+        "shallow_invasion"
+      ],
+      "local_tags": [
+        "模样",
+        "浅消",
+        "封锁"
+      ],
+      "key_points": [
+        "F17",
+        "O16",
+        "P16",
+        "Q17"
+      ],
+      "group_status": [
+        "influence",
+        "invaded"
+      ]
+    }
+  ]
+}

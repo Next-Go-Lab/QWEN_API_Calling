@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_179",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 179,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "N17"
+      },
+      {
+        "color": 0,
+        "point": "Q8"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "H7"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "L2",
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "center_influence_contest",
+      "right_side_territory_securing",
+      "bottom_right_eye_space_defense"
+    ],
+    "global_summary_cn": "对局进入收官阶段（第179手），黑方执黑领先，白方刚于G7落子；全局呈现中腹势力拉锯与边角实地争夺并存态势，右上与右下存在未定官子及潜在劫争，K8为关键胜负点。",
+    "phase_explanation": "当前为终局收束期，双方围绕中腹厚势与边角残子展开精确计算，多处存在可逆官子与不可逆劫材交换，K8点入直指白棋中腹眼位缺陷。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白A10、B13与黑C11、C17构成稳定边界，无明显战斗。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "no_fight"
+      ],
+      "key_points": [
+        "A10",
+        "B13",
+        "C11",
+        "C17"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段激烈争夺：白F17、N17与黑Q17、S17形成对攻，Q16/T16为黑厚势支点，白J17/R17试图渗透。",
+      "shapes": [
+        "side_fighting",
+        "invasion_attempt"
+      ],
+      "local_tags": [
+        "unstable",
+        "fighting"
+      ],
+      "key_points": [
+        "F17",
+        "N17",
+        "Q17",
+        "S17",
+        "Q16",
+        "T16",
+        "J17",
+        "R17"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白S19、S18、R17与黑Q17、Q16、T17构成复杂边界，白S14/S15与黑R14/R15对峙，存在双活可能。",
+      "shapes": [
+        "border_race",
+        "potential_seki"
+      ],
+      "local_tags": [
+        "unclear",
+        "seki_risk"
+      ],
+      "key_points": [
+        "S19",
+        "S18",
+        "R17",
+        "Q17",
+        "Q16",
+        "T17",
+        "S14",
+        "S15",
+        "R14",
+        "R15"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑B4–D6与白C5–E6形成交错薄味，黑C3/B6与白B9/D9构成低位缠斗，黑有断点隐患。",
+      "shapes": [
+        "low_side_fight",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "thin",
+        "tenuki_risk"
+      ],
+      "key_points": [
+        "B4",
+        "C3",
+        "B6",
+        "C5",
+        "D6",
+        "E6",
+        "B9",
+        "D9"
+      ],
+      "group_status": [
+        "weak",
+        "needs_support"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹核心区域密集：黑F7/G7/H7/K6/L6/M6/N6与白E7/H7/J7/Q7形成大块接触战，G7为最新手，K8为待落关键点，关系生死。",
+      "shapes": [
+        "central_battle",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "critical",
+        "killing_point"
+      ],
+      "key_points": [
+        "F7",
+        "G7",
+        "H7",
+        "K6",
+        "L6",
+        "M6",
+        "N6",
+        "E7",
+        "J7",
+        "Q7",
+        "K8"
+      ],
+      "group_status": [
+        "life_or_death",
+        "decisive"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹白Q8/S8与黑P8/S8同形对峙，白Q9/P9与黑O7/R7互瞄弱点，Q7为白刚补一手，但K8点入威胁白眼位。",
+      "shapes": [
+        "eye_space_threat",
+        "counterattack"
+      ],
+      "local_tags": [
+        "vulnerable_eye",
+        "response_needed"
+      ],
+      "key_points": [
+        "Q8",
+        "S8",
+        "P8",
+        "O7",
+        "R7",
+        "Q7",
+        "K8"
+      ],
+      "group_status": [
+        "at_risk",
+        "must_answer"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B10/C12/D12与白A10/C10/E9形成稳固黑阵，白仅B9/D9零星渗透，已大致安定。",
+      "shapes": [
+        "territorial_base"
+      ],
+      "local_tags": [
+        "secure",
+        "established"
+      ],
+      "key_points": [
+        "B10",
+        "C12",
+        "D12",
+        "A10",
+        "C10",
+        "B9",
+        "D9",
+        "E9"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F10–H11与白E11/F12/G12形成厚薄对比，黑K10/L10/M10连片厚势压制白中腹发展，白E12–P12呈薄形。",
+      "shapes": [
+        "thickness_vs_thinness"
+      ],
+      "local_tags": [
+        "dominant",
+        "pressuring"
+      ],
+      "key_points": [
+        "F10",
+        "G10",
+        "H10",
+        "K10",
+        "L10",
+        "M10",
+        "E11",
+        "F12",
+        "G12",
+        "E12",
+        "P12"
+      ],
+      "group_status": [
+        "strong",
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2/R2/S2与白P2/L2构成典型小目守角变体，黑Q3/R4/S4已成空，白L3/M3/N3被封锁，局部已定型。",
+      "shapes": [
+        "corner_settled"
+      ],
+      "local_tags": [
+        "closed",
+        "territory_confirmed"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "S2",
+        "P2",
+        "L2",
+        "Q3",
+        "R4",
+        "S4",
+        "L3",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "alive",
+        "fully_formed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_017",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 17,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "S13"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "R15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "N3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "invasion_response"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "center_influence",
+      "bottom_right_framework"
+    ],
+    "global_summary_cn": "第17手，黑方刚在Q15落子，形成对白棋R15、S14的压迫；右上角黑白密集交战，黑棋Q16-Q17-R12-S12-R13-R14构成厚势，白棋S13-S14-R16-R17呈守势但略显凝重；左下D4与右下S13形成对称开局点，但当前焦点集中于上半盘；黑棋掌握主动，正试探白棋右上阵型弱点。",
+    "phase_explanation": "布局后期，局部战斗升级阶段。黑棋通过连续高位拆二与跳进，将右上角转化为势力与实地兼顾的复合结构；白棋J16一子试图牵制黑棋上方发展，但尚未形成有效呼应。全局尚未出现明显大模样或厚势，但黑棋在Q15后已开始施加中腹压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅白D16一子孤立，无集团互动。",
+      "shapes": [],
+      "local_tags": [
+        "isolated",
+        "quiet"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_single"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，黑Q16/Q17/白R16/R17形成上下对峙，但未直接接触。",
+      "shapes": [],
+      "local_tags": [
+        "potential_eye_space",
+        "balance_point"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "black_duo",
+        "white_duo"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈角部攻防：黑R12/S12/R13/R14/Q15 vs 白S13/S14/R15；黑棋厚实包围，白棋三子成孤龙状。",
+      "shapes": [
+        "ladder_like",
+        "net_shape"
+      ],
+      "local_tags": [
+        "fighting",
+        "sente_pressure",
+        "weak_group"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "Q15",
+        "S13",
+        "S14",
+        "R15"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧空旷，仅黑J16为白棋打入点，暂无实质接触。",
+      "shapes": [],
+      "local_tags": [
+        "probe",
+        "light_play"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": [
+        "white_single"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，无子，但Q15落子辐射力强，成为影响中腹走向的关键支点。",
+      "shapes": [],
+      "local_tags": [
+        "influence_hub",
+        "future_joseki"
+      ],
+      "key_points": [
+        "Q15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹稀疏，黑P4/R4与白D4遥相呼应，但尚未联动；S13虽属此区但实际参与右上战斗。",
+      "shapes": [],
+      "local_tags": [
+        "symmetry_hint",
+        "latent_connection"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "D4"
+      ],
+      "group_status": [
+        "black_pair",
+        "white_single"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角D4为白棋小目守角，黑无应手，属安静定式区域。",
+      "shapes": [
+        "small_knight"
+      ],
+      "local_tags": [
+        "settled",
+        "standard"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_corner"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段完全空旷，无任何着子，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "future_territory"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角S13为白棋尖冲位，但已被黑S12/R12压制；黑R4/P4与白S13构成低位呼应雏形。",
+      "shapes": [
+        "low_extension"
+      ],
+      "local_tags": [
+        "framework_start",
+        "asymmetric"
+      ],
+      "key_points": [
+        "S13",
+        "S12",
+        "R12",
+        "R4",
+        "P4"
+      ],
+      "group_status": [
+        "white_single",
+        "black_pair"
+      ]
+    }
+  ]
+}

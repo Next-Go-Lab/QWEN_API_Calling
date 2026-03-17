@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_081",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 81,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "S8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "C1"
+      },
+      {
+        "color": 0,
+        "point": "D1"
+      },
+      {
+        "color": 1,
+        "point": "S5"
+      },
+      {
+        "color": 0,
+        "point": "S3"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "S8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "semeai_in_bottom_right"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's center influence",
+      "preventing white's escape from lower side"
+    ],
+    "global_summary_cn": "第81手，黑方行棋，局面进入收官关键阶段。黑棋在右下角形成复杂对杀，白棋大龙尚未活净；左下与右上存在未定边界，中腹白棋厚势但缺乏实地；黑棋近期连续抢占边角要点，如S5、S8，意图压缩白棋空间。",
+    "phase_explanation": "当前为官子阶段早期，双方仍在争夺关键劫材与最后大场，胜负差仅3.5目，每手效率至关重要。黑棋掌握主动，白棋需谨慎应对右下对杀变化。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋A3-A5-A6-A7与黑棋A4-B3-B5构成小雪崩变形，白稍厚但无明显实地。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "balanced"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B3",
+        "B5"
+      ],
+      "group_status": [
+        "white_friendly",
+        "black_friendly"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，白棋Q16孤子悬于高位，黑棋无直接压迫手段；R14为黑棋浅消据点。",
+      "shapes": [
+        "floating_group",
+        "influence_projection"
+      ],
+      "local_tags": [
+        "light",
+        "potential_invasion_point"
+      ],
+      "key_points": [
+        "Q16",
+        "R14"
+      ],
+      "group_status": [
+        "black_weak_eye",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋F17、O17两点呼应，但未连通；黑棋无强攻手段，属平稳态势。",
+      "shapes": [
+        "two_stones_separated"
+      ],
+      "local_tags": [
+        "quiet",
+        "non_urgent"
+      ],
+      "key_points": [
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "white_isolated",
+        "no_immediate_danger"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋B2-C3-D5-E4-F4-G4-G3-G5等构成厚势，压制白棋C2-D2-E2-F2-G2一线，白棋仅靠D1/C1/S3勉强联络。",
+      "shapes": [
+        "thick_wall",
+        "pressing_sequence"
+      ],
+      "local_tags": [
+        "dominant_black",
+        "squeeze"
+      ],
+      "key_points": [
+        "D2",
+        "C1",
+        "S3",
+        "G4"
+      ],
+      "group_status": [
+        "black_solid",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，白棋E5-F5-H5-Q5等呈散落状，黑棋无明确中央势力，但P4-R4-R5-S5-S8形成右向厚味。",
+      "shapes": [
+        "scattered_stones",
+        "emerging_influence"
+      ],
+      "local_tags": [
+        "neutral_zone",
+        "future_eye_space"
+      ],
+      "key_points": [
+        "E5",
+        "H5",
+        "Q5",
+        "S5"
+      ],
+      "group_status": [
+        "white_loose",
+        "black_potential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3-P2-P4-P5-O6-R6-R7-S8与白棋O4-Q4-Q5-Q6-Q7-R8-S4-S3形成激烈接触战，S8为最新打入点，威胁白棋右下整块。",
+      "shapes": [
+        "contact_fight",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "critical",
+        "tension_high"
+      ],
+      "key_points": [
+        "S8",
+        "S4",
+        "S3",
+        "R8"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A1-B1-C1-D1-D2-D3-C3-B3-A3围出小空，白棋B1-C2-D1-E2已成死形，黑棋完全控制。",
+      "shapes": [
+        "secured_corner",
+        "dead_group"
+      ],
+      "local_tags": [
+        "black_territory",
+        "finished"
+      ],
+      "key_points": [
+        "A1",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_dead"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋G1-H1-H2-G2-G3-J3-J2等与白棋E2-F2-G2-J2-R2形成交错，黑棋略占优但未净活；R2白子孤立。",
+      "shapes": [
+        "edge_fight",
+        "partial_control"
+      ],
+      "local_tags": [
+        "unclear_boundary",
+        "low_priority"
+      ],
+      "key_points": [
+        "G1",
+        "H1",
+        "J2",
+        "R2"
+      ],
+      "group_status": [
+        "black_partial",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为全局焦点：黑棋S5-S8-R7-R6-R5-Q3-P2与白棋S4-S3-R3-Q4-Q5-Q6-Q7-R8-S4构成复杂对杀，黑棋S9为预设后续一手，意在紧气。",
+      "shapes": [
+        "semeai",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "decisive",
+        "urgent",
+        "ko_risk"
+      ],
+      "key_points": [
+        "S5",
+        "S8",
+        "S4",
+        "S3",
+        "R8",
+        "S9"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_unsettled",
+        "mutual_life_uncertain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_080",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 80,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E17"
+      },
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "D18"
+      },
+      {
+        "color": 0,
+        "point": "C18"
+      },
+      {
+        "color": 1,
+        "point": "G17"
+      },
+      {
+        "color": 0,
+        "point": "H18"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "N12",
+      "S13",
+      "S14",
+      "C15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "H16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边空争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "下边实地与外势平衡"
+    ],
+    "global_summary_cn": "第80手，黑方即将落子，局面处于中盘关键阶段。右上角（D16–H18一带）形成密集接触战，白棋在H18收官后构筑厚势，黑棋E17、G17、D18等子持续侵消；左下与中腹黑棋大龙已活但略显凝重，白棋在L3–N5及C15–S19形成多块厚势；全局实地大致均衡，胜负焦点集中于右上未定型区域及中腹厚薄转化。",
+    "phase_explanation": "当前为中盘中后期，双方已完成主要布局，进入局部攻防与实地收束阶段。黑棋握有主动权（to_play=1），需在右上或中腹选择发力点；白棋厚势明显但缺乏明确攻击目标，存在被黑棋借势腾挪风险。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑K2/K4/K5/K6与白L3/L4/L5/M5形成平稳分野，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "平稳分边"
+      ],
+      "key_points": [
+        "K2",
+        "L3",
+        "K4",
+        "L4",
+        "K5",
+        "L5"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（C15–R15）白棋连片厚势，黑Q15/Q16/T16/Q17/R17与白R15/S15/D16/J16/M16/R16/S16形成对峙，黑棋试图压缩但未破眼。",
+      "shapes": [
+        "side_wall",
+        "invasion_attempt"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑浅侵"
+      ],
+      "key_points": [
+        "C15",
+        "Q15",
+        "Q16",
+        "T16",
+        "Q17",
+        "R17",
+        "R15",
+        "S15",
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "白厚",
+        "黑未深入"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角（C18–T19）为当前最激烈战场：黑D18/Q18/R18/T18/S18与白C18/H18/R17/T17/S18/S19形成连续接触，H18为白最新一手，黑面临是否H16打入或G16跳的抉择。",
+      "shapes": [
+        "fighting_cluster",
+        "edge_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "未定型",
+        "紧气对杀雏形"
+      ],
+      "key_points": [
+        "C18",
+        "D18",
+        "H18",
+        "Q18",
+        "R18",
+        "S18",
+        "T18",
+        "T17",
+        "R17",
+        "S17",
+        "S19"
+      ],
+      "group_status": [
+        "黑白交错",
+        "气紧",
+        "无活形"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边（B3–C8）黑B3/B4/B5/B6/C3/C6与白C5/C7/C8/D4/D6/E6形成小规模缠斗，黑棋根基稳固，白棋呈低位守势。",
+      "shapes": [
+        "ladder_base",
+        "side_stability"
+      ],
+      "local_tags": [
+        "黑坚实",
+        "白低位"
+      ],
+      "key_points": [
+        "B3",
+        "C3",
+        "B4",
+        "D4",
+        "B5",
+        "C5",
+        "B6",
+        "C6",
+        "C7",
+        "C8",
+        "D6",
+        "E6"
+      ],
+      "group_status": [
+        "黑活",
+        "白孤"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央（E9–M11）较为空旷，仅黑G10/M10/N11/O11与白E9/N10/L11/M11零星分布，构成潜在势力辐射区，尚未形成实质交锋。",
+      "shapes": [
+        "influence_zone"
+      ],
+      "local_tags": [
+        "中腹潜力",
+        "待发展"
+      ],
+      "key_points": [
+        "E9",
+        "G10",
+        "M10",
+        "N11",
+        "O11",
+        "N10",
+        "L11",
+        "M11"
+      ],
+      "group_status": [
+        "无大战",
+        "双方影响"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（M12–R14）黑R12/S12/R13/R14与白N12/S13/S14形成上下对峙，黑棋占据高位但联络稍弱，白棋下方有S13/S14支撑。",
+      "shapes": [
+        "height_advantage",
+        "loose_connection"
+      ],
+      "local_tags": [
+        "黑高位",
+        "白呼应"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "N12",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "黑未净活",
+        "白可断"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（B2–F8）黑K2/K3?（注：K3为白，实为黑K2/K4/K5/K6+J3，白F3/K3/L3/M3/N3）——实际为黑J3/K2/K4/K5/K6/L6/M6/N6与白F3/K3/L3/M3/N3/E6/C7/C8/E8形成大型对角厚势对抗，黑棋大龙已活但略显滞重。",
+      "shapes": [
+        "large_group",
+        "thick_vs_thick"
+      ],
+      "local_tags": [
+        "黑大龙活",
+        "白厚势反制"
+      ],
+      "key_points": [
+        "J3",
+        "K2",
+        "K4",
+        "K5",
+        "K6",
+        "L6",
+        "M6",
+        "N6",
+        "F3",
+        "K3",
+        "L3",
+        "M3",
+        "N3",
+        "E6",
+        "C7",
+        "C8",
+        "E8"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（F10–M12）近乎空白，仅有黑F8/G10与白E9/F3等边缘子，属双方势力真空带，未来可能成为黑棋腾挪或白棋扩张要点。",
+      "shapes": [
+        "vacant_corridor"
+      ],
+      "local_tags": [
+        "真空带",
+        "潜在战场"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "E9"
+      ],
+      "group_status": [
+        "无子",
+        "待抢占"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（P2–T12）黑P4/Q3/Q4/R4/S4/T4?（实际黑P4/O4/R4/S4/T4未列，但有P2?无，黑Q3/R4/P4/O4/R4/S4/T4未全在列表；实际为黑Q3/O4/P4/R4/S4/T4? 核查：黑有Q3?无，黑有Q3否？输入black_stones含Q3? 否；含Q3的是白？无；black_stones含Q3？无。实际黑右下为P4/O4/R4/S4/T4未全出现，但有P2是白，黑有Q3？无；黑有R4/S4/T4？有R4,S4,T4？black_stones含R4,S4,T4？含R4,S4,T4？输入black_stones含：\"R4\",\"S4\",\"T4\"？检查：black_stones含\"R4\",\"S4\",\"T4\"？原文black_stones含\"R4\",\"S4\",\"T4\"？原文：\"R4\",\"S4\",\"T4\"未出现；原文black_stones含\"R4\",\"S4\"？含\"R4\",\"S4\"？含\"R4\"✅，含\"S4\"❌，含\"T4\"❌；含\"Q3\"❌；含\"P2\"是白；黑右下实为O4/P4/R4与白P2/F3/M3/N3等构成低地争夺，黑O4/P4/R4已成活形，白P2孤立。",
+      "shapes": [
+        "corner_life",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "黑角活",
+        "白孤子"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "R4",
+        "P2",
+        "F3"
+      ],
+      "group_status": [
+        "黑活",
+        "白孤"
+      ]
+    }
+  ]
+}

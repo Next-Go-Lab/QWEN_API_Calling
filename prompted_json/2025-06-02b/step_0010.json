@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_009",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 9,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "invasion_response"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "right_side_influence",
+      "center_projection"
+    ],
+    "global_summary_cn": "黑棋在右上角连续落子形成局部战斗，白棋在R16、R17构筑外势但被黑Q16、Q17、R14压制；左下D4与右下P4、R4形成对称布局倾向；黑方刚于R14跳入，意图扩大右上战果或向中腹渗透。",
+    "phase_explanation": "第9手，开局阶段，双方集中于边角定式试探，右上成为当前主战场，黑棋掌握主动权，白棋需应对R14带来的压迫。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，仅黑Q16一子靠近天元方向，具潜在影响力。",
+      "shapes": [],
+      "local_tags": [
+        "influence_projection"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈角部战斗区：白R17、R16，黑Q17、Q16、R14构成攻防结构；黑R14为最新一手，具侵消与扩张双重意味。",
+      "shapes": [
+        "corner_fight",
+        "ladder_shape_candidate"
+      ],
+      "local_tags": [
+        "fighting",
+        "black_initiative",
+        "white_thickness"
+      ],
+      "key_points": [
+        "R17",
+        "R16",
+        "Q17",
+        "Q16",
+        "R14"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_connected"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅白D16一子位于上边，尚未延伸。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无子，为未来势力争夺焦点。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹初现轮廓：黑P4、R4构成低位双飞燕雏形，呼应右上战斗；S14为目标点，暗示下一步打入或拆逼。",
+      "shapes": [
+        "low_double-wing"
+      ],
+      "local_tags": [
+        "foundation",
+        "extension_base"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "S14"
+      ],
+      "group_status": [
+        "black_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角白D4单子守角，孤立未连络，暂无明显发展。",
+      "shapes": [
+        "corner_stone"
+      ],
+      "local_tags": [
+        "isolated",
+        "quiet"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，无子，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑P4、R4构成低位双子结构，具实地与外势兼顾潜力；与右上黑棋形成斜线呼应。",
+      "shapes": [
+        "low_pair",
+        "diagonal_link"
+      ],
+      "local_tags": [
+        "solid_base",
+        "coordination"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "black_connected"
+      ]
+    }
+  ]
+}

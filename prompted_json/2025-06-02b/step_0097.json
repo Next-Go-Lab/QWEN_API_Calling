@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_096",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 96,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "M9"
+      },
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "K10"
+      },
+      {
+        "color": 0,
+        "point": "J10"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "K10",
+      "L10",
+      "M10",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "J10附近劫争雏形",
+      "K11点入试探"
+    ],
+    "global_summary_cn": "第96手，黑方即将落子，局面处于中盘关键阶段。白棋在右上至中央形成厚势（J10、K9、M9、N10等），黑棋则在中央偏右（K10、L10、M10、N11）构建联络阵型，双方在K11位存在强烈打入/侵消意图。全局无明显死活危机，但中央控制权归属将主导后续走向。",
+    "phase_explanation": "当前为中盘中后期，双方已完成大致布局，进入实地与外势的平衡博弈阶段；局部战斗密集集中在中腹及右上，尚未进入官子。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑占K2、K4、K5、K6等低位，白守C3、C5、C6、C7等边线，黑稍厚实但无明显攻击目标。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "黑厚实"
+      ],
+      "key_points": [
+        "K2",
+        "C3",
+        "C5"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋S13-S16-S18-S19连成厚壁，黑Q15-Q16-Q17-Q18呼应，形成黑白对峙；R14、R13为黑跳点，S14为白守角要点。",
+      "shapes": [
+        "wall",
+        "side"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑呼应"
+      ],
+      "key_points": [
+        "S13",
+        "Q15",
+        "R14"
+      ],
+      "group_status": [
+        "alive",
+        "influence"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑T16、T18与白S19、R17构成复杂接触，黑S12-R12-R13与白S14-S15形成小规模缠斗，白S16、R16略显凝重。",
+      "shapes": [
+        "corner",
+        "contact"
+      ],
+      "local_tags": [
+        "接触战",
+        "白略重"
+      ],
+      "key_points": [
+        "T16",
+        "S19",
+        "R17"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑E14-E15-E17与白D16-D17-D4-C8-C7形成高低配合，黑G13、F15与白F3、E6、E9构成斜向牵制，局部平稳。",
+      "shapes": [
+        "side",
+        "diagonal"
+      ],
+      "local_tags": [
+        "平稳",
+        "斜向牵制"
+      ],
+      "key_points": [
+        "E14",
+        "D16",
+        "G13"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "全局焦点：黑K10-L10-M10-N11-O11-P11与白J10-K9-M9-N10-L11-M11形成密集中腹对峙；K11为空点，是黑方最迫切打入位，白需防断或反击。",
+      "shapes": [
+        "cluster",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对攻核心",
+        "K11急所",
+        "潜在劫材区"
+      ],
+      "key_points": [
+        "K10",
+        "J10",
+        "K11",
+        "L11"
+      ],
+      "group_status": [
+        "fighting",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O4-P4-R4与白N3-O5-N4、L3-M3构成上下夹击态势；黑R12-S12与白N12-O12、H12-G12形成横向拉锯，白稍显薄味。",
+      "shapes": [
+        "ladder",
+        "side"
+      ],
+      "local_tags": [
+        "夹击",
+        "白薄"
+      ],
+      "key_points": [
+        "O4",
+        "N3",
+        "R12"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B4-B5-B6-C6与白C3-C5-D4-D6-E6形成经典低中国流对抗，黑B4、C6与白C3、D4已安定，无战斗。",
+      "shapes": [
+        "corner",
+        "low_chinese"
+      ],
+      "local_tags": [
+        "定型",
+        "低中国流"
+      ],
+      "key_points": [
+        "B4",
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑D7、F8、G10与白E8-E9、G12-H12构成松散对峙；黑G10与白E9间距适中，暂无直接冲突，属过渡地带。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "过渡",
+        "松散对峙"
+      ],
+      "key_points": [
+        "D7",
+        "G10",
+        "E9"
+      ],
+      "group_status": [
+        "quiet"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑Q3-R4-R13与白P2、L3、M3、N3构成大模样雏形，但白已深入Q3、P4等点，黑Q18-R18-T18虽厚，但外围未封紧。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑模样",
+        "白侵消"
+      ],
+      "key_points": [
+        "Q3",
+        "P2",
+        "Q18"
+      ],
+      "group_status": [
+        "moyo",
+        "invasion_target"
+      ]
+    }
+  ]
+}

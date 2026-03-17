@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_273",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 273,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "T18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "A18"
+      },
+      {
+        "color": 1,
+        "point": "A16"
+      },
+      {
+        "color": 0,
+        "point": "N8"
+      },
+      {
+        "color": 1,
+        "point": "N10"
+      },
+      {
+        "color": 0,
+        "point": "C19"
+      },
+      {
+        "color": 1,
+        "point": "T18"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "P3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "S6",
+      "G7",
+      "K7",
+      "L7",
+      "S7",
+      "E8",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "T8",
+      "G9",
+      "L9",
+      "N9",
+      "Q9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "N10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "R12",
+      "A13",
+      "B13",
+      "D13",
+      "G13",
+      "J13",
+      "K13",
+      "N13",
+      "Q13",
+      "R13",
+      "S13",
+      "T13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "P14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "L15",
+      "Q15",
+      "A16",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "T16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "T18",
+      "R19",
+      "T19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "O6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "D8",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "N8",
+      "Q8",
+      "R8",
+      "C9",
+      "D9",
+      "E9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "T9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "J10",
+      "T10",
+      "A11",
+      "B11",
+      "O11",
+      "P11",
+      "T11",
+      "A12",
+      "H12",
+      "M12",
+      "Q12",
+      "S12",
+      "T12",
+      "C13",
+      "H13",
+      "L13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "M15",
+      "N15",
+      "O15",
+      "P15",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "A18",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "B19",
+      "C19",
+      "K19",
+      "M19",
+      "O19",
+      "Q19"
+    ]
+  },
+  "targets": {
+    "policy_target": "A19"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_fight_residual",
+      "territory_counting_phase",
+      "white_moyo_compromised",
+      "black_invasion_success"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's top side influence",
+      "finalizing center eye space",
+      "preventing white's escape in upper left"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋以273手T18收官强化右上角，白棋A18与A16试图搅局未果；黑棋在右下、中腹、左下形成坚实实地，白棋大模样被多处渗透，仅存微弱争胜机会。",
+    "phase_explanation": "本局已至终局计目阶段，双方无大规模攻防，焦点集中于边角细微官子与眼位确认；黑棋凭借厚势控制多数空点，白棋虽有局部劫材但缺乏有效借用。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋A18、A16、C19构成松散联络，黑棋B18、B17、A13施加压力；白A11-A12一线薄弱，存在断点风险。",
+      "shapes": [
+        "line",
+        "ladder_fragment"
+      ],
+      "local_tags": [
+        "weak_white_group",
+        "potential_cut",
+        "border_tension"
+      ],
+      "key_points": [
+        "A18",
+        "A16",
+        "C19",
+        "B18",
+        "A13"
+      ],
+      "group_status": [
+        "alive_with_difficulty",
+        "needs_liberties"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋J16-L17-M17-N17-O17-P17-Q17-R17-S17-T17与白棋J18-K18-L18-N18-O18-P18-Q18-R18形成对峙；黑棋厚势压制白棋上边潜力。",
+      "shapes": [
+        "wall",
+        "influence_line"
+      ],
+      "local_tags": [
+        "black_wall",
+        "white_reduced",
+        "influence_boundary"
+      ],
+      "key_points": [
+        "J16",
+        "T17",
+        "J18",
+        "R18"
+      ],
+      "group_status": [
+        "strong_black",
+        "compromised_white_moyo"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R19-T19与白棋Q19-O19-K19形成右上角定式残局；黑T18为最后一手巩固角地，白无有效反击。",
+      "shapes": [
+        "corner_enclosure",
+        "finished_territory"
+      ],
+      "local_tags": [
+        "secured_black_corner",
+        "no_vital_point_left",
+        "endgame_settlement"
+      ],
+      "key_points": [
+        "T18",
+        "R19",
+        "T19",
+        "Q19"
+      ],
+      "group_status": [
+        "alive",
+        "fully_occupied"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D13-D15-C15-B15-A13与白棋C13-H13-L13构成中腹左侧缠斗区；黑棋D10-E11-F11等子形成眼形基础。",
+      "shapes": [
+        "eye_shape",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "black_eye_space",
+        "white_overextended",
+        "life_and_death_unclear"
+      ],
+      "key_points": [
+        "D13",
+        "D15",
+        "C15",
+        "D10",
+        "E11"
+      ],
+      "group_status": [
+        "provisionally_alive",
+        "needs_one_more_move"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑白交错密集：黑E8-G8-G9-J9-K10-N10与白F7-H7-J8-K8-M8-N8形成中腹核心争夺；黑棋略占主动，白M9-O9稍显单薄。",
+      "shapes": [
+        "crossing",
+        "mutual_sente"
+      ],
+      "local_tags": [
+        "central_battlefield",
+        "balanced_influence",
+        "sente_opportunity"
+      ],
+      "key_points": [
+        "N10",
+        "K10",
+        "M8",
+        "N8",
+        "M9"
+      ],
+      "group_status": [
+        "fighting",
+        "no_clear_life_yet"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑P14-Q15-R16-S16与白O14-P15-Q17-R17构成右中腹拉锯；黑棋P16-Q16-R16连贯，白Q17孤立。",
+      "shapes": [
+        "ladder",
+        "separation"
+      ],
+      "local_tags": [
+        "black_connected",
+        "white_isolated",
+        "cutting_point_at_P15"
+      ],
+      "key_points": [
+        "P14",
+        "Q15",
+        "R16",
+        "Q17",
+        "P15"
+      ],
+      "group_status": [
+        "strong_black_chain",
+        "weak_white_group"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C1-F1-F2-C2-C3-D3-E3与白B1-B2-B3-A4构成经典角部对抗；黑棋实地完整，白棋仅存浅消空间。",
+      "shapes": [
+        "solid_territory",
+        "corner_framework"
+      ],
+      "local_tags": [
+        "black_owned",
+        "no_threat",
+        "settled"
+      ],
+      "key_points": [
+        "C1",
+        "F1",
+        "C3",
+        "A4",
+        "B1"
+      ],
+      "group_status": [
+        "alive",
+        "fully_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑E5-G5-G6-F6与白E6-D6-C6构成下边中段接触战；黑棋E8-F8-G8延伸稳固，白D8-H8略显飘忽。",
+      "shapes": [
+        "side_framework",
+        "extension"
+      ],
+      "local_tags": [
+        "black_side_control",
+        "white_unstable",
+        "territory_border"
+      ],
+      "key_points": [
+        "E5",
+        "G6",
+        "F6",
+        "D8",
+        "H8"
+      ],
+      "group_status": [
+        "alive_with_margin",
+        "vulnerable_to_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R2-S4-S6-T8与白Q4-Q6-R7-S9-T9形成右下角大转换后格局；黑棋R2-T8成空效率高，白棋仅存小块活棋。",
+      "shapes": [
+        "territory_outline",
+        "efficient_placement"
+      ],
+      "local_tags": [
+        "black_territory_dominant",
+        "white_minimal_survival",
+        "endgame_clinch"
+      ],
+      "key_points": [
+        "R2",
+        "S4",
+        "T8",
+        "Q4",
+        "S9"
+      ],
+      "group_status": [
+        "alive",
+        "maximized_territory"
+      ]
+    }
+  ]
+}

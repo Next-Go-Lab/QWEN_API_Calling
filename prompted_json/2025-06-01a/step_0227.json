@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_226",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 226,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "G12"
+      },
+      {
+        "color": 0,
+        "point": "E10"
+      },
+      {
+        "color": 1,
+        "point": "J12"
+      },
+      {
+        "color": 0,
+        "point": "H14"
+      },
+      {
+        "color": 1,
+        "point": "J9"
+      },
+      {
+        "color": 0,
+        "point": "J8"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "J9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "central_eye_space",
+      "right_side_invasion_resistance",
+      "bottom_right_sente_followup"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋以微弱优势领先；中央与右下存在未定形死活点，J8白子为最新一手，意在压缩黑棋中腹眼位；E11是关键补棋点，关系到黑棋大龙成空潜力。",
+    "phase_explanation": "第226手，黑方行棋，局面处于终局收束期。双方在中腹、右下及左上角仍有数处未完全安定的棋形，其中E11为影响黑棋中央厚势成空效率的核心要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白B1-B4-C4-D4连片厚势，黑C1-D1-E1-F1-F2-C2-C3-D3构成边空雏形，但A1空点未补。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "settled_corner",
+        "white_thickness"
+      ],
+      "key_points": [
+        "B1",
+        "C1",
+        "D1",
+        "E1",
+        "F1",
+        "C2",
+        "D2",
+        "E2",
+        "B3",
+        "C3",
+        "D3"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q2-R2-S2-R3-S3-Q3-Q4连片，白Q4-O4-N4-M4形成薄味，黑有Q5打入可能。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "black_side_wall",
+        "white_weak_group"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "S2",
+        "R3",
+        "S3",
+        "Q3",
+        "Q4",
+        "O4",
+        "N4",
+        "M4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑P16-Q16-R16-S16-S17-R17-Q17及白K16-L16-M16形成复杂对杀，黑S18-R19与白M19-K19对峙，局部存劫争。",
+      "shapes": [
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "mutual_life_unclear",
+        "potential_ko"
+      ],
+      "key_points": [
+        "P16",
+        "Q16",
+        "R16",
+        "S16",
+        "S17",
+        "R17",
+        "Q17",
+        "K16",
+        "L16",
+        "M16",
+        "M19",
+        "K19",
+        "R19",
+        "S18"
+      ],
+      "group_status": [
+        "unclear"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑B12-C11-D11-D13-C15-B15与白B11-C10-B10-C13-H13形成缠斗，黑有B13跳入扩大战果之机。",
+      "shapes": [
+        "invasion_chain"
+      ],
+      "local_tags": [
+        "black_invasion",
+        "white_surrounding"
+      ],
+      "key_points": [
+        "B12",
+        "C11",
+        "D11",
+        "D13",
+        "C15",
+        "B15",
+        "B11",
+        "C10",
+        "B10",
+        "C13",
+        "H13"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域黑G12-J12-J9-G10-K10-K11-L11-M11-N11与白H12-M12-K8-J8-H8-H7-G7-F7-E7形成大模样对峙，E11为黑棋眼位关键补点。",
+      "shapes": [
+        "eye_shape",
+        "influence_web"
+      ],
+      "local_tags": [
+        "central_eye_space",
+        "life_and_death_critical",
+        "target_point_E11"
+      ],
+      "key_points": [
+        "G12",
+        "J12",
+        "J9",
+        "G10",
+        "K10",
+        "K11",
+        "L11",
+        "M11",
+        "N11",
+        "H12",
+        "M12",
+        "K8",
+        "J8",
+        "H8",
+        "H7",
+        "G7",
+        "F7",
+        "E7",
+        "E11"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J16-J17-L16-L17-M17-N17-O17-P17与白K17-Q17-R17-S17形成厚薄对比，黑有N15断点隐患。",
+      "shapes": [
+        "thick_vs_thin"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_light_group"
+      ],
+      "key_points": [
+        "J16",
+        "J17",
+        "L16",
+        "L17",
+        "M17",
+        "N17",
+        "O17",
+        "P17",
+        "K17",
+        "Q17",
+        "R17",
+        "S17",
+        "N15"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑C5-D5-E5-F5-G5-H5与白B5-C6-D6-E6-F6-G6-H6形成典型‘双飞燕’定式余味，黑F4与白E4对称，实地均衡。",
+      "shapes": [
+        "standard_joseki"
+      ],
+      "local_tags": [
+        "joseki_residual",
+        "balanced_territory"
+      ],
+      "key_points": [
+        "C5",
+        "D5",
+        "E5",
+        "F5",
+        "G5",
+        "H5",
+        "B5",
+        "C6",
+        "D6",
+        "E6",
+        "F6",
+        "G6",
+        "H6",
+        "F4",
+        "E4"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑F14-E14-J14与白H14-M14-N14形成攻防焦点，黑有G13跳补或K15冲断选择。",
+      "shapes": [
+        "fighting_edge"
+      ],
+      "local_tags": [
+        "edge_fight",
+        "white_weak_at_H14"
+      ],
+      "key_points": [
+        "F14",
+        "E14",
+        "J14",
+        "H14",
+        "M14",
+        "N14",
+        "G13",
+        "K15"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑R4-S4-S7-S8-R8-Q7与白Q4-O4-N4-M4-P6-Q6-R7-R8形成复杂接触战，黑R9-S9与白R9-S9同形，但黑有Q10先手利。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "mutual_reduction",
+        "sente_opportunity_Q10"
+      ],
+      "key_points": [
+        "R4",
+        "S4",
+        "S7",
+        "S8",
+        "R8",
+        "Q7",
+        "Q4",
+        "O4",
+        "N4",
+        "M4",
+        "P6",
+        "Q6",
+        "R7",
+        "R9",
+        "S9",
+        "Q10"
+      ],
+      "group_status": [
+        "unclear",
+        "sente_for_black"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_228",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 228,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E5"
+      },
+      {
+        "color": 0,
+        "point": "D5"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "S7"
+      },
+      {
+        "color": 1,
+        "point": "T7"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "E2",
+      "G2",
+      "J2",
+      "K2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "G9",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "T12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "B1",
+      "K1",
+      "C2",
+      "D2",
+      "L2",
+      "P2",
+      "D3",
+      "E3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "C4",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "D5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "F9",
+      "J9",
+      "K9",
+      "M9",
+      "N9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "Q14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "O2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "黑棋优势",
+      "实地定型完成",
+      "白棋大龙已死"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上残子处理"
+    ],
+    "global_summary_cn": "全局进入终局收束，黑棋实空领先明显，白棋在右下角大龙被屠，中腹黑棋厚势稳固，仅存左上与右上局部细微劫争及边线官子。",
+    "phase_explanation": "第228手为白方F17，属右下角最后抵抗；黑方即将于O2落子完成右下封口，全盘无未定大场，属典型终局官子阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白A10、B13等残子气紧但暂无死活危机，黑C17、C19构成外势，双方在此处保持平衡。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "残子",
+        "外势",
+        "平衡"
+      ],
+      "key_points": [
+        "A10",
+        "B13",
+        "C17",
+        "C19"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边白D9–S9一线呈薄味，黑E11、F11、H11施压，白Q9、S9为联络要点，尚未净活。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "薄味",
+        "联络要点",
+        "未净活"
+      ],
+      "key_points": [
+        "D9",
+        "E11",
+        "F11",
+        "Q9",
+        "S9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16、Q17、R17与白R16、S16形成对杀余味，黑棋稍优但需防白P15–R15冲断。",
+      "shapes": [
+        "corner",
+        "fighting"
+      ],
+      "local_tags": [
+        "对杀余味",
+        "冲断威胁"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "R17",
+        "R16",
+        "S16",
+        "P15"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑B2–D7与白C2–D6形成复杂缠斗，黑B5、E5、D7构成眼形基础，白D5刚落子试图搅局。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "缠斗",
+        "眼形基础",
+        "搅局"
+      ],
+      "key_points": [
+        "B5",
+        "D5",
+        "E5",
+        "D7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑F10–K14厚势完整，控制大半中腹，白E11、L11等孤子难以成活，黑棋厚势已转化为实地潜力。",
+      "shapes": [
+        "thick_group",
+        "influence"
+      ],
+      "local_tags": [
+        "厚势",
+        "影响力",
+        "潜力转化"
+      ],
+      "key_points": [
+        "F10",
+        "H10",
+        "K10",
+        "E11",
+        "L11",
+        "K14"
+      ],
+      "group_status": [
+        "strong_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O10–Q12与白N10–P12对峙，黑Q12、R12压制白P12，白M12、N12气紧，存在被搜刮可能。",
+      "shapes": [
+        "pressing",
+        "weak_group"
+      ],
+      "local_tags": [
+        "压制",
+        "气紧",
+        "搜刮点"
+      ],
+      "key_points": [
+        "O10",
+        "Q12",
+        "R12",
+        "P12",
+        "M12",
+        "N12"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B2–C6与白B1、C2、D2构成经典低中国流定式后续，已定型，黑棋实地扎实。",
+      "shapes": [
+        "corner",
+        "settled"
+      ],
+      "local_tags": [
+        "定型",
+        "实地扎实"
+      ],
+      "key_points": [
+        "B1",
+        "B2",
+        "C2",
+        "C6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑E2–T7与白D2–S7交错密集，黑T7刚落子封住白S7，白F17为最后一搏，但黑E5–F7已围死右下大龙。",
+      "shapes": [
+        "sealing",
+        "captured_group"
+      ],
+      "local_tags": [
+        "封口",
+        "大龙已死",
+        "终局收束"
+      ],
+      "key_points": [
+        "E5",
+        "F7",
+        "T7",
+        "S7",
+        "F17"
+      ],
+      "group_status": [
+        "dead"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白F17为败招，黑O2为最佳收官点，可彻底封锁白棋做眼空间；白J17、R17等残子已无延气手段。",
+      "shapes": [
+        "endgame",
+        "seal_off"
+      ],
+      "local_tags": [
+        "收官要点",
+        "封锁",
+        "无延气"
+      ],
+      "key_points": [
+        "O2",
+        "F17",
+        "J17",
+        "R17"
+      ],
+      "group_status": [
+        "dead"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_085",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 85,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "G6"
+      },
+      {
+        "color": 1,
+        "point": "F5"
+      },
+      {
+        "color": 0,
+        "point": "E7"
+      },
+      {
+        "color": 1,
+        "point": "F2"
+      },
+      {
+        "color": 0,
+        "point": "H7"
+      },
+      {
+        "color": 1,
+        "point": "G8"
+      }
+    ],
+    "black_stones": [
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "J6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角定式余波",
+      "中央厚势对峙"
+    ],
+    "strategic_focus": [
+      "J6点位试探",
+      "右下白空未净",
+      "中腹黑棋厚味待发"
+    ],
+    "global_summary_cn": "第85手，黑方刚于G8落子，白方即将在J6应手。当前局面处于中盘关键转换期：右下角白空存在劫争隐患，左上与右上黑棋厚势成形但尚未完全围空；中腹双方数子纠缠，F5-G6-E7-H7构成局部激战焦点；全局黑棋稍优但优势微弱。",
+    "phase_explanation": "中盘后期，双方围绕实地与外势展开拉锯，白方需处理右下薄弱一子，黑方意图借厚势向中腹及右边渗透。J6是典型试探性一手，可能诱发白棋补强或引发新战斗。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C3-C5-D5-D4-E3形成小堡垒，白B3、B4、C4略显拥挤，黑C11-D11-D13与白C9-C10-C13形成上下呼应的低位对峙。",
+      "shapes": [
+        "corner_enclosure",
+        "low_side_framework"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白棋欠活"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "C11"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_uncertain"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑Q2-R2-R3-Q3与白P3-Q4-R4-R3形成交错接触，黑Q7-S7-S8与白Q6-R7-R8构成上边攻防前沿，黑M17-P17与白N18-P18形成右上角收官残局。",
+      "shapes": [
+        "side_contact_fight",
+        "edge_endgame"
+      ],
+      "local_tags": [
+        "接触战未定",
+        "官子残留"
+      ],
+      "key_points": [
+        "Q4",
+        "R7",
+        "Q7"
+      ],
+      "group_status": [
+        "unclear",
+        "partially_sealed"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16-R16与白B16-D16-E16-F16-G16-H15形成大模样对峙，黑O17-P17-Q17-R17与白Q17-R17-N18-O18-P18构成复杂边界，白棋虽占地广但眼位不足。",
+      "shapes": [
+        "large_framework",
+        "boundary_complexity"
+      ],
+      "local_tags": [
+        "白空不实",
+        "黑势待张"
+      ],
+      "key_points": [
+        "Q16",
+        "E16",
+        "O17"
+      ],
+      "group_status": [
+        "white_vulnerable",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中段黑B4-B5-C5-C6与白B3-C4-D4-D6-E6形成阶梯式缠斗，黑D10-D11-D13与白C9-C10-C13构成纵向牵制，黑E14-F14与白E15-F15-G15形成低位对杀雏形。",
+      "shapes": [
+        "ladder_like",
+        "vertical_pressure"
+      ],
+      "local_tags": [
+        "黑取势",
+        "白苦活"
+      ],
+      "key_points": [
+        "D10",
+        "E14",
+        "C9"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_struggling"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，但F5-G6-E7-H7-F7-G7构成六子混战圈，黑F5-G8与白F7-G6-E7-H7反复交换，J4-J6为潜在打入点，目前无明确活形，属典型战略要冲。",
+      "shapes": [
+        "fighting_cluster",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "主战场",
+        "J6敏感点"
+      ],
+      "key_points": [
+        "F5",
+        "G6",
+        "E7",
+        "J6"
+      ],
+      "group_status": [
+        "mutual_weakness",
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边中段黑N3-O5-P4-P5与白O4-P6-Q6-Q5形成高低错落的势力对比，黑N5-M5与白M5-L4构成轻重博弈，黑Q3-R4与白Q4-R3形成边路平衡，整体黑略占主动。",
+      "shapes": [
+        "side_balance",
+        "light_heavy_interaction"
+      ],
+      "local_tags": [
+        "黑控边",
+        "白守势"
+      ],
+      "key_points": [
+        "N5",
+        "O4",
+        "Q3"
+      ],
+      "group_status": [
+        "black_slightly_ahead",
+        "white_defensive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F2-F3-F4-F6与白E2-E3-E6-D6-C6形成经典‘小目无忧角’对抗变体，黑C3-D5-E5与白C4-D4构成角部定式收束，黑已活透，白仅得浅空。",
+      "shapes": [
+        "corner_life",
+        "settled_position"
+      ],
+      "local_tags": [
+        "黑安定",
+        "白实地小"
+      ],
+      "key_points": [
+        "F2",
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_small_territory"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G7-G8与白F7-H7-F6-E7构成密集接触带，黑J4与白L4遥相呼应，该区域无明显眼位，双方均以厚势互瞄，属潜在作战温床。",
+      "shapes": [
+        "contact_zone",
+        "potential_battlefield"
+      ],
+      "local_tags": [
+        "厚势对峙",
+        "无眼空"
+      ],
+      "key_points": [
+        "G7",
+        "H7",
+        "J4"
+      ],
+      "group_status": [
+        "balanced",
+        "tension_high"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R2-R3-R4-R5-R6与白P3-Q4-Q5-Q6-P6形成典型‘高中国流’对局残局，黑S7-S8与白R7-R8-R9构成边路攻防尾声，白C15-D15-E16与黑B15-C15-D15形成角部细棋争夺。",
+      "shapes": [
+        "endgame_residual",
+        "corner_fighting_aftermath"
+      ],
+      "local_tags": [
+        "白空未净",
+        "黑有劫材"
+      ],
+      "key_points": [
+        "R2",
+        "S7",
+        "C15"
+      ],
+      "group_status": [
+        "white_uncertain",
+        "black_threatening"
+      ]
+    }
+  ]
+}

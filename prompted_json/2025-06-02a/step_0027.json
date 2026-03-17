@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_026",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "G6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E2"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "F5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "P4",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "center_influence_building"
+    ],
+    "strategic_focus": [
+      "black_eye_shape_in_bottom_left",
+      "white_thickness_along_right_side",
+      "central_knight_move_pressure"
+    ],
+    "global_summary_cn": "黑棋在左下角形成初步眼形并试探白棋右上厚势，白棋依托D3-E2-F5-G6斜线构筑外势，双方在中腹尚未大规模接触，第26手黑棋即将于G3点入，挑战白棋中央结构。",
+    "phase_explanation": "布局后期向中盘过渡阶段，双方完成主要占角与守边，开始围绕中腹与边路连接展开争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D16、F17、O17构成右上厚势延伸，黑棋Q16单子孤悬，暂无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "thickness_extension",
+        "loose_black_stone"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_connected_group",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无子落点，属双方潜在势力辐射交汇带。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone",
+        "influence_overlap"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋O17与F17呼应，隐约控制右上大场；黑棋无子，但Q16可作跳入支点。",
+      "shapes": [],
+      "local_tags": [
+        "white_influence",
+        "black_foothold"
+      ],
+      "key_points": [
+        "O17",
+        "F17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_distant_connection"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B6、C5、D5、C4、C3与白棋C6、D6、D4、D3形成左中腹对峙，黑棋略显紧凑，白棋有断点隐患。",
+      "shapes": [
+        "ladder_fragment",
+        "potential_cut_at_D4"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "tension_zone"
+      ],
+      "key_points": [
+        "B6",
+        "C3",
+        "C4",
+        "C5",
+        "D5",
+        "D4",
+        "D3",
+        "C6",
+        "D6"
+      ],
+      "group_status": [
+        "black_chain",
+        "white_chain",
+        "mutual_vulnerability"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "E4-F4-G5黑三角与E5-F5-G6白三角形成典型‘双飞燕’变体对称结构，中腹尚未定型，G3为关键打入点。",
+      "shapes": [
+        "black_triangle",
+        "white_triangle",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "symmetric_fighting",
+        "invasion_target"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G5",
+        "E5",
+        "F5",
+        "G6",
+        "G3"
+      ],
+      "group_status": [
+        "black_local_group",
+        "white_local_group",
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋Q4与黑棋P4、R6构成右中腹小规模接触，R14黑子孤立，暂未参与主战场。",
+      "shapes": [],
+      "local_tags": [
+        "edge_contact",
+        "isolated_black"
+      ],
+      "key_points": [
+        "Q4",
+        "P4",
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "white_edge_stone",
+        "black_edge_stone",
+        "black_lonely"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋E2被白棋包围后形成疑似眼形基础（C3-D3-C4-D4-E2），黑棋B7与C6呼应，具成空潜力。",
+      "shapes": [
+        "proto_eye",
+        "corner_life_potential"
+      ],
+      "local_tags": [
+        "black_eye_shape",
+        "life_and_death_sensitivity"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "C4",
+        "D4",
+        "E2",
+        "B7",
+        "C6"
+      ],
+      "group_status": [
+        "black_living_shape_emerging",
+        "white_surrounding"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷地带，仅黑棋E4、F4、G5与白棋E5、F5、G6斜向交错，是下一阶段主战场。",
+      "shapes": [
+        "diagonal_tension_line"
+      ],
+      "local_tags": [
+        "central_battlefield",
+        "open_area"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G5",
+        "E5",
+        "F5",
+        "G6"
+      ],
+      "group_status": [
+        "interlocking_groups"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋Q3、R6与白棋Q4构成右下角浅消与反浅消态势，尚未形成明确攻防关系。",
+      "shapes": [],
+      "local_tags": [
+        "corner_occupation",
+        "light_fighting"
+      ],
+      "key_points": [
+        "Q3",
+        "R6",
+        "Q4"
+      ],
+      "group_status": [
+        "black_corner_presence",
+        "white_corner_presence"
+      ]
+    }
+  ]
+}

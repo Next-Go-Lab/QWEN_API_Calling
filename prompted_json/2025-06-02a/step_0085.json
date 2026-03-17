@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_084",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 84,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "T5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S5"
+      },
+      {
+        "color": 0,
+        "point": "S3"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "S9"
+      },
+      {
+        "color": 1,
+        "point": "T7"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "S8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "T5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "S9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "T6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边空争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "T6点刺意图"
+    ],
+    "global_summary_cn": "第84手，黑方即将落子于T6，针对白棋T5一子展开点刺，意图破坏白棋右下角实地与联络。当前局面黑棋在左上、中腹及右上略有厚势，白棋则在右下和中腹右侧形成较厚外势，双方在S3–T7一带连续交换，局部紧张。",
+    "phase_explanation": "中盘后期，双方围绕边角实地与外势展开深度互动，黑棋试图通过T6打入或分断白棋右下结构，白棋需谨慎应对以保全实地或转换为外势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋A3-C3-A4构成小目守角雏形，白棋B1-C2-D2-D1形成低位挂角应对，黑棋尚未完全定型。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "小目",
+        "低位挂角",
+        "未定型"
+      ],
+      "key_points": [
+        "A3",
+        "B1",
+        "D1"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑Q16、白D16、F17、O17零星分布，属双方势力辐射过渡带，无实质接触。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "势力辐射",
+        "空旷边"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16孤高，白O17、F17遥相呼应，黑棋缺乏后续支撑，白棋有拆二或夹击意图。",
+      "shapes": [
+        "isolated"
+      ],
+      "local_tags": [
+        "孤高一子",
+        "高位拆边"
+      ],
+      "key_points": [
+        "Q16",
+        "O17",
+        "F17"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑A7-E7-G7-R7与白B7-Q7形成大致对峙，黑棋A3–G3–G5–E7一线略显厚实，白棋C6–E6–Q6呈横向联络。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白横向联络"
+      ],
+      "key_points": [
+        "A7",
+        "E7",
+        "B7",
+        "Q7"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑R14、白O17斜向呼应，但无直接交集；T7、S8、S9、T5密集交锋区紧邻此区西侧，中腹潜力待开发。",
+      "shapes": [
+        "vacant",
+        "influence_zone"
+      ],
+      "local_tags": [
+        "中腹潜力",
+        "影响辐射"
+      ],
+      "key_points": [
+        "R14",
+        "T7"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "S3–T5–T7–S8–S9构成激烈接触战核心：白S3、T5、S4、Q5，黑S5、T7、S8、S9，双方在此反复进出，白棋略显凝重。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "近身缠斗",
+        "白棋凝形",
+        "黑棋灵活"
+      ],
+      "key_points": [
+        "S3",
+        "T5",
+        "S5",
+        "T7",
+        "S8",
+        "S9"
+      ],
+      "group_status": [
+        "both_fighting",
+        "white_overconcentrated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A3–C3–C4–B5–C5–D5–B6与白A4–A5–A6–B7–C6–D6–E6形成典型小目vs无忧角对抗，黑棋实地稍优，白棋外势初具规模。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "小目定式后续",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "B6"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑P2–Q2–O3–P4–P5–O6与白R2–R3–Q4–Q5–Q6–Q7形成平行对峙，黑棋P系列占据要点，白棋Q线略显单薄。",
+      "shapes": [
+        "parallel_lines"
+      ],
+      "local_tags": [
+        "下边对峙",
+        "黑棋占优"
+      ],
+      "key_points": [
+        "P2",
+        "Q2",
+        "R2",
+        "Q4",
+        "P5"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑S5、T7、S8、S9，白S3、T5、S4、R3、Q4、Q5、R6、R7、Q7、R8、S9，T6为空点，黑即将点入，意在分断或搜根。",
+      "shapes": [
+        "critical_fight"
+      ],
+      "local_tags": [
+        "决胜点",
+        "点刺",
+        "分断意图"
+      ],
+      "key_points": [
+        "S5",
+        "T5",
+        "T6",
+        "T7",
+        "S8",
+        "S9"
+      ],
+      "group_status": [
+        "both_critical",
+        "black_attacking",
+        "white_vulnerable"
+      ]
+    }
+  ]
+}

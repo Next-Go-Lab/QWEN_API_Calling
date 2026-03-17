@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_115",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 115,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E12"
+      },
+      {
+        "color": 1,
+        "point": "K14"
+      },
+      {
+        "color": 0,
+        "point": "P12"
+      },
+      {
+        "color": 1,
+        "point": "Q12"
+      },
+      {
+        "color": 0,
+        "point": "K13"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "B13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "实地与外势平衡",
+      "黑棋优势明显",
+      "白棋右下大龙未净活"
+    ],
+    "strategic_focus": [
+      "黑棋巩固中央厚势",
+      "白棋需处理右下孤棋",
+      "左上角存在潜在劫争"
+    ],
+    "global_summary_cn": "黑棋Yu Zhengqi执黑115手，全局厚势连贯，中央与右上实地坚实；白棋Fujisawa Rina在右下（P12–S16）形成大块但气紧、眼位不足，面临攻防压力；左上角（B3–C8）黑棋小飞守角稳固，白棋K3/L3等子略显单薄；当前轮白方行棋，关键点B13为黑棋预留的打入/分断要点。",
+    "phase_explanation": "处于中盘向官子过渡的关键阶段，胜负已趋明朗但局部仍有激烈攻防。黑棋胜率领先，白棋需在右下寻求做活或弃子转换，否则难挽败局。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B3/C3/B4/B5/B6/C6构筑坚实小堡垒，白棋C5/C7/C8呈低位封锁但缺乏深度；D4为白棋尖顶试探点，黑棋尚未应，留有A3/A4等后续手段。",
+      "shapes": [
+        "corner enclosure",
+        "low approach resistance"
+      ],
+      "local_tags": [
+        "黑角稳固",
+        "白封锁乏力",
+        "潜在A3打入"
+      ],
+      "key_points": [
+        "B3",
+        "C3",
+        "C5",
+        "D4"
+      ],
+      "group_status": [
+        "black: alive",
+        "white: unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋K2/K4/K5/K6/L6/M6/N6与白棋K3/L3/M3/N3形成典型上下对峙；黑棋厚势向中央辐射，白棋上边三子孤立无援，缺乏根据地。",
+      "shapes": [
+        "side wall",
+        "floating group"
+      ],
+      "local_tags": [
+        "黑厚势压迫",
+        "白上边漂浮",
+        "K9白棋薄弱"
+      ],
+      "key_points": [
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K9"
+      ],
+      "group_status": [
+        "black: strong",
+        "white: weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q3/R4/R12/S12/R13/R14/Q15/Q16/Q17/R18/T18与白棋P2/O4/N4/O5/N5等构成复杂右上战场；黑棋外势浩荡，白棋O4–N5一线被压制，S13/S14/S15/S16/S18/S19为白棋勉强联络之链，但眼位紧张。",
+      "shapes": [
+        "large framework",
+        "desperate connection"
+      ],
+      "local_tags": [
+        "黑外势宏大",
+        "白右上苦活",
+        "S19为最后眼位"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "O4",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black: dominant",
+        "white: barely alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D7/E12/E14/E15/F16/F15/G17与白棋C7/C8/E8/E9/D6/E6/C5形成中腹缠斗；D13最新落子强化黑棋中腹控制，E12/E14为黑棋双飞燕雏形，白棋J11–L13一带受制。",
+      "shapes": [
+        "central influence",
+        "double-wing formation"
+      ],
+      "local_tags": [
+        "D13加强中腹",
+        "黑双飞燕雏形",
+        "白J11–L13受攻"
+      ],
+      "key_points": [
+        "D7",
+        "E12",
+        "D13",
+        "E14",
+        "E15",
+        "F16",
+        "J11",
+        "K11",
+        "K13"
+      ],
+      "group_status": [
+        "black: influential",
+        "white: pressured"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑棋G10/H10/K10/L10/M10/J11/K11/N11/O11/P11与白棋J10/N10/L11/M11等密集交战；黑棋占据多数交叉点并形成厚壁，白棋虽有数子但被分割，K12/L12/M12/N12/O12/P12为白棋强撑防线，然气紧且无眼。",
+      "shapes": [
+        "thick wall",
+        "cut-off group"
+      ],
+      "local_tags": [
+        "黑中央厚壁",
+        "白中腹断点密布",
+        "K12–P12为生死线"
+      ],
+      "key_points": [
+        "G10",
+        "H10",
+        "K10",
+        "L10",
+        "M10",
+        "J11",
+        "K11",
+        "N11",
+        "P11",
+        "K12",
+        "P12"
+      ],
+      "group_status": [
+        "black: solid",
+        "white: fragmented"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋Q12/Q15/Q16/Q17/R14/R15/R16/R17与白棋P12/O12/N12/M12/L12/K12形成右中腹拉锯；黑棋Q12为最新扳头要点，配合R13/R14施压，白棋K13/L13/M13/N13一线仅存一气，濒临崩溃。",
+      "shapes": [
+        "pressing sequence",
+        "one-liberty group"
+      ],
+      "local_tags": [
+        "Q12扳头定型",
+        "白K13–N13气紧",
+        "R15为白苦活要点"
+      ],
+      "key_points": [
+        "Q12",
+        "R13",
+        "R14",
+        "Q15",
+        "R15",
+        "K13",
+        "L13",
+        "M13"
+      ],
+      "group_status": [
+        "black: attacking",
+        "white: in atari"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋D18/E17/G17与白棋D17/C18/D16/E16构成左下角争夺；黑棋D18尖顶确立实地，白棋C18/D17试图反扑但力量不足；E17/G17呼应中央，黑棋根基扎实。",
+      "shapes": [
+        "corner invasion response",
+        "solid foundation"
+      ],
+      "local_tags": [
+        "D18尖顶定型",
+        "黑左下安定",
+        "白C18无功"
+      ],
+      "key_points": [
+        "D18",
+        "E17",
+        "G17",
+        "C18",
+        "D17"
+      ],
+      "group_status": [
+        "black: alive",
+        "white: ineffective"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F8/G10/H10/H14/H15/H16与白棋E9/K9/M9/J10等形成中下腹交错；黑棋H14/H15/H16构成斜跳阵势，白棋J10/M9略显松散，缺乏有效配合。",
+      "shapes": [
+        "diagonal formation",
+        "loose group"
+      ],
+      "local_tags": [
+        "黑H线斜跳",
+        "白中下分散",
+        "K9孤立"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "H10",
+        "H14",
+        "H15",
+        "H16",
+        "J10",
+        "K9",
+        "M9"
+      ],
+      "group_status": [
+        "black: flexible",
+        "white: scattered"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋T16/T18与白棋R16/S16/R17/S17/T17/S18/S19构成右下角终极战场；白棋S18/S19为最后眼位，R16–T17为勉强联络，但黑棋T16虎补后白棋仅剩微弱一线生机；此区域决定全局生死。",
+      "shapes": [
+        "life-and-death problem",
+        "last-eye race"
+      ],
+      "local_tags": [
+        "白右下大龙危急",
+        "T16虎补致命",
+        "S19为唯一眼"
+      ],
+      "key_points": [
+        "T16",
+        "T18",
+        "R16",
+        "S16",
+        "R17",
+        "S17",
+        "T17",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black: decisive",
+        "white: dead or nearly dead"
+      ]
+    }
+  ]
+}

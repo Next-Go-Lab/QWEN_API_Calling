@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_014",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 14,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "S14"
+      },
+      {
+        "color": 1,
+        "point": "R13"
+      },
+      {
+        "color": 0,
+        "point": "S13"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "R13",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S13",
+      "S14",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "S12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角缠斗",
+      "白棋连压",
+      "黑棋低位拆二"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺"
+    ],
+    "global_summary_cn": "第14手，黑方执先，局面集中于右上角（R12–S14一带）形成连续接触战；白棋在S13/S14/J16/R16/R17构成斜向厚势，黑棋以R12/R13/R14/Q16/Q17回应，呈现局部对攻态势；全局尚处布局早期，双方未大规模定型，中腹空旷，黑方下一着S12意在切断白棋右上联络。",
+    "phase_explanation": "布局阶段：双方在右上角快速落子形成微型战役，尚未进入中盘战斗；黑棋掌握主动权，白棋需处理J16一子与右上厚势的呼应关系。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16为白孤子，附近无配合，暂处轻度受攻状态。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "浅消"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "孤立"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交锋区：白棋S14/S13/J16/R16/R17构成斜长厚势；黑棋R14/R13/R12/Q16/Q17呈反击阵型；S12为当前急所。",
+      "shapes": [
+        "line",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "接触战",
+        "厚势",
+        "攻击点",
+        "急所"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "R14",
+        "S12",
+        "S13",
+        "S14",
+        "J16",
+        "Q16",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "白厚势",
+        "黑攻击组"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅D4一颗白子，位置偏低，暂无发展。",
+      "shapes": [],
+      "local_tags": [
+        "低位守角",
+        "孤立"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "孤立"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何棋子，为未来中腹作战核心预留区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "K–P列、12–15行间存在零星落子，但未形成有效连接；R12–S14下方略显薄弱。",
+      "shapes": [],
+      "local_tags": [
+        "过渡带",
+        "联络待补"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，P4/R4为黑棋低位双子，呈小飞守角雏形，但尚未定型。",
+      "shapes": [
+        "small_knight"
+      ],
+      "local_tags": [
+        "低位守角",
+        "未定型"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "未成型"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全空，无子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_068",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 68,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "M11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S17"
+      },
+      {
+        "color": 0,
+        "point": "S16"
+      },
+      {
+        "color": 1,
+        "point": "T18"
+      },
+      {
+        "color": 0,
+        "point": "T17"
+      },
+      {
+        "color": 1,
+        "point": "M10"
+      },
+      {
+        "color": 0,
+        "point": "M11"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "M10",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "T16",
+      "Q17",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "S13",
+      "S14",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "R16",
+      "S16",
+      "R17",
+      "T17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角定式余波",
+      "中央势力对峙"
+    ],
+    "strategic_focus": [
+      "N11点刺试探",
+      "右上角未净活",
+      "中腹黑棋厚势"
+    ],
+    "global_summary_cn": "第68手，黑方即将落子N11，针对白棋M11一子发起点刺，意图破坏白棋在右上至中央的联络与眼位。当前局面黑棋在右上角（Q16-T18）与右下（R12-S14）形成厚势，白棋则在右上边（S13-S16）、中腹（L11-M11）及左下（C3-C8）多处成形但略显薄味。",
+    "phase_explanation": "中盘中后期，双方在右上角展开连续接触战，近期六手全部集中于右上区域（S17至M11），局部尚未定型；全局重心正从边角向中央转移，N11为关键胜负手候选。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑K2、B4、B5、B6、C3、C6及白P2、F3、C5、C7、C8零星分布，无激烈接触。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（D16、J16、Q16、T16等）黑白交错：黑Q16/T16/ Q17/Q18/R18/T18构成右上厚势顶部，白D16/J16/R16/S16/S15/S14/S13形成封锁链，但气紧。",
+      "shapes": [
+        "ladder_fragment",
+        "wall_vs_framework"
+      ],
+      "local_tags": [
+        "白墙单官",
+        "黑势张开",
+        "眼位不足"
+      ],
+      "key_points": [
+        "Q16",
+        "T16",
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "white_weak_wall",
+        "black_sente_framework"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：黑T18/Q17/Q18/R18与白S19/S18/R17/T17/S16/S15/R15/S14/S13密集交战，白棋大龙未活，黑棋有断点与搜根手段。",
+      "shapes": [
+        "net",
+        "sacrifice_shape",
+        "life_and_death_struggle"
+      ],
+      "local_tags": [
+        "死活未定",
+        "劫材储备不明",
+        "白棋苦活"
+      ],
+      "key_points": [
+        "T18",
+        "S18",
+        "R17",
+        "T17",
+        "S16"
+      ],
+      "group_status": [
+        "white_group_unsettled",
+        "black_attacking_flexibility"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹（K2–M6一带）黑棋连片厚实（K2/K3/K4/K5/K6/L6/M6），白棋L3/M3/N3/L4/L5/M5/O5呈平行阻击阵型，但被黑从中切断联络。",
+      "shapes": [
+        "thick_wall",
+        "parallel_block"
+      ],
+      "local_tags": [
+        "黑棋厚势",
+        "白棋被分断",
+        "无明显眼形"
+      ],
+      "key_points": [
+        "K4",
+        "L5",
+        "M6"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_divided"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央焦点区：黑M10与白L11/M11形成对峙，N11为待落关键点；附近黑N5/N6/M6与白O5/O4/E9等构成潜在对杀结构。",
+      "shapes": [
+        "keima_pressure",
+        "point_attack_setup"
+      ],
+      "local_tags": [
+        "点刺前沿",
+        "气紧对峙",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "M10",
+        "L11",
+        "M11",
+        "N11",
+        "N5"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（O4–R12）黑棋R12/S12/R13/R14/Q15与白N10/R15/S15/R16形成斜向缠斗，黑有外势，白有实地但联络弱。",
+      "shapes": [
+        "diagonal_fight",
+        "influence_vs_territory"
+      ],
+      "local_tags": [
+        "黑外势扩张",
+        "白实地受限",
+        "联络缺陷"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "N10"
+      ],
+      "group_status": [
+        "black_influence_dominant",
+        "white_territory_fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（B4–D7）黑B4/B5/B6/C3/C6/D7与白C5/C7/C8/D4/D6/E6/E8/E9构成典型低中国流变体，黑稍厚，白有侵消余地。",
+      "shapes": [
+        "chinese_style",
+        "invasion_preparation"
+      ],
+      "local_tags": [
+        "布局余韵",
+        "白可肩冲",
+        "黑根基稳固"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "D4",
+        "E9"
+      ],
+      "group_status": [
+        "black_stable_base",
+        "white_potential_invasion"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（F8–M3）黑F8与白E8/E9/F3/G3等散落，无集团对抗，属过渡地带，黑棋略占先手调形空间。",
+      "shapes": [],
+      "local_tags": [
+        "平稳过渡",
+        "无急所"
+      ],
+      "key_points": [
+        "F8",
+        "E9"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（P2–R4）黑Q3/P4/R4/O4与白P2/L3/M3/N3/L4/N4形成小规模接触，黑已活角，白外围薄弱。",
+      "shapes": [
+        "living_corner",
+        "weak_outside"
+      ],
+      "local_tags": [
+        "黑角已活",
+        "白棋欠补"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_needs_defense"
+      ]
+    }
+  ]
+}

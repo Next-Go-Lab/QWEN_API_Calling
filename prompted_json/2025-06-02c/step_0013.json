@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_012",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 12,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L17"
+      },
+      {
+        "color": 0,
+        "point": "Q5"
+      },
+      {
+        "color": 1,
+        "point": "R5"
+      },
+      {
+        "color": 0,
+        "point": "R6"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "Q6"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R4",
+      "R5",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "O3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "white_influence"
+    ],
+    "strategic_focus": [
+      "right_side_pressure",
+      "black_group_vulnerability_at_R4_R5"
+    ],
+    "global_summary_cn": "白棋在右下角连续落子形成压迫，黑棋R4、R5两子孤立且气紧；左上黑棋F17、L17与右上R16构成分散布局，尚未形成有效呼应；全局尚处布局早期，实地与外势平衡未定。",
+    "phase_explanation": "第12手，黑方行棋，局面处于布局阶段中期，双方在右下角展开局部接触战，其余区域多为单官占点，未出现大规模攻防或定式完成形态。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋F17、D16（白）呈高低配合，C14白子遥相策应，左上角未定型。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "asymmetric_corner",
+        "white_influence_extension"
+      ],
+      "key_points": [
+        "F17",
+        "D16",
+        "C14"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅黑L17一子，属浅消试探，无实质结构。",
+      "shapes": [],
+      "local_tags": [
+        "sparse",
+        "probe"
+      ],
+      "key_points": [
+        "L17"
+      ],
+      "group_status": [
+        "black_lonely"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R16单子镇边，缺乏支援，白无子，属待开发区域。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "uncontested_side",
+        "black_solo_presence"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "black_weak_connection"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "全空，无子，属中腹过渡带。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "全空，无子，尚未成为焦点。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_eye_space"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q5、Q6、R6三子连压，黑R5、R4紧贴应对，形成微型对杀雏形；O3为政策目标点，暗示此处为后续急所。",
+      "shapes": [
+        "ladder_fragment",
+        "pressing_wall"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "white_wall",
+        "black_life_threat"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "R5",
+        "R4",
+        "O3"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_low_liberties"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白D4一子守无忧角雏形，黑无应手，属典型先手占角。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "standard_corner",
+        "white_secure"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，连接左右但尚未激活。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_access"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3孤子深入，白Q5-Q6-R6形成上方封锁，Q3面临被搜刮风险；此为当前最紧张局部。",
+      "shapes": [
+        "invasion",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "black_invasion",
+        "white_encirclement",
+        "vulnerable_group"
+      ],
+      "key_points": [
+        "Q3",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_low_liberties",
+        "white_dominant"
+      ]
+    }
+  ]
+}

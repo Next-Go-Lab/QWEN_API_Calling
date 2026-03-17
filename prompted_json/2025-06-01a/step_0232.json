@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_231",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 231,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J8"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "H2"
+      },
+      {
+        "color": 1,
+        "point": "G2"
+      },
+      {
+        "color": 0,
+        "point": "F10"
+      },
+      {
+        "color": 1,
+        "point": "F8"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "J9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑棋微弱优势"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上角劫争余味"
+    ],
+    "global_summary_cn": "全局进入收官尾声，黑棋以B+0.5领先，盘面实地接近但黑棋在右下与中腹保持主动。白棋在左上存一潜在劫材，但无明显逆转手段。",
+    "phase_explanation": "第231手，轮白（to_play: 0），黑刚于F8落子，白需应对右下G7-F8-E9一带的收束；全盘已无大空未定，属典型细微官子阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白B1-B4-C4-D4与黑C1-C3-D3形成低效接触，白B2/B3/ C2被包围但有连络余味；黑C11/D11/E11与白B11构成潜在劫争。",
+      "shapes": [
+        "corner_enclosure",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "劫材余味",
+        "联络未净"
+      ],
+      "key_points": [
+        "B11",
+        "C11",
+        "D11",
+        "E11"
+      ],
+      "group_status": [
+        "white_weak",
+        "black_sente"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白K4-L4-M4-N4与黑J4-P4对峙，黑Q3-R3-S3-S4与白R3-S3-S4形成交错；黑S7-Q7与白R7-Q6构成小规模攻防。",
+      "shapes": [
+        "side_wall",
+        "interlocking_groups"
+      ],
+      "local_tags": [
+        "势力对峙",
+        "轻重未明"
+      ],
+      "key_points": [
+        "J4",
+        "P4",
+        "Q7",
+        "R7"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16-R16-S16-S17与白P16-Q17-R17-S17形成复杂边界；黑R19与白Q17、R17构成外势牵制；白K19-M19为孤棋但有向中腹逃出可能。",
+      "shapes": [
+        "outer_influence",
+        "edge_fighting"
+      ],
+      "local_tags": [
+        "外势主导",
+        "孤棋待治"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "R19",
+        "K19"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑B12-B13-C13-D13与白B11-C10-C13-D16形成缠斗；黑B15-C15-D15与白B16-D16构成上下呼应；白C17-D17-F17与黑B17构成薄味。",
+      "shapes": [
+        "ladder_shape",
+        "side_pressure"
+      ],
+      "local_tags": [
+        "压迫感强",
+        "薄味残留"
+      ],
+      "key_points": [
+        "B12",
+        "C13",
+        "B15",
+        "C17"
+      ],
+      "group_status": [
+        "black_pressing",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑E11-G9-J9-L9-N9与白H10-K10-M10-O11形成大范围势力交织；黑F8-G8与白F10-H8-J8构成右中腹收官焦点；E9为当前政策目标点，是白方扳回关键。",
+      "shapes": [
+        "central_influence",
+        "endgame_bottleneck"
+      ],
+      "local_tags": [
+        "收官要冲",
+        "胜负手候选"
+      ],
+      "key_points": [
+        "E9",
+        "F8",
+        "F10",
+        "H8"
+      ],
+      "group_status": [
+        "black_controlling",
+        "white_responding"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L8-L9-M9-N9与白K8-M8-O9-P9形成厚薄对比；黑Q10-R11与白P11-O11构成局部对杀余味；白M12-Q12与黑L12-N12呈对称平衡。",
+      "shapes": [
+        "thickness_vs_lightness",
+        "symmetric_balance"
+      ],
+      "local_tags": [
+        "厚势压制",
+        "轻灵周旋"
+      ],
+      "key_points": [
+        "L8",
+        "Q10",
+        "P11",
+        "M12"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C1-F1-F2-C2与白B1-B2-D2-E2形成经典低位对围；黑C5-D5-E5-F5与白C4-D4-E4构成实地消长；白B5与黑B12存在跨区域联络试探。",
+      "shapes": [
+        "low_side_enclosure",
+        "territory_exchange"
+      ],
+      "local_tags": [
+        "实地稳固",
+        "交换清晰"
+      ],
+      "key_points": [
+        "C1",
+        "F1",
+        "C5",
+        "B5"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_compensated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G2-H3-J4与白H2-J2-J3-K3形成犬牙交错；黑F3-F4-F5-F6与白E2-E3-E4-E5-E6构成纵向拉锯；白H6-J6与黑G7构成攻防转换点。",
+      "shapes": [
+        "interlocking_chain",
+        "vertical_tension"
+      ],
+      "local_tags": [
+        "缠斗密集",
+        "气紧风险"
+      ],
+      "key_points": [
+        "G2",
+        "H3",
+        "F4",
+        "G7"
+      ],
+      "group_status": [
+        "complex",
+        "mutual_vulnerability"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑G2-G8-G9与白H2-H8-H9-J8-J9构成核心收官区；黑F8与白F10形成‘二路夹击’态势；E9为白方唯一可争之目，若失则实空告罄。",
+      "shapes": [
+        "endgame_eye_shape",
+        "final_territory_determination"
+      ],
+      "local_tags": [
+        "终局定型",
+        "单官决胜"
+      ],
+      "key_points": [
+        "F8",
+        "F10",
+        "G8",
+        "E9"
+      ],
+      "group_status": [
+        "black_near_complete",
+        "white_last_chance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_010",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 10,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "O17"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "asymmetric_development"
+    ],
+    "strategic_focus": [
+      "right_side_influence",
+      "bottom_left_vulnerability",
+      "center_projection"
+    ],
+    "global_summary_cn": "黑棋在右下与右上形成两处主动出击态势，白棋在左上与左下布下厚势但尚未连贯；全局呈现黑棋取势、白棋守中带攻的早期格局。",
+    "phase_explanation": "第10手，双方尚处布局初期，黑棋已占据R6、R14、Q16等高位要点，白棋则在D3-D4、O17-F17一线构筑低位实空基础，C4为关键拆二点，意在强化左下黑阵薄弱侧翼。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋F17与O17构成斜跳守角结构，黑棋无子，属白势力范围但未完全安定。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "white_corner",
+        "unsettled"
+      ],
+      "key_points": [
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "alive_by_shape"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅白棋D16一子孤立，无明显集团，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_invasion_point"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q16单子高挂，白无应手，形成高位威慑，牵制右上发展。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "black_high_point",
+        "influence_projection"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3与白D3、D4形成经典小目定式前奏，局部即将进入接触战。",
+      "shapes": [
+        "small_knot",
+        "head_on_head"
+      ],
+      "local_tags": [
+        "joseki_start",
+        "tension_zone"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，是未来双方势力辐射交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "strategic_center"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R6与R14构成双飞燕雏形，对白右方形成压迫，白暂无对应子。",
+      "shapes": [
+        "two_stones_with_gap"
+      ],
+      "local_tags": [
+        "black_pressure",
+        "expansion_axis"
+      ],
+      "key_points": [
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3为唯一黑子，白D3、D4紧邻压制，此区域黑棋根基薄弱，C4为急所。",
+      "shapes": [
+        "vulnerable_base"
+      ],
+      "local_tags": [
+        "weak_black_group",
+        "urgent_point"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4",
+        "C4"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，黑Q3孤子略显单薄，尚未构成有效联络。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "black_outlier",
+        "low_priority"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R6与R14纵向呼应，控制右下大场，白无子，属黑主导区域。",
+      "shapes": [
+        "vertical_alignment"
+      ],
+      "local_tags": [
+        "black_control",
+        "territorial_potential"
+      ],
+      "key_points": [
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "dominant"
+      ]
+    }
+  ]
+}

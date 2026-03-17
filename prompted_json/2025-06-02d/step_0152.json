@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_151",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 151,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "S6"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "B14"
+      },
+      {
+        "color": 1,
+        "point": "C13"
+      },
+      {
+        "color": 0,
+        "point": "C14"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "R7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "S9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "S12",
+      "B13",
+      "C13",
+      "D13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "R15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "Q17",
+      "T17",
+      "M18",
+      "N18",
+      "Q18",
+      "T18",
+      "P19"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "S6",
+      "F7",
+      "N7",
+      "Q7",
+      "S7",
+      "G8",
+      "Q8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "B14",
+      "C14",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "T15",
+      "L16",
+      "O16",
+      "S16",
+      "L17",
+      "O17",
+      "P17",
+      "S17",
+      "L18",
+      "O18",
+      "R18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "白棋优势",
+      "实地定型"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上孤棋治孤"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，白棋凭借右下与中腹厚势占据明显优势，黑棋在左上B14-C14-D14一带存在未安定孤棋，E14为关键扳点意图制造头绪。",
+    "phase_explanation": "第151手，轮白（to_play=0），黑方刚于D13落子，白方需应对左上黑棋扩张并巩固右下实地。局面已无大规模攻防，转入精细化收官。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B14/C14/D14与白棋B14/C14/D14/D14形成接触战，黑棋三子尚未活净，白棋K13/F13构成外势呼应。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "孤棋",
+        "对杀雏形",
+        "扳点密集"
+      ],
+      "key_points": [
+        "B14",
+        "C14",
+        "D14",
+        "D13",
+        "C13"
+      ],
+      "group_status": [
+        "黑未活",
+        "白厚势"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋L14/L15/N15/O15/Q15/R15与白棋K15/O14/P14/R14形成上下两层势力对峙，黑棋有向上透点可能。",
+      "shapes": [
+        "chain",
+        "ladder"
+      ],
+      "local_tags": [
+        "势力交错",
+        "透点试探"
+      ],
+      "key_points": [
+        "L14",
+        "L15",
+        "N15",
+        "O15",
+        "Q15",
+        "R15",
+        "K15",
+        "O14",
+        "P14",
+        "R14"
+      ],
+      "group_status": [
+        "黑厚",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S15/T15/S16/S17/R18与黑棋S14/S13/R12/S12构成右上角收束，白棋已基本围住角地，黑棋仅存小块活动空间。",
+      "shapes": [
+        "territory",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "实地已定",
+        "残子处理"
+      ],
+      "key_points": [
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "T15",
+        "S16",
+        "S17",
+        "R18"
+      ],
+      "group_status": [
+        "白活",
+        "黑残"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋C9/C11/D11/E11与白棋C6/D6/E6/F6形成中腹与边路拉锯，黑棋C7/E7/G7/H7呈斜飞阵势，白棋F7/G8施压。",
+      "shapes": [
+        "diagonal",
+        "wall"
+      ],
+      "local_tags": [
+        "中腹厚势",
+        "边路渗透"
+      ],
+      "key_points": [
+        "C7",
+        "C9",
+        "C11",
+        "D11",
+        "E11",
+        "F7",
+        "G8",
+        "C6",
+        "D6",
+        "E6",
+        "F6"
+      ],
+      "group_status": [
+        "黑厚",
+        "白侵消"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷区域以黑棋H11/H12/K11/K13与白棋G10/G11/Q11/Q12为主导，双方均未深入，属待定大场。",
+      "shapes": [
+        "influence_zone"
+      ],
+      "local_tags": [
+        "中央影响力",
+        "大场预留"
+      ],
+      "key_points": [
+        "H11",
+        "H12",
+        "K11",
+        "K13",
+        "G10",
+        "G11",
+        "Q11",
+        "Q12"
+      ],
+      "group_status": [
+        "双厚",
+        "未接触"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋O13/P12/P11/Q10与白棋N12/O12/Q12/R13形成中腹右侧缠斗，白棋R13为关键守角子，黑棋P12有断点隐患。",
+      "shapes": [
+        "net",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "断点威胁",
+        "守角稳固"
+      ],
+      "key_points": [
+        "O13",
+        "P12",
+        "P11",
+        "Q10",
+        "N12",
+        "O12",
+        "Q12",
+        "R13"
+      ],
+      "group_status": [
+        "黑薄",
+        "白稳"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋F3/J3/L3/M3/P3与白棋C3/D3/E3/H3/H2构成左下角复杂布局，黑棋大模样未成，白棋C4/H4形成双飞燕式限制。",
+      "shapes": [
+        "moyo",
+        "enclosure"
+      ],
+      "local_tags": [
+        "模样未成",
+        "双飞燕压制"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "L3",
+        "M3",
+        "P3",
+        "C3",
+        "D3",
+        "E3",
+        "H3",
+        "H2",
+        "C4",
+        "H4"
+      ],
+      "group_status": [
+        "黑虚",
+        "白实"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋E4/F4/G7/H7与白棋F6/H6/J6/N6形成中下部厚势对峙，黑棋F8/H8/L8/N8/O8/S8呈长蛇状，白棋G8/Q8/R8反制。",
+      "shapes": [
+        "dragon",
+        "counter_attack"
+      ],
+      "local_tags": [
+        "长龙游走",
+        "反制要点"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G7",
+        "H7",
+        "F8",
+        "H8",
+        "L8",
+        "N8",
+        "O8",
+        "S8",
+        "F6",
+        "H6",
+        "J6",
+        "N6",
+        "G8",
+        "Q8",
+        "R8"
+      ],
+      "group_status": [
+        "黑长",
+        "白断"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋R5/S6/S7/Q7/Q8与黑棋R6/R7/S9构成右下角实地争夺，白棋已确立坚实角地，黑棋R9/S9为最后试探，但无实质威胁。",
+      "shapes": [
+        "territory",
+        "endgame"
+      ],
+      "local_tags": [
+        "实地已固",
+        "终局收束"
+      ],
+      "key_points": [
+        "R5",
+        "S6",
+        "S7",
+        "Q7",
+        "Q8",
+        "R6",
+        "R7",
+        "R9",
+        "S9"
+      ],
+      "group_status": [
+        "白活",
+        "黑退"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_064",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 64,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F8"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "T16"
+      },
+      {
+        "color": 0,
+        "point": "S15"
+      },
+      {
+        "color": 1,
+        "point": "S17"
+      },
+      {
+        "color": 0,
+        "point": "S16"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "T16",
+      "Q17",
+      "S17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "R16",
+      "S16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "T18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "S16附近接触战"
+    ],
+    "global_summary_cn": "第64手，黑方即将落子，局面处于中盘关键阶段。右上角（Q15–S18）形成密集接触战，白棋占据S15、S16、R16、S14等要点，黑棋以Q16、T16、S17、R18等构成反击阵型；左下与中腹黑棋有数块未安定棋形，白棋在L3–N5一带成厚势；全局实地接近，但黑棋握有主动权。",
+    "phase_explanation": "中盘中后期，双方在多个局部持续交换，尚未进入明显收官，但已有部分边角定型。右上为当前最激烈战场，胜负手可能由此产生。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本空旷，仅有零星几子：黑K2、K3（白）、K4、K5、K6，白L3、L4、L5，构成小规模对峙，无明显战斗。",
+      "shapes": [],
+      "local_tags": [
+        "平淡",
+        "未开发"
+      ],
+      "key_points": [
+        "K2",
+        "K3",
+        "K4",
+        "L3",
+        "L4"
+      ],
+      "group_status": [
+        "黑孤子",
+        "白厚壁"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空，黑Q3、P4、O4、R4、R12–R14、Q15、Q16、Q17、Q18，白N3、N4、O5、L11，黑棋在R12–Q18一线形成向上延伸的势力，但尚未围空。",
+      "shapes": [
+        "直线型黑势"
+      ],
+      "local_tags": [
+        "黑势蔓延",
+        "未封口"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "R12",
+        "R13"
+      ],
+      "group_status": [
+        "黑未安定",
+        "白零散"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：黑Q16、T16、S17、Q17、R18、S12–S14（？误，S12/S13/S14为黑，但S14实际为白？校验：state.black_stones含S12/S13/S14？不，black_stones含S12,S13,S14；white_stones含S13? no — white_stones含S13? no, white has S13? no — white_stones: ['...','S13','S14',...] → yes, white has S13,S14; black has S12,R12,R13,R14,Q15,Q16,T16,Q17,S17,Q18,R18 → so S12 black, S13 white, S14 white, S15 white, S16 white, S17 black, S18 white, S19 white → thus vertical white wall S13–S19 except S17 black → key conflict at S17 vs S16/S15/S18.",
+      "shapes": [
+        "白竖壁",
+        "黑尖冲",
+        "劫争雏形"
+      ],
+      "local_tags": [
+        "主战场",
+        "接触战",
+        "劫材敏感"
+      ],
+      "key_points": [
+        "S15",
+        "S16",
+        "S17",
+        "T16",
+        "R16"
+      ],
+      "group_status": [
+        "白厚势",
+        "黑打入",
+        "双活可能"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹：黑D7、F8、C6–C8、B4–B6，白C5、C7、C8、E6、E8、E9，形成左右拉锯。黑F8刚落，白E8立即应，显示此处为次级焦点。",
+      "shapes": [
+        "斜跳结构",
+        "小飞守角"
+      ],
+      "local_tags": [
+        "次级接触点",
+        "轻重转换"
+      ],
+      "key_points": [
+        "F8",
+        "E8",
+        "D7",
+        "C6",
+        "E6"
+      ],
+      "group_status": [
+        "黑可弃",
+        "白联络强"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，仅黑N5、M6、L6、M5，白M3、N3、O5、L5，呈分散态势，尚无成形大模样，但黑有向中腹发展的意图。",
+      "shapes": [],
+      "local_tags": [
+        "待发展",
+        "影响力辐射"
+      ],
+      "key_points": [
+        "N5",
+        "M6",
+        "L6"
+      ],
+      "group_status": [
+        "黑薄",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹稀疏：黑R12–R14、Q15，白N10、L11、R15、R16、S15–S16，黑棋从上方压下，白棋在R15–S16构筑防线，存在潜在切断点。",
+      "shapes": [
+        "断点结构"
+      ],
+      "local_tags": [
+        "潜在分断",
+        "呼应薄弱"
+      ],
+      "key_points": [
+        "R15",
+        "R16",
+        "S15",
+        "S16",
+        "R14"
+      ],
+      "group_status": [
+        "白连络勉强",
+        "黑伺机"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4、B5、B6、C3、C6、D4、D6、E6，白C5、C7、C8、D4（白）、F3，黑棋占据角地但外势单薄，白棋在C列形成厚壁。",
+      "shapes": [
+        "黑角空",
+        "白厚壁"
+      ],
+      "local_tags": [
+        "实地优先",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "D4",
+        "C3",
+        "F3"
+      ],
+      "group_status": [
+        "黑安定",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅黑P2、Q3、O4、R4，白P2（白）、F3（白），其余为空点，属双方潜在发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未涉足"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "O4"
+      ],
+      "group_status": [
+        "无集团"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角：黑无子，白P2、N3、M3、L3、S19、S18、R17、S16、R16、S15、S14、S13，白棋在右下至右边形成庞大厚势，但尚未围空，黑暂无侵入迹象。",
+      "shapes": [
+        "白大模样",
+        "外势浮夸"
+      ],
+      "local_tags": [
+        "厚势未实",
+        "黑未挑战"
+      ],
+      "key_points": [
+        "S19",
+        "S18",
+        "R17",
+        "S16"
+      ],
+      "group_status": [
+        "白厚而不固",
+        "黑观望"
+      ]
+    }
+  ]
+}

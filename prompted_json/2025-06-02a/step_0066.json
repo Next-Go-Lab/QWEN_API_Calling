@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_065",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 65,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "A8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "D8"
+      },
+      {
+        "color": 0,
+        "point": "D9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "A8"
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "D9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左上孤棋治孤",
+      "中央势力构建"
+    ],
+    "global_summary_cn": "第65手，黑方刚于A8落子，形成左上角新战场；白棋在右下（R3-R8）与中腹（D2-D6）拥有厚实外势，黑棋则在左下（B1-B6）、中腹（E4-G7）及右上（Q16）多处展开实地争夺与联络。全局呈黑棋主动侵消、白棋借势反击态势。",
+    "phase_explanation": "中盘阶段后期，双方在多个局部持续交换，黑棋试图打破白棋外势，白棋则寻求围空与攻击平衡；当前焦点集中于左上A8新点引发的攻防连锁反应。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑A8为最新一手，配合黑B2/B3/C3/C4与白A4/B1/C2构成复杂角部对杀雏形；黑棋有向C1、B9扩张意图。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部对杀",
+        "新战点",
+        "黑棋试应手"
+      ],
+      "key_points": [
+        "A8",
+        "A4",
+        "B1",
+        "B2",
+        "C3"
+      ],
+      "group_status": [
+        "黑A8孤立待援",
+        "白A4活形稳固"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "右上Q16为黑孤子，附近白D16/F17/O17构成大模样雏形；黑暂无强攻手段，白有拆边或镇头可能。",
+      "shapes": [
+        "isolated_stone",
+        "framework"
+      ],
+      "local_tags": [
+        "高位孤棋",
+        "白模样",
+        "潜在镇头"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "黑Q16单官守角",
+        "白三子构空潜力大"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R3/R8/Q4/Q5/Q6/Q7/Q8与黑Q2/Q3/P3/P4/P5/R4/R5/R6/R7形成密集边路对抗；白棋厚势明显，黑棋多为低位实地。",
+      "shapes": [
+        "side_wall",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑低位实利",
+        "边路拉锯"
+      ],
+      "key_points": [
+        "R8",
+        "Q7",
+        "P4",
+        "R6"
+      ],
+      "group_status": [
+        "白R3-Q8连片厚势",
+        "黑P3-R7呈断点链"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹B5-C6-D5-D6-E5-E6-F5-F6-G5-G6区域黑白交错；白C6/D6/E6/F6与黑B5/C5/D5/E4/F4/G4形成典型‘网格战’，双方均未净活。",
+      "shapes": [
+        "mesh",
+        "mutual_eye_space"
+      ],
+      "local_tags": [
+        "网格攻防",
+        "共活未定",
+        "中腹腾挪"
+      ],
+      "key_points": [
+        "D5",
+        "E6",
+        "F4",
+        "C6"
+      ],
+      "group_status": [
+        "黑白数块相互牵制",
+        "E5为共活要点"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央E7/E8/D8/A8与白B7/C8构成左中腹主战场；黑E7为近期关键打入，白E8、D9反夹，黑A8为呼应一击，局面高度敏感。",
+      "shapes": [
+        "invasion",
+        "squeeze"
+      ],
+      "local_tags": [
+        "黑深入腹地",
+        "白夹击反制",
+        "A8呼应"
+      ],
+      "key_points": [
+        "E7",
+        "E8",
+        "D8",
+        "A8",
+        "B7"
+      ],
+      "group_status": [
+        "黑E7孤子受攻",
+        "白B7-C8具攻击弹性"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹O3-O4-O6-Q5区域：黑O3/O6与白O4/Q5形成斜向对峙；黑R14为远距离策应子，白Q6/Q7具压迫性。",
+      "shapes": [
+        "diagonal_confrontation",
+        "distant_support"
+      ],
+      "local_tags": [
+        "斜线对抗",
+        "远应R14",
+        "白Q线压制"
+      ],
+      "key_points": [
+        "O3",
+        "O4",
+        "Q5",
+        "R14"
+      ],
+      "group_status": [
+        "黑O3-O6不连通",
+        "白Q5-Q7具封锁力"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角H1/B2/H2/B3/C3/G3/B5/C5等黑棋密集，白B1/C2/E2/F2/G2/J2构成厚势外圈；黑有做活空间但需防白打入。",
+      "shapes": [
+        "corner_life",
+        "surrounding_wall"
+      ],
+      "local_tags": [
+        "黑角实地",
+        "白外势包围",
+        "活形待补"
+      ],
+      "key_points": [
+        "H1",
+        "B2",
+        "C2",
+        "G2",
+        "B5"
+      ],
+      "group_status": [
+        "黑角基本活",
+        "白外势未完全封口"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边D3/E2/F2/G2/G3/G4/G5/H5/H6区域：白D3/E2/F2/G2与黑G3/G4/G5/H6形成‘葫芦底’式争夺；黑H6为高点，白H5为应手。",
+      "shapes": [
+        "lower_side_battle",
+        "height_contest"
+      ],
+      "local_tags": [
+        "葫芦底",
+        "高低争点",
+        "H6制高"
+      ],
+      "key_points": [
+        "D3",
+        "G3",
+        "H6",
+        "H5"
+      ],
+      "group_status": [
+        "黑G3-H6成势",
+        "白D3-H5具联络性"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角R2-R3-R4-R5-R6-R7-R8与白Q2-Q3-Q4-Q5-Q6-Q7-Q8形成超大边空博弈；黑R2未落子，白已控大半边，黑仅存R14远程策应。",
+      "shapes": [
+        "large_side_framework",
+        "remote_influence"
+      ],
+      "local_tags": [
+        "白大模样",
+        "黑R14遥攻",
+        "边空未定"
+      ],
+      "key_points": [
+        "R8",
+        "Q4",
+        "R14"
+      ],
+      "group_status": [
+        "白Q2-R8近似成空",
+        "黑R14为唯一破空手段"
+      ]
+    }
+  ]
+}

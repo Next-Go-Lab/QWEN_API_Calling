@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_005",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 5,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "C15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布局",
+      "星位与小目配置",
+      "黑白错小目"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "左下挂角应对",
+      "中腹潜力预留"
+    ],
+    "global_summary_cn": "黑棋以Q16、Q3、C15构成右上与左上双飞燕雏形，白棋D4、D17分守两翼小目，局面处于典型中国流前期布阵阶段，尚未形成实地定型，重在势力呼应与拆边节奏。",
+    "phase_explanation": "第五手，属布局早期；双方均未进入定式攻防，侧重大场占点与子力平衡，无死活或劫争要素。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑C15单官跳入，试探白左上势力，尚未构成明确形状。",
+      "shapes": [],
+      "local_tags": [
+        "试探性跳"
+      ],
+      "key_points": [
+        "C15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属中央高位战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷高位"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16（星位）与Q3（小目）形成右上大斜飞结构，白暂无应手，存在双关潜力。",
+      "shapes": [
+        "大斜飞"
+      ],
+      "local_tags": [
+        "星位",
+        "小目",
+        "大斜飞"
+      ],
+      "key_points": [
+        "Q16",
+        "Q3"
+      ],
+      "group_status": [
+        "未成型"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，临近黑C15但无直接关联，属待发展侧翼。",
+      "shapes": [],
+      "local_tags": [
+        "空旷侧翼"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，全局中枢，未来可能成为势力交汇点或打入目标。",
+      "shapes": [],
+      "local_tags": [
+        "中枢空点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，连接右上黑阵与中腹，为后续拆二或镇头提供空间。",
+      "shapes": [],
+      "local_tags": [
+        "连接要道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白D17占据小目，黑无子，属白方稳固一翼。",
+      "shapes": [
+        "小目"
+      ],
+      "local_tags": [
+        "白小目",
+        "守势"
+      ],
+      "key_points": [
+        "D17"
+      ],
+      "group_status": [
+        "安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，靠近白D4与黑C15斜线延伸带，潜在拆逼或夹击区域。",
+      "shapes": [],
+      "local_tags": [
+        "斜线延伸带"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白D4占据小目，黑无子，与右上黑阵遥相呼应，构成对角布局。",
+      "shapes": [
+        "小目"
+      ],
+      "local_tags": [
+        "白小目",
+        "对角布局"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "安定"
+      ]
+    }
+  ]
+}

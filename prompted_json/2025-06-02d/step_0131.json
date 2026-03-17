@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_130",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 130,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N18"
+      },
+      {
+        "color": 0,
+        "point": "L18"
+      },
+      {
+        "color": 1,
+        "point": "M18"
+      },
+      {
+        "color": 0,
+        "point": "S15"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "M18",
+      "N18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "L18",
+      "O18"
+    ]
+  },
+  "targets": {
+    "policy_target": "R15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "白优势",
+      "边角争夺激烈",
+      "中央未定型"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力判断",
+      "左下实地确认"
+    ],
+    "global_summary_cn": "棋局进行至第130手，白方领先，进入官子收束关键期。右上角（L18–O18–S15）形成复杂劫争与对杀余味；中腹黑棋K6、M16等子与白棋L17、O16等构成势力对峙；左下黑F3–P3与白C3–H3形成稳固实地对比；全局无明显死活危机，但多处存在细微目数出入。",
+    "phase_explanation": "属收官中后期，双方围绕边空边界与残子效率展开精确计算，白方握有贴目优势，黑方需在右上寻求逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑D4/E4/F4与白C3/C4/D3形成低地对抗，黑C7/E7/G7与白F7/G8构成小规模接触战，局部平稳。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "实地",
+        "安定",
+        "低围"
+      ],
+      "key_points": [
+        "D4",
+        "C3",
+        "C7",
+        "F7"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑J10/L10/R10与白H10/N10/O10形成平行对峙，黑R9/Q9与白Q9/O9交错，存在细微目数争夺，无明显战斗。",
+      "shapes": [
+        "side_line"
+      ],
+      "local_tags": [
+        "比目",
+        "平稳",
+        "边界"
+      ],
+      "key_points": [
+        "J10",
+        "H10",
+        "R9",
+        "Q9"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度动态：黑M18/N18、白L18/O18、黑S15/白S15构成劫材与对杀焦点；黑Q15/P16与白P15/O16互瞄弱点，是当前最富变化区域。",
+      "shapes": [
+        "fighting_corner",
+        "sacrifice_potential"
+      ],
+      "local_tags": [
+        "劫争",
+        "对杀余味",
+        "急所密集"
+      ],
+      "key_points": [
+        "M18",
+        "L18",
+        "O18",
+        "S15",
+        "Q15",
+        "P15"
+      ],
+      "group_status": [
+        "uncertain",
+        "mutual_eye_shape"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B13/C11/D11与白F13/K13形成高低配置，黑E9/H9与白G9/K9构成横向牵制，黑势略厚但未深入白阵。",
+      "shapes": [
+        "influence_wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "未侵消",
+        "方向性"
+      ],
+      "key_points": [
+        "B13",
+        "F13",
+        "E9",
+        "G9"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_defensive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑K6/M16/P16与白L17/O16/P17呈犬牙交错之势，黑J17/M17与白L17/P17构成潜在对攻点，尚未形成明确大模样。",
+      "shapes": [
+        "floating_groups",
+        "potential_framework"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "势力平衡",
+        "轻重待判"
+      ],
+      "key_points": [
+        "K6",
+        "J17",
+        "M16",
+        "L17"
+      ],
+      "group_status": [
+        "unsettled",
+        "mutual_pressure"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N9/O9/R9与白O9/Q9/Q10及黑Q11/P11形成交叉控制带，黑N10与白O10紧邻，存在小规模劫争可能。",
+      "shapes": [
+        "cross_control"
+      ],
+      "local_tags": [
+        "纠缠",
+        "劫材储备",
+        "边界模糊"
+      ],
+      "key_points": [
+        "N9",
+        "O9",
+        "Q10",
+        "Q11"
+      ],
+      "group_status": [
+        "partially_contested"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑F3/J3/L3/M3/P3与白C3/D3/E3/H3/H2形成典型实地vs外势结构，黑已围出坚实实地，白仅存微弱渗透可能。",
+      "shapes": [
+        "solid_territory"
+      ],
+      "local_tags": [
+        "实地完成",
+        "安定",
+        "无变"
+      ],
+      "key_points": [
+        "F3",
+        "C3",
+        "H2",
+        "J3"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_dead_or_small"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E7/G7/H7/K7与白F6/H6/J6/F7形成混战遗留，黑K4/J5与白H5/H4构成低位缠斗，局部已大致定型。",
+      "shapes": [
+        "settled_fight"
+      ],
+      "local_tags": [
+        "定式后续",
+        "目数收束",
+        "无险"
+      ],
+      "key_points": [
+        "E7",
+        "F6",
+        "K4",
+        "H5"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑Q6/R6/S8与白R5/Q4/P4/O4形成典型边空争夺，黑S13/S14与白R13/R14/S15构成收官末端接触，白占据主动。",
+      "shapes": [
+        "endgame_boundary"
+      ],
+      "local_tags": [
+        "官子要点",
+        "先手价值",
+        "白主导"
+      ],
+      "key_points": [
+        "Q6",
+        "R5",
+        "S13",
+        "S15"
+      ],
+      "group_status": [
+        "white_advantaged",
+        "black_defending"
+      ]
+    }
+  ]
+}

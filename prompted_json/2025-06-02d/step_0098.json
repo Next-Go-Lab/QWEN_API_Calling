@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_097",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 97,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K14"
+      },
+      {
+        "color": 1,
+        "point": "H8"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "L15"
+      },
+      {
+        "color": 0,
+        "point": "K15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "L14",
+      "L15",
+      "N15",
+      "Q15",
+      "D16",
+      "K16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "K13",
+      "N13",
+      "K14",
+      "K15",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "L17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋优势",
+      "边角定型中",
+      "中央潜力"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中腹厚势构建",
+      "左下实地巩固"
+    ],
+    "global_summary_cn": "第97手，黑方刚于K16落子，白方即将在L17应手。当前局面白棋全局厚实，尤其右上与中腹形成呼应；黑棋虽在左下和中腹有成空潜力，但多处薄味待补。双方近期频繁在K线附近交换，局部攻防激烈。",
+    "phase_explanation": "中盘后期，胜负关键在于中央厚势转化与边角收官效率。白棋凭借K14、K15、L16等连续压迫占据主动，黑棋K16为勉强腾挪，但L17是白棋最佳反击点，可威胁黑棋中腹数子联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3-D3-E3-H3与黑C4-D4-E4形成平稳分野，无明显战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白Q4-R4-R5-Q7与黑P3-Q6-R6-R9构成复杂接触，白棋稍厚，黑棋有断点隐患。",
+      "shapes": [
+        "side",
+        "contact"
+      ],
+      "local_tags": [
+        "白厚",
+        "黑薄"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "Q6",
+        "R9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对攻，白G9-K9-O9-Q9与黑J10-L10-R10-R11形成大模样对抗，K11为双方眼位焦点。",
+      "shapes": [
+        "moyo",
+        "fighting"
+      ],
+      "local_tags": [
+        "大模样",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "G9",
+        "K9",
+        "K11",
+        "R11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C7-E7-H9与白C6-D6-E6-G8-G10形成缠斗，E6为最新白子，压制黑棋出头。",
+      "shapes": [
+        "ladder",
+        "press"
+      ],
+      "local_tags": [
+        "压制",
+        "出头受阻"
+      ],
+      "key_points": [
+        "C6",
+        "E6",
+        "E7",
+        "G8"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，黑H8-L8-N8-O8与白G10-H10-N10-O10形成对峙，K13、N13为白棋跳入要点。",
+      "shapes": [
+        "influence",
+        "balance"
+      ],
+      "local_tags": [
+        "势力平衡",
+        "跳入点"
+      ],
+      "key_points": [
+        "H8",
+        "K13",
+        "N13",
+        "O10"
+      ],
+      "group_status": [
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K14-K15-K16与白L15-K15-L16形成尖锐对杀，L17为白棋扳头兼搜根一手。",
+      "shapes": [
+        "sacrifice",
+        "attack"
+      ],
+      "local_tags": [
+        "对杀",
+        "搜根"
+      ],
+      "key_points": [
+        "K14",
+        "K15",
+        "K16",
+        "L16",
+        "L17"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑F3-J3-L3-M3-P3与白H2-C3-D3-E3-H3构成实地与外势转换，黑棋已围定小空。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "实地",
+        "安定"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "H2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑N5-O7-P7与白N2-N3-O4-P4-Q4形成交错，黑棋稍显松散，白有侵消余地。",
+      "shapes": [
+        "loose",
+        "invasion"
+      ],
+      "local_tags": [
+        "松散",
+        "可侵消"
+      ],
+      "key_points": [
+        "N5",
+        "O7",
+        "P4",
+        "Q4"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q6-R6-S8-R9与白R5-Q7-Q9-R8形成未净活角，S8为黑棋试应手，白Q9为守角关键。",
+      "shapes": [
+        "corner",
+        "unsettled"
+      ],
+      "local_tags": [
+        "未净活",
+        "试应手"
+      ],
+      "key_points": [
+        "Q6",
+        "S8",
+        "Q9",
+        "R8"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

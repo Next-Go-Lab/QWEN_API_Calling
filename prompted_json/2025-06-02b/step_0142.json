@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_141",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 141,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "O7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P8"
+      },
+      {
+        "color": 0,
+        "point": "P9"
+      },
+      {
+        "color": 1,
+        "point": "R7"
+      },
+      {
+        "color": 0,
+        "point": "Q7"
+      },
+      {
+        "color": 1,
+        "point": "O7"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "C9",
+      "L9",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "S17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "Q7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "C10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "实地争夺激烈",
+      "右下角劫争余波",
+      "黑棋厚势主导"
+    ],
+    "strategic_focus": [
+      "右下角白空未净",
+      "中央黑厚味待发挥",
+      "左上白棋薄味隐忧"
+    ],
+    "global_summary_cn": "第141手，黑方Yu Zhengqi执黑，局面进入中盘向官子过渡的关键阶段。黑棋在右下角（O7、P8、Q7等）连续落子压缩白空，形成潜在劫争或搜刮机会；中央黑棋厚实（K10–P11一带），对白棋中腹潜力构成压制；左上白棋（B9–C13）虽有根据地但联络略显单薄；全局黑棋实地稍优，白棋需在边角寻求补偿。",
+    "phase_explanation": "当前为中盘收官交汇期：局部战斗（如右下O7系列）尚未完全终结，但全局已无大规模攻防，胜负取决于细微目数与劫材储备。黑棋掌握主动，白棋面临守势压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋成空但外围松散，黑棋C9、B10、B12等子构成浅消姿态。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白角空",
+        "黑浅消",
+        "联络隐忧"
+      ],
+      "key_points": [
+        "B9",
+        "C9",
+        "B10",
+        "C13"
+      ],
+      "group_status": [
+        "白活棋",
+        "黑未深入"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方交错，白J9–K9–L9与黑L10–K10对峙，呈平稳分断态势。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "对峙平衡",
+        "分断未明"
+      ],
+      "key_points": [
+        "J9",
+        "K9",
+        "L9",
+        "K10",
+        "L10"
+      ],
+      "group_status": [
+        "双方均势",
+        "无明显死活危机"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上白棋S13–S14–S15–S16–S18成大模样，但黑Q15–Q16–Q17–R17持续侵削，外势渐厚。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "白模样",
+        "黑侵削",
+        "外势扩张"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "R17",
+        "S13"
+      ],
+      "group_status": [
+        "白未封口",
+        "黑势厚"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑D12–D13–E14与白C13–D12–E12纠缠，黑棋占据主动，白E11–E12略显凝重。",
+      "shapes": [
+        "fighting"
+      ],
+      "local_tags": [
+        "黑压迫",
+        "白凝形",
+        "潜在断点"
+      ],
+      "key_points": [
+        "D12",
+        "D13",
+        "E14",
+        "E11",
+        "C13"
+      ],
+      "group_status": [
+        "黑优势",
+        "白需补强"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋K11–N11–O11–P11成厚势铁壁，辐射影响上下两翼；白E11、L11孤立难连。",
+      "shapes": [
+        "thickness"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "辐射力强",
+        "白孤棋"
+      ],
+      "key_points": [
+        "K11",
+        "N11",
+        "O11",
+        "P11",
+        "E11"
+      ],
+      "group_status": [
+        "黑厚无可破",
+        "白难以渗透"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O4–P4–R4与白N3–O5–P9形成复杂接触，近期O7–P8–Q7–R7系列着法聚焦于此，白空将被大幅压缩。",
+      "shapes": [
+        "fighting",
+        "reduction"
+      ],
+      "local_tags": [
+        "右下主战场",
+        "黑连续搜刮",
+        "白空未定"
+      ],
+      "key_points": [
+        "O7",
+        "P8",
+        "Q7",
+        "R7",
+        "P9"
+      ],
+      "group_status": [
+        "白空待确认",
+        "黑胜率高"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B4–B5–B6–C6与白C3–C5–D4形成经典低位对峙，黑棋根基扎实，白C3略显单薄。",
+      "shapes": [
+        "corner",
+        "low_side"
+      ],
+      "local_tags": [
+        "黑坚实",
+        "白低位弱",
+        "实地优先"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "C5",
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "黑安定",
+        "白可弃"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F7–F8–G10与白E6–E7–E8–F3交织，黑棋K2–K3–K4–K5–K6–L6–M6–N6–N5构成庞大厚势基底。",
+      "shapes": [
+        "thickness",
+        "side"
+      ],
+      "local_tags": [
+        "黑厚势基底",
+        "白分散",
+        "低位缠斗"
+      ],
+      "key_points": [
+        "F7",
+        "F8",
+        "K2",
+        "K5",
+        "N5"
+      ],
+      "group_status": [
+        "黑整体厚",
+        "白无险"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑O4–O5–O7–P8–R7与白N3–N4–O5–P2–P9形成密集接触，Q9–P9–Q7–O7构成最新攻防链，白空岌岌可危。",
+      "shapes": [
+        "corner",
+        "fighting",
+        "sente"
+      ],
+      "local_tags": [
+        "主战场",
+        "黑先手搜刮",
+        "白劫材劣势"
+      ],
+      "key_points": [
+        "O4",
+        "O7",
+        "P8",
+        "Q7",
+        "P9"
+      ],
+      "group_status": [
+        "白空将损",
+        "黑掌控节奏"
+      ]
+    }
+  ]
+}

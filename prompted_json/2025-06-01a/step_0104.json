@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_103",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 103,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K4"
+      },
+      {
+        "color": 1,
+        "point": "H3"
+      },
+      {
+        "color": 0,
+        "point": "J2"
+      },
+      {
+        "color": 1,
+        "point": "J5"
+      },
+      {
+        "color": 0,
+        "point": "K5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "P3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "H6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上薄味处理"
+    ],
+    "global_summary_cn": "第103手，黑方刚于G5落子，形成右下角复杂对杀局面；白棋在K4、J2、K5等处构筑防线，黑棋H3、J5、G5连续打入，意图破眼或出头；全局呈现黑棋主动挑起战斗、白棋依托厚势周旋态势。",
+    "phase_explanation": "当前处于中盘中后期，双方在右下（D2–K5区域）展开密集接触战，多处未定型；左上（A1–F6）白棋大模样初具规模但存在断点；中腹（G7–M12）尚空旷，为后续胜负关键；黑棋握有先手，需判断是否扩大战果或转至他处。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在A1–F6构筑大模样，含A4/B4/C4/D4/E4连片厚势，但C2/D3/E1等黑子构成潜在侵消点；B3/E3白子略显单薄。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "白棋模样",
+        "黑棋侵消点",
+        "薄味"
+      ],
+      "key_points": [
+        "A4",
+        "B3",
+        "C2",
+        "D3"
+      ],
+      "group_status": [
+        "alive",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，仅零星子力：Q2/R2/R3/Q3/R4黑子与Q4/Q5/R6/R7白子形成对峙；Q7/S7/S8黑子构成小堡垒，但孤立。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "孤子",
+        "联络薄弱",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "Q7",
+        "S7",
+        "Q4",
+        "R6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型：Q16/R16/R17/Q17黑阵 vs B16/D16/D17白子；黑棋M17–P17连片厚势，白棋N18/O18/P18试图压缩但尚未深入。",
+      "shapes": [
+        "territory",
+        "wall"
+      ],
+      "local_tags": [
+        "黑棋实空",
+        "白棋压缩",
+        "边界未净"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "N18"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹（D10–E16）黑棋C11/D11/D13/E14/F14连贯扩张，白棋C13/E15/F15/G15形成阻击链；D15/E16黑子与白棋F15形成对峙。",
+      "shapes": [
+        "ladder",
+        "chain"
+      ],
+      "local_tags": [
+        "黑棋势力",
+        "白棋阻击",
+        "对峙前沿"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "C13",
+        "E15"
+      ],
+      "group_status": [
+        "fighting",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹核心（F7–M12）几乎无子，属战略真空区；G7/G8/S8黑子与E7/F7/H7白子呈环形包围态，但未封闭；H6为政策目标点，是未来打入/腾挪关键。",
+      "shapes": [
+        "vacant",
+        "ring"
+      ],
+      "local_tags": [
+        "战略要地",
+        "打入点",
+        "腾挪枢纽"
+      ],
+      "key_points": [
+        "H6",
+        "G7",
+        "E7",
+        "H7"
+      ],
+      "group_status": [
+        "empty",
+        "critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（K3–P7）高度密集：黑棋J4/K3/N3/O5/P5与白棋J3/K4/L4/J6/P6等交错；J5/G5/H3黑子构成攻击箭头，直指白棋K5/M5/Q5弱点。",
+      "shapes": [
+        "net",
+        "attack"
+      ],
+      "local_tags": [
+        "黑棋攻击",
+        "白棋眼位紧张",
+        "对杀雏形"
+      ],
+      "key_points": [
+        "J5",
+        "G5",
+        "K5",
+        "M5"
+      ],
+      "group_status": [
+        "fighting",
+        "life_and_death"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A1–F6）已成混战区：黑棋D1/E1/C2/F2/C3/D3/E5/F5/G5与白棋D2/E2/B3/E3/C4/D4/E4/F4等犬牙交错；黑棋F3/H3与白棋J2/K4形成典型‘三线攻防’。",
+      "shapes": [
+        "entanglement",
+        "border_fight"
+      ],
+      "local_tags": [
+        "混战",
+        "三线攻防",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "F3",
+        "H3",
+        "J2",
+        "K4"
+      ],
+      "group_status": [
+        "fighting",
+        "life_and_death"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央（G1–M6）以黑棋F6/G7/M6与白棋G6/J6为主导；黑棋H3/J4/K3与白棋J2/K4/K5形成纵向拉锯；G5最新落子强化黑棋中腹联络。",
+      "shapes": [
+        "vertical_fight",
+        "connection"
+      ],
+      "local_tags": [
+        "纵向攻防",
+        "联络要点",
+        "新落子影响"
+      ],
+      "key_points": [
+        "G5",
+        "H3",
+        "J4",
+        "G6"
+      ],
+      "group_status": [
+        "fighting",
+        "connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（J2–R6）为当前主战场：黑棋J4/K3/N3/P4/R4/R5与白棋J2/K4/L4/O4/Q4/Q5/R6等密集交战；G5/J5/H3/K5构成四角围剿结构，白棋K5为生死眼位。",
+      "shapes": [
+        "encirclement",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "四角围剿"
+      ],
+      "key_points": [
+        "G5",
+        "J5",
+        "K5",
+        "H3"
+      ],
+      "group_status": [
+        "critical",
+        "life_and_death"
+      ]
+    }
+  ]
+}

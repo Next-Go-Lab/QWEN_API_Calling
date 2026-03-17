@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_061",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 61,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "D6"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "C8"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D6",
+      "E7",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "中央控制权争夺",
+      "C7-C8一带攻防焦点",
+      "右下白棋大模样"
+    ],
+    "global_summary_cn": "第61手，轮白方行棋。黑棋在左上、中腹及右下形成多块孤棋，白棋占据右下大空并构筑中央厚势；近期连续在E9-E7-G9-D6-C7-C8形成激烈接触战，B7为白方关键打入点。",
+    "phase_explanation": "中盘阶段，双方在中腹与右下展开大规模攻防，黑棋试图侵消白棋势力，白棋借厚势反攻黑棋薄弱环节。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋O3/Q3/R4/R5与白棋F3/C4/D4构成角部定式余味，黑棋B5稍显单薄，白棋C7已深入黑阵。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部未净",
+        "白棋侵入"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "B5"
+      ],
+      "group_status": [
+        "黑棋不活",
+        "白棋厚实"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋C10/F10/D11/E11/F11/C12/C13/D13/M13/Q13/D14/J14/Q14/J15/H16/K16/R16/F17/L17/Q17/D18与白棋Q5/Q6/R6/Q10/B11/C11/B12/D12/E12/L12/B13/C14/K14/P14/C15/F15/K15/M15/D16/P16/P17形成复杂中上腹缠斗，黑棋数子孤立。",
+      "shapes": [
+        "side",
+        "floating_group"
+      ],
+      "local_tags": [
+        "中腹薄味",
+        "白棋厚势",
+        "黑棋孤棋"
+      ],
+      "key_points": [
+        "C12",
+        "D12",
+        "E12",
+        "J14",
+        "K14"
+      ],
+      "group_status": [
+        "黑棋危险",
+        "白棋联络"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋Q5/Q6/R6/Q10/P14/P16/P17与黑棋R4/R5/R12/Q13/Q14/R16/Q17构成右上大模样雏形，黑棋Q13/Q14略显勉强。",
+      "shapes": [
+        "moyo"
+      ],
+      "local_tags": [
+        "白棋模様",
+        "黑棋浅消"
+      ],
+      "key_points": [
+        "Q5",
+        "Q10",
+        "P14",
+        "Q17"
+      ],
+      "group_status": [
+        "白棋厚",
+        "黑棋漂浮"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B5/C7/C8/D8/D6/E7/E9/G9与白棋C7/E8/E9/G9形成密集接触战，C7-C8为当前主战场，B7是白方待选打入点。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防焦点",
+        "打入点"
+      ],
+      "key_points": [
+        "C7",
+        "C8",
+        "D6",
+        "E7",
+        "B7"
+      ],
+      "group_status": [
+        "黑棋受攻",
+        "白棋主动"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑棋D6/E7/E9/G9与白棋E8/E9/G9/D10/E10/F10等围绕中央展开拉锯，黑棋E7-C8一线尚未安定，白棋中央厚势明显。",
+      "shapes": [
+        "central_thick"
+      ],
+      "local_tags": [
+        "中央厚势",
+        "黑棋不安定"
+      ],
+      "key_points": [
+        "D6",
+        "E7",
+        "E9",
+        "G9",
+        "D10"
+      ],
+      "group_status": [
+        "白棋厚",
+        "黑棋弱"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋F10/D11/E11/F11/C12/D12/E12与白棋D10/E10/Q10/B11/C11/B12等形成中腹右侧混战，白棋局部厚实且有联络优势。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "中腹混战",
+        "白棋联络"
+      ],
+      "key_points": [
+        "D10",
+        "E10",
+        "F10",
+        "D11",
+        "E11"
+      ],
+      "group_status": [
+        "黑棋分散",
+        "白棋厚"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B5与白棋C4/D4/C7构成左下角部残局，黑棋B5孤立，白棋C7已深入，黑棋无有效反击手段。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部劣势",
+        "黑棋单官"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4",
+        "C7"
+      ],
+      "group_status": [
+        "黑棋死活未定",
+        "白棋安全"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋D6/E7与白棋E8/E9/G9/D10/E10形成中下腹交界处激烈对抗，黑棋D6-E7被白棋包围感强。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "下腹受压",
+        "白棋压迫"
+      ],
+      "key_points": [
+        "D6",
+        "E7",
+        "E8",
+        "E9",
+        "D10"
+      ],
+      "group_status": [
+        "黑棋苦活",
+        "白棋主导"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋F3/Q3/Q5/Q6/R6/Q10/P14/P16/P17与黑棋O3/Q3/R4/R5/R12/Q13/Q14/R16/Q17构成右下大空，白棋实地雄厚，黑棋仅外围浅消。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "白棋大空",
+        "黑棋浅消"
+      ],
+      "key_points": [
+        "Q3",
+        "Q5",
+        "R6",
+        "P14",
+        "P16"
+      ],
+      "group_status": [
+        "白棋安定",
+        "黑棋无效"
+      ]
+    }
+  ]
+}

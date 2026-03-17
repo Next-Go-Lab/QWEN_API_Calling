@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_273",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 273,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "L11"
+      },
+      {
+        "color": 1,
+        "point": "K12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "H8"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "K6",
+      "M6",
+      "O6",
+      "R6",
+      "T6",
+      "E7",
+      "F7",
+      "G7",
+      "J7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "H8",
+      "K8",
+      "H9",
+      "J9",
+      "K9",
+      "L9",
+      "M9",
+      "B10",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "A12",
+      "C12",
+      "D12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "B13",
+      "H13",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "A14",
+      "C14",
+      "E14",
+      "G14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "Q15",
+      "R15",
+      "P16",
+      "Q16",
+      "S16"
+    ],
+    "white_stones": [
+      "J2",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "G8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "F9",
+      "G9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "D10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "L11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "C13",
+      "D13",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "B14",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "B15",
+      "G15",
+      "J15",
+      "L15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "G16",
+      "H16",
+      "J16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "P17",
+      "Q17",
+      "R17",
+      "S17",
+      "H18",
+      "K18",
+      "H19",
+      "K19"
+    ]
+  },
+  "targets": {
+    "policy_target": "G10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_fight_residual",
+      "territory_border_clash"
+    ],
+    "strategic_focus": [
+      "G10_invasion_point",
+      "Q15_last_move_pressure",
+      "L11_white_eye_shape_threat"
+    ],
+    "global_summary_cn": "终局阶段，黑棋以Q15强化右上角势力并施压白棋L11眼形，全局呈现细棋格局；黑棋在中腹与右下拥有厚势，白棋依托边角构筑多块活棋但联络存疑；G10为关键打入点，可能动摇白棋中腹根基。",
+    "phase_explanation": "第273手，黑方行棋（to_play=0表示黑方即将落子），属官子收束后期。双方在右上、中腹、右下形成多处未完全定型的边界争夺，局部存在劫争余味与眼位对杀可能。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋A5-A9连片活棋，黑棋A1-C4构成低位厚势，无激烈冲突。",
+      "shapes": [
+        "corner_enclosure",
+        "low_side_wall"
+      ],
+      "local_tags": [
+        "settled",
+        "white_alive"
+      ],
+      "key_points": [
+        "A5",
+        "A1",
+        "C4"
+      ],
+      "group_status": [
+        "white_group_stable",
+        "black_wall_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋Q4-Q8成空，黑棋P2-T4构成外势，Q5/Q6/Q7为白棋联络要点；黑棋R4/R5/R6施压。",
+      "shapes": [
+        "side_framework",
+        "floating_group"
+      ],
+      "local_tags": [
+        "white_territory",
+        "black_pressure"
+      ],
+      "key_points": [
+        "Q4",
+        "Q5",
+        "R4",
+        "R6"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_outside_influence"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑Q15最新一手压制白J16、K16、O16等子，白棋L14-O14一线眼位受逼；黑Q16/S16与白P17/Q17形成边界拉锯。",
+      "shapes": [
+        "border_fight",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "active_endgame",
+        "Q15_pressure",
+        "L11_ko_threat"
+      ],
+      "key_points": [
+        "Q15",
+        "J16",
+        "L14",
+        "P17"
+      ],
+      "group_status": [
+        "white_group_vulnerable",
+        "black_attacking"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋B10-B14与白棋C10-C14对峙，黑F10/H10/K11与白E12/J12形成斜向攻防；D11/E11为双方接触焦点。",
+      "shapes": [
+        "central_skirmish",
+        "diagonal_fight"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "D11_critical"
+      ],
+      "key_points": [
+        "B11",
+        "D11",
+        "E11",
+        "E12"
+      ],
+      "group_status": [
+        "mutual_weakness",
+        "unclosed_groups"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑H8/K8/K9/L9/M9与白L8/M8/N8/O8形成大范围缠斗；G10为黑方预设打入点，直指白棋中腹眼位核心。",
+      "shapes": [
+        "central_invasion_target",
+        "meshed_groups"
+      ],
+      "local_tags": [
+        "G10_target",
+        "central_ko_potential"
+      ],
+      "key_points": [
+        "G10",
+        "H8",
+        "K9",
+        "N8"
+      ],
+      "group_status": [
+        "white_eye_uncertain",
+        "black_preparing_invasion"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P11-Q13与白O12-P12-Q10形成上下夹击；黑O13/P13/Q13厚势压迫白N12/O12眼形，白L11孤子受攻。",
+      "shapes": [
+        "squeeze_position",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "L11_weak",
+        "O13_pressure"
+      ],
+      "key_points": [
+        "L11",
+        "O13",
+        "P12",
+        "Q11"
+      ],
+      "group_status": [
+        "white_l11_dangling",
+        "black_surrounding"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A1-A4/B2-B3/C1-C4构成坚实低位阵型，白A5/A6/A7已活，黑棋无进攻空间，属安定区域。",
+      "shapes": [
+        "low_corner_base",
+        "settled_territory"
+      ],
+      "local_tags": [
+        "black_safe",
+        "no_conflict"
+      ],
+      "key_points": [
+        "A1",
+        "A5",
+        "C4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑E1-F4-G4与白E5-F5-G5对顶，黑F6/H6/K6与白E6/F6/G6形成交错；黑G7/J7与白F7/G7争夺中腹入口。",
+      "shapes": [
+        "edge_clash",
+        "interlocking"
+      ],
+      "local_tags": [
+        "F6_contact",
+        "G7_border"
+      ],
+      "key_points": [
+        "F6",
+        "G7",
+        "E5",
+        "J7"
+      ],
+      "group_status": [
+        "tension_high",
+        "no_clear_owner"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P2-T4与白O4-Q8形成典型边空对抗；黑R4-R7与白Q5-Q8反复争夺，黑S16与白R16-S17构成最后官子收束。",
+      "shapes": [
+        "side_fight",
+        "endgame_sequence"
+      ],
+      "local_tags": [
+        "R16_S17_endgame",
+        "P2_pressure"
+      ],
+      "key_points": [
+        "P2",
+        "R4",
+        "Q5",
+        "S16"
+      ],
+      "group_status": [
+        "white_territory_narrowing",
+        "black_final_points"
+      ]
+    }
+  ]
+}

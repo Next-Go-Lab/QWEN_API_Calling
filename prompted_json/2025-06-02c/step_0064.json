@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_063",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 63,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "D6"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "C8"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "B8"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D6",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋优势",
+      "边角争夺激烈",
+      "中央尚未定型"
+    ],
+    "strategic_focus": [
+      "白棋巩固右下实地",
+      "黑棋试图在左上与中腹寻求补偿",
+      "C5为关键打入点"
+    ],
+    "global_summary_cn": "第63手，轮白（Ueno Risa）行棋。当前局面白棋通过右下与左下厚势确立明显优势，黑棋虽在左上和中腹有潜力，但缺乏明确进攻手段；C5是全局最富战略价值的未落子点，关系到中央势力与边路联络。",
+    "phase_explanation": "中盘阶段后期，双方已完成大部分布局与浅消，进入实地与外势平衡的关键判断期；白棋掌握主动权，黑棋需在有限空间内寻找逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋O3、Q3、R4、R5构成小堡垒，白棋C4、D4压制下方，B5为黑跳点；局部呈对峙态。",
+      "shapes": [
+        "corner_enclosure",
+        "side_pressure"
+      ],
+      "local_tags": [
+        "黑角未净",
+        "白取势"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_sente"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑E7、F10–F11、C10–C12、D11–D13等呈斜向连络趋势；白E8–E9–G9形成轻灵封锁带。",
+      "shapes": [
+        "diagonal_chain",
+        "light_blockade"
+      ],
+      "local_tags": [
+        "黑未连通",
+        "白灵活"
+      ],
+      "key_points": [
+        "G9",
+        "E7",
+        "F10"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q5、Q6、R6、Q10、Q13、Q14、Q17与黑R4、R5、R12、Q13、Q14、Q17形成复杂交错；右上角基本属白，但黑有Q13/Q14双飞燕余味。",
+      "shapes": [
+        "corner_fight",
+        "double_flying_swan"
+      ],
+      "local_tags": [
+        "白实空为主",
+        "黑留劫材"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "R6"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_sente_option"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑B5–B8–C7–C8–B7–C11–B11–B12–B13–C14与白C4–D4–C7–C8–B7–B11–C11–B12–B13–C14密集缠斗；B8为最新白扳，C7/C8/B7已成对杀焦点。",
+      "shapes": [
+        "ladder",
+        "net",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "对杀进行中",
+        "白扳强硬"
+      ],
+      "key_points": [
+        "B8",
+        "C7",
+        "C8",
+        "B7"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "mutual_vulnerability"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑D6、E7、F10–F11、E11、D11、C12、D12、E12、J14–J15、H16、K16、L17与白D10–E10、K14–K15、M15、F15、D16；C5为空点，为唯一可深入中央的入口。",
+      "shapes": [
+        "central_void",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "C5要害",
+        "中央待定"
+      ],
+      "key_points": [
+        "C5",
+        "D6",
+        "E10",
+        "J14"
+      ],
+      "group_status": [
+        "neutral_zone",
+        "invasion_target"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白P14、P16、P17、K14–K15–M15与黑J14–J15、H16、K16、L17、Q17形成右中腹厚薄对比；白厚势向中央辐射，黑略显单薄。",
+      "shapes": [
+        "thickness_radiation",
+        "thin_group"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑需补强"
+      ],
+      "key_points": [
+        "P14",
+        "K15",
+        "J14",
+        "H16"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑D18、F17、D14、C13–D13与白F3、C4、D4、B11–C11–B12–D12–E12、C14、D16构成大范围攻防；黑D14–C13–D13为眼形雏形，白B11–C11施压。",
+      "shapes": [
+        "eye_shape",
+        "pressure_from_side"
+      ],
+      "local_tags": [
+        "黑活形初具",
+        "白持续压迫"
+      ],
+      "key_points": [
+        "D14",
+        "C13",
+        "B11",
+        "D12"
+      ],
+      "group_status": [
+        "black_almost_alive",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑E7、D6、C7–C8–B7–B8与白E8–E9–G9、D10–E10、F10–F11–E11–D11构成中腹下部主战场；白占据主动，黑数子受攻。",
+      "shapes": [
+        "fighting_cluster",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "白主导",
+        "黑苦活"
+      ],
+      "key_points": [
+        "E7",
+        "D6",
+        "E8",
+        "D10"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_struggling"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白F3、Q3、Q5、Q6、R6、Q10、Q13–Q17、P14–P17与黑O3、R4、R5、R12、Q13–Q17、R16构成庞大右下模块；白实空坚实，黑Q13–Q14存侵分可能。",
+      "shapes": [
+        "large_territory",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "白实空稳固",
+        "黑仅余侵分"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "P14",
+        "R6"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_sente_only"
+      ]
+    }
+  ]
+}

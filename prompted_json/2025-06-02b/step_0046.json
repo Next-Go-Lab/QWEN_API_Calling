@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_045",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 45,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "C6"
+      },
+      {
+        "color": 0,
+        "point": "F3"
+      },
+      {
+        "color": 1,
+        "point": "B4"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "B4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力构建",
+      "左上大模样潜力"
+    ],
+    "global_summary_cn": "第45手，黑方刚于D7落子，形成对白棋D6、C6的压迫；白棋在右下（R12-S19）与左上（Q15-S19）构筑大模样，黑棋则在左下（B4-D7）及中腹（L6-N6）积极渗透；全局呈现黑取实地、白争外势的典型格局。",
+    "phase_explanation": "中盘阶段，双方在多个战场同步展开：右下角存在未定型攻防，中央黑棋试图联络孤子，左上白棋大模样尚未完全成空，黑棋有打入试探机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在Q15-S19构成高耸大模样，黑棋Q16-Q18嵌入其中，形成薄味；S13-S14白子呼应，但Q17附近存在断点隐患。",
+      "shapes": [
+        "territory",
+        "framework"
+      ],
+      "local_tags": [
+        "白模",
+        "黑侵消",
+        "断点"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S19"
+      ],
+      "group_status": [
+        "white_floating_framework",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋R15、R16、R17、S18连成厚壁，黑棋Q17、R18局部接触战未定；D16白子孤立但牵制黑上方发展。",
+      "shapes": [
+        "wall",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "厚壁",
+        "孤子",
+        "牵制"
+      ],
+      "key_points": [
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "D16"
+      ],
+      "group_status": [
+        "white_thick_wall",
+        "white_isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋J16、S13、S14占据高位，黑棋无子深入；该区为空旷战略要地，白棋可向中腹或右路扩张。",
+      "shapes": [
+        "empty_area",
+        "influence_zone"
+      ],
+      "local_tags": [
+        "白势",
+        "空旷",
+        "扩张方向"
+      ],
+      "key_points": [
+        "J16",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "white_influence_only"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋K5、L6、M6、N6形成横向厚势，白棋L4、L5、M5、N5紧贴压制；D4白子与C6黑子形成左下角对峙焦点。",
+      "shapes": [
+        "line",
+        "confrontation"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白压强",
+        "角部对峙"
+      ],
+      "key_points": [
+        "K5",
+        "L6",
+        "M6",
+        "N6",
+        "L4",
+        "L5",
+        "M5",
+        "N5",
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "black_thick_line",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅存黑N10、白L11构成松散对峙；黑棋若走E6（policy_target）将威胁白D6、D7联络，是当前战略要点。",
+      "shapes": [
+        "sparse",
+        "key_intersection"
+      ],
+      "local_tags": [
+        "中枢空点",
+        "联络要害",
+        "政策目标点"
+      ],
+      "key_points": [
+        "N10",
+        "L11",
+        "E6"
+      ],
+      "group_status": [
+        "loose_confrontation",
+        "critical_intersection"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋O4、P4、R4、Q3、R3与白棋P2、M3、N3、O5形成右下角复杂缠斗；黑R4、Q3与白P2构成劫材关联，局部未净活。",
+      "shapes": [
+        "corner_fight",
+        "life_death_unclear"
+      ],
+      "local_tags": [
+        "角战",
+        "未活净",
+        "劫材链"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "R4",
+        "Q3",
+        "R3",
+        "P2",
+        "M3",
+        "N3",
+        "O5"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "mutual_sente"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B4、D7与白棋D4、D6、C6构成经典‘小目·无忧角’变体攻防；黑D7为最新一手，意在切断白D6-C6联络，形成攻击主线。",
+      "shapes": [
+        "corner_structure",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "小目攻防",
+        "切断点",
+        "攻击主线"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "C6",
+        "D6",
+        "D7"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_vulnerable_link"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F3被白棋包围，但黑J3、Q3遥相呼应；白棋F3、M3、N3呈雁行阵，意图封锁黑下方发展。",
+      "shapes": [
+        "surrounded_stone",
+        "formation"
+      ],
+      "local_tags": [
+        "被围子",
+        "雁行阵",
+        "封锁意图"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "Q3",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "black_surrounded",
+        "white_forming_barrier"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R12-R14、S12与白棋S13-S14、R15激烈对撞；黑R12-R14试图做活，白S13-S14反扑，局部已进入死活计算阶段。",
+      "shapes": [
+        "life_death_battle",
+        "edge_contact"
+      ],
+      "local_tags": [
+        "死活战",
+        "边线接触",
+        "做活尝试"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "R14",
+        "S12",
+        "S13",
+        "S14",
+        "R15"
+      ],
+      "group_status": [
+        "black_struggling_to_live",
+        "white_attacking_edge"
+      ]
+    }
+  ]
+}

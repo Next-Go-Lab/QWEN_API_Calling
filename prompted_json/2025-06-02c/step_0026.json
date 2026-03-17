@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_025",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 25,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "M13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q13"
+      },
+      {
+        "color": 0,
+        "point": "M15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      },
+      {
+        "color": 0,
+        "point": "F3"
+      },
+      {
+        "color": 1,
+        "point": "M13"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "M13",
+      "Q13",
+      "Q14",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "K15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角争夺",
+      "白棋主动"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "左下孤子"
+    ],
+    "global_summary_cn": "第25手，黑方刚于M13落子，白方即将在K15应手。当前局面呈现典型中盘格局：右上角（Q13/Q14/M15/P14）形成复杂接触战；左下F3白子孤立但有发展余地；右下黑棋O3/Q3/R4/R5构筑厚势；左上黑F17/L17/Q17与白D16/P16/P17对峙；中腹尚空，K15为双方争抢要点。",
+    "phase_explanation": "处于中盘战斗初期，局部尚未定型，关键在于右上角攻防延伸与中腹势力消长。白方掌握主动权，黑方需谨慎处理M13一子的联络与眼位。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角对峙：黑F17/L17/Q17成斜阵，白D16/P16/P17反向压制，Q17与P16构成紧邻接触。",
+      "shapes": [
+        "diagonal_fortress",
+        "opposing_wall"
+      ],
+      "local_tags": [
+        "角部对峙",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "F17",
+        "D16",
+        "Q17",
+        "P16"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑K16单子镇头，白C14孤子偏左，暂无直接冲突。",
+      "shapes": [
+        "single_stone_anchor"
+      ],
+      "local_tags": [
+        "镇头试探",
+        "空旷地带"
+      ],
+      "key_points": [
+        "K16",
+        "C14"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈接触：黑Q13/Q14/R16、白P14/M15/Q10、黑M13新落子构成多点纠缠，K15为急所。",
+      "shapes": [
+        "contact_fight",
+        "triangular_pressure"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "急所待落"
+      ],
+      "key_points": [
+        "Q13",
+        "P14",
+        "M15",
+        "M13",
+        "K15"
+      ],
+      "group_status": [
+        "mixed_groups_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹稀疏，黑R12单子孤立，白无对应子力，存在潜在打入点。",
+      "shapes": [
+        "lone_stone"
+      ],
+      "local_tags": [
+        "中腹薄弱",
+        "可侵入"
+      ],
+      "key_points": [
+        "R12"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何棋子，是未来势力扩张与战役主战场。",
+      "shapes": [
+        "empty_center"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "未开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹有黑Q13/M13/R12与白Q10/P14/M15交错，呈斜向对峙，尚未连通。",
+      "shapes": [
+        "scattered_conflict"
+      ],
+      "local_tags": [
+        "联络未定",
+        "眼位敏感"
+      ],
+      "key_points": [
+        "Q13",
+        "M13",
+        "Q10",
+        "P14"
+      ],
+      "group_status": [
+        "groups_separated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角白F3孤子深入，黑无近邻压制，但外围有O3/Q3等子呼应，具攻击潜力。",
+      "shapes": [
+        "deep_invasion"
+      ],
+      "local_tags": [
+        "孤子风险",
+        "攻击预备"
+      ],
+      "key_points": [
+        "F3"
+      ],
+      "group_status": [
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，黑O3/Q3/R4/R5形成右下厚势，白无子进入，属黑优势区域。",
+      "shapes": [
+        "thick_base"
+      ],
+      "local_tags": [
+        "厚势成型",
+        "实地稳固"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "black_solid"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R4/R5/R6？（注：R6为白子）实际为黑白交错：白Q5/Q6/R6与黑Q3/R4相邻，构成小规模接触。",
+      "shapes": [
+        "edge_contact"
+      ],
+      "local_tags": [
+        "边角接触",
+        "实地争夺"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "Q3",
+        "R4"
+      ],
+      "group_status": [
+        "mixed_edge_groups"
+      ]
+    }
+  ]
+}

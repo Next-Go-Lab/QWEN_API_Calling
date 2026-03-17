@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_113",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 113,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M4"
+      },
+      {
+        "color": 1,
+        "point": "K2"
+      },
+      {
+        "color": 0,
+        "point": "N4"
+      },
+      {
+        "color": 1,
+        "point": "O3"
+      },
+      {
+        "color": 0,
+        "point": "N6"
+      },
+      {
+        "color": 1,
+        "point": "P2"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "L6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_right_eye_space",
+      "center_influence_vs_territory",
+      "white_group_vulnerability_at_L6"
+    ],
+    "global_summary_cn": "全局进入官子阶段，黑棋在右下角拥有明显实地优势，白棋中腹大龙尚未活净，L6是关键攻防点；双方在边角持续争夺细微目数，黑棋稍优。",
+    "phase_explanation": "第113手为黑方（Son Makoto）落子P2，延续右下施压；白方上一手N6试图加固中腹但留下L6断点，当前局面属典型后半盘收束阶段，胜负取决于局部死活与官子精度。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [
+        "corner_enclosure",
+        "light_framework"
+      ],
+      "local_tags": [
+        "settled",
+        "low_tension"
+      ],
+      "key_points": [
+        "D1",
+        "C2",
+        "B3",
+        "A4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段呈对峙态势，黑Q16/R16与白B16/D16形成高低配合，但未直接接触。",
+      "shapes": [
+        "side_framework",
+        "floating_stones"
+      ],
+      "local_tags": [
+        "influence_oriented",
+        "unsettled_periphery"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "B16",
+        "D16"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_floating"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑M17–P17与白Q17–R17形成对称边空，白棋稍厚但实地略少。",
+      "shapes": [
+        "side_territory",
+        "mirror_balance"
+      ],
+      "local_tags": [
+        "balanced",
+        "low_priority"
+      ],
+      "key_points": [
+        "M17",
+        "N17",
+        "O17",
+        "P17",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_territorial"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑C11–D13与白C9–C13形成薄厚对比，黑有侵消潜力。",
+      "shapes": [
+        "leaning_attack",
+        "wall_vs_invader"
+      ],
+      "local_tags": [
+        "potential_invasion",
+        "white_weak_side"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "D13",
+        "C9",
+        "C13"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_fragile"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑E14/F14/E16与白E15/F15/G15/H15构成复杂交互，存在眼形与味道问题。",
+      "shapes": [
+        "central_web",
+        "eye_shape_contest"
+      ],
+      "local_tags": [
+        "life_and_death_unclear",
+        "mutual_sente"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E16",
+        "E15",
+        "F15",
+        "G15",
+        "H15"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N5/O5/P5与白M5/Q5形成横向对峙，L6为双方必争断点。",
+      "shapes": [
+        "ladder_related",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "critical_ladder",
+        "cutting_point_L6"
+      ],
+      "key_points": [
+        "N5",
+        "O5",
+        "P5",
+        "M5",
+        "Q5",
+        "L6"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D1–F3与白D2–E4形成经典小目定式后续，已大致安定。",
+      "shapes": [
+        "corner_settled",
+        "standard_sequence"
+      ],
+      "local_tags": [
+        "settled",
+        "no_urgent_tasks"
+      ],
+      "key_points": [
+        "D1",
+        "E1",
+        "C2",
+        "F2",
+        "D2",
+        "E2",
+        "C3",
+        "D3",
+        "F3",
+        "D4",
+        "E4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑J4/J5/K2–K3与白J2/J3/K4/L4形成缠斗残局，黑稍主动。",
+      "shapes": [
+        "running_fight",
+        "sacrifice_potential"
+      ],
+      "local_tags": [
+        "black_sente",
+        "white_compromised"
+      ],
+      "key_points": [
+        "J4",
+        "J5",
+        "K2",
+        "K3",
+        "J2",
+        "J3",
+        "K4",
+        "L4"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_restricted"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑M2–R4与白M3–Q4激烈交错，P2/N4/O3等连续落子显示此处为收官主战场，L6是决定白大龙生死的关键。",
+      "shapes": [
+        "life_and_death_battle",
+        "territory_encroachment"
+      ],
+      "local_tags": [
+        "decisive_region",
+        "white_group_at_risk",
+        "black_pressing"
+      ],
+      "key_points": [
+        "M2",
+        "P2",
+        "Q2",
+        "R2",
+        "K2",
+        "O3",
+        "M3",
+        "M4",
+        "N4",
+        "O4",
+        "Q4",
+        "L6"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_unstable"
+      ]
+    }
+  ]
+}

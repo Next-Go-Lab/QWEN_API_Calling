@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_018",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 18,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "L16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "R5"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "R6",
+      "R11",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "R5_area_contest",
+      "Q15_L16_connection",
+      "bottom_right_influence"
+    ],
+    "global_summary_cn": "第18手，黑方即将落子，局面处于开局向中盘过渡阶段；右上角（R5-R11-Q15-L16）形成局部攻防焦点，白棋刚在R5打入，黑棋试图封锁；左下角黑F3/E4/F4与白D3/E3/C4构成基础定式雏形；全局厚薄尚均衡，但右上侧翼张力突出。",
+    "phase_explanation": "Early opening: corner enclosures incomplete, side extensions contested, no major life-death yet; influence vs. territory balance still fluid."
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑D16、白L16、白P17散落，无成形势力，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "undeveloped"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部空白，无任何着子，为典型未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交锋区：黑R16、Q15、R11，白R8、R5、Q4，形成纵向对攻链条；R6为黑跳点，R5为白深入要点，Q6是当前政策目标位。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "fighting",
+        "vertical_chain",
+        "target_zone"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "R6",
+        "R8",
+        "R11",
+        "Q15",
+        "R16"
+      ],
+      "group_status": [
+        "black_group_weak_connection_Q15_R11",
+        "white_group_overextended_R5"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹稀疏：黑K4孤子，白C6遥相呼应；下方E4/F4/D3等构成左下角基础，尚未向中腹延伸。",
+      "shapes": [],
+      "local_tags": [
+        "sparse",
+        "foundation_stage"
+      ],
+      "key_points": [
+        "K4",
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何棋子，为未来大场与眼位争夺预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_potential"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹薄弱地带：黑R11向下延伸，白R8/R5构成斜线压力，Q6为关键接应点，存在潜在切断与联络战。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "tension",
+        "junction_point"
+      ],
+      "key_points": [
+        "Q6",
+        "R5",
+        "R8",
+        "R11"
+      ],
+      "group_status": [
+        "black_vulnerable_at_R11_if_cut",
+        "white_light_at_R5"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角定式雏形：黑F3/E4/F4三角结构，白D3/E3/C4小飞守角，双方均势，尚未定型。",
+      "shapes": [
+        "triangle",
+        "small_knight"
+      ],
+      "local_tags": [
+        "joseki_start",
+        "balanced"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "E3",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "black_connected_triangle",
+        "white_compact_defense"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空白，仅黑K4略偏左，无实质影响，属战略缓手区。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "low_priority"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角初显白棋影响力：白R5/R8/Q4构成斜向阵势，黑R6/R11尝试反制；该区域已成为当前主战场，厚薄对比明显。",
+      "shapes": [
+        "diagonal",
+        "extension"
+      ],
+      "local_tags": [
+        "main_battlefield",
+        "influence_vs_invade"
+      ],
+      "key_points": [
+        "R5",
+        "R6",
+        "R8",
+        "R11",
+        "Q4"
+      ],
+      "group_status": [
+        "white_influence_dominant",
+        "black_reacting_locally"
+      ]
+    }
+  ]
+}

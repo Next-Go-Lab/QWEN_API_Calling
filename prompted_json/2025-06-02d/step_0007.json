@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_006",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D16"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      }
+    ],
+    "black_stones": [
+      "E4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "E3",
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "F3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "asymmetric_development"
+    ],
+    "strategic_focus": [
+      "corner_influence",
+      "side_expansion",
+      "central_presence"
+    ],
+    "global_summary_cn": "开局第六手，黑方占据右上（R16、D16）与中腹（E4）三处要点，白方在左下（C4）、右下（Q4）及左中（E3）布子，形成左右分峙、中腹试探的格局；黑棋右上双子呼应，白棋E3紧逼E4，局部已有接触战雏形。",
+    "phase_explanation": "处于布局初期，双方尚未形成明确大模样或厚势，但角部落子密集（R16/D16/E4/C4/Q4/E3），已出现局部对抗焦点（E4-E3），下一着F3为典型扳头或拆二延伸点，意在强化白棋左中势力并限制黑E4发展。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑D16单子镇守，略带高位挂角意味；附近无应手，属轻灵占位。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "high_corner",
+        "light_placement"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R16守角，构成典型小目守角雏形；白无应手，暂为黑主导区域。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "corner_ownership",
+        "secure"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "alive_in_potential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，仅临近C4白子，但C4位于左下角，实际影响微弱。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "黑E4与白E3形成直接对峙，是当前唯一接触点；F3为目标点，预示即将展开中腹短兵相接。",
+      "shapes": [
+        "contact_pair"
+      ],
+      "local_tags": [
+        "fighting_point",
+        "tension_center"
+      ],
+      "key_points": [
+        "E4",
+        "E3",
+        "F3"
+      ],
+      "group_status": [
+        "engaged"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q4位于右下角星位下方，属低位守角；与R16黑子遥相对望，构成东西角呼应雏形。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "low_corner",
+        "symmetric_counter"
+      ],
+      "key_points": [
+        "Q4"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白C4为经典无忧角开局，已成形；黑无子，白在此区域具先手优势。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "secure_corner",
+        "established"
+      ],
+      "key_points": [
+        "C4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子；E3虽靠近此区，但属中腹偏左，未实质进入。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子；Q4属middle_right，此区完全未涉足。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

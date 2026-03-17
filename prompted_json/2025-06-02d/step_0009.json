@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_008",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 8,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D16"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "F4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "white_initiative"
+    ],
+    "strategic_focus": [
+      "D3_E3_E4_triangle",
+      "Q4_influence",
+      "D16_R16_black_side"
+    ],
+    "global_summary_cn": "开局第8手，白方刚在D3落子完成对黑E4的夹击，形成D3-E3-E4三角结构；黑棋在左上（D16、R16）布下双角，白棋Q4占据右上大场；全局尚未形成厚势，局部战斗集中在右下角。",
+    "phase_explanation": "处于布局早期，双方在四个角落均有落子，但右下角（D3/E3/E4/F3/C4）已出现连续接触战，是当前最紧张区域；中央与边路尚无大规模连接或势力扩张。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑D16单官守角，无其他子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "black_corner",
+        "quiet"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "无子，完全空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q4镇头，影响右上，黑R16为高配角，双方未直接接触。",
+      "shapes": [],
+      "local_tags": [
+        "white_influence",
+        "black_high_corner"
+      ],
+      "key_points": [
+        "Q4",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3、E4与白C4、D3、E3构成右下角复杂接触战；F4为目标点，是黑棋扳头或白棋封锁的关键交叉。",
+      "shapes": [
+        "triangle"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "vital_point_target",
+        "white_pressure"
+      ],
+      "key_points": [
+        "D3",
+        "E3",
+        "E4",
+        "F3",
+        "C4",
+        "F4"
+      ],
+      "group_status": [
+        "white_group_d3_e3_c4",
+        "black_group_e4_f3"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "无子，空旷。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

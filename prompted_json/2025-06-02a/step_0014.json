@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_013",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 13,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "C4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "C6",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局定式",
+      "角部争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角未定型",
+      "左下角黑棋大飞守角",
+      "中腹潜力待开发"
+    ],
+    "global_summary_cn": "第13手，黑方刚于B6落子，形成对白C6的压迫；右上角白F17、O17与黑Q16构成典型高位对峙，左下角黑C3-C4-D3-D4形成复杂接触战，黑棋在B6施压后意图向中腹发展。",
+    "phase_explanation": "开局阶段（前20手），双方侧重角部布阵与小目、高目配合，尚未进入大规模攻防，但局部已出现试探性接触（如C3-D3-D4-C4-B6-C6）"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D16、黑Q16形成高位对峙，白O17补强，黑暂无深入手段。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "高位布局",
+        "轻灵"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "O17"
+      ],
+      "group_status": [
+        "white_floating",
+        "black_sente"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅黑Q16一子延伸影响，无实质争夺。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "空旷",
+        "潜在势力范围"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白F17镇头，黑Q16应之，构成典型‘高挂-镇’关系，白O17为稳健加强。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "镇头",
+        "高位呼应"
+      ],
+      "key_points": [
+        "F17",
+        "Q16",
+        "O17"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑R14孤子，白无直接应对，属外势牵制点。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "外势",
+        "牵制"
+      ],
+      "key_points": [
+        "R14"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有子进入，为未来中腹作战核心区域。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "中腹",
+        "未开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R6与白D4、C6等无直接关联，但R6与Q16构成斜线呼应，隐含向右上辐射意图。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "斜线联络",
+        "间接呼应"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": [
+        "black_potential_link"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "C3-C4-B6黑三角与D3-D4-C6白三角激烈接触，形成‘双飞燕’变型雏形，局部最复杂。",
+      "shapes": [
+        "contact_fight",
+        "triangle"
+      ],
+      "local_tags": [
+        "接触战",
+        "定式雏形",
+        "攻防交错"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "B6",
+        "D3",
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "black_compact",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F17已被白占据，黑Q3与白D3-D4形成左右不对称配置，Q3为守角，D3-D4为拆二。",
+      "shapes": [
+        "corner",
+        "extension"
+      ],
+      "local_tags": [
+        "小目守角",
+        "拆二"
+      ],
+      "key_points": [
+        "Q3",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，仅黑Q3一子影响右下角，白无配置，属待开发区域。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "待开发",
+        "角部潜力"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_influence_only"
+      ]
+    }
+  ]
+}

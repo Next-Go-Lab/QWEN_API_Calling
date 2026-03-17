@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_105",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 105,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P15"
+      },
+      {
+        "color": 1,
+        "point": "P16"
+      },
+      {
+        "color": 0,
+        "point": "O16"
+      },
+      {
+        "color": 1,
+        "point": "O15"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q16"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "L14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "K13",
+      "N13",
+      "K14",
+      "P14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "白棋优势",
+      "边角争夺激烈",
+      "中央薄味"
+    ],
+    "strategic_focus": [
+      "右上角劫争余波",
+      "中腹白棋厚势压迫",
+      "黑棋右下大龙未净活"
+    ],
+    "global_summary_cn": "对局进入官子阶段，白棋凭借全局厚势和实地领先保持胜势；右上角刚结束复杂攻防，黑棋Q16虽为最新一手但未能扭转局势；右下黑棋大龙仍存联络与眼位隐患，白棋P14等点入手段构成持续威胁。",
+    "phase_explanation": "第105手，轮白（to_play=0），属官子中盘后期。双方在右上连续交换后形成定型，黑棋虽占据Q16要津，但白棋通过P15、O16、P14等先手压缩黑棋空间，全局实空差距已不可逆。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无明显战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "E3",
+        "E4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋C6–E6与黑棋E7–K7形成对峙，白棋略有外势，黑棋稍显单薄。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "外势对峙",
+        "黑棋薄"
+      ],
+      "key_points": [
+        "C6",
+        "D6",
+        "E6",
+        "E7",
+        "K7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角刚结束激烈攻防，黑棋Q16为最新一手，白棋O16/P15/Q11等构成封锁网，黑棋O15–Q16一线尚未安定。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "刚收气",
+        "黑棋未净活",
+        "白棋主导"
+      ],
+      "key_points": [
+        "O15",
+        "P15",
+        "O16",
+        "P16",
+        "Q16",
+        "Q11"
+      ],
+      "group_status": [
+        "weak",
+        "in_atari_risk"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋C11–D11–H11与白棋E11–G11形成接触战，黑棋有断点隐患。",
+      "shapes": [
+        "bridge",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "潜在分断",
+        "黑棋联络需补"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "E11",
+        "G11",
+        "H11"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，白棋G10–H10–N10–O10构成厚势骨架，黑棋J10–L10–R10零散，缺乏根据。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "白棋厚势",
+        "黑棋漂浮"
+      ],
+      "key_points": [
+        "G10",
+        "H10",
+        "J10",
+        "L10",
+        "N10",
+        "O10",
+        "R10"
+      ],
+      "group_status": [
+        "strong",
+        "floating"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋L12–N12–O12–K13与白棋L12–N12–O12–K14形成缠斗，黑棋L14–L15–N15略显孤立。",
+      "shapes": [
+        "eye_shape",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "局部对杀未尽",
+        "黑棋眼位不足"
+      ],
+      "key_points": [
+        "K13",
+        "K14",
+        "L12",
+        "L14",
+        "L15",
+        "N12",
+        "N13",
+        "N15",
+        "O12",
+        "O13"
+      ],
+      "group_status": [
+        "unstable",
+        "needs_eye"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋F3–J3–K4与白棋H2–H3–C3–C4–D3–D4–E3–E4形成典型双飞燕定式余韵，已大致两分。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "均衡"
+      ],
+      "key_points": [
+        "F3",
+        "H2",
+        "H3",
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "E3",
+        "E4",
+        "J3",
+        "K4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋M3–N5–O7–P7与白棋N2–N3–O4–P4–Q4–N6–O6–P6–Q6–R6–S8–R9–Q9–Q10形成复杂交错，白棋实地更扎实。",
+      "shapes": [
+        "territory",
+        "invasion"
+      ],
+      "local_tags": [
+        "白棋实地优",
+        "黑棋侵消失败"
+      ],
+      "key_points": [
+        "M3",
+        "N2",
+        "N3",
+        "N5",
+        "O4",
+        "O6",
+        "O7",
+        "P4",
+        "P6",
+        "P7",
+        "Q4",
+        "Q6",
+        "R6",
+        "S8",
+        "R9",
+        "Q9",
+        "Q10"
+      ],
+      "group_status": [
+        "settled",
+        "white_advantage"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋R10–R11–R12–R16–Q15–P16与白棋Q10–Q11–O10–O12–N12–K13–K14–L16–P17–L17构成生死大劫，黑棋大龙仅有一只真眼，O14为关键破眼点。",
+      "shapes": [
+        "life_and_death",
+        "vital_point"
+      ],
+      "local_tags": [
+        "大龙未活",
+        "O14为急所",
+        "白棋胜势根源"
+      ],
+      "key_points": [
+        "O14",
+        "Q10",
+        "Q11",
+        "R10",
+        "R11",
+        "R12",
+        "R16",
+        "Q15",
+        "P16",
+        "K13",
+        "K14",
+        "L16",
+        "P17",
+        "L17"
+      ],
+      "group_status": [
+        "dead_or_alive",
+        "critical"
+      ]
+    }
+  ]
+}

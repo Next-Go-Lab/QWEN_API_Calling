@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_104",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 104,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "T4"
+      },
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P16"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "T2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋右上角劫争未定",
+      "黑棋中腹厚势成型",
+      "白棋左下大龙未活净"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹势力扩张",
+      "左下白大龙治孤"
+    ],
+    "global_summary_cn": "全局进入中盘向收官过渡阶段，黑棋掌握主动，中腹厚势广阔；白棋在右上角Q17、R17一带与黑棋形成劫争，同时左下B1–D9区域白棋数子尚未安定，存在被攻风险；黑棋最新一手D7加强左边，白棋刚于R17落子试图巩固右上，但黑棋P16、Q16已构成压迫。",
+    "phase_explanation": "第104手，黑方行棋（to_play: 1），属中盘后期。双方在多个局部展开争夺，无明显死活定型，胜负关键在于右上劫材储备与左下攻防效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白A3–C2与黑A4–C3形成低效接触，无激烈战斗。",
+      "shapes": [],
+      "local_tags": [
+        "定型完成",
+        "低冲突"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B3",
+        "C3",
+        "C2"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑T4孤子深入，白Q4、S4呼应，但未形成有效封锁。",
+      "shapes": [
+        "一线侵消"
+      ],
+      "local_tags": [
+        "侵消点",
+        "未封堵"
+      ],
+      "key_points": [
+        "T4",
+        "Q4",
+        "S4",
+        "R3"
+      ],
+      "group_status": [
+        "黑孤子",
+        "白薄味"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈劫争核心：白Q17、R17、O17与黑P16、Q16、R15形成劫材关联，黑T2为潜在劫材/试应手。",
+      "shapes": [
+        "劫争",
+        "角部对杀"
+      ],
+      "local_tags": [
+        "劫争区",
+        "关键劫材点",
+        "白棋苦活"
+      ],
+      "key_points": [
+        "Q17",
+        "R17",
+        "O17",
+        "P16",
+        "Q16",
+        "R15",
+        "T2"
+      ],
+      "group_status": [
+        "白未净活",
+        "黑厚势压迫"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑D7–G7与白C7–E7形成平行对峙，黑占据主动，白B7、C8略显凝重。",
+      "shapes": [
+        "平行对攻",
+        "厚薄对比"
+      ],
+      "local_tags": [
+        "黑厚",
+        "白滞重"
+      ],
+      "key_points": [
+        "D7",
+        "C7",
+        "E7",
+        "B7",
+        "C8",
+        "D8"
+      ],
+      "group_status": [
+        "黑可断",
+        "白需联络"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑G5–G7、E7、F8等子构成厚势骨架，白E5–F5、H5零散，缺乏根据地。",
+      "shapes": [
+        "厚势",
+        "浮子"
+      ],
+      "local_tags": [
+        "黑厚势辐射",
+        "白漂浮"
+      ],
+      "key_points": [
+        "G5",
+        "E5",
+        "F5",
+        "G7",
+        "E7",
+        "F8"
+      ],
+      "group_status": [
+        "黑厚",
+        "白无根"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R14–R15与白Q15、D16形成上下牵制，黑有向下搜根意图。",
+      "shapes": [
+        "牵制",
+        "搜根预备"
+      ],
+      "local_tags": [
+        "黑压迫",
+        "白联络弱"
+      ],
+      "key_points": [
+        "R14",
+        "R15",
+        "Q15",
+        "D16",
+        "F17"
+      ],
+      "group_status": [
+        "黑主动",
+        "白待补"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下白B1–D9呈大块但眼位不足，黑A7–D7、E7、F6等子构成攻击阵型，白B9、D9为弱点。",
+      "shapes": [
+        "大龙治孤",
+        "攻击阵型"
+      ],
+      "local_tags": [
+        "白大龙未活",
+        "黑攻击圈"
+      ],
+      "key_points": [
+        "B1",
+        "B9",
+        "D9",
+        "A7",
+        "D7",
+        "F6"
+      ],
+      "group_status": [
+        "白危",
+        "黑可攻"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑G1–G5、H1–H6与白D1–G2、D2–E6交错，黑占据实地优势，白多处需补棋。",
+      "shapes": [
+        "实地争夺",
+        "零碎接触"
+      ],
+      "local_tags": [
+        "黑实地优",
+        "白补棋点多"
+      ],
+      "key_points": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "H2",
+        "H6"
+      ],
+      "group_status": [
+        "黑安定",
+        "白需连络"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R1–T4与白R2–T3形成小规模接触战，黑T4为打入要点，白S3、T3略显单薄。",
+      "shapes": [
+        "小规模接触",
+        "打入点"
+      ],
+      "local_tags": [
+        "黑打入成功",
+        "白形松散"
+      ],
+      "key_points": [
+        "R1",
+        "T4",
+        "R2",
+        "S3",
+        "T3"
+      ],
+      "group_status": [
+        "黑活",
+        "白薄"
+      ]
+    }
+  ]
+}

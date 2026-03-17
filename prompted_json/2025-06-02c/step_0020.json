@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_019",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 19,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "P16"
+      },
+      {
+        "color": 1,
+        "point": "Q14"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "Q14",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘战斗",
+      "边角纠缠",
+      "白棋主动"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中央势力构建",
+      "黑棋大龙未净活"
+    ],
+    "global_summary_cn": "第19手，轮白（Ueno Risa）行棋，局面处于中盘激烈接触战阶段。右上角（P16–Q17一带）形成复杂攻防，黑棋Q14为最新一手，试图强化外势但留下P14断点；白棋刚于Q14落子，意在分断黑棋联络并威胁R12一子。全局黑棋在右上与右下均有孤子，白棋则通过D4、C14、D16等布局占据多个战略据点。",
+    "phase_explanation": "当前为中盘初期向中期过渡阶段，双方在右上角展开局部攻防，尚未进入大规模对杀，但关键断点（如P14）已浮现，后续可能引发连锁反应。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "待侵消"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（F17、L17）有零星黑子，但无成形结构，白棋无子。",
+      "shapes": [],
+      "local_tags": [
+        "散子",
+        "潜力区"
+      ],
+      "key_points": [
+        "F17",
+        "L17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：黑有P17、Q17、R16、R12、Q14；白有P16、Q10、Q5、Q6、R6；核心冲突围绕P14断点及Q14–R12联络展开。",
+      "shapes": [
+        "corner_fight",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "断点敏感",
+        "多组对杀雏形"
+      ],
+      "key_points": [
+        "P14",
+        "Q14",
+        "P16",
+        "Q17",
+        "R16"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅黑O3、Q3、R4、R5低段落子，白无子；属黑棋低位厚势延伸区。",
+      "shapes": [
+        "low_side_framework"
+      ],
+      "local_tags": [
+        "低位厚势",
+        "潜在模样的基础"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "black_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，无任何棋子，是未来势力辐射与打入的关键枢纽。",
+      "shapes": [],
+      "local_tags": [
+        "中枢真空",
+        "战略要冲"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹（C14、D14附近）白棋单官守角，黑无子；D4白子遥相呼应，构成斜线控势。",
+      "shapes": [
+        "single_point_influence"
+      ],
+      "local_tags": [
+        "白棋控势",
+        "斜线张力"
+      ],
+      "key_points": [
+        "C14",
+        "D4"
+      ],
+      "group_status": [
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角完全空置，无子，属全局最空旷区域。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "远期打入点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（D16）有白子，与C14构成上下呼应；黑无子，白棋初步控制下边潜力。",
+      "shapes": [
+        "edge_anchor"
+      ],
+      "local_tags": [
+        "白棋边锚",
+        "低位控局"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，仅黑R4、R5略近，但未构成实地或厚势；白无子。",
+      "shapes": [],
+      "local_tags": [
+        "待发展",
+        "次要战场"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

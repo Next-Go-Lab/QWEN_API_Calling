@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_007",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 7,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D16"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "E3",
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "D3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "stone_contact"
+    ],
+    "strategic_focus": [
+      "D3_target",
+      "F3_pressure",
+      "C4_Q4_symmetry"
+    ],
+    "global_summary_cn": "第七手，黑方刚在F3落子形成对白E3的直接压迫；白方此前在C4与Q4布下对称小目，黑方则于D16与R16呼应；当前焦点集中于右下角接触战及D3潜在打入点。",
+    "phase_explanation": "布局早期，双方在右下（C4/E3/F3/E4）与左上（D16/R16）形成两处局部对抗，尚未展开中腹争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋D16与R16构成高位双飞燕雏形，但R16孤立，暂无连接。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "black_high_corner",
+        "loose_connection"
+      ],
+      "key_points": [
+        "D16",
+        "R16"
+      ],
+      "group_status": [
+        "alive_in_potential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，为未来势力交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "central_void"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白C4与黑D16遥相呼应，但此处无实际交集；该区暂无有效形状。",
+      "shapes": [],
+      "local_tags": [
+        "distant_influence",
+        "no_contact"
+      ],
+      "key_points": [
+        "C4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "白E3、黑E4、黑F3密集接触，形成右下角小型攻防结构；D3为关键待落点。",
+      "shapes": [
+        "ladder_shape",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "white_black_contact",
+        "D3_target",
+        "pressing_sequence"
+      ],
+      "key_points": [
+        "E3",
+        "E4",
+        "F3",
+        "D3"
+      ],
+      "group_status": [
+        "unstable_white_group",
+        "attacking_black"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白Q4独立小目，暂无配合，属单点守角。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "white_corner",
+        "isolated"
+      ],
+      "key_points": [
+        "Q4"
+      ],
+      "group_status": [
+        "alive_in_place"
+      ]
+    }
+  ]
+}

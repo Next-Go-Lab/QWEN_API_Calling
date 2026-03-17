@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_049",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 49,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "O5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P3"
+      },
+      {
+        "color": 1,
+        "point": "Q2"
+      },
+      {
+        "color": 0,
+        "point": "O4"
+      },
+      {
+        "color": 1,
+        "point": "P5"
+      },
+      {
+        "color": 0,
+        "point": "Q6"
+      },
+      {
+        "color": 1,
+        "point": "O5"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "N3",
+      "Q3",
+      "P4",
+      "R4",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "Q5",
+      "C6",
+      "Q6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "R7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "黑棋Q2-O5一线联络"
+    ],
+    "global_summary_cn": "第49手，黑方刚于O5落子，形成右下角复杂对杀局面；白棋在P3、Q4、Q5、Q6布下厚势，黑棋则以Q2、P4、O5、R5等子试图分断并侵消；全局黑棋在右上与中腹有厚味，白棋在左下与中腹偏左保持实地优势。",
+    "phase_explanation": "当前处于中盘中后期，双方在右下角展开局部决战，同时兼顾中腹势力扩张与边线安定。黑棋需处理O5一子的安危及R7目标点的潜在打入，白棋则寻求巩固厚势并限制黑棋发展。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C9-C10-C13与黑D10-D11-D13-D15形成小规模接触，黑棋稍占实地，白棋保留外势潜力。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式余味",
+        "白外势待发"
+      ],
+      "key_points": [
+        "C9",
+        "D10",
+        "C13",
+        "D15"
+      ],
+      "group_status": [
+        "black_firm",
+        "white_potential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部黑棋B15-C15-D15-E16与白B16-D16-E15-F15-G15-H15形成大模样对峙，黑棋厚实但略显凝重，白棋外势宽广。",
+      "shapes": [
+        "moyo",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白大模样"
+      ],
+      "key_points": [
+        "B15",
+        "E16",
+        "B16",
+        "H15"
+      ],
+      "group_status": [
+        "black_solid",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16-R16与白Q17-R17-P18-O18-N18构成激烈边线对抗，黑棋M17-N17-O17-P17连片厚势，白棋下方成空潜力大。",
+      "shapes": [
+        "side_fight",
+        "thickness_vs_territory"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白实空雏形"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17",
+        "N18"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_securing"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C6与白D4-L4形成斜向牵制，黑E14-F14与白C6-C10构成跨区域呼应，局部未定型。",
+      "shapes": [
+        "diagonal_influence",
+        "loose_contact"
+      ],
+      "local_tags": [
+        "牵制要点",
+        "未定型"
+      ],
+      "key_points": [
+        "C6",
+        "D4",
+        "E14",
+        "F14"
+      ],
+      "group_status": [
+        "unclear_connection"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑无明确子力，白亦未深入，但黑Q2-O5-P5-R5与白P3-Q4-Q5-Q6在右下辐射影响至此，中腹为未来主战场。",
+      "shapes": [
+        "vacant_center",
+        "radiating_influence"
+      ],
+      "local_tags": [
+        "战略要冲",
+        "未开发"
+      ],
+      "key_points": [],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q2-R3-R4-R5-R6与白P3-Q4-Q5-Q6-P5-O4形成密集接触战，O5为最新手，黑棋试图分断白棋Q2-Q6一线。",
+      "shapes": [
+        "contact_fight",
+        "cutting_attempt"
+      ],
+      "local_tags": [
+        "对杀焦点",
+        "黑主动",
+        "白厚势"
+      ],
+      "key_points": [
+        "Q2",
+        "O4",
+        "O5",
+        "P5",
+        "Q6",
+        "R7"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，仅黑D13与白C13、C10、C9存在远距离呼应，暂无直接冲突，属次要区域。",
+      "shapes": [
+        "quiet_corner"
+      ],
+      "local_tags": [
+        "沉寂",
+        "远距呼应"
+      ],
+      "key_points": [
+        "C9",
+        "C13",
+        "D13"
+      ],
+      "group_status": [
+        "inactive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑N3与白L4、D4构成松散布局，黑P4-R4与白P3-R3形成局部对峙，但尚未进入实质战斗。",
+      "shapes": [
+        "side_presence",
+        "light_contact"
+      ],
+      "local_tags": [
+        "试探性",
+        "未升级"
+      ],
+      "key_points": [
+        "N3",
+        "P4",
+        "R4",
+        "P3",
+        "R3"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角核心战场：黑Q2-P4-R4-O5-P5-R5-R6与白P3-R3-Q4-Q5-O4-Q6形成高密度攻防，R7为黑方下一着重点，意图打入或扩张。",
+      "shapes": [
+        "life_death_struggle",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "死活关键",
+        "R7打入点",
+        "黑棋胜率敏感区"
+      ],
+      "key_points": [
+        "Q2",
+        "P3",
+        "O4",
+        "O5",
+        "P5",
+        "Q4",
+        "Q5",
+        "Q6",
+        "R7"
+      ],
+      "group_status": [
+        "black_critical",
+        "white_vulnerable"
+      ]
+    }
+  ]
+}

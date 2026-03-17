@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_099",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 99,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "L15"
+      },
+      {
+        "color": 0,
+        "point": "K15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      },
+      {
+        "color": 0,
+        "point": "L17"
+      },
+      {
+        "color": 1,
+        "point": "H16"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "L14",
+      "L15",
+      "N15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "K13",
+      "N13",
+      "K14",
+      "K15",
+      "L16",
+      "L17",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋优势明显",
+      "黑棋右上孤棋受攻",
+      "白棋厚势辐射中腹"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "左下黑空未净"
+    ],
+    "global_summary_cn": "全局进入中后盘，白棋凭借厚势与实地领先掌控节奏；黑棋在右上（H16/K16/L15等）形成孤棋，正遭白棋连续压迫；左下黑空（C3–E4–C7等）存在劫争隐患；中腹双方势力交错，但白棋G10/H10/N12/O12等子构成弹性厚壁，主导主动权。",
+    "phase_explanation": "第99手，黑方刚于H16落子，但白方已通过K15、L17、L16等招法构筑右上立体封锁网；当前局面白胜率高，黑需在P15等处寻求治孤或转换机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3/D3/E3/C4与黑D4/E4/F4形成平稳接触，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白Q4/R4/R5/Q7与黑Q6/R6/R9/Q9形成对峙，白略占外势，黑有断点隐患。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "外势",
+        "薄味"
+      ],
+      "key_points": [
+        "Q4",
+        "R6",
+        "Q9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激战核心：黑H16/K16/L15/N15/Q15与白K15/L16/L17/P17构成复杂攻防，黑棋大龙未活，白棋封锁严密。",
+      "shapes": [
+        "ladder",
+        "net",
+        "surrounding"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "孤棋",
+        "封锁"
+      ],
+      "key_points": [
+        "H16",
+        "K15",
+        "L17",
+        "P17"
+      ],
+      "group_status": [
+        "dangerous",
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑C11/D11/H11/K11与白E11/G11/D12构成缠斗，黑C7/E7与白C6/D6/E6形成下方小规模接触战。",
+      "shapes": [
+        "ladder",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "缠斗",
+        "劫材相关"
+      ],
+      "key_points": [
+        "C11",
+        "E6",
+        "C7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷地带，黑J10/L10/H12与白G10/H10/N12/O12形成厚薄对比，白势厚实且具辐射力，黑缺乏有效打入点。",
+      "shapes": [
+        "influence_zone",
+        "thickness"
+      ],
+      "local_tags": [
+        "厚势",
+        "控制力"
+      ],
+      "key_points": [
+        "H10",
+        "N12",
+        "J10"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O13/K14/N13与白K13/N13/N12/O12形成犬牙交错，黑K14孤立，白可借K15/L16施压。",
+      "shapes": [
+        "sabaki",
+        "isolation"
+      ],
+      "local_tags": [
+        "孤子",
+        "联络困难"
+      ],
+      "key_points": [
+        "K14",
+        "N13",
+        "K13"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑F3/J3/L3/M3/P3与白C3/D3/E3/H2/H3形成大模样雏形，但白C6/D6/E6侵入，黑空未净，存劫争可能。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "模样",
+        "侵消",
+        "劫争隐患"
+      ],
+      "key_points": [
+        "F3",
+        "C6",
+        "E6"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑H8/L8/N8/O8/S8与白G8/H6/N6/O6/P6形成大规模接触，黑棋厚实但略显凝重，白有腾挪空间。",
+      "shapes": [
+        "thick_wall",
+        "flexible_shape"
+      ],
+      "local_tags": [
+        "厚壁",
+        "弹性"
+      ],
+      "key_points": [
+        "H8",
+        "G8",
+        "N6"
+      ],
+      "group_status": [
+        "alive",
+        "solid"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q6/R6/R9/S8与白R5/Q7/Q9/R8/R10/Q11/R11/R12形成复杂角地争夺，白占据主动，黑R9/S8略显单官。",
+      "shapes": [
+        "corner_fight",
+        "endgame"
+      ],
+      "local_tags": [
+        "官子阶段",
+        "细微争夺"
+      ],
+      "key_points": [
+        "R9",
+        "Q7",
+        "R12"
+      ],
+      "group_status": [
+        "settled",
+        "small_territory"
+      ]
+    }
+  ]
+}

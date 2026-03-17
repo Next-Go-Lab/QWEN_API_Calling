@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_051",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 51,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R3"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "Q5"
+      },
+      {
+        "color": 1,
+        "point": "R5"
+      },
+      {
+        "color": 0,
+        "point": "P3"
+      },
+      {
+        "color": 1,
+        "point": "Q2"
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "R6",
+      "G7",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "Q2附近接触战"
+    ],
+    "global_summary_cn": "第51手，黑方刚于Q2落子，形成右下角激烈对杀局面；白棋在右下R3、Q5、R4等处构筑防线，黑棋以Q2、R4、R5、Q3等点持续施压；全局黑棋在左上、中腹有零星势力，白棋则在左下、右上占据实地优势。",
+    "phase_explanation": "当前处于中盘中后期，双方在右下角展开局部决战，胜负关键系于O4（政策目标点）的争夺与Q2周边死活判断。黑棋执黑先行，已建立微弱优势（B+3.5），但白棋尚有逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白C8、D16、F17、O17构成大模样雏形，黑Q16单官守角，白势厚而空未定。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑守角",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅白O17一子，无明显集团，属双方潜在发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "待开发"
+      ],
+      "key_points": [
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白D16、F17与黑Q16形成斜向呼应，但无直接接触，属战略牵制区。",
+      "shapes": [
+        "diagonal_influence"
+      ],
+      "local_tags": [
+        "牵制",
+        "影响力延伸"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17"
+      ],
+      "group_status": [
+        "separated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑B2-C3-B5-C5-D5及白B1-C2-D3-C6-D6-E6形成交错阵势，黑略占主动但未净活。",
+      "shapes": [
+        "ladder_like",
+        "interlocking"
+      ],
+      "local_tags": [
+        "缠斗",
+        "未活净",
+        "黑稍优"
+      ],
+      "key_points": [
+        "B2",
+        "C3",
+        "D5",
+        "C6",
+        "D6"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑G5-G4-F4-E4与白E5-F5-H5形成中腹对峙前沿，但尚未爆发战斗。",
+      "shapes": [
+        "frontline"
+      ],
+      "local_tags": [
+        "对峙前沿",
+        "中腹潜力"
+      ],
+      "key_points": [
+        "G5",
+        "E5",
+        "F5"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P4、Q3、R4、R5与白Q4、Q5、R3构成密集接触战核心，O4为关键急所。",
+      "shapes": [
+        "fighting_cluster",
+        "eye_shape_candidate"
+      ],
+      "local_tags": [
+        "主战场",
+        "死活焦点",
+        "O4急所"
+      ],
+      "key_points": [
+        "O4",
+        "Q2",
+        "R3",
+        "Q4",
+        "Q5",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B6、F6、H6、G7与白B7、C8、A4、D4形成低段混战，黑外势厚实，白实地紧凑。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "低段作战",
+        "黑外势",
+        "白实地"
+      ],
+      "key_points": [
+        "B6",
+        "A4",
+        "D4",
+        "G7"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_compact"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑H1、H2、G2、G3、G4、G5与白J2、E2、F2构成横向拉锯，黑控制力略强。",
+      "shapes": [
+        "horizontal_line"
+      ],
+      "local_tags": [
+        "横向控制",
+        "黑主导"
+      ],
+      "key_points": [
+        "H1",
+        "H2",
+        "G3",
+        "J2"
+      ],
+      "group_status": [
+        "black_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑Q2-R4-R5-Q3 vs 白R3-Q4-Q5-P3，O4为双方必争之点，存在劫争或眼位争夺可能。",
+      "shapes": [
+        "life_death_battle",
+        "ko_candidate"
+      ],
+      "local_tags": [
+        "决战区",
+        "O4急所",
+        "劫材相关"
+      ],
+      "key_points": [
+        "Q2",
+        "R3",
+        "Q4",
+        "Q5",
+        "R4",
+        "R5",
+        "P3",
+        "O4"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_vulnerable"
+      ]
+    }
+  ]
+}

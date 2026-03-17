@@ -1,0 +1,485 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_270",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 270,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F7"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "L9"
+      },
+      {
+        "color": 0,
+        "point": "L11"
+      },
+      {
+        "color": 1,
+        "point": "K12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "K6",
+      "M6",
+      "O6",
+      "R6",
+      "T6",
+      "E7",
+      "F7",
+      "G7",
+      "J7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "J9",
+      "K9",
+      "L9",
+      "M9",
+      "B10",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "A12",
+      "C12",
+      "D12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "B13",
+      "H13",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "A14",
+      "C14",
+      "E14",
+      "G14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "P16",
+      "Q16",
+      "S16"
+    ],
+    "white_stones": [
+      "J2",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "G8",
+      "J8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "F9",
+      "G9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "D10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "L11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "C13",
+      "D13",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "B14",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "B15",
+      "G15",
+      "J15",
+      "L15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "G16",
+      "H16",
+      "J16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17",
+      "S17",
+      "H18",
+      "K18",
+      "H19",
+      "K19"
+    ]
+  },
+  "targets": {
+    "policy_target": "H8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子收束",
+      "细棋局面",
+      "黑稍优"
+    ],
+    "strategic_focus": [
+      "右上角定式余味",
+      "中腹厚势转化",
+      "左下白空未净"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋凭借中腹厚势与右上实地优势保持3.5目领先；白棋在左下和中腹存在数处未定型薄味，黑方H8为典型官子要点，意在压缩白棋右下潜力。",
+    "phase_explanation": "第270手，终局前关键官子阶段。双方近期落子密集于中腹与边角交接处，黑刚于F7、K12等处强化外势，白则在J16、L11等处试图做活或围空，但整体实地略亏。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑A1-C4连片厚实，白A5-A9形成小空但气紧。",
+      "shapes": [
+        "corner_enclosure",
+        "black_wall"
+      ],
+      "local_tags": [
+        "安定",
+        "无战事"
+      ],
+      "key_points": [
+        "A1",
+        "A5",
+        "C4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑Q2-T4与白Q4-Q8形成对峙，黑有拆二潜力，白Q6-Q8呈凝形。",
+      "shapes": [
+        "side_framework",
+        "white_cluster"
+      ],
+      "local_tags": [
+        "待发展",
+        "白欠一手"
+      ],
+      "key_points": [
+        "Q2",
+        "Q4",
+        "Q6",
+        "T4"
+      ],
+      "group_status": [
+        "black_solid",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑P16-Q16-S16与白O16-R16-K16构成复杂收官，黑S16为先手利，白K16为愚形接不归隐患。",
+      "shapes": [
+        "corner_fight_residual",
+        "sente_point"
+      ],
+      "local_tags": [
+        "官子要点",
+        "劫材相关"
+      ],
+      "key_points": [
+        "P16",
+        "Q16",
+        "R16",
+        "K16"
+      ],
+      "group_status": [
+        "black_sente",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑B10-B14与白A9-D14形成缠斗，黑B11-D12厚势压迫白中腹，白D13-E13气紧。",
+      "shapes": [
+        "side_pressure",
+        "white_thin_group"
+      ],
+      "local_tags": [
+        "攻击目标",
+        "白需联络"
+      ],
+      "key_points": [
+        "B11",
+        "D13",
+        "E13",
+        "A9"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑F7-K12-L9与白G9-J16形成大范围势力交错，黑K12为眼位兼攻防要点，白J16虽立但孤。",
+      "shapes": [
+        "central_influence",
+        "fighting_zone"
+      ],
+      "local_tags": [
+        "主战场",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "F7",
+        "G9",
+        "J16",
+        "K12"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L7-O11与白L8-O12形成对杀雏形，黑M9-M12成形，白N10-N12气紧，黑H8为打入/搜根预备点。",
+      "shapes": [
+        "life_death_border",
+        "searching_move"
+      ],
+      "local_tags": [
+        "生死未定",
+        "黑可侵消"
+      ],
+      "key_points": [
+        "H8",
+        "L9",
+        "N10",
+        "M12"
+      ],
+      "group_status": [
+        "black_potential_eye",
+        "white_needing_liberties"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑A1-A4与白A5-A8形成经典低中国流残局，白A7-A8浮，黑B3-B6厚势压制，白尚未净活。",
+      "shapes": [
+        "low_chinese_residual",
+        "white_unclosed"
+      ],
+      "local_tags": [
+        "白需补棋",
+        "黑可点三三"
+      ],
+      "key_points": [
+        "A5",
+        "A7",
+        "B3",
+        "B6"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_unstable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑E1-G1与白E5-G5对峙，黑F3-F4厚实，白E6-G8呈扁平状，黑H2-H6构成外势支点。",
+      "shapes": [
+        "side_thickness",
+        "white_flat_group"
+      ],
+      "local_tags": [
+        "黑取势",
+        "白实地不足"
+      ],
+      "key_points": [
+        "F3",
+        "E5",
+        "H2",
+        "H6"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_small"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑R1-T2与白R8-T10形成大模样，但白Q7-S9已深入，黑R10-S11为封锁要点，白T11为后门眼位。",
+      "shapes": [
+        "moyo_vs_invasion",
+        "white_invasion"
+      ],
+      "local_tags": [
+        "黑需封口",
+        "白有活形"
+      ],
+      "key_points": [
+        "R1",
+        "Q7",
+        "R10",
+        "T11"
+      ],
+      "group_status": [
+        "black_containing",
+        "white_living"
+      ]
+    }
+  ]
+}

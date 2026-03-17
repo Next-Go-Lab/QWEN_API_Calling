@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_254",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 254,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "T10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "T11"
+      },
+      {
+        "color": 1,
+        "point": "S13"
+      },
+      {
+        "color": 0,
+        "point": "T12"
+      },
+      {
+        "color": 1,
+        "point": "T13"
+      },
+      {
+        "color": 0,
+        "point": "T10"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "P3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "S6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "R12",
+      "B13",
+      "D13",
+      "G13",
+      "J13",
+      "N13",
+      "Q13",
+      "R13",
+      "S13",
+      "T13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "T16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19",
+      "T19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "O6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "E9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "T9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "J10",
+      "T10",
+      "B11",
+      "O11",
+      "P11",
+      "T11",
+      "H12",
+      "M12",
+      "Q12",
+      "S12",
+      "T12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "B19",
+      "K19",
+      "M19",
+      "O19",
+      "Q19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_fight",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_ko",
+      "bottom_right_eye_space",
+      "center_influence_vs_territory"
+    ],
+    "global_summary_cn": "全局进入收官关键阶段，右下角T10附近形成复杂劫争，黑棋刚在S13落子强化劫材，白棋T10为最新一手；中央与右下大龙尚未净活，胜负取决于此劫成败及底部实地效率。",
+    "phase_explanation": "第254手，黑方行棋，局面处于终局劫争决胜期。双方在右下（T10–T13）连续六手密集交锋，构成典型‘缓气劫’结构；黑棋握有S13、R12等潜在劫材，白棋依赖T11、T12等外围呼应。E8为政策目标点，暗示左中腹尚存未定形薄味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白呈对称守角格局，无明显战斗。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "symmetric"
+      ],
+      "key_points": [
+        "C1",
+        "B1",
+        "C2",
+        "B2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋C5–E5连片但气紧，白棋D4–E4施压，存在浅消可能。",
+      "shapes": [
+        "side_wall",
+        "light_pressure"
+      ],
+      "local_tags": [
+        "thin",
+        "potential_invasion"
+      ],
+      "key_points": [
+        "D4",
+        "C5",
+        "E5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋Q2–S4构筑厚势，黑棋R4–S7反夹试探，但白K4–L4保持弹性。",
+      "shapes": [
+        "moyo_base",
+        "counter_pincer"
+      ],
+      "local_tags": [
+        "thick",
+        "influence"
+      ],
+      "key_points": [
+        "Q2",
+        "S4",
+        "R4",
+        "S7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋D10–F11与白棋C9–E9对峙，黑E11–F11略显凝重，白有C10–D10断点威胁。",
+      "shapes": [
+        "central_confrontation",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "tension",
+        "vulnerable_link"
+      ],
+      "key_points": [
+        "D10",
+        "E11",
+        "C10",
+        "E9"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带空旷，黑J11–L11与白K10–M10形成虚势对峙，无实子交缠，属影响力争夺区。",
+      "shapes": [
+        "influence_zone",
+        "empty_center"
+      ],
+      "local_tags": [
+        "neutral",
+        "potential_eye_space"
+      ],
+      "key_points": [
+        "J11",
+        "K10",
+        "M10"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "中右腹黑R12–S13与白Q12–T12激烈接触，T13为黑最新强手，T10为白刚提劫之眼位关键点。",
+      "shapes": [
+        "ko_battle",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "ko",
+        "life_and_death",
+        "urgent"
+      ],
+      "key_points": [
+        "R12",
+        "S13",
+        "T12",
+        "T10",
+        "T11",
+        "T13"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B15–D15与白B16–D16形成小规模对杀雏形，但黑C15–D15气长暂无忧。",
+      "shapes": [
+        "small_sacrifice",
+        "peripheral_fight"
+      ],
+      "local_tags": [
+        "quiet",
+        "settled"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "B16",
+        "D16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E14–F14与白E15–F15对顶，黑稍厚但未围实空，白可伺机浅侵。",
+      "shapes": [
+        "edge_race",
+        "light_contact"
+      ],
+      "local_tags": [
+        "balanced",
+        "flexible"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为全局焦点：黑R19–T19与白Q19–T16构成大模样，T10提劫后黑需补E8或S9以防倒扑，白T9–T10为眼形核心。",
+      "shapes": [
+        "major_ko",
+        "eye_shape",
+        "territory_threat"
+      ],
+      "local_tags": [
+        "decisive",
+        "life_and_death",
+        "ko_threat"
+      ],
+      "key_points": [
+        "R19",
+        "T19",
+        "T10",
+        "T9",
+        "S9",
+        "E8"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    }
+  ]
+}

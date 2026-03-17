@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_122",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 122,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D12"
+      },
+      {
+        "color": 0,
+        "point": "E11"
+      },
+      {
+        "color": 1,
+        "point": "B12"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "B10"
+      },
+      {
+        "color": 0,
+        "point": "B9"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "B9",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "C12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "左上孤棋治孤"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，黑棋在右下持续施压，白棋依托厚势构筑外势；左上黑棋数子孤立需处理，中央双方大龙尚未定型；最新一手B9为白棋补强左下弱点，黑棋即将于C12点入寻求变化。",
+    "phase_explanation": "第122手，轮黑方行棋。局面处于中盘中后期，实地与外势交织，多处存在未定型战斗：右下角（D12–E11–B9一线）形成接触战焦点；左上（B4–C3–B6等）黑棋薄味明显；中央（J10–K11–M10等）双方势力犬牙交错。C12为AI推荐的侵分要点，意在破坏白棋中腹潜力并试探左上白阵稳定性。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋B4、C3、B6、C6等构成小堡垒但气紧，白棋C5、B13、C13形成封锁，黑棋有被搜根风险。",
+      "shapes": [
+        "corner_enclosure",
+        "weak_group"
+      ],
+      "local_tags": [
+        "孤棋",
+        "治孤",
+        "封锁"
+      ],
+      "key_points": [
+        "B4",
+        "C3",
+        "C5",
+        "B13",
+        "C13"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方交错落子，黑Q3、R4、S12、S13与白P2、O5、N4、S14形成宽广对峙带，白棋S15–S19长龙成势。",
+      "shapes": [
+        "side_wall",
+        "long_wall"
+      ],
+      "local_tags": [
+        "外势",
+        "厚壁",
+        "边空未定"
+      ],
+      "key_points": [
+        "Q3",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S19"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本安定，黑Q16、R16、Q17、R17、T16与白R15、S15、R16、S16构成复杂边界，黑棋稍占实地优势。",
+      "shapes": [
+        "corner_settled",
+        "boundary_complex"
+      ],
+      "local_tags": [
+        "安定",
+        "细棋",
+        "边界争夺"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17",
+        "T16",
+        "R15",
+        "S15"
+      ],
+      "group_status": [
+        "both_settled",
+        "black_sente_boundary"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B10、B12、D12、E11与白B9、E9、E11、B13形成密集接触战，C12为当前最急要点。",
+      "shapes": [
+        "contact_fight",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "接触战",
+        "急所",
+        "攻防转换"
+      ],
+      "key_points": [
+        "B10",
+        "B12",
+        "D12",
+        "E11",
+        "B9",
+        "C12"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带黑J11、K11、L10、M10与白J10、K12、L11、M11互围，尚未形成明确大龙，但彼此眼位均不充分。",
+      "shapes": [
+        "central_influence",
+        "unsettled_eye_space"
+      ],
+      "local_tags": [
+        "中腹潜力",
+        "眼形不足",
+        "影响力博弈"
+      ],
+      "key_points": [
+        "J11",
+        "K11",
+        "L10",
+        "M10",
+        "J10",
+        "K12"
+      ],
+      "group_status": [
+        "mutual_uncertainty",
+        "no_life_yet"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N11、O11、P11、Q12与白N10、O12、P12、M12构成横向拉锯，黑棋略显松散，白棋有断点可利用。",
+      "shapes": [
+        "horizontal_chain",
+        "loose_connection"
+      ],
+      "local_tags": [
+        "联络薄弱",
+        "断点隐忧",
+        "横向扩张"
+      ],
+      "key_points": [
+        "N11",
+        "O11",
+        "Q12",
+        "N10",
+        "O12",
+        "P12"
+      ],
+      "group_status": [
+        "black_fragile",
+        "white_potential_cut"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑K2、K4、K5、K6与白F3、K3、L3、M3、N3形成典型‘星位vs三连星’开局余波，黑棋根基尚稳但缺乏发展。",
+      "shapes": [
+        "corner_base",
+        "slow_development"
+      ],
+      "local_tags": [
+        "根基稳固",
+        "发展滞后",
+        "低效率"
+      ],
+      "key_points": [
+        "K2",
+        "K4",
+        "K5",
+        "K6",
+        "F3",
+        "K3"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_wide"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑D7、F8、G10、H10与白C7、C8、E8、E9形成斜向对峙，黑棋试图向中腹挺进，白棋守中有攻。",
+      "shapes": [
+        "diagonal_confrontation",
+        "invasion_preparation"
+      ],
+      "local_tags": [
+        "斜向对抗",
+        "侵消意图",
+        "弹性防守"
+      ],
+      "key_points": [
+        "D7",
+        "F8",
+        "G10",
+        "H10",
+        "C7",
+        "E9"
+      ],
+      "group_status": [
+        "black_probing",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前主战场：黑D12、E11、B10、B12与白B9、E11、E12、G12激烈缠斗，C12是决定此块生死的关键点。",
+      "shapes": [
+        "main_battlefield",
+        "life_death_critical"
+      ],
+      "local_tags": [
+        "主战场",
+        "死活要点",
+        "胜负手候选"
+      ],
+      "key_points": [
+        "D12",
+        "E11",
+        "B10",
+        "B12",
+        "B9",
+        "C12"
+      ],
+      "group_status": [
+        "black_urgent_attack",
+        "white_life_threatened"
+      ]
+    }
+  ]
+}

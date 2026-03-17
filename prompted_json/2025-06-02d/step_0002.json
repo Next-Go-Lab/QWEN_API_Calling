@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_001",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 1,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      }
+    ],
+    "black_stones": [
+      "R16"
+    ],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "C4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "黑先",
+      "右上角落子"
+    ],
+    "strategic_focus": [
+      "角部占点",
+      "星位附近"
+    ],
+    "global_summary_cn": "对局第一手，黑方 Yoshida Mika 在右上角 R16（小目）落子，开启全局布局；白方尚未行棋。",
+    "phase_explanation": "处于布局初期，仅一子落于棋盘右上区域，无势力交锋，尚无定式展开。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据 R16（小目），位于右上角星位偏下一路，属典型开局角点选择。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "角地初占",
+        "单子"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_094",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 94,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R1"
+      },
+      {
+        "color": 0,
+        "point": "T3"
+      },
+      {
+        "color": 1,
+        "point": "S2"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "F8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "T5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "T4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央潜力争夺",
+      "左上未定型"
+    ],
+    "global_summary_cn": "第94手，黑方即将落子，局面处于中盘关键阶段。白棋在右下（T3/S3/T5/S4）构筑厚势并压制黑棋S2/R1等子；黑棋在左下和中腹拥有较大实空潜力，但右上与中央存在薄味。最后几手集中在右下角（T3→S2→T5→E9），显示该区域为当前焦点。",
+    "phase_explanation": "双方近期连续在右下角（D1–T8范围）落子，形成局部对杀与眼位争夺；黑棋F8、E9试图侵消白棋厚势，白棋T5、S3等回应强硬。全局尚未进入收官，但部分边角已趋定型。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑A3/A4/A5/A6/A7/A8与白A1/A2/B1/C2/D2构成典型小目守角结构，黑棋稍厚，无明显战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "黑厚势"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B1",
+        "C2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，仅有零星子力：黑Q16、白D16/F17/O17呈分散配置，未形成有效联络，属潜在发展区。",
+      "shapes": [
+        "scattered"
+      ],
+      "local_tags": [
+        "未开发",
+        "潜力区"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16孤高，白R8/S7/T8/S9形成低位封锁，黑棋缺乏根据地，存在被攻击风险。",
+      "shapes": [
+        "floating"
+      ],
+      "local_tags": [
+        "孤棋",
+        "受攻"
+      ],
+      "key_points": [
+        "Q16",
+        "R8",
+        "S7",
+        "T8"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B2/B3/B5/B6/A7/A8与白B1/C2/D2/D3/C6/A6等交错，形成复杂接触战，黑棋略占主动，有断点与眼形隐患。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "缠斗",
+        "断点密集"
+      ],
+      "key_points": [
+        "B3",
+        "C3",
+        "D3",
+        "C6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑E7/G7/F6/H6与白E6/F5/G2等零星分布，尚未形成集团，是未来势力扩张核心区域。",
+      "shapes": [
+        "open"
+      ],
+      "local_tags": [
+        "中央潜力",
+        "未控"
+      ],
+      "key_points": [
+        "E7",
+        "F6",
+        "E6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P2/Q2/S2/R3/Q3/P4/Q4/R4/Q5/R5/S5与白R2/S3/T3/S4/T5/Q5等密集交战，已成当前主战场，焦点在T4（政策目标点）附近眼位与出头。",
+      "shapes": [
+        "battlefield"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "紧气"
+      ],
+      "key_points": [
+        "S2",
+        "T3",
+        "T4",
+        "S4",
+        "T5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑G1/H1/H2/G3/G4/G5/F4/E4/D5/C5/C4/B3/B2与白B1/C2/D1/D2/E2/F2/G2构成大型模样，黑棋实地扎实，白棋外势厚实。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白外势"
+      ],
+      "key_points": [
+        "G1",
+        "H1",
+        "G3",
+        "F4",
+        "D5"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中部黑O3/O4/O6/P5/P4与白O4/Q4/Q5/Q6/Q7等形成横向对峙，黑棋略厚，白棋Q7/S7有向上渗透意图。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "横向对峙",
+        "渗透试探"
+      ],
+      "key_points": [
+        "O3",
+        "P4",
+        "Q4",
+        "Q7"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑R1/S2/R3/Q3/R4/Q4/R5/S5/T6/T7与白R2/S3/T3/S4/T5/S7/T8/R8等全面绞杀，T4为双方必争之眼位要点，黑若抢占可活，白若占据则可杀。",
+      "shapes": [
+        "life_death"
+      ],
+      "local_tags": [
+        "生死劫",
+        "眼位决胜",
+        "紧要处"
+      ],
+      "key_points": [
+        "T4",
+        "S2",
+        "T3",
+        "T5",
+        "S4"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    }
+  ]
+}

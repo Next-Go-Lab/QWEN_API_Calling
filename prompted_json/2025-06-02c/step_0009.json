@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_008",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 8,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "F17"
+      },
+      {
+        "color": 0,
+        "point": "C14"
+      },
+      {
+        "color": 1,
+        "point": "L17"
+      },
+      {
+        "color": 0,
+        "point": "Q5"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "R5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_development",
+      "corner_oriented"
+    ],
+    "strategic_focus": [
+      "right_side_influence",
+      "upper_side_expansion",
+      "center_lightness"
+    ],
+    "global_summary_cn": "开局第8手，黑方占据右上Q3、左上F17与L17三处高位，白方在右下D4、Q5及左中C14、右上D16布子，形成右半盘密集而左半盘稀疏的格局；黑棋侧重高位外势，白棋倾向实地与联络。",
+    "phase_explanation": "处于布局初期，双方尚未展开中腹争夺，主要在边角落子；黑方连续抢占高位，白方以低位小目（D4）与拆二（Q5）回应，并在左中C14与右上D16补强，体现稳健应对策略。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋F17与L17构成双飞燕雏形，白无子，空旷高位。",
+      "shapes": [
+        "two_high_stones"
+      ],
+      "local_tags": [
+        "black_influence",
+        "potential_framework"
+      ],
+      "key_points": [
+        "F17",
+        "L17"
+      ],
+      "group_status": [
+        "alive_as_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属未开发区域，连接左右上势力。",
+      "shapes": [],
+      "local_tags": [
+        "neutral",
+        "future_influence_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q3与白Q5、D16呈斜向对峙；Q3为高挂，Q5为守角兼拆，D16为高位应手。",
+      "shapes": [
+        "diagonal_tension"
+      ],
+      "local_tags": [
+        "black_high_hook",
+        "white_corner_defense"
+      ],
+      "key_points": [
+        "Q3",
+        "Q5",
+        "D16"
+      ],
+      "group_status": [
+        "separate_groups"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "白C14孤子，略显单薄；黑无子，此区暂为白方薄弱侧翼。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "white_solo",
+        "vulnerable_side"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": [
+        "weak_island"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，是未来双方势力交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "empty_core",
+        "strategic_void"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白Q5延伸至R5（目标点）附近，存在潜在拆二或跳起可能；黑无子。",
+      "shapes": [
+        "potential_extension"
+      ],
+      "local_tags": [
+        "white_flexibility",
+        "target_proximity"
+      ],
+      "key_points": [
+        "Q5",
+        "R5"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "完全空旷，无子，属冷区。",
+      "shapes": [],
+      "local_tags": [
+        "quiet_zone",
+        "uncontested"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "完全空旷，无子，与中心共同构成大空腹地。",
+      "shapes": [],
+      "local_tags": [
+        "empty_lower_center"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白D4为经典小目，已定型；黑无子，此角为当前最稳固实地。",
+      "shapes": [
+        "small_knight_corner"
+      ],
+      "local_tags": [
+        "white_secure_corner",
+        "low_profile"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

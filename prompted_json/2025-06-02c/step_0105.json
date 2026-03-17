@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_104",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 104,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B10"
+      },
+      {
+        "color": 0,
+        "point": "J9"
+      },
+      {
+        "color": 1,
+        "point": "C17"
+      },
+      {
+        "color": 0,
+        "point": "A14"
+      },
+      {
+        "color": 1,
+        "point": "G4"
+      },
+      {
+        "color": 0,
+        "point": "H3"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "G4",
+      "R4",
+      "B5",
+      "G5",
+      "R5",
+      "C6",
+      "D6",
+      "G6",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "B8",
+      "C8",
+      "D8",
+      "J8",
+      "B10",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "G13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "C17",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "H3",
+      "B4",
+      "C4",
+      "D4",
+      "H4",
+      "C5",
+      "H5",
+      "Q5",
+      "B6",
+      "F6",
+      "H6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "J7",
+      "E8",
+      "K8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "J9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "A14",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_balance",
+      "White_lead_by_resignation"
+    ],
+    "strategic_focus": [
+      "bottom_side_invasion_response",
+      "center_framework_pressure",
+      "right_side_life_and_death"
+    ],
+    "global_summary_cn": "白方在右下与中腹构建坚实外势，黑方左上与中腹多处薄味；白棋刚于H3落子巩固角地，黑方需应对白在E3的潜在打入点。",
+    "phase_explanation": "第104手，全局进入收官阶段，双方大模样基本定型，局部存在数处未净活或未围实的区域，胜负取决于细微目数与劫争机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑C17、F17、L17、Q17与白C15、F15、K15形成左上大模样对峙，黑厚但空未定，白有A14、C14等侵消点。",
+      "shapes": [
+        "corner_framework",
+        "incomplete_eye_shape"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_invasion_target"
+      ],
+      "key_points": [
+        "C17",
+        "A14",
+        "C14"
+      ],
+      "group_status": [
+        "black_group_alive",
+        "white_group_semi_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑H16、K16、R16与白D16、P16、P17构成中上边攻防，黑棋联络偏弱，白P14、K14施加压力。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "black_weak_connection",
+        "white_pressuring"
+      ],
+      "key_points": [
+        "H16",
+        "P14",
+        "K14"
+      ],
+      "group_status": [
+        "black_group_vulnerable",
+        "white_group_stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q5、Q6、R6、Q10、Q13、Q14、Q17与黑R4、R5、R12、R16形成右上激烈争夺，黑R12-R16呈孤龙状，白有K12、L12等断点。",
+      "shapes": [
+        "dragon",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "black_life_and_death_unclear",
+        "white_cutting_opportunity"
+      ],
+      "key_points": [
+        "R12",
+        "K12",
+        "Q10"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_dominant"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑B5-B8、C6-C8、D6-D8、B10-C10与白B4-C4-D4、B6-C6、B7-C7、B11-C11形成左中腹密集接触战，黑形稍厚但眼位不足。",
+      "shapes": [
+        "contact_fight",
+        "eye_space_deficit"
+      ],
+      "local_tags": [
+        "mutual_thickness",
+        "black_eye_trouble"
+      ],
+      "key_points": [
+        "B8",
+        "C6",
+        "B11"
+      ],
+      "group_status": [
+        "both_groups_unstable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑E7-H7、F10-G11、D11-E11与白E9-G9、F6、H6、J7、J9、J11构成中央主战场；白J9刚落子，强化对黑中腹薄弱处的压迫。",
+      "shapes": [
+        "central_framework",
+        "pressured_group"
+      ],
+      "local_tags": [
+        "white_central_control",
+        "black_center_weakness"
+      ],
+      "key_points": [
+        "J9",
+        "G11",
+        "E9"
+      ],
+      "group_status": [
+        "black_group_under_pressure",
+        "white_group_influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑G4-G7、G10-G14、J12-J15与白H3-H6、H9-H10、J11、K11、K12、K14、K15形成中右复杂缠斗；白H3为最新一手，稳固角地并瞄向E3。",
+      "shapes": [
+        "corner_strengthening",
+        "potential_invasion_zone"
+      ],
+      "local_tags": [
+        "white_corner_secure",
+        "black_side_vulnerability"
+      ],
+      "key_points": [
+        "H3",
+        "G14",
+        "K14"
+      ],
+      "group_status": [
+        "white_group_secure",
+        "black_group_fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑O3、Q3、R4、R5与白F3、B4、C4、D4、B6、B7构成左下角定式后续，黑O3-Q3双飞燕结构被白压制，实地不足。",
+      "shapes": [
+        "corner_fighting",
+        "low_efficiency_shape"
+      ],
+      "local_tags": [
+        "black_low_efficiency",
+        "white_corner_advantage"
+      ],
+      "key_points": [
+        "O3",
+        "F3",
+        "D4"
+      ],
+      "group_status": [
+        "black_group_small",
+        "white_group_profitable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑G4-G7、D7-E7-F7与白F3、H3、H4-H6、E8、F9-G9形成下边主战场；黑G4、G5、G6、G7呈‘一串’但缺乏眼位，白E8、F9构成封锁。",
+      "shapes": [
+        "ladder_like_shape",
+        "encirclement"
+      ],
+      "local_tags": [
+        "black_ladder_risk",
+        "white_enclosing"
+      ],
+      "key_points": [
+        "G4",
+        "E8",
+        "F9"
+      ],
+      "group_status": [
+        "black_group_at_risk",
+        "white_group_controlling"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3、R4、R5、R6与白Q5、Q6、R6（共活）、Q10构成右下角混战；R6为黑白共活点，Q10为白外势支点，黑需补强Q3附近。",
+      "shapes": [
+        "shared_point",
+        "outer_strength"
+      ],
+      "local_tags": [
+        "coexistence",
+        "white_outer_influence"
+      ],
+      "key_points": [
+        "R6",
+        "Q10",
+        "Q3"
+      ],
+      "group_status": [
+        "shared_liberties",
+        "white_group_influential"
+      ]
+    }
+  ]
+}

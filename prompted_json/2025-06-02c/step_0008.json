@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_007",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 7,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "F17"
+      },
+      {
+        "color": 0,
+        "point": "C14"
+      },
+      {
+        "color": 1,
+        "point": "L17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_development",
+      "corner_fight_initiation"
+    ],
+    "strategic_focus": [
+      "Q3_corner",
+      "L17_side_influence",
+      "D4_corner_stability"
+    ],
+    "global_summary_cn": "黑棋在右上（Q3）与左上（F17、L17）布下两处角地雏形，白棋则占据右下D4与左下C14、D16形成对称但偏重下方的配置；第7手L17为黑棋强化左上边空意图，全局呈现黑取势、白取地的早期分野。",
+    "phase_explanation": "开局第七手，双方尚未形成明显接触战，但黑棋连续在上侧落子（F17、L17）构建外势，白棋D4、C14、D16呈低位守势，局面处于布局初期的势力划分阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋F17与L17构成斜向双飞燕雏形，L17为最新一手，意在压制白D16并扩展左上影响力。",
+      "shapes": [
+        "diagonal_extension"
+      ],
+      "local_tags": [
+        "black_influence",
+        "side_pressure"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "D16"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无子，但受L17与Q3双向辐射，未来可能成为黑棋外势连接或白棋打入点。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone",
+        "potential_connection"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q3单关守角，已成稳固角地基础；R16为辅助一子，增强右上角厚味。",
+      "shapes": [
+        "single_keima_corner"
+      ],
+      "local_tags": [
+        "black_territory",
+        "corner_stability"
+      ],
+      "key_points": [
+        "Q3",
+        "R16"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "白棋C14孤子，位置稍高，暂无直接配合，属试探性拆二或引征准备。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "white_probe",
+        "flexible_position"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，为全局战略中枢，后续双方势力延伸必争之地。",
+      "shapes": [],
+      "local_tags": [
+        "vacant_core",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，但临近Q3与Q5（policy_target），Q5为黑棋潜在跳点，或用于加强右上或侵消白棋潜力。",
+      "shapes": [],
+      "local_tags": [
+        "target_adjacent",
+        "expansion_option"
+      ],
+      "key_points": [
+        "Q5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋D4小目守角，标准低位坚实型，目前独立成形，无黑棋近身压迫。",
+      "shapes": [
+        "small_eye_corner"
+      ],
+      "local_tags": [
+        "white_territory",
+        "solid_base"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，但上方紧邻C14与D4，存在白棋低位阵势延伸可能，当前无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "low_sente_potential",
+        "extension_path"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "完全空旷，远离现有子群，属远期战略预备区，无当前战术意义。",
+      "shapes": [],
+      "local_tags": [
+        "strategic_reserve"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

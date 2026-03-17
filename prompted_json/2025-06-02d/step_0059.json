@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_058",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 58,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "Q11"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "O6"
+      },
+      {
+        "color": 1,
+        "point": "R9"
+      },
+      {
+        "color": 0,
+        "point": "P6"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "P7",
+      "N8",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "O6",
+      "P6",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋厚势主导",
+      "黑棋治孤未稳"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "白棋外势转化"
+    ],
+    "global_summary_cn": "对局进入中盘关键阶段，白棋凭借右下厚势与中央联络占据主动，黑棋在O7附近试图分断但尚未形成有效攻势；全局白棋实地稍优且厚味弥漫，黑棋需在中腹或左上寻求补偿。",
+    "phase_explanation": "第58手，黑方即将落子（to_play: 1），上一手白棋P6加固右下角，此前双方在R9、Q11、O6等点连续交换，局部趋于定型；当前局面白棋胜率领先，黑棋若不能在O7附近制造混乱或将陷入被动。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑D4/E4/F4与白C3/C4/D3形成小雪崩变形，黑J17与白L16遥相对峙，暂无激烈冲突。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式余味",
+        "轻灵应对"
+      ],
+      "key_points": [
+        "D4",
+        "C3",
+        "J17",
+        "L16"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑Q15孤立，白Q10/Q11形成高位压迫，黑R16与白P17构成边路对峙，潜在飞压或打入点。",
+      "shapes": [
+        "side_influence",
+        "loose_group"
+      ],
+      "local_tags": [
+        "势力对比",
+        "高位牵制"
+      ],
+      "key_points": [
+        "Q15",
+        "Q10",
+        "Q11",
+        "R16",
+        "P17"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R12/P12/R11/P11与白O12/N12/Q10/Q11形成复杂接触战，白棋外势厚实，黑棋眼位尚可但联络存疑。",
+      "shapes": [
+        "contact_fight",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "缠斗区域",
+        "外势vs实地"
+      ],
+      "key_points": [
+        "R12",
+        "P12",
+        "O12",
+        "N12",
+        "Q11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑K4/K7/L10与白H2/H3/H4/H5/H6形成高低配合，黑E7与白C6构成斜向对峙，局部平稳但暗含腾挪空间。",
+      "shapes": [
+        "diagonal_balance",
+        "side_support"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "弹性结构"
+      ],
+      "key_points": [
+        "K4",
+        "K7",
+        "L10",
+        "H2",
+        "C6"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带空旷，黑N5与白O4/P4/Q4形成斜向张力，黑E7延伸意向明显，白M4/O6/P6构筑中腹屏障，是未来胜负关键域。",
+      "shapes": [
+        "central_influence",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "战略要冲",
+        "厚势辐射"
+      ],
+      "key_points": [
+        "N5",
+        "O4",
+        "P4",
+        "Q4",
+        "E7",
+        "O6",
+        "P6"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑Q6/R6/R9与白R5/O6/P6/Q9/O9形成密集接触，黑R9为最新打入点，白以O6/P6稳固根基，局部胜负手集中于此。",
+      "shapes": [
+        "invasion_response",
+        "wall_and_invasion"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "急所密集"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "R9",
+        "R5",
+        "O6",
+        "P6",
+        "Q9"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3/J3/L3/M3/P3与白C3/D3/E3/H2/H3构成大模样雏形，黑棋厚实但略显凝重，白棋有C6跳入或F6侵消可能。",
+      "shapes": [
+        "large_framework",
+        "thick_structure"
+      ],
+      "local_tags": [
+        "模样潜力",
+        "缓攻机会"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "C3",
+        "H2",
+        "C6"
+      ],
+      "group_status": [
+        "solid"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑N8与白N2/N3/O4形成纵向牵制，黑E4/F4/E3与白H4/H5/H6构成横向厚势对峙，O7为双方必争之‘急所’。",
+      "shapes": [
+        "vertical_tension",
+        "urgent_point"
+      ],
+      "local_tags": [
+        "急所所在",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "N8",
+        "N2",
+        "N3",
+        "O4",
+        "E4",
+        "H4",
+        "O7"
+      ],
+      "group_status": [
+        "urgent"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋完全掌控：白P3/Q4/R5/R8/Q9/O9/O6/P6构筑坚实外势与实地，黑Q6/R6/R9呈孤子状，治孤压力巨大。",
+      "shapes": [
+        "territorial_wall",
+        "surrounded_group"
+      ],
+      "local_tags": [
+        "白棋优势区",
+        "黑棋孤棋"
+      ],
+      "key_points": [
+        "P3",
+        "Q4",
+        "R5",
+        "R8",
+        "Q9",
+        "O9",
+        "O6",
+        "P6",
+        "Q6",
+        "R6",
+        "R9"
+      ],
+      "group_status": [
+        "dominant"
+      ]
+    }
+  ]
+}

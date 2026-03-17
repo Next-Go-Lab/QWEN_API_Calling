@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_033",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 33,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H5"
+      },
+      {
+        "color": 1,
+        "point": "G4"
+      },
+      {
+        "color": 0,
+        "point": "C2"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C8"
+      },
+      {
+        "color": 1,
+        "point": "B2"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "C2",
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左下角对杀雏形",
+      "中央势力构建"
+    ],
+    "global_summary_cn": "第33手，黑方刚于B2落子，形成左下角复杂接触战；白棋在C2、D3、C6等处构筑厚壁，黑棋则在B2–C5一带展开深入渗透；右上Q16与左下B2形成遥相呼应之势，全局呈现黑取实地、白取外势的典型格局。",
+    "phase_explanation": "当前处于中盘早段，双方尚未完成大模样定型，局部战斗密集，尤其左下角存在未定型对杀可能，中央及右边尚有较大发展潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑Q16单子镇头，白无子，属黑潜力区。",
+      "shapes": [],
+      "local_tags": [
+        "单点镇头",
+        "潜力区"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，黑白均无落子，属未开发中腹前沿。",
+      "shapes": [],
+      "local_tags": [
+        "空白带",
+        "中腹预备"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白D16、F17、O17构成斜向厚势，黑Q16为应手，白势主导。",
+      "shapes": [
+        "territory_outline"
+      ],
+      "local_tags": [
+        "白厚势",
+        "高位拆逼"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹C8白子孤高，黑C5/D5/ B5与白C6/D6形成对峙，局部紧绷。",
+      "shapes": [
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "对峙前沿",
+        "潜在征子"
+      ],
+      "key_points": [
+        "C5",
+        "D5",
+        "B5",
+        "C6",
+        "D6",
+        "C8"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑G4/G5、白H5/E5/F5形成交错阵线，但未直接接触，属战略缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "阵线交错",
+        "缓冲地带"
+      ],
+      "key_points": [
+        "G4",
+        "G5",
+        "H5",
+        "E5",
+        "F5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P4黑子与Q4白子形成小规模对峙，黑R6延伸，白暂无后续，黑略主动。",
+      "shapes": [],
+      "local_tags": [
+        "小尖对抗",
+        "黑延伸"
+      ],
+      "key_points": [
+        "P4",
+        "Q4",
+        "R6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角激烈接触：黑B2/C3/C4/B5/C5/D5与白C2/D3/D4/E2/E5/F5/G6/B7形成混战核心，B1为关键待落点。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "混战核心区",
+        "对杀前夜",
+        "急所候选"
+      ],
+      "key_points": [
+        "B1",
+        "B2",
+        "C2",
+        "C3",
+        "C4",
+        "B5",
+        "C5",
+        "D5",
+        "D3",
+        "D4",
+        "E2",
+        "E5",
+        "F5",
+        "G6",
+        "B7"
+      ],
+      "group_status": [
+        "black_weak_group",
+        "white_thick_wall"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G3/E4/F4与白D4/H5形成斜向牵制，黑势稍厚但未连贯。",
+      "shapes": [
+        "diagonal_influence"
+      ],
+      "local_tags": [
+        "斜向影响",
+        "未连络"
+      ],
+      "key_points": [
+        "G3",
+        "E4",
+        "F4",
+        "D4",
+        "H5"
+      ],
+      "group_status": [
+        "black_semi_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R14孤立，白无子，黑暂无配合，属单官潜力点。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "低位潜力"
+      ],
+      "key_points": [
+        "R14"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    }
+  ]
+}

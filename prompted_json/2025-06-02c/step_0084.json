@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_083",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 83,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F9"
+      },
+      {
+        "color": 1,
+        "point": "G11"
+      },
+      {
+        "color": 0,
+        "point": "H9"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "J11"
+      },
+      {
+        "color": 1,
+        "point": "J12"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "K12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "中央对杀",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "J12附近黑棋厚势与白棋联络",
+      "中央大龙生死未定",
+      "右下角白棋实地稳固"
+    ],
+    "global_summary_cn": "第83手，轮白方（Ueno Risa）行棋。黑棋刚于J12落子，强化中央势力；白棋此前在F9、H9、J11连续压迫黑棋右上薄味，形成局部对攻。全局白棋实地领先，黑棋试图通过中央厚势争胜，但K12为白棋关键应手点，若失守将导致中央黑棋数子受攻。",
+    "phase_explanation": "中盘后期，双方围绕中央及右上展开激烈争夺，白棋掌握主动权，黑棋需在K12等要点寻求反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各据一隅，无明显战斗。",
+      "shapes": [],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "B4",
+        "C4",
+        "B5",
+        "C5",
+        "B6",
+        "C6",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中腹黑棋有O3、Q3、R4等外势，但白棋Q5、Q6、R6构成坚实屏障，黑势未深入。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "外势",
+        "封锁"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "黑厚",
+        "白稳"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R12、Q13、Q14、R16等子构成大模样，但白棋P14、P16、P17有效侵消，黑势空虚。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "模样",
+        "侵消"
+      ],
+      "key_points": [
+        "R12",
+        "Q13",
+        "Q14",
+        "R16",
+        "P14",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "黑未封",
+        "白渗透"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋D6–D8、C10–D13成串，白棋B11–C11–B12–C12压制其发展，黑棋略显凝重。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "被压",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "C10",
+        "D11",
+        "D12",
+        "D13",
+        "B11",
+        "C11",
+        "B12",
+        "C12"
+      ],
+      "group_status": [
+        "黑孤",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心战场：G11–J12–J11–H9–G9–F9密集交火，黑棋G11/J12连扳，白棋J11/F9/H9呼应，K12为胜负手。",
+      "shapes": [
+        "cross",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀",
+        "眼位争夺",
+        "急所"
+      ],
+      "key_points": [
+        "G11",
+        "H9",
+        "F9",
+        "J11",
+        "J12",
+        "K12",
+        "G9",
+        "H10"
+      ],
+      "group_status": [
+        "未活",
+        "待判"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋J14、K14、K15、M15与白棋K14、K15、M15形成纠缠，黑棋F14–G14–J14一线欲扩张，白棋L12、K14反制。",
+      "shapes": [
+        "net",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "缠斗",
+        "弃子争先"
+      ],
+      "key_points": [
+        "F14",
+        "G14",
+        "J14",
+        "K14",
+        "K15",
+        "M15",
+        "L12"
+      ],
+      "group_status": [
+        "双活可能",
+        "未净"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B5、C6–D7、E7与白棋B4–C4–D4–C5形成经典小目定式余味，黑棋D6–E7稍厚，白棋稳固。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式余味",
+        "实地优先"
+      ],
+      "key_points": [
+        "B4",
+        "C4",
+        "D4",
+        "C5",
+        "B5",
+        "C6",
+        "D6",
+        "D7",
+        "E7"
+      ],
+      "group_status": [
+        "白活",
+        "黑厚"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋F17、L17、Q17与白棋D16、F15、C15形成宽广对峙，黑棋F17–Q17一线潜力大但尚未落实。",
+      "shapes": [
+        "influence"
+      ],
+      "local_tags": [
+        "潜力",
+        "未侵入"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "Q17",
+        "D16",
+        "F15",
+        "C15"
+      ],
+      "group_status": [
+        "黑势",
+        "白守"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋F3、Q3、Q5、R6等子构筑坚实实地，黑棋仅O3、Q3零星应手，白棋已确立优势根基。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "实空",
+        "优势确立"
+      ],
+      "key_points": [
+        "F3",
+        "Q3",
+        "Q5",
+        "R4",
+        "R5",
+        "R6",
+        "Q6"
+      ],
+      "group_status": [
+        "白活",
+        "黑弱"
+      ]
+    }
+  ]
+}

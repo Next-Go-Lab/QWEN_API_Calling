@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_015",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 15,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "S12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "S14"
+      },
+      {
+        "color": 1,
+        "point": "R13"
+      },
+      {
+        "color": 0,
+        "point": "S13"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "J16"
+      },
+      {
+        "color": 1,
+        "point": "S12"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "S13",
+      "S14",
+      "D16",
+      "J16",
+      "R16",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "角地争夺",
+      "边路激战",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "S12附近接触战"
+    ],
+    "global_summary_cn": "第15手，黑方刚于S12落子，形成右上角激烈接触战；白棋在S13、S14、R16、R17构成厚势，黑棋R12–S14一带呈小规模对杀态势；左上Q16/Q17与J16形成白棋双飞燕雏形，黑棋P4/R4占据下边低位，全局处于布局向中盘过渡阶段。",
+    "phase_explanation": "布局后期，双方在右上集中用兵，局部未定型，中腹尚未展开，胜负关键在于右上攻防结果及后续对中腹影响力的控制。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D16、黑棋Q16/Q17构成左上角初步构型，J16为白棋打入点，尚未形成明确定式。",
+      "shapes": [],
+      "local_tags": [
+        "双飞燕雏形",
+        "打入点"
+      ],
+      "key_points": [
+        "D16",
+        "J16",
+        "Q16",
+        "Q17"
+      ],
+      "group_status": [
+        "白棋轻灵",
+        "黑棋守角"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无子力分布，属潜在势力延伸区。",
+      "shapes": [],
+      "local_tags": [
+        "空白大场",
+        "未来拆边位"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋R16/R17与黑棋Q17形成角部牵制；S14/S13/R13/R12/S12构成密集接触战场，黑棋试图侵分，白棋构筑外势。",
+      "shapes": [
+        "直线连接",
+        "小堡垒"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "S12",
+        "S13",
+        "S14",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "黑棋未活净",
+        "白棋外势厚实"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，仅白棋D4与黑棋P4/R4遥相呼应，暂无直接互动。",
+      "shapes": [],
+      "local_tags": [
+        "低位据点",
+        "静待发展"
+      ],
+      "key_points": [
+        "D4",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑棋实地坚实",
+        "白棋孤立"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，为未来中腹作战核心预备区。",
+      "shapes": [],
+      "local_tags": [
+        "中腹真空",
+        "战略要冲"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "S12附近战斗辐射至此，R15为黑棋下一招政策目标点，具扳头或分断意图。",
+      "shapes": [],
+      "local_tags": [
+        "政策目标位",
+        "潜在分断点"
+      ],
+      "key_points": [
+        "R15",
+        "S12"
+      ],
+      "group_status": [
+        "待定型"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "无子，全空，属低位大场，尚未进入双方视野。",
+      "shapes": [],
+      "local_tags": [
+        "沉寂区域",
+        "远期拆二位"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "无子，空旷，与下边黑棋P4/R4存在潜在呼应可能。",
+      "shapes": [],
+      "local_tags": [
+        "低位联络预备"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "无子，空旷，当前无战略意义。",
+      "shapes": [],
+      "local_tags": [
+        "闲置区域"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

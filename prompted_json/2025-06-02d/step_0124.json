@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_123",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 123,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "S14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E10"
+      },
+      {
+        "color": 1,
+        "point": "C9"
+      },
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "B13"
+      },
+      {
+        "color": 0,
+        "point": "D14"
+      },
+      {
+        "color": 1,
+        "point": "S14"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "白优势",
+      "边角定型完成",
+      "中腹潜力争夺"
+    ],
+    "strategic_focus": [
+      "中央厚势构建",
+      "右下角实地收束",
+      "左上孤棋治孤"
+    ],
+    "global_summary_cn": "全局进入官子阶段，白方凭借右下与中腹厚势占据明显优势；黑棋在左上、中腹存在数块未安定棋形，需谨慎处理；双方近期落子集中于中腹及右下，J6为关键打入点。",
+    "phase_explanation": "第123手，轮白（to_play=0），上一手黑S14为右上守角补强，此前双方在右下F13-B13-D14-S14形成复杂攻防；当前局面实地大致均衡，但白方外势更厚、联络更佳，胜率领先。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑C3-C4-C6-C7-C9-D11-D4-E4-E7-E9等构成左上大模样，但白B3-H2-H3-H4-H5-H6-H7-G8-G9-K9等深入侵消，黑C9、B13为孤棋要点。",
+      "shapes": [
+        "corner_invasion",
+        "weak_group"
+      ],
+      "local_tags": [
+        "孤棋",
+        "治孤",
+        "浅消"
+      ],
+      "key_points": [
+        "C9",
+        "B13",
+        "D11"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上区域黑白交错，黑J10-L10-R10-R9-Q9-O9-N9与白N10-O10-Q10-Q9-Q11等形成对峙，K11、L12、N12为接触战焦点。",
+      "shapes": [
+        "side_fight",
+        "contact_zone"
+      ],
+      "local_tags": [
+        "对攻",
+        "联络战"
+      ],
+      "key_points": [
+        "K11",
+        "L12",
+        "N12"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型，黑R11-R12-S13-S14与白Q12-R13-R14-R16-P16等构成厚薄对比，S14为黑最新守角一子，白P14、R14施加压力。",
+      "shapes": [
+        "corner_settled",
+        "thickness_pressure"
+      ],
+      "local_tags": [
+        "守角",
+        "厚势压迫"
+      ],
+      "key_points": [
+        "S14",
+        "R14",
+        "P14"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑E7-F8-H8-H9-L9-L10与白E6-F6-G8-G9-K9等缠斗，F7为白关键跳点，黑E10为打入试探。",
+      "shapes": [
+        "central_fight",
+        "probe"
+      ],
+      "local_tags": [
+        "打入",
+        "腾挪"
+      ],
+      "key_points": [
+        "E10",
+        "F7",
+        "H9"
+      ],
+      "group_status": [
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，黑J6为目标点，周边无密集子力；黑O7-P7-O8-P8-Q6-R6与白N6-O6-P6-Q7等构成中腹势力雏形，J6为典型中央打入位。",
+      "shapes": [
+        "central_target",
+        "potential_influence"
+      ],
+      "local_tags": [
+        "打入点",
+        "势力中枢"
+      ],
+      "key_points": [
+        "J6",
+        "Q6",
+        "O7"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L14-L15-N15-O15-Q15与白K14-K15-O14-P14-P15-R14等形成厚薄对抗，黑L15、O15略显单薄，白P14、R14具攻击性。",
+      "shapes": [
+        "side_thick_vs_weak",
+        "attack_ready"
+      ],
+      "local_tags": [
+        "薄弱",
+        "攻击目标"
+      ],
+      "key_points": [
+        "L15",
+        "P14",
+        "R14"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3-J3-L3-M3-P3与白C3-D3-E3-H2-H3等早年定式演化，黑D4-E4-F4-E7-F8等已连成厚势，白C4-C6-D6-E6-F6为浅消链。",
+      "shapes": [
+        "corner_origin",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "厚壁",
+        "根基稳固"
+      ],
+      "key_points": [
+        "F3",
+        "D4",
+        "F6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G7-H7-K7-O7与白F7-N7-Q7等形成拉锯，黑H8-L8-N8-O8-S8与白G8-R8等互有牵制，H7、N7为眼位与气要。",
+      "shapes": [
+        "side_balance",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "眼位争夺",
+        "气紧"
+      ],
+      "key_points": [
+        "H7",
+        "N7",
+        "O8"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白H2-N2-N3-O4-P4-Q4-R5-R6-R8与黑Q6-R6-S8等构成大型定式收束，白已确立实地优势；黑S13-S14为最后补强，白R13-R14-P14巩固外围。",
+      "shapes": [
+        "corner_secure",
+        "territory_lead"
+      ],
+      "local_tags": [
+        "实地领先",
+        "终局收束"
+      ],
+      "key_points": [
+        "R5",
+        "R6",
+        "S14"
+      ],
+      "group_status": [
+        "secured"
+      ]
+    }
+  ]
+}

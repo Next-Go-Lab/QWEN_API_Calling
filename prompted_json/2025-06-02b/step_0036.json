@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_035",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 35,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "L4"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      },
+      {
+        "color": 0,
+        "point": "M3"
+      },
+      {
+        "color": 1,
+        "point": "K5"
+      },
+      {
+        "color": 0,
+        "point": "P2"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角对攻",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中央势力构建",
+      "左上厚味转化"
+    ],
+    "global_summary_cn": "第35手，黑方刚于Q3落子，形成右下角复杂接触战；白棋在右下P2、M3、N3、N4等处构筑厚壁，黑棋Q3、O4、P4、R4等子试图侵分。左上黑棋Q15-Q18连片大模样初具规模，白棋D16、J16、R16等点入试探。全局呈现黑取实地、白取外势的典型格局。",
+    "phase_explanation": "当前处于中盘战斗高峰期，双方在右下角与左上角同步展开攻防，中央尚未定型，L11为潜在打入/分断要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q15-Q18、R12-R14、S12-S13构成庞大上边阵势，白棋D16、J16、R16、S14、S13、S18、S19呈点入与压缩态势，局部存在未定型攻防。",
+      "shapes": [
+        "large_framework",
+        "invasion_points"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白点入",
+        "未净活"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S18",
+        "D16",
+        "J16",
+        "R16",
+        "S14"
+      ],
+      "group_status": [
+        "black_floating_framework",
+        "white_invasive_groups"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，仅白棋R17、S19及黑棋R13、R14零星分布，无成形势力，属双方潜在扩展或轻吊区域。",
+      "shapes": [
+        "open_area"
+      ],
+      "local_tags": [
+        "空旷",
+        "待发展"
+      ],
+      "key_points": [
+        "R13",
+        "R14",
+        "R17",
+        "S19"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "近乎空白，仅黑棋S12、S13、S14与白棋S13、S14、S18、S19交错，但S列多子属混战边缘，主战场未深入此区。",
+      "shapes": [
+        "edge_conflict_zone"
+      ],
+      "local_tags": [
+        "边界混战",
+        "子力交错"
+      ],
+      "key_points": [
+        "S12",
+        "S13",
+        "S14",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "unclear_territory"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，黑棋无子，白棋仅D4、D16两点遥相呼应，中间大片区域为双方未来行棋焦点，L11目标点即位于此区偏右位置。",
+      "shapes": [
+        "central_void",
+        "target_proximity"
+      ],
+      "local_tags": [
+        "空域",
+        "L11临近"
+      ],
+      "key_points": [
+        "D4",
+        "L11"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何棋子，是全局最开阔的中枢地带，未来将承担联络、分断、治孤等多重战略功能。",
+      "shapes": [
+        "empty_center"
+      ],
+      "local_tags": [
+        "绝对空旷",
+        "战略枢纽"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋K5、M6、N5、N6、O4、P4、Q3、R4与白棋M5、O5、L4、M3、N3、N4、P2密集交缠于右下角，形成典型接触战核心，气紧且变化繁复。",
+      "shapes": [
+        "contact_fight",
+        "corner_complex"
+      ],
+      "local_tags": [
+        "右下激斗",
+        "气紧对杀",
+        "未定型"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "O4",
+        "R4",
+        "K5",
+        "N5",
+        "M6",
+        "N6",
+        "L4",
+        "M3",
+        "N3",
+        "N4",
+        "P2",
+        "M5",
+        "O5"
+      ],
+      "group_status": [
+        "black_attacking_group",
+        "white_thick_wall"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无任何棋子，属绝对安全空域，暂无战略紧迫性。",
+      "shapes": [
+        "empty_corner"
+      ],
+      "local_tags": [
+        "全空"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，仅靠近右侧有少量延伸感（如P2、M3），但本区内无子，属待开发腹地。",
+      "shapes": [
+        "empty_lower_center"
+      ],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角战斗辐射区，含全部关键交火点：Q3、P4、O4、R4、L4、M3、N3、P2等，黑棋试图深入，白棋筑起坚实外势墙。",
+      "shapes": [
+        "corner_battlefield",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "主战场",
+        "白厚势",
+        "黑侵消"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "O4",
+        "R4",
+        "L4",
+        "M3",
+        "N3",
+        "P2"
+      ],
+      "group_status": [
+        "black_invasion_group",
+        "white_wall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_065",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 65,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "M5"
+      },
+      {
+        "color": 1,
+        "point": "J4"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "F3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E3",
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "M5",
+      "Q5",
+      "C6",
+      "P6",
+      "Q6",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上厚味转化"
+    ],
+    "global_summary_cn": "第65手，黑方刚于J4落子，局面进入中盘关键阶段。黑棋在右下（N3–R6）与左上（B15–P17）形成两块厚势，白棋则在右上（C9–R9）及中腹右侧（M5、Q5等）构筑阵势并保持联络。双方在E6附近存在未定型区域，为下一回合焦点。",
+    "phase_explanation": "当前为中盘中后期，实地基本分割完毕，双方重心转向势力消长与大龙安危。黑棋握有先手，需判断是强化自身孤棋（如F3/E3附近）还是压迫白棋薄弱环节（如C6/C9一带）；白棋需巩固中腹联系并伺机侵消黑棋上方潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋大模样（B15–D15–C11–D10）已初步成势，白棋C9、C10、C13构成低位侵消链，但尚未深入。黑D11/D13与白C13对峙，局部气紧。",
+      "shapes": [
+        "corner_enclosure",
+        "low_invasion_chain"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白浅消",
+        "气紧对峙"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "C13"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段相对空旷，仅白R9、黑Q7/S7/S8零星分布。黑S7–S8与白R9形成轻微接触，但无直接攻防。此区为双方未来腾挪与飞压的潜在通道。",
+      "shapes": [
+        "sparse_edge",
+        "potential_flying_point"
+      ],
+      "local_tags": [
+        "空旷带",
+        "飞压预备区"
+      ],
+      "key_points": [
+        "Q7",
+        "R9",
+        "S8"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋占据C6、Q4–Q6、R3–R4–R6–R7–R8–R9等多点，形成宽厚外势；黑Q2–R2–Q3–R4–R5–R6构成小堡垒但略显孤立。白Q5/R5对黑中腹构成压制。",
+      "shapes": [
+        "white_wall",
+        "black_outpost"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑孤子",
+        "外势压迫"
+      ],
+      "key_points": [
+        "Q4",
+        "Q5",
+        "R5",
+        "Q2"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹以黑D13–E14–F14–E15与白C13–E15–F15–G15–H15形成南北向对峙带。黑E14/F14与白E15/F15贴身接触，局部存在劫争隐患，气数敏感。",
+      "shapes": [
+        "contact_line",
+        "potential_ko_zone"
+      ],
+      "local_tags": [
+        "贴身对杀",
+        "劫材储备区",
+        "气紧"
+      ],
+      "key_points": [
+        "E14",
+        "E15",
+        "F15"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，仅黑M5（白）、O5、P5、N7（白）、M17等散点。黑O5/P5与白M5/N7构成微型三角对峙，但未形成有效连接。E6为全局唯一明确政策目标点，属未定型中枢。",
+      "shapes": [
+        "central_void",
+        "policy_target_zone"
+      ],
+      "local_tags": [
+        "中枢真空",
+        "政策点E6",
+        "联络薄弱"
+      ],
+      "key_points": [
+        "E6",
+        "M5",
+        "N7",
+        "O5"
+      ],
+      "group_status": [
+        "disconnected",
+        "target_zone"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹为本局最激烈交战区：黑F3–F4–J4–N3–N5–O5–P4–P5与白E3–D4–L4–O4–Q4–M5–Q5–P6–P7–R7等密集交错。J4为最新一手，黑借F3–F4–J4构成跳攻，白L4/O4为联络要点。",
+      "shapes": [
+        "entangled_cluster",
+        "jump_attack"
+      ],
+      "local_tags": [
+        "主战场",
+        "跳攻成型",
+        "白联络要冲"
+      ],
+      "key_points": [
+        "F3",
+        "F4",
+        "J4",
+        "L4",
+        "O4"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角近乎空白，仅有黑D10/C11与白C9/C10/C13延伸至此。无实质棋形，属战略后方，当前无攻防压力。",
+      "shapes": [
+        "empty_corner"
+      ],
+      "local_tags": [
+        "净空",
+        "战略后方"
+      ],
+      "key_points": [],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑N3–P4–R2–R4与白P3–R3–Q4–O4–P6–Q6–R6–R7形成复杂纠缠。黑R2/R4与白R3/R6同线对峙，黑N3–O5–P5呈斜向厚势，白P3/Q3缺一子即被分断。",
+      "shapes": [
+        "edge_entanglement",
+        "cutting_point_risk"
+      ],
+      "local_tags": [
+        "边线拉锯",
+        "断点隐忧",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "N3",
+        "P3",
+        "R3",
+        "R4"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋占据Q16–R16–Q17–R17–P17–O17–N17与白Q17–R17–P18–O18–N18–D17–D16–B16–D16形成大范围共活式平衡。黑上方厚势与白下方厚势遥相呼应，但中间E6–F6–G6一带完全空虚，为后续胜负关键。",
+      "shapes": [
+        "mutual_influence_zone",
+        "vacant_core"
+      ],
+      "local_tags": [
+        "共势平衡",
+        "真空走廊",
+        "胜负走廊"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "P18",
+        "E6"
+      ],
+      "group_status": [
+        "balanced_influence",
+        "uncontested"
+      ]
+    }
+  ]
+}

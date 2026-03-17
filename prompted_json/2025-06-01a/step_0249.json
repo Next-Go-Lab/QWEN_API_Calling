@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_248",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 248,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J13"
+      },
+      {
+        "color": 0,
+        "point": "O6"
+      },
+      {
+        "color": 1,
+        "point": "P3"
+      },
+      {
+        "color": 0,
+        "point": "T9"
+      },
+      {
+        "color": 1,
+        "point": "S6"
+      },
+      {
+        "color": 0,
+        "point": "S12"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "P3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "S6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "J13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "T16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19",
+      "T19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "O6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "E9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "T9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "J10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "S12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "B19",
+      "K19",
+      "M19",
+      "O19",
+      "Q19"
+    ]
+  },
+  "targets": {
+    "policy_target": "R12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑稍优",
+      "实地定型"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上角劫争余味"
+    ],
+    "global_summary_cn": "全局进入收官尾声，黑棋凭借左上与中腹厚势略占优势，白棋在右下角顽强做活但目数稍亏；双方在S12、R12等处持续争夺最后几目价值。",
+    "phase_explanation": "第248手为白方刚落于S12的官子，黑方即将在R12应手，属典型终局阶段，胜负差仅0.5目，每手均需精确计算目数与劫材。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋厚势成空，白棋C1–B3一带残子未净活，存在劫争余味。",
+      "shapes": [
+        "corner_enclosure",
+        "sacrificial_group"
+      ],
+      "local_tags": [
+        "厚势",
+        "劫材要点",
+        "C1",
+        "B2",
+        "B3"
+      ],
+      "key_points": [
+        "C1",
+        "B2",
+        "B3"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋J16–Q16连片实空，白棋D16–F16零星阻断，但无攻防效力。",
+      "shapes": [
+        "side_wall",
+        "territorial_line"
+      ],
+      "local_tags": [
+        "实空",
+        "J16",
+        "L16",
+        "P16",
+        "Q16"
+      ],
+      "key_points": [
+        "J16",
+        "L16",
+        "P16",
+        "Q16"
+      ],
+      "group_status": [
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋K19–Q19形成宽厚外势，黑棋T19单官守角，白势向中腹辐射。",
+      "shapes": [
+        "influence_radiation",
+        "peripheral_wall"
+      ],
+      "local_tags": [
+        "外势",
+        "K19",
+        "M19",
+        "O19",
+        "Q19",
+        "T19"
+      ],
+      "key_points": [
+        "K19",
+        "O19",
+        "T19"
+      ],
+      "group_status": [
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑棋B11–E11与C15–D15构成双飞燕式厚壁，白棋B10–C10被封锁，眼位不足。",
+      "shapes": [
+        "wall_and_squeeze",
+        "cramped_group"
+      ],
+      "local_tags": [
+        "厚壁",
+        "B11",
+        "D11",
+        "C15",
+        "D15",
+        "B10"
+      ],
+      "key_points": [
+        "B11",
+        "D11",
+        "C15"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋J13–N13与K11–N11形成大模样雏形，白棋H12–M12零散应对，尚未破眼。",
+      "shapes": [
+        "central_framework",
+        "floating_groups"
+      ],
+      "local_tags": [
+        "模样",
+        "J13",
+        "K11",
+        "M11",
+        "H12",
+        "M12"
+      ],
+      "key_points": [
+        "J13",
+        "K11",
+        "M12"
+      ],
+      "group_status": [
+        "black_potential",
+        "white_uncertain"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋Q13–S13与R11–S11构成联络要点，白棋Q12–S12为最后打入尝试，但已失先机。",
+      "shapes": [
+        "connection_point",
+        "late_invasion"
+      ],
+      "local_tags": [
+        "联络",
+        "Q13",
+        "R11",
+        "S11",
+        "Q12",
+        "S12"
+      ],
+      "key_points": [
+        "Q13",
+        "R11",
+        "S12"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_overplayed"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋C1–G2大块已活，白棋A4–C4小块呈愚形，仅剩单官收束。",
+      "shapes": [
+        "living_group",
+        "endgame_fill"
+      ],
+      "local_tags": [
+        "活棋",
+        "C1",
+        "F2",
+        "G2",
+        "A4",
+        "C4"
+      ],
+      "key_points": [
+        "C1",
+        "F2",
+        "A4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_filling"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑棋F5–R5一线实地坚实，白棋E6–Q6勉强成空但受黑棋G7、K7压制，目数吃紧。",
+      "shapes": [
+        "side_territory",
+        "pressured_eye_space"
+      ],
+      "local_tags": [
+        "实地",
+        "F5",
+        "R5",
+        "E6",
+        "Q6",
+        "G7",
+        "K7"
+      ],
+      "key_points": [
+        "F5",
+        "R5",
+        "G7"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋O6–T9完成做活，黑棋S6–S8施压未果；R12为当前最大官子，关乎3目得失。",
+      "shapes": [
+        "life_and_death_settled",
+        "final_yose_point"
+      ],
+      "local_tags": [
+        "活棋",
+        "O6",
+        "T9",
+        "S6",
+        "S8",
+        "R12"
+      ],
+      "key_points": [
+        "O6",
+        "T9",
+        "R12"
+      ],
+      "group_status": [
+        "white_alive",
+        "critical_yose"
+      ]
+    }
+  ]
+}

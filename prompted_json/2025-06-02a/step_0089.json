@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_088",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 88,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "T8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "T7"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "T6"
+      },
+      {
+        "color": 0,
+        "point": "S7"
+      },
+      {
+        "color": 1,
+        "point": "T4"
+      },
+      {
+        "color": 0,
+        "point": "T8"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "S9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "边空争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "上边白空未净",
+      "中腹潜力"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋在右下角连续侵入，白棋T8一子为最新应对；上边白空存在断点隐患，中腹双方势力交错但尚未形成明显大模样。",
+    "phase_explanation": "第88手，黑方行棋（to_play: 1），局面属官子初期，胜负差距微小（B+3.5），关键在于边角实地与劫材效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B1",
+        "C2"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边白棋连片成空，但Q3、R3、S3处黑棋有打入试探，白空未完全凝固。",
+      "shapes": [
+        "side_wall",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "白空",
+        "潜在破眼"
+      ],
+      "key_points": [
+        "Q3",
+        "R3",
+        "S3",
+        "Q4",
+        "R4"
+      ],
+      "group_status": [
+        "alive_with_eye_space"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q16孤子，白棋D16、F17、O17呈外势呼应，黑棋暂无明确根据地。",
+      "shapes": [
+        "isolated_stone",
+        "moyo_outline"
+      ],
+      "local_tags": [
+        "漂浮",
+        "外势对抗"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋A7–E7一线与白棋A5–E6形成对峙，黑棋B6、E7等子略显单薄。",
+      "shapes": [
+        "ladder_shape",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "对攻前沿",
+        "气紧"
+      ],
+      "key_points": [
+        "A7",
+        "B6",
+        "E7",
+        "E6",
+        "A5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑棋G5、G7与白棋H5、H6形成斜向对峙，尚未构成有效大模样。",
+      "shapes": [
+        "cross_shaped",
+        "potential_moyo"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "影响力扩散"
+      ],
+      "key_points": [
+        "G5",
+        "G7",
+        "H5",
+        "H6",
+        "F6"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3–R7成斜长阵势，白棋Q5–R8反制，T6/T7/T8近期密集落子，局部激战正酣。",
+      "shapes": [
+        "diagonal_wall",
+        "local_battle"
+      ],
+      "local_tags": [
+        "近身战",
+        "劫争预备"
+      ],
+      "key_points": [
+        "T6",
+        "T7",
+        "T8",
+        "S7",
+        "R7",
+        "Q5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A3–C5与白棋A4–C2形成经典低中国流定式变例，已安定。",
+      "shapes": [
+        "corner_settled"
+      ],
+      "local_tags": [
+        "定式完成",
+        "双活可能"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B2",
+        "C2",
+        "C3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑棋P2–S5与白棋O4–S4形成实地拉锯，黑棋R4/S5稍厚，白棋O4/Q4存联络弱点。",
+      "shapes": [
+        "side_race",
+        "connection_weakness"
+      ],
+      "local_tags": [
+        "实地比拼",
+        "联络问题"
+      ],
+      "key_points": [
+        "P2",
+        "R4",
+        "S5",
+        "O4",
+        "Q4"
+      ],
+      "group_status": [
+        "competing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑棋T4–T7四子深入，白棋T8扳为最新一手，黑棋R7、S7、T6构成攻击阵型，白棋S9、R8、Q8试图联络。",
+      "shapes": [
+        "invasion_group",
+        "counter_attack"
+      ],
+      "local_tags": [
+        "主战场",
+        "生死攸关",
+        "劫材敏感"
+      ],
+      "key_points": [
+        "T4",
+        "T6",
+        "T7",
+        "T8",
+        "S7",
+        "R7",
+        "S9",
+        "R8"
+      ],
+      "group_status": [
+        "critical_battle"
+      ]
+    }
+  ]
+}

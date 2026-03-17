@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_016",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 16,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "B6"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "P4",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "Q4",
+      "C6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "invasion_preparation"
+    ],
+    "strategic_focus": [
+      "C5_invasion_target",
+      "B7_white_group_vulnerability",
+      "Q4_P4_black_framework"
+    ],
+    "global_summary_cn": "第16手，黑方即将在C5点发动小飞挂角式侵入，白棋在左上B7附近形成薄弱孤子，而右下Q4-P4一带黑棋已布下初步外势；全局尚处布局早期，双方在四个角落均有落子但未定型。",
+    "phase_explanation": "布局阶段中期，双方完成基本占角，开始试探性向对方势力范围渗透；C5是当前最富战略张力的选点，兼具攻防双重意义。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D16、F17、O17构成高位联络雏形，黑棋Q16单子呼应，但尚未形成稳固势力。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "high_position",
+        "loose_connection"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_diaspora",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无任何着子，属典型中腹缓冲带。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "neutral_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "完全空旷，无子，为未来可能的拆边或大场预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "potential_extension"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "B6、B7、C6、C4、D3、D4密集交战区，白棋B7与C6构成斜跳守角，黑棋C4、B6反夹，局部呈对攻态势。",
+      "shapes": [
+        "ladder_fragment",
+        "knight_move_shape"
+      ],
+      "local_tags": [
+        "local_battle",
+        "sente_contest"
+      ],
+      "key_points": [
+        "B6",
+        "B7",
+        "C4",
+        "C6",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "white_weak_eye_shape",
+        "black_pressuring"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "全空，无子，但C5为当前全局焦点，是黑方下一步最可能的侵入点。",
+      "shapes": [],
+      "local_tags": [
+        "target_point",
+        "strategic_void"
+      ],
+      "key_points": [
+        "C5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "P4、Q4为黑棋双子构成小目守角雏形，白棋Q4被夺后转为黑势基础，R6延伸加强右侧厚度。",
+      "shapes": [
+        "small_knight_shape",
+        "extension_line"
+      ],
+      "local_tags": [
+        "black_framework",
+        "reduced_corner"
+      ],
+      "key_points": [
+        "P4",
+        "Q4",
+        "R6"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_corner_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "C3、D3、D4构成经典错小目开局结构，黑C3与白D3-D4形成初期角地争夺。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "standard_opening",
+        "territory_race"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "balanced",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅黑Q3单子孤立存在，暂无配合，属待发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_stone",
+        "potential_base"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_lonely"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "R14为黑棋低位单关跳，意图向中腹或右边发展，目前孤立，但有与R6呼应潜力。",
+      "shapes": [
+        "single_knight_jump"
+      ],
+      "local_tags": [
+        "development_start",
+        "long_range_link"
+      ],
+      "key_points": [
+        "R14"
+      ],
+      "group_status": [
+        "black_unconnected",
+        "future_linkage"
+      ]
+    }
+  ]
+}

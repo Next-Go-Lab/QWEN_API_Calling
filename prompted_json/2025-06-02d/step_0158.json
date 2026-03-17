@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_157",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 157,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E14"
+      },
+      {
+        "color": 1,
+        "point": "C16"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "E13"
+      },
+      {
+        "color": 0,
+        "point": "F14"
+      },
+      {
+        "color": 1,
+        "point": "G15"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "R7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "S9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "S12",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "G15",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "R15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "Q17",
+      "T17",
+      "M18",
+      "N18",
+      "Q18",
+      "T18",
+      "P19"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "S6",
+      "B7",
+      "F7",
+      "N7",
+      "Q7",
+      "S7",
+      "G8",
+      "Q8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "T15",
+      "L16",
+      "O16",
+      "S16",
+      "L17",
+      "O17",
+      "P17",
+      "S17",
+      "L18",
+      "O18",
+      "R18"
+    ]
+  },
+  "targets": {
+    "policy_target": "D10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_race",
+      "White_lead_by_resignation"
+    ],
+    "strategic_focus": [
+      "center_influence",
+      "right_side_territory",
+      "bottom_right_life_and_death"
+    ],
+    "global_summary_cn": "白方在右下和中腹占据明显优势，黑方虽在左上和中左有厚势但实地不足；全局进入收官阶段，白棋凭借厚实外势与稳固边空领先，最终黑方中盘认负。",
+    "phase_explanation": "第157手为白方G15，属官子阶段关键扳粘，巩固右中腹联络并压缩黑棋中央潜力；黑方此前数手（E14、F14等）试图侵消未果，白棋D14、F14、K14等构成坚实外势，黑棋D10目标点孤立无援。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C3-C4-C6-D3-D6-E3-E6-F6形成小堡垒，白棋B7与C7对峙，局部呈双活雏形。",
+      "shapes": [
+        "corner_enclosure",
+        "small_eye_shape"
+      ],
+      "local_tags": [
+        "Black_thick",
+        "White_invasion_attempt"
+      ],
+      "key_points": [
+        "C3",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "alive_with_two_eyes"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋H9-K9-L9-M10-N9-O9与白棋H10-G10-J10形成复杂缠斗，白棋Q9-R9-S9筑起厚壁，黑棋T17-T18略显单薄。",
+      "shapes": [
+        "side_wall",
+        "leaning_attack"
+      ],
+      "local_tags": [
+        "White_thickness",
+        "Black_overextended"
+      ],
+      "key_points": [
+        "H9",
+        "Q9",
+        "T17"
+      ],
+      "group_status": [
+        "weak_group"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋R5-Q4-P4-O4-S6与黑棋Q6-R6-S6-R7-S7形成大模样对峙，黑棋Q16-R16-S16与白棋S17-R18-O18构成角部攻防收束。",
+      "shapes": [
+        "large_framework",
+        "corner_fight"
+      ],
+      "local_tags": [
+        "White_sente_endgame",
+        "Black_compensation"
+      ],
+      "key_points": [
+        "Q4",
+        "Q16",
+        "S17"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B13-C13-D13-E13-F14与白棋B14-C14-D14-E14-F14形成经典‘双飞燕’后收官定式，黑棋L14-L15-M16与白棋K14-K15构成中央对杀焦点。",
+      "shapes": [
+        "ladder_shape",
+        "central_fight"
+      ],
+      "local_tags": [
+        "mutual_reduction",
+        "critical_liberties"
+      ],
+      "key_points": [
+        "E13",
+        "F14",
+        "K14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "白棋G10-H10-G11-H11与黑棋G15-H16-K16形成中腹势力拉锯；黑棋J10-L10-N10-O10与白棋N12-O12-Q12构成‘三连星’残余影响区，白棋略占主动。",
+      "shapes": [
+        "influence_radiation",
+        "central_knight_move"
+      ],
+      "local_tags": [
+        "White_influence",
+        "Black_light"
+      ],
+      "key_points": [
+        "G10",
+        "G15",
+        "N12"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋O13-P14-Q15-R15与白棋O14-P15-Q11-R13形成右中腹大劫争预备态，白棋S15-T15-S16与黑棋R16-Q17构成角部生死劫材储备。",
+      "shapes": [
+        "potential_semeai",
+        "ko_threats"
+      ],
+      "local_tags": [
+        "White_ko_advantage",
+        "Black_vulnerable"
+      ],
+      "key_points": [
+        "O13",
+        "S15",
+        "R16"
+      ],
+      "group_status": [
+        "ko_sensitive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋F3-G7-H7与白棋H2-H3-H4-H5-H6-H7构成经典‘大斜’变体，黑棋J3-K4-J5-K6已活，白棋C3-D3-E3-C4-D6-E6稳固根基。",
+      "shapes": [
+        "living_group",
+        "side_stability"
+      ],
+      "local_tags": [
+        "Black_alive",
+        "White_foundation"
+      ],
+      "key_points": [
+        "F3",
+        "H7",
+        "C3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋L8-M8-N8-O8与白棋M4-O4-P4-Q4形成上下呼应，黑棋P7-Q6-R6与白棋P6-Q7-R7构成‘小目’守角收束，白棋略优。",
+      "shapes": [
+        "corner_settlement",
+        "side_connection"
+      ],
+      "local_tags": [
+        "White_sente",
+        "Black_passive"
+      ],
+      "key_points": [
+        "L8",
+        "P6",
+        "Q7"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋N2-O2-P2-Q2-R2与黑棋P3-Q6-R6-S8构成典型‘无忧角’vs‘高中国流’对抗；白棋S12-S13-S14-S15-T15与黑棋R15-Q15-P16-Q16-R16形成终局死活要点，白棋已成活。",
+      "shapes": [
+        "living_corner",
+        "endgame_point"
+      ],
+      "local_tags": [
+        "White_secure",
+        "Black_no_threat"
+      ],
+      "key_points": [
+        "S12",
+        "T15",
+        "R15"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_233",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 233,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H2"
+      },
+      {
+        "color": 1,
+        "point": "G2"
+      },
+      {
+        "color": 0,
+        "point": "F10"
+      },
+      {
+        "color": 1,
+        "point": "F8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "F11"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "J9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "E9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "J10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "center_influence_consolidation",
+      "bottom_right_eye_space_fight",
+      "top_side_sente_conversion"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋以微弱优势领先（B+0.5），当前焦点集中在中腹厚势转化与右下角生死劫争。白棋在F10、E9、F8等处连续施压，黑棋F11一子强化中央联络并制造反打劫材；目标点J10是白棋潜在的破眼/搜根要点，亦为黑棋需补强的眼位关键。",
+    "phase_explanation": "第233手，黑方行棋（to_play=0表示黑方即将落子），属终局收束期。双方在多个局部存在未净活集团，尤其右下（Q10–S9）、中腹（F8–J12）及左上（B12–D15）三处存有劫争或薄味，胜负系于单官价值判断与劫材储备。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C11–D15连片厚势，白棋B12/B13/C13形成孤棋但有做活余地；黑K11、L11压制白M12/M13，存在攻击头绪。",
+      "shapes": [
+        "corner_enclosure",
+        "black_wall"
+      ],
+      "local_tags": [
+        "potential_attack",
+        "white_weak_group"
+      ],
+      "key_points": [
+        "C11",
+        "B12",
+        "D13",
+        "K11"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋K2–R4成宽厚阵势，黑棋Q3/R3/S4嵌入其内构成侵消；白L4/M4/N4与黑J4/P4对峙，局部呈接触战态势。",
+      "shapes": [
+        "white_framework",
+        "black_invasion"
+      ],
+      "local_tags": [
+        "framework_pressure",
+        "contact_fight"
+      ],
+      "key_points": [
+        "J4",
+        "K4",
+        "P4",
+        "Q3"
+      ],
+      "group_status": [
+        "white_slightly_thick",
+        "black_fighting"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q16–S16与白P16–S17形成复杂边界，黑R19孤子受白Q17/R17夹击；白K19/M19构成外势支点，黑J16/L16试图分断。",
+      "shapes": [
+        "edge_fight",
+        "outer_strength"
+      ],
+      "local_tags": [
+        "cutting_point",
+        "outer_influence"
+      ],
+      "key_points": [
+        "Q16",
+        "R19",
+        "K19",
+        "J16"
+      ],
+      "group_status": [
+        "black_compromised",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B15–D15与白B16/D16对峙，黑C15/D15双飞燕结构稳固；白C17/D17/F17呈低位爬行，黑B17/T17遥相呼应，存在攻防转换可能。",
+      "shapes": [
+        "ladder_shape",
+        "low_advance"
+      ],
+      "local_tags": [
+        "ladder_setup",
+        "low_pressure"
+      ],
+      "key_points": [
+        "C15",
+        "B16",
+        "C17",
+        "T17"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_low_risk"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹核心区域密集交战：黑F11/G10/K10/L10与白E10/F10/H10形成十字缠斗；黑G8/F8/E9与白F7/E7/H7构成典型‘大雪崩’残局变体，生死未定。",
+      "shapes": [
+        "cross_fight",
+        "life_death_core"
+      ],
+      "local_tags": [
+        "critical_eye_space",
+        "mutual_life_threat"
+      ],
+      "key_points": [
+        "F11",
+        "E10",
+        "G10",
+        "F8"
+      ],
+      "group_status": [
+        "both_unsettled",
+        "high_priority"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J12–N12与白H12/M12/Q12形成横向拉锯；黑J14/L14与白H14/M14构成上下呼应，J10为双方必争之眼位枢纽。",
+      "shapes": [
+        "horizontal_line",
+        "eye_point_control"
+      ],
+      "local_tags": [
+        "key_eye_point",
+        "line_of_contact"
+      ],
+      "key_points": [
+        "J10",
+        "J12",
+        "H12",
+        "J14"
+      ],
+      "group_status": [
+        "contested",
+        "decisive_for_life"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C1–F3与白A4–E4形成经典‘无忧角’对抗变体；黑C2/D3/F2与白B2/D2/E2互锁，白B1/B2已活但黑C1/D1具先手潜力。",
+      "shapes": [
+        "corner_fight",
+        "early_game_residual"
+      ],
+      "local_tags": [
+        "corner_settled",
+        "residual_sente"
+      ],
+      "key_points": [
+        "C1",
+        "B2",
+        "D2",
+        "C2"
+      ],
+      "group_status": [
+        "both_alive",
+        "low_tension"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑H2/G2与白H2/J2/N2形成‘三三星’混战残局；黑H3/K3与白J3/M3构成斜向对峙，黑F1–F3成坚实根基。",
+      "shapes": [
+        "star_point_fight",
+        "base_strengthening"
+      ],
+      "local_tags": [
+        "base_security",
+        "side_influence"
+      ],
+      "key_points": [
+        "H2",
+        "G2",
+        "J2",
+        "H3"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_local_balance"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2–S4与白R3/S3/Q4构成激烈角部攻防；黑Q7/S7与白R7/S9形成‘小猪嘴’死活题结构，F11一子正加强此侧联络与劫材。",
+      "shapes": [
+        "small_pig_snout",
+        "corner_life_death"
+      ],
+      "local_tags": [
+        "death_threat",
+        "ko_material"
+      ],
+      "key_points": [
+        "Q2",
+        "R3",
+        "Q7",
+        "S9"
+      ],
+      "group_status": [
+        "white_in_danger",
+        "black_urgent"
+      ]
+    }
+  ]
+}

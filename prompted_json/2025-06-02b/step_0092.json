@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_091",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 91,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "G13"
+      },
+      {
+        "color": 0,
+        "point": "H12"
+      },
+      {
+        "color": 1,
+        "point": "E15"
+      },
+      {
+        "color": 0,
+        "point": "O12"
+      },
+      {
+        "color": 1,
+        "point": "P11"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "M9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央势力构建",
+      "右下角攻防",
+      "P11附近接触战"
+    ],
+    "global_summary_cn": "第91手，黑方刚于P11落子，形成右下角激烈接触战；白棋在右上与中腹拥有厚实外势，黑棋则在左下、中腹及右下多处展开渗透与治孤；全局呈黑棋主动出击、白棋借势反击态势。",
+    "phase_explanation": "中盘中后期，双方在多个局部存在未定型战斗，尤其右下O11–P11–O12–H12一线连续交换，胜负关键在于中央M9一带的潜力争夺与厚薄转换。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3/K3/L3/M3/N3与黑C4/B4/B5/C6形成低效对峙，无明显战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "白厚势"
+      ],
+      "key_points": [
+        "C3",
+        "K3",
+        "B4"
+      ],
+      "group_status": [
+        "white_friendly",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白D4/E6/C7/C8/E8/E9连片厚势，黑Q3/P4/R4/S4等子孤立，白掌握主动。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑漂浮"
+      ],
+      "key_points": [
+        "D4",
+        "E8",
+        "E9"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_uncertain"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q15/Q16/T16/R16与白R15/S15/S16/T17形成复杂劫争预备态，黑Q17/D17/J17呼应，白S19为高目守角。",
+      "shapes": [
+        "corner_fight",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "劫材储备",
+        "高位牵制"
+      ],
+      "key_points": [
+        "Q15",
+        "S15",
+        "T17"
+      ],
+      "group_status": [
+        "unsettled",
+        "mutual_threat"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑K2/K4/K5/K6/L6/M6与白L3/L4/L5/M5形成上下对称缠斗，黑F8/G10/E9白E9/F3构成中腹联络要点。",
+      "shapes": [
+        "ladder_like",
+        "central_link"
+      ],
+      "local_tags": [
+        "对称结构",
+        "联络要冲"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "E9"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，黑G13/E15/H14与白G12/H12/N10/M11/L11形成十字交叉压制区，M9为双方必争之点。",
+      "shapes": [
+        "cross_pressure",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "战略中枢",
+        "M9焦点"
+      ],
+      "key_points": [
+        "M9",
+        "G13",
+        "H12"
+      ],
+      "group_status": [
+        "contested",
+        "unoccupied_critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N11/O11/P11/R12/S12与白O12/P2/N12/M11/L11激烈接触，P11为最新一手，黑正施压白O12一子。",
+      "shapes": [
+        "contact_fight",
+        "edge_attack"
+      ],
+      "local_tags": [
+        "刚落子",
+        "压迫进行中"
+      ],
+      "key_points": [
+        "P11",
+        "O12",
+        "N11"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D7/E17/G17/D18与白C5/C8/C15/D16/D17形成大模样对峙，黑D7为轻灵跳入点，白C15为坚实守角。",
+      "shapes": [
+        "large_framework",
+        "light_invasion"
+      ],
+      "local_tags": [
+        "黑轻灵",
+        "白坚实"
+      ],
+      "key_points": [
+        "D7",
+        "C15",
+        "E17"
+      ],
+      "group_status": [
+        "black_flexible",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑R13/S14与白S13/S14/S18/S19构成南侧拉锯，黑R14/E14/H14斜向呼应，白S19为超高位守角。",
+      "shapes": [
+        "side_fight",
+        "high_position"
+      ],
+      "local_tags": [
+        "高位对抗",
+        "边线争夺"
+      ],
+      "key_points": [
+        "S14",
+        "R14",
+        "S19"
+      ],
+      "group_status": [
+        "mutual_influence",
+        "unclear_boundary"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O4/P4/R4/R12/S12/T16与白P2/N3/N4/O5/M5/M6形成庞大混战区，黑T18/R18/Q18与白S18/S19互瞄，生死未判。",
+      "shapes": [
+        "complex_combat",
+        "life_death_unclear"
+      ],
+      "local_tags": [
+        "大死活",
+        "多层包围"
+      ],
+      "key_points": [
+        "O4",
+        "R12",
+        "T18"
+      ],
+      "group_status": [
+        "critical_life_death",
+        "high_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_093",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 93,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H12"
+      },
+      {
+        "color": 1,
+        "point": "E15"
+      },
+      {
+        "color": 0,
+        "point": "O12"
+      },
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "M9"
+      },
+      {
+        "color": 1,
+        "point": "L10"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "L10",
+      "M10",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "M9",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "K9点位争夺",
+      "L10刚落子",
+      "M9白棋接应",
+      "中央眼位未定"
+    ],
+    "global_summary_cn": "第93手，黑方刚于L10落子，白方上一手在M9，双方围绕中央K9要害展开激烈争夺；黑棋在右下与中腹形成连片势力，白棋则在左上、中上及右上构筑厚壁，全局呈大模样对抗格局。",
+    "phase_explanation": "中盘中后期，胜负关键在于中央K9一带的攻防转换与眼位争夺，黑棋试图破空，白棋力图围住中腹并巩固外势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C3、B4、B5、C5、C6、D6、C7、C8等构成稳固左上角阵势，黑棋K2、K3、K4、K5、K6局部受压。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白角厚实",
+        "黑棋低位苦活"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "K2"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋F3、G12、H12、S13、S14、S15、S16、S18、S19形成右上大模样雏形，黑棋E14、E15、F15、G13、H14、Q15、Q16、Q17、Q18、R18、T18反向侵消。",
+      "shapes": [
+        "side_wall",
+        "invasion"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑深入"
+      ],
+      "key_points": [
+        "H12",
+        "E15",
+        "Q15"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_invasive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R4、Q4、P4、O4、R12、R13、R14、R15、R16、R17、T16、T17、T18与白棋P2、N3、O5、N4、L4、N12、O12、N10等交错缠斗，右上角尚未定型。",
+      "shapes": [
+        "complex_fighting"
+      ],
+      "local_tags": [
+        "未定型",
+        "多处劫材"
+      ],
+      "key_points": [
+        "R4",
+        "O12",
+        "R15"
+      ],
+      "group_status": [
+        "unclear"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋D7、F8、G10、M10、N11、O11、P11与白棋E8、E9、L11、M11、L10、N10、M9构成中央偏左激烈接触战，L10为最新手。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "L10新点",
+        "M9呼应",
+        "K9待落"
+      ],
+      "key_points": [
+        "L10",
+        "M9",
+        "K9"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑棋G10、L10、M10、N11、O11、P11与白棋N10、L11、M11、G12、H12、E9、E8形成中央核心战场，K9为空点要害。",
+      "shapes": [
+        "vital_point_area"
+      ],
+      "local_tags": [
+        "K9天王山",
+        "眼位敏感",
+        "双侧对称"
+      ],
+      "key_points": [
+        "K9",
+        "G10",
+        "N11"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋M6、N6、L6、K6、J3、K4、K5与白棋L3、M3、N3、O3、L5、M5、O5、L4、N4构成中腹右侧厚薄对比，黑棋稍显松散。",
+      "shapes": [
+        "thickness_comparison"
+      ],
+      "local_tags": [
+        "白棋厚实",
+        "黑棋薄味"
+      ],
+      "key_points": [
+        "M6",
+        "L3",
+        "O5"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B4、B5、B6、C6、D7与白棋C3、C5、D4、D6、E6、C7、C8形成左下角低地争夺，黑棋根基略优但未活净。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "黑实地优先",
+        "白棋骚扰"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "C7"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_prying"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F8、G10、H14、H16、E14、E15、E17、G17与白棋E8、E9、G12、H12、J16、J17、D16、D17、D18构成中下腹复杂交互，黑棋有断点隐患。",
+      "shapes": [
+        "cross_cutting"
+      ],
+      "local_tags": [
+        "E9要冲",
+        "H14跳",
+        "D18守角"
+      ],
+      "key_points": [
+        "F8",
+        "E9",
+        "H14"
+      ],
+      "group_status": [
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋Q3、R4、S12、S13、S14、S15、S16、S17、S18、S19与白棋P2、O3、N3、M3、L3、R15、R16、R17、T17、T18形成右下大混战，边界模糊。",
+      "shapes": [
+        "border_conflict"
+      ],
+      "local_tags": [
+        "白棋边空",
+        "黑棋打入"
+      ],
+      "key_points": [
+        "Q3",
+        "S12",
+        "T17"
+      ],
+      "group_status": [
+        "contested"
+      ]
+    }
+  ]
+}

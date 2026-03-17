@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_044",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 44,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C11"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "E10"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "E12"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D11",
+      "E11",
+      "C12",
+      "R12",
+      "D13",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "E10",
+      "Q10",
+      "C11",
+      "D12",
+      "E12",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央势力构建",
+      "右下角攻防",
+      "E12附近接触战"
+    ],
+    "global_summary_cn": "第44手，黑方即将落子，当前局面白棋略优。右下角（D10–E12–D12–C11–E11）形成密集接触战，黑棋在D11、E11、D13、C12连贯出头，白棋以C11、D12、E12、E10构筑防线；中央（D13–M13–J14–K16）黑棋大龙初具雏形但尚未安定；左上与右上白棋厚势明显；黑棋F17、L17、Q17一线试图扩张中腹，白棋P16、P17、Q10呼应压制。",
+    "phase_explanation": "中盘阶段，双方在右下展开局部决战，黑棋意图破眼或分断，白棋巩固根据地并伺机反击；全局呈白棋实地稍优、黑棋潜力偏大的态势，胜负关键在于右下攻防结果及中央黑大龙的处理效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋C4、D4、F3构成坚实小目守角，黑棋B5单关跳守，白棋厚实无弱棋。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白厚势",
+        "守角完成"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "B5"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋H16、K16、R16与白棋K15、F15、P16形成对峙，黑棋Q13–Q14–R12–R5–Q3–O3构成大模样雏形，但白棋Q5–Q6–R6侵消有力。",
+      "shapes": [
+        "side_framework",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白侵消"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "Q13",
+        "Q5",
+        "R6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q17、P17被白棋P17、P16、Q10压制，黑棋R16、Q14、P14受制，白棋K14、C14呼应，黑棋此处潜力受限。",
+      "shapes": [
+        "side_pressure"
+      ],
+      "local_tags": [
+        "白压迫",
+        "黑局促"
+      ],
+      "key_points": [
+        "Q17",
+        "P17",
+        "K14",
+        "C14"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋M13、J14、J15、K16与白棋L12、K15、M15形成交错，黑棋有向中央发展的势头，但L12白子构成潜在切断点。",
+      "shapes": [
+        "central_extension"
+      ],
+      "local_tags": [
+        "黑延伸",
+        "白阻渡"
+      ],
+      "key_points": [
+        "M13",
+        "J14",
+        "L12",
+        "K15"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带空旷，黑棋D13、C12、E11、D11与白棋D12、E12、E10构成核心战场，F11为关键急所，双方在此处争夺主动权。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "急所焦点"
+      ],
+      "key_points": [
+        "D13",
+        "E11",
+        "D12",
+        "E12",
+        "F11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋Q13、Q14、P14与白棋P14、K14、Q10形成牵制，白棋Q10为高效率外势支点，黑棋难以轻易深入。",
+      "shapes": [
+        "influence_balance"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑试探"
+      ],
+      "key_points": [
+        "Q13",
+        "Q10",
+        "P14",
+        "K14"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋D18、F17、L17与白棋D16构成低姿态布局，黑棋F17–L17–Q17一线试图围中腹，白棋D16为坚实据点。",
+      "shapes": [
+        "low_side_development"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白定型"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "D16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋R4、R5、R12与白棋Q5、Q6、R6形成复杂关系，黑棋R12孤子受白Q10、P14间接威胁，需补强。",
+      "shapes": [
+        "side_weakness"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白牵制"
+      ],
+      "key_points": [
+        "R12",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑D11–E11–C12–D13 vs 白C11–D12–E12–E10，已形成五子密集接触，F11为唯一可入点，黑若抢占则有望分断或做活，白若先手则加固成空。",
+      "shapes": [
+        "life_death",
+        "semeai"
+      ],
+      "local_tags": [
+        "生死劫",
+        "分断要点"
+      ],
+      "key_points": [
+        "D11",
+        "E11",
+        "C11",
+        "D12",
+        "E12",
+        "F11"
+      ],
+      "group_status": [
+        "critical_fight"
+      ]
+    }
+  ]
+}

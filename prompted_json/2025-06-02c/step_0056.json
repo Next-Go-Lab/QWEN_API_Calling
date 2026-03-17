@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_055",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 55,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C15"
+      },
+      {
+        "color": 1,
+        "point": "C10"
+      },
+      {
+        "color": 0,
+        "point": "B11"
+      },
+      {
+        "color": 1,
+        "point": "F10"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "D8"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "E8",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "E9点位争夺",
+      "D8-E8-C10-F10局部死活",
+      "右上角白空潜力",
+      "左下黑大龙未净活"
+    ],
+    "global_summary_cn": "第55手，轮白（Ueno Risa）行棋。黑棋在左下与中腹布有数块未安定棋形，白棋借C15、B11、E8等招强化中腹控制，并于D8完成对黑C10-F10一串的压迫；当前焦点集中于E9——此为双方在D8-E8-C10-F10复杂对杀中的关键气眼与联络要点。",
+    "phase_explanation": "中盘阶段后期，双方在中腹及右下展开多线作战，白棋凭借厚势逐步压缩黑棋活动空间，黑棋亟需在E9或附近寻求做眼或突围手段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白Q5/Q6/R6与黑O3/Q3/R4形成平稳分野，无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "平稳"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑J14/K16/Q14与白K14/P14/Q10形成接触战前沿，黑棋略显单薄。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "接触战",
+        "黑棋薄弱"
+      ],
+      "key_points": [
+        "J14",
+        "K14",
+        "Q10",
+        "Q13",
+        "Q14",
+        "K16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白R12/R16/Q17与黑Q13/Q14/R12构成小规模缠斗，白P16/D16具潜在封锁力。",
+      "shapes": [
+        "corner",
+        "invasion"
+      ],
+      "local_tags": [
+        "小侵消",
+        "白棋主导"
+      ],
+      "key_points": [
+        "R12",
+        "Q13",
+        "Q14",
+        "R16",
+        "P16",
+        "D16"
+      ],
+      "group_status": [
+        "white_advantage"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑B5/C12/C13/D13/E11/F11与白C4/D4/B11/C11/B12/D12/E12密集交战，E9为生死要冲。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "对杀核心",
+        "气紧",
+        "E9要害"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4",
+        "B11",
+        "C11",
+        "B12",
+        "C12",
+        "C13",
+        "D13",
+        "E11",
+        "F11",
+        "E9"
+      ],
+      "group_status": [
+        "critical_fight"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑D8/E8/C10/F10与白D10/E10形成典型‘十字’对攻结构，D8为最新打入点，白E8反打后局面胶着。",
+      "shapes": [
+        "cross_fight"
+      ],
+      "local_tags": [
+        "十字对杀",
+        "最新手D8",
+        "白E8反击"
+      ],
+      "key_points": [
+        "D8",
+        "E8",
+        "C10",
+        "F10",
+        "D10",
+        "E10"
+      ],
+      "group_status": [
+        "life_death_unclear"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑M13/M15/K15与白L12/L17/P17形成斜向牵制，黑K15孤立，白P17具攻击性。",
+      "shapes": [
+        "influence_chain"
+      ],
+      "local_tags": [
+        "白棋外势",
+        "黑棋分散"
+      ],
+      "key_points": [
+        "M13",
+        "L12",
+        "K15",
+        "M15",
+        "L17",
+        "P17"
+      ],
+      "group_status": [
+        "white_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D14/D18/F17与白F3/C4构成大型未定形，黑D18孤棋待连，白F3具潜在搜根意图。",
+      "shapes": [
+        "large_unsettled"
+      ],
+      "local_tags": [
+        "大龙未活",
+        "搜根可能",
+        "白F3伏兵"
+      ],
+      "key_points": [
+        "D14",
+        "D18",
+        "F17",
+        "F3",
+        "C4"
+      ],
+      "group_status": [
+        "black_unsafe"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑H16/J15与白D16/P16形成横向对峙，黑H16稍显飘浮，白P16具压制力。",
+      "shapes": [
+        "side_pressure"
+      ],
+      "local_tags": [
+        "白棋压制",
+        "黑棋轻灵但欠厚"
+      ],
+      "key_points": [
+        "H16",
+        "J15",
+        "D16",
+        "P16"
+      ],
+      "group_status": [
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R5/R4与白Q5/Q6/R6已大致成空，但黑R5尚存余味，白Q6可伺机点入。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "微细余味",
+        "白棋稍优"
+      ],
+      "key_points": [
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "nearly_alive"
+      ]
+    }
+  ]
+}

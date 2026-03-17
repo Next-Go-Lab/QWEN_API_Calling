@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_001",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 1,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      }
+    ],
+    "black_stones": [
+      "R16"
+    ],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "D16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "黑先",
+      "右上角落子"
+    ],
+    "strategic_focus": [
+      "角部占点",
+      "星位附近"
+    ],
+    "global_summary_cn": "对局第一手，黑方Kojima Takaho于R16（右上角星位）落子，开启81th Honinbo预选赛对局。",
+    "phase_explanation": "处于布局初期，仅一子落盘，全局空旷，战略重心尚未展开，典型的小目/星位开局试探阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据R16星位，构成右上角初始据点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "单子",
+        "角部"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "alive_solo"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

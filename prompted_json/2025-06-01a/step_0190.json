@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_189",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 189,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O9"
+      },
+      {
+        "color": 1,
+        "point": "K7"
+      },
+      {
+        "color": 0,
+        "point": "H8"
+      },
+      {
+        "color": 1,
+        "point": "G9"
+      },
+      {
+        "color": 0,
+        "point": "K8"
+      },
+      {
+        "color": 1,
+        "point": "L8"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "K7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "N9",
+      "D10",
+      "C11",
+      "D11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "B12",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "K8",
+      "R8",
+      "C9",
+      "O9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "L10",
+      "B11",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "life_and_death",
+      "territorial_fight"
+    ],
+    "strategic_focus": [
+      "center_influence",
+      "right_side_eye_space",
+      "bottom_right_life_status"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋在右下角与白棋形成细微对杀，中腹存在潜在劫争；黑方刚于L8落子，白方上一手O9意在压缩黑棋右上眼位，当前焦点集中于K9点的争夺。",
+    "phase_explanation": "第189手，黑先，局面处于官子收束关键期。双方在右上（H8-K8-L8）、中腹（K7-K9）及右下（N9-R9）形成多处未定形区域，K9为双方共认要点，关系到黑棋右上大龙眼位完整性与白棋中腹联络效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋B3-C4-D4-E4与黑棋C2-D1-E1-F2构成典型小目守角，无激烈冲突。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "white_influence"
+      ],
+      "key_points": [
+        "C2",
+        "D1",
+        "B3",
+        "C4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q2-R2-S2-S3与白棋R3-S3-Q4形成浅消与反夹，黑棋J2-K2-L2尚未连通，存薄味。",
+      "shapes": [
+        "side_framework",
+        "light_group"
+      ],
+      "local_tags": [
+        "unsettled",
+        "black_thickness"
+      ],
+      "key_points": [
+        "J2",
+        "K2",
+        "Q2",
+        "Q4"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对攻：黑棋P2-Q2-Q3-R3-S4与白棋R3-S3-R4-Q4-O4形成缠斗，K7-L8-G9-H8-K8-O9构成连续攻防链，K9为未落子核心要点。",
+      "shapes": [
+        "fighting_chain",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "critical",
+        "ko_threat_zone"
+      ],
+      "key_points": [
+        "K7",
+        "L8",
+        "G9",
+        "H8",
+        "K8",
+        "O9",
+        "K9"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D5-E5-F5-G5与白棋C6-D6-E6-F7形成厚势对峙，黑棋C3-D3-C5-D5构成低位厚壁，白棋B5-C6-B4略显凝重。",
+      "shapes": [
+        "thick_wall",
+        "influence_boundary"
+      ],
+      "local_tags": [
+        "stable",
+        "black_wall"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "C5",
+        "F5",
+        "C6",
+        "F7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷地带，黑棋J4-J5-J6与白棋H6-J6-L6形成虚势牵制；M6-N5-O5-P5与白棋N6-P6-Q6呈对称拉锯，K9落点将直接影响中腹势力归属。",
+      "shapes": [
+        "central_influence",
+        "potential_eye_shape"
+      ],
+      "local_tags": [
+        "fluid",
+        "strategic_point"
+      ],
+      "key_points": [
+        "J4",
+        "J5",
+        "J6",
+        "M6",
+        "N5",
+        "K9"
+      ],
+      "group_status": [
+        "uncertain"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋N9-O9-P9与白棋R9-S9-O11-P11形成角部延伸对抗；黑棋L8-K7-G9与白棋K8-H8构成局部对杀雏形，L10为白棋联络要津。",
+      "shapes": [
+        "corner_extension",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "tension",
+        "vital_point"
+      ],
+      "key_points": [
+        "N9",
+        "O9",
+        "L8",
+        "K7",
+        "K8",
+        "H8",
+        "L10"
+      ],
+      "group_status": [
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B12-C11-D11-D10与白棋B11-C10-B10构成低挂定式后续，黑棋D13-C13与白棋C13已交换，整体平稳。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "settled",
+        "balanced"
+      ],
+      "key_points": [
+        "B12",
+        "C11",
+        "D11",
+        "D10",
+        "C10"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋E14-F14-J14与白棋E15-F15-G15-H15形成高低配合，黑棋J16-K16-L16与白棋K17-L17构成上下呼应，厚势初具规模。",
+      "shapes": [
+        "side_thickness",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "black_influence",
+        "expanding"
+      ],
+      "key_points": [
+        "E14",
+        "J14",
+        "J16",
+        "K16",
+        "K17"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q13-R13-R14-Q15-P16-Q16-R16-S16与白棋R17-S17-Q17-P18-Q18-R18构成复杂收官，黑棋S18-R19与白棋M19形成边路对峙，眼位尚不完整。",
+      "shapes": [
+        "endgame_territory",
+        "eye_deficit"
+      ],
+      "local_tags": [
+        "critical_endgame",
+        "life_uncertain"
+      ],
+      "key_points": [
+        "Q13",
+        "R13",
+        "Q15",
+        "P16",
+        "Q16",
+        "R16",
+        "S16",
+        "R19",
+        "M19"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    }
+  ]
+}

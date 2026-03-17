@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_062",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 62,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R9"
+      },
+      {
+        "color": 0,
+        "point": "P6"
+      },
+      {
+        "color": 1,
+        "point": "O7"
+      },
+      {
+        "color": 0,
+        "point": "Q7"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "N6"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "N8",
+      "S8",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "Q7",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "N9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "N9点打入试探",
+      "右下角白棋大模样",
+      "中央黑棋联络薄弱"
+    ],
+    "global_summary_cn": "第62手，黑方即将落子于N9，试探白棋右下厚势；白棋在右下（O4–R8）形成庞大外势，黑棋Q6–S8一带孤棋面临攻击风险；左上与中腹黑棋较厚，但右上黑棋R9–R12略显单薄；全局进入中盘关键攻防阶段。",
+    "phase_explanation": "当前为中盘中后期，双方在右下与中腹展开激烈接触战，白棋凭借厚势掌握主动，黑棋需在N9等要点寻求突破或治孤。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋D4–J5成形小堡垒，白棋C3–C4、D3压制，黑棋J17孤立未连络。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "黑角稳固",
+        "白棋浅消"
+      ],
+      "key_points": [
+        "D4",
+        "J17"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_influence"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋R16、Q15与白棋L16、P17对峙，黑棋R10–R12呈竖阵但气紧，白棋Q10–Q11施压。",
+      "shapes": [
+        "side_wall",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "黑阵单薄",
+        "白棋压迫"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "Q10"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋P11–R12与白棋Q11–N12形成纠缠，黑棋R9为尖顶试探，白棋O9–Q9呼应，局部未定型。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "气紧"
+      ],
+      "key_points": [
+        "R9",
+        "O9",
+        "Q9"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑棋F3–L3、E4–K4构成厚势，白棋H2–H5嵌入但未深入，黑棋L10为高台支点。",
+      "shapes": [
+        "thick_wall",
+        "invasion_attempt"
+      ],
+      "local_tags": [
+        "黑棋厚实",
+        "白棋浅入"
+      ],
+      "key_points": [
+        "L10",
+        "H4"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_weak_invasion"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑棋N5、O7、P7与白棋O6、P6、Q7交错，N6为白棋最新镇头，意在封锁黑棋中腹发展。",
+      "shapes": [
+        "junction_point",
+        "head_of_the_line"
+      ],
+      "local_tags": [
+        "镇头战术",
+        "联络焦点"
+      ],
+      "key_points": [
+        "N6",
+        "O7",
+        "N5"
+      ],
+      "group_status": [
+        "black_unconnected",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋Q6–S8与白棋R5–R8、O6–Q7形成复杂接触：黑S8、R9为跳入，白R8、Q7为反夹，N9为待落关键点。",
+      "shapes": [
+        "fighting_cluster",
+        "eye_shape_threat"
+      ],
+      "local_tags": [
+        "攻防前沿",
+        "N9打入点"
+      ],
+      "key_points": [
+        "N9",
+        "S8",
+        "R8"
+      ],
+      "group_status": [
+        "black_under_pressure",
+        "white_controlling"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑棋F3–P3一线厚势，白棋C3–E3、H2–H3被压缩，黑棋D4–E4已活，无明显弱点。",
+      "shapes": [
+        "solid_base"
+      ],
+      "local_tags": [
+        "黑棋根基扎实"
+      ],
+      "key_points": [
+        "F3",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋M3–P3与白棋N2–N3、O4–Q4对峙，白棋M4、O4构成拆二，黑棋P3–Q6略松散。",
+      "shapes": [
+        "extension",
+        "floating_group"
+      ],
+      "local_tags": [
+        "白棋稳健拆边",
+        "黑棋浮棋"
+      ],
+      "key_points": [
+        "P3",
+        "O4"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋C6–R8构筑庞大外势，黑棋仅Q6、R6、N5零星数子，白棋N6镇头完成合围，黑棋亟需N9或M8等处破眼或出头。",
+      "shapes": [
+        "moyo",
+        "surrounding_wall"
+      ],
+      "local_tags": [
+        "白棋大模样",
+        "黑棋孤棋"
+      ],
+      "key_points": [
+        "N6",
+        "Q6",
+        "N9"
+      ],
+      "group_status": [
+        "white_moyo",
+        "black_dead_or_alive_unclear"
+      ]
+    }
+  ]
+}

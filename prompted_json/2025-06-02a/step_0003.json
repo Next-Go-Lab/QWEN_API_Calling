@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_002",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 2,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      }
+    ],
+    "black_stones": [
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "星位布局",
+      "对角布阵"
+    ],
+    "strategic_focus": [
+      "抢占大场",
+      "保持子效平衡",
+      "避免过早接触"
+    ],
+    "global_summary_cn": "黑棋先行占右上星位Q16，白棋第二手点左下星位D4，形成典型对角开局；双方尚未展开接触战，全局空旷，重心在快速占据四角与边线大场。",
+    "phase_explanation": "处于布局初期（前5手阶段），双方各占一星位，呈对角呼应态势；无战斗、无定式、无死活问题，纯属大场选择阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋位于Q16（右上角星位），是本区域唯一着点，构成典型星位开局要点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑先"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋位于D4（左下角星位），是本区域唯一着点，与黑棋Q16形成对角布局。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "白棋应手"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

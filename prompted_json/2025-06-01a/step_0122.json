@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_121",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 121,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K17"
+      },
+      {
+        "color": 1,
+        "point": "J16"
+      },
+      {
+        "color": 0,
+        "point": "H17"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "P11"
+      },
+      {
+        "color": 1,
+        "point": "E17"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "J16",
+      "Q16",
+      "R16",
+      "S16",
+      "E17",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "P11",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "E18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "实地争夺",
+      "边角定型"
+    ],
+    "strategic_focus": [
+      "右上角对杀未净",
+      "中腹潜力待判",
+      "黑棋右下厚势"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋以微弱优势领先；右上角E17一子引发连锁应对，白棋H17、K17试图侵消但黑J16、R11、E17形成呼应；右下黑棋P17-O17-N17-M17与白P18-O18-N18构成复杂边界，胜负关键在E18官子价值。",
+    "phase_explanation": "第121手为黑方行棋，当前轮到白方（to_play: 0），局面已过中盘，进入精细官子阶段；双方在右上、右下及中腹边缘持续交换，无大规模攻防，但每手价值均关乎半目得失。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈接触。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型",
+        "平稳"
+      ],
+      "key_points": [
+        "A4",
+        "B3",
+        "C2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋连片厚实，黑棋零星单官，白势略张。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "外势"
+      ],
+      "key_points": [
+        "K2",
+        "K3",
+        "K4",
+        "K5"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对杀未净：黑E17、J16、K17、H17形成缠斗焦点，黑棋刚落E17，白需应手。",
+      "shapes": [
+        "fighting_group",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀",
+        "未活",
+        "急所"
+      ],
+      "key_points": [
+        "E17",
+        "H17",
+        "J16",
+        "K17",
+        "Q16",
+        "R16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D10-C11-D11与白C9-C10-C13形成低空对峙，黑稍厚。",
+      "shapes": [
+        "ladder_base",
+        "influence_line"
+      ],
+      "local_tags": [
+        "低位势力",
+        "轻灵"
+      ],
+      "key_points": [
+        "C11",
+        "D10",
+        "C10",
+        "C9"
+      ],
+      "group_status": [
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑F6/M6/R6与白G6/H6/J6等呈对称分布，暂无成空迹象，属潜在战场。",
+      "shapes": [
+        "open_area"
+      ],
+      "local_tags": [
+        "中腹",
+        "未定型"
+      ],
+      "key_points": [
+        "F6",
+        "G6",
+        "H6",
+        "J6",
+        "M6",
+        "R6"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P11黑棋与白P11同点反复争夺，现黑占P11，白退守Q5/R7，黑R11强化外势。",
+      "shapes": [
+        "junction",
+        "influence_extension"
+      ],
+      "local_tags": [
+        "要点重复",
+        "外势扩张"
+      ],
+      "key_points": [
+        "P11",
+        "R11",
+        "Q5",
+        "R7"
+      ],
+      "group_status": [
+        "dominant_black"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D1-E1-C2-F2与白D2-E2-B3-E3构成经典低中国流定式余味，已活。",
+      "shapes": [
+        "corner_life"
+      ],
+      "local_tags": [
+        "活形",
+        "定式余味"
+      ],
+      "key_points": [
+        "D1",
+        "E1",
+        "C2",
+        "D2",
+        "E2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F3-H3-K3-L3与白E3-J3-M3形成宽广接触带，黑棋略厚但未围空。",
+      "shapes": [
+        "side_contact"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "实地未定"
+      ],
+      "key_points": [
+        "F3",
+        "H3",
+        "K3",
+        "E3",
+        "J3"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角大对峙：黑O3-P2-Q2-R2-S7-Q7与白O4-P4-Q4-R3-R7-R8-P7等犬牙交错，E18为当前最大官子。",
+      "shapes": [
+        "border_fight",
+        "endgame_point"
+      ],
+      "local_tags": [
+        "官子焦点",
+        "边界复杂",
+        "半目胜负"
+      ],
+      "key_points": [
+        "E18",
+        "P17",
+        "O17",
+        "N17",
+        "P18",
+        "O18"
+      ],
+      "group_status": [
+        "critical_endgame"
+      ]
+    }
+  ]
+}

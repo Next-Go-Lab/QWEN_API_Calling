@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_025",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 25,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O4"
+      },
+      {
+        "color": 1,
+        "point": "P7"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R10"
+      },
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P12"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "N10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "中腹潜力",
+      "右下攻防",
+      "左上定式余味"
+    ],
+    "global_summary_cn": "第25手，轮白（Ueno Asami）行棋。黑棋在右下（P7、R10、P12等）形成局部厚势但略显滞重；白棋以Q9、Q10、R8等构成弹性封锁，并在左上（C4、D3、E3）与右上（Q4、R5）布下双飞燕雏形。N10为关键打入点，意在冲击黑棋中腹薄弱联络。",
+    "phase_explanation": "当前处于中盘初期向中盘中期过渡阶段，双方尚未完成大模样构建，局部战斗密集，胜负焦点集中于右下与中腹的厚薄转换及N10一子的攻守价值。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C4、D3、E3构成小目守角后拆二结构，黑D16、L16、R16呈高位呼应，但未直接接触。",
+      "shapes": [
+        "small_enclosure",
+        "high_framework"
+      ],
+      "local_tags": [
+        "白守角",
+        "黑高位配置"
+      ],
+      "key_points": [
+        "C4",
+        "D3",
+        "D16",
+        "L16"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑R16与白P17形成高低对峙，无直接冲突；中央上方空旷，暂无成形势力。",
+      "shapes": [],
+      "local_tags": [
+        "对峙未定",
+        "空旷待占"
+      ],
+      "key_points": [
+        "R16",
+        "P17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q4、R5构成低位小飞挂应对，黑Q15单关跳守角，结构平稳但缺乏压迫性。",
+      "shapes": [
+        "low_ponnuki",
+        "single_jump_defense"
+      ],
+      "local_tags": [
+        "白挂角",
+        "黑稳健守角"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "Q15"
+      ],
+      "group_status": [
+        "white_flexible",
+        "black_stable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F3、E4、F4与白D3、E3、C4形成经典三连星开局残余，局部已定型，黑稍厚但效率偏低。",
+      "shapes": [
+        "three_star_residual",
+        "contact_fight_edge"
+      ],
+      "local_tags": [
+        "开局余味",
+        "低效厚势"
+      ],
+      "key_points": [
+        "F3",
+        "E4",
+        "F4",
+        "C4"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，仅黑K4孤立一子，白无子进入；N10为双方共同关注的打入/镇头要点。",
+      "shapes": [
+        "empty_center",
+        "potential_invasion_point"
+      ],
+      "local_tags": [
+        "战略真空",
+        "N10焦点"
+      ],
+      "key_points": [
+        "K4",
+        "N10"
+      ],
+      "group_status": [
+        "black_isolated",
+        "no_white_presence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑Q6、R6、P7与白Q9、Q10、R8、R10、R11形成复杂缠斗：黑试图扩张，白构筑封锁网，P12为最新强手。",
+      "shapes": [
+        "ladder_shape",
+        "net_structure",
+        "pressing_sequence"
+      ],
+      "local_tags": [
+        "右下激战",
+        "白封锁链",
+        "黑孤棋受攻"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "Q9",
+        "Q10",
+        "R8",
+        "R10",
+        "R11",
+        "P12"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_coordinated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑E4、F3、F4与白D3、C4、C6构成左下角定式后续，黑未深入，白C6跳守保持弹性。",
+      "shapes": [
+        "corner_followup",
+        "light_jump"
+      ],
+      "local_tags": [
+        "定式收束",
+        "白轻灵守边"
+      ],
+      "key_points": [
+        "E4",
+        "F3",
+        "F4",
+        "C4",
+        "C6"
+      ],
+      "group_status": [
+        "balanced",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑O4为近期一手，白无对应应手；该处孤立，尚未引发战斗，属试探性落子。",
+      "shapes": [
+        "isolated_probe"
+      ],
+      "local_tags": [
+        "试探着",
+        "未引发反应"
+      ],
+      "key_points": [
+        "O4"
+      ],
+      "group_status": [
+        "black_solo",
+        "white_ignore"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q6-R6-P7一线与白R5-Q4构成右下角大型接触战起点，目前白占据主动，黑需处理P7与R10之间联络。",
+      "shapes": [
+        "contact_fight_base",
+        "connection_problem"
+      ],
+      "local_tags": [
+        "主战场",
+        "联络危机"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "R5",
+        "Q4"
+      ],
+      "group_status": [
+        "black_weak_link",
+        "white_dominant"
+      ]
+    }
+  ]
+}

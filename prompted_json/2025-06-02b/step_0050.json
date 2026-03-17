@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_049",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 49,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "K3"
+      },
+      {
+        "color": 1,
+        "point": "K2"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角对峙",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中腹潜力",
+      "L3点位关键"
+    ],
+    "global_summary_cn": "第49手，黑方刚于K2落子，白方即将在L3应手。当前局面呈现典型中盘格局：右下角（D4–N6）形成复杂接触战，黑棋在K2–K5–N5一带构筑攻击阵型，白棋以D6–E6–K3–N3为支撑点展开防守与反制；左上与右上双方大龙基本安定，但右上黑Q15–R18与白R15–S19存在潜在对杀风险；中腹尚空旷，L3为双方必争之要点。",
+    "phase_explanation": "处于中盘中后期，局部战斗密集，全局尚未进入收官，胜负关键系于右下角攻防结果及L3一子的处理效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑Q16–Q18–R18与白D16–J16–R16形成平衡态势，双方均无明显弱点，属安定区域。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "安定",
+        "定式完成"
+      ],
+      "key_points": [
+        "Q16",
+        "D16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部空旷，仅黑Q15、R15附近有零星子力，白R15、S13–S14构成薄味，黑有打入或压迫可能。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "潜力区",
+        "薄味"
+      ],
+      "key_points": [
+        "Q15",
+        "R15"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q17–R18–S18与白R17–S19–S18形成对杀雏形，黑Q15–R14–R13构成外势，白S13–S14–R15略显凝重。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀",
+        "外势"
+      ],
+      "key_points": [
+        "Q15",
+        "R17",
+        "S19"
+      ],
+      "group_status": [
+        "life_and_death"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹近乎空白，仅有黑C6、B4与白D4、F3零星分布，属未开发战略纵深，未来可能成为黑棋扩张方向。",
+      "shapes": [
+        "open"
+      ],
+      "local_tags": [
+        "战略纵深",
+        "待发展"
+      ],
+      "key_points": [
+        "C6",
+        "D4"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何棋子，是全局唯一纯中央空域，未来将决定中腹归属与厚薄转换。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "中央空",
+        "战略枢纽"
+      ],
+      "key_points": [],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹以K2–K5–N5黑阵与K3–N3–M5白阵对峙，L3为绝对焦点，D7–E6–D6构成白下方支点，黑正施加压力。",
+      "shapes": [
+        "contact",
+        "invasion"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "接触战"
+      ],
+      "key_points": [
+        "L3",
+        "K2",
+        "D6"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4、C6与白D4形成小规模定式残局，黑稍占实地，白有向中腹延伸余地，整体平稳。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式残局",
+        "实地优先"
+      ],
+      "key_points": [
+        "B4",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑R12–S12–R13–R14与白L11–N10构成模糊边界，黑外势厚实但未围空，白有侵消空间。",
+      "shapes": [
+        "wall",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "厚势",
+        "侵消点"
+      ],
+      "key_points": [
+        "R12",
+        "L11"
+      ],
+      "group_status": [
+        "thick"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为全盘最激烈战场：黑K2–K4–N5–M6与白K3–N3–M5–O5密集缠斗，D7–E6–D6–L4构成白联络要道，L3为破眼/做眼核心。",
+      "shapes": [
+        "net",
+        "eye_shape",
+        "ladder"
+      ],
+      "local_tags": [
+        "主战场",
+        "生死攸关"
+      ],
+      "key_points": [
+        "L3",
+        "K2",
+        "K3",
+        "D7"
+      ],
+      "group_status": [
+        "life_and_death"
+      ]
+    }
+  ]
+}

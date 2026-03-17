@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_104",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 104,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J13"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L12"
+      },
+      {
+        "color": 0,
+        "point": "M12"
+      },
+      {
+        "color": 1,
+        "point": "J12"
+      },
+      {
+        "color": 0,
+        "point": "L13"
+      },
+      {
+        "color": 1,
+        "point": "J11"
+      },
+      {
+        "color": 0,
+        "point": "J13"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "J12",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "J13",
+      "L13",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "H10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "J13附近劫争雏形"
+    ],
+    "global_summary_cn": "第104手，黑方即将落子，局面处于中盘关键阶段。黑棋在右上、中腹及左下占据较多实地，白棋则在右下、中腹右侧及上边构筑厚势。最近六手集中于J11–L13一带形成紧凑接触战，H10为政策目标点，暗示黑方可能意在打入或分断白棋中腹联络。",
+    "phase_explanation": "当前为中盘中后期，双方在中央与右下展开深度缠斗，局部存在劫争可能性，全局尚未进入明显收官阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑K2、C3、B4、B5、B6、C6与白P2、F3、K3、L3等构成平稳布局，无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "K2",
+        "B4",
+        "F3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白C8、E8、E9、K9、M9与黑Q3、R4、S12、R13等交错，白棋略占外势，黑棋有S13、S14、S15、S16、S18、S19长龙但未净活。",
+      "shapes": [
+        "side",
+        "dragon"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑大龙未净活"
+      ],
+      "key_points": [
+        "S13",
+        "S16",
+        "S19"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q3、O4、P4、R4、R12、S12与白O5、N4、L4等形成复杂接触，黑棋实地稍优，白棋保持弹性。",
+      "shapes": [
+        "corner",
+        "side"
+      ],
+      "local_tags": [
+        "实地优先",
+        "轻灵应对"
+      ],
+      "key_points": [
+        "Q3",
+        "R12",
+        "O5"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑D7、E14、E15、D16、D17、E17、D18与白C5、C7、C8、C15、D16、D17、C18形成纵向拉锯，黑棋厚实但效率略低。",
+      "shapes": [
+        "side",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白低位渗透"
+      ],
+      "key_points": [
+        "D7",
+        "E15",
+        "C15"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域（E10–N10）密集交战：黑G10、K10、L10、M10、J11、K11、N11、O11、P11、J12、R12与白J10、N10、L11、M11、G12、H12、K12、M12、N12、O12、J13、L13等犬牙交错，H10为关键打入点。",
+      "shapes": [
+        "fighting_cluster",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "主战场",
+        "H10打入点",
+        "潜在劫材库"
+      ],
+      "key_points": [
+        "H10",
+        "J11",
+        "J13",
+        "L13"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑H14、R14、Q15、Q16、T16、Q17、Q18、R18、T18与白R15、S15、R16、S16、R17、T17、S18等形成大范围对峙，黑棋实地领先但外围薄弱。",
+      "shapes": [
+        "territory",
+        "influence"
+      ],
+      "local_tags": [
+        "黑实地群",
+        "白外势反制"
+      ],
+      "key_points": [
+        "Q16",
+        "R14",
+        "S16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑K2、K4、K5、K6、L6、M6、N6与白L3、M3、N3、L4、N4、L5、M5、O5构成经典‘小目·无忧角’对抗变体，已大致定型。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "均衡"
+      ],
+      "key_points": [
+        "K2",
+        "K6",
+        "N3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F8、G10、H14、H16、H18与白E6、E8、E9、K9、M9、J10、N10等形成松散对峙，黑棋略控中腹入口。",
+      "shapes": [
+        "side",
+        "influence"
+      ],
+      "local_tags": [
+        "控制要点",
+        "连接试探"
+      ],
+      "key_points": [
+        "F8",
+        "G10",
+        "J10"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R12、R13、R14、R15、R16、R17、R18与白S13、S14、S15、S16、S17、S18、S19、T17、T18、T19构成大规模未定型区域，双方均未完全做活，存在多重死活疑问。",
+      "shapes": [
+        "corner",
+        "life_death"
+      ],
+      "local_tags": [
+        "未定型",
+        "生死未卜",
+        "劫争温床"
+      ],
+      "key_points": [
+        "R12",
+        "S13",
+        "T17"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

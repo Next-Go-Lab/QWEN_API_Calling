@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_013",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 13,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "Q4",
+      "C6",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "L16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fuseki",
+      "corner_fight_initiation"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "bottom_left_framework",
+      "center_influence_building"
+    ],
+    "global_summary_cn": "第13手，黑方刚于Q15落子，开启右上角局部战斗；白棋在左下D3、C4、C6形成低位厚势，黑棋F3-E4-F4与K4构成两翼张开结构，全局呈现黑取势、白取地的早期格局。",
+    "phase_explanation": "开局阶段（前20手），双方尚未形成大规模接触战，但右上Q15与P17已埋下角部攻防伏笔，中腹尚空，战略重心分散于三处：右上角、左下角及中腹潜力点L16。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "uncontested"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上区域空旷，仅白P17位于上边线，黑D16、R16分列左右，形成潜在天元牵制。",
+      "shapes": [],
+      "local_tags": [
+        "edge_influence",
+        "loose_framework"
+      ],
+      "key_points": [
+        "P17",
+        "D16",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈初动：白P17守角，黑Q15尖顶施压，构成典型小目定式前奏。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "fighting_start",
+        "sente_opportunity"
+      ],
+      "key_points": [
+        "P17",
+        "Q15"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defending"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，黑K4孤立但具辐射力，白无子，为后续黑跳或白拆之要地。",
+      "shapes": [],
+      "local_tags": [
+        "potential_extension",
+        "influence_radius"
+      ],
+      "key_points": [
+        "K4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元周边完全空旷，无任何着子，是未来势力交汇核心。",
+      "shapes": [],
+      "local_tags": [
+        "empty_core",
+        "strategic_hub"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹有黑Q15延伸意向，白Q4存在低位呼应，但尚未连接，呈松散对峙。",
+      "shapes": [],
+      "local_tags": [
+        "loose_contact",
+        "extension_vulnerability"
+      ],
+      "key_points": [
+        "Q15",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角密集：白D3、E3、C4构成坚实低位阵型；黑F3、E4、F4形成向上斜飞结构，双方贴近但未直接冲突。",
+      "shapes": [
+        "ladder_base",
+        "low_thickness"
+      ],
+      "local_tags": [
+        "white_thickness",
+        "black_flexibility"
+      ],
+      "key_points": [
+        "D3",
+        "E3",
+        "C4",
+        "F3",
+        "E4",
+        "F4"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，黑C6与白D3/E3/C4形成斜向对应，隐含引征或拆二可能。",
+      "shapes": [],
+      "local_tags": [
+        "latent_connection",
+        "balance_point"
+      ],
+      "key_points": [
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全空，无一子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "future_territory"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

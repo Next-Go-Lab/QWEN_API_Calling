@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_098",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 98,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C2"
+      },
+      {
+        "color": 0,
+        "point": "A4"
+      },
+      {
+        "color": 1,
+        "point": "D1"
+      },
+      {
+        "color": 0,
+        "point": "B4"
+      },
+      {
+        "color": 1,
+        "point": "K3"
+      },
+      {
+        "color": 0,
+        "point": "K4"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "K3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "B3",
+      "E3",
+      "J3",
+      "P3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "H3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "实地争夺激烈",
+      "白棋右下大龙未净活",
+      "黑棋中央厚势待发"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央黑厚势辐射",
+      "左上白空潜力",
+      "H3点三三意图侵消"
+    ],
+    "global_summary_cn": "第98手，黑方即将落子H3，局面处于中盘向收官过渡的关键节点。黑棋在中央和右上形成厚势，白棋右下大龙虽有眼位但尚未安定；左上白空较厚但存在被渗透可能；H3是典型的小目定式后侵消手段，意在压缩黑棋中央势力并试探白右下弱点。",
+    "phase_explanation": "当前为中盘后期，双方已完成主要布局与中腹接触战，进入局部攻防与实地收束阶段。黑棋握有主动权，H3一着兼具侵消、搜根与试探多重意图。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白空较完整，B15-C15-D15-E16与B16-D16构成坚实白阵，仅C13、C10两子略显单薄，黑棋暂无强攻手段。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "白空",
+        "安定",
+        "潜力有限"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "D15",
+        "E16",
+        "B16",
+        "D16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q16-R16-P17-O17-N17-M17连成厚势，白棋Q17-R17仅作浅消，黑势向中腹延伸明显。",
+      "shapes": [
+        "chain"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "辐射中腹",
+        "未完全封锁"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P17",
+        "O17",
+        "N17",
+        "M17",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R2-Q2-Q3-R3-R4-Q4-R5-Q5-R6-Q6-R7-R8-S7-S8形成复杂接触，白棋R3-Q4-R5-Q6-R7-R8勉强成形但气紧，黑棋S7-S8为外势支点。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "对杀未决",
+        "白气紧",
+        "黑外势"
+      ],
+      "key_points": [
+        "R2",
+        "Q2",
+        "Q3",
+        "R3",
+        "R4",
+        "Q4",
+        "R5",
+        "Q5",
+        "R6",
+        "Q6",
+        "R7",
+        "R8",
+        "S7",
+        "S8"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋C2-C3-C4-C5-D1-D3-D5-E1-E5-F2-F3-F4-F5形成大块实空，白棋B3-B4-C4-D4-E4-E3-D2-E2围住小块但被黑多点渗透，C9-C10-C13为白孤子。",
+      "shapes": [
+        "territory",
+        "island"
+      ],
+      "local_tags": [
+        "黑实空",
+        "白孤子",
+        "渗透点多"
+      ],
+      "key_points": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "D1",
+        "D3",
+        "D5",
+        "E1",
+        "E5",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "B3",
+        "B4",
+        "D4",
+        "E4",
+        "E3",
+        "D2",
+        "E2",
+        "C9",
+        "C10",
+        "C13"
+      ],
+      "group_status": [
+        "alive",
+        "weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋J4-K3-L4-M5-M6-N3-N5-O5-P4-P5-Q3-Q5-R6等子构成庞大厚势网络，白棋J3-J6-H7-G6-F7-E7-E6-D6-C6仅作零星抵抗，H3为黑方即将打入要点。",
+      "shapes": [
+        "web",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "黑厚势核心",
+        "H3待落",
+        "白薄弱"
+      ],
+      "key_points": [
+        "J4",
+        "K3",
+        "L4",
+        "M5",
+        "M6",
+        "N3",
+        "N5",
+        "O5",
+        "P4",
+        "P5",
+        "Q3",
+        "Q5",
+        "R6",
+        "J3",
+        "J6",
+        "H7",
+        "G6",
+        "F7",
+        "E7",
+        "E6",
+        "D6",
+        "C6",
+        "H3"
+      ],
+      "group_status": [
+        "dominant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋P3-Q3-R3-Q4-R4-Q5-R5-Q6-R6-P7-Q7-R7-P6-Q6等与白棋O4-P6-Q6-R7-P7-Q7形成缠斗，白棋N7-P7-R7虽有眼形但联络不畅。",
+      "shapes": [
+        "fighting_group"
+      ],
+      "local_tags": [
+        "缠斗区",
+        "白联络弱",
+        "黑厚势压制"
+      ],
+      "key_points": [
+        "P3",
+        "Q3",
+        "R3",
+        "Q4",
+        "R4",
+        "Q5",
+        "R5",
+        "Q6",
+        "R6",
+        "P7",
+        "Q7",
+        "R7",
+        "O4",
+        "P6",
+        "Q6",
+        "R7",
+        "P7",
+        "Q7",
+        "N7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋D1-E1-C2-F2-C3-D3-F3-D5-E5-F4-F5与白棋D2-E2-B3-E3-C4-D4-E4构成经典小目定式后续，黑棋已活且稍厚，白棋B4-A4-B3略显重复。",
+      "shapes": [
+        "corner_territory"
+      ],
+      "local_tags": [
+        "黑活角",
+        "白重复",
+        "定式收束"
+      ],
+      "key_points": [
+        "D1",
+        "E1",
+        "C2",
+        "F2",
+        "C3",
+        "D3",
+        "F3",
+        "D5",
+        "E5",
+        "F4",
+        "F5",
+        "D2",
+        "E2",
+        "B3",
+        "E3",
+        "C4",
+        "D4",
+        "E4",
+        "B4",
+        "A4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑棋K3-K4-L4-M5-M6-N3-N5-O4-O5-P4-P5-Q3-Q5-R3-R4-R5-R6与白棋K4-L4-O4-P6-Q6-R7等混战，K4为白刚落子，黑K3与之对峙，此处为当前最敏感战场。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "K3-K4对峙",
+        "白刚落子"
+      ],
+      "key_points": [
+        "K3",
+        "K4",
+        "L4",
+        "M5",
+        "M6",
+        "N3",
+        "N5",
+        "O4",
+        "O5",
+        "P4",
+        "P5",
+        "Q3",
+        "Q5",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "P6",
+        "Q6",
+        "R7"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q2-R2-R3-Q4-R4-Q5-R5-Q6-R6-Q7-R7-R8-S7-S8与白棋P3-Q3-R3-Q4-R4-Q5-R5-Q6-R6-P6-Q6-R7-P7-Q7-R7等形成大规模攻防，白棋右下大龙眼位不足，黑棋S7-S8为关键外势支点。",
+      "shapes": [
+        "life_and_death",
+        "dragon"
+      ],
+      "local_tags": [
+        "白大龙未活",
+        "黑外势压迫",
+        "生死未卜"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "R3",
+        "Q4",
+        "R4",
+        "Q5",
+        "R5",
+        "Q6",
+        "R6",
+        "Q7",
+        "R7",
+        "R8",
+        "S7",
+        "S8",
+        "P3",
+        "Q3",
+        "P6",
+        "P7",
+        "Q7",
+        "R7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

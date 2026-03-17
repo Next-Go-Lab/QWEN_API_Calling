@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_049",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 49,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E12"
+      },
+      {
+        "color": 1,
+        "point": "F11"
+      },
+      {
+        "color": 0,
+        "point": "B12"
+      },
+      {
+        "color": 1,
+        "point": "C13"
+      },
+      {
+        "color": 0,
+        "point": "B13"
+      },
+      {
+        "color": 1,
+        "point": "D14"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "E10",
+      "Q10",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋求活"
+    ],
+    "strategic_focus": [
+      "右下角对杀未定",
+      "中央黑棋大龙尚未安定",
+      "白棋中腹潜力待发"
+    ],
+    "global_summary_cn": "第49手，轮白方行棋。局面处于中盘关键阶段，右下角（B12–D14一带）形成复杂攻防，黑棋C13、D14与白棋B13、C14、D12紧密接触；中央黑棋E11–F11–J14–K16呈斜向联络但气紧，白棋E10–D10–L12–K15构成厚壁；左上与右上存在分散子力，全局无明显大空，胜负系于几处局部死活与厚薄转换。",
+    "phase_explanation": "中盘攻坚期：双方在右下与中腹展开连续接触战，无明显定式收束，攻防节奏快，关键点C15为白方潜在打入或分断要点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋O3、Q3、R4、R5与白棋Q5、Q6、R6形成低效率对峙，黑棋有拆二意图但未坚实，白棋Q6-R6构成轻薄守势。",
+      "shapes": [
+        "corner_enclosure_incomplete"
+      ],
+      "local_tags": [
+        "低效拆二",
+        "白棋轻薄守角"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q13、Q14、Q17与白棋Q10、P14、P16、P17形成横向牵制，黑棋Q17-P16白子压制下略显孤立。",
+      "shapes": [
+        "side_influence_contest"
+      ],
+      "local_tags": [
+        "边路牵制",
+        "黑棋孤高"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "Q17",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "black_weak_side_group",
+        "white_connected_wall"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R12、R16与白棋R6构成远距离呼应，但中间空旷；黑H16、K16、R16呈斜飞阵势，白P16、P17压住下方，黑棋尚未成空。",
+      "shapes": [
+        "diagonal_framework"
+      ],
+      "local_tags": [
+        "斜飞阵",
+        "未实空"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "R16",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "black_framework",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋B5、C4（白）、D4（白）、C11、B12（白）、C13（黑）、B13（白）、D13（黑）、D14（黑）密集交战，形成典型‘葫芦’状接触部，黑棋C13–D14–C14（白）–B13构成对杀雏形。",
+      "shapes": [
+        "contact_fight",
+        "ladder_like_shape"
+      ],
+      "local_tags": [
+        "葫芦接触部",
+        "对杀前沿"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "D4",
+        "C11",
+        "B12",
+        "C13",
+        "B13",
+        "D13",
+        "D14"
+      ],
+      "group_status": [
+        "black_life_and_death_critical",
+        "white_thick_base"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带黑棋D11、E11、F11、J14、J15、K14、K15、M13、M15与白棋E10、D10、L12、K15、M15构成多层交错，黑棋斜线联络但眼位不足，白棋K15–M15–L12构成厚势支点。",
+      "shapes": [
+        "crossing_diagonals",
+        "thick_vs_light"
+      ],
+      "local_tags": [
+        "斜线联络",
+        "厚壁支点"
+      ],
+      "key_points": [
+        "D11",
+        "E11",
+        "F11",
+        "J14",
+        "J15",
+        "K14",
+        "K15",
+        "M13",
+        "M15"
+      ],
+      "group_status": [
+        "black_uncertain_eye_space",
+        "white_solid_anchor"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋Q10（白）、P14（白）、K14（黑）、P16（白）等子形成高低错落包围网，黑棋Q13–Q14–P14白子压制下仅存外势，缺乏实地根基。",
+      "shapes": [
+        "peripheral_pressure"
+      ],
+      "local_tags": [
+        "外势浮薄",
+        "白棋压缩"
+      ],
+      "key_points": [
+        "Q10",
+        "P14",
+        "Q13",
+        "Q14",
+        "K14"
+      ],
+      "group_status": [
+        "black_influential_but_empty",
+        "white_containing"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋D18、F17与白棋F3、C4、D4构成远距呼应，但中间大片空白；黑D18孤子暂无配合，白C4–D4构成小目守角基础。",
+      "shapes": [
+        "isolated_stone",
+        "corner_foundation"
+      ],
+      "local_tags": [
+        "孤子待援",
+        "小目守角"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "C4",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_stable_corner"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋E12（白）、F11（黑）、D12（白）、E10（白）、D10（白）形成密集白厚壁，黑F11单子嵌入其中，气紧且难做眼，属典型‘钉子’弱点。",
+      "shapes": [
+        "embedded_stone",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "钉子弱点",
+        "白厚壁"
+      ],
+      "key_points": [
+        "E12",
+        "F11",
+        "D12",
+        "E10",
+        "D10"
+      ],
+      "group_status": [
+        "black_vulnerable_single",
+        "white_impenetrable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈战场：黑C13、D13、D14、C14（白）、B13（白）、D12（白）、E12（白）围成紧凑对杀圈，黑棋若不能于C15扳头或扑入则面临被分断风险。",
+      "shapes": [
+        "life_and_death_battle",
+        "tight_encirclement"
+      ],
+      "local_tags": [
+        "对杀核心",
+        "扳头要点"
+      ],
+      "key_points": [
+        "C13",
+        "D13",
+        "D14",
+        "C14",
+        "B13",
+        "D12",
+        "E12",
+        "C15"
+      ],
+      "group_status": [
+        "black_critical_life_and_death",
+        "white_sealing"
+      ]
+    }
+  ]
+}

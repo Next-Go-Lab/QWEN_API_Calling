@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_009",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 9,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D17"
+      },
+      {
+        "color": 1,
+        "point": "C15"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "E16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "D15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "black_invasion"
+    ],
+    "strategic_focus": [
+      "top_side_influence",
+      "center_projection"
+    ],
+    "global_summary_cn": "黑棋在右上角与左下角各有一子，白棋占据左下角星位并构筑左上小堡垒；当前焦点集中在右上角D15-E16一带的激烈接触战，黑棋连续打入，白棋试图封锁但形不厚。",
+    "phase_explanation": "第9手，开局初期，双方尚未形成大模样，局部战斗主导节奏，右上角为当前战略重心。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋C13、D17构成松散联络，黑棋C15、D15、E16形成向上压迫态势，存在潜在对杀风险。",
+      "shapes": [
+        "corner_triangle"
+      ],
+      "local_tags": [
+        "white_floating",
+        "black_pressure"
+      ],
+      "key_points": [
+        "C13",
+        "D15",
+        "E16"
+      ],
+      "group_status": [
+        "white_weak_eye",
+        "black_sente"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅黑棋Q16孤子镇边，暂无实质争夺，属未来势力辐射区。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "potential_influence"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "完全空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，偶有远距离影响（如Q3黑子向中腹延伸），当前无直接互动。",
+      "shapes": [],
+      "local_tags": [
+        "distant_influence",
+        "quiet"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未出现任何着子，全局战略中枢尚处蛰伏期。",
+      "shapes": [],
+      "local_tags": [
+        "empty_core",
+        "latent_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，黑棋Q16影响力可及，但无实地或厚势支撑。",
+      "shapes": [],
+      "local_tags": [
+        "influence_reach",
+        "underdeveloped"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋D4单子守角，黑棋Q3挂角，构成典型‘小飞挂·小目守’开局雏形，白棋尚未完成定式应对。",
+      "shapes": [
+        "corner_framework"
+      ],
+      "local_tags": [
+        "white_corner",
+        "black_early_invasion"
+      ],
+      "key_points": [
+        "D4",
+        "Q3"
+      ],
+      "group_status": [
+        "white_unsettled",
+        "black_active"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，远离当前战场，属长线布局预备区。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "long_term"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "完全空旷，无子，全局最安静区域。",
+      "shapes": [],
+      "local_tags": [
+        "silent",
+        "untouched"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_025",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 25,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "S18"
+      },
+      {
+        "color": 1,
+        "point": "Q18"
+      },
+      {
+        "color": 0,
+        "point": "S19"
+      },
+      {
+        "color": 1,
+        "point": "M4"
+      },
+      {
+        "color": 0,
+        "point": "N4"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "P4",
+      "R4",
+      "N5",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "N4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "O5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋取地"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "下边实地争夺",
+      "中央潜力牵制"
+    ],
+    "global_summary_cn": "第25手，黑方刚于N5落子，形成右上角复杂对杀局面；白棋在S13-S19一带构筑厚势但存在断点，黑棋Q15-Q18连片占据高位，同时M4-P4-R4构成下边坚实阵型；全局呈现黑取实地、白争外势的典型中盘格局。",
+    "phase_explanation": "当前处于中盘战斗初期，双方在右上与下边展开多线对抗，尚未进入大规模攻杀或收官阶段。黑棋掌握主动权，白棋需谨慎处理N4-N5一带的薄味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅D4（白）、D16（白）、J16（白）零星分布，无激烈接触，属白棋潜在势力范围。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "白势雏形"
+      ],
+      "key_points": [
+        "D4",
+        "D16",
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段以Q15-Q18、R16-R18、S18-S19为核心，黑白交错密集；Q17/R17/S17三角地带未落子，是未来腾挪要点。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "上边对峙",
+        "三角空点"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R16",
+        "R17",
+        "R18",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "黑连片",
+        "白连片",
+        "未定型"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角完全空置，无任何着子，为全盘唯一净空大场，战略价值极高。",
+      "shapes": [],
+      "local_tags": [
+        "大场",
+        "未侵消"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅J16（白）孤立存在，无其他子力呼应，暂无明显作战线索。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "静默"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": [
+        "白孤子"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央近乎空白，仅R12-S12-R13-R14等黑子低位铺陈，尚未向中腹发展；O5为政策目标点，暗示此处将成未来焦点。",
+      "shapes": [
+        "ladder"
+      ],
+      "local_tags": [
+        "待开发",
+        "政策目标"
+      ],
+      "key_points": [
+        "O5",
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "黑低位阵型"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹集中爆发：N3/N4/N5/M4/P4/R4构成黑白混战带，N5为最新黑手，N4白子受攻，M4与P4形成黑棋双飞燕雏形。",
+      "shapes": [
+        "knight",
+        "double-wing"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防枢纽",
+        "双飞燕雏形"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "N4",
+        "N5",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "黑厚势",
+        "白薄味",
+        "对杀中"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无一子，属最大未占区域之一，与右上并列为全局两大空旷区。",
+      "shapes": [],
+      "local_tags": [
+        "大场",
+        "未占"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅R12/S12等黑子延伸至此，尚未形成有效控制，存在白棋打入空间。",
+      "shapes": [],
+      "local_tags": [
+        "延伸阵脚",
+        "可侵入"
+      ],
+      "key_points": [
+        "R12",
+        "S12"
+      ],
+      "group_status": [
+        "黑单关"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角S13/S14/R15/R16/R17/S18/S19形成白棋厚壁，但S19与S18之间存在断点隐患；黑棋R12/R13/R14紧贴其上，伺机冲击。",
+      "shapes": [
+        "wall",
+        "potential-cut"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "断点风险",
+        "贴身压迫"
+      ],
+      "key_points": [
+        "S13",
+        "S14",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "白厚势",
+        "黑压迫"
+      ]
+    }
+  ]
+}

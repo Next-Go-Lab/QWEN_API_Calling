@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_040",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 40,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "H6"
+      },
+      {
+        "color": 1,
+        "point": "P3"
+      },
+      {
+        "color": 0,
+        "point": "P4"
+      },
+      {
+        "color": 1,
+        "point": "J5"
+      },
+      {
+        "color": 0,
+        "point": "H5"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "Q6",
+      "R6",
+      "E7",
+      "P7",
+      "N8",
+      "L10",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋厚势主导",
+      "黑棋孤棋受攻"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中央势力渗透",
+      "左上黑空未定"
+    ],
+    "global_summary_cn": "第40手，黑方轮走。白棋在右下（P3-P4-R5-Q4）与中腹（H5-H6）形成厚势，黑棋L10、J5、P7等子略显分散；黑棋D4-E4-F4与D16-R16两块实地尚可但联络薄弱；白棋C3-C4-D3-E3-E7-C6构成左下厚壁，对黑棋中腹施压明显。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，白棋凭借厚势掌控主动权，黑棋亟需处理J5附近孤子及中央薄弱处。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋D16、J17与白棋L16构成角部对峙，黑空未封口，白有C16方向侵消余地。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "未定型角",
+        "黑空浅",
+        "白壁延伸"
+      ],
+      "key_points": [
+        "D16",
+        "J17",
+        "L16"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑Q15、R16与白Q10、Q9、R8形成上下牵制，中央上方无激烈战斗，但黑棋缺乏坚实根据。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "黑边空松散",
+        "白子高位呼应"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "Q10",
+        "R8"
+      ],
+      "group_status": [
+        "black_weak_side",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑R10-R11与白Q9-Q10-R8构成小规模缠斗，黑棋试图扩张但被白棋压缩，R5白子为关键支撑点。",
+      "shapes": [
+        "ladder_like",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "黑棋气紧",
+        "白棋眼位丰富"
+      ],
+      "key_points": [
+        "R10",
+        "R11",
+        "Q9",
+        "R5"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑E7、F3与白C3-C4-D3-E3-H2-H4构成厚薄对比鲜明区域，白壁完整，黑棋E7孤立，F3受攻。",
+      "shapes": [
+        "wall",
+        "single_stone"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑孤子",
+        "攻击目标"
+      ],
+      "key_points": [
+        "E7",
+        "F3",
+        "C3",
+        "H4"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑J5、K4与白H5-H6-M4-O4形成核心战场，J5黑子被三面包围，仅剩J3一气（政策目标点），生死攸关。",
+      "shapes": [
+        "surrounding",
+        "life_death"
+      ],
+      "local_tags": [
+        "杀棋焦点",
+        "气紧",
+        "劫材潜在区"
+      ],
+      "key_points": [
+        "J5",
+        "H5",
+        "H6",
+        "J3"
+      ],
+      "group_status": [
+        "black_in_atari",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑L10、N8、P7与白M4-O4-P4-Q4-R5构成复杂接触部，黑棋试图分断但白连贯，P4为关键连接点。",
+      "shapes": [
+        "connection",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑分断失败",
+        "白棋联络强",
+        "实地转换"
+      ],
+      "key_points": [
+        "L10",
+        "P7",
+        "P4",
+        "R5"
+      ],
+      "group_status": [
+        "black_separated",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3-D4-E4-F4与白C3-D3-E3-C4-H2-H4形成典型厚薄对抗，黑棋形稍滞重，白棋可借H2向中央施压。",
+      "shapes": [
+        "framework",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "白棋根基稳固",
+        "黑棋效率偏低"
+      ],
+      "key_points": [
+        "F3",
+        "D4",
+        "C3",
+        "H2"
+      ],
+      "group_status": [
+        "white_foundation",
+        "black_slow"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑K4、J5与白H5-H6-G5（空点）构成局部死活要点，G5为潜在扳头或补棋点，黑若不补则J5难活。",
+      "shapes": [
+        "vital_point",
+        "eye_space"
+      ],
+      "local_tags": [
+        "扳头要冲",
+        "补棋紧迫"
+      ],
+      "key_points": [
+        "K4",
+        "H5",
+        "H6",
+        "G5"
+      ],
+      "group_status": [
+        "black_life_threatened",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q6-R6与白P4-Q4-R5-R8构成右下角定式后续，黑棋Q6-R6看似成空实则外势单薄，白R5为眼位兼攻防枢纽。",
+      "shapes": [
+        "corner_framework",
+        "invasion_preparation"
+      ],
+      "local_tags": [
+        "黑空浮浅",
+        "白棋机动性强"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "R5",
+        "P4"
+      ],
+      "group_status": [
+        "black_unstable",
+        "white_flexible"
+      ]
+    }
+  ]
+}

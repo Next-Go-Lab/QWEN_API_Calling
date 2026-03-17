@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_111",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 111,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "Q11"
+      },
+      {
+        "color": 0,
+        "point": "O15"
+      },
+      {
+        "color": 1,
+        "point": "R10"
+      },
+      {
+        "color": 0,
+        "point": "O9"
+      },
+      {
+        "color": 1,
+        "point": "P15"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R10",
+      "Q11",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "O9",
+      "S9",
+      "O15",
+      "Q15",
+      "D16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "下边实地巩固"
+    ],
+    "global_summary_cn": "第111手，黑方刚于P15落子，形成右上角复杂对杀局面；白棋在右上与中腹构筑厚势，黑棋则在右下及中腹积极渗透。全局呈现黑取实地、白取外势的典型格局，胜负关键在于中腹潜力归属与右上角死活结果。",
+    "phase_explanation": "中盘后期，双方已大致完成布局，进入局部定型与大场争夺阶段；右上角（Q11–R16一带）为当前最激烈战场，存在未净活/未净杀集团；黑棋掌握主动权但需谨慎处理P14等潜在打入点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋A3–C2一带小飞守角，黑棋A7–D7形成低挂拆二结构，无明显冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "白守角",
+        "黑拆边"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "B1",
+        "C2",
+        "D1"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，黑棋J3、G3零星占点，白棋J2、Q4略作呼应，尚未形成有效势力范围。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "空旷",
+        "未合围",
+        "试探性占点"
+      ],
+      "key_points": [
+        "G3",
+        "J3",
+        "J2",
+        "Q4",
+        "O4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度复杂：黑Q11、R10、R14、P15、Q16、R15与白R16、Q15、O15、Q7、R8等形成多层攻防；黑棋试图做活，白棋持续施压，P14为关键待落点。",
+      "shapes": [
+        "corner",
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "对杀中",
+        "生死未决",
+        "急所密集"
+      ],
+      "key_points": [
+        "Q11",
+        "R10",
+        "O15",
+        "P15",
+        "Q15",
+        "R16",
+        "Q16",
+        "R15",
+        "P14"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋B5–D7与白棋B7–C7形成接触战，黑棋E7–F8略张势，白棋C6–D6稳健连络，整体平稳。",
+      "shapes": [
+        "side",
+        "connection"
+      ],
+      "local_tags": [
+        "平稳连络",
+        "轻处理",
+        "无大战"
+      ],
+      "key_points": [
+        "B5",
+        "C5",
+        "D5",
+        "B6",
+        "C6",
+        "D6",
+        "E6",
+        "D7",
+        "E7",
+        "C7",
+        "B7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑F6、H6、G5零星分布，白E5、F5、E6略作呼应；此处为未来大场与厚势辐射中心，目前无成形势力。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "战略要地",
+        "未开发",
+        "潜力区"
+      ],
+      "key_points": [
+        "E5",
+        "F5",
+        "E6",
+        "F6",
+        "G5",
+        "H6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3–O6与白棋O4、O9、O15构成纵向链条；黑O6–R6–R7与白Q6–Q7–R8形成对峙，O9为白棋跳入要点。",
+      "shapes": [
+        "ladder",
+        "invasion"
+      ],
+      "local_tags": [
+        "纵向对峙",
+        "白跳入点",
+        "黑厚味"
+      ],
+      "key_points": [
+        "O3",
+        "O4",
+        "O6",
+        "O9",
+        "O15",
+        "P4",
+        "Q6",
+        "Q7",
+        "R6",
+        "R7",
+        "R8"
+      ],
+      "group_status": [
+        "connected",
+        "semi-solid"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋A3–C3–B2–G1–H1–G3与白B1–C2–D1–D2–E2–F2–G2形成经典双飞燕定式余波，黑棋实地稍优，白棋外势初具雏形。",
+      "shapes": [
+        "corner",
+        "fuseki"
+      ],
+      "local_tags": [
+        "定式余波",
+        "黑实利",
+        "白外势"
+      ],
+      "key_points": [
+        "A3",
+        "B2",
+        "B3",
+        "C2",
+        "C3",
+        "D1",
+        "D2",
+        "E2",
+        "F2",
+        "G1",
+        "G2",
+        "G3",
+        "H1",
+        "H2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋P2–S2–T2–T4与白Q2–R4–S5–T6构成宽广接触带；黑棋P5–R5–S5略显重复，白棋Q4–Q5–Q6–Q7–Q8形成纵向厚壁。",
+      "shapes": [
+        "side",
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑压缩",
+        "实地争夺"
+      ],
+      "key_points": [
+        "P2",
+        "Q2",
+        "R2",
+        "S2",
+        "T2",
+        "P4",
+        "Q4",
+        "R4",
+        "S4",
+        "T4",
+        "P5",
+        "Q5",
+        "R5",
+        "S5",
+        "T5",
+        "T6",
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "group_status": [
+        "alive",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋R10–P16–Q16与白R16–R17–Q17–O17–F17形成大模样对抗；黑棋R14–P15–R15试图侵消，白棋R17–Q17–O17保持弹性，F17孤子待援。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "大模样",
+        "侵消进行中",
+        "孤子待救"
+      ],
+      "key_points": [
+        "R10",
+        "R14",
+        "P15",
+        "Q15",
+        "R15",
+        "P16",
+        "Q16",
+        "R16",
+        "R17",
+        "Q17",
+        "O17",
+        "F17"
+      ],
+      "group_status": [
+        "unsettled",
+        "invasion_target"
+      ]
+    }
+  ]
+}

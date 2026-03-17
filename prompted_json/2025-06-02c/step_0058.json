@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_057",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 57,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "B11"
+      },
+      {
+        "color": 1,
+        "point": "F10"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      },
+      {
+        "color": 1,
+        "point": "D8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "E7",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "E8",
+      "E9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央厚势争夺",
+      "右下角未定型",
+      "黑棋大龙治孤"
+    ],
+    "global_summary_cn": "第57手，轮白（Ueno Risa）行棋，局面处于中盘激烈对攻阶段。白棋在右下、中腹形成厚势，黑棋E7-D8-E9-F10一线与白棋E8-E9-D10-E10形成缠斗；黑棋B11附近孤子受攻，全局白棋实地领先且厚味更优，符合W+R终局趋势。",
+    "phase_explanation": "当前为中盘中后期，双方在中腹及右下展开复杂攻防，黑棋试图通过侵消与腾挪缓解压力，白棋借厚势持续施压并掌控节奏。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑Q3-O3-R4与白F3-C4-D4形成小规模接触，无明显战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "低冲突"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "O3"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑R5-Q6-R6白阵对峙，黑Q13-Q14-Q17与白Q10-Q5-Q6构成上下呼应，但尚未爆发冲突。",
+      "shapes": [
+        "side_wall",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "潜在征子",
+        "边空雏形"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "Q10",
+        "Q13"
+      ],
+      "group_status": [
+        "semi_stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R12-R16-Q17与白P16-P17-Q10形成大模样对抗，黑K16-H16与白K15-M15对峙，局部厚薄未明。",
+      "shapes": [
+        "framework",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白侵削"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "P16",
+        "Q17"
+      ],
+      "group_status": [
+        "unclear"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C10-C12-C13-D13-D14与白B11-B12-C11-C14-D12-E12形成密集接触，B11黑子孤立受攻，是当前薄弱点。",
+      "shapes": [
+        "net",
+        "surrounding"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白攻击圈"
+      ],
+      "key_points": [
+        "B11",
+        "C11",
+        "D12",
+        "E12"
+      ],
+      "group_status": [
+        "weak_black"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域激烈交锋：黑E7-D8-E9-F10 vs 白E8-E9-D10-E10-F10，形成十字绞杀；G9为关键未落子要点，牵动双方眼位与联络。",
+      "shapes": [
+        "cross_fight",
+        "life_death"
+      ],
+      "local_tags": [
+        "对杀焦点",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "E7",
+        "D8",
+        "E8",
+        "E9",
+        "D10",
+        "E10",
+        "F10",
+        "G9"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J14-J15-K14-K15与白K14-K15-P14构成犬牙交错，黑M13-M15与白L12-L17形成斜向对峙，存在劫材与联络隐患。",
+      "shapes": [
+        "interlocking",
+        "sabaki"
+      ],
+      "local_tags": [
+        "纠缠",
+        "轻重转换"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "K14",
+        "K15",
+        "M13",
+        "L12"
+      ],
+      "group_status": [
+        "complicated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D18-F17与白F3-C4-D4距离较远，暂无直接接触；黑C10向下延伸受阻，该区相对平静。",
+      "shapes": [
+        "isolated_group"
+      ],
+      "local_tags": [
+        "静稳",
+        "无急所"
+      ],
+      "key_points": [
+        "D18",
+        "F17"
+      ],
+      "group_status": [
+        "quiet"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E7-D8-C10与白D4-E8-E9-D10形成纵向压制链，黑F17-L17-Q17一线厚势与白P16-P17呼应，但尚未联动。",
+      "shapes": [
+        "vertical_chain",
+        "thickness"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑厚味"
+      ],
+      "key_points": [
+        "D4",
+        "E7",
+        "F17",
+        "P16"
+      ],
+      "group_status": [
+        "thick_white"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q3-R4-R5与白Q5-Q6-R6形成典型小目守角vs挂角定式余波，黑R5被白Q5-Q6压制，局部白稍得利。",
+      "shapes": [
+        "corner_fighting",
+        "reduction"
+      ],
+      "local_tags": [
+        "白成功侵分",
+        "黑欠补"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "white_advantage"
+      ]
+    }
+  ]
+}

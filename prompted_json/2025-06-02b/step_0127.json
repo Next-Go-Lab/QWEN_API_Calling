@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_126",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 126,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B10"
+      },
+      {
+        "color": 0,
+        "point": "B9"
+      },
+      {
+        "color": 1,
+        "point": "C12"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "F7"
+      },
+      {
+        "color": 0,
+        "point": "E7"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "F8",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "B9",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "C9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋实地领先但黑棋厚势待发",
+      "右下角劫争未定",
+      "中央黑厚势辐射"
+    ],
+    "strategic_focus": [
+      "黑棋需借厚势侵消白棋中腹潜力",
+      "白棋应巩固右上与中腹联络",
+      "C9点三三为当前急所"
+    ],
+    "global_summary_cn": "对局进行至第126手，黑方Yu Zhengqi执黑，白方Fujisawa Rina执白。黑棋在左下、中腹及右上形成多块厚势，尤其J10–N11一带黑大模样初具规模；白棋则占据右下实空（P2–S19）及左上角（B13–C15等），实地稍优。双方最近六手围绕E7展开攻防，白刚于E7落子，黑亟需在C9点入破白棋上边薄弱处。",
+    "phase_explanation": "属中盘向官子过渡阶段：局部战斗（如E7附近）尚未完全收束，全局仍存战略要点（C9）与潜在劫材争夺，胜负关键在于厚势转化效率与实地安全度平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋B13、C13、B12构成小堡垒，黑棋B10、C12施加压力，存在黑C9点入威胁。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白角安定",
+        "黑侵分点"
+      ],
+      "key_points": [
+        "C9",
+        "B10",
+        "C12"
+      ],
+      "group_status": [
+        "白活",
+        "黑待攻"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑K10–P12呈斜飞阵势，白E11、G12、K12等零星应对，中央黑厚势向上延伸。",
+      "shapes": [
+        "side_wall",
+        "influence"
+      ],
+      "local_tags": [
+        "黑势力圈",
+        "白薄味"
+      ],
+      "key_points": [
+        "K10",
+        "N11",
+        "P12"
+      ],
+      "group_status": [
+        "黑厚",
+        "白孤"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q12–T18成大空雏形，黑Q15–R17反夹，白S19为高目守角，黑有打入余地。",
+      "shapes": [
+        "territory",
+        "high_point"
+      ],
+      "local_tags": [
+        "白实空",
+        "黑反夹"
+      ],
+      "key_points": [
+        "Q15",
+        "R17",
+        "S19"
+      ],
+      "group_status": [
+        "白围空",
+        "黑试探"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑B4–D7与白C3–E6形成复杂接触战，B6–C6–D7黑厚，白C5–E6略显凝重。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白苦活"
+      ],
+      "key_points": [
+        "B6",
+        "C5",
+        "D7"
+      ],
+      "group_status": [
+        "黑厚",
+        "白弱"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑F7–H10–K11构成中央厚壁，白E7刚落子，黑F8–G10呼应，此处为全局厚薄枢纽。",
+      "shapes": [
+        "central_wall"
+      ],
+      "local_tags": [
+        "中央厚势",
+        "攻防焦点"
+      ],
+      "key_points": [
+        "E7",
+        "F7",
+        "G10"
+      ],
+      "group_status": [
+        "黑厚",
+        "白单官"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白P14、S14与黑O11–P11对峙，右中腹白空未固，黑Q12–R14可深入。",
+      "shapes": [
+        "border_zone"
+      ],
+      "local_tags": [
+        "白空未定",
+        "黑渗透"
+      ],
+      "key_points": [
+        "P14",
+        "Q12",
+        "R14"
+      ],
+      "group_status": [
+        "白待补",
+        "黑机动"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑K2–R4与白P2–N3激烈对杀，黑K4–L6成厚势根基，白M3–N3略显漂浮。",
+      "shapes": [
+        "fighting_group"
+      ],
+      "local_tags": [
+        "黑厚底",
+        "白薄边"
+      ],
+      "key_points": [
+        "K4",
+        "L6",
+        "P2"
+      ],
+      "group_status": [
+        "黑活",
+        "白不稳"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑D7–F8与白E7–E8形成微型劫争雏形，黑D7为眼位要冲，白E7为最新一手。",
+      "shapes": [
+        "local_fight"
+      ],
+      "local_tags": [
+        "劫材征兆",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "D7",
+        "E7",
+        "F8"
+      ],
+      "group_status": [
+        "黑眼形",
+        "白紧气"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白P2–S19构筑庞大实空，黑T16–R18仅作浅消，白D16–E16稳固根基，黑难深入。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "白大空",
+        "黑浅削"
+      ],
+      "key_points": [
+        "P2",
+        "S19",
+        "R18"
+      ],
+      "group_status": [
+        "白固",
+        "黑轻"
+      ]
+    }
+  ]
+}

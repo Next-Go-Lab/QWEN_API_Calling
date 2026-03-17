@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_009",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 9,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "O17"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_development",
+      "corner_fight_initiation"
+    ],
+    "strategic_focus": [
+      "top_right_corner_pressure",
+      "bottom_left_invasion_preparation",
+      "center_influence_building"
+    ],
+    "global_summary_cn": "第九手，黑方刚于C3落子，形成对左下角的初步侵消态势；白棋在右上（O17、F17）、右中（R6、R14、Q16）及左上（D16）布点分散，黑棋在右下（Q3）与左下（C3）形成双翼呼应，全局呈黑取实地、白谋外势雏形。",
+    "phase_explanation": "开局阶段（前10手），双方尚未形成明确定式，但已出现局部对抗苗头：C3一子直指白D4一子，构成左下角小型攻防关系；右上O17与F17白子联动，黑Q16与R14形成高低配合，具备潜在夹击意图。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白D16单子孤立，黑无子，属白薄弱侧翼。",
+      "shapes": [],
+      "local_tags": [
+        "weak_group",
+        "isolated_stone"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_solo"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白F17与O17呈斜线呼应，构成右上角基础框架，黑暂无打入。",
+      "shapes": [
+        "diagonal_framework"
+      ],
+      "local_tags": [
+        "corner_framework",
+        "white_structure"
+      ],
+      "key_points": [
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16与白R14形成高低对峙，黑R6为跳守，白尚未完成角部定型。",
+      "shapes": [
+        "high_low_confrontation"
+      ],
+      "local_tags": [
+        "confrontation",
+        "incomplete_corner"
+      ],
+      "key_points": [
+        "Q16",
+        "R14",
+        "R6"
+      ],
+      "group_status": [
+        "black_duo",
+        "white_solo"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，仅黑C3一子深入，威胁白D4，构成典型‘一间夹’前奏。",
+      "shapes": [
+        "penetration_point"
+      ],
+      "local_tags": [
+        "invasion_threat",
+        "pressing_move"
+      ],
+      "key_points": [
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "black_solo",
+        "white_solo"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，为后续势力争夺核心区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "strategic_center"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑Q3位于三路低位，与右上黑子遥相呼应，隐含向中腹发展意图。",
+      "shapes": [
+        "low_extension"
+      ],
+      "local_tags": [
+        "extension",
+        "foundation_for_center"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_solo"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3为本区域唯一着子，位置尖锐，直接挑战白D4根基，具强烈侵消性。",
+      "shapes": [
+        "sharp_invasion"
+      ],
+      "local_tags": [
+        "invasion",
+        "attack_target"
+      ],
+      "key_points": [
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "black_solo",
+        "white_solo"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，邻近C3与Q3，未来可能成为黑棋连络或白棋封锁通道。",
+      "shapes": [],
+      "local_tags": [
+        "potential_connection_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子，但临近Q3与R6，属黑棋潜在扩展方向。",
+      "shapes": [],
+      "local_tags": [
+        "future_expansion"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

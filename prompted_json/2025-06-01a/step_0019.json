@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_018",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 18,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "H15"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "G15"
+      },
+      {
+        "color": 1,
+        "point": "C11"
+      },
+      {
+        "color": 0,
+        "point": "Q17"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "right_side_framework",
+      "center_influence_balance"
+    ],
+    "global_summary_cn": "第18手，黑方刚落子D13，白方最新一手Q17强化右上角，双方在右上角及右侧形成激烈接触战；黑棋在左下与中腹有零星布局，白棋在左上和右下角尚未落子，全局呈局部战斗主导、大模样未成型的早期态势。",
+    "phase_explanation": "处于布局中期向中盘过渡阶段，关键冲突集中在Q17周边（白守角）与D13–F14–G15一线（黑白对攻），中心与下方尚属空旷，未形成明显厚势或大龙。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角完全空旷，无任何着子。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "uncontested"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上区域稀疏：黑C15/D15/E16、白C13/D16/D17构成小规模纠缠，但未形成明确眼位或死活问题。",
+      "shapes": [],
+      "local_tags": [
+        "light_contact",
+        "potential_framework"
+      ],
+      "key_points": [
+        "C15",
+        "D15",
+        "E16",
+        "C13",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "black_group_weak_eye",
+        "white_group_solid"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交战区：白Q17为最新守角一子，黑Q16呼应；白H15/G15/F15/E15与黑E14/F14/D13形成斜向对攻链条，存在劫争雏形与薄味。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "critical_battle",
+        "sente_opportunity",
+        "vulnerable_white_side"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "H15",
+        "G15",
+        "F15",
+        "E15",
+        "E14",
+        "F14",
+        "D13"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_defensive",
+        "mutual_thinness"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹偏上：黑C11孤子单立，无邻接友子，略显漂浮；白无子，属黑方试探性打入点。",
+      "shapes": [],
+      "local_tags": [
+        "isolated_black_stone",
+        "probe"
+      ],
+      "key_points": [
+        "C11"
+      ],
+      "group_status": [
+        "black_group_unconnected",
+        "no_white_presence"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域全空，无任何棋子，是未来势力扩展与轻灵腾挪的核心预留地。",
+      "shapes": [],
+      "local_tags": [
+        "empty_center",
+        "strategic_reserve"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中段：仅存黑Q3一子，位置极低，疑似试应手或低位伏兵；其余为空，白方尚未在此处展开。",
+      "shapes": [],
+      "local_tags": [
+        "low_probing",
+        "distant_support"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_single_stone"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角完全空旷，无任何着子。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "uncontested"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央地带空旷，仅黑Q3位于右下角边缘，此处无实质争夺。",
+      "shapes": [],
+      "local_tags": [
+        "quiet",
+        "non_priority"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，仅黑Q3位于Q线第三路，属低位单子，暂未构成角部结构。",
+      "shapes": [],
+      "local_tags": [
+        "corner_vacancy",
+        "low_stone_only"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    }
+  ]
+}

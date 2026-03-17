@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_052",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 52,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "K3"
+      },
+      {
+        "color": 1,
+        "point": "K2"
+      },
+      {
+        "color": 0,
+        "point": "L3"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "C5"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "B5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上黑空未定"
+    ],
+    "global_summary_cn": "第52手，黑方即将落子，局面处于中盘关键阶段。右下角（K2–N6）形成复杂接触战，白棋在K3/L3/M3/N3构筑厚壁，黑棋K4/K5/K6/L6等子试图深入；左上黑棋Q15–R18成空但外围薄弱；右上白棋S13–S19与黑Q15–Q18对峙；中央尚无明显大龙，但B5为重要急所，牵动左下黑棋B4/C6/D7与白D4/D6/E6的轻重关系。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部展开连续攻防，尚未进入官子，胜负关键在于右下战斗结果及中央影响力扩张。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋Q15–Q18、R12–R18构成大模样，但白D16、J16、R16、R17、S18、S19从外围施压，黑空不稳固。",
+      "shapes": [
+        "territory",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白外势",
+        "空虚"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "D16"
+      ],
+      "group_status": [
+        "alive_with_liberties",
+        "vulnerable_perimeter"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白S13–S14、R15–R17与黑Q15–Q18对峙，形成小规模边界拉锯，无活棋，属未定势力交界。",
+      "shapes": [
+        "borderline",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "对峙带",
+        "未定空"
+      ],
+      "key_points": [
+        "R15",
+        "S14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白S18–S19、R17–R18与黑Q17–Q18构成角部纠缠，黑棋稍显单薄，白有搜根可能。",
+      "shapes": [
+        "corner_contest",
+        "light_group"
+      ],
+      "local_tags": [
+        "角部未净",
+        "白搜根意向"
+      ],
+      "key_points": [
+        "S19",
+        "Q17"
+      ],
+      "group_status": [
+        "weak_black_group"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C6、D7、B4与白D4、D6、E6形成左中腹低段对峙，黑子分散，白棋联络厚实，黑需补强B5或C5附近。",
+      "shapes": [
+        "scattered_stones",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "黑薄弱",
+        "白厚势",
+        "急所密集"
+      ],
+      "key_points": [
+        "B5",
+        "C5",
+        "D4"
+      ],
+      "group_status": [
+        "black_light",
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央无密集子力，仅黑K5/L6/M6/N6与白L5/M5/O5/N4等形成斜向对峙，属潜在作战中枢，尚未引爆。",
+      "shapes": [
+        "sparse_influence",
+        "potential_battlefield"
+      ],
+      "local_tags": [
+        "中枢未动",
+        "待发"
+      ],
+      "key_points": [
+        "K5",
+        "M5"
+      ],
+      "group_status": [
+        "quiet",
+        "balanced_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹K2–N6为本局最激烈战场：黑K2/K4/K5/K6/L6/M6/N6 vs 白K3/L3/M3/N3/L4/N4/L5/M5/O5，已形成多层接触，黑有断点风险。",
+      "shapes": [
+        "contact_fight",
+        "ladder_like",
+        "sacrifice_feel"
+      ],
+      "local_tags": [
+        "主战场",
+        "白厚壁",
+        "黑深入孤棋"
+      ],
+      "key_points": [
+        "K4",
+        "L3",
+        "K6",
+        "O5"
+      ],
+      "group_status": [
+        "fighting",
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑B4、C6与白D4、F3构成低位小对抗，黑棋形松散，白F3与D4呼应，黑需防白C3或E5侵分。",
+      "shapes": [
+        "low_side_fight",
+        "loose_shape"
+      ],
+      "local_tags": [
+        "低位试探",
+        "黑欠补"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "F3"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑J3、P2为空点，白P2孤立但有F3呼应；黑Q3/O4/P4/R4与白N3/N4形成横向牵制，局部平稳。",
+      "shapes": [
+        "side_balance",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "平稳侧翼",
+        "白孤棋"
+      ],
+      "key_points": [
+        "P2",
+        "Q3"
+      ],
+      "group_status": [
+        "stable",
+        "white_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R4/S12–S13与白S13–S14、R15等存在跨区域联动，但此处子力稀疏，属次要影响区。",
+      "shapes": [
+        "sparse_connection",
+        "distant_support"
+      ],
+      "local_tags": [
+        "远距呼应",
+        "次要"
+      ],
+      "key_points": [
+        "S12",
+        "R15"
+      ],
+      "group_status": [
+        "quiet",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

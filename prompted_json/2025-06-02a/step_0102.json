@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_101",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 101,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "T4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q15"
+      },
+      {
+        "color": 1,
+        "point": "R15"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "T4"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "R15",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "实地争夺",
+      "边角定型"
+    ],
+    "strategic_focus": [
+      "右下角劫争余波",
+      "左上厚势未完全发挥",
+      "中腹潜力待探"
+    ],
+    "global_summary_cn": "棋局进入官子阶段，黑方以3.5目优势领先。右下角T4一子是最新手筋，强化黑棋边空并威胁白棋S3、T3两子；左上A3-C3与白A4形成微妙对峙；中腹尚未出现明显大场，但Q17为潜在急所。",
+    "phase_explanation": "第101手，黑方行至T4，属典型官子收束动作，兼顾自身安定与压缩白空。全局无大规模攻防，重心转向细微目数争夺和残子处理。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑A3、B3、C3与白A4构成低空对峙，黑棋厚实但未深入，白棋有C2、D2等联络手段。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "浅空对峙",
+        "厚势未动"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "C2"
+      ],
+      "group_status": [
+        "black_firm",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，黑J3、O3、Q3与白J2、R2、S3交错，局部存在断点但暂无激烈战斗。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "平稳过渡",
+        "潜在拆二"
+      ],
+      "key_points": [
+        "J3",
+        "R2",
+        "S3"
+      ],
+      "group_status": [
+        "mixed_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16、R15、R14与白Q15、D16形成小规模接触，黑棋略占主动，白D16孤子待援。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "局部压迫",
+        "孤子待救"
+      ],
+      "key_points": [
+        "Q16",
+        "R15",
+        "Q15",
+        "D16"
+      ],
+      "group_status": [
+        "black_pressing",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑A7、B6、B7与白A6、C6、C7形成缠斗，黑D7为最新打入点，白C7已应，局面趋于定型。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "打入定型",
+        "攻防收束"
+      ],
+      "key_points": [
+        "D7",
+        "C7",
+        "A7",
+        "C6"
+      ],
+      "group_status": [
+        "black_settled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑白均无大块，仅零星子如E4、F4、G5等构成松散阵势，Q17为当前最大未落子要津。",
+      "shapes": [
+        "center"
+      ],
+      "local_tags": [
+        "空旷中枢",
+        "潜在大场"
+      ],
+      "key_points": [
+        "Q17"
+      ],
+      "group_status": [
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P2-Q2-R2-S2-T2一线与白R3-S3-T3形成边空对抗，黑T4为最新强手，巩固边地并瞄向S3。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "边空加固",
+        "攻击延伸"
+      ],
+      "key_points": [
+        "T4",
+        "S3",
+        "T3"
+      ],
+      "group_status": [
+        "black_strengthening",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A3-B2-B3-C3与白B1-C2-D1-D2密集交战，黑棋成形稍早，白棋虽连通但眼位不足。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "早期定型",
+        "白棋薄味"
+      ],
+      "key_points": [
+        "B2",
+        "C2",
+        "D1"
+      ],
+      "group_status": [
+        "black_firmed",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G1-H1-H2-G2-G3与白G2-J2等形成混战遗留，黑棋整体更厚实，白棋多为单官联络。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "厚势主导",
+        "收束完成"
+      ],
+      "key_points": [
+        "G1",
+        "H2",
+        "G3"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑T4刚落，配合R4、R5、T6等构成坚实外势，白S3、T3、S4处于被攻状态，存在劫争隐患。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "主战场",
+        "劫材相关",
+        "攻防急所"
+      ],
+      "key_points": [
+        "T4",
+        "S3",
+        "T3",
+        "S4"
+      ],
+      "group_status": [
+        "black_attacking",
+        "white_in_trouble"
+      ]
+    }
+  ]
+}

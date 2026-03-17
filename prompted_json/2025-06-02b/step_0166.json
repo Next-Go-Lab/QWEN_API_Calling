@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_165",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 165,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "F11"
+      },
+      {
+        "color": 0,
+        "point": "F12"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "S10"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "Q7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_invasion_settlement",
+      "bottom_right_eye_space",
+      "center_sente_reduction"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋在右下与右边占据明显实地优势，白棋在左上与中腹尝试薄味渗透但未形成有效威胁；最后几手围绕R11、S10等点展开局部对杀收束，黑棋通过F17一子强化右下眼位并确立胜势。",
+    "phase_explanation": "第165手为黑方行棋（to_play=0表示轮白，故当前待白方落子），局面已无大规模攻防，属典型官子收束期；黑棋领先目数稳固，白棋缺乏逆转手段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋C3-C5-D4-E6等构成厚势，黑棋B3-B5-B6-C6形成小堡垒但气紧；白A10、B13等子牵制黑角潜力。",
+      "shapes": [
+        "corner_enclosure",
+        "white_thickness"
+      ],
+      "local_tags": [
+        "settled",
+        "white_influence"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "A10",
+        "B13"
+      ],
+      "group_status": [
+        "alive",
+        "no_liberties_issue"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方交错：黑K2-K4-K5-K6-L6-M6-N6与白J3-K3-L3-M3-N3-O5等形成宽广接触战，但已趋平稳；Q3-Q4-P4-R4等黑子构筑边空雏形。",
+      "shapes": [
+        "side_framework",
+        "mutual_influence"
+      ],
+      "local_tags": [
+        "balanced",
+        "influence_vs_territory"
+      ],
+      "key_points": [
+        "K2",
+        "Q3",
+        "J3",
+        "O5"
+      ],
+      "group_status": [
+        "stable",
+        "no_immediate_attack"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q3-R4-R7-Q7与白P2-Q9-P9等形成大模样对峙，黑Q16-T16-S17-T17-S18-T18及白R17-S16-S15-S14-S13-S19构成复杂边空争夺；白S10为近期关键打入点。",
+      "shapes": [
+        "large_framework",
+        "invasion_response"
+      ],
+      "local_tags": [
+        "unsettled",
+        "eye_space_contested"
+      ],
+      "key_points": [
+        "Q16",
+        "S10",
+        "R17",
+        "S19"
+      ],
+      "group_status": [
+        "vulnerable",
+        "needs_eye_shape"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑B10-B12-C11-C12-D12-D13与白A10-C10-D9-E9-E7-C7-C8等密集缠斗；黑E14-F14-G14-H14与白F15-G15等形成小规模对杀，黑略优。",
+      "shapes": [
+        "ladder_like",
+        "local_fight"
+      ],
+      "local_tags": [
+        "fighting",
+        "black_advantage"
+      ],
+      "key_points": [
+        "B10",
+        "D13",
+        "E14",
+        "F15"
+      ],
+      "group_status": [
+        "fighting",
+        "one_liberty_remaining"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，黑F11-F12-F16-G10-H10-H11-J11-K11与白E11-F12-G12-H12-K12等构成十字交叉阵型；R11为最新落子，强化黑右中腹联络。",
+      "shapes": [
+        "cross_shaped",
+        "connection_focused"
+      ],
+      "local_tags": [
+        "key_connection",
+        "sente_for_black"
+      ],
+      "key_points": [
+        "F11",
+        "R11",
+        "E11",
+        "H12"
+      ],
+      "group_status": [
+        "connected",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J12-K12-L10-L11-M10-M11-N11-O11-P11-Q10-Q12-R12-S12与白J9-K9-L9-M9-N9-O9-P9-Q9等形成厚势对峙；黑R13-S13-R14-S14-R15-S15等持续压迫白右下。",
+      "shapes": [
+        "thick_wall",
+        "pressure_line"
+      ],
+      "local_tags": [
+        "dominant",
+        "territorial_pressure"
+      ],
+      "key_points": [
+        "R11",
+        "R13",
+        "S14",
+        "R15"
+      ],
+      "group_status": [
+        "alive",
+        "fully_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C17-D17-E17-G17与白B17-C18-D17等构成小规模劫争残局，黑C19-D18-F18与白B18-H18-S18形成边空拉锯；整体黑稍厚。",
+      "shapes": [
+        "edge_fight",
+        "small_ko_residual"
+      ],
+      "local_tags": [
+        "nearly_settled",
+        "minor_ko_threat"
+      ],
+      "key_points": [
+        "C17",
+        "C19",
+        "B18",
+        "H18"
+      ],
+      "group_status": [
+        "alive",
+        "ko_pending"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑E15-H15-Q15与白C15-F15-G15-R15等形成横向对峙；黑F16-H16-Q16与白D16-E16-G16-J16-M16-R16构成实地与外势博弈；黑占优。",
+      "shapes": [
+        "horizontal_framework",
+        "territory_vs_influence"
+      ],
+      "local_tags": [
+        "black_territory",
+        "white_compensation"
+      ],
+      "key_points": [
+        "F16",
+        "Q15",
+        "D16",
+        "R16"
+      ],
+      "group_status": [
+        "alive",
+        "no_weakness"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为本局胜负关键：黑F17（目标点）是收官妙手，补强F16-G17-H16三角眼位；白E16-D16-S16-R16-S15-S14等被压缩至一线；黑已成活形，白无有效反击。",
+      "shapes": [
+        "living_group",
+        "final_eyespace"
+      ],
+      "local_tags": [
+        "decisive",
+        "winning_move_context"
+      ],
+      "key_points": [
+        "F17",
+        "F16",
+        "G17",
+        "S16"
+      ],
+      "group_status": [
+        "alive",
+        "two_eyes_confirmed"
+      ]
+    }
+  ]
+}

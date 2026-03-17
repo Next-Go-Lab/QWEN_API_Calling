@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_017",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 17,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "H15"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "G15"
+      },
+      {
+        "color": 1,
+        "point": "C11"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中央势力构建",
+      "C11新点试探"
+    ],
+    "global_summary_cn": "第17手，黑方刚于C11落子，切入白棋右上厚势腹地；白棋在H15-G15-F15-D16-D17一线形成高厚外势，黑棋则以D13-E14-F14-C15-D15-E16-Q3-Q16为支点展开两翼呼应；全局尚未形成明显大模样，但右上局部已具战斗雏形。",
+    "phase_explanation": "当前处于中盘初段，双方在右上角持续交换，黑棋主动打入C11寻求变化，白棋尚未封锁，中央与边路连接尚弱，存在断点与薄味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅黑Q3、白D4两点遥相呼应，无直接接触，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "待发展"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋占据C15、D15、E16，白棋占据D16、D17、E15，构成右上角复杂接触部；C11新落黑子深入白阵，引发局部危机。",
+      "shapes": [
+        "corner_contact",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "角部攻防",
+        "打入点",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "C11",
+        "C15",
+        "D15",
+        "E15",
+        "D16",
+        "D17",
+        "E16"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_invasive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑Q16单官守角，白无应手，属安定但效率偏低的守角；与右上主战场略有脱节。",
+      "shapes": [
+        "single_corner"
+      ],
+      "local_tags": [
+        "守角",
+        "孤立"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无任何着子，属全局最安静区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "静默"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "F14、G15、F15、E14等子呈斜向交错，中央初步成势但未连通；黑E14-F14与白F15-G15对峙，存在潜在对杀与联络可能。",
+      "shapes": [
+        "diagonal_confrontation"
+      ],
+      "local_tags": [
+        "中央对峙",
+        "联络要点"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "F15",
+        "G15"
+      ],
+      "group_status": [
+        "unconnected",
+        "tension_high"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑D13孤子探入，白C13紧邻压制，形成小规模缠斗；该处为右上与中央的过渡带，胜负手潜藏区。",
+      "shapes": [
+        "probe_vs_response"
+      ],
+      "local_tags": [
+        "试探",
+        "压制",
+        "过渡带"
+      ],
+      "key_points": [
+        "D13",
+        "C13"
+      ],
+      "group_status": [
+        "black_light",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无子，无影响。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无子，无影响。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "全空，无子，无影响。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_077",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 77,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H12"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "G8"
+      },
+      {
+        "color": 1,
+        "point": "E9"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "H11"
+      },
+      {
+        "color": 0,
+        "point": "G11"
+      },
+      {
+        "color": 1,
+        "point": "H12"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "H11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "G11",
+      "Q11",
+      "L12",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "中央势力构建",
+      "右下角攻防",
+      "H12附近接触战"
+    ],
+    "global_summary_cn": "第77手，轮白（Ueno Asami）行棋，局面处于中盘激烈对抗阶段。白棋在右下、中腹及上边占据主动，黑棋在左下与中腹尝试联络与做活。H12为最新落子点，引发G11–H12–G9一线连锁攻防；E11为当前政策目标点，属黑棋潜在突围或分断要点。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，白棋凭借厚势掌控全局节奏，黑棋需在压力下寻求转换或治孤机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3/C4/D3/E3与黑D4/E4/F4形成低中国流雏形，白C6稍有侵消意图。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式余味",
+        "白稍厚"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D4",
+        "C6"
+      ],
+      "group_status": [
+        "white_firm",
+        "black_slightly_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑J17、R16与白L16、P17对峙，尚未形成明确势力范围，属战略预备区。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "未定型",
+        "势力试探"
+      ],
+      "key_points": [
+        "J17",
+        "L16",
+        "P17",
+        "R16"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q15、R16与白Q10/Q11/Q9/R8形成复杂对杀雏形，黑R12/P12/H12一线正向中腹延伸。",
+      "shapes": [
+        "corner",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "对杀未决",
+        "黑外势扩张"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "Q11",
+        "R12",
+        "H12"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑F3/J3/L3/M3/P3与白H2/H3/N2/N3形成高低配合，黑E7/K7/O7与白H4/H5/H6构成横向对峙带。",
+      "shapes": [
+        "side",
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白取地稳健"
+      ],
+      "key_points": [
+        "F3",
+        "H2",
+        "E7",
+        "H4",
+        "H5"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷但敏感，黑E9/H9/L9/N9与白G8/G9/K9/O9密集交错，E11为关键打入/分断点，目前无子。",
+      "shapes": [
+        "crossroads"
+      ],
+      "local_tags": [
+        "焦点区域",
+        "政策目标位",
+        "打入要冲"
+      ],
+      "key_points": [
+        "E9",
+        "G8",
+        "G9",
+        "E11"
+      ],
+      "group_status": [
+        "tension_high",
+        "empty_critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O7/P7/L8/N8/O8/S8与白N6/O6/P6/Q7/Q4等形成大模样对峙，H11–H12–G11构成最新接触链。",
+      "shapes": [
+        "framework",
+        "contact_zone"
+      ],
+      "local_tags": [
+        "接触战中心",
+        "黑治孤",
+        "白压迫"
+      ],
+      "key_points": [
+        "H11",
+        "H12",
+        "G11",
+        "O7",
+        "Q7"
+      ],
+      "group_status": [
+        "black_compromised",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3/J3/L3/M3/P3与白C3/D3/E3/H2/H3已大致分野，黑实地坚实，白外围略有弹性。",
+      "shapes": [
+        "corner",
+        "territory"
+      ],
+      "local_tags": [
+        "黑实空稳固",
+        "定型完成"
+      ],
+      "key_points": [
+        "F3",
+        "C3",
+        "H2"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑K4/J5与白H4/M4/O4/P4/Q4形成宽广接触带，黑N5与白N6/N7/O6/O7对峙，略显胶着。",
+      "shapes": [
+        "side",
+        "interlocking"
+      ],
+      "local_tags": [
+        "拉锯战",
+        "实地与外势平衡"
+      ],
+      "key_points": [
+        "K4",
+        "J5",
+        "N5",
+        "N6",
+        "N7"
+      ],
+      "group_status": [
+        "even",
+        "mutual_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q6/R6与白R5/Q4/P4/O4/O6/O7/Q7形成大型攻防，黑S8/R9/R10/R11/R12与白Q9/Q10/Q11/L12/N12/O12激烈缠斗，白明显占优。",
+      "shapes": [
+        "corner",
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "白胜势",
+        "黑苦活",
+        "大龙未净"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "R5",
+        "Q9",
+        "L12",
+        "O12"
+      ],
+      "group_status": [
+        "white_winning",
+        "black_vulnerable"
+      ]
+    }
+  ]
+}

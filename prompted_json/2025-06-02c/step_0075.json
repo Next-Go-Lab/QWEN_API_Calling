@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_074",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 74,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "G11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "F12"
+      },
+      {
+        "color": 1,
+        "point": "G12"
+      },
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "G14"
+      },
+      {
+        "color": 0,
+        "point": "G11"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "G12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "G11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "中央对杀",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "G10点刺试探",
+      "中央黑棋眼位不足",
+      "白棋F12-G11-F13三角稳固"
+    ],
+    "global_summary_cn": "第74手，黑方即将落子于G10，意图侵消白棋中央厚势或试探黑棋大龙眼位；当前局面白棋在中腹形成坚实三角结构（F12/G11/F13），黑棋G7-G12-G14呈斜跳阵型但联络薄弱，中央黑棋数子（D11/E11/F11/G12/G14）面临被分断围攻风险。",
+    "phase_explanation": "中盘中后期，双方围绕中央展开激烈争夺，白棋占据主动，黑棋需在G10寻求腾挪或治孤，否则中央黑棋有被强攻致死之虞。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅：黑占O3/Q3/R4/R5，白占B4/C4/D4/B6/C5/B7/C7/B8/C8，无激烈接触。",
+      "shapes": [
+        "corner enclosure",
+        "small knight's move"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "B5",
+        "C6",
+        "D6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空旷，黑有H16/K16/R16/Q17/P17，白有Q5/Q6/R6/Q10/P16/P17，存在潜在边空争夺。",
+      "shapes": [
+        "side extension",
+        "floating group"
+      ],
+      "local_tags": [
+        "未定型",
+        "潜力待挖"
+      ],
+      "key_points": [
+        "J15",
+        "K14",
+        "P14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q13/Q14/R12/R16与白棋Q5/Q6/R6/Q10形成高低配合，白Q10为高目守角，黑Q13-Q14为拆二加跳，略显重复。",
+      "shapes": [
+        "high approach",
+        "two-space extension"
+      ],
+      "local_tags": [
+        "轻灵",
+        "稍显松散"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "R12"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋C10/C12/C13/D13/D14/C14与白棋B11/C11/B12/B13/C15形成缠斗，黑C12-C13-D13呈小飞连络，但白B12-B13施压。",
+      "shapes": [
+        "ladder shape",
+        "shoulder hit"
+      ],
+      "local_tags": [
+        "局部对攻",
+        "黑棋薄"
+      ],
+      "key_points": [
+        "C12",
+        "B12",
+        "C13"
+      ],
+      "group_status": [
+        "weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心战场：黑D11/E11/F11/G12/G14与白E12/F12/G11/F13构成密集对峙；G10为关键打入点，黑若落子于此将直指白三角弱点。",
+      "shapes": [
+        "central triangle",
+        "attacking wedge"
+      ],
+      "local_tags": [
+        "对杀焦点",
+        "生死攸关"
+      ],
+      "key_points": [
+        "G10",
+        "G11",
+        "F12",
+        "F13",
+        "G12",
+        "G14"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J14/J15/K16与白K14/K15/M15/L12形成势力交错，黑J14-K16呈斜飞，白K14-K15为稳健守势，暂无直接冲突。",
+      "shapes": [
+        "diagonal connection",
+        "territorial wall"
+      ],
+      "local_tags": [
+        "平衡",
+        "静观"
+      ],
+      "key_points": [
+        "J14",
+        "K14",
+        "K15"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B5/C6/D6/D7/E7与白B4/C4/D4/C5/B6/B7/C7/E8形成经典低中国流对抗，黑已活角，白外势厚实。",
+      "shapes": [
+        "low Chinese fuseki",
+        "wall vs territory"
+      ],
+      "local_tags": [
+        "定型完毕",
+        "白厚黑实地"
+      ],
+      "key_points": [
+        "D6",
+        "E7",
+        "E8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F3/G7与白F3/F17形成跨距呼应，但中间空虚；黑G7与白G9/E9存在间接对峙，尚未激化。",
+      "shapes": [
+        "isolated stone",
+        "potential invasion"
+      ],
+      "local_tags": [
+        "待发展",
+        "隐含威胁"
+      ],
+      "key_points": [
+        "G7",
+        "G9",
+        "F17"
+      ],
+      "group_status": [
+        "floating"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R4/R5/R12/R16与白Q5/Q6/R6/Q10/P14/P16形成复杂边空博弈；黑R12-R16为大飞守角，白Q10-P14为高位压制。",
+      "shapes": [
+        "large knight's move",
+        "high pressure"
+      ],
+      "local_tags": [
+        "边空未定",
+        "白略优"
+      ],
+      "key_points": [
+        "R12",
+        "Q10",
+        "P14"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

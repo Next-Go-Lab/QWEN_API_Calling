@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_030",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 30,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "L12"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "M13"
+      },
+      {
+        "color": 0,
+        "point": "K15"
+      },
+      {
+        "color": 1,
+        "point": "J15"
+      },
+      {
+        "color": 0,
+        "point": "K14"
+      },
+      {
+        "color": 1,
+        "point": "J14"
+      },
+      {
+        "color": 0,
+        "point": "L12"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋求活"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "左下实地定型"
+    ],
+    "global_summary_cn": "第30手，黑方行棋，局面处于中盘激烈对抗阶段。白棋在右上角（K14-L12-M15-K15）构筑厚势并压制黑棋J14-J15-M13一串，黑棋在左下（O3-Q3-R4-R5）和右下（Q17-P17-R16）已有实地基础，但中腹尚未安定；白棋D4、F3、C14等点显示全局厚味与外势呼应，黑棋亟需处理中腹孤子或扩张势力。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方在右上形成连续接触战，局部未净活，全局厚薄对比明显，黑棋需避免被搜刮，白棋可借厚势向中腹渗透。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑F17、L17与白D16、P16零星分布，无直接接触，属潜在大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "待开发"
+      ],
+      "key_points": [
+        "F17",
+        "D16",
+        "L17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段相对平静，黑Q17、P17、R16与白P16、P14、Q14、Q13形成松散对峙，Q14为黑白共用要点。",
+      "shapes": [],
+      "local_tags": [
+        "边空雏形",
+        "轻度接触"
+      ],
+      "key_points": [
+        "Q14",
+        "P14",
+        "Q13",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交战核心区：黑J15-J14、K16、M13；白K15-K14-L12-M15-P14，形成复杂攻防链，黑棋数子未净活，白棋厚势成型。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "未净活",
+        "厚势压迫"
+      ],
+      "key_points": [
+        "J15",
+        "J14",
+        "K15",
+        "K14",
+        "L12",
+        "M15"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹偏上：黑R12、Q13与白Q10、C14形成斜线牵制，R12孤立，Q10为白棋跳点，存在打入与侵消可能。",
+      "shapes": [],
+      "local_tags": [
+        "牵制",
+        "孤子"
+      ],
+      "key_points": [
+        "R12",
+        "Q10",
+        "C14"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，仅黑M13与白L12相邻，构成局部接触起点，是未来中腹作战导火索。",
+      "shapes": [],
+      "local_tags": [
+        "战略中枢",
+        "接触点"
+      ],
+      "key_points": [
+        "M13",
+        "L12"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹密集：黑Q14、Q13、J14、J15与白P14、K14、K15、L12、M15交织，已成主战场，多处气紧。",
+      "shapes": [
+        "eye_shape",
+        "fighting_chain"
+      ],
+      "local_tags": [
+        "主战场",
+        "气紧",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "Q14",
+        "P14",
+        "K14",
+        "L12",
+        "M15"
+      ],
+      "group_status": [
+        "black_compromised",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下实地稳固：黑O3、Q3、R4、R5与白F3、D4构成典型低中国流开局结果，黑取角地，白取外势，已大致定型。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "实地完成",
+        "定式结束"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "F3",
+        "D4"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_influence"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，无任何着子，属全盘最大空白区域，为后续双方大场首选。",
+      "shapes": [],
+      "local_tags": [
+        "最大空场",
+        "待抢占"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q17、R16、P17与白P17、P16形成小规模角地争夺，黑稍占优但未完全封锁，尚有余味。",
+      "shapes": [
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "角地未净",
+        "余味存在"
+      ],
+      "key_points": [
+        "Q17",
+        "R16",
+        "P17",
+        "P16"
+      ],
+      "group_status": [
+        "black_advantaged"
+      ]
+    }
+  ]
+}

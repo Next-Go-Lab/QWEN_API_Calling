@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_021",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 21,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "P16"
+      },
+      {
+        "color": 1,
+        "point": "Q14"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q13"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "Q13",
+      "Q14",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "M15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "P14-Q13一带接触战"
+    ],
+    "global_summary_cn": "第21手，轮白（Ueno Risa）行棋。当前局面呈现典型中盘格局：右上角形成复杂接触战，黑棋Q13、Q14、P14与白棋P14、P16、P17、Q17构成密集对峙；左下黑棋O3/Q3/R4/R5形成低位厚势但尚未安定；白棋D4/D16/C14三子分占三隅，布局均衡；黑棋R12/R16略显孤立；全局无明显死活危机，但中腹M15为双方潜在打入/侵消要点。",
+    "phase_explanation": "处于中盘早期向中期过渡阶段，局部战斗集中于右上，全局战略重心尚未完全转向中腹，但已有向中央辐射趋势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑F17、白D16、黑L17散落，无直接接触，属缓急地带。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "缓急"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "L17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部以黑Q17、白P17、P16、Q14、Q13、P14为核心，形成高密度缠斗区，黑棋试图扩张而白棋封锁压缩。",
+      "shapes": [
+        "ladder_like",
+        "contact_zone"
+      ],
+      "local_tags": [
+        "接触战",
+        "攻防转换",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "P14",
+        "Q13",
+        "Q14",
+        "P16",
+        "P17",
+        "Q17"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R16、白Q10、黑R12构成松散呼应，但未形成明确势力范围，存在潜在打入点。",
+      "shapes": [],
+      "local_tags": [
+        "潜力点",
+        "呼应薄弱"
+      ],
+      "key_points": [
+        "Q10",
+        "R12",
+        "R16"
+      ],
+      "group_status": [
+        "black_loose_connection"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅有黑F17延伸意向，白C14孤子偏下，暂无激烈互动。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "单官调子"
+      ],
+      "key_points": [
+        "C14",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，无子落点，但M15为政策目标点，预示未来打入或拆边焦点。",
+      "shapes": [],
+      "local_tags": [
+        "战略要冲",
+        "待开发"
+      ],
+      "key_points": [
+        "M15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹含白Q5/Q6/R6及黑R5/R4，形成小规模上下对峙，白棋下方稍厚，黑棋有向上联络意图。",
+      "shapes": [
+        "small_eye_shape"
+      ],
+      "local_tags": [
+        "低位对抗",
+        "厚薄分明"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑O3/Q3/R4/R5连成低位厚势，结构坚实，已具实地雏形。",
+      "shapes": [
+        "moyo_base",
+        "solid_wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "实地基础",
+        "安定"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "black_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅白Q5略近，无实质影响，属待发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "无关紧要"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q3延伸至R4/R5，白Q5/Q6斜压，但未深入，黑棋主导低位空间。",
+      "shapes": [],
+      "local_tags": [
+        "黑主导",
+        "低位控制"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "black_influence"
+      ]
+    }
+  ]
+}

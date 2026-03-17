@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_126",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 126,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q9"
+      },
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "O11"
+      },
+      {
+        "color": 0,
+        "point": "N8"
+      },
+      {
+        "color": 1,
+        "point": "M9"
+      },
+      {
+        "color": 0,
+        "point": "N9"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "M9",
+      "P9",
+      "Q9",
+      "O10",
+      "R10",
+      "O11",
+      "Q11",
+      "P13",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "N8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "S9",
+      "N10",
+      "P10",
+      "O14",
+      "P14",
+      "O15",
+      "D16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官",
+      "实地争夺",
+      "中央厚势对峙"
+    ],
+    "strategic_focus": [
+      "右下角白棋大龙未净活",
+      "中腹黑棋厚味待发挥",
+      "O7为关键打入点"
+    ],
+    "global_summary_cn": "全局进入中盘收官阶段，黑白双方在右下、中腹及右上形成多处焦点。黑棋掌握主动，近期连续在Q9、O11、M9等处施压；白棋N9、N10、O9构成右下薄弱眼位，O7是黑棋下一步理想的侵分或搜根点。",
+    "phase_explanation": "第126手，黑方行棋，局面处于中盘向官子过渡期。双方在右下角形成复杂攻防，白棋数子气紧但尚未被杀，黑棋需选择是强攻还是转至他处获利。中腹黑棋厚势与白棋P10、O14等孤子形成潜在牵制关系。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈冲突。",
+      "shapes": [],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "A3",
+        "B1",
+        "C2"
+      ],
+      "group_status": [
+        "黑稳固",
+        "白安定"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋T2-S2-Q2连片，白棋Q4-R4略显单薄，存在浅消可能。",
+      "shapes": [],
+      "local_tags": [
+        "黑厚势",
+        "白弱侧"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "Q4",
+        "R4"
+      ],
+      "group_status": [
+        "黑厚",
+        "白浮"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑占P15-Q16-R14等高位，白有O14-P14-O15三子但联络不畅，黑可伺机压迫。",
+      "shapes": [],
+      "local_tags": [
+        "黑高位",
+        "白联络疑点"
+      ],
+      "key_points": [
+        "P15",
+        "Q16",
+        "O14",
+        "P14"
+      ],
+      "group_status": [
+        "黑厚势",
+        "白薄"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑A7-D7-E7-G7成势，白B7-C7略受压制，黑有向中腹发展的余地。",
+      "shapes": [],
+      "local_tags": [
+        "黑势力延伸",
+        "白受制"
+      ],
+      "key_points": [
+        "A7",
+        "D7",
+        "E7",
+        "B7"
+      ],
+      "group_status": [
+        "黑厚",
+        "白孤"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑M9-O11-Q9与白N9-N10-O9形成对峙核心，O7为双方必争之点。",
+      "shapes": [],
+      "local_tags": [
+        "对峙中枢",
+        "打入要点"
+      ],
+      "key_points": [
+        "M9",
+        "O9",
+        "N9",
+        "O11",
+        "Q9",
+        "O7"
+      ],
+      "group_status": [
+        "黑主动",
+        "白待补"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P9-Q9-R10与白P10-Q8-R8纠缠，白N8为接应但气紧，黑有断点潜力。",
+      "shapes": [],
+      "local_tags": [
+        "近身战",
+        "气紧"
+      ],
+      "key_points": [
+        "P9",
+        "Q9",
+        "R10",
+        "N8",
+        "P10"
+      ],
+      "group_status": [
+        "黑攻击姿态",
+        "白需做活"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑A3-C3-B2与白B1-C2-D2形成经典低挂定式结果，已定型无变。",
+      "shapes": [],
+      "local_tags": [
+        "定式终局",
+        "无争"
+      ],
+      "key_points": [
+        "A3",
+        "B2",
+        "B1",
+        "C2"
+      ],
+      "group_status": [
+        "双方安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G1-H1-H2-G3-G4-G5与白D1-E2-F2-G2-D3等交错，局部均衡。",
+      "shapes": [],
+      "local_tags": [
+        "均衡",
+        "小规模接触"
+      ],
+      "key_points": [
+        "G1",
+        "H1",
+        "G3",
+        "D3",
+        "F2"
+      ],
+      "group_status": [
+        "双方均势"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R1-S2-T2-T4与白S7-T8-R8-R6等形成复杂攻防，白N9-N10-O9为未净活大块，黑O7为致命打入点。",
+      "shapes": [],
+      "local_tags": [
+        "生死劫材区",
+        "白大龙危急"
+      ],
+      "key_points": [
+        "N9",
+        "N10",
+        "O9",
+        "O7",
+        "S7",
+        "T8"
+      ],
+      "group_status": [
+        "白大龙不活",
+        "黑胜势"
+      ]
+    }
+  ]
+}

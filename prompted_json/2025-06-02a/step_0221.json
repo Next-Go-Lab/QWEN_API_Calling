@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_220",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 220,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K13"
+      },
+      {
+        "color": 0,
+        "point": "J12"
+      },
+      {
+        "color": 1,
+        "point": "J11"
+      },
+      {
+        "color": 0,
+        "point": "K17"
+      },
+      {
+        "color": 1,
+        "point": "J18"
+      },
+      {
+        "color": 0,
+        "point": "H18"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17",
+      "J18"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17",
+      "H18"
+    ]
+  },
+  "targets": {
+    "policy_target": "M6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_settlement",
+      "ko_avoidance",
+      "life_and_death_resolution"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's center influence",
+      "finalizing eye shape in upper right"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先明显，双方围绕边角实地进行精细定型；白棋H18为最后一步补棋，黑棋即将在M6落子完成中腹潜力收束。",
+    "phase_explanation": "第220手，黑方行棋，局面已无大规模战斗，属典型终局收束阶段；胜负已基本确定（B+3.5），当前焦点在于最小目数误差控制与局部眼位确认。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，A1–C3一带黑厚势，A6–C7白空稳固。",
+      "shapes": [
+        "corner_enclosure",
+        "solid_territory"
+      ],
+      "local_tags": [
+        "settled",
+        "low_activity"
+      ],
+      "key_points": [
+        "A1",
+        "C1",
+        "A6",
+        "C7"
+      ],
+      "group_status": [
+        "alive",
+        "unconditional"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段存在轻微接触战，J3、K11等黑子与J2、K10等白子形成松散对峙，但无攻杀风险。",
+      "shapes": [
+        "side_framework",
+        "light_contact"
+      ],
+      "local_tags": [
+        "quiet",
+        "influence_balance"
+      ],
+      "key_points": [
+        "J3",
+        "K11",
+        "J2",
+        "K10"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑J18、K13、J11与白J12、K17、H18构成复杂劫材残局收束，黑已获实质优势。",
+      "shapes": [
+        "endgame_sequence",
+        "sente_reduction"
+      ],
+      "local_tags": [
+        "recent_action",
+        "sente_retention"
+      ],
+      "key_points": [
+        "J11",
+        "J12",
+        "J18",
+        "H18",
+        "K17"
+      ],
+      "group_status": [
+        "alive",
+        "eye_shape_confirmed"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋F6–G7–L7成势，白C6–D6–E6–F7构成薄味但暂无断点，黑有潜在打入余地。",
+      "shapes": [
+        "moyo",
+        "light_group"
+      ],
+      "local_tags": [
+        "potential_invasion_point",
+        "thickness_utilization"
+      ],
+      "key_points": [
+        "F6",
+        "G7",
+        "L7",
+        "C6",
+        "F7"
+      ],
+      "group_status": [
+        "alive",
+        "semi_solid"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑O10–P11–Q12与白N10–O12–P12形成对称张力，M6为关键制高点，尚未被占据。",
+      "shapes": [
+        "central_influence",
+        "key_intersection"
+      ],
+      "local_tags": [
+        "policy_target",
+        "vital_point"
+      ],
+      "key_points": [
+        "M6",
+        "O10",
+        "P11",
+        "N10",
+        "O12"
+      ],
+      "group_status": [
+        "unsettled",
+        "influence_contest"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K14–P15与白J15–O15形成实地拉锯，Q14–R14黑厚势压制白O16–R16弱龙，白需做活。",
+      "shapes": [
+        "territory_border",
+        "weak_group_pressure"
+      ],
+      "local_tags": [
+        "pressure_zone",
+        "life_and_death_pending"
+      ],
+      "key_points": [
+        "K14",
+        "Q14",
+        "J15",
+        "O15",
+        "O16"
+      ],
+      "group_status": [
+        "alive_under_pressure",
+        "needs_eye_space"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A1–T2大模样早定，白A7–C7小块已活，黑B5–D5构成坚实外势，无变数。",
+      "shapes": [
+        "established_territory",
+        "outer_wall"
+      ],
+      "local_tags": [
+        "closed",
+        "no_threat"
+      ],
+      "key_points": [
+        "A1",
+        "T2",
+        "A7",
+        "C7",
+        "B5"
+      ],
+      "group_status": [
+        "alive",
+        "unconditional"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F1–H2–H6与白D1–E2–F5形成交错，但黑整体厚实，白仅存微弱侵消可能。",
+      "shapes": [
+        "thick_base",
+        "limited_invasion_room"
+      ],
+      "local_tags": [
+        "secure",
+        "low_priority"
+      ],
+      "key_points": [
+        "F1",
+        "H6",
+        "D1",
+        "F5"
+      ],
+      "group_status": [
+        "alive",
+        "fully_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R4–T7与白Q8–T8构成典型收官战场，黑已围定大空，白仅靠S9–T10勉强做活，黑胜势明确。",
+      "shapes": [
+        "secured_territory",
+        "minimal_resistance"
+      ],
+      "local_tags": [
+        "dominant",
+        "endgame_finalized"
+      ],
+      "key_points": [
+        "R4",
+        "T7",
+        "Q8",
+        "T8",
+        "S9"
+      ],
+      "group_status": [
+        "alive",
+        "territorially_dominant"
+      ]
+    }
+  ]
+}

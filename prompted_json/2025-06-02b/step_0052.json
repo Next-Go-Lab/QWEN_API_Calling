@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_051",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 51,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "K3"
+      },
+      {
+        "color": 1,
+        "point": "K2"
+      },
+      {
+        "color": 0,
+        "point": "L3"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "C5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角攻防",
+      "左上大龙治孤"
+    ],
+    "global_summary_cn": "第51手，黑方刚于K6落子，形成对白棋L3-M3一带的压迫；全局呈现黑棋在右上、中腹积极扩张，白棋在右下、左下构筑厚势并伺机反击的格局；C5为当前政策目标点，暗示黑棋意图侵消白棋中腹潜力。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开连续接触战，尤其集中在K线附近（K2–K6）与L3–N3白棋阵型之间；黑棋掌握主动权，但白棋外围厚实，具备反击基础。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋Q15–R18成势，白棋D16–J16构成低位厚壁，黑棋S12–R14小飞守角，白棋S13–S14反夹试探。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑角稳固",
+        "白厚壁",
+        "小飞守角",
+        "反夹试探"
+      ],
+      "key_points": [
+        "Q15",
+        "R18",
+        "D16",
+        "S13"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部黑棋R12–R14连片，白棋R15–R17与S18–S19形成对攻前沿；黑棋Q16–Q18构成外势骨架，白棋J16为孤子但有联络可能。",
+      "shapes": [
+        "side_wall",
+        "outer_frame"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白前沿",
+        "孤子待援"
+      ],
+      "key_points": [
+        "R12",
+        "R17",
+        "Q16",
+        "J16"
+      ],
+      "group_status": [
+        "黑厚",
+        "白薄"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角空旷，仅存黑Q3、R4、P4、O4及白P2、F3零星子；黑棋Q3跳起构形，白P2为低位拆二雏形，尚未形成明确定式结构。",
+      "shapes": [
+        "sparse",
+        "early_development"
+      ],
+      "local_tags": [
+        "未定型",
+        "跳起构形",
+        "低位拆二"
+      ],
+      "key_points": [
+        "Q3",
+        "P2",
+        "F3"
+      ],
+      "group_status": [
+        "无活形",
+        "未成势"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑B4–C6–D7与白D4–D6–E6形成对峙；黑棋C5为政策目标，正处双方势力交界敏感点；黑J3与白F3遥相呼应，构成斜向张力。",
+      "shapes": [
+        "borderline",
+        "tension_line"
+      ],
+      "local_tags": [
+        "交界敏感点",
+        "斜向张力",
+        "政策目标位"
+      ],
+      "key_points": [
+        "C5",
+        "B4",
+        "D6",
+        "J3"
+      ],
+      "group_status": [
+        "未定型",
+        "可侵消"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域密集：黑K2–K6–L6–M6–N6与白K3–L3–M3–N3–L4–N4–L5–M5–O5形成典型‘K线拉锯’；黑K4–K5–K6三子与白K3–L3构成‘扭十字’雏形，局部气紧。",
+      "shapes": [
+        "k_line_cluster",
+        "twisting_shape"
+      ],
+      "local_tags": [
+        "K线拉锯",
+        "扭十字雏形",
+        "气紧"
+      ],
+      "key_points": [
+        "K4",
+        "K6",
+        "L3",
+        "O5"
+      ],
+      "group_status": [
+        "对杀中",
+        "未净活"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O4–P4–R4与白N4–L4–L5–M5–O5构成平行对抗；黑N5–M6–N6延伸向中腹，白N10–L11为潜在打入支点；整体呈横向厚势对峙。",
+      "shapes": [
+        "horizontal_wall",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "横向厚势",
+        "打入支点",
+        "延伸牵制"
+      ],
+      "key_points": [
+        "O4",
+        "N10",
+        "L11",
+        "N5"
+      ],
+      "group_status": [
+        "黑厚",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4–C6–D7与白D4–D6–E6已形成基本定式轮廓；黑C6–D7为小飞守角变体，白D4–E6为低挂应对，目前黑稍得实地，白取外势。",
+      "shapes": [
+        "corner_fight",
+        "low_pincer"
+      ],
+      "local_tags": [
+        "小飞守角",
+        "低挂应对",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "B4",
+        "C6",
+        "D4",
+        "E6"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅有黑E6、白E6同点（应为数据冲突，按state中white_stones含E6、black_stones不含，故E6属白），及黑K2–K3–K4–K5–K6纵向列；黑K线五子成串，白L3–M3–N3横向三子呼应，构成‘T字交叉’控制带。",
+      "shapes": [
+        "vertical_chain",
+        "horizontal_chain",
+        "cross_control"
+      ],
+      "local_tags": [
+        "纵向成串",
+        "横向呼应",
+        "T字控制"
+      ],
+      "key_points": [
+        "K2",
+        "K6",
+        "L3",
+        "N3"
+      ],
+      "group_status": [
+        "黑强连",
+        "白协同"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白P2–N3–M3–L3–L4–L5–M5–N5–O5围出大模样，黑Q3–R4–P4–O4侵入浅消；黑S12–R13–R14–Q15与白R15–R16–R17–S18–S19形成上下对称攻防，此处为全盘最激烈战场。",
+      "shapes": [
+        "large_framework",
+        "invasion",
+        "symmetric_fight"
+      ],
+      "local_tags": [
+        "大模样",
+        "浅消",
+        "对称攻防"
+      ],
+      "key_points": [
+        "P2",
+        "Q3",
+        "R15",
+        "S18"
+      ],
+      "group_status": [
+        "白未封口",
+        "黑未深入"
+      ]
+    }
+  ]
+}

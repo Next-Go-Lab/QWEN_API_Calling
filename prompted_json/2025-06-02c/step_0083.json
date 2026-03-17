@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_082",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 82,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "H11"
+      },
+      {
+        "color": 0,
+        "point": "F9"
+      },
+      {
+        "color": 1,
+        "point": "G11"
+      },
+      {
+        "color": 0,
+        "point": "H9"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "J11"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央厚势争夺",
+      "右下角未定型",
+      "黑棋大龙治孤"
+    ],
+    "global_summary_cn": "第82手，黑方行棋，局面处于中盘关键阶段。白棋刚于J11落子，强化中央控制；黑棋此前在G11、H11、F14连续施压，但白棋在E9-H9-F9-G9构筑稳固阵型，并在右下（P16/P17/Q17）与左上（B4-C4-D4-B5-C5-B6）形成两处厚势。黑棋大龙（D7-E7-G7-G10-F11-G11-H11）看似连通，实则眼位不足，J12为关键补棋点；白棋若抢占J12可压缩黑棋中央发展空间，巩固胜势。",
+    "phase_explanation": "当前为中盘向官子过渡阶段，胜负焦点集中于中央黑大龙的生死与实地转换效率。白棋凭借厚势和先手优势掌控节奏，黑棋需在J12或K11等处寻求做活或反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在B4-C4-D4-B5-C5-B6构成坚实小堡垒，黑棋O3-Q3-R4-R5呈低位拆边，双方无直接接触。",
+      "shapes": [
+        "small_fortress",
+        "low_extension"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑低位布局"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "R4"
+      ],
+      "group_status": [
+        "white_stable",
+        "black_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋H16-K16-R16与白棋D16-P16-P17形成上下对峙，Q13-Q14-Q17为黑棋联络要点，白棋C15-F15-K15-M15构成横向势力。",
+      "shapes": [
+        "side_wall",
+        "horizontal_influence"
+      ],
+      "local_tags": [
+        "边空争夺",
+        "横向张力"
+      ],
+      "key_points": [
+        "H16",
+        "Q13",
+        "D16"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q3-R4-R5-Q5-Q6-R6与白棋Q5-Q6-R6形成复杂角部纠缠，但白棋C4-D4-C5已确立局部优势，此处趋于定型。",
+      "shapes": [
+        "corner_entanglement",
+        "settled"
+      ],
+      "local_tags": [
+        "白角安定",
+        "黑外势"
+      ],
+      "key_points": [
+        "Q5",
+        "R4",
+        "C4"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B8-C8-D8-C10-D11-E11与白棋B7-C7-B11-C11-D12-E12形成典型中腹对杀雏形，D10-E10-H10为白棋眼形基础。",
+      "shapes": [
+        "central_race",
+        "eye_base"
+      ],
+      "local_tags": [
+        "对杀前沿",
+        "白眼位丰富"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "E11"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_eye_safe"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心战场：黑棋F10-G10-G11-H11-F11-E11-D11与白棋E9-F9-G9-H9-J11构成密集交火带，J12为双方必争之‘天王山’，关系大龙生死。",
+      "shapes": [
+        "dense_battlefield",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "中央绞杀",
+        "J12争点"
+      ],
+      "key_points": [
+        "J12",
+        "J11",
+        "G11",
+        "H9"
+      ],
+      "group_status": [
+        "black_critical",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋F14-G14-J14-Q14与白棋K14-P14-C14-F13形成右中腹拉锯，J14为黑棋外势支点，白棋K15-M15具潜在侵消能力。",
+      "shapes": [
+        "influence_vs_invade",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白待侵消"
+      ],
+      "key_points": [
+        "F14",
+        "J14",
+        "K15"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_waiting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋B5-C6-D6-D7-E7-G7与白棋B6-B7-C7构成经典低位攻防，黑棋D7-E7-G7已成厚味，白棋B7-C7略显单薄。",
+      "shapes": [
+        "low_side_fight",
+        "thickness_building"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白薄弱"
+      ],
+      "key_points": [
+        "D7",
+        "E7",
+        "B7"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F3与白棋F3无石，空旷地带；黑棋D13-C13-C12与白棋D12-E12-F12-L12构成中腹延伸线，尚未爆发冲突。",
+      "shapes": [
+        "quiet_extension",
+        "latent_conflict"
+      ],
+      "local_tags": [
+        "平稳发展",
+        "潜在接触"
+      ],
+      "key_points": [
+        "D13",
+        "F12",
+        "L12"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋Q17与白棋P16-P17-Q17形成角部收束，白棋P16-P17已成实地，黑棋Q17为单官守角，此区域基本定型。",
+      "shapes": [
+        "corner_settlement",
+        "single_point_defense"
+      ],
+      "local_tags": [
+        "白实地",
+        "黑单官"
+      ],
+      "key_points": [
+        "P16",
+        "Q17"
+      ],
+      "group_status": [
+        "white_territorial",
+        "black_passive"
+      ]
+    }
+  ]
+}

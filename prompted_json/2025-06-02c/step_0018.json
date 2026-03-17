@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_017",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 17,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q6"
+      },
+      {
+        "color": 1,
+        "point": "O3"
+      },
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "D16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "边角争夺激烈",
+      "白棋厚势成形",
+      "黑棋试图侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力争夺",
+      "下边白棋厚味辐射"
+    ],
+    "global_summary_cn": "第17手，黑方刚于Q17落子，强化右上角黑阵；白棋在右下（Q5-Q6-R6）、中腹（Q10）、左上（C14/D16）多点布局，形成厚势并限制黑棋发展。黑棋在右上（R16/Q17/P17/R12）与右下（Q3/O3/R4/R5）有两块未安定势力，白棋占据主动。",
+    "phase_explanation": "当前处于中盘初期，双方尚未进入大规模接触战，但关键局部（如右上角、右边三路）已出现试探性压迫与反制，胜负关键在于厚薄转换与实地效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋C14、D16构成高位双飞燕雏形，黑无应手，白势厚实；黑F17孤立，暂无配合。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "高位双飞燕",
+        "白厚势",
+        "黑孤子"
+      ],
+      "key_points": [
+        "C14",
+        "D16",
+        "F17"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑L17、F17分散，白无直接打入点；黑棋缺乏连贯性，白可择机挂角或拆边。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "黑分散",
+        "白待机"
+      ],
+      "key_points": [
+        "L17",
+        "F17"
+      ],
+      "group_status": [
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对峙：黑R16、Q17、P17构成角地雏形，白P17为强手侵消，R12为黑外势支点；局部呈攻防平衡态。",
+      "shapes": [
+        "corner",
+        "ladder_shape"
+      ],
+      "local_tags": [
+        "角地争夺",
+        "侵消点",
+        "外势支点"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "P17",
+        "R12"
+      ],
+      "group_status": [
+        "black_territorial",
+        "white_invasive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧空旷，无双方棋子；黑O3、Q3、R4、R5在右下延伸，此处为潜在黑棋向中腹发展的跳板。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "黑发展通道",
+        "空旷中腹"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，仅黑R12一子遥指中腹；白Q10为高目守势兼窥中心，是未来双方争抢焦点。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "中腹制高点",
+        "白控势"
+      ],
+      "key_points": [
+        "Q10",
+        "R12"
+      ],
+      "group_status": [
+        "white_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边三路白Q5、Q6、R6构成坚实厚壁，黑Q3、O3、R4、R5在其下方试探，但尚未构成有效攻击；白壁辐射力强。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑低位试探"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "Q3",
+        "O3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何落子；属全局最空旷区域，未来可能成为大场或大模样战场。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "全空大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，黑Q3、O3位于下边，但离中心较远；白无子，此处为后续双方分投或挂角首选。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "下边低位",
+        "待开发"
+      ],
+      "key_points": [
+        "Q3",
+        "O3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q3、O3、R4、R5形成小堡垒，但气紧且外围无援；白Q5-Q6-R6厚壁正对其施压，存在被搜根风险。",
+      "shapes": [
+        "small_fortress"
+      ],
+      "local_tags": [
+        "黑堡垒",
+        "白壁压迫",
+        "气紧"
+      ],
+      "key_points": [
+        "Q3",
+        "O3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_pressuring"
+      ]
+    }
+  ]
+}

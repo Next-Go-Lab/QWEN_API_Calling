@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_015",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 15,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E15"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      },
+      {
+        "color": 0,
+        "point": "F15"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "H15"
+      },
+      {
+        "color": 1,
+        "point": "F14"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "H15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "center_influence"
+    ],
+    "strategic_focus": [
+      "top_side_conflict",
+      "black_eye_shape_potential",
+      "white_thickness_along_right_side"
+    ],
+    "global_summary_cn": "第15手，黑方刚于F14落子，形成与白棋E14、E15、F15、H15的密集上边攻防；黑棋在左上角（C15/D15/E16）与右下（Q3/Q16）各有一子，白棋在右下D4与左上D16/D17构成双角呼应；全局尚未形成大模样，但上边已成局部战场。",
+    "phase_explanation": "开局中期，双方在上边展开接触战，黑棋试图扩张中央势力并威胁白棋H15一子，白棋则借D13-E14-F14三角构筑潜在眼位；G15为当前最佳打入点，可分断白棋上边阵势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C15、D15、E16呈斜跳守角雏形；白棋D16、D17压边构成压迫，但黑有E17扳头余味。",
+      "shapes": [
+        "corner_triangle"
+      ],
+      "local_tags": [
+        "black_corner_setup",
+        "white_pressure"
+      ],
+      "key_points": [
+        "C15",
+        "D15",
+        "E16",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "black_group_weak_eye",
+        "white_group_solid"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "核心战场：黑E14/F14、白E15/F15/H15形成五子缠斗；黑D13为援军，白C13呼应；G15为空点，是双方争夺焦点。",
+      "shapes": [
+        "ladder_fragment",
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "vital_point_G15"
+      ],
+      "key_points": [
+        "E14",
+        "F14",
+        "E15",
+        "F15",
+        "H15",
+        "D13",
+        "C13",
+        "G15"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_overconcentrated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白H15孤立但有连络余地；黑无子，属空白发展区，未来可能成为黑棋拆二或白棋守角区域。",
+      "shapes": [
+        "isolated_stone",
+        "empty_extension_zone"
+      ],
+      "local_tags": [
+        "white_isolated_stone",
+        "potential_black_invasion"
+      ],
+      "key_points": [
+        "H15"
+      ],
+      "group_status": [
+        "white_group_vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑Q3孤子暂无配合；白D4守角稳固，但距离中腹遥远，尚未形成影响力。",
+      "shapes": [
+        "single_stone",
+        "corner_anchor"
+      ],
+      "local_tags": [
+        "black_lonely_stone",
+        "white_secure_corner"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": [
+        "black_group_dormant",
+        "white_group_stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子；但因上边战斗辐射，将成为下一步势力投送与厚势延伸的关键通道。",
+      "shapes": [
+        "empty_crossroads"
+      ],
+      "local_tags": [
+        "central_void",
+        "influence_conduit"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑Q16位于右上角高位，与左上黑子无直接联络；白无子，属待开发区域。",
+      "shapes": [
+        "high_corner_stone"
+      ],
+      "local_tags": [
+        "black_high_corner",
+        "unclaimed_territory"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "black_group_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无任何棋子；典型开局未涉足区域。",
+      "shapes": [
+        "empty_quadrant"
+      ],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无任何棋子；与中心空旷区连通，构成大场潜力。",
+      "shapes": [
+        "empty_quadrant"
+      ],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3位于右下角低线，白D4位于左下角，二者对角分布；该区域尚无互动，属远期战略方向。",
+      "shapes": [
+        "diagonal_anchor"
+      ],
+      "local_tags": [
+        "asymmetric_corner_placement"
+      ],
+      "key_points": [
+        "Q3",
+        "D4"
+      ],
+      "group_status": []
+    }
+  ]
+}

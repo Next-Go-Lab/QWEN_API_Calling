@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_020",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 20,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "S18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S12"
+      },
+      {
+        "color": 0,
+        "point": "R15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "N3"
+      },
+      {
+        "color": 1,
+        "point": "R18"
+      },
+      {
+        "color": 0,
+        "point": "S18"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "右上角攻防",
+      "黑棋厚势",
+      "白棋孤棋求活"
+    ],
+    "strategic_focus": [
+      "右上角死活",
+      "黑Q18点入意图破眼",
+      "白S18刚落子但气紧"
+    ],
+    "global_summary_cn": "第20手，黑方行棋，局面处于中盘激烈攻防阶段。右上角形成黑白交错的复杂战斗：黑棋在Q15–R18一带构筑厚势，白棋S13–S18及R15–R17呈团块但气较紧；黑刚于S12跳，白应以S18，现黑拟点Q18直击白棋眼位要害。",
+    "phase_explanation": "当前为中盘战斗初期，双方在右上角展开局部决战，尚未进入大规模转换或收官。黑方掌握主动，白方需立即处理右上孤棋生死问题。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅白D4、D16两子遥相呼应，无直接接触，属战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "布局余地",
+        "白双飞"
+      ],
+      "key_points": [
+        "D4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央上方J16为白孤子，附近无同伴，暂未受攻但位置偏高，易成轻舟。",
+      "shapes": [],
+      "local_tags": [
+        "单官",
+        "轻子",
+        "白孤"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "全局焦点区域：黑Q15–R18连片厚势，白S13–S18+R15–R17围成不完整眼形，黑Q18为待落之致命点，此角存严重死活危机。",
+      "shapes": [
+        "ladder",
+        "net",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "死活要点",
+        "攻防核心",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "S12",
+        "S13",
+        "S14",
+        "S18",
+        "Q18"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_weak_eye",
+        "white_group_in_atari_risk"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹空旷，仅黑P4、R4与白N3构成低位三角，黑有拆边意向，白N3孤立但暂时安定。",
+      "shapes": [],
+      "local_tags": [
+        "低位定式余味",
+        "黑拆二雏形",
+        "白单关守角"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "N3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无子，为未来势力发展与大模样作战预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "空中心",
+        "战略纵深"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹暂无落子，但紧邻右上战场，是黑厚势向中腹辐射及白可能出头的关键通道。",
+      "shapes": [],
+      "local_tags": [
+        "辐射通道",
+        "潜在出头点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何棋子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "未着手"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中央空旷，仅黑无子，白亦无配置，属后半盘潜力区。",
+      "shapes": [],
+      "local_tags": [
+        "空腹",
+        "后发潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下全空，无子，与右上激烈战场形成鲜明动静对比。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "静默区"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

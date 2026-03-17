@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_067",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 67,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N6"
+      },
+      {
+        "color": 1,
+        "point": "N9"
+      },
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "O8"
+      },
+      {
+        "color": 0,
+        "point": "O10"
+      },
+      {
+        "color": 1,
+        "point": "L8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "K9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "L8附近接触战"
+    ],
+    "global_summary_cn": "第67手，轮到黑方行棋。当前局面处于中盘激烈阶段，白棋在右下角（N6-O10-L8-O8-N9）形成厚势并压制黑棋数子，黑棋在左上、中腹及右上仍有潜力但实地稍显不足。全局白棋略占优，黑棋需在K9等要点寻求突破。",
+    "phase_explanation": "中盘阶段，双方在右下角连续交换，白棋通过N6、N7、O10、L8等招法巩固外势并限制黑棋做活；黑棋虽在中腹有K7、O7、N8等子，但尚未连成大模样；K9为关键打入点，关系中腹势力平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋D4/E4/F4与J5/J17构成左上小堡垒，白棋C3/C4/C6/H2/H3/H4/H5/H6形成封锁带，局部平稳。",
+      "shapes": [
+        "corner_enclosure",
+        "wall"
+      ],
+      "local_tags": [
+        "黑小目守角",
+        "白高拆二封锁"
+      ],
+      "key_points": [
+        "D4",
+        "C4",
+        "J5",
+        "H6"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑Q15/R16与白L16/P17对峙，中腹上方空旷，黑J17孤立但牵制白右上，无明显战斗。",
+      "shapes": [
+        "loose_group",
+        "influence_boundary"
+      ],
+      "local_tags": [
+        "高位飞挂余味",
+        "轻灵牵制"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "L16",
+        "J17"
+      ],
+      "group_status": [
+        "unsettled",
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R5/Q7/Q9/Q10/Q11与黑R9/R10/R11/S8形成右上对杀雏形，白子密集但气紧，黑有反击机会。",
+      "shapes": [
+        "ladder",
+        "eye_shape_threat"
+      ],
+      "local_tags": [
+        "白厚势待补",
+        "黑断点活跃"
+      ],
+      "key_points": [
+        "R9",
+        "Q9",
+        "Q10",
+        "S8"
+      ],
+      "group_status": [
+        "vulnerable",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F3/G3/K4/K7与白E3/E4/E7/H4/H5形成中腹左侧拉锯，黑棋联络尚可，白棋试图渗透。",
+      "shapes": [
+        "ladder",
+        "connection"
+      ],
+      "local_tags": [
+        "黑双飞燕延伸",
+        "白夹击未果"
+      ],
+      "key_points": [
+        "K4",
+        "K7",
+        "E7",
+        "H4"
+      ],
+      "group_status": [
+        "connected",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹空旷，黑O7/N8/O8/N9与白N7/O10/L8/O6等子交错，K9为唯一未落子的关键战略点，决定中腹归属。",
+      "shapes": [
+        "vital_point",
+        "potential_eye"
+      ],
+      "local_tags": [
+        "K9打入点",
+        "中腹天王山"
+      ],
+      "key_points": [
+        "K9",
+        "L8",
+        "N9",
+        "O10"
+      ],
+      "group_status": [
+        "critical",
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中区域高度密集：黑M3/L3/N5/P7/Q6与白M4/O4/P4/Q4/N6/N7/O6/O8/O9/Q7/R8等形成混战核心，白棋占据主动。",
+      "shapes": [
+        "contact_fight",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "白厚势围剿",
+        "黑苦活挣扎"
+      ],
+      "key_points": [
+        "N6",
+        "L8",
+        "O8",
+        "N7",
+        "O10"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑F3/J3与白H2/H3/C3/D3/E3构成左下角定式残局，黑棋实地完整，白棋外势微弱。",
+      "shapes": [
+        "corner_life",
+        "side_wall"
+      ],
+      "local_tags": [
+        "黑无忧角",
+        "白低挂应对"
+      ],
+      "key_points": [
+        "F3",
+        "H3",
+        "C3",
+        "E3"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑P3/Q6/R6与白N2/N3/O4/P6/Q4形成下边攻防，白棋控制边线，黑棋仅存零星根据。",
+      "shapes": [
+        "side_influence",
+        "territory_border"
+      ],
+      "local_tags": [
+        "白边空扎实",
+        "黑棋被压缩"
+      ],
+      "key_points": [
+        "P3",
+        "N2",
+        "Q4",
+        "P6"
+      ],
+      "group_status": [
+        "white_territory",
+        "black_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑S8/R12/P12与白R5/R8/Q10等子延伸至右下，白棋N6-O10-L8-O8-N9构筑铁壁，黑棋O13孤子难连，形势被动。",
+      "shapes": [
+        "fortress",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "白铁壁成型",
+        "黑O13待救"
+      ],
+      "key_points": [
+        "S8",
+        "O13",
+        "N6",
+        "L8",
+        "O10"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_weak"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_056",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 56,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q2"
+      },
+      {
+        "color": 0,
+        "point": "O4"
+      },
+      {
+        "color": 1,
+        "point": "P5"
+      },
+      {
+        "color": 0,
+        "point": "Q6"
+      },
+      {
+        "color": 1,
+        "point": "O6"
+      },
+      {
+        "color": 0,
+        "point": "Q7"
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "G7",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "Q7附近对杀未定"
+    ],
+    "global_summary_cn": "第56手，黑方即将落子，局面处于中盘关键阶段。白棋在右下（Q4-Q7-O4）形成厚势但存在断点；黑棋在右下角（P5、O6、Q2-Q3）积极渗透，R7为关键打入点。全局黑白势力犬牙交错，中腹尚未定型。",
+    "phase_explanation": "当前为中盘中后期，双方在右下角连续交换后形成复杂对杀态势，黑方需在R7或附近寻求突破，白方则力图巩固边空并伺机反攻。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本安定，白A4与黑B2/B3构成小规模接触，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "安定",
+        "低冲突"
+      ],
+      "key_points": [
+        "A4",
+        "B2",
+        "B3"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段稀疏，黑Q16孤高，白D16/F17/O17构成远距离呼应，但未形成实空。",
+      "shapes": [
+        "floating",
+        "influence"
+      ],
+      "local_tags": [
+        "外势",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_influential"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角空旷，仅黑Q16与白O17遥相呼应，无实质交锋。",
+      "shapes": [
+        "open"
+      ],
+      "local_tags": [
+        "空旷",
+        "无争"
+      ],
+      "key_points": [
+        "Q16",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑H1/H2/G3/G4/G5/H6与白C2/D3/E2/F2/G2/J2形成宽广接触带，黑棋略显薄味。",
+      "shapes": [
+        "side_wall",
+        "light_group"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "潜在攻击"
+      ],
+      "key_points": [
+        "H1",
+        "G2",
+        "G3",
+        "H6",
+        "J2"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_sturdy"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑E4/F4/F6与白E5/F5/H5等星罗棋布，尚未连通，属战略要冲。",
+      "shapes": [
+        "scattered",
+        "junction"
+      ],
+      "local_tags": [
+        "中枢",
+        "待连接"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "E5",
+        "F5",
+        "F6",
+        "H5"
+      ],
+      "group_status": [
+        "unconnected",
+        "mutual_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹密集交战区：黑P4/P5/R4/R5/R6/O6与白O4/Q4/Q5/Q6/Q7形成典型边角攻防链，R7为下一焦点。",
+      "shapes": [
+        "ladder",
+        "sacrifice_feel",
+        "attack_chain"
+      ],
+      "local_tags": [
+        "对杀前沿",
+        "断点密集",
+        "急所集中"
+      ],
+      "key_points": [
+        "P4",
+        "P5",
+        "O6",
+        "O4",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "R7"
+      ],
+      "group_status": [
+        "black_aggressive",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B1未落子，白B1/C2/D3与黑B2/B3/C3/C4/D5等构成经典低位缠斗，黑稍占实地。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "实地争夺",
+        "低位定式余波"
+      ],
+      "key_points": [
+        "B2",
+        "B3",
+        "C3",
+        "C4",
+        "D5",
+        "C2",
+        "D3"
+      ],
+      "group_status": [
+        "black_favored",
+        "white_restricted"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑R14孤立，白无对应子，属闲着区域；黑G7与白B7、C8形成斜向牵制。",
+      "shapes": [
+        "isolated",
+        "diagonal_pressure"
+      ],
+      "local_tags": [
+        "单官",
+        "间接影响"
+      ],
+      "key_points": [
+        "R14",
+        "G7",
+        "B7",
+        "C8"
+      ],
+      "group_status": [
+        "black_lonely",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角核心战场：黑Q2/Q3/R3/R5/R6与白P3/Q4/Q5/Q6/Q7/O4/O6激烈对峙，R7为黑方最佳打入点，局部生死未决。",
+      "shapes": [
+        "life_death",
+        "eye_shape_threat",
+        "vital_point"
+      ],
+      "local_tags": [
+        "死活题",
+        "急所",
+        "胜负手"
+      ],
+      "key_points": [
+        "Q2",
+        "Q3",
+        "R3",
+        "R5",
+        "R6",
+        "O6",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "O4",
+        "R7"
+      ],
+      "group_status": [
+        "critical",
+        "unresolved",
+        "black_to_play"
+      ]
+    }
+  ]
+}

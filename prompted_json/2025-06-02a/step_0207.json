@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_206",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 206,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "H16"
+      },
+      {
+        "color": 1,
+        "point": "J16"
+      },
+      {
+        "color": 0,
+        "point": "J15"
+      },
+      {
+        "color": 1,
+        "point": "H15"
+      },
+      {
+        "color": 0,
+        "point": "K16"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "Q14",
+      "R14",
+      "H15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "M13",
+      "F14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_invasion_resolution",
+      "top_right_eye_space_fight",
+      "center_sente_retention"
+    ],
+    "global_summary_cn": "全局进入收官关键阶段，黑棋在右上角持续施加压力，白棋K16一子试图加固但引发连锁反应；中央与右下存在未定大场，F15为黑棋预设的强力搜根点，意图动摇白棋中腹根基。",
+    "phase_explanation": "第206手，黑方行棋，局面处于官子早期向中盘收束过渡阶段。双方在右上（H15–K16）、右中（P11–R12）及中腹（J10–L12）形成多处未净活死形，局部劫争与眼位争夺并存。黑棋握有先手主动权，白棋需谨慎应对F15潜在搜刮。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑A1–C3与白A6–C8构成典型让子布局残迹，无战斗，属黑厚势余味区。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "thickness"
+      ],
+      "key_points": [
+        "A1",
+        "C1",
+        "A6",
+        "C8"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（D9–N9）白棋连片但眼位单薄，黑M9、O10形成压迫，白E9、D9为浮子，存在被分断风险。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "vulnerable",
+        "eye_deficit"
+      ],
+      "key_points": [
+        "D9",
+        "E9",
+        "M9",
+        "O10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对攻核心：黑J16、H15、J15与白H16、K16、J15反复交错，形成双向搜根态势；K16为白最新粘劫，但黑R11埋伏深远，此处为全盘胜负焦点。",
+      "shapes": [
+        "fighting_sequence",
+        "ko_contest"
+      ],
+      "local_tags": [
+        "critical",
+        "ko_threat",
+        "life_and_death"
+      ],
+      "key_points": [
+        "H15",
+        "J15",
+        "H16",
+        "J16",
+        "K16",
+        "R11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹（C14–F14）黑棋C14、E14与白F14、L14对峙，黑有向上联络意图，白L14为孤子支点，尚未安定。",
+      "shapes": [
+        "outpost",
+        "potential_connection"
+      ],
+      "local_tags": [
+        "influence",
+        "light"
+      ],
+      "key_points": [
+        "C14",
+        "E14",
+        "F14",
+        "L14"
+      ],
+      "group_status": [
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央（J10–L12）黑白交错密集：黑K11、L12与白J10、K10、L10形成微型对杀雏形；黑F12–G12与白E12构成侧翼牵制，F15为黑预设打入点。",
+      "shapes": [
+        "cross_cut",
+        "potential_invasion"
+      ],
+      "local_tags": [
+        "tension",
+        "sente_target"
+      ],
+      "key_points": [
+        "F12",
+        "G12",
+        "J10",
+        "K10",
+        "L10",
+        "K11",
+        "L12",
+        "F15"
+      ],
+      "group_status": [
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中（O11–S13）黑棋大模样成形：P11–Q13连片厚势，白N11、T11为侵消试探，但黑R11、Q12反制有力，白O12–P12略显凝重。",
+      "shapes": [
+        "moyo",
+        "invasion_response"
+      ],
+      "local_tags": [
+        "thickness",
+        "counter_invasion"
+      ],
+      "key_points": [
+        "O11",
+        "P11",
+        "Q11",
+        "R11",
+        "Q12",
+        "R12",
+        "O12",
+        "P12",
+        "T11"
+      ],
+      "group_status": [
+        "alive_with_thickness"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A3–C7）黑A1–C3与白A6–C7构成经典低中国流定式后续，黑B5、C5坚实，白C6、D6受压，已基本定型。",
+      "shapes": [
+        "corner_settled"
+      ],
+      "local_tags": [
+        "settled",
+        "secure"
+      ],
+      "key_points": [
+        "A3",
+        "C3",
+        "B5",
+        "C5",
+        "A6",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段（F1–H2）黑F1–H1与白D1–G2形成接触战遗留：黑H2、G1压制白棋出头，白E2、F2气紧，但已连回，属黑小优定式收束。",
+      "shapes": [
+        "side_contact"
+      ],
+      "local_tags": [
+        "minor_advantage",
+        "completed"
+      ],
+      "key_points": [
+        "F1",
+        "G1",
+        "H1",
+        "D1",
+        "E2",
+        "F2",
+        "G2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（P2–T7）黑P2–T4与白Q6–T8构成大型外势对抗：黑R4–T6厚势辐射中央，白Q7–R8为轻灵腾挪，但黑P15、R15持续施压，白S15为孤子。",
+      "shapes": [
+        "large_moyo",
+        "light_group"
+      ],
+      "local_tags": [
+        "influence",
+        "flexible"
+      ],
+      "key_points": [
+        "P2",
+        "R4",
+        "T4",
+        "Q6",
+        "Q7",
+        "R8",
+        "P15",
+        "R15",
+        "S15"
+      ],
+      "group_status": [
+        "alive_with_mobility"
+      ]
+    }
+  ]
+}

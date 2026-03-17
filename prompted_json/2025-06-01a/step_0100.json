@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_099",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 99,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "A4"
+      },
+      {
+        "color": 1,
+        "point": "D1"
+      },
+      {
+        "color": 0,
+        "point": "B4"
+      },
+      {
+        "color": 1,
+        "point": "K3"
+      },
+      {
+        "color": 0,
+        "point": "K4"
+      },
+      {
+        "color": 1,
+        "point": "H3"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "N3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "B3",
+      "E3",
+      "J3",
+      "P3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "J6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "J2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_left_corner_life_status",
+      "right_side_white_group_vulnerability",
+      "center_influence_vs_territory_balance"
+    ],
+    "global_summary_cn": "全局进入官子阶段，黑棋领先微弱，焦点集中在左下角黑棋做活与右路白棋大龙眼位是否充足；中腹存在潜在搜根机会，但双方均未落子于天元附近。",
+    "phase_explanation": "第99手，黑方刚于H3落子，白方即将在J2应手。当前局面属典型后半盘收束阶段，实地已大致划分，胜负取决于局部死活与官子次序。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。白B3、C4、B5构成小堡垒，黑C2、C3、C5形成外势呼应。",
+      "shapes": [
+        "corner_enclosure",
+        "small_eye_shape"
+      ],
+      "local_tags": [
+        "quiet",
+        "settled",
+        "influence_projection"
+      ],
+      "key_points": [
+        "B3",
+        "C4",
+        "C2"
+      ],
+      "group_status": [
+        "alive",
+        "no_liberties_at_risk"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑Q2-R2-Q3-R3-R4与白P3-Q4-Q5-R6形成交错但未接触的阵势，白R9、Q17等子遥相呼应。",
+      "shapes": [
+        "floating_group",
+        "loose_framework"
+      ],
+      "local_tags": [
+        "potential_invasion_point",
+        "light_group"
+      ],
+      "key_points": [
+        "Q2",
+        "R4",
+        "Q5",
+        "R9"
+      ],
+      "group_status": [
+        "unsettled",
+        "not_urgent"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16-R16-P17-O17-N17与白B16-D16-Q17-R17形成大模样对峙，黑厚势向中腹辐射，白有Q17-R17双关要点。",
+      "shapes": [
+        "large_framework",
+        "side_wall"
+      ],
+      "local_tags": [
+        "thickness",
+        "moyo_potential",
+        "sente_target"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "strong",
+        "influencing_center"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹D10-C11-D11-D13-E14-F14与白C10-C13-E15-F15-G15-H15形成上下夹击态势，黑有断点隐患。",
+      "shapes": [
+        "ladder_shape",
+        "cutting_point_cluster"
+      ],
+      "local_tags": [
+        "tension",
+        "vulnerable_connection"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "E14",
+        "C13"
+      ],
+      "group_status": [
+        "semi_alive",
+        "needs_defense"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，仅黑G7、Q7、S7与白E7-F7-H7-J6等零星分布，尚未形成有效控制，是潜在打入或轻灵腾挪区域。",
+      "shapes": [
+        "open_space",
+        "influence_intersection"
+      ],
+      "local_tags": [
+        "neutral_zone",
+        "future_fighting_ground"
+      ],
+      "key_points": [
+        "G7",
+        "E7",
+        "J6"
+      ],
+      "group_status": [
+        "uncontested",
+        "no_group_present"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹K3-K4-L4-M5-N7-P7与黑J4、K3、H3、J2（目标点）构成密集接触战前沿，白L4-M5为眼形关键，黑J2为扳头急所。",
+      "shapes": [
+        "contact_fight",
+        "eye_shape_fragment"
+      ],
+      "local_tags": [
+        "fighting_line",
+        "vital_point_nearby",
+        "life_and_death"
+      ],
+      "key_points": [
+        "K3",
+        "K4",
+        "J2",
+        "L4"
+      ],
+      "group_status": [
+        "critical",
+        "one_liberty_short"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A4-B4-C4-D4-E4-D2-E2-D1-E1-C2-F2-C3-D3-F3与白B3-E3构成经典角部攻防，黑F3-H3-K3连络，但白B3仍有借用。",
+      "shapes": [
+        "corner_life_and_death",
+        "net_shape"
+      ],
+      "local_tags": [
+        "life_or_death_decisive",
+        "ko_threat_absent",
+        "urgent"
+      ],
+      "key_points": [
+        "A4",
+        "B3",
+        "D1",
+        "H3"
+      ],
+      "group_status": [
+        "alive_if_correct",
+        "under_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹F4-J4-P4-R4与白E4-K4-O4-Q4形成横向拉锯，黑N3-O5-P5与白M5-Q5构成对称结构，此处官子价值高。",
+      "shapes": [
+        "side_territory",
+        "endgame_sequence"
+      ],
+      "local_tags": [
+        "high_value_gote",
+        "boundary_clarification"
+      ],
+      "key_points": [
+        "F4",
+        "J4",
+        "O4",
+        "P5"
+      ],
+      "group_status": [
+        "settled_enough",
+        "scoring_phase"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2-R2-Q3-R3-R4与白P3-R3-R4-R6-R8及黑S7-S8-R8形成复杂边界，白R8为愚形但固守，黑S7-S8具先手潜力。",
+      "shapes": [
+        "edge_fight",
+        "shape_efficiency_low"
+      ],
+      "local_tags": [
+        "efficiency_issue",
+        "sente_opportunity"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "S7",
+        "R8"
+      ],
+      "group_status": [
+        "alive",
+        "marginally_efficient"
+      ]
+    }
+  ]
+}

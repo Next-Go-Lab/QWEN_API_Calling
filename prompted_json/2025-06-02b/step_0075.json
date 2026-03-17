@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_074",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 74,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "M16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "N11"
+      },
+      {
+        "color": 0,
+        "point": "N12"
+      },
+      {
+        "color": 1,
+        "point": "O11"
+      },
+      {
+        "color": 0,
+        "point": "C15"
+      },
+      {
+        "color": 1,
+        "point": "G10"
+      },
+      {
+        "color": 0,
+        "point": "M16"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "T16",
+      "Q17",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "N12",
+      "S13",
+      "S14",
+      "C15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "R17",
+      "T17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "E17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋厚势围空",
+      "黑棋侵消试探",
+      "右下角未定型"
+    ],
+    "strategic_focus": [
+      "黑棋需在E17附近寻求打入或联络",
+      "白棋M16一子强化右边厚势，意在压制黑棋中腹发展"
+    ],
+    "global_summary_cn": "第74手，黑方即将落子，局面处于中盘关键阶段。白棋在右边形成厚势并控制大模样，黑棋在左上、右上及中腹多处保持活跃，但右下角存在潜在攻防变化。黑棋最近连续在N11、O11、G10等处落子，试图搅乱白棋阵型；白棋则以N12、M16等应手巩固实地与外势平衡。",
+    "phase_explanation": "当前为中盘中后期，双方势力范围初步成形但尚未定型，关键争夺点集中在中腹与右下一带，E17是黑棋最可能的继续侵消点，关系到中央势力消长。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋K2/K4/K5/K6/L6/M6/N6与白棋K3/L3/M3/N3/L4/L5/M5形成对峙，黑棋小堡垒稳固，白棋外围稍厚。",
+      "shapes": [
+        "corner_enclosure",
+        "black_fortress"
+      ],
+      "local_tags": [
+        "黑棋安定",
+        "白棋外势"
+      ],
+      "key_points": [
+        "K2",
+        "K4",
+        "L3",
+        "M3"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q15/Q16/Q17/Q18/R18/T16/T17/T18与白棋R15/S15/S14/S13/S16/R16/S17/S18/S19构成复杂边界，黑棋有向上扩张意图。",
+      "shapes": [
+        "side_wall",
+        "black_invasion_attempt"
+      ],
+      "local_tags": [
+        "边空未定",
+        "黑棋高棋"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "R16",
+        "S15"
+      ],
+      "group_status": [
+        "uncertain_territory",
+        "black_sente"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R4/P4/O4/Q3与白棋P2/N3/O5形成接触战，黑棋占据高位但根基略薄，白棋有下方拆二潜力。",
+      "shapes": [
+        "high_invade",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑棋轻灵",
+        "白棋待机"
+      ],
+      "key_points": [
+        "R4",
+        "O4",
+        "P2",
+        "N3"
+      ],
+      "group_status": [
+        "black_light",
+        "white_potential"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑棋B4/B5/B6/C6/D7与白棋C3/C5/C7/C8/D4/D6/E6/E8/E9形成典型‘双飞燕’延伸结构，黑棋实地扎实，白棋外势向中腹延伸。",
+      "shapes": [
+        "double_flying_swallow",
+        "black_ground"
+      ],
+      "local_tags": [
+        "黑棋实利",
+        "白棋取势"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "D4",
+        "E9"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_thick_to_center"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带空旷，黑棋G10/M10/N11/O11与白棋N10/L11/M11/N12形成局部缠斗，黑棋刚于O11跳入，白棋N12立即靠压，此处为当前焦点。",
+      "shapes": [
+        "central_fight",
+        "tenuki_risk"
+      ],
+      "local_tags": [
+        "攻防急所",
+        "胜负手区域"
+      ],
+      "key_points": [
+        "G10",
+        "N11",
+        "O11",
+        "N12"
+      ],
+      "group_status": [
+        "fighting",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边黑棋R12/R13/R14/Q15与白棋S13/S14/R15/S15/R16/S16/R17/T17构成庞大接触带，白棋M16最新一手强化此侧厚势，黑棋Q16/T16等子呈‘两翼张开’状。",
+      "shapes": [
+        "right_side_wall",
+        "white_thickening"
+      ],
+      "local_tags": [
+        "白棋厚势成型",
+        "黑棋试探性扩张"
+      ],
+      "key_points": [
+        "M16",
+        "Q16",
+        "R14",
+        "S15"
+      ],
+      "group_status": [
+        "white_dominant",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋J3/F8与白棋F3/E6/C7/C8形成低姿态对峙，黑棋J3孤子尚无明确联络，白棋C15一子深入，构成跨区域牵制。",
+      "shapes": [
+        "low_contact",
+        "white_penetration"
+      ],
+      "local_tags": [
+        "黑棋孤棋",
+        "白棋深入"
+      ],
+      "key_points": [
+        "J3",
+        "F3",
+        "C15",
+        "F8"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_active"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋D7/F8与白棋E9/N10形成斜向呼应，黑棋尚未连通，白棋N10与M11/L11构成‘三连星’式压迫，黑棋生存压力渐增。",
+      "shapes": [
+        "disconnected_group",
+        "white_pressure"
+      ],
+      "local_tags": [
+        "黑棋联络难",
+        "白棋施压"
+      ],
+      "key_points": [
+        "D7",
+        "F8",
+        "N10",
+        "M11"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_sente"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋T18/R18/Q18与白棋S19/R17/S18/T17构成收官前复杂劫材储备区，黑棋E17为预设打入点，尚未落子但战略指向明确。",
+      "shapes": [
+        "endgame_prep",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "预设打入",
+        "劫材富集"
+      ],
+      "key_points": [
+        "E17",
+        "T18",
+        "S19",
+        "R17"
+      ],
+      "group_status": [
+        "black_planning",
+        "white_prepared"
+      ]
+    }
+  ]
+}

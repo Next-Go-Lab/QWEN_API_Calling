@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_010",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 10,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C15"
+      },
+      {
+        "color": 0,
+        "point": "C13"
+      },
+      {
+        "color": 1,
+        "point": "E16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "D15"
+      },
+      {
+        "color": 0,
+        "point": "E15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "D16",
+      "D17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局定式",
+      "小目守角",
+      "挂角应对",
+      "边路争夺"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "黑棋双飞燕雏形",
+      "白棋拆二与夹击"
+    ],
+    "global_summary_cn": "对局第10手，黑方Son Makoto执黑先行，当前聚焦右上角（C13–E16区域）激烈接触战：黑占C15、D15、E16，白占C13、D16、E15、D17，形成典型小目挂角后夹击与反夹击结构；左下Q3与右上Q16为黑方两翼张开的高位配置，全局尚处布局早期，重心在边路势力构建。",
+    "phase_explanation": "布局阶段（前20手内），双方围绕右上角展开定式化交锋，未进入中盘战斗；黑棋试图扩张外势，白棋侧重实地与封锁；E14为关键急所，是黑方下一着理想的扳头或分断点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子，属高位预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "高位潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅白D17一子位于此区下缘，属白棋向上延伸试探。",
+      "shapes": [],
+      "local_tags": [
+        "单子延伸",
+        "试探"
+      ],
+      "key_points": [
+        "D17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：黑C15、D15、E16，白C13、D16、E15密集交错，呈‘双飞燕’前兆结构；E14为空点，为双方必争之眼位与分断要点。",
+      "shapes": [
+        "corner_fight",
+        "contact_group"
+      ],
+      "local_tags": [
+        "角部激战",
+        "夹击与反夹击",
+        "急所待落"
+      ],
+      "key_points": [
+        "C13",
+        "C15",
+        "D15",
+        "D16",
+        "E15",
+        "E16",
+        "E14"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子，连接左下黑Q3与中腹的过渡带。",
+      "shapes": [],
+      "local_tags": [
+        "空域",
+        "联络通道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有子进入，属未来中腹作战预备区。",
+      "shapes": [],
+      "local_tags": [
+        "中腹空域",
+        "远期战场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，唯黑Q16位于此区左上角，构成右上角与边线之间的高位呼应。",
+      "shapes": [],
+      "local_tags": [
+        "高位呼应",
+        "边角联动"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑Q3孤子立于小目位，已构成低位坚实据点，暂无邻近敌子，属安定根基。",
+      "shapes": [
+        "single_stone_base"
+      ],
+      "local_tags": [
+        "小目守角",
+        "低位根基",
+        "安定"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_group_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，远离当前焦点，属静默区域。",
+      "shapes": [],
+      "local_tags": [
+        "空域"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，无子，白D4位于左下角（属bottom_left区），本区完全空白。",
+      "shapes": [],
+      "local_tags": [
+        "空域"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

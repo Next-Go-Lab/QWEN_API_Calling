@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_026",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q18"
+      },
+      {
+        "color": 0,
+        "point": "S19"
+      },
+      {
+        "color": 1,
+        "point": "M4"
+      },
+      {
+        "color": 0,
+        "point": "N4"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "O5"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "P4",
+      "R4",
+      "N5",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "N4",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "O4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上白厚势辐射"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，黑棋在右下Q18至S19一带连续落子试图侵消白棋厚势，白棋以O5为支点构筑外势；左上D4、D16、J16形成白棋大模样雏形，黑棋Q15-Q18-R18构成攻击阵型；右下N3-N4-O5-M4-P4-R4形成复杂接触战，O4为双方争夺焦点。",
+    "phase_explanation": "第26手，黑方即将落子，局面处于中盘战斗高峰期，局部存在多个未定型战斗群，全局厚薄与实地平衡成为胜负关键。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D4、D16、J16构成左上大模样基础，黑棋无深入子力，属白势辐射区。",
+      "shapes": [
+        "corner_framework"
+      ],
+      "local_tags": [
+        "白厚势",
+        "模样雏形",
+        "空旷"
+      ],
+      "key_points": [
+        "D4",
+        "D16",
+        "J16"
+      ],
+      "group_status": [
+        "alive_influence"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q15-Q16-Q17-Q18-R18与白棋R15-R16-R17-S18-S19形成顶部激烈对峙，黑棋略占实地，白棋保持厚味。",
+      "shapes": [
+        "ladder_like",
+        "side_wall"
+      ],
+      "local_tags": [
+        "对攻前沿",
+        "厚薄对比",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "unstable",
+        "mutual_pressure"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S13-S14-R15-R16-R17-S18-S19连成厚壁，黑棋仅R12-S12-R13-R14零星抵抗，白势明显主导。",
+      "shapes": [
+        "wall",
+        "influence_zone"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "压迫感",
+        "黑棋薄弱"
+      ],
+      "key_points": [
+        "S13",
+        "S14",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19",
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "strong",
+        "dominant"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "全局最空旷区域，黑白均无子力，属潜在大场与中腹发展要地。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "空旷",
+        "中腹起点",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央暂无直接交战，但右下战斗气流延伸至此，O4目标点暗示未来中腹腾挪可能。",
+      "shapes": [
+        "potential_eye_shape",
+        "influence_radius"
+      ],
+      "local_tags": [
+        "气流辐射",
+        "战略枢纽",
+        "未显形"
+      ],
+      "key_points": [
+        "O4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑M4、白N3/N4/O5、黑N5/P4/R4构成右下核心战场，O4为紧邻劫争/联络要点，局部呈‘刀把五’式复杂结构。",
+      "shapes": [
+        "knife_five",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防转换点",
+        "O4敏感位"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "N4",
+        "O5",
+        "N5",
+        "P4",
+        "R4",
+        "O4"
+      ],
+      "group_status": [
+        "fighting",
+        "life_death_unclear"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全盘唯一完全空旷角落，无任何棋子，属典型后半盘大场。",
+      "shapes": [
+        "empty_corner"
+      ],
+      "local_tags": [
+        "空角",
+        "终局价值",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下方中央地带空旷，但受右下战斗牵制，未来可能成为黑棋腾挪或白棋封锁通道。",
+      "shapes": [
+        "corridor",
+        "potential_extension"
+      ],
+      "local_tags": [
+        "牵制区",
+        "延伸路径",
+        "隐性关联"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R4、白O5/N4/N3等子力密集，已形成局部死活问题；黑棋P4、R4与白O5构成‘三三点’附近攻防链，是当前最紧迫战场。",
+      "shapes": [
+        "three_three_adjacent",
+        "fighting_chain"
+      ],
+      "local_tags": [
+        "死活焦点",
+        "紧气对杀",
+        "先手价值高"
+      ],
+      "key_points": [
+        "R4",
+        "P4",
+        "O5",
+        "N4",
+        "N3",
+        "N5"
+      ],
+      "group_status": [
+        "critical",
+        "life_death_imminent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_024",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 24,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R18"
+      },
+      {
+        "color": 0,
+        "point": "S18"
+      },
+      {
+        "color": 1,
+        "point": "Q18"
+      },
+      {
+        "color": 0,
+        "point": "S19"
+      },
+      {
+        "color": 1,
+        "point": "M4"
+      },
+      {
+        "color": 0,
+        "point": "N4"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "N4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角激战",
+      "白棋厚势",
+      "黑棋侵消",
+      "中腹未定"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "下边黑棋拆二潜力",
+      "N5点三三试探"
+    ],
+    "global_summary_cn": "局面进入中盘早期，右上角形成复杂攻防，黑白在S18-S19-R17-R16一线连续落子，白棋构筑厚壁但略显凝重；黑棋M4-P4-R4一串占据下边，意图向中腹发展；N5为当前关键侵分点，关系到中央势力平衡。",
+    "phase_explanation": "第24手，黑方即将在N5点三三，试探白棋右上厚势的弹性，全局处于战略试探与实地扩张并存阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅D4、D16两颗白子遥相呼应，无直接接触，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在大场"
+      ],
+      "key_points": [
+        "D4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "J16为白孤子，附近无配合，黑棋暂未压迫，属缓急待定区域。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "轻灵"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈角部战场：黑Q15-Q16-Q17-Q18-R18，白R15-R16-R17-S18-S19-S13-S14形成缠斗，白壁厚但有断点，黑棋深入且富弹性。",
+      "shapes": [
+        "corner_fight",
+        "white_wall",
+        "black_invasion"
+      ],
+      "local_tags": [
+        "角部攻防",
+        "厚薄对比",
+        "气紧"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "white_group_s13_s14_s18_s19_connected",
+        "black_group_q15_q16_q17_q18_r18_connected"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧空旷，仅黑R12-S12-R13-R14构成小阵势雏形，尚未成形，白无子侵入。",
+      "shapes": [
+        "small_framework"
+      ],
+      "local_tags": [
+        "雏形",
+        "未定型"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "black_group_r12_s12_r13_r14_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何子力，是未来势力辐射与打入焦点。",
+      "shapes": [],
+      "local_tags": [
+        "真空",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "N3-N4-M4-P4-R4一线构成黑棋下边主干，白N3、N4与黑M4、P4、R4对峙，N5为双方必争之眼位/侵分点。",
+      "shapes": [
+        "side_framework",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "下边阵势",
+        "点三三候选",
+        "攻防前沿"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "N4",
+        "P4",
+        "R4",
+        "N5"
+      ],
+      "group_status": [
+        "black_group_m4_p4_r4_connected",
+        "white_group_n3_n4_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无子，属典型后半盘大场，当前无关紧要。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "远期价值"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无子，与中腹连通性强，未来可能成为大模样根基。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "连接中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "全空，仅右下角空旷，无子力分布，暂无战术意义。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "低优先级"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

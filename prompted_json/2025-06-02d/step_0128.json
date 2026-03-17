@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_127",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 127,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "D14"
+      },
+      {
+        "color": 1,
+        "point": "S14"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "K6"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      },
+      {
+        "color": 1,
+        "point": "N18"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "N18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "L16",
+      "O16",
+      "L17",
+      "P17",
+      "O18"
+    ]
+  },
+  "targets": {
+    "policy_target": "L18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "white_advantage"
+    ],
+    "strategic_focus": [
+      "top_side_invasion_resolution",
+      "right_side_life_and_death",
+      "center_influence_vs_territory_balance"
+    ],
+    "global_summary_cn": "白方在右上与中腹占据主动，黑棋N18一子虽强化上边但未能扭转实地劣势；全局进入收官阶段，白棋凭借厚势与先手优势逐步扩大胜势。",
+    "phase_explanation": "第127手为黑方N18，属上边局部定型收束；白方握有先手，近期连续在J6/K6/O18/N18施压，已控制右上大空及中腹外势，黑棋缺乏有效反击手段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [
+        "corner_enclosure",
+        "light_contact"
+      ],
+      "local_tags": [
+        "settled",
+        "low_tension"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段呈对峙态势，黑棋O18、N18与白棋O18形成纠缠，但白已抢先补强。",
+      "shapes": [
+        "side_wall",
+        "edge_pressure"
+      ],
+      "local_tags": [
+        "recent_action",
+        "white_sente"
+      ],
+      "key_points": [
+        "N18",
+        "O18",
+        "S14",
+        "R14"
+      ],
+      "group_status": [
+        "black_weak_eye_space",
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋Q16-R16-P17-O17等构成坚实外势，黑棋R10-S13等呈薄味，存在被攻风险。",
+      "shapes": [
+        "moyo_outline",
+        "floating_group"
+      ],
+      "local_tags": [
+        "white_influence",
+        "black_vulnerable"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P17",
+        "O18",
+        "S13",
+        "R13"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_uncertain_life"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋C9-D11-E10等形成小块，白棋E11-G11-D12等围逼，尚未净活。",
+      "shapes": [
+        "central_island",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "life_and_death_pending",
+        "white_pressure"
+      ],
+      "key_points": [
+        "C9",
+        "D11",
+        "E10",
+        "E11",
+        "D12"
+      ],
+      "group_status": [
+        "black_needs_liberties",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央由黑白交错石块构成复杂接触战，黑K11-L10-M16与白G10-H10-N12等互不相让，但白棋更富弹性。",
+      "shapes": [
+        "crossroads",
+        "mutual_influence"
+      ],
+      "local_tags": [
+        "influence_battle",
+        "balanced_tension"
+      ],
+      "key_points": [
+        "K11",
+        "L10",
+        "M16",
+        "G10",
+        "H10",
+        "N12"
+      ],
+      "group_status": [
+        "both_unsettled",
+        "white_slightly_flexible"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋N9-O9-Q9与白棋O10-Q10-P12等形成典型攻防结构，白棋掌握主动权。",
+      "shapes": [
+        "ladder_shape",
+        "side_attack"
+      ],
+      "local_tags": [
+        "white_attacking",
+        "black_defensive"
+      ],
+      "key_points": [
+        "N9",
+        "O9",
+        "Q9",
+        "O10",
+        "Q10",
+        "P12"
+      ],
+      "group_status": [
+        "black_under_pressure",
+        "white_controlling"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B13-C7-D4与白棋C3-C4-D3-E3形成经典低中国流对抗，黑棋实地稍优但欠厚。",
+      "shapes": [
+        "corner_territory",
+        "low_extension"
+      ],
+      "local_tags": [
+        "black_territorial",
+        "white_light"
+      ],
+      "key_points": [
+        "B13",
+        "C7",
+        "D4",
+        "C3",
+        "D3"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_compensating"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋F3-J3-K4与白棋H2-H3-H4-F6等形成宽广接触带，黑棋略显单薄。",
+      "shapes": [
+        "side_framework",
+        "scattered_stones"
+      ],
+      "local_tags": [
+        "black_fragile",
+        "white_connected"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "K4",
+        "H2",
+        "H4",
+        "F6"
+      ],
+      "group_status": [
+        "black_needs_connection",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋R5-Q4-P4与黑棋P3-Q6-R6形成典型角部攻防，白棋已确立根据地。",
+      "shapes": [
+        "corner_living",
+        "secure_base"
+      ],
+      "local_tags": [
+        "white_alive",
+        "black_overextended"
+      ],
+      "key_points": [
+        "R5",
+        "Q4",
+        "P4",
+        "P3",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "white_fully_living",
+        "black_no_threat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_230",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 230,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "F10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "J9"
+      },
+      {
+        "color": 0,
+        "point": "J8"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "H2"
+      },
+      {
+        "color": 1,
+        "point": "G2"
+      },
+      {
+        "color": 0,
+        "point": "F10"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "J9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑稍优",
+      "实地与外势平衡"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上角残子处理"
+    ],
+    "global_summary_cn": "全局进入收官尾声，黑棋以微弱优势领先（B+0.5），当前第230手，黑方即将落子。右下角（F10附近）为最近激战区域，白刚于F10补棋；黑在左上、中腹及右上拥有厚势，白则在左下、中腹偏右及右下构筑多块实地。全盘无明显死活危机，但多处边界需精确收束。",
+    "phase_explanation": "终局阶段（Endgame），双方围绕边角余味与单官进行精细化争夺，胜负差仅0.5目，每手价值极高。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋厚势成形，白C4-D4-E4一线实地稳固但气紧；黑B1-C1-D1-E1-F1连片，对白B2-B3施加压力。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "压迫",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "C1",
+        "B2",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_semi_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑J16-Q16连贯大飞守角，白K16-L16反夹未果；黑S16-R16与右上呼应，形成宽厚外势。",
+      "shapes": [
+        "large_fly",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "外势",
+        "守角",
+        "呼应"
+      ],
+      "key_points": [
+        "J16",
+        "K16",
+        "Q16",
+        "S16"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R19-S17-Q17等子构成高效率势力网，白K19-M19局部安定但欠厚；黑P16-Q16-R16封锁白出路。",
+      "shapes": [
+        "influence_net",
+        "blockade"
+      ],
+      "local_tags": [
+        "势力网",
+        "封锁",
+        "轻灵"
+      ],
+      "key_points": [
+        "R19",
+        "Q17",
+        "P16",
+        "S17"
+      ],
+      "group_status": [
+        "black_influencing",
+        "white_living"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D13-G13-J12-L12等子呈斜跳阵型，白C13-H13形成对峙；黑E14-F14与下方黑阵联动紧密。",
+      "shapes": [
+        "diagonal_chain",
+        "connection"
+      ],
+      "local_tags": [
+        "中腹联络",
+        "对峙",
+        "弹性"
+      ],
+      "key_points": [
+        "D13",
+        "G13",
+        "J12",
+        "E14"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_separated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带黑G9-J9-L9-N9与白H9-K9-M9-O9交错，形成典型‘十字’对攻结构；黑E11刚打入，白F10为应手，此处为当前焦点。",
+      "shapes": [
+        "cross_fight",
+        "invasion_response"
+      ],
+      "local_tags": [
+        "对攻",
+        "打入",
+        "应手"
+      ],
+      "key_points": [
+        "E11",
+        "F10",
+        "G9",
+        "J9"
+      ],
+      "group_status": [
+        "unclear",
+        "tension_high"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L11-M11-N11与白M12-N12-P12形成薄厚对比；黑Q10-R11与下方黑阵贯通，白K10-H10略显孤立。",
+      "shapes": [
+        "thickness_vs_thinness",
+        "connection"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "贯通",
+        "孤棋"
+      ],
+      "key_points": [
+        "Q10",
+        "K10",
+        "L11",
+        "M12"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角白A4-B4-C4-D4-E4连片实地，黑C1-F2-G2-K2等子在外围施压；白H2刚落子，黑G2已回应，局部趋于定型。",
+      "shapes": [
+        "solid_territory",
+        "peripheral_pressure"
+      ],
+      "local_tags": [
+        "实地",
+        "外围压迫",
+        "定型"
+      ],
+      "key_points": [
+        "A4",
+        "H2",
+        "G2",
+        "K2"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_pressuring"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F3-G2-G3-G5-H5与白E2-H2-J2形成犬牙交错；黑F6-R6长龙横贯，白E6-G6-H6试图分断未果。",
+      "shapes": [
+        "long_chain",
+        "interlocking"
+      ],
+      "local_tags": [
+        "长龙",
+        "交错",
+        "未断"
+      ],
+      "key_points": [
+        "F3",
+        "G2",
+        "F6",
+        "E6"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：白F10为最新一手，黑E11、J9、J8、H2等子构成包围网；白H2-J2-J3-K2等子虽活但眼位勉强，黑有后续搜根手段。",
+      "shapes": [
+        "surrounding_net",
+        "endgame_fight"
+      ],
+      "local_tags": [
+        "收官激战",
+        "包围网",
+        "搜根潜力"
+      ],
+      "key_points": [
+        "F10",
+        "E11",
+        "J9",
+        "H2"
+      ],
+      "group_status": [
+        "white_vulnerable",
+        "black_dominant"
+      ]
+    }
+  ]
+}

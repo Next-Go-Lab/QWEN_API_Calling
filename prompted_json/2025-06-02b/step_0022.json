@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_021",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 21,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q18"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "N3"
+      },
+      {
+        "color": 1,
+        "point": "R18"
+      },
+      {
+        "color": 0,
+        "point": "S18"
+      },
+      {
+        "color": 1,
+        "point": "Q18"
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18"
+    ]
+  },
+  "targets": {
+    "policy_target": "S19"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋右上薄味",
+      "黑棋中央厚势初成"
+    ],
+    "strategic_focus": [
+      "右上攻防",
+      "左下定式后续",
+      "中央势力联动"
+    ],
+    "global_summary_cn": "第21手，黑方刚于Q18落子，形成右上角复杂对杀局面；白棋S18、R17、R15等子呈斜向联络但气紧，黑棋Q15-Q18-R18构成厚壁，压迫白右上；左下N3一子孤悬，白棋试图开辟新战场；全局进入中盘关键转换期。",
+    "phase_explanation": "当前为中盘早期，双方在右上集中投入兵力，局部存在未净活/未净杀状态；黑棋掌握主动，白棋需在右上治孤或转战他处。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16、J16为白棋孤立高点，缺乏联络，暂无明显战斗。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "高位试探"
+      ],
+      "key_points": [
+        "D16",
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈对杀区：黑Q15-Q16-Q17-Q18-R18与白R15-R16-R17-S13-S14-S18形成缠斗，白棋右上大块气紧且眼位不足，黑棋厚势压迫明显。",
+      "shapes": [
+        "ladder",
+        "net",
+        "sacrifice_feel"
+      ],
+      "local_tags": [
+        "对杀",
+        "厚薄对比",
+        "气紧",
+        "潜在打劫"
+      ],
+      "key_points": [
+        "Q15",
+        "Q18",
+        "R15",
+        "S18"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "P4、R4为黑棋低位双飞燕雏形，呼应左下N3白子，可能引发下方定式延伸。",
+      "shapes": [
+        "double_flying_swan"
+      ],
+      "local_tags": [
+        "布局余味",
+        "低位配置"
+      ],
+      "key_points": [
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "black_flexible"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，但黑棋Q16-Q17-R18构成向上辐射的厚势，影响力覆盖中腹。",
+      "shapes": [],
+      "local_tags": [
+        "厚势辐射",
+        "中腹潜力"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17"
+      ],
+      "group_status": [
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "R12-S12-R13-R14为黑棋右中腹小堡垒，与右上厚壁衔接，构成坚实外势基础。",
+      "shapes": [
+        "wall_base"
+      ],
+      "local_tags": [
+        "外势基底",
+        "联络良好"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14"
+      ],
+      "group_status": [
+        "black_connected",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "N3为白棋单官跳入，位置偏僻，暂无配合，属试探性打入。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "试探",
+        "待攻击"
+      ],
+      "key_points": [
+        "N3"
+      ],
+      "group_status": [
+        "white_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "D4为白棋守角一子，与N3遥相呼应，但中间空虚，尚未形成有效联动。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "守角",
+        "孤立守角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_local_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "空旷，仅黑P4、R4位于此区边缘，尚未深入，属未来扩展方向。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在发展"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_218",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 218,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K17"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K14"
+      },
+      {
+        "color": 0,
+        "point": "J13"
+      },
+      {
+        "color": 1,
+        "point": "K13"
+      },
+      {
+        "color": 0,
+        "point": "J12"
+      },
+      {
+        "color": 1,
+        "point": "J11"
+      },
+      {
+        "color": 0,
+        "point": "K17"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "J18"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_group_life",
+      "top_right_eye_space",
+      "center_influence_vs_territory"
+    ],
+    "global_summary_cn": "对局进入收官阶段，黑棋领先3.5目。右上角白棋K17一子刚落，意在搅乱黑棋J11–K13–J13–J12构成的潜在眼形；黑方下一招J18为典型补棋兼压缩白空之选。全盘多处存在未净活棋形，尤以右上、中腹及左下三处为生死焦点。",
+    "phase_explanation": "Move 218属官子阶段后期，双方围绕剩余大场与死活点展开精确计算；白方刚于K17施加劫材压力，黑方需判断是否消劫或转战他处。全局实地已基本划定，胜负系于几处细微出入。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋A1–C3连片厚势，白棋A6–C7小块孤棋尚未安定，存在被搜刮可能。",
+      "shapes": [
+        "corner_enclosure",
+        "black_thickness"
+      ],
+      "local_tags": [
+        "potential_attack_target",
+        "white_weak_group"
+      ],
+      "key_points": [
+        "A6",
+        "B7",
+        "C6"
+      ],
+      "group_status": [
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋H1–J3与白棋J2–D4形成交错，黑F3–G3–G4一线有断点隐患，但白亦无强攻手段。",
+      "shapes": [
+        "side_framework",
+        "light_fighting"
+      ],
+      "local_tags": [
+        "low_priority",
+        "stable_balance"
+      ],
+      "key_points": [
+        "F3",
+        "J2",
+        "D4"
+      ],
+      "group_status": [
+        "both_stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈对杀：黑J11–K13–J13–J12围住白J10–K10–L10–K17等子，白K17为最新劫材，黑J18为最佳应手。",
+      "shapes": [
+        "life_and_death",
+        "ko_battle"
+      ],
+      "local_tags": [
+        "critical",
+        "immediate_threat",
+        "eye_shape_deficit"
+      ],
+      "key_points": [
+        "J11",
+        "K13",
+        "J13",
+        "J12",
+        "K17",
+        "J18"
+      ],
+      "group_status": [
+        "white_in_atari_risk",
+        "black_needs_to_answer"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B5–D5–C6与白A6–C7–F7形成对峙，黑E5空缺，白可伺机打入，但当前非急所。",
+      "shapes": [
+        "central_influence",
+        "light_contact"
+      ],
+      "local_tags": [
+        "latent_invasion_point",
+        "quiet"
+      ],
+      "key_points": [
+        "E5",
+        "C6",
+        "F7"
+      ],
+      "group_status": [
+        "both_secure"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑L7–M9–O10与白L8–N8–N9–O9构成复杂缠斗，黑Q11–P11–O11具外势，白N11–T11成薄味，此处为潜在转换区。",
+      "shapes": [
+        "central_fighting",
+        "influence_vs_thickness"
+      ],
+      "local_tags": [
+        "strategic_flexibility",
+        "potential_sacrifice"
+      ],
+      "key_points": [
+        "L7",
+        "M9",
+        "O10",
+        "N11",
+        "Q11"
+      ],
+      "group_status": [
+        "unclear_life_status"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K14–L13–O13与白J14–J13–K16–O16形成大模样对抗，黑实空稍优，白K17落子后此区域张力陡增。",
+      "shapes": [
+        "territory_contest",
+        "border_tension"
+      ],
+      "local_tags": [
+        "high_pressure",
+        "recent_action_zone"
+      ],
+      "key_points": [
+        "K14",
+        "J13",
+        "K17",
+        "O16"
+      ],
+      "group_status": [
+        "black_leading",
+        "white_urgent"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A3–C4–B5与白A7–B7–C7形成经典低位定式余味，黑D5–E6封锁，白暂无明显破绽。",
+      "shapes": [
+        "corner_settled",
+        "low_side_framework"
+      ],
+      "local_tags": [
+        "completed",
+        "low_value"
+      ],
+      "key_points": [
+        "A3",
+        "C4",
+        "D5"
+      ],
+      "group_status": [
+        "both_alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F12–G12–F15与白E12–E13–F14–J15形成宽广接触，黑R12–S13厚势压制，白仅存微弱活动空间。",
+      "shapes": [
+        "side_territory",
+        "black_domination"
+      ],
+      "local_tags": [
+        "black_secure",
+        "white_squeezed"
+      ],
+      "key_points": [
+        "F12",
+        "G12",
+        "E13",
+        "J15"
+      ],
+      "group_status": [
+        "black_firm",
+        "white_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q16–R16–S15与白O17–Q17–R17形成细棋收束，黑P15–P16–Q16构成坚实外势，白R17为勉强做眼一子。",
+      "shapes": [
+        "endgame_detail",
+        "small_eye_shape"
+      ],
+      "local_tags": [
+        "final_counting",
+        "minimal_margin"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "O17",
+        "R17"
+      ],
+      "group_status": [
+        "both_sealed"
+      ]
+    }
+  ]
+}

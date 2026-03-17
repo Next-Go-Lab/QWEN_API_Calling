@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_214",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 214,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E2"
+      },
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "E2",
+      "G2",
+      "J2",
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "T12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "K1",
+      "C2",
+      "D2",
+      "L2",
+      "P2",
+      "D3",
+      "E3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "C4",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "N9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "Q14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "G3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑棋优势",
+      "实地优先"
+    ],
+    "strategic_focus": [
+      "右下角收官",
+      "中腹厚势转化",
+      "左上角劫争余味",
+      "E3附近对杀未定"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋凭借厚势与实地积累保持微弱优势（B+R），当前焦点集中于右下角小官子争夺及E3周边白棋残子的生死判定；中腹黑棋厚势尚未完全转化为实地，存在潜在借用。",
+    "phase_explanation": "第214手，黑方行棋，属终局前精细官子阶段。双方在多个边角持续交换小利，无大规模攻防，但E3白子与E2、D2、F4等构成局部对杀悬念，成为下一回合关键点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋C17、B17、A10等构成厚壁，黑棋C19、B12形成低位势力，存在浅消余味。",
+      "shapes": [
+        "corner_enclosure",
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑低位拆二",
+        "浅消可能"
+      ],
+      "key_points": [
+        "C17",
+        "B17",
+        "C19",
+        "B12"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q16、Q15、P14与白棋R15、S15形成交错，黑棋略占实地，白棋有S14、S16等外势呼应。",
+      "shapes": [
+        "side_influence",
+        "territorial_border"
+      ],
+      "local_tags": [
+        "黑实空主导",
+        "白外势牵制",
+        "边界模糊"
+      ],
+      "key_points": [
+        "Q16",
+        "Q15",
+        "R15",
+        "S15",
+        "S14"
+      ],
+      "group_status": [
+        "alive",
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑F16、H16、Q16与白G16、J16、M16形成大模样对峙，黑棋厚势明显，白棋尝试侵消未果，已趋平稳。",
+      "shapes": [
+        "moyo",
+        "invasion_resisted"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白浅消失败",
+        "定型完成"
+      ],
+      "key_points": [
+        "F16",
+        "H16",
+        "G16",
+        "J16"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D7、F7、G7与白棋C7、E7、H7形成复杂接触战余波，黑棋K10-L10-M10一线厚势压制白棋C10、E11等孤子。",
+      "shapes": [
+        "contact_fight_residual",
+        "thickness_pressure"
+      ],
+      "local_tags": [
+        "黑厚势压迫",
+        "白孤棋待补",
+        "轻重未明"
+      ],
+      "key_points": [
+        "D7",
+        "F7",
+        "C7",
+        "E7",
+        "K10"
+      ],
+      "group_status": [
+        "alive",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域黑棋F10-G10-H10-K10与白棋E11、L11、M11形成大范围势力平衡，无明确活形，属典型厚势对峙区。",
+      "shapes": [
+        "central_thickness",
+        "balance_zone"
+      ],
+      "local_tags": [
+        "双厚势对峙",
+        "无眼活形",
+        "转换枢纽"
+      ],
+      "key_points": [
+        "F10",
+        "H10",
+        "E11",
+        "L11"
+      ],
+      "group_status": [
+        "influencing",
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O10-P10-Q10与白棋N10、Q9、P9构成实地争夺带，黑棋稍优，白棋Q8、Q7存有先手搜刮机会。",
+      "shapes": [
+        "territorial_contest",
+        "sente_opportunity"
+      ],
+      "local_tags": [
+        "黑实地领先",
+        "白搜刮余味",
+        "小官子密集"
+      ],
+      "key_points": [
+        "O10",
+        "Q10",
+        "N10",
+        "Q9",
+        "Q7"
+      ],
+      "group_status": [
+        "alive",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B2-C3-B4与白C2-D2-D3-E3形成激烈对杀焦点，黑E2、C3、D2紧气，白E3为最后一气，濒临被吃。",
+      "shapes": [
+        "life_death",
+        "semeai"
+      ],
+      "local_tags": [
+        "紧要对杀",
+        "白一气之差",
+        "黑胜势关键"
+      ],
+      "key_points": [
+        "E2",
+        "D2",
+        "E3",
+        "C3",
+        "B4"
+      ],
+      "group_status": [
+        "critical_semeai",
+        "white_dying"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F4-F5-F6与白E3-F3-G4形成三角对峙，黑棋F4、G5、H5厚势包围白E3残子，局部已成黑必得。",
+      "shapes": [
+        "encirclement",
+        "captured_group_imminent"
+      ],
+      "local_tags": [
+        "黑围歼在即",
+        "白E3将亡",
+        "连贯厚势"
+      ],
+      "key_points": [
+        "F4",
+        "E3",
+        "F3",
+        "G4",
+        "G5"
+      ],
+      "group_status": [
+        "black_winning",
+        "white_dead_soon"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q2-R4-S6与白P2-R6-Q7形成典型收官战场，黑棋占据多数目，白棋R6、Q7仅存零碎官子，大局已定。",
+      "shapes": [
+        "endgame",
+        "territorial_closure"
+      ],
+      "local_tags": [
+        "黑实空锁定",
+        "白仅余单官",
+        "终局收束"
+      ],
+      "key_points": [
+        "Q2",
+        "R4",
+        "S6",
+        "R6",
+        "Q7"
+      ],
+      "group_status": [
+        "alive",
+        "settled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_035",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 35,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C9"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C6"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      },
+      {
+        "color": 0,
+        "point": "B16"
+      },
+      {
+        "color": 1,
+        "point": "B15"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "L4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角定式后续",
+      "中腹潜力争夺",
+      "左下黑棋孤棋治孤"
+    ],
+    "global_summary_cn": "第35手，黑方刚于B15落子，形成右上角复杂攻防；白棋在D16、E15等处构筑厚势，黑棋Q3、R6等子试探右下；左下C6白子与C9、C10构成联络雏形，黑棋C11-D11-D13-E14一线试图扩张；全局呈现黑取实地、白取外势的典型格局。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，尚未进入官子，胜负关键在于中腹潜力归属与孤棋处理效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑M17-O17、白N18-P18形成小规模对峙，无激烈战斗。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未定型"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑P17-Q16-R16、白Q17-R17构成上边阵势，黑O17-P17与白P18-Q17形成薄厚对比，黑棋稍显单薄。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "边阵",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "Q17",
+        "R17"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑B15-C15-D15-E16与白B16-D16-E15-F15-G15-H15形成大规模缠斗，黑棋深入白阵，白棋围剿意图明显。",
+      "shapes": [
+        "ladder",
+        "net"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "大龙对杀预备"
+      ],
+      "key_points": [
+        "B15",
+        "B16",
+        "D16",
+        "E15"
+      ],
+      "group_status": [
+        "black_invading",
+        "white_surrounding"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C11-D11-D13-E14-F14与白C10-C13构成上下呼应，黑棋试图连络C9方向，但C9为白子，存在断点风险。",
+      "shapes": [
+        "chain",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "联络未稳",
+        "断点隐忧"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "C10",
+        "C13"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_flexible"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅黑D10孤立一子，白无子，是未来势力扩展与打入要点。",
+      "shapes": [],
+      "local_tags": [
+        "中枢真空",
+        "战略要冲"
+      ],
+      "key_points": [
+        "D10"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R6与白R6同点？校验：R6为黑子（state.black_stones），白无临近子；该处黑子孤悬，但与Q3遥相呼应，构成跨区域牵制。",
+      "shapes": [
+        "jump"
+      ],
+      "local_tags": [
+        "飞挂延伸",
+        "远距离呼应"
+      ],
+      "key_points": [
+        "R6",
+        "Q3"
+      ],
+      "group_status": [
+        "black_distant_support"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑C6为空？校验：C6在white_stones中，为白子；白C6-C9-C10构成斜线联络，黑无子，属白优势区域。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "白棋根基",
+        "黑方未侵入"
+      ],
+      "key_points": [
+        "C6",
+        "C9",
+        "C10"
+      ],
+      "group_status": [
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，黑Q3为唯一子，位置偏高，暂未构成实地，属待发展区域。",
+      "shapes": [],
+      "local_tags": [
+        "单子试应手",
+        "低位潜力"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "black_probing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，无任何棋子，为全盘最空旷区域，可能成为后期大场或打入点。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "终盘大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

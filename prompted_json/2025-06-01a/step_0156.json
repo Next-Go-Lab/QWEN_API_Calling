@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_155",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 155,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N15"
+      },
+      {
+        "color": 1,
+        "point": "L14"
+      },
+      {
+        "color": 0,
+        "point": "P15"
+      },
+      {
+        "color": 1,
+        "point": "Q15"
+      },
+      {
+        "color": 0,
+        "point": "O15"
+      },
+      {
+        "color": 1,
+        "point": "L16"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "L14",
+      "O14",
+      "P14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "B18",
+      "D18",
+      "M18"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "O11",
+      "P11",
+      "Q12",
+      "C13",
+      "O13",
+      "P13",
+      "N14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "E18",
+      "J18",
+      "L18",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "M13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_solved"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's center influence",
+      "finalizing black's upper side moyo"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先微弱，双方在右下角、中腹及上边展开细致官子争夺；黑棋刚于L16落子，白棋上一手O15意在压缩黑棋上边潜力，当前焦点为M13这一关键官子点。",
+    "phase_explanation": "第155手，黑方行棋，局面已无大规模战斗，属典型细棋收束阶段；胜负差仅0.5目，每处单官与双官价值凸显，M13是连接黑棋上边与中腹的要点，兼具先手与实利双重意义。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑白各守一隅，黑C2-C3-D3-D5-E5-F5-G5与白B3-C4-D4-E4形成平稳对峙，无攻防焦点。",
+      "shapes": [
+        "corner_enclosure",
+        "balanced_territory"
+      ],
+      "local_tags": [
+        "settled",
+        "low_tension"
+      ],
+      "key_points": [
+        "C2",
+        "B3",
+        "D4"
+      ],
+      "group_status": [
+        "alive",
+        "independent"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑棋K2-L3-K3-J4-J5-N5-O5-P5-Q3-Q5-R4-R5与白J2-J3-K4-K5-M5-Q4-Q5形成宽厚势力对峙，黑棋略占优但未完全围空。",
+      "shapes": [
+        "side_moyo",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "semi_firmed",
+        "potential_invasion_point_at_M7"
+      ],
+      "key_points": [
+        "J4",
+        "K5",
+        "N5",
+        "Q5"
+      ],
+      "group_status": [
+        "strong",
+        "not_fully_enclosed"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R2-Q2-Q3-R3-R4-R5-S7-S8与白R3-Q4-Q5-P6-R7-R8形成复杂边界，黑棋S7-S8与白R7-R8构成细微对杀余味，但大局已稳。",
+      "shapes": [
+        "corner_fighting_residual",
+        "edge_stability"
+      ],
+      "local_tags": [
+        "near_settled",
+        "last_liberty_check_needed_at_S6"
+      ],
+      "key_points": [
+        "R2",
+        "Q3",
+        "S7",
+        "R8"
+      ],
+      "group_status": [
+        "alive_with_trouble",
+        "no_immediate_capture"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑D10-D11-C11-C13-D13-E14-F14与白C9-C10-C13-O13-P13形成上下拉锯，黑棋D11-C11-D10构成小堡垒，白棋C13为孤子但有联络余地。",
+      "shapes": [
+        "central_outpost",
+        "isolated_group_under_pressure"
+      ],
+      "local_tags": [
+        "black_influence_dominant",
+        "white_group_vulnerable"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "C13",
+        "E14"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，黑M6-N7-O7-P7与白N6-P6-Q6-H6-G6-J6等呈星罗棋布状，尚未形成明确归属；M13为当前最高效官子，关系黑棋中腹连络与实地扩张。",
+      "shapes": [
+        "neutral_zone",
+        "key_intersection"
+      ],
+      "local_tags": [
+        "decisive_point",
+        "first_move_priority"
+      ],
+      "key_points": [
+        "M13",
+        "N7",
+        "P6",
+        "H6"
+      ],
+      "group_status": [
+        "no_living_groups",
+        "all_groups_connected_or_distant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K15-L14-L16-Q15-Q16-R16-S16与白N15-O15-P15-K16-F16-D16构成密集收官带，L16刚落，白O15/P15/Q15连续应对，此处为全盘最大官子集群。",
+      "shapes": [
+        "dense_counting_zone",
+        "multi_step_sequence"
+      ],
+      "local_tags": [
+        "high_value_endgame",
+        "mutual_sente"
+      ],
+      "key_points": [
+        "L16",
+        "O15",
+        "P15",
+        "Q15",
+        "K16"
+      ],
+      "group_status": [
+        "all_groups_alive",
+        "territory_boundary_precise"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B15-C15-D15-B16-C16与白B17-C17-D17构成经典‘七死八活’残局变体，黑棋已净活，白棋B17-C17为凝形但无威胁。",
+      "shapes": [
+        "corner_life_proof",
+        "static_territory"
+      ],
+      "local_tags": [
+        "fully_secured",
+        "no_further_play_needed"
+      ],
+      "key_points": [
+        "B15",
+        "C15",
+        "B17",
+        "C17"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_dead_or_irrelevant"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边黑E1-E2-F2-C3-D3-F3-G5与白D2-E2-E3-J3构成漫长边线，黑棋F2-G5一线厚实，白棋J3孤立，整体黑势稍厚。",
+      "shapes": [
+        "side_thickness",
+        "scattered_stones"
+      ],
+      "local_tags": [
+        "black_advantage",
+        "white_compensation_lacking"
+      ],
+      "key_points": [
+        "E1",
+        "F2",
+        "G5",
+        "J3"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_fragmented"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P2-Q2-R2-R3-R4-R5-R6-Q7-S7-S8与白Q4-Q5-P6-R7-R8-S9构成典型大模样收官区，黑棋R6-Q7-S7-S8已成活形，白棋R7-R8-S9勉强做活但目数亏损，此区黑胜定。",
+      "shapes": [
+        "corner_domination",
+        "endgame_conversion"
+      ],
+      "local_tags": [
+        "black_territory_finalized",
+        "white_minimal_survival"
+      ],
+      "key_points": [
+        "R2",
+        "R6",
+        "Q7",
+        "S7",
+        "S9"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive_but_small"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_185",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 185,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "K8"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "J6"
+      },
+      {
+        "color": 1,
+        "point": "H5"
+      },
+      {
+        "color": 0,
+        "point": "G4"
+      },
+      {
+        "color": 1,
+        "point": "J5"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "S17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "T18",
+      "C19"
+    ],
+    "white_stones": [
+      "L2",
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "J6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "Q9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "P6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "实地争夺",
+      "中央对攻余波"
+    ],
+    "strategic_focus": [
+      "右下角白空未净",
+      "中腹黑厚势待转化",
+      "左上角双活未定"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑方领先但右下白棋尚有劫争潜力；中腹黑棋厚势包围白孤子，但缺乏明确杀招；左上角存在双活可能，需谨慎处理。",
+    "phase_explanation": "第185手为黑方在J5粘劫，白方刚于K8、J6等处试应手，局面处于终局前最后几处未定型区域的争夺中。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角C17–C19、B17–B18白子与C17–C19、B17黑子形成纠缠，存在双活或劫争可能。",
+      "shapes": [
+        "corner_eye_shape"
+      ],
+      "local_tags": [
+        "双活雏形",
+        "角部劫材储备"
+      ],
+      "key_points": [
+        "C17",
+        "B17",
+        "C19"
+      ],
+      "group_status": [
+        "uncertain_life"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边Q16–S18一带黑厚势连贯，白棋Q15、R15、S15等子孤立但有做活余地。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "厚势压迫",
+        "白弱棋待治"
+      ],
+      "key_points": [
+        "Q16",
+        "R15",
+        "S17"
+      ],
+      "group_status": [
+        "weak_group"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角T16–S19白棋成空，但黑Q18、R18侵消，白空不坚实。",
+      "shapes": [
+        "territory_with_invasion"
+      ],
+      "local_tags": [
+        "实空不足",
+        "侵消有效"
+      ],
+      "key_points": [
+        "T16",
+        "S19",
+        "Q18"
+      ],
+      "group_status": [
+        "reduced_territory"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧D12–D13、C12–C13黑棋与B12–B13白棋对峙，黑有拆二潜力，白守角略显单薄。",
+      "shapes": [
+        "side_fight"
+      ],
+      "local_tags": [
+        "拆二机会",
+        "白角未稳"
+      ],
+      "key_points": [
+        "D12",
+        "C13",
+        "B12"
+      ],
+      "group_status": [
+        "unstable_corner"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央E7–H11一带黑棋G7、H8、J11等子构成厚势，白F7、H7、J7等被包围，局部呈对杀态势。",
+      "shapes": [
+        "central_thick_group",
+        "surrounded_group"
+      ],
+      "local_tags": [
+        "厚势主导",
+        "白孤棋危急"
+      ],
+      "key_points": [
+        "G7",
+        "H8",
+        "J7",
+        "H10"
+      ],
+      "group_status": [
+        "alive_by_thickness"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中P6（目标点）周边黑P4、O4、N5与白O5、N4、M5形成复杂接触战，P6为双方争夺要点。",
+      "shapes": [
+        "contact_fight",
+        "vital_point"
+      ],
+      "local_tags": [
+        "官子要冲",
+        "双方必争"
+      ],
+      "key_points": [
+        "P6",
+        "O4",
+        "O5",
+        "N5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下B2–D6黑棋密集，白C3、D4、C5等子被压制，黑已围出可观实地。",
+      "shapes": [
+        "solid_territory"
+      ],
+      "local_tags": [
+        "黑实空稳固",
+        "白无策反扑"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "C5"
+      ],
+      "group_status": [
+        "secure_territory"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下J3–K6黑棋与J6、L5白棋形成小规模劫争，黑刚于J5粘劫，白劫材不足。",
+      "shapes": [
+        "local_ko"
+      ],
+      "local_tags": [
+        "劫争结束",
+        "黑获实惠"
+      ],
+      "key_points": [
+        "J5",
+        "J6",
+        "L5"
+      ],
+      "group_status": [
+        "ko_won_by_black"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下Q2–S8黑棋Q2、R4、S8与白P2、N3、L2等形成大模样，但白L4、M5、O5等深入，黑空未净。",
+      "shapes": [
+        "incomplete_territory",
+        "invasion"
+      ],
+      "local_tags": [
+        "白有劫争余味",
+        "黑需补强"
+      ],
+      "key_points": [
+        "Q2",
+        "R4",
+        "L4",
+        "O5"
+      ],
+      "group_status": [
+        "unsettled_territory"
+      ]
+    }
+  ]
+}

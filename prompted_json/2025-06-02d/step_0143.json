@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_142",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 142,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "T18"
+      },
+      {
+        "color": 0,
+        "point": "T15"
+      },
+      {
+        "color": 1,
+        "point": "T17"
+      },
+      {
+        "color": 0,
+        "point": "S7"
+      },
+      {
+        "color": 1,
+        "point": "R7"
+      },
+      {
+        "color": 0,
+        "point": "Q8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "K6",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "G7",
+      "H7",
+      "K7",
+      "O7",
+      "P7",
+      "R7",
+      "F8",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "C9",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "B13",
+      "O13",
+      "S13",
+      "L14",
+      "S14",
+      "L15",
+      "N15",
+      "O15",
+      "Q15",
+      "R15",
+      "D16",
+      "H16",
+      "K16",
+      "M16",
+      "P16",
+      "Q16",
+      "R16",
+      "J17",
+      "M17",
+      "Q17",
+      "T17",
+      "M18",
+      "N18",
+      "Q18",
+      "T18"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "H6",
+      "J6",
+      "N6",
+      "O6",
+      "P6",
+      "F7",
+      "N7",
+      "Q7",
+      "S7",
+      "G8",
+      "Q8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "E10",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "Q12",
+      "F13",
+      "K13",
+      "N13",
+      "R13",
+      "D14",
+      "K14",
+      "O14",
+      "P14",
+      "R14",
+      "K15",
+      "P15",
+      "S15",
+      "T15",
+      "L16",
+      "O16",
+      "S16",
+      "L17",
+      "P17",
+      "S17",
+      "L18",
+      "O18",
+      "R18"
+    ]
+  },
+  "targets": {
+    "policy_target": "S9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territorial_race",
+      "ko_threats_absent",
+      "white_advantage"
+    ],
+    "strategic_focus": [
+      "right_side_invasion_resolution",
+      "bottom_right_eye_space",
+      "center_sente_reduction"
+    ],
+    "global_summary_cn": "白方在右下与中腹占据明显实地优势，黑棋虽在左上和中腹有厚势但缺乏有效攻击目标；当前处于收官阶段，双方围绕边角细微目数展开争夺，白棋凭借更优形状和先手潜力保持胜势。",
+    "phase_explanation": "第142手为黑方行棋，局面已进入官子阶段。白棋刚于Q8落子，巩固右下势力并限制黑棋S9打入效果；黑棋此前连续在右上（T18/T17）和右下（S7/R7/Q8）施压，但白棋应对稳健，局部无死活危机。全局无大型劫争或未定大龙，胜负取决于单官与后手官子效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋在A1–J10区域形成厚势，但实地薄弱；白棋C3–D6构成稳固小堡垒，牵制黑势发展。",
+      "shapes": [
+        "corner_enclosure",
+        "influence_wall"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_fortress",
+        "low_efficiency"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "E3",
+        "C4"
+      ],
+      "group_status": [
+        "alive",
+        "no_liberties_issue"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑白交错密集，T18/T17/S17等处黑棋高位跳点试图扩张，白棋L18/O18/R18构筑坚实外势，形成对中央的辐射控制。",
+      "shapes": [
+        "high_framework",
+        "side_pressure"
+      ],
+      "local_tags": [
+        "black_high_points",
+        "white_side_wall",
+        "potential_eye_space"
+      ],
+      "key_points": [
+        "T18",
+        "T17",
+        "S17",
+        "R18",
+        "O18"
+      ],
+      "group_status": [
+        "alive",
+        "connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋Q16–R16–S16–T15构成完整右上角守势，黑棋Q17/M17/J17呈断续飞压，但未能深入破空。",
+      "shapes": [
+        "corner_formation",
+        "floating_attack"
+      ],
+      "local_tags": [
+        "white_corner",
+        "black_floating",
+        "no_cutting_success"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "S16",
+        "T15",
+        "Q17"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B13/C11/D11/E9等构成左中腹厚壁，白棋F13/K13/K14等嵌入试探，但未形成有效侵消，黑势主导。",
+      "shapes": [
+        "central_wall",
+        "light_invasion_attempt"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_light_probe",
+        "no_life_threat"
+      ],
+      "key_points": [
+        "B13",
+        "C11",
+        "D11",
+        "F13",
+        "K13"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹空旷，黑棋J10/L10/N10与白棋H10/N10/O10形成微妙对峙；K11–M16一带黑厚势辐射力强，但白棋P12/Q12等保持弹性联络。",
+      "shapes": [
+        "neutral_zone",
+        "influence_overlap"
+      ],
+      "local_tags": [
+        "mutual_influence",
+        "no_group_in_danger",
+        "sente_potential"
+      ],
+      "key_points": [
+        "J10",
+        "L10",
+        "N10",
+        "H10",
+        "P12"
+      ],
+      "group_status": [
+        "unsettled_neutral",
+        "no_immediate_attack"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋R7–Q6–R6与白棋Q7–R8–Q8形成典型边路攻防；黑棋R7为关键接应点，白棋Q8一子强化整体联络并压缩黑棋眼位。",
+      "shapes": [
+        "side_fight",
+        "connection_strengthening"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "white_connection",
+        "black_eye_space_reduced"
+      ],
+      "key_points": [
+        "R7",
+        "Q6",
+        "R6",
+        "Q7",
+        "Q8"
+      ],
+      "group_status": [
+        "alive",
+        "locally_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋F3–P3一线构成长条实空，白棋C3–E3–C4–D6围出小角，双方边界清晰，无激烈冲突。",
+      "shapes": [
+        "side_territory",
+        "corner_settlement"
+      ],
+      "local_tags": [
+        "black_side_territory",
+        "white_corner",
+        "settled"
+      ],
+      "key_points": [
+        "F3",
+        "P3",
+        "C3",
+        "C4",
+        "D6"
+      ],
+      "group_status": [
+        "alive",
+        "fully_settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋E7–O7–O8–N9构成庞大下方实空主体，白棋F7–N7–Q7–S7沿边渗透，但仅获薄味，难以动摇黑空根基。",
+      "shapes": [
+        "large_territory",
+        "edge_infiltration"
+      ],
+      "local_tags": [
+        "black_territory_core",
+        "white_thin_infiltration",
+        "no_breakthrough"
+      ],
+      "key_points": [
+        "E7",
+        "O7",
+        "O8",
+        "N9",
+        "F7"
+      ],
+      "group_status": [
+        "alive",
+        "territorially_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋S13–S15–T15–S16–R14构成右下立体守势，黑棋R15–Q15–O15–N15–L15呈横向张开但眼位不足；S9为黑方最后潜在打入点，但已被白棋Q8间接封锁。",
+      "shapes": [
+        "complex_corner",
+        "eye_space_defense"
+      ],
+      "local_tags": [
+        "white_strong_corner",
+        "black_weak_eye_shape",
+        "critical_point_S9"
+      ],
+      "key_points": [
+        "S13",
+        "S15",
+        "T15",
+        "R15",
+        "S9"
+      ],
+      "group_status": [
+        "alive",
+        "defensive_strength_high"
+      ]
+    }
+  ]
+}

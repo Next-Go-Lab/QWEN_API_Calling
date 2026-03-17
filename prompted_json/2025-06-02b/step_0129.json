@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_128",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 128,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C12"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "F7"
+      },
+      {
+        "color": 0,
+        "point": "E7"
+      },
+      {
+        "color": 1,
+        "point": "C9"
+      },
+      {
+        "color": 0,
+        "point": "O9"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "F8",
+      "C9",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "B9",
+      "E9",
+      "K9",
+      "M9",
+      "O9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "S17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋厚势围空",
+      "黑棋侵消活跃",
+      "右下角未定型"
+    ],
+    "strategic_focus": [
+      "黑棋S17点三三试探",
+      "白棋O9扳头巩固边空",
+      "中央F7-E7对攻余波"
+    ],
+    "global_summary_cn": "全局进入中后盘，黑棋掌握主动权，多处发起侵消；白棋在右下、中腹构筑厚势但实地稍显单薄；黑棋最新一手S17为典型点三三破空尝试，呼应此前C12、F7等侵消动作。",
+    "phase_explanation": "第128手，黑方行棋，局面处于中盘向官子过渡阶段。双方在多个局部存在未完全定型的接触战，尤其右下（O9）、左上（C12）、中腹（F7/E7）三处形成战略支点。黑棋整体厚薄均衡略优，白棋需防范S17引发的角部变化。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑B3-C3-D4一线与白C5-B4形成低挂定式余味，黑K2/K4/K5/K6/K10/K11构成厚势骨架。",
+      "shapes": [
+        "corner_enclosure",
+        "low_pincer_followup"
+      ],
+      "local_tags": [
+        "定式余味",
+        "黑厚势",
+        "白拆二偏缓"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "K2",
+        "K4"
+      ],
+      "group_status": [
+        "alive",
+        "influence_facing_center"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋J10-N10连片厚势，黑Q12-R12-S12反夹试探；白S13/S14/S15/S16/S18/S19构成大模样雏形，但根基略浮。",
+      "shapes": [
+        "moyo_outline",
+        "counter_pincer"
+      ],
+      "local_tags": [
+        "白模様",
+        "黑反夹",
+        "外势未实"
+      ],
+      "key_points": [
+        "J10",
+        "Q12",
+        "S13",
+        "S19"
+      ],
+      "group_status": [
+        "influencing",
+        "unsettled_periphery"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16-T16-R17-Q17与白R16-S16-R15-S15形成复杂劫争预备态；黑T18/R18/Q18连贯守角，白S18稍显重复。",
+      "shapes": [
+        "corner_fight",
+        "ko_threat_setup"
+      ],
+      "local_tags": [
+        "劫材储备",
+        "黑角坚实",
+        "白S18效率偏低"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "S16",
+        "T18"
+      ],
+      "group_status": [
+        "alive",
+        "ko_sensitive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑B12-C12-D12-E12与白E11-E12-E13形成缠斗；黑C13-G13-R13与白B13-C13-J13-K13-L13构成势力拉锯带。",
+      "shapes": [
+        "side_fight",
+        "influence_race"
+      ],
+      "local_tags": [
+        "黑轻灵侵消",
+        "白厚势但欠深度",
+        "E12焦点"
+      ],
+      "key_points": [
+        "C12",
+        "E12",
+        "E11",
+        "G13"
+      ],
+      "group_status": [
+        "fighting",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑F7-F8-G10-H10-J11-K11与白E7-E8-E9-F3-G12-H12构成主战场；F7-E7交换后黑得先手，K9/M9/O9白棋扳头意图强化。",
+      "shapes": [
+        "central_battle",
+        "exchange_sequence"
+      ],
+      "local_tags": [
+        "主攻方向",
+        "黑先手优势",
+        "白O9扳头"
+      ],
+      "key_points": [
+        "F7",
+        "E7",
+        "O9",
+        "K9"
+      ],
+      "group_status": [
+        "fighting",
+        "tempo_advantage_black"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N11-O11-P11-Q11与白M11-N12-O12-P12形成平行对峙；黑P14被白P14反扳后黑转攻S17，此处成为新焦点。",
+      "shapes": [
+        "parallel_wall",
+        "shifted_attack"
+      ],
+      "local_tags": [
+        "对称对抗",
+        "黑弃P14转S17",
+        "S17点三三"
+      ],
+      "key_points": [
+        "N11",
+        "P14",
+        "S17"
+      ],
+      "group_status": [
+        "transitioning",
+        "new_attack_point"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B4-B5-B6-C6与白C5-D4-D6-E6形成经典小目守角vs无忧角结构；黑B10-G10-H10与白E9-K9-M9构成低位攻防。",
+      "shapes": [
+        "corner_defense",
+        "low_side_attack"
+      ],
+      "local_tags": [
+        "黑坚实",
+        "白K9跳略缓",
+        "E9孤子"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "B10",
+        "E9"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑K2-K3-K4-K5-K6-L6-M6-N6与白L3-M3-N3-O3-O4-N4-O5形成大规模接触；黑K10-L10-M10-N10与白L11-M11-N12构成厚薄对比。",
+      "shapes": [
+        "side_contact",
+        "thickness_comparison"
+      ],
+      "local_tags": [
+        "黑厚势主导",
+        "白O5拆二偏早",
+        "K10要冲"
+      ],
+      "key_points": [
+        "K2",
+        "O4",
+        "K10",
+        "L11"
+      ],
+      "group_status": [
+        "influencing",
+        "dominant_black"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O4-P4-Q3-R4与白P2-N3-M3-L3形成激烈角战；黑Q3-R4-S4与白O5-P14-O9构成未净活形态，S17点入直接威胁此角。",
+      "shapes": [
+        "corner_combat",
+        "vital_point_target"
+      ],
+      "local_tags": [
+        "未定型角",
+        "S17直指要害",
+        "白O9扳头失败？"
+      ],
+      "key_points": [
+        "O4",
+        "P2",
+        "O9",
+        "S17"
+      ],
+      "group_status": [
+        "unsettled",
+        "critical_vital_point"
+      ]
+    }
+  ]
+}

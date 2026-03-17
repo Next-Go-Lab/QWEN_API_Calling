@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_029",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 29,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      },
+      {
+        "color": 1,
+        "point": "G3"
+      },
+      {
+        "color": 0,
+        "point": "H5"
+      },
+      {
+        "color": 1,
+        "point": "G4"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "黑棋主动",
+      "白棋守势"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上厚势构建"
+    ],
+    "global_summary_cn": "第29手，黑方刚于G4落子，形成右下角复杂对杀局面；黑棋在右下与左下均有成空潜力，白棋则依托D3-D4-E2-E5等点构筑防线；全局尚未进入收官，但局部战斗激烈，尤其G3-G4-G5-G6-H5一线形成密集接触战。",
+    "phase_explanation": "中盘阶段，双方在右下角展开连续接触战，近六手全部集中于F5至H5区域；黑棋掌握主动权，白棋处于应对状态；中央与边路尚未定型，存在多处未定形的势力范围。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白D16、黑Q16形成高低配置，黑棋有向中腹延伸趋势，白棋O17为轻灵守角。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角",
+        "轻灵",
+        "高位"
+      ],
+      "key_points": [
+        "Q16",
+        "D16",
+        "O17"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边基本空旷，仅白F17孤子，暂无明显集团，属双方潜在势力渗透区。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "空旷",
+        "待发展",
+        "渗透区"
+      ],
+      "key_points": [
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角无子，完全空白，属全局最空旷区域，未来可能成为大场或引征要点。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "全空",
+        "大场",
+        "未开劫"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹B6-C6-B7-C5-D5构成白棋小堡垒，黑C3-C4与白D3-D4对峙，形成低段攻防前沿。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "低挂应对",
+        "厚薄对比",
+        "对峙前线"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "B6",
+        "C6",
+        "B7"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央尚无成形集团，黑E4-F4与白E5-F5隔一路对顶，G5-G6-H5为当前主战场延伸带。",
+      "shapes": [
+        "contact"
+      ],
+      "local_tags": [
+        "接触战延伸",
+        "中腹雏形",
+        "气紧"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "E5",
+        "F5",
+        "G5",
+        "G6",
+        "H5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P4-Q4-Q3-R6-R14呈黑棋斜跳阵势，白Q4为打入点，黑R14为高拆兼瞄攻。",
+      "shapes": [
+        "diagonal",
+        "extension"
+      ],
+      "local_tags": [
+        "斜跳",
+        "高拆",
+        "瞄攻"
+      ],
+      "key_points": [
+        "P4",
+        "Q4",
+        "Q3",
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C3-C4-D5与白C6-D6-D3-E2形成典型低中国流对抗，黑棋稍厚，白棋取实地。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "低中国流",
+        "实地vs厚势",
+        "定式后续"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D5",
+        "C6",
+        "D6",
+        "D3",
+        "E2"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "右下角G3-G4-G5-G6-H5为本局最密集交战区，黑五子连贯施压，白四子勉强联络，气紧且眼位不足。",
+      "shapes": [
+        "net",
+        "ladder",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "主战场",
+        "气紧",
+        "对杀雏形",
+        "劫材储备"
+      ],
+      "key_points": [
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "H5",
+        "F5"
+      ],
+      "group_status": [
+        "critical_fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下边线Q3-P4与白Q4构成小规模接触，黑R6-R14遥相呼应，白无强子，属黑棋势力辐射区。",
+      "shapes": [
+        "extension"
+      ],
+      "local_tags": [
+        "势力辐射",
+        "二线拆二",
+        "外势"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "Q4",
+        "R6",
+        "R14"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    }
+  ]
+}

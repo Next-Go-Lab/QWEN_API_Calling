@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_204",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 204,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "J15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L13"
+      },
+      {
+        "color": 0,
+        "point": "M14"
+      },
+      {
+        "color": 1,
+        "point": "R11"
+      },
+      {
+        "color": 0,
+        "point": "H16"
+      },
+      {
+        "color": 1,
+        "point": "J16"
+      },
+      {
+        "color": 0,
+        "point": "J15"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "Q14",
+      "R14",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "M13",
+      "F14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "O16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "官子阶段",
+      "细棋局面",
+      "黑稍优"
+    ],
+    "strategic_focus": [
+      "右上角收官",
+      "中腹厚势转化",
+      "左下实地确认"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋凭借中腹厚势与右上角主动权略占优势，白棋在左下与中腹存在薄味，双方围绕J15附近展开最后争夺。",
+    "phase_explanation": "第204手为白方落子J15，是近期连续五手在右上（H16、J16、J15）及中腹（L13、M14、R11）的密集收官；黑方即将于H15补强，巩固右上实空并威胁白棋K15一子。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑白各守一隅，无激烈接触。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平静"
+      ],
+      "key_points": [
+        "A1",
+        "A3",
+        "C1",
+        "C3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋成空潜力大，但黑有Q3、P4等侵消点，存在未净活形。",
+      "shapes": [
+        "side_wall",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "潜在目数",
+        "可侵入"
+      ],
+      "key_points": [
+        "O3",
+        "P4",
+        "Q4",
+        "Q5"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官中，近六手集中于此（H16、J16、J15、R11等），黑控K15要点，白M14、L14构成联络薄弱带。",
+      "shapes": [
+        "fighting_zone",
+        "endgame_battle"
+      ],
+      "local_tags": [
+        "主战场",
+        "急所密集"
+      ],
+      "key_points": [
+        "H16",
+        "J16",
+        "J15",
+        "K15",
+        "L14",
+        "M14",
+        "R11"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋F8、K8、H9成势，白B7–C8一带孤棋尚未安定，黑可借势压迫。",
+      "shapes": [
+        "influence_radiation",
+        "weak_group_target"
+      ],
+      "local_tags": [
+        "厚势辐射",
+        "攻击目标"
+      ],
+      "key_points": [
+        "F8",
+        "H9",
+        "K8",
+        "B7",
+        "C7",
+        "C8"
+      ],
+      "group_status": [
+        "black_influencing",
+        "white_weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑L13、N13、O13成阵，白E12、F13零星应手，黑势主导但未围实空。",
+      "shapes": [
+        "central_framework"
+      ],
+      "local_tags": [
+        "势力范围",
+        "未围空"
+      ],
+      "key_points": [
+        "L13",
+        "N13",
+        "O13",
+        "E12",
+        "F13"
+      ],
+      "group_status": [
+        "black_dominant",
+        "empty_center"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P15、R15、Q14与白O14、P14形成对峙，局部存在劫争隐患（如N15附近）。",
+      "shapes": [
+        "border_conflict"
+      ],
+      "local_tags": [
+        "对峙线",
+        "劫材相关"
+      ],
+      "key_points": [
+        "P15",
+        "R15",
+        "Q14",
+        "O14",
+        "P14",
+        "O15"
+      ],
+      "group_status": [
+        "contested"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑A1–C4连片厚实，白A6、B7被压制，黑已确立实地优势。",
+      "shapes": [
+        "secure_territory"
+      ],
+      "local_tags": [
+        "实空稳固",
+        "压迫成功"
+      ],
+      "key_points": [
+        "A1",
+        "C4",
+        "A6",
+        "B7"
+      ],
+      "group_status": [
+        "alive",
+        "dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G1–H2、F3–G4成连片，白D1–E2、D2–D3呈小块，黑实地领先明显。",
+      "shapes": [
+        "territorial_base"
+      ],
+      "local_tags": [
+        "实地丰厚",
+        "根基扎实"
+      ],
+      "key_points": [
+        "G1",
+        "H2",
+        "F3",
+        "G4",
+        "D1",
+        "D2"
+      ],
+      "group_status": [
+        "black_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白T12、S13、S15与黑R10、R12、Q13形成复杂边界，白S15孤子待援，黑有Q12、R11等先手。",
+      "shapes": [
+        "edge_fighting",
+        "loose_group"
+      ],
+      "local_tags": [
+        "边界未清",
+        "孤子受攻"
+      ],
+      "key_points": [
+        "T12",
+        "S13",
+        "S15",
+        "R12",
+        "Q13",
+        "R11"
+      ],
+      "group_status": [
+        "white_vulnerable",
+        "black_pressuring"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_146",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 146,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K15"
+      },
+      {
+        "color": 0,
+        "point": "J18"
+      },
+      {
+        "color": 1,
+        "point": "N13"
+      },
+      {
+        "color": 0,
+        "point": "Q14"
+      },
+      {
+        "color": 1,
+        "point": "N12"
+      },
+      {
+        "color": 0,
+        "point": "O11"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "E14",
+      "F14",
+      "O14",
+      "P14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "C16",
+      "J16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "B18",
+      "D18",
+      "M18"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "O11",
+      "P11",
+      "C13",
+      "O13",
+      "P13",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "E18",
+      "J18",
+      "L18",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "R14"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "实地争夺",
+      "边角定型"
+    ],
+    "strategic_focus": [
+      "右下角白棋厚势压迫",
+      "中腹黑棋潜力未定",
+      "左上角双方薄味残留"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋领先微弱，双方围绕边角实地与外势展开精细争夺；右下角白棋占据主动，中腹黑棋大龙已活但仍有借用，左上角存在劫争隐患。",
+    "phase_explanation": "第146手，黑方即将落子（to_play: 1），此前白方O11一子强化右下厚势，黑方N12、N13等招法试图压缩白空并谋求中腹发展；当前局面胜负差距仅0.5目，每手官子价值极高。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑白交错，黑B15/C15/D15与白B16/C17/D17形成对峙，C13白子孤悬，存在劫材与搜根可能。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "劫材敏感"
+      ],
+      "key_points": [
+        "C13",
+        "B15",
+        "C17"
+      ],
+      "group_status": [
+        "白C13孤棋",
+        "黑B15-C15-D15连片"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段相对平静，黑J16/K15/Q16与白K16/Q17/R17形成高低配置，Q14白子为近期要点，牵制黑上方联络。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "联络战",
+        "高低配合"
+      ],
+      "key_points": [
+        "K15",
+        "Q14",
+        "Q16"
+      ],
+      "group_status": [
+        "黑K15-Q16断点待补",
+        "白Q14-Q17厚势"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本定型，黑R16/S16/S17与白Q17/R17/R18构成典型小目守角后攻防，S9白子为外势支点。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角完成",
+        "外势呼应"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "S9"
+      ],
+      "group_status": [
+        "黑R16-S16-S17活形",
+        "白Q17-R17-S9成势"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑D10/D11/C11与白C9/C10/D6/E6等子形成缠斗，黑D13与白C13遥相呼应，局部存在腾挪空间。",
+      "shapes": [
+        "central_side"
+      ],
+      "local_tags": [
+        "缠斗区",
+        "腾挪试探"
+      ],
+      "key_points": [
+        "D10",
+        "C13",
+        "D13"
+      ],
+      "group_status": [
+        "黑D10-D11-C11三子轻灵",
+        "白C9-C10根基尚稳"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑N12/N13/O14与白N14/O11/P11构成中腹焦点，O11为白方最新一手，意在封锁黑棋向中腹发展。",
+      "shapes": [
+        "center"
+      ],
+      "local_tags": [
+        "中腹争点",
+        "封锁与突围"
+      ],
+      "key_points": [
+        "N12",
+        "O11",
+        "N14"
+      ],
+      "group_status": [
+        "黑N12-N13-O14呈跳进姿态",
+        "白N14-O11-P11成封锁链"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹激烈交锋，黑P14/Q13/O14与白O13/P13/Q14形成微型战役，Q14为双方反复争夺之要津。",
+      "shapes": [
+        "central_side"
+      ],
+      "local_tags": [
+        "微型战役",
+        "反复争夺"
+      ],
+      "key_points": [
+        "Q14",
+        "P14",
+        "O13"
+      ],
+      "group_status": [
+        "黑P14-Q13双飞燕雏形",
+        "白O13-P13-Q14铁壁"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C2/C3/D3/D5/E5与白B3/C4/D4/E4密集接触，黑F2/F3/F4与白E2/E3形成对攻，黑棋稍厚。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "接触战",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "C2",
+        "D4",
+        "F2"
+      ],
+      "group_status": [
+        "黑C2-F2连片厚实",
+        "白B3-E4呈扁平守势"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G5/G6/G7与白G6/H6/H7交错，黑Q7/R6/R5与白Q5/Q6/R7形成左右拉锯，R9白子为重要眼位支点。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "眼位争夺",
+        "左右拉锯"
+      ],
+      "key_points": [
+        "G6",
+        "Q7",
+        "R9"
+      ],
+      "group_status": [
+        "黑G5-G6-G7成势",
+        "白R9为活棋关键"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋主导，黑P2/Q2/R2/R3与白O4/P4/Q4/R4/R3形成复杂边界，白O11为最新打入点，直指黑棋腹地。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白棋厚势",
+        "打入要点"
+      ],
+      "key_points": [
+        "O11",
+        "P2",
+        "Q4"
+      ],
+      "group_status": [
+        "白O11为强手",
+        "黑P2-R3浮棋待治"
+      ]
+    }
+  ]
+}

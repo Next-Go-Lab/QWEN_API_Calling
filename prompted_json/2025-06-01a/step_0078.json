@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_077",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 77,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "E2"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "B5"
+      },
+      {
+        "color": 1,
+        "point": "B4"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "C3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "P6",
+      "Q6",
+      "F7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "B3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "B3点入试探",
+      "右下角未定型",
+      "中央黑棋大龙未活净"
+    ],
+    "global_summary_cn": "第77手，黑方刚于B4落子，白方即将在B3点入，引发左下角激烈攻防；全局呈现黑棋多处实地但薄味明显、白棋外势雄厚但需防范侵消的态势。",
+    "phase_explanation": "中盘阶段，双方在左下、右下及中腹持续争夺，关键战役集中在B3附近，此手或将决定左下黑棋C3/B4/D5等子的生死与根据地归属。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈接触。",
+      "shapes": [],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "C11",
+        "D11",
+        "C10",
+        "C9"
+      ],
+      "group_status": [
+        "黑棋小堡垒",
+        "白棋拆二稳固"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q16/R16/P17等构成厚势，白棋R9/C13形成高低配合，但未直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "厚势",
+        "高位拆边"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P17",
+        "R9",
+        "C13"
+      ],
+      "group_status": [
+        "黑厚势待发挥",
+        "白棋联络尚可"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋M17/O17/N17与白棋N18/O18/P18对峙，呈典型‘高中国流’后续，实地与外势平衡。",
+      "shapes": [],
+      "local_tags": [
+        "高中国流",
+        "对称布局"
+      ],
+      "key_points": [
+        "M17",
+        "N17",
+        "O17",
+        "N18",
+        "O18",
+        "P18"
+      ],
+      "group_status": [
+        "双方均势",
+        "暂无死活问题"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋D13/E14/F14与白棋C13/C10/D10形成斜向牵制，黑棋有向上扩张意图。",
+      "shapes": [],
+      "local_tags": [
+        "斜压",
+        "势力延伸"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "F14",
+        "C13",
+        "D10",
+        "C10"
+      ],
+      "group_status": [
+        "黑棋主动",
+        "白棋需防断"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑棋E5/D5/C5与白棋D4/C4/E3形成局部对峙，但尚未连成大模样。",
+      "shapes": [],
+      "local_tags": [
+        "未定型",
+        "潜在战场"
+      ],
+      "key_points": [
+        "D5",
+        "C5",
+        "E5",
+        "D4",
+        "C4",
+        "E3"
+      ],
+      "group_status": [
+        "黑白交错",
+        "无明确眼位"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋J4/P4/Q4与白棋L4/O4/Q4/Q5等形成复杂接触，Q4为双方共用要点。",
+      "shapes": [],
+      "local_tags": [
+        "接触战",
+        "争夺据点"
+      ],
+      "key_points": [
+        "J4",
+        "P4",
+        "Q4",
+        "L4",
+        "O4",
+        "Q5"
+      ],
+      "group_status": [
+        "白棋稍厚",
+        "黑棋有打入空间"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角为当前焦点：黑棋B4/C3/C5/D5/E5与白棋B5/C4/D4/E2/E3密集交战，B3为白方下一招急所。",
+      "shapes": [
+        "L形连接",
+        "扭十字"
+      ],
+      "local_tags": [
+        "攻防核心",
+        "死活未定",
+        "急所集中"
+      ],
+      "key_points": [
+        "B3",
+        "B4",
+        "C3",
+        "C4",
+        "D4",
+        "B5",
+        "C5",
+        "D5",
+        "E5",
+        "E2",
+        "E3"
+      ],
+      "group_status": [
+        "黑棋不活",
+        "白棋可点杀"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋F3/F4/F6与白棋E2/E3/E6形成横向拉锯，黑棋F6为跳守要点。",
+      "shapes": [],
+      "local_tags": [
+        "横向对峙",
+        "轻重转换"
+      ],
+      "key_points": [
+        "F3",
+        "F4",
+        "F6",
+        "E2",
+        "E3",
+        "E6"
+      ],
+      "group_status": [
+        "黑棋轻灵",
+        "白棋根基扎实"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q2/R2/Q3/R3/R4/R5与白棋P3/R3/Q4/Q5/P6/Q6等形成大规模混战，黑棋大龙未净活。",
+      "shapes": [
+        "大龙",
+        "双飞燕变形"
+      ],
+      "local_tags": [
+        "大龙治孤",
+        "未活净",
+        "胜负处"
+      ],
+      "key_points": [
+        "Q2",
+        "R2",
+        "Q3",
+        "R3",
+        "R4",
+        "R5",
+        "P3",
+        "Q4",
+        "Q5",
+        "P6",
+        "Q6"
+      ],
+      "group_status": [
+        "黑棋危险",
+        "白棋可攻"
+      ]
+    }
+  ]
+}

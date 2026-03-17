@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_005",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 5,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "R6"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R6",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "O17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "星位布局",
+      "对角布阵",
+      "黑棋主动"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "左下角未落子",
+      "中央尚未展开"
+    ],
+    "global_summary_cn": "黑棋连续占据Q16、Q3、R6三处高位，形成右上与右下呼应；白棋回应D4、D16，取两处守角，当前呈对角星定式雏形，局面开阔，尚未进入局部战斗。",
+    "phase_explanation": "第5手，属布局早期，双方均未挂角或拆边，侧重大场与势力范围划分。黑方掌握先手节奏，白方保持均衡应对。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子，属潜在守角/挂角区域。",
+      "shapes": [],
+      "local_tags": [
+        "空点",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋D16位于此区左缘，属守角起点；上方空间开阔。",
+      "shapes": [],
+      "local_tags": [
+        "守角",
+        "高位"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋Q16在此区左下角，构成典型小目守角，已初步成势。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "黑厚势"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子，连接上下两翼的战略通道。",
+      "shapes": [],
+      "local_tags": [
+        "空点",
+        "联络要道"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有落子，未来可能成为势力交汇或打入点。",
+      "shapes": [],
+      "local_tags": [
+        "空腹",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋R6与Q3斜向呼应，形成右半边势力雏形；R6略偏高，具外势倾向。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "外势",
+        "飞压雏形",
+        "黑主动"
+      ],
+      "key_points": [
+        "R6",
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋D4位于此区右上角，为经典小目守角，稳固但尚未扩展。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "白厚势"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，邻近D4但未受直接影响，属缓手区域。",
+      "shapes": [],
+      "local_tags": [
+        "空点",
+        "待观察"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R6临近此区上缘，但未深入；整体仍为空旷，存在潜在挂角或拆边机会。",
+      "shapes": [],
+      "local_tags": [
+        "待挂角",
+        "潜力点"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

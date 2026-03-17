@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_024",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 24,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P17"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "P18"
+      },
+      {
+        "color": 1,
+        "point": "O17"
+      },
+      {
+        "color": 0,
+        "point": "O18"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "N17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "O17-O18-P18-R17-R16局部对杀",
+      "N17点入试探"
+    ],
+    "global_summary_cn": "局面进入中盘关键阶段，右上角形成复杂接触战，黑白双方在R16至O18一带连续落子，形成多组紧邻棋子；黑棋以O17、P17为支点向白棋Q17、R17施压，白棋O18、P18构成防守呼应；N17为当前最佳打入点，意在破坏白棋边空潜力。",
+    "phase_explanation": "第24手，黑方即将在N17点入，试探白棋右上角结构弱点；当前局部已出现多个未定型棋形，存在对杀与做活双重可能，属典型中盘战术焦点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力交集，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上零星分布黑C11/D13/E14/F14/C15/D15/E16与白C13/E15/F15/G15/D16/D17，呈小规模接触但未形成主战场。",
+      "shapes": [],
+      "local_tags": [
+        "零星布局",
+        "低位厚味"
+      ],
+      "key_points": [
+        "D16",
+        "E15",
+        "D15"
+      ],
+      "group_status": [
+        "黑D15-C15-E14连通",
+        "白D16-C13斜跳呼应"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "本局核心战场：黑Q16/R16/O17/P17 vs 白Q17/R17/O18/P18，形成紧凑对峙；N17为待落关键点，牵动全局胜负。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "边空争夺",
+        "急所密集"
+      ],
+      "key_points": [
+        "N17",
+        "O17",
+        "O18",
+        "P17",
+        "P18",
+        "Q16",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "黑Q16-R16-O17-P17成不完整梯形阵",
+        "白Q17-R17-O18-P18构防御圈",
+        "N17为唯一断点"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹安静，仅有黑Q3孤子，无互动，属战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "远距离呼应"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何着子，为未来中腹作战预留空间。",
+      "shapes": [],
+      "local_tags": [
+        "真空地带",
+        "潜在大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹空旷，仅黑Q16延伸意向，尚未展开，属潜在扩张方向。",
+      "shapes": [],
+      "local_tags": [
+        "延伸前沿",
+        "未实利化"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角全空，无子，属未启动区域。",
+      "shapes": [],
+      "local_tags": [
+        "空白",
+        "静默"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，黑Q3孤立下方，无配合，暂无战略价值。",
+      "shapes": [],
+      "local_tags": [
+        "孤立",
+        "低效配置"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，无子，与当前战场无关联。",
+      "shapes": [],
+      "local_tags": [
+        "闲置",
+        "远端"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

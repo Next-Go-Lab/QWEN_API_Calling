@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_196",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 196,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "M9"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "L19"
+      },
+      {
+        "color": 0,
+        "point": "K19"
+      },
+      {
+        "color": 1,
+        "point": "L7"
+      },
+      {
+        "color": 0,
+        "point": "N2"
+      },
+      {
+        "color": 1,
+        "point": "O2"
+      },
+      {
+        "color": 0,
+        "point": "M9"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "N9",
+      "D10",
+      "C11",
+      "D11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "B12",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "K8",
+      "R8",
+      "C9",
+      "K9",
+      "M9",
+      "O9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "L10",
+      "B11",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "center_influence_contest",
+      "right_side_territory_stabilization",
+      "bottom_right_eye_shape_vulnerability"
+    ],
+    "global_summary_cn": "第196手，黑方即将收官，全局进入细微官子阶段。右下角白棋M9一子构成潜在劫材，黑需防范劫争；中腹L9为关键官子点，关系双方实空消长；左上与右上已基本定型，但右下O2-P2-Q2-R2黑阵与N2-M3-O3等白子形成复杂边界。",
+    "phase_explanation": "终局前最后十余手，胜负差仅0.5目，所有未定区域均具官子价值，L9为双方必争之单官兼潜在眼位争夺点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑C2-C3-D3-D4-E4与白B3-B4-C4-D2-E2形成平稳对峙，无明显攻防焦点。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "symmetric_balance"
+      ],
+      "key_points": [
+        "C2",
+        "D2",
+        "C3",
+        "D3",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑R19、Q16–S16与白K19–M19形成宽厚势力对峙，黑有K17–O17大模样雏形，但白J17–K18–L18可侵消。",
+      "shapes": [
+        "side_framework",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "influence",
+        "potential_invasion"
+      ],
+      "key_points": [
+        "R19",
+        "Q16",
+        "S16",
+        "K19",
+        "M19",
+        "J17",
+        "L18"
+      ],
+      "group_status": [
+        "strong_framework"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R19与白K19–M19构成典型‘大雪崩’后变化余韵，黑L19刚落子，白K19为应手，局部存在劫争伏笔。",
+      "shapes": [
+        "corner_fight_residual"
+      ],
+      "local_tags": [
+        "recent_move",
+        "ko_potential"
+      ],
+      "key_points": [
+        "L19",
+        "K19",
+        "M19",
+        "R19"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B12–D15与白B11–C13–D16形成交错接触，黑D13–D15三子与白C13–D16构成‘爬二路’与‘扳头’对抗，属典型收官争夺。",
+      "shapes": [
+        "side_contact_fight"
+      ],
+      "local_tags": [
+        "tight_counting",
+        "boundary_dispute"
+      ],
+      "key_points": [
+        "B12",
+        "D13",
+        "D15",
+        "C13",
+        "D16",
+        "B11"
+      ],
+      "group_status": [
+        "seki_like"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近黑G9–K11–M11与白H6–J6–K8–M9构成中腹势力网，L9为绝对要点，控制此点可决定中央厚薄及左右联络效率。",
+      "shapes": [
+        "central_point_control"
+      ],
+      "local_tags": [
+        "vital_point",
+        "influence_hub"
+      ],
+      "key_points": [
+        "L9",
+        "G9",
+        "K11",
+        "M11",
+        "H6",
+        "J6",
+        "K8",
+        "M9"
+      ],
+      "group_status": [
+        "critical_balance"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑L12–N12–Q13与白M12–O11–P11–Q12形成‘双飞燕’式缠斗余波，黑Q13与白Q12构成典型‘先手官子’争夺。",
+      "shapes": [
+        "side_ladder_residue"
+      ],
+      "local_tags": [
+        "first_move_advantage",
+        "sente_gote"
+      ],
+      "key_points": [
+        "L12",
+        "N12",
+        "Q13",
+        "M12",
+        "O11",
+        "Q12"
+      ],
+      "group_status": [
+        "gote_sensitive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D1–F2–C3与白D2–E2–B3–C4构成经典‘无忧角’对‘小目’定式收束，已完全活净，无后续手段。",
+      "shapes": [
+        "corner_alive"
+      ],
+      "local_tags": [
+        "settled",
+        "no_liberties_left"
+      ],
+      "key_points": [
+        "D1",
+        "F2",
+        "C3",
+        "D2",
+        "E2",
+        "B3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑K2–M2–O2–P2–Q2–R2与白J2–N2–R3–S3构成庞大实地对峙带，O2–P2–Q2为黑厚势，N2为白关键跳点，L7–K7–G7黑势向中腹延伸。",
+      "shapes": [
+        "side_formation",
+        "thickness_extension"
+      ],
+      "local_tags": [
+        "territory_base",
+        "thickness_projection"
+      ],
+      "key_points": [
+        "K2",
+        "M2",
+        "O2",
+        "P2",
+        "Q2",
+        "R2",
+        "N2",
+        "L7",
+        "K7"
+      ],
+      "group_status": [
+        "alive_with_thickness"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O2–P2–Q2–R2–S4与白N2–M3–O3–R3–S3–R9–S9构成复杂边界，黑L7–L8–K7–G9与白M9–N7–P7–R7形成眼位与破眼对抗，L9为生死眼形枢纽。",
+      "shapes": [
+        "life_and_death_boundary"
+      ],
+      "local_tags": [
+        "eye_shape_critical",
+        "vital_point_L9"
+      ],
+      "key_points": [
+        "O2",
+        "P2",
+        "Q2",
+        "R2",
+        "S4",
+        "N2",
+        "M3",
+        "O3",
+        "R3",
+        "S3",
+        "M9",
+        "L9"
+      ],
+      "group_status": [
+        "life_or_death_unclear"
+      ]
+    }
+  ]
+}

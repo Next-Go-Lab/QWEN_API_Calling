@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_019",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 19,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q4"
+      },
+      {
+        "color": 1,
+        "point": "P4"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "P4",
+      "C5",
+      "D5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "Q4",
+      "C6",
+      "D6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "center_influence_building"
+    ],
+    "strategic_focus": [
+      "D5_pressure",
+      "Q4_P4_race",
+      "B7_C6_tension"
+    ],
+    "global_summary_cn": "第19手，黑方刚于D5落子形成对白棋C6、D6的压迫；右上角Q4与P4形成局部对峙，左上B7与C6构成未定型战斗；全局黑棋在左下与右上布局积极，白棋侧重边角实地。",
+    "phase_explanation": "开局阶段（前20手），双方聚焦角部定式与外势平衡，尚未进入中盘攻防，但D5一子已开始牵制中央与左侧联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白B7与黑B6形成小规模接触战，白C6为守角要点，黑暂无强攻手段。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "contact_fight",
+        "unsettled_corner"
+      ],
+      "key_points": [
+        "B7",
+        "B6",
+        "C6"
+      ],
+      "group_status": [
+        "white_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白F17、O17与黑Q16构成上边势力对比，白棋厚势但空虚，黑Q16为轻灵挂角应手。",
+      "shapes": [
+        "side_wall",
+        "floating_stone"
+      ],
+      "local_tags": [
+        "influence_vs_territory",
+        "light_play"
+      ],
+      "key_points": [
+        "Q16",
+        "O17",
+        "F17"
+      ],
+      "group_status": [
+        "black_light",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷，无子，属双方潜在拆边或打入区域。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "potential_invasion_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C3、C4、C5、D5连成斜向势力，压迫白D4、D3、D6，白C6孤立受攻。",
+      "shapes": [
+        "diagonal_chain",
+        "pressing_wall"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_compromised"
+      ],
+      "key_points": [
+        "C5",
+        "D5",
+        "D4",
+        "D6",
+        "C6"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_cut_risk"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点密集，E5为政策目标点，是黑棋后续扩张或白棋腾挪关键眼位。",
+      "shapes": [
+        "vital_point"
+      ],
+      "local_tags": [
+        "policy_target",
+        "central_eye_space"
+      ],
+      "key_points": [
+        "E5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R6、R14与白D16形成左右呼应，但中腹尚未连接，存在断点风险。",
+      "shapes": [
+        "disconnected_groups"
+      ],
+      "local_tags": [
+        "loose_connection",
+        "potential_sente"
+      ],
+      "key_points": [
+        "R6",
+        "R14",
+        "D16"
+      ],
+      "group_status": [
+        "black_separated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3、C4与白D3、D4构成经典小目对局初期形态，黑有拆二或夹击意图。",
+      "shapes": [
+        "corner_pattern",
+        "small_knight_move"
+      ],
+      "local_tags": [
+        "classical_opening",
+        "territorial_balance"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅黑D5延伸至此，是未来双方势力渗透焦点。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_zone",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q3与白Q4、P4形成右下角激烈争夺，黑Q3为守角，白Q4、P4为夹击反制。",
+      "shapes": [
+        "corner_fight",
+        "pincer"
+      ],
+      "local_tags": [
+        "sharp_exchange",
+        "local_sente"
+      ],
+      "key_points": [
+        "Q3",
+        "Q4",
+        "P4"
+      ],
+      "group_status": [
+        "fighting",
+        "mutual_vulnerability"
+      ]
+    }
+  ]
+}

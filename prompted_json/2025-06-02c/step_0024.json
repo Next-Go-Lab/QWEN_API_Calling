@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_023",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K16"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P16"
+      },
+      {
+        "color": 1,
+        "point": "Q14"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      },
+      {
+        "color": 1,
+        "point": "Q13"
+      },
+      {
+        "color": 0,
+        "point": "M15"
+      },
+      {
+        "color": 1,
+        "point": "K16"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "Q13",
+      "Q14",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "下边实地与外势平衡"
+    ],
+    "global_summary_cn": "第23手，轮白（Ueno Risa）行棋。黑棋在右上（Q13-Q14-P16-K16）形成斜向攻击阵型，白棋以P14、M15、P16等子构筑防线并保持厚味；左下黑棋O3/Q3/R4/R5构成坚实模样，白棋D4与C14遥相呼应；中腹尚空旷但黑F17/L17/Q17与白P17/D16形成高低配合，全局呈现典型职业中盘复杂态势。",
+    "phase_explanation": "处于中盘战斗高峰期，双方在右上角展开连续接触战，局部未定型；边路与中腹势力交织，胜负关键在于后续对右上黑棋攻击效率与白棋治孤/转换能力的比拼。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本平静，白D4、C14孤立但有潜在联络可能；黑F17、L17分散，尚未构成明确配合。",
+      "shapes": [],
+      "local_tags": [
+        "单官布局",
+        "潜力待发"
+      ],
+      "key_points": [
+        "D4",
+        "C14",
+        "F17",
+        "L17"
+      ],
+      "group_status": [
+        "白D4孤子",
+        "黑F17弱连接"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上区域空旷，黑Q17、P17附近白子密集，Q13-Q14-K16构成黑棋攻击主轴，白P16、M15为防守支点。",
+      "shapes": [
+        "斜跳",
+        "小飞守"
+      ],
+      "local_tags": [
+        "攻击前沿",
+        "防线枢纽"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "K16",
+        "P16",
+        "M15"
+      ],
+      "group_status": [
+        "黑攻击群活跃",
+        "白P16/M15成眼形雏形"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈交锋区：黑R16、Q17与白P17、Q10形成对峙；R12为黑外势支点，白Q5-Q6-R6构成低位厚壁。",
+      "shapes": [
+        "厚壁",
+        "外势",
+        "断点"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "厚薄对比"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "P17",
+        "Q10",
+        "R12",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "白低位厚势稳固",
+        "黑R12-R16外势未成势"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹开阔，无密集子力；黑L17略显孤立，白D16与其下方D4存在潜在纵向呼应。",
+      "shapes": [],
+      "local_tags": [
+        "空旷地带",
+        "联络试探"
+      ],
+      "key_points": [
+        "D16",
+        "L17",
+        "D4"
+      ],
+      "group_status": [
+        "白双子遥距",
+        "黑L17待援"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "棋盘正中完全空旷，无任何着子，是未来大场及势力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "绝对空点",
+        "战略中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹为当前主战场延伸区：黑Q13-K16斜线深入，白P14、M15构成拦截带，Q10为高点策应。",
+      "shapes": [
+        "斜线攻击",
+        "拦腰切断"
+      ],
+      "local_tags": [
+        "主攻方向",
+        "治孤要冲"
+      ],
+      "key_points": [
+        "Q13",
+        "K16",
+        "P14",
+        "M15",
+        "Q10"
+      ],
+      "group_status": [
+        "黑攻击未净",
+        "白M15为眼位关键"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑棋O3-Q3-R4-R5构成坚实三角阵型，已围出可观实地，白无有效侵入手段。",
+      "shapes": [
+        "三角",
+        "实空"
+      ],
+      "local_tags": [
+        "安定实地",
+        "根基稳固"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "黑全活",
+        "白无法分断"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央空旷，仅黑R12一子悬于边线，白无对应子力，属待开发大场。",
+      "shapes": [],
+      "local_tags": [
+        "待落子区",
+        "潜在拆二"
+      ],
+      "key_points": [
+        "R12"
+      ],
+      "group_status": [
+        "黑单子探入",
+        "白未应对"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角完全空白，无任何棋子，属全局最大未争空点。",
+      "shapes": [],
+      "local_tags": [
+        "绝对空角",
+        "终盘大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

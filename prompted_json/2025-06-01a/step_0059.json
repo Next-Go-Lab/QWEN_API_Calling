@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_058",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 58,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S7"
+      },
+      {
+        "color": 0,
+        "point": "R8"
+      },
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "R9"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "P7"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "N3",
+      "Q3",
+      "P4",
+      "R4",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "Q5",
+      "C6",
+      "P6",
+      "Q6",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "R2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "白P7新动向"
+    ],
+    "global_summary_cn": "第58手，黑方行棋，局面处于中盘关键阶段。右下角（R2附近）形成激烈接触战，黑棋在S7-S8-R6-Q7一线构筑攻击阵型，白棋以R7-R8-R9-P7形成厚壁但略显凝重；左上与中腹黑棋大龙已活，白棋在左下C系阵地稳固；全局黑棋实地稍优，但白棋厚势蕴含中腹潜力。",
+    "phase_explanation": "当前为中盘中后期，双方在右下局部展开连续打入与反攻，黑棋掌握主动权，白棋需谨慎处理P7一子的联络与眼位问题；全局尚未进入官子，胜负焦点集中于右下攻防结果及中腹厚薄转化。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上黑棋C11-C15-B15-D13-E14-F14成势，白C9-C10-C13压制但未破空，黑棋根基厚实。",
+      "shapes": [
+        "territory",
+        "influence"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白压缩",
+        "安定"
+      ],
+      "key_points": [
+        "C11",
+        "C15",
+        "D13"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上黑Q16-R16-M17-O17-P17连片大模样，白B16-D16-Q17-R17贴身侵消，形成对峙。",
+      "shapes": [
+        "moyo",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑大模",
+        "白浅消",
+        "未定型"
+      ],
+      "key_points": [
+        "Q16",
+        "M17",
+        "B16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上基本无子，完全空旷，属双方潜在势力延伸区，目前无直接争夺。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "空域",
+        "待开发"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中黑D10-D11-E16、白L4-C6等零星分布，黑棋E16-F15-G15-H15与白棋形成斜向对峙，略具厚薄对比。",
+      "shapes": [
+        "scattered",
+        "influence_balance"
+      ],
+      "local_tags": [
+        "黑厚味",
+        "白轻灵",
+        "牵制"
+      ],
+      "key_points": [
+        "D10",
+        "E16",
+        "L4"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央近乎空白，仅黑N5-O5-P5、白Q5-Q6-P6等数子构成松散接触，是未来中腹作战核心预备区。",
+      "shapes": [
+        "neutral_zone",
+        "potential_fight"
+      ],
+      "local_tags": [
+        "空旷",
+        "战略要冲",
+        "未激活"
+      ],
+      "key_points": [
+        "N5",
+        "Q5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中为本局焦点：黑Q2-Q3-P4-R4-R5-R6-Q7-S7-S8与白P3-R3-O4-Q4-Q5-P6-Q6-P7-R7-R8-R9形成密集缠斗，黑棋主攻，白棋筑壁。",
+      "shapes": [
+        "fighting",
+        "wall",
+        "attack"
+      ],
+      "local_tags": [
+        "主战场",
+        "黑攻击流",
+        "白厚壁"
+      ],
+      "key_points": [
+        "S7",
+        "P7",
+        "R8",
+        "R2"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D4被白C6、C9、C10、C13包围，但黑有D11-D13-E14支撑，呈‘孤而不弱’态势。",
+      "shapes": [
+        "surrounded",
+        "resilient"
+      ],
+      "local_tags": [
+        "黑弹性",
+        "白封锁未全",
+        "可治孤"
+      ],
+      "key_points": [
+        "D4",
+        "D11",
+        "C6"
+      ],
+      "group_status": [
+        "alive_with_liberties"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段较空，黑N3、白P3-R3、黑Q2-Q3等构成小规模接触，但无实质冲突，属过渡缓冲带。",
+      "shapes": [
+        "transition"
+      ],
+      "local_tags": [
+        "低烈度",
+        "连接部",
+        "次要"
+      ],
+      "key_points": [
+        "N3",
+        "Q2",
+        "P3"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最敏感区域：黑S7-S8-R6-Q7施压，白R7-R8-R9-P7成形但气紧，黑R2为下一步打入要点，威胁白棋眼位。",
+      "shapes": [
+        "critical_fight",
+        "eye_threat"
+      ],
+      "local_tags": [
+        "决胜点",
+        "黑胜招候选",
+        "白需补棋"
+      ],
+      "key_points": [
+        "R2",
+        "S7",
+        "P7",
+        "R9"
+      ],
+      "group_status": [
+        "unstable"
+      ]
+    }
+  ]
+}

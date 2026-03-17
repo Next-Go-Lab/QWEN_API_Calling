@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_004",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 4,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      }
+    ],
+    "black_stones": [
+      "R4",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "P4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "对角布局",
+      "小目守角"
+    ],
+    "strategic_focus": [
+      "角地争夺",
+      "外势构建"
+    ],
+    "global_summary_cn": "双方在四个角部落子，形成经典对角布局：黑棋占Q16（右上小目）与R4（右下小目），白棋占D4（左下小目）与D16（左上小目）。当前为布局早期，尚未形成明显势力范围或战斗。",
+    "phase_explanation": "第四手，布局初期。双方均选择小目守角，注重实地与潜力平衡；无接触战，未出现定式分支或急所争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋小目守角，D16一子独立，无邻近子力。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "单子"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无任何棋子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋小目守角，Q16一子独立，构成右上角基本形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "单子"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无任何棋子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有子进入中腹。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无任何棋子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋小目守角，D4一子独立，构成左下角基本形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "单子"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无任何棋子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋小目守角，R4一子独立，构成右下角基本形。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "守角",
+        "单子"
+      ],
+      "key_points": [
+        "R4"
+      ],
+      "group_status": [
+        "isolated"
+      ]
+    }
+  ]
+}

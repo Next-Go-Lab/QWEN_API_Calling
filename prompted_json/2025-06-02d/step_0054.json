@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_053",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 53,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N5"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O12"
+      },
+      {
+        "color": 1,
+        "point": "O13"
+      },
+      {
+        "color": 0,
+        "point": "N12"
+      },
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "O9"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "P7",
+      "N8",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右下攻防",
+      "中央厚势构建",
+      "左上薄味处理"
+    ],
+    "global_summary_cn": "第53手，轮白（Ueno Asami）行棋。黑棋刚于N5落子，但白棋在右下O9、Q9、N10、O12、N12等处形成厚实外势，对黑P11、O13、P12等孤子施加压力；左上黑D4/E4/F4与白C3/C4/D3形成低段定式余波，黑J17孤立；中央黑K7/E7与白H6/H5/C6呈对峙态；全局白棋实地稍优且厚势连贯，黑棋需在Q11附近寻求治孤或腾挪。",
+    "phase_explanation": "中盘中后期，双方在多个局部持续交换，白棋通过连续压迫扩大优势，黑棋尚未完成大龙联络，存在局部死活隐患。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑D4/E4/F4与白C3/C4/D3构成低段定式收束，黑J17单官飞入显薄，白H2/H3/H4/H5/H6形成纵向厚壁，黑F3/J3略显孤立。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式余波",
+        "单官飞入",
+        "厚壁压制"
+      ],
+      "key_points": [
+        "D4",
+        "C3",
+        "J17",
+        "H2"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边黑Q15/R16与白Q10/Q9/R8/R5形成高低呼应，黑R10/R11与白Q10/N10对峙，白Q9/N10构成小堡垒，黑Q15略显飘浮。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "边空争夺",
+        "飘浮孤子"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "Q10",
+        "N10"
+      ],
+      "group_status": [
+        "black_floating",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角基本安定，黑Q15/R11与白Q10/R10/R8构成平衡态势，无激烈战斗，白R5为拆二守角要点。",
+      "shapes": [
+        "corner",
+        "extension"
+      ],
+      "local_tags": [
+        "安定角",
+        "平稳拆二"
+      ],
+      "key_points": [
+        "Q15",
+        "R11",
+        "R10",
+        "R5"
+      ],
+      "group_status": [
+        "both_stable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑L3/M3/L10与白N2/N3/M4形成上下两块对峙，黑K4/K7为联络要点，白H6/H5/C6封锁黑中腹出路，黑E7略受制。",
+      "shapes": [
+        "ladder_like",
+        "blockade"
+      ],
+      "local_tags": [
+        "上下分割",
+        "封锁意图"
+      ],
+      "key_points": [
+        "L3",
+        "K4",
+        "E7",
+        "H6"
+      ],
+      "group_status": [
+        "black_divided",
+        "white_blocking"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑J5/K7/P7与白H5/H6/C6形成复杂纠缠，黑N8/P11/O13与白O12/N12/O9/P11附近密集交战，Q11为当前焦点，是黑棋治孤或白棋收紧的关键点。",
+      "shapes": [
+        "fighting_cluster",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "Q11焦点"
+      ],
+      "key_points": [
+        "J5",
+        "K7",
+        "P7",
+        "O12",
+        "Q11"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O13/P12/P11与白O12/N12/O9/Q9形成典型攻防结构，白已围出可观外势，黑三子未净活，Q11为唯一腾挪点。",
+      "shapes": [
+        "attacking_form",
+        "weak_group"
+      ],
+      "local_tags": [
+        "外势围攻",
+        "未活孤棋"
+      ],
+      "key_points": [
+        "O13",
+        "P12",
+        "P11",
+        "O12",
+        "Q11"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑F3/G3与白E3/D3/C3/C4形成低位接触战，黑F4/E4已连络，但黑G3无直接支撑，白H2/H3为坚实根基。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "低位定式",
+        "根基稳固"
+      ],
+      "key_points": [
+        "F3",
+        "F4",
+        "E3",
+        "H2"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下黑N5刚落子，与白M4/O4/P4/Q4形成横向对峙，黑L3/M3/N3被白N2/N3压制，黑N5孤立，白R5为潜在反击点。",
+      "shapes": [
+        "isolated_stone",
+        "horizontal_line"
+      ],
+      "local_tags": [
+        "孤子试探",
+        "横向压制"
+      ],
+      "key_points": [
+        "N5",
+        "M4",
+        "O4",
+        "R5"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_controlling"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑Q6/R6/R11与白P4/Q4/R5/R8/O9形成大规模混战区，黑P7/N8与白O9/N10/O12构成生死边界，白棋在此处实地领先明显。",
+      "shapes": [
+        "life_death_boundary",
+        "territory_lead"
+      ],
+      "local_tags": [
+        "生死边界",
+        "实地领先"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "O9",
+        "N10"
+      ],
+      "group_status": [
+        "black_struggling",
+        "white_advantaged"
+      ]
+    }
+  ]
+}

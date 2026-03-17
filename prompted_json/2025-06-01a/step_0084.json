@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_083",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 83,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "B3"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      },
+      {
+        "color": 1,
+        "point": "F5"
+      },
+      {
+        "color": 0,
+        "point": "E7"
+      },
+      {
+        "color": 1,
+        "point": "F2"
+      }
+    ],
+    "black_stones": [
+      "F2",
+      "Q2",
+      "R2",
+      "C3",
+      "F3",
+      "N3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E2",
+      "B3",
+      "E3",
+      "P3",
+      "R3",
+      "C4",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "B5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "H7"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "H7点位试探"
+    ],
+    "global_summary_cn": "第83手，黑方刚于F2落子，白方即将在H7应手。当前局面黑棋在左上、中腹及右下形成多块潜力，白棋则在右上、中右及下边构筑厚势；双方在中央与边路交界处存在数处未定型战斗，H7是影响中腹与右边势力消长的关键点。",
+    "phase_explanation": "中盘后期，局部战斗密集但尚未进入收官。双方均保留多个可选方向：黑可侵消白中右厚势，白可压制黑右下孤棋或加强自身中央联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋C11-C15连片，白棋B16、C13、C10构成封锁链，局部呈对杀雏形。",
+      "shapes": [
+        "line",
+        "ladder"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白封锁",
+        "对杀未定"
+      ],
+      "key_points": [
+        "C13",
+        "C11",
+        "B16"
+      ],
+      "group_status": [
+        "alive",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋R9、Q16-R17与黑Q16-P17对峙，右上角基本安定但外势延伸至中央。",
+      "shapes": [
+        "wall",
+        "territory"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑实空",
+        "角地已定"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "R9"
+      ],
+      "group_status": [
+        "alive",
+        "secure"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑S7-S8、Q7与白R7-R8、R9形成接触战，黑有向上出头意图，白借R线施压。",
+      "shapes": [
+        "contact",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "接触战",
+        "黑出头",
+        "白压迫"
+      ],
+      "key_points": [
+        "S7",
+        "R7",
+        "Q7"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑D10、E14-F14与白C9、C10、C13构成中腹左侧牵制网，黑棋试图切断白联络。",
+      "shapes": [
+        "cut",
+        "influence"
+      ],
+      "local_tags": [
+        "黑切断意图",
+        "白联络薄弱",
+        "中腹影响力"
+      ],
+      "key_points": [
+        "D10",
+        "C9",
+        "E14"
+      ],
+      "group_status": [
+        "unsettled",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "黑白交错密集：G7、F5、E7、F2等构成中央扭杀核心，H7为待落关键点，影响全局厚薄。",
+      "shapes": [
+        "knight_move",
+        "net",
+        "vital_point"
+      ],
+      "local_tags": [
+        "扭杀中心",
+        "H7为急所",
+        "厚薄转换点"
+      ],
+      "key_points": [
+        "H7",
+        "G7",
+        "E7"
+      ],
+      "group_status": [
+        "critical",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白P3-Q6、N7、P7与黑O5-P5、Q3-R4形成右中腹拉锯，白厚势包围黑数子但未净杀。",
+      "shapes": [
+        "surround",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑弃子争先",
+        "外围作战"
+      ],
+      "key_points": [
+        "P6",
+        "Q5",
+        "O5"
+      ],
+      "group_status": [
+        "alive",
+        "sacrificed"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑B3、C3、B4、C5-D5与白B3、E2-E3、C4-D4激烈对峙，黑F2新落子强化此处，白B5略显孤立。",
+      "shapes": [
+        "corner_fight",
+        "connection"
+      ],
+      "local_tags": [
+        "角部激战",
+        "黑强化",
+        "白孤子"
+      ],
+      "key_points": [
+        "B3",
+        "F2",
+        "B5"
+      ],
+      "group_status": [
+        "unsettled",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F3-F6、G6与白E3、E6、F7形成中下腹复杂纠缠，黑F2为最新打入，白需应对。",
+      "shapes": [
+        "invasion",
+        "counter_invasion"
+      ],
+      "local_tags": [
+        "黑打入",
+        "白反制",
+        "下边未定"
+      ],
+      "key_points": [
+        "F2",
+        "G6",
+        "F7"
+      ],
+      "group_status": [
+        "unsettled",
+        "invasion"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑Q2-R6与白P3-R3、Q4-R4、P6-Q6构成右下大战场，黑有做活潜力，白意在围歼。",
+      "shapes": [
+        "life_and_death",
+        "semeai"
+      ],
+      "local_tags": [
+        "右下死活题",
+        "黑眼位不足",
+        "白包围圈"
+      ],
+      "key_points": [
+        "Q2",
+        "R6",
+        "P6"
+      ],
+      "group_status": [
+        "unsettled",
+        "semeai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_011",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 11,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "R4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C14"
+      },
+      {
+        "color": 1,
+        "point": "L17"
+      },
+      {
+        "color": 0,
+        "point": "Q5"
+      },
+      {
+        "color": 1,
+        "point": "R5"
+      },
+      {
+        "color": 0,
+        "point": "R6"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R4",
+      "R5",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "R6",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fight",
+      "side_invasion"
+    ],
+    "strategic_focus": [
+      "right_side_pressure",
+      "center_influence",
+      "black_group_vulnerability"
+    ],
+    "global_summary_cn": "黑棋在右下角形成小飞挂后连续打入，白棋以双飞燕应对；当前黑棋R4一子与R5、R6构成局部对杀雏形，Q6为关键扳点；左上黑棋L17与F17呼应但联络薄弱；中腹尚无明显势力。",
+    "phase_explanation": "第11手，开局阶段，双方在右下角展开激烈接触战，黑棋试图扩张边空，白棋积极反击并试探黑棋右下结构弱点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋F17、L17两子呈斜跳布局，尚未连通，存在被分断风险；白棋D16为高夹试探。",
+      "shapes": [
+        "diagonal_jump"
+      ],
+      "local_tags": [
+        "loose_connection",
+        "potential_cut"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "D16"
+      ],
+      "group_status": [
+        "weak_link"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属未开发区域，未来可能成为双方势力延伸方向。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_influence_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "空旷，仅白棋D4位于右上角星位下方，孤立无援，暂无战略意义。",
+      "shapes": [],
+      "local_tags": [
+        "isolated",
+        "quiet"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "single_stone"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，黑棋C14为高位拆二，意图向中腹发展；白棋无应手，此地暂属黑势辐射区。",
+      "shapes": [
+        "high_pincer_setup"
+      ],
+      "local_tags": [
+        "development_start",
+        "asymmetric_balance"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": [
+        "developing"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何棋子，是未来双方争夺焦点，当前为战略真空带。",
+      "shapes": [],
+      "local_tags": [
+        "vacant",
+        "future_battlefield"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右下角激战核心区：黑Q3、R4、R5、R16与白Q5、R6、D4形成复杂纠缠；Q6为待落关键点，关系局部生死。",
+      "shapes": [
+        "ladder_shape",
+        "net_pattern"
+      ],
+      "local_tags": [
+        "life_death",
+        "urgent_point",
+        "tension_peak"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "R6",
+        "Q6"
+      ],
+      "group_status": [
+        "fighting",
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "空旷，无子，属冷区，尚未进入双方视野。",
+      "shapes": [],
+      "local_tags": [
+        "silent",
+        "inactive"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，与中腹连成大片空白，未来或成厚势构建基础。",
+      "shapes": [],
+      "local_tags": [
+        "foundation_zone",
+        "open_space"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R16为低位守角，白棋无对应配置；该角结构完整但缺乏后续压迫，略显平淡。",
+      "shapes": [
+        "low_enclosure"
+      ],
+      "local_tags": [
+        "stable",
+        "passive"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

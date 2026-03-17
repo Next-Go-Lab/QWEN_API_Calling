@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_062",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 62,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "G9"
+      },
+      {
+        "color": 1,
+        "point": "D6"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      },
+      {
+        "color": 1,
+        "point": "C8"
+      },
+      {
+        "color": 0,
+        "point": "B7"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D6",
+      "E7",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "B8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋求活"
+    ],
+    "strategic_focus": [
+      "右下角对杀未定",
+      "中央黑棋大龙未净活",
+      "白棋中腹潜力"
+    ],
+    "global_summary_cn": "第62手，轮黑方行棋。当前局面处于中盘关键阶段，右下角（B7-C8-D8-C7-B8）形成复杂对杀，黑棋试图做眼求活，白棋占据外势并伺机收紧。中央黑棋大龙（D11-E11-F11-D12-E12-F10）尚未安定，白棋在E9、G9、D10、E10构成封锁网。左上与右上黑棋实地较厚，但白棋在右中腹（Q5-Q6-R6-P6）有成空潜力。",
+    "phase_explanation": "中盘攻防转换期：黑方刚于B7落子试图加固右下，白方上一手C8已埋下对杀伏笔；全局无明显收官迹象，胜负焦点集中于右下生死劫与中央黑大龙安危。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋实地稳固（O3、Q3、R4、R5），白棋无侵入，属黑优势区域。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑实地",
+        "安定",
+        "无战斗"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方平淡布子，黑J15、H16、K16与白K15、M15、L12略呈对峙，但未形成激烈接触。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "平稳",
+        "未接触"
+      ],
+      "key_points": [
+        "H16",
+        "J15",
+        "K16",
+        "K15",
+        "M15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上黑棋厚实（Q13、Q14、Q17、R16），白P16、P17、P14略作压缩但未破空，黑势占优。",
+      "shapes": [
+        "side",
+        "territory"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "实空",
+        "白难侵"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "Q17",
+        "R16",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋（C10、C12、C13、D13、D14、C14、B13、B12、B11）与白棋（C4、D4、C7、C8、B7）形成纵向纠缠，尤以C7–C8–B7–C11–C12一线为攻防主轴。",
+      "shapes": [
+        "ladder",
+        "connection"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "黑棋联络待确认",
+        "白棋断点密集"
+      ],
+      "key_points": [
+        "B7",
+        "C7",
+        "C8",
+        "B11",
+        "C11",
+        "C12",
+        "C13",
+        "D13"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋大龙（D11–E11–F11–D12–E12–F10）被白E9、G9、D10、E10、C14包围，眼位不足，面临强攻。",
+      "shapes": [
+        "dragon",
+        "surrounding"
+      ],
+      "local_tags": [
+        "黑大龙危急",
+        "白封锁圈初成",
+        "需做眼或突围"
+      ],
+      "key_points": [
+        "D11",
+        "E11",
+        "F11",
+        "D12",
+        "E12",
+        "F10",
+        "E9",
+        "G9",
+        "D10",
+        "E10"
+      ],
+      "group_status": [
+        "unsettled",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹白棋（Q5、Q6、R6、Q10、P14）呈张势，黑Q13–Q14–J14–K14略作呼应，但白有向中腹扩张空间。",
+      "shapes": [
+        "framework",
+        "influence"
+      ],
+      "local_tags": [
+        "白模地",
+        "黑薄味残留",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "Q10",
+        "P14",
+        "Q13",
+        "J14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D18、F17、L17与白F3、C4、D4构成低段配置，黑棋稍厚但未围空，白棋亦未深入，属缓战区。",
+      "shapes": [
+        "corner",
+        "balance"
+      ],
+      "local_tags": [
+        "均势",
+        "未定型",
+        "低效交换"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "L17",
+        "F3",
+        "C4",
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑E7、D6与白E8、D4、C4形成局部接触，黑E7–D6–C7–B7–C8构成右下对杀核心，此处为全盘最紧要战场。",
+      "shapes": [
+        "life_and_death",
+        "sacrifice"
+      ],
+      "local_tags": [
+        "对杀焦点",
+        "B8为紧气要点",
+        "黑需争先做眼"
+      ],
+      "key_points": [
+        "E7",
+        "D6",
+        "E8",
+        "C7",
+        "B7",
+        "C8",
+        "D8",
+        "B8"
+      ],
+      "group_status": [
+        "critical",
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋（B7、C7、E8、E9、G9）与黑（C8、D8、D7?缺失→实际无D7）形成不规则对杀形状，黑仅两口气（B8、A7），白若抢占B8则黑危。",
+      "shapes": [
+        "semeai",
+        "liberty_race"
+      ],
+      "local_tags": [
+        "紧气战",
+        "B8为天王山",
+        "黑一气之差"
+      ],
+      "key_points": [
+        "B7",
+        "C7",
+        "E8",
+        "E9",
+        "G9",
+        "C8",
+        "D8",
+        "B8"
+      ],
+      "group_status": [
+        "critical",
+        "one_liberty"
+      ]
+    }
+  ]
+}

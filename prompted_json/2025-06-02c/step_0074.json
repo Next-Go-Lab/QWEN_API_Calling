@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_073",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 73,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "B4"
+      },
+      {
+        "color": 1,
+        "point": "G7"
+      },
+      {
+        "color": 0,
+        "point": "F12"
+      },
+      {
+        "color": 1,
+        "point": "G12"
+      },
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "G14"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "G12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "左上黑空潜力"
+    ],
+    "global_summary_cn": "第73手，白方刚于G14落子，黑方即将在G11补强中央联络。全局呈现白棋占据外势、黑棋多方侵消态势；右下F12–G14一带形成激烈接触战，左上O3–Q3–R4–R5构成黑棋厚势但尚未围空，左下B4–D4–C5–B6–C6等密集白子构筑坚实模样。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开攻防：右下角（F12–G14）为最新交战焦点；中央（E10–G12）黑棋数子与白棋形成对峙；左上黑棋大块虽厚但缺乏明确眼位；白棋在左下和中腹拥有连贯厚势，具备潜在攻击与转换空间。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋O3、Q3、R4、R5构成高位厚势，白棋B6、C6、B7、C7贴身压迫，存在攻防未定。",
+      "shapes": [
+        "corner_influence",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "高位厚势",
+        "白棋贴身"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "B6",
+        "C6",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋Q5、Q6、R6、Q10、Q13、Q14、Q17呈纵贯右侧之势；黑棋P14、P16、P17与之呼应，但未形成稳固根据地。",
+      "shapes": [
+        "side_framework",
+        "floating_group"
+      ],
+      "local_tags": [
+        "白棋右侧模様",
+        "黑棋轻灵侵消"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "Q10",
+        "Q13",
+        "Q14",
+        "P14",
+        "P16",
+        "P17",
+        "R12",
+        "R16"
+      ],
+      "group_status": [
+        "white_framework",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋K16、J15、H16与白棋K15、M15、L12形成中腹上部对峙；K14白子切入黑阵，威胁未安定。",
+      "shapes": [
+        "central_confrontation",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "中腹对峙",
+        "K14入侵"
+      ],
+      "key_points": [
+        "K16",
+        "J15",
+        "H16",
+        "K15",
+        "M15",
+        "L12",
+        "K14"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_invading"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹D10–E12一带黑白交错密集：白棋D10、E10、E12、D12；黑棋D11、E11、F11、C12、G12，G14最新打入，局面胶着。",
+      "shapes": [
+        "contact_fight",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "右下接触战",
+        "G14新点"
+      ],
+      "key_points": [
+        "D10",
+        "E10",
+        "D11",
+        "E11",
+        "F11",
+        "C12",
+        "D12",
+        "E12",
+        "G12",
+        "F12",
+        "G14",
+        "F13"
+      ],
+      "group_status": [
+        "mutual_weakness",
+        "recent_battle"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷但张力十足：黑棋G7、G12、G14纵向成线，白棋E9、G9、E8呼应；G11为黑方关键补棋点，关乎联络与眼形。",
+      "shapes": [
+        "vertical_line",
+        "vital_point"
+      ],
+      "local_tags": [
+        "G11要冲",
+        "中央联络"
+      ],
+      "key_points": [
+        "G7",
+        "E8",
+        "G9",
+        "E9",
+        "G12",
+        "G14",
+        "G11"
+      ],
+      "group_status": [
+        "black_line",
+        "vital_point_pending"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹M13、L12、K14、K15、M15构成黑白交错带；黑棋M13孤立，白棋L12–K14–K15形成攻击阵型。",
+      "shapes": [
+        "attack_shape",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "M13孤棋",
+        "白棋攻击流"
+      ],
+      "key_points": [
+        "M13",
+        "L12",
+        "K14",
+        "K15",
+        "M15",
+        "J14",
+        "K16"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_attacking"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角B4–D4–C5–B6–C4–D6–C6–D7–E7–C8–D8–B8–C10–D11等高度密集，白棋根基扎实，黑棋多处薄味。",
+      "shapes": [
+        "dense_cluster",
+        "foundation"
+      ],
+      "local_tags": [
+        "白棋坚实根基",
+        "黑棋薄味残留"
+      ],
+      "key_points": [
+        "B4",
+        "C4",
+        "D4",
+        "C5",
+        "B6",
+        "C6",
+        "D6",
+        "D7",
+        "E7",
+        "B8",
+        "C8",
+        "D8",
+        "C10",
+        "D11"
+      ],
+      "group_status": [
+        "white_foundation",
+        "black_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "中下腹F17、L17、Q17、F15、D16、P16等星罗棋布；黑棋F17、L17与白棋P16、D16形成远距离呼应，尚未定型。",
+      "shapes": [
+        "scattered_groups",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "中下分散布局",
+        "潜在眼位争夺"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "Q17",
+        "F15",
+        "D16",
+        "P16",
+        "E11",
+        "F12"
+      ],
+      "group_status": [
+        "unconnected",
+        "eye_space_unclear"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角E3–F3–Q3–R3为空点，但实际被白棋F3、Q3、Q5、R6包围；黑棋R4、R5、Q14、R16试图侵分，尚未深入。",
+      "shapes": [
+        "perimeter_control",
+        "shallow_invasion"
+      ],
+      "local_tags": [
+        "白棋外围控制",
+        "黑棋浅侵"
+      ],
+      "key_points": [
+        "F3",
+        "Q3",
+        "Q5",
+        "R6",
+        "R4",
+        "R5",
+        "Q14",
+        "R16"
+      ],
+      "group_status": [
+        "white_perimeter",
+        "black_shallow"
+      ]
+    }
+  ]
+}

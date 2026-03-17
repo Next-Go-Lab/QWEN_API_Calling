@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_087",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 87,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J11"
+      },
+      {
+        "color": 1,
+        "point": "J12"
+      },
+      {
+        "color": 0,
+        "point": "K12"
+      },
+      {
+        "color": 1,
+        "point": "J10"
+      },
+      {
+        "color": 0,
+        "point": "K11"
+      },
+      {
+        "color": 1,
+        "point": "G13"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "G13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央厚势构建",
+      "左上实地争夺"
+    ],
+    "global_summary_cn": "第87手，轮白（Ueno Risa）行棋，局面进入中盘关键阶段。白棋在右下与中央形成厚势，黑棋多处孤棋需处理；近期连续在J11–K12一带展开短兵相接，G13为最新一手，意在扩张中央影响力并牵制黑棋右中腹联络。全局白棋实地稍优，黑棋需借攻击寻求转换。",
+    "phase_explanation": "中盘阶段，双方在多个局部激烈接触，尚未进入明显收官，但白棋已掌握主动权，黑棋面临治孤与反击的双重压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，B4/C4/C5/B6/B7/C7等白子构成坚实外势，黑B5/C6/D6/D7/E7等呈小堡垒结构，暂无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "白外势",
+        "黑实空"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "C6"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，仅Q5/Q6/R6/R5等零星子力，黑Q3/Q13/R4/R12、白Q5/Q6/Q10/P14/P16等呈断续分布，未形成明确势力范围。",
+      "shapes": [
+        "sparse"
+      ],
+      "local_tags": [
+        "空旷",
+        "潜在大场",
+        "未定型"
+      ],
+      "key_points": [
+        "Q5",
+        "Q10",
+        "P14"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋占据R16/K16/H16/Q17等高位，白P16/P17/D16形成低位呼应；黑Q13/Q14/R12与白Q10/P14构成斜向对峙，存在打入或侵消可能。",
+      "shapes": [
+        "diagonal_tension"
+      ],
+      "local_tags": [
+        "高位布局",
+        "对角牵制",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "R16",
+        "Q13",
+        "P14"
+      ],
+      "group_status": [
+        "influential",
+        "semi_loose"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹以黑C10/D11/E11/F11/G11/H11及白D10/E10/H10为主战场，黑棋呈纵向厚势但略显凝重，白棋在C11/B11/B12/D12等处构筑弹性防线。",
+      "shapes": [
+        "vertical_chain",
+        "wall_vs_wall"
+      ],
+      "local_tags": [
+        "中腹对峙",
+        "厚薄对比",
+        "白棋弹性"
+      ],
+      "key_points": [
+        "C10",
+        "D11",
+        "D10",
+        "C11"
+      ],
+      "group_status": [
+        "thick",
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域密集交战：J10/J11/J12/K11/K12/G13等六手连环落子，黑J10/J12/G13与白J11/K11/K12形成‘十字绞杀’态势，G13为最新一手，强化黑中央联络但暴露侧翼。",
+      "shapes": [
+        "cross_fight",
+        "recent_battle"
+      ],
+      "local_tags": [
+        "主战场",
+        "连续手",
+        "联络与切断"
+      ],
+      "key_points": [
+        "J10",
+        "J11",
+        "J12",
+        "K11",
+        "K12",
+        "G13"
+      ],
+      "group_status": [
+        "fighting",
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑F14/G14/J14/K14与白K14/K15/L12/F13等交错，黑棋试图向右渗透，白棋以K14/K15为支点反制；F6为政策目标点，暗示此处存有潜在腾挪或分断机会。",
+      "shapes": [
+        "interlocking",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "渗透试探",
+        "支点对抗",
+        "政策目标区"
+      ],
+      "key_points": [
+        "F6",
+        "F14",
+        "K14",
+        "K15"
+      ],
+      "group_status": [
+        "unsettled",
+        "tenuki_candidate"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D18/C15/C14/D14与白C15/D16/B13/B12/C11等形成低地拉锯，黑棋实地稍丰但结构松散，白棋保留E13等打入手段。",
+      "shapes": [
+        "low_side_fight"
+      ],
+      "local_tags": [
+        "实地争夺",
+        "低位缠斗",
+        "打入预备"
+      ],
+      "key_points": [
+        "D18",
+        "C15",
+        "D16",
+        "B13"
+      ],
+      "group_status": [
+        "territorial",
+        "weak_eye"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E7/G7/F9/G9/H9与白F3/E8/E9等构成典型‘高低配合’，黑子偏高，白子偏低，双方均未完全安定；E7/G7为黑厚势基点，F9/G9为白轻灵跳点。",
+      "shapes": [
+        "high_low_balance"
+      ],
+      "local_tags": [
+        "高低配合",
+        "厚势基点",
+        "轻灵跳点"
+      ],
+      "key_points": [
+        "E7",
+        "G7",
+        "F9",
+        "G9"
+      ],
+      "group_status": [
+        "thick",
+        "light"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑O3/Q3/R4/R5与白F3/Q5/Q6/R6等形成大规模接触战，黑棋试图围空，白棋积极侵分；R4/R5/Q6等构成典型‘双飞燕’变体延伸，胜负关键所在。",
+      "shapes": [
+        "contact_fight",
+        "enclosure_vs_invasion"
+      ],
+      "local_tags": [
+        "主攻防区",
+        "双飞燕延伸",
+        "胜负手集中"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "critical",
+        "unstable"
+      ]
+    }
+  ]
+}

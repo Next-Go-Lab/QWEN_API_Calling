@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_207",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 207,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F1"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M7"
+      },
+      {
+        "color": 1,
+        "point": "H5"
+      },
+      {
+        "color": 0,
+        "point": "B1"
+      },
+      {
+        "color": 1,
+        "point": "C1"
+      },
+      {
+        "color": 0,
+        "point": "B2"
+      },
+      {
+        "color": 1,
+        "point": "F1"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "K10",
+      "M10",
+      "C11",
+      "D11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "B12",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "K9",
+      "M9",
+      "O9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "B11",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "D9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_solved"
+    ],
+    "strategic_focus": [
+      "bottom_edge_control",
+      "center_influence_conversion",
+      "right_side_semi_alive_group"
+    ],
+    "global_summary_cn": "黑棋以0.5目优势领先，进入收官阶段；右下角白棋大龙已活但实地受损，左下黑棋厚势围空充分，中腹双方无明显未定形区域，全局仅存细微官子。",
+    "phase_explanation": "第207手为白方（Ueno Asami）在F1位小尖收官，属典型终局补棋；黑棋上一手M7为压缩白右下潜力之关键官子，当前局面胜负已定，剩余官子价值均小于0.5目。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑白交错，白棋B4-C4-D4-E4连片厚势，黑棋C1-C3-D3-D5等呈低位拆二结构，无战斗，属安定外势区。",
+      "shapes": [
+        "line",
+        "wall"
+      ],
+      "local_tags": [
+        "white_wall",
+        "black_low_extension"
+      ],
+      "key_points": [
+        "B4",
+        "D3",
+        "C1"
+      ],
+      "group_status": [
+        "alive",
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q16-R16-S16与白棋O15-P15-Q15形成对峙，黑棋稍厚但未深入，白棋有P16断点隐患。",
+      "shapes": [
+        "edge_line",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "black_edge_pressure",
+        "white_weak_point"
+      ],
+      "key_points": [
+        "Q16",
+        "P16",
+        "O15"
+      ],
+      "group_status": [
+        "unsettled",
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R19+S18+Q17与白棋K19+M19+Q17附近形成复杂接触，但Q17为共用眼位，双方均放弃强攻，属双活边缘。",
+      "shapes": [
+        "shared_eye",
+        "border_contact"
+      ],
+      "local_tags": [
+        "mutual_life_candidate",
+        "quiet_settlement"
+      ],
+      "key_points": [
+        "R19",
+        "Q17",
+        "M19"
+      ],
+      "group_status": [
+        "seki_pending"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋B12-C11-D11-D13与白棋B11-C10-B10构成典型‘双飞燕’后续定式残局，黑棋厚实，白棋仅存小块孤棋。",
+      "shapes": [
+        "classic_pattern",
+        "thick_vs_light"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_light_group"
+      ],
+      "key_points": [
+        "B12",
+        "C11",
+        "B10"
+      ],
+      "group_status": [
+        "alive",
+        "light"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带空旷，黑棋G9-L9-N9与白棋K8-M8-K10形成松散对峙，无直接接触，属影响力辐射区，无生死问题。",
+      "shapes": [
+        "influence_zone",
+        "no_contact"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_balance"
+      ],
+      "key_points": [
+        "K9",
+        "M8",
+        "G9"
+      ],
+      "group_status": [
+        "alive",
+        "neutral"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋J16-L16-P16与白棋K15-O15-P15形成大模样对消，黑棋P16为关键守角点，白棋O15略显重复。",
+      "shapes": [
+        "moyo_vs_counter",
+        "corner_anchor"
+      ],
+      "local_tags": [
+        "black_corner_security",
+        "white_overconcentrated"
+      ],
+      "key_points": [
+        "P16",
+        "O15",
+        "J16"
+      ],
+      "group_status": [
+        "alive",
+        "efficient"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B1-C1-D1-E1-F1-F2-F3与白棋B2-B3-C4构成经典‘无忧角’破法变体，黑棋已成坚实实地，白棋仅余B1/B2两子单官收束。",
+      "shapes": [
+        "solid_territory",
+        "finished_sequence"
+      ],
+      "local_tags": [
+        "black_territory",
+        "white_dead_stones"
+      ],
+      "key_points": [
+        "F1",
+        "B1",
+        "C4"
+      ],
+      "group_status": [
+        "alive",
+        "fully_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑棋M7+N7+Q7与白棋M7（黑占）+N7（白占）+P7形成局部劫争遗留点，但因全局目差锁定，此劫已无实战价值，属‘虚劫’。",
+      "shapes": [
+        "dormant_ko",
+        "no_value_point"
+      ],
+      "local_tags": [
+        "ko_dormant",
+        "endgame_irrelevant"
+      ],
+      "key_points": [
+        "M7",
+        "N7",
+        "P7"
+      ],
+      "group_status": [
+        "settled",
+        "no_threat"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为本局最大未净活区域：黑棋R3-S3-S4-R4-R5与白棋R3-R4-R5-Q4-Q5-P5形成‘大猪嘴’雏形，黑棋H5-J5-G5等外围厚势压迫，白棋需D9（target）补活，否则面临杀棋。",
+      "shapes": [
+        "big_pig_snout",
+        "vital_point_dependency"
+      ],
+      "local_tags": [
+        "life_and_death_critical",
+        "target_dependent"
+      ],
+      "key_points": [
+        "R3",
+        "S4",
+        "H5",
+        "D9"
+      ],
+      "group_status": [
+        "unstable",
+        "needs_vital_point"
+      ]
+    }
+  ]
+}

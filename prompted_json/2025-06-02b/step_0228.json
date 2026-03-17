@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_227",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 227,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "T7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "E5"
+      },
+      {
+        "color": 0,
+        "point": "D5"
+      },
+      {
+        "color": 1,
+        "point": "F16"
+      },
+      {
+        "color": 0,
+        "point": "S7"
+      },
+      {
+        "color": 1,
+        "point": "T7"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "E2",
+      "G2",
+      "J2",
+      "K2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "G9",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "T12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "B1",
+      "K1",
+      "C2",
+      "D2",
+      "L2",
+      "P2",
+      "D3",
+      "E3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "C4",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "D5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "F9",
+      "J9",
+      "K9",
+      "M9",
+      "N9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "Q14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_right_eye_space",
+      "center_influence_contest",
+      "top_side_sente_reduction"
+    ],
+    "global_summary_cn": "全局进入收官关键阶段，黑方以T7一子强化右下角实地并制造白棋眼位缺陷；白方F17为典型逆收兼试探性侵消，意图搅乱黑方中腹潜力。双方在右下、中腹及右上存在多处未定形局部，胜负取决于细微目数与劫材储备。",
+    "phase_explanation": "第227手，黑方刚落子T7，白方即将在F17应手。局面属官子后期，多数大场已定，剩余要点集中于边角细微出入、死活余味及劫争控制。黑棋稍优但未锁定胜势，白棋需借F17等手段寻求逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白B1/A10/B13/C13构成厚势，黑C2/B3/C3/B4形成小堡垒，无激烈冲突。",
+      "shapes": [
+        "corner_enclosure",
+        "small_eyeshape"
+      ],
+      "local_tags": [
+        "settled",
+        "white_thickness"
+      ],
+      "key_points": [
+        "B1",
+        "C2",
+        "B3",
+        "C3",
+        "B4"
+      ],
+      "group_status": [
+        "alive",
+        "no_liberties_issue"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段呈对攻残局：黑E17/G17/Q17与白B17/D17/J17/R17交错，Q16/H16/F16为黑厚势支点，白S18/T19/S19构成边空雏形。",
+      "shapes": [
+        "side_framework",
+        "floating_group"
+      ],
+      "local_tags": [
+        "unsettled",
+        "mutual_influence"
+      ],
+      "key_points": [
+        "E17",
+        "G17",
+        "Q17",
+        "F16",
+        "H16",
+        "Q16",
+        "S18",
+        "T19"
+      ],
+      "group_status": [
+        "potentially_vulnerable",
+        "needs_connection"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16/Q17/R17与白R16/S16/S17/T17形成复杂接触战，黑F17为最新打入点，直指白棋眼位薄弱处。",
+      "shapes": [
+        "invasion",
+        "eye_shape_pressure"
+      ],
+      "local_tags": [
+        "critical_invasion",
+        "life_and_death"
+      ],
+      "key_points": [
+        "F17",
+        "Q16",
+        "Q17",
+        "R17",
+        "R16",
+        "S16",
+        "T17"
+      ],
+      "group_status": [
+        "under_attack",
+        "unclear_life_status"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑B10/C10/D12/C12与白A10/C13/B13形成低空对峙，黑D13/E14/F14与白C15/D16/E16构成斜向缠斗，局部有打劫余味。",
+      "shapes": [
+        "ladder_fragment",
+        "potential_ko"
+      ],
+      "local_tags": [
+        "ko_threat",
+        "ladder_related"
+      ],
+      "key_points": [
+        "B10",
+        "C10",
+        "D12",
+        "C12",
+        "D13",
+        "E14",
+        "F14",
+        "C15",
+        "D16"
+      ],
+      "group_status": [
+        "ko_pending",
+        "partially_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央地带黑E5/F5/G5/H5/J5/K5与白E3/F3/G4/H4/L5/M5/O5形成大范围势力交织，黑K10/L10/M10/N10/O10与白J10/N10/K12/M12构成中腹厚薄对比。",
+      "shapes": [
+        "central_influence",
+        "thickness_vs_lightness"
+      ],
+      "local_tags": [
+        "influence_battle",
+        "potential_eye_steal"
+      ],
+      "key_points": [
+        "E5",
+        "F5",
+        "G5",
+        "H5",
+        "J5",
+        "K5",
+        "K10",
+        "L10",
+        "M10",
+        "N10",
+        "O10",
+        "J10",
+        "N10"
+      ],
+      "group_status": [
+        "influential",
+        "not_fully_secure"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P8/Q8/R8/S8与白Q8/P9/Q9/R9/S9形成高低配合，黑R11/P11/O11与白O12/P12/Q12构成局部对杀前兆，黑T7刚落子强化此侧。",
+      "shapes": [
+        "side_wall",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "recent_move_impact",
+        "territory_defense"
+      ],
+      "key_points": [
+        "P8",
+        "Q8",
+        "R8",
+        "S8",
+        "Q9",
+        "R9",
+        "S9",
+        "R11",
+        "P11",
+        "O11",
+        "T7"
+      ],
+      "group_status": [
+        "strengthened_by_last_move",
+        "locally_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B2/B3/B4/C3与白B1/C2/D2/D3/E3形成经典低位定式余味，黑C6/D7与白D6/E6/F6构成小规模攻防，已大致安定。",
+      "shapes": [
+        "low_corner",
+        "settled_framework"
+      ],
+      "local_tags": [
+        "settled",
+        "minimal_liberties_risk"
+      ],
+      "key_points": [
+        "B2",
+        "B3",
+        "B4",
+        "C3",
+        "C6",
+        "D7",
+        "D6",
+        "E6"
+      ],
+      "group_status": [
+        "alive",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F7/G7/H7/O7/R7与白E7/H7/J7/Q7形成密集接触，黑S6/T7与白S7构成右下角生死焦点，T7为黑方最新制胜手。",
+      "shapes": [
+        "life_and_death_core",
+        "eye_space_restriction"
+      ],
+      "local_tags": [
+        "decisive_move",
+        "vital_point"
+      ],
+      "key_points": [
+        "F7",
+        "G7",
+        "H7",
+        "O7",
+        "R7",
+        "S6",
+        "T7",
+        "S7",
+        "E7",
+        "J7"
+      ],
+      "group_status": [
+        "critical_eye_space",
+        "black_has_advantage"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑F8/H8/P8/S8/T7与白C8/E8/K8/L8/N8/Q8构成大型围空结构，黑T7彻底封锁白棋最后一口气，白仅存微弱做活可能。",
+      "shapes": [
+        "full_territory",
+        "final_enclosure"
+      ],
+      "local_tags": [
+        "sealed",
+        "near_endgame"
+      ],
+      "key_points": [
+        "F8",
+        "H8",
+        "P8",
+        "S8",
+        "T7",
+        "C8",
+        "E8",
+        "K8",
+        "L8",
+        "N8"
+      ],
+      "group_status": [
+        "dead_or_almost_dead",
+        "no_viable_eyes"
+      ]
+    }
+  ]
+}

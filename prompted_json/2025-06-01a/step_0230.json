@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_229",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 229,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "G2"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H14"
+      },
+      {
+        "color": 1,
+        "point": "J9"
+      },
+      {
+        "color": 0,
+        "point": "J8"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "H2"
+      },
+      {
+        "color": 1,
+        "point": "G2"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "J9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "H11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "H10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "K19",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_edge_invasion",
+      "center_eye_space",
+      "right_side_sente"
+    ],
+    "global_summary_cn": "全局进入收官尾声，黑棋以微弱优势领先；右下角存在未定死活的白棋大龙，黑棋在G2落子施加最后一击；中央与右上仍有细微官子争夺，F10为关键补棋点。",
+    "phase_explanation": "第229手，黑方行棋，局面处于终局收束阶段。双方大块均已成形，焦点集中于右下角白棋大龙的生死、中腹眼位争夺及边线官子效率。黑棋刚于G2断，配合H2、J8等子形成多重威胁，白棋若不应则面临崩溃风险。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋厚势完整，黑棋无侵入空间；A1–D4区域呈稳固守势，无激烈战斗。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "solid_wall",
+        "quiet"
+      ],
+      "key_points": [
+        "A4",
+        "B1",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段双方交错，黑棋Q16/R16/S16与白棋P16/Q17/R17形成对峙；存在小规模劫争余味。",
+      "shapes": [
+        "line",
+        "ladder_fragment"
+      ],
+      "local_tags": [
+        "border_tension",
+        "potential_ko"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "P16"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋C17–S18形成庞大外势，白棋K19/M19孤子受攻；黑棋掌握主动权。",
+      "shapes": [
+        "fan",
+        "influence_radius"
+      ],
+      "local_tags": [
+        "dominant_influence",
+        "attacking_base"
+      ],
+      "key_points": [
+        "K19",
+        "M19",
+        "R19"
+      ],
+      "group_status": [
+        "under_pressure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋B12–D15与白棋B10–C13构成缠斗；黑棋E11一子深入，牵制白棋多组。",
+      "shapes": [
+        "net",
+        "bridge"
+      ],
+      "local_tags": [
+        "central_infiltration",
+        "multi_group_interaction"
+      ],
+      "key_points": [
+        "E11",
+        "B12",
+        "D13"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，但黑棋G9/J9/L9/N9与白棋H7/K8/M9形成眼位博弈；F10为双方共认要点。",
+      "shapes": [
+        "eye_shape",
+        "vital_point_cluster"
+      ],
+      "local_tags": [
+        "life_and_death_core",
+        "vital_point_target"
+      ],
+      "key_points": [
+        "F10",
+        "G9",
+        "H7"
+      ],
+      "group_status": [
+        "critical_life"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋J14/L14与白棋H14/M14/N14激烈对杀；黑棋J12/L12支撑，白棋Q14为联络要津。",
+      "shapes": [
+        "crosscut",
+        "sacrifice_pattern"
+      ],
+      "local_tags": [
+        "mutual_life_threat",
+        "sacrificial_viability"
+      ],
+      "key_points": [
+        "H14",
+        "J14",
+        "Q14"
+      ],
+      "group_status": [
+        "unresolved"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋C1–F3与白棋B1–E2形成经典低地对峙；黑棋已活，白棋仅存浅薄潜力。",
+      "shapes": [
+        "territory_base",
+        "edge_stability"
+      ],
+      "local_tags": [
+        "secured_territory",
+        "low_efficiency_white"
+      ],
+      "key_points": [
+        "C1",
+        "E2",
+        "F3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋G2/H2/F2与白棋H2/J2形成断点密集区；G2为最新手，制造多重分断。",
+      "shapes": [
+        "cut",
+        "net_extension"
+      ],
+      "local_tags": [
+        "decisive_cut",
+        "endgame_decider"
+      ],
+      "key_points": [
+        "G2",
+        "H2",
+        "J2"
+      ],
+      "group_status": [
+        "killing_intent"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白棋J3–R4与黑棋K2–R3形成复杂死活；白棋大龙仅剩一气，黑棋G2+H2构成绝杀雏形。",
+      "shapes": [
+        "no_liberties_approaching",
+        "semeai"
+      ],
+      "local_tags": [
+        "semeai_final_stage",
+        "imminent_capture"
+      ],
+      "key_points": [
+        "G2",
+        "H2",
+        "J3"
+      ],
+      "group_status": [
+        "dying"
+      ]
+    }
+  ]
+}

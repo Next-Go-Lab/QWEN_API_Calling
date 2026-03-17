@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_089",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 89,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N15"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H10"
+      },
+      {
+        "color": 1,
+        "point": "J10"
+      },
+      {
+        "color": 0,
+        "point": "G10"
+      },
+      {
+        "color": 1,
+        "point": "L14"
+      },
+      {
+        "color": 0,
+        "point": "N13"
+      },
+      {
+        "color": 1,
+        "point": "N15"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "L14",
+      "N15",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "N13",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "K13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋优势",
+      "黑棋治孤"
+    ],
+    "strategic_focus": [
+      "右下大龙对杀",
+      "中央厚势构建",
+      "左上实地争夺"
+    ],
+    "global_summary_cn": "全局进入中盘关键阶段，白棋凭借右下N13、N15等连续压迫占据主动，黑棋在L14、N15处勉强成活但目数受损；中央黑棋厚势尚未转化为实利，白棋Q11、O12等子构筑稳固外势；左上C11-D11与D12形成小规模接触战，黑棋C7、D11与白棋C6、D6呈对峙态势。",
+    "phase_explanation": "第89手（黑方行棋）前，白棋刚落子N15完成对右下黑棋的强力压制，黑棋面临K13一选的治孤或反击要点。当前局面白棋胜率领先，黑棋需在中腹或左下寻求转换机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋C7、C11、D11与白棋C6、D6、C4形成低空对峙，黑棋有向E7、H9延伸意向，白棋D12构成潜在封锁点。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "对峙",
+        "低空争夺",
+        "未定型"
+      ],
+      "key_points": [
+        "C7",
+        "C11",
+        "D11",
+        "D12",
+        "C6",
+        "D6"
+      ],
+      "group_status": [
+        "黑棋两子孤立",
+        "白棋联络良好"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋H9、K9、R9与白棋K9、O9、Q9交错，黑棋R9与白棋Q9形成单关跳对峙；黑棋P11、R11与白棋Q11构成横向攻防线。",
+      "shapes": [
+        "side_line"
+      ],
+      "local_tags": [
+        "边线攻防",
+        "横向对峙",
+        "轻重未明"
+      ],
+      "key_points": [
+        "H9",
+        "K9",
+        "O9",
+        "P11",
+        "Q11",
+        "R11"
+      ],
+      "group_status": [
+        "黑棋P11-R11薄",
+        "白棋Q11为眼位要点"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q15、R16与白棋Q11、R12、R8构成斜向势力网，黑棋R16孤高，白棋R12、R8有向下渗透意图；Q15为黑棋最新拆二要点。",
+      "shapes": [
+        "diagonal_influence"
+      ],
+      "local_tags": [
+        "高位拆二",
+        "势力渗透",
+        "孤棋待援"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "R12",
+        "R8",
+        "Q11"
+      ],
+      "group_status": [
+        "黑棋R16无根",
+        "白棋R12-R8连贯"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋E7、E9、H11与白棋G9、G11、E11形成‘之’字形缠斗，黑棋E9-G9-H11呈跳攻姿态，白棋G11为关键联络点。",
+      "shapes": [
+        "zigzag"
+      ],
+      "local_tags": [
+        "缠斗",
+        "跳攻",
+        "联络要点"
+      ],
+      "key_points": [
+        "E7",
+        "E9",
+        "G9",
+        "G11",
+        "H11",
+        "E11"
+      ],
+      "group_status": [
+        "黑棋E9悬空",
+        "白棋G11活眼雏形"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，黑棋J10、L10、L14与白棋H10、J10、N10、N12、O12构成多层包围圈，K13为双方必争之眼位/破眼点，当前无子但战略权重极高。",
+      "shapes": [
+        "eye_point"
+      ],
+      "local_tags": [
+        "核心眼位",
+        "攻防枢纽",
+        "未落子要冲"
+      ],
+      "key_points": [
+        "K13",
+        "J10",
+        "L10",
+        "N10",
+        "O12",
+        "L14"
+      ],
+      "group_status": [
+        "黑棋L14受攻",
+        "白棋N12-O12厚势"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋N9、N8、O8、O7与白棋N7、O9、O10、N13、N15形成密集对杀带，N15为白棋最新强手，黑棋O8-N9气紧，存在被分断风险。",
+      "shapes": [
+        "fighting_chain"
+      ],
+      "local_tags": [
+        "对杀",
+        "气紧",
+        "分断威胁"
+      ],
+      "key_points": [
+        "N9",
+        "N8",
+        "O8",
+        "O7",
+        "N7",
+        "N13",
+        "N15"
+      ],
+      "group_status": [
+        "黑棋O7-O8弱",
+        "白棋N13-N15连贯"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋F3、J3、L3、M3、P3与白棋C3、D3、E3、H3、H2构成大模样对峙，黑棋L3-M3-P3呈双飞燕雏形，白棋H2-H3为低位守角。",
+      "shapes": [
+        "corner_pattern"
+      ],
+      "local_tags": [
+        "双飞燕雏形",
+        "低位守角",
+        "模样对抗"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "L3",
+        "M3",
+        "P3",
+        "C3",
+        "H2",
+        "H3"
+      ],
+      "group_status": [
+        "黑棋未封口",
+        "白棋根基扎实"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋E4、F4、K4、J5与白棋H4、M4、O4、H5、N6形成横向拉锯，黑棋K4-J5为跳守，白棋M4-O4为拆二扩张，实地与外势并存。",
+      "shapes": [
+        "side_expansion"
+      ],
+      "local_tags": [
+        "跳守",
+        "拆二扩张",
+        "实地vs外势"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "K4",
+        "J5",
+        "H4",
+        "M4",
+        "O4",
+        "N6"
+      ],
+      "group_status": [
+        "黑棋K4孤立",
+        "白棋M4-O4厚"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋Q6、R6、S8与白棋R5、Q7、R8、Q9、O10、N13、N15构成大型攻防战场，黑棋Q6-S8呈‘小猪嘴’雏形但气不足，白棋N15为致命一击，黑棋濒临净死。",
+      "shapes": [
+        "life_death"
+      ],
+      "local_tags": [
+        "小猪嘴雏形",
+        "净死危机",
+        "致命一击"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "S8",
+        "R5",
+        "Q7",
+        "R8",
+        "Q9",
+        "N13",
+        "N15"
+      ],
+      "group_status": [
+        "黑棋Q6-R6-S8气紧将死",
+        "白棋N13-N15铁壁"
+      ]
+    }
+  ]
+}

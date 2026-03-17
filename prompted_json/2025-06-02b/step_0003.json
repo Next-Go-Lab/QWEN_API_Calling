@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_002",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 2,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      }
+    ],
+    "black_stones": [
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "targets": {
+    "policy_target": "R4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "星位布局",
+      "小目应对"
+    ],
+    "strategic_focus": [
+      "角地争夺",
+      "外势构建"
+    ],
+    "global_summary_cn": "黑棋首手占右上角星位Q16，白棋第二手点左下角小目D4，形成典型开局对称布局；双方尚未展开接触战，全局空旷，重心在角部定式雏形。",
+    "phase_explanation": "序盘初期，仅两着落子，属布局试探阶段，双方分别占据对角星位与小目，为后续挂角、守角或拆边埋下伏笔。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋星位一子Q16，位于此区右下角附近，构成角部起点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑棋先着",
+        "角地"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋小目一子D4，位于此区左上角附近，构成另一角部起点。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "小目",
+        "白棋应手",
+        "角地"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "single"
+      ]
+    }
+  ]
+}

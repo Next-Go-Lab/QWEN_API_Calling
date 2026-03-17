@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_029",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 29,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F3"
+      },
+      {
+        "color": 1,
+        "point": "M13"
+      },
+      {
+        "color": 0,
+        "point": "K15"
+      },
+      {
+        "color": 1,
+        "point": "J15"
+      },
+      {
+        "color": 0,
+        "point": "K14"
+      },
+      {
+        "color": 1,
+        "point": "J14"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "F3",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "K14",
+      "P14",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "L12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "左上角白棋厚壁"
+    ],
+    "global_summary_cn": "第29手，轮白（Ueno Risa）行棋。黑棋在右上（J14-J15-K15-K14）与白棋形成激烈接触战，中央多子缠斗；黑棋L12为潜在打入点，意图侵消白棋中腹潜力。白棋在左上（D4、C14、D16）和右下（Q5-Q6-R6）构建厚势，黑棋则在右上角（Q13-Q14-Q17）、左下（O3-Q3-R4-R5）及中腹（M13、R12）分散布子，全局呈大模样对抗格局。",
+    "phase_explanation": "中盘阶段，双方在右上局部连续交换后进入中央主导权争夺，黑棋需处理J14附近数子联络与眼位，白棋借厚势向中腹施压，L12为关键胜负手候选点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋占据D4、C14、D16构成厚壁，黑棋F17、L17、Q17零星呼应，但白势完整，具外势辐射力。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "外势",
+        "白棋主导"
+      ],
+      "key_points": [
+        "D4",
+        "C14",
+        "D16"
+      ],
+      "group_status": [
+        "alive",
+        "thick"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q13、Q14、Q17与白棋P16、P17、Q10形成上下牵制，中腹尚未定型，存在劫争隐患。",
+      "shapes": [
+        "ladder",
+        "potential_eye"
+      ],
+      "local_tags": [
+        "对峙",
+        "未活净",
+        "劫材相关"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "P16",
+        "Q10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R12、R16与白棋Q5、Q6、R6构成角部与边路双重对抗，白棋边空雏形初现，黑棋有侵分可能。",
+      "shapes": [
+        "corner_enclosure",
+        "side_framework"
+      ],
+      "local_tags": [
+        "白模様",
+        "黑侵消点",
+        "边空未封"
+      ],
+      "key_points": [
+        "R12",
+        "R16",
+        "Q5",
+        "Q6"
+      ],
+      "group_status": [
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋M13、K16与白棋K14、K15、M15密集交战，形成典型‘十字’接触部，黑棋J14-J15为最新打入，局部生死未决。",
+      "shapes": [
+        "contact_fight",
+        "cross_shape"
+      ],
+      "local_tags": [
+        "主战场",
+        "紧气对杀",
+        "眼位紧张"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "K14",
+        "K15",
+        "M13"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，黑棋L12为本手目标，意在打入白棋中腹潜力区；白棋无子，但厚势辐射至此，L12若成立将严重削弱白棋全局厚味。",
+      "shapes": [
+        "invasion_point",
+        "potential_territory"
+      ],
+      "local_tags": [
+        "打入点",
+        "战略要冲",
+        "厚势破点"
+      ],
+      "key_points": [
+        "L12"
+      ],
+      "group_status": [
+        "empty"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白棋P14、M15与黑棋Q14、R12构成斜向对峙，P14为白棋联络兼守角要点，黑棋暂无强攻手段。",
+      "shapes": [
+        "diagonal_balance"
+      ],
+      "local_tags": [
+        "平衡点",
+        "联络要地",
+        "轻重兼顾"
+      ],
+      "key_points": [
+        "P14",
+        "M15",
+        "Q14"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋O3、Q3、R4、R5构成低位阵型，白棋F3单点应之，黑棋实地坚实但缺乏发展，属稳健守势。",
+      "shapes": [
+        "low_base",
+        "territorial_foundation"
+      ],
+      "local_tags": [
+        "实利",
+        "低位围空",
+        "安定"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "近乎空白，仅黑棋F3（白已占）与黑棋无子，属双方未来扩展缓冲带，当前无直接冲突。",
+      "shapes": [
+        "vacant"
+      ],
+      "local_tags": [
+        "待开发",
+        "中腹延伸区"
+      ],
+      "key_points": [],
+      "group_status": [
+        "empty"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋Q5、Q6、R6构筑坚实右下角，黑棋无有效侵入，白已确立小目守角+拆二结构，属典型安定角空。",
+      "shapes": [
+        "corner_enclosure",
+        "two_space_extension"
+      ],
+      "local_tags": [
+        "白角空",
+        "安定",
+        "无弱点"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    }
+  ]
+}

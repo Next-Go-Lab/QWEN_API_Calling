@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_041",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 41,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "G2"
+      },
+      {
+        "color": 1,
+        "point": "H2"
+      },
+      {
+        "color": 0,
+        "point": "F2"
+      },
+      {
+        "color": 1,
+        "point": "H6"
+      },
+      {
+        "color": 0,
+        "point": "A4"
+      },
+      {
+        "color": 1,
+        "point": "F6"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "H2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "F6",
+      "H6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "D3",
+      "A4",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上未定型"
+    ],
+    "global_summary_cn": "第41手，黑方刚于F6落子，局面进入中盘关键阶段。黑棋在右下（F2–H6）与白棋形成复杂接触战，左上（A4、B2–C3）白棋有薄味但具外势潜力；中央（E4–G6）双方交错密集，存在多处未活净集团；右上（Q3–Q16）黑棋大龙初具雏形，白棋D16、O17施加压力。",
+    "phase_explanation": "当前为中盘中后期，双方在多个局部展开连续应对，尚未出现明显大转换或死活决战，但右下角E6为重要急所，是下一回合胜负手候选点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白A4孤子牵制黑B2/B3/C3，黑C4/E4呼应，白D4构成小堡垒，整体呈未定型对峙。",
+      "shapes": [
+        "point_group"
+      ],
+      "local_tags": [
+        "试探性挂角",
+        "白棋薄味"
+      ],
+      "key_points": [
+        "A4",
+        "B2",
+        "C3",
+        "D4"
+      ],
+      "group_status": [
+        "白A4孤立",
+        "黑B2-C3连络待加强"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，仅黑Q3、Q4、Q16与白Q4、D16、O17分布，黑右上大模样初成，白以O17、D16两翼骚扰。",
+      "shapes": [
+        "large_framework"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白两翼侵消"
+      ],
+      "key_points": [
+        "Q3",
+        "Q4",
+        "Q16",
+        "O17",
+        "D16"
+      ],
+      "group_status": [
+        "黑Q3-Q16未完全围空",
+        "白O17轻灵"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "近乎空白，仅白F17单子镇头，无实质交锋，属战略预备区。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "白镇头",
+        "空旷"
+      ],
+      "key_points": [
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑B5–D5–B6–C5与白B7、C8、D6、C6形成上下夹击态势，黑棋下方联络偏弱，白有断点威胁。",
+      "shapes": [
+        "ladder_like",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "黑棋联络问题",
+        "白棋断点"
+      ],
+      "key_points": [
+        "B5",
+        "C5",
+        "D5",
+        "B6",
+        "C6",
+        "D6",
+        "B7",
+        "C8"
+      ],
+      "group_status": [
+        "黑B5-D5不活",
+        "白C6-D6厚实"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "核心混战区：黑E4/F4/G4/G5/F6/H6与白E5/F5/G6/H5密集交错，E6为空位急所，双方均未安定。",
+      "shapes": [
+        "web",
+        "eye_shape_candidate"
+      ],
+      "local_tags": [
+        "中央绞杀",
+        "E6急所"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G4",
+        "E5",
+        "F5",
+        "G5",
+        "F6",
+        "G6",
+        "H5",
+        "H6",
+        "E6"
+      ],
+      "group_status": [
+        "黑F6-H6未活",
+        "白E5-G6厚中带薄"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑P4、R6与白Q4形成斜向对峙，R14、Q16延伸至右上，白无强子压制，黑此处较厚实。",
+      "shapes": [
+        "extension"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白失先手"
+      ],
+      "key_points": [
+        "P4",
+        "Q4",
+        "R6",
+        "R14",
+        "Q16"
+      ],
+      "group_status": [
+        "黑P4-R14连络良好",
+        "白Q4孤立"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑B2/B3/C3/C4与白B1/C2/D3/E2/F2/G2/H2形成典型低中国流对抗，黑实地扎实，白外势浮动。",
+      "shapes": [
+        "low_chinese",
+        "side_framework"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白外势未成"
+      ],
+      "key_points": [
+        "B1",
+        "B2",
+        "B3",
+        "C2",
+        "C3",
+        "C4",
+        "D3",
+        "E2",
+        "F2",
+        "G2",
+        "H2"
+      ],
+      "group_status": [
+        "黑B2-H2连络稳固",
+        "白E2-G2浮棋"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑G3、G4、G5、G6与白F2、F5、G6、H5构成纵向拉锯，H2–F2–F4–F6形成黑棋攻击轴线。",
+      "shapes": [
+        "vertical_axis"
+      ],
+      "local_tags": [
+        "黑攻击轴",
+        "白G6受攻"
+      ],
+      "key_points": [
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "F2",
+        "F4",
+        "F5",
+        "F6",
+        "H2",
+        "H5"
+      ],
+      "group_status": [
+        "黑F4-F6连贯",
+        "白G6需做眼"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R6单子深入，白无应手，属黑棋成功打入；附近无其他子力，暂无激烈冲突。",
+      "shapes": [
+        "single_invasion"
+      ],
+      "local_tags": [
+        "黑成功打入",
+        "白未应对"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": [
+        "黑R6孤棋但有援军（R14/Q16）"
+      ]
+    }
+  ]
+}

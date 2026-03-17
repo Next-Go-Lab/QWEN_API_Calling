@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_107",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 107,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P16"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "T2"
+      },
+      {
+        "color": 0,
+        "point": "R16"
+      },
+      {
+        "color": 1,
+        "point": "Q11"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "Q11",
+      "R14",
+      "R15",
+      "P16",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "R16",
+      "F17",
+      "O17",
+      "Q17",
+      "R17"
+    ]
+  },
+  "targets": {
+    "policy_target": "O15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "白棋右上角争夺",
+      "黑棋中央厚势",
+      "实地与外势平衡"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中央黑棋厚势辐射",
+      "左下白棋孤棋治孤"
+    ],
+    "global_summary_cn": "第107手，黑方刚于Q11落子，强化中央与右上联络；白方刚在R16应手，右上角（Q15、Q16、R16、Q17、R17）形成复杂对杀局面；黑棋在右下T2至T6一线构筑坚实实地，白棋在左下A1–C8区域存在数块未安定棋形；全局呈现黑厚实、白灵动但略显分散的态势。",
+    "phase_explanation": "当前处于中盘向官子过渡阶段，关键战场集中在右上角（Q15为政策目标点），双方围绕该点展开最后定型；黑棋握有先手，意图借中央厚势压迫白棋右上弱棋；白棋需谨慎处理Q15附近数子生死。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白棋A3–C2一带小飞守角，黑棋A4、A5等点构成浅消，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "守角",
+        "浅消"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B2",
+        "C2"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中腹空旷，黑棋J3、O3零星占点，白棋Q4、Q5、Q6、Q7、Q8纵向成势，但缺乏根基，属浮动外势。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "外势",
+        "浮棋"
+      ],
+      "key_points": [
+        "J3",
+        "O3",
+        "Q4",
+        "Q7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：黑Q11、P16、Q16、R14–R15与白Q15、Q17、R16、R17形成对杀结构；Q15为政策目标点，当前双方在此处存在劫争或紧气对杀可能。",
+      "shapes": [
+        "ladder",
+        "net",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "对杀",
+        "劫材相关",
+        "政策目标"
+      ],
+      "key_points": [
+        "Q11",
+        "Q15",
+        "Q16",
+        "Q17",
+        "R16",
+        "R17"
+      ],
+      "group_status": [
+        "critical",
+        "life_death_unclear"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋D7、E7、G7与白棋C7、B7、C6、D6交错，黑棋略占主动；白A6、A7、A8呈单官连络，但B9、D9构成潜在打入点。",
+      "shapes": [
+        "chain",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "缠斗",
+        "潜在打入"
+      ],
+      "key_points": [
+        "D7",
+        "C7",
+        "A6",
+        "B9"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央黑棋F6、H6、G5、G4、G3等构成厚壁，辐射力强；白棋E5、F5、E6、F6附近被压制，难以成空。",
+      "shapes": [
+        "wall",
+        "influence"
+      ],
+      "local_tags": [
+        "厚势",
+        "影响力"
+      ],
+      "key_points": [
+        "F6",
+        "G5",
+        "H6",
+        "E5"
+      ],
+      "group_status": [
+        "strong"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑棋O3–O6、P2–P5、R4–R7与白棋O4、O17、Q5–Q8交错；黑棋R6、R7、Q6与白Q7、R8形成接触战，局部未净活。",
+      "shapes": [
+        "contact_fight"
+      ],
+      "local_tags": [
+        "接触战",
+        "未定型"
+      ],
+      "key_points": [
+        "O6",
+        "P5",
+        "Q6",
+        "R7",
+        "Q7"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑A1–C3、B5–C5与白A1–C2、A4–A6形成典型双飞燕定式余味；白B1、C2、A4、A5、A6呈断点密集区，黑棋D7–E7可随时侵入。",
+      "shapes": [
+        "double_flying_swan",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "定式余味",
+        "断点"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "B5",
+        "D7"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋G1–G5、H1–H6、J3等构成坚实阵势；白棋F2、E2、D2、C2已被压缩，仅存微弱活动空间。",
+      "shapes": [
+        "territory",
+        "solid_base"
+      ],
+      "local_tags": [
+        "实地",
+        "坚实"
+      ],
+      "key_points": [
+        "G1",
+        "G3",
+        "H2",
+        "J3"
+      ],
+      "group_status": [
+        "secure"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑棋P2–T6一线围成大空，含T2、S2、R4、T4、T6等关键守角点；白棋仅F17、O17零星侵扰，尚未构成有效威胁。",
+      "shapes": [
+        "territory",
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "大空",
+        "守角完成"
+      ],
+      "key_points": [
+        "T2",
+        "S2",
+        "R4",
+        "T4",
+        "T6"
+      ],
+      "group_status": [
+        "secure"
+      ]
+    }
+  ]
+}

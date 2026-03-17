@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_037",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 37,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M3"
+      },
+      {
+        "color": 1,
+        "point": "K5"
+      },
+      {
+        "color": 0,
+        "point": "P2"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "L11"
+      },
+      {
+        "color": 1,
+        "point": "J3"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "左上厚势未定型"
+    ],
+    "global_summary_cn": "第37手，黑方刚于J3落子，形成右下角复杂对杀局面；白棋在P2、M3、N3、N4等处构筑厚壁，黑棋则在Q3、O4、R4等处展开侵消。L5为关键打入点，意图分断白棋中腹与右下联络。",
+    "phase_explanation": "中盘阶段，双方围绕右下角及中腹展开激烈争夺，黑棋试图打破白棋厚势，白棋则谋求巩固实地并扩大外势。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋Q15-Q18、R12-R14构成大模样，白棋D16、J16零星应手，尚未深入，属未定型厚势区。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "未定型"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "R12",
+        "D16"
+      ],
+      "group_status": [
+        "alive_with_liberties"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中央偏上空旷，仅白S13-S14、R15-R17、S18-S19构成右上薄阵，黑无子，属待开发潜力区。",
+      "shapes": [
+        "thin_wall"
+      ],
+      "local_tags": [
+        "白薄阵",
+        "潜力区"
+      ],
+      "key_points": [
+        "S13",
+        "R15",
+        "S18"
+      ],
+      "group_status": [
+        "weak_group"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋R16-R17、S18-S19成小堡垒，黑Q17-Q18压逼，但白眼位尚可，属平稳守角。",
+      "shapes": [
+        "small_eyeshape"
+      ],
+      "local_tags": [
+        "白守角",
+        "平稳"
+      ],
+      "key_points": [
+        "R16",
+        "Q17",
+        "S18"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅黑L11孤子，白无子，属战略缓冲带；L11具牵制与跳入双重意图。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "黑孤子",
+        "牵制点"
+      ],
+      "key_points": [
+        "L11"
+      ],
+      "group_status": [
+        "in_atari_risk"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近完全空旷，无任何棋子，是未来大场与势力辐射中心，当前为纯粹战略中枢。",
+      "shapes": [
+        "empty_central_area"
+      ],
+      "local_tags": [
+        "中枢",
+        "大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "中腹右侧黑K5、N5、M6、N6、O5与白M5、O5交错，形成复杂接触战；L5为双方必争打入点。",
+      "shapes": [
+        "contact_fight",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "接触战",
+        "分断点"
+      ],
+      "key_points": [
+        "K5",
+        "L5",
+        "M5",
+        "N5",
+        "O5"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，黑白均无子，仅D4白子孤立存在，属早期布局遗留，暂无战术意义。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "白孤子",
+        "无关区域"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央黑M3、J3、K5与白M3、N3、N4、L4密集交战；黑Q3-R4一线与白P2-M3形成对峙，局部生死未决。",
+      "shapes": [
+        "edge_fight",
+        "life_death_unclear"
+      ],
+      "local_tags": [
+        "边角死活",
+        "对杀"
+      ],
+      "key_points": [
+        "J3",
+        "K5",
+        "M3",
+        "N3",
+        "P2"
+      ],
+      "group_status": [
+        "unstable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O4、P4、R4、Q3与白P2、N3、N4、M5、O5构成典型‘高中国流’对抗结构；黑有向上连络意图，白重在封锁。",
+      "shapes": [
+        "high_chinese_fight",
+        "encirclement_attempt"
+      ],
+      "local_tags": [
+        "高中国流",
+        "封锁战"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "Q3",
+        "R4",
+        "P2"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    }
+  ]
+}

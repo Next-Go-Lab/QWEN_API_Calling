@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_077",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 77,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C1"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "R2"
+      },
+      {
+        "color": 1,
+        "point": "P2"
+      },
+      {
+        "color": 0,
+        "point": "S4"
+      },
+      {
+        "color": 1,
+        "point": "J3"
+      },
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "C1"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "G1",
+      "H1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "A8",
+      "D8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "B9",
+      "D9",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D1"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋实地"
+    ],
+    "strategic_focus": [
+      "右下角劫争未定",
+      "左下黑空稳固",
+      "中腹白棋潜力"
+    ],
+    "global_summary_cn": "第77手，黑方行至C1，全局进入官子收束阶段。右下角（S4、R3、Q4等）存在复杂劫材与潜在劫争；左下角（A1–C3）黑棋构筑坚实小堡垒；白棋在中腹及右侧形成厚势但尚未围空；D1为关键官子点，关乎右下角实地归属。",
+    "phase_explanation": "属终局官子阶段，双方围绕边角残子与潜在劫争进行精确计算，胜负差距仅3.5目，每手价值显著。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本平静，白棋占A4、A5、A6、B7，黑棋有A3、A7、A8，呈小规模接触，无激烈战斗。",
+      "shapes": [],
+      "local_tags": [
+        "平稳",
+        "小规模接触"
+      ],
+      "key_points": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "B7"
+      ],
+      "group_status": [
+        "白连片",
+        "黑断续"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅有零星子（Q16黑、O17白、F17白），属双方势力辐射区，尚未形成实空。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "势力辐射"
+      ],
+      "key_points": [
+        "Q16",
+        "O17",
+        "F17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋占据D16，黑棋无子，白势向中腹延伸；该区域无直接冲突，属白棋外势延伸部。",
+      "shapes": [],
+      "local_tags": [
+        "白外势",
+        "无冲突"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "白孤立厚味"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹（D8、E7、E8、C8等）黑棋与白棋交错，黑有D8、E7、A7，白有C8、E8、B9，呈薄厚对比，黑略显薄弱。",
+      "shapes": [],
+      "local_tags": [
+        "薄厚对比",
+        "黑略薄"
+      ],
+      "key_points": [
+        "D8",
+        "E7",
+        "E8",
+        "C8",
+        "B9",
+        "A7"
+      ],
+      "group_status": [
+        "黑分散",
+        "白连贯"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅G5、G4、F4、E4、F5、G7等少量子，黑白均未深入经营，属待争夺中腹潜力区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷中腹",
+        "潜力待启"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G4",
+        "F5",
+        "G5",
+        "G7"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹（O3–Q6）黑棋成形：O3、P2、Q2、Q3、P4、P5、Q5、Q6、R6、R7；白棋Q4、Q7、Q8、R8反制，形成典型‘黑厚白缠’格局。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白缠绕"
+      ],
+      "key_points": [
+        "O3",
+        "P2",
+        "Q2",
+        "Q3",
+        "P4",
+        "P5",
+        "Q5",
+        "Q6",
+        "R6",
+        "R7",
+        "Q4",
+        "Q7",
+        "Q8",
+        "R8"
+      ],
+      "group_status": [
+        "黑连片厚势",
+        "白分断尝试"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A1–C5）为黑棋坚实根据地：A1–C3全黑，B2、C1、B3、C3、C4、B5、C5密集成空；白仅C2、D2、D3侵消未果，黑空稳固。",
+      "shapes": [
+        "corner_eye_shape"
+      ],
+      "local_tags": [
+        "黑实空",
+        "角地完整"
+      ],
+      "key_points": [
+        "A1",
+        "B1",
+        "C1",
+        "A2",
+        "B2",
+        "C2",
+        "A3",
+        "B3",
+        "C3",
+        "C4",
+        "B5",
+        "C5",
+        "D2",
+        "D3"
+      ],
+      "group_status": [
+        "黑活棋",
+        "白被压缩"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段（E1–H6）黑白密集混战：黑G1、H1、H2、G3、G4、G5、F6、H6；白E2、F2、G2、J2、D2、E5、F5、H5；局部形成‘双飞燕’式攻防，黑稍占主动。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "混战",
+        "黑主动"
+      ],
+      "key_points": [
+        "G1",
+        "H1",
+        "H2",
+        "G3",
+        "G4",
+        "G5",
+        "F6",
+        "H6",
+        "E2",
+        "F2",
+        "G2",
+        "J2",
+        "D2",
+        "E5",
+        "F5",
+        "H5"
+      ],
+      "group_status": [
+        "黑厚势",
+        "白受攻"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（P1–S4）为当前焦点：黑R2、S4、P2、Q2、R4、R5、R6、R7；白R2、R3、Q4、S4、Q5、Q6、Q7、R8；D1为紧要官子，关系此角最终归属与劫材储备。",
+      "shapes": [
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "焦点角",
+        "劫争前夜",
+        "官子要冲"
+      ],
+      "key_points": [
+        "R2",
+        "S4",
+        "P2",
+        "Q2",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "R8",
+        "D1"
+      ],
+      "group_status": [
+        "未定型",
+        "双向对杀雏形"
+      ]
+    }
+  ]
+}

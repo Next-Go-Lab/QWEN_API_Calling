@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_076",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 76,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "G12"
+      },
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "G14"
+      },
+      {
+        "color": 0,
+        "point": "G11"
+      },
+      {
+        "color": 1,
+        "point": "G10"
+      },
+      {
+        "color": 0,
+        "point": "H10"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "G12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "G11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H11"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "中央对杀",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "H11点刺试探",
+      "G10-G14黑厚势与H10白孤子对峙",
+      "中央气紧"
+    ],
+    "global_summary_cn": "第76手，黑方行棋，局面进入中盘关键攻防阶段。白棋刚于H10落子，形成局部孤子，但周边白棋（G9、F12、G11等）构成呼应；黑棋在G10-G14一线布下厚势，意图攻击H10并争夺中央控制权。全局白棋实地稍优，黑棋需通过攻击制造变数。",
+    "phase_explanation": "当前为中盘战斗高峰期，双方在中腹及右上展开激烈接触战，H11是黑方最自然的压迫点，旨在收紧白棋H10一子气数并试探白方应对。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "B5",
+        "B4",
+        "C4",
+        "C5",
+        "B6",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q13-Q14-Q17与白棋P14-P16-P17形成对峙，黑有潜力但未深入。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白实空"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "Q17",
+        "P14",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "黑厚",
+        "白安定"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑O3-Q3-R4-R5与白Q5-Q6-R6形成典型小目挂角定式后变化，黑略占外势。",
+      "shapes": [
+        "corner",
+        "extension"
+      ],
+      "local_tags": [
+        "黑外势",
+        "白取角"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "黑厚",
+        "白活"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧黑D6-D7-E7-C8-D8-C10与白C4-C5-B6-B7-C7-B11-C11-B12-C12形成复杂缠斗，黑棋稍厚但未净活。",
+      "shapes": [
+        "ladder",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白联络"
+      ],
+      "key_points": [
+        "D6",
+        "D7",
+        "E7",
+        "C8",
+        "D8",
+        "C10",
+        "C4",
+        "C5",
+        "B6",
+        "B7",
+        "C7",
+        "B11",
+        "C11",
+        "B12",
+        "C12"
+      ],
+      "group_status": [
+        "黑未活",
+        "白活"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心战场：黑G10-G12-G14-F11-E11-D11与白H10-G11-F13-E10-D10-E9-G9激烈对杀，H11为关键气点。",
+      "shapes": [
+        "fighting_cluster",
+        "liberty_pressure"
+      ],
+      "local_tags": [
+        "对杀",
+        "气紧",
+        "H11要点"
+      ],
+      "key_points": [
+        "G10",
+        "G12",
+        "G14",
+        "F11",
+        "E11",
+        "D11",
+        "H10",
+        "G11",
+        "F13",
+        "E10",
+        "D10",
+        "E9",
+        "G9",
+        "H11"
+      ],
+      "group_status": [
+        "黑厚",
+        "白孤"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J14-J15-K16与白K14-K15-M15-D16形成势力交错，黑有打入潜力。",
+      "shapes": [
+        "influence"
+      ],
+      "local_tags": [
+        "黑势力",
+        "白薄味"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "K16",
+        "K14",
+        "K15",
+        "M15",
+        "D16"
+      ],
+      "group_status": [
+        "黑厚",
+        "白弱"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D18-C13-D13-C12与白B13-B12-C14形成低段攻防，黑已活角，白外围薄弱。",
+      "shapes": [
+        "corner_life"
+      ],
+      "local_tags": [
+        "黑活角",
+        "白欠补"
+      ],
+      "key_points": [
+        "D18",
+        "C13",
+        "D13",
+        "C12",
+        "B13",
+        "B12",
+        "C14"
+      ],
+      "group_status": [
+        "黑活",
+        "白未净"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F17-L17与白L12-M13形成轻重对比，黑厚势向中央延伸。",
+      "shapes": [
+        "thick_wall"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白单官"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "L12",
+        "M13"
+      ],
+      "group_status": [
+        "黑厚",
+        "白薄"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下黑R12-R16-Q17与白Q10-R6形成大模样对峙，黑尚未围实，白有侵消余地。",
+      "shapes": [
+        "moyo"
+      ],
+      "local_tags": [
+        "黑模样",
+        "白侵消点"
+      ],
+      "key_points": [
+        "R12",
+        "R16",
+        "Q17",
+        "Q10",
+        "R6"
+      ],
+      "group_status": [
+        "黑未封",
+        "白可入"
+      ]
+    }
+  ]
+}

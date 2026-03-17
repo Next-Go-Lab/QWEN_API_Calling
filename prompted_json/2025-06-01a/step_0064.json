@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_063",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 63,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "F4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "P7"
+      },
+      {
+        "color": 1,
+        "point": "R2"
+      },
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "F3"
+      },
+      {
+        "color": 0,
+        "point": "E3"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      }
+    ],
+    "black_stones": [
+      "Q2",
+      "R2",
+      "F3",
+      "N3",
+      "Q3",
+      "F4",
+      "P4",
+      "R4",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "R6",
+      "Q7",
+      "S7",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "E3",
+      "P3",
+      "R3",
+      "D4",
+      "L4",
+      "O4",
+      "Q4",
+      "Q5",
+      "C6",
+      "P6",
+      "Q6",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "M5"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "边角定型未稳"
+    ],
+    "strategic_focus": [
+      "中央厚势构建",
+      "右下角攻防焦点",
+      "黑棋F4连扳引发连锁反应"
+    ],
+    "global_summary_cn": "第63手，黑方Son Makoto于F4连扳，形成右下角复杂攻防；白棋E3、F3、F4一线形成接触战核心，中央（D10–F15）与右上（Q16–R17）存在大模样潜力，但实地尚不稳固；黑棋在左上（B15–D15）、中腹（N3–R6）占据主动，白棋则在右下（P3–R8）及左下（B16–D17）构筑阵势。",
+    "phase_explanation": "中盘阶段，双方在右下角展开深度接触战，黑棋通过F4、F3连续压迫试探白棋眼位与联络；全局尚未进入收官，但多处边界存在劫争隐患（如E3/F3/F4/E4空点），中央势力与边角实地平衡成为胜负关键。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋B15/C15/D15/D13/C11/D10成势，白棋C9/C10/C13压制但未完全封锁，黑棋有向中腹延伸意图。",
+      "shapes": [
+        "corner_enclosure",
+        "side_extension"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白压缩",
+        "未净活"
+      ],
+      "key_points": [
+        "C11",
+        "D10",
+        "C13"
+      ],
+      "group_status": [
+        "black_solid",
+        "white_weak_eye"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上部基本为空点，仅黑Q16/R16与白B16/D16/Q17/R17形成上下对峙，白棋D17/O18/P18/N18构成右上厚壁，黑棋M17–P17呼应左上。",
+      "shapes": [
+        "wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑轻灵",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "Q16",
+        "B16",
+        "D17"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋R9/R8/S7/S8/R7/R6与黑Q7/R5/R4/R2形成缠斗，黑R2为最新打入点，白R3/P3/O4等子试图封锁，局部气紧。",
+      "shapes": [
+        "ladder_attempt",
+        "blockade"
+      ],
+      "local_tags": [
+        "黑打入",
+        "白封锁未全",
+        "对杀雏形"
+      ],
+      "key_points": [
+        "R2",
+        "R3",
+        "Q7"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_unclosed"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑E14/F14/E16与白E15/F15/G15/H15形成横向对峙带，黑棋略厚但未围实，白棋有向D13/C13渗透可能。",
+      "shapes": [
+        "side_wall",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "中央对峙",
+        "白渗透意向",
+        "黑厚而不围"
+      ],
+      "key_points": [
+        "E14",
+        "E15",
+        "D13"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_floating"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "棋盘中心区域（D4–Q5）密集交战：黑F3/F4/P4/Q4/R4/N5/O5/P5/Q5与白E3/D4/O4/Q4/Q5等交错，F4为最新扳点，形成‘十字交叉’战斗核心。",
+      "shapes": [
+        "cross_cut",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "气紧",
+        "劫材富集"
+      ],
+      "key_points": [
+        "F4",
+        "E3",
+        "F3",
+        "Q5"
+      ],
+      "group_status": [
+        "mutual_life_threat",
+        "no_eye_formed"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑N3/M5（目标点）、P7/N7与白P6/Q6/P7/R7形成上下夹击，黑M5为待落子要点，意在切断白P7–R7联络或扩张中央势力。",
+      "shapes": [
+        "cutting_point",
+        "bridge"
+      ],
+      "local_tags": [
+        "关键断点",
+        "黑主动权",
+        "白联络弱"
+      ],
+      "key_points": [
+        "M5",
+        "P7",
+        "N7"
+      ],
+      "group_status": [
+        "black_dominant",
+        "white_fragile"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑E14/F14与白E15/F15/G15/H15延续至底部，白B15–D17呈斜长阵势，黑无强攻手段，属平稳相持区。",
+      "shapes": [
+        "long_wall",
+        "quiet_side"
+      ],
+      "local_tags": [
+        "白阵势",
+        "黑观望",
+        "低冲突"
+      ],
+      "key_points": [
+        "E14",
+        "B15",
+        "D17"
+      ],
+      "group_status": [
+        "white_stable",
+        "black_passive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑Q3/R2/R4与白P3/R3/Q4/R4混战，黑R2为深入之子，白R3/P3试图反包，但黑F3–F4–E3已形成下方支撑链。",
+      "shapes": [
+        "invasion",
+        "counter_encirclement"
+      ],
+      "local_tags": [
+        "黑深入",
+        "白反包失败",
+        "根基稳固"
+      ],
+      "key_points": [
+        "R2",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "black_connected",
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑F4连扳后，白E3/F3/F4一线被破，黑N3/O3/P4/Q4/R4与白P3/O4/Q4/Q5/R5形成多重接触，存在多个紧气与打劫征兆。",
+      "shapes": [
+        "sacrifice",
+        "ko_threat_zone"
+      ],
+      "local_tags": [
+        "主攻方向",
+        "打劫温床",
+        "白眼位危机"
+      ],
+      "key_points": [
+        "F4",
+        "E3",
+        "Q4",
+        "R5"
+      ],
+      "group_status": [
+        "black_pressing",
+        "white_in_atari_risk"
+      ]
+    }
+  ]
+}

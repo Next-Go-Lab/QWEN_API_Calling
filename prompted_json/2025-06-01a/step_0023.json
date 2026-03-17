@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_022",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 22,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "C11"
+      },
+      {
+        "color": 0,
+        "point": "Q17"
+      },
+      {
+        "color": 1,
+        "point": "P17"
+      },
+      {
+        "color": 0,
+        "point": "R17"
+      },
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "P18"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "O17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "边角争夺",
+      "中腹未定",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "P18附近对杀雏形",
+      "O17为关键打入点"
+    ],
+    "global_summary_cn": "局面进行至第22手，黑方刚落子C11，白方最新一着P18加固右上角。当前右上角（Q16–R17–P18–R16）形成激烈接触战，黑白交错密集；中腹尚空旷，但黑有E14–F14–E16等连络意向，白则D17–D16–C13构成厚壁。全局无明显大龙生死，但O17为双方共同关注的潜在打入/分断要点。",
+    "phase_explanation": "布局后期向中盘过渡阶段：角部基本定型但右上存局部战斗，边路尚未完全展开，中腹势力范围待划分。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑Q3单子守角，无其他子力，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "守角单子"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（K–O线，17–19路）仅有零星子：黑C11、白C13，其余为空，属缓急待定地带。",
+      "shapes": [],
+      "local_tags": [
+        "稀疏",
+        "潜在拆边"
+      ],
+      "key_points": [
+        "C11",
+        "C13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：黑Q16/R16/P17，白Q17/R17/P18形成六子接触战；O17为空点，是双方必争之眼位/分断点。",
+      "shapes": [
+        "ladder_fragment",
+        "mutual_eye_space"
+      ],
+      "local_tags": [
+        "接触战",
+        "对杀前兆",
+        "眼位争夺"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "P17",
+        "Q17",
+        "R17",
+        "P18",
+        "O17"
+      ],
+      "group_status": [
+        "black_group_unsettled",
+        "white_group_solid"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹（C–G列，11–15行）黑有D13/E14/F14/C15/D15/E16，白有C13/E15/F15/G15/D16/D17，呈黑白交错带状结构，黑略显连络意图。",
+      "shapes": [
+        "diagonal_chain",
+        "interlocking"
+      ],
+      "local_tags": [
+        "缠斗带",
+        "连络与切断"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "F14",
+        "C15",
+        "D15",
+        "E16",
+        "C13",
+        "E15",
+        "F15",
+        "G15",
+        "D16",
+        "D17"
+      ],
+      "group_status": [
+        "black_chain_partially_connected",
+        "white_wall_facing_south"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带（H–N列，9–13行）完全空旷，无任何棋子，是未来中腹作战核心区域。",
+      "shapes": [],
+      "local_tags": [
+        "真空地带",
+        "中腹起点"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹（O–S列，11–15行）仅有黑C11延伸意向，但无实质子力；O17虽在边界，但归属此区，为当前战略焦点。",
+      "shapes": [],
+      "local_tags": [
+        "焦点辐射区",
+        "待侵入"
+      ],
+      "key_points": [
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（A–G列，1–6行）全空，无任何棋子，属早期未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "未启动"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（H–N列，1–6行）全空，无子，与左下、右下共同构成大模样潜力区。",
+      "shapes": [],
+      "local_tags": [
+        "空场",
+        "后发潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（O–S列，1–6行）全空，仅右上角战事辐射至此，暂无实地或势力影响。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "静默区"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

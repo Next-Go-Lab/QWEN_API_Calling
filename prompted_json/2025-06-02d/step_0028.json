@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_027",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 27,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q10"
+      },
+      {
+        "color": 1,
+        "point": "R10"
+      },
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P12"
+      },
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "N8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "N8",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "M4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央潜力争夺",
+      "白棋Q9-N10-R10三角厚势"
+    ],
+    "global_summary_cn": "第27手，轮白（Ueno Asami）行棋。黑棋在右上与中腹布下数子但略显分散，白棋在右下形成稳固三角厚势（Q9、N10、R10），并控制Q10要冲；黑棋N8为最新一手，试图向中腹渗透，但面临白棋P12、R8等子呼应下的潜在攻击；全局呈白棋主动掌控节奏态势。",
+    "phase_explanation": "中盘初期，双方在右半盘密集落子，局部已形成多个未定型战斗焦点，尤其右下角（N10/Q9/R10）与右中腹（P12/N8/Q10）构成联动战场；黑棋缺乏明确大模样，白棋借厚势谋求实地与外势兼得。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，仅黑D16、白L16、白C6零星分布，无激烈接触。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未开发"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "C6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，黑Q15、白P17、R16构成松散对峙，暂无攻防。",
+      "shapes": [],
+      "local_tags": [
+        "松散对峙",
+        "低密度"
+      ],
+      "key_points": [
+        "Q15",
+        "P17",
+        "R16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R11/R10/Q10/白R8/R5/Q4形成小规模接触，黑有断点风险。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "接触战初现",
+        "黑棋断点"
+      ],
+      "key_points": [
+        "R11",
+        "R10",
+        "Q10",
+        "R8",
+        "R5",
+        "Q4"
+      ],
+      "group_status": [
+        "黑R10-Q10孤立",
+        "白R8-R5连络"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹稀疏，黑K4、白O4/C4/E3/D3/F3/E4/F4围出左下小堡垒，黑F3-E4-F4成形，白C4-D3-E3呼应。",
+      "shapes": [
+        "small_framework"
+      ],
+      "local_tags": [
+        "黑小堡垒",
+        "白低位厚势"
+      ],
+      "key_points": [
+        "K4",
+        "O4",
+        "C4",
+        "D3",
+        "E3",
+        "F3",
+        "E4",
+        "F4"
+      ],
+      "group_status": [
+        "黑F3-E4-F4活形",
+        "白C4-D3-E3稳固"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷但敏感，黑P7、白P12/N10/Q9/Q10形成斜向张力带，M4为政策目标点，暗示此处将成下一战区。",
+      "shapes": [
+        "tension_band"
+      ],
+      "local_tags": [
+        "张力带",
+        "政策目标点"
+      ],
+      "key_points": [
+        "P7",
+        "P12",
+        "N10",
+        "Q9",
+        "Q10",
+        "M4"
+      ],
+      "group_status": [
+        "黑P7孤立",
+        "白P12-N10-Q9三角厚势"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹密集交火区：黑N8最新手，白Q9/N10/R10构成铁三角，黑Q6/R6/P7受压，存在被分断可能。",
+      "shapes": [
+        "fighting_zone"
+      ],
+      "local_tags": [
+        "主战场",
+        "白厚势压迫"
+      ],
+      "key_points": [
+        "N8",
+        "Q9",
+        "N10",
+        "R10",
+        "Q6",
+        "R6",
+        "P7"
+      ],
+      "group_status": [
+        "白Q9-N10-R10厚势",
+        "黑Q6-R6-P7薄味明显"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑E4/F4/F3与白D3/E3/C4形成基础对峙，黑K4稍远，尚未构成有效联动。",
+      "shapes": [
+        "corner_fight"
+      ],
+      "local_tags": [
+        "基础定式前奏",
+        "低位缠斗"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "F3",
+        "D3",
+        "E3",
+        "C4",
+        "K4"
+      ],
+      "group_status": [
+        "黑白各守一隅",
+        "无明显死活问题"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅黑Q6/R6、白Q4/R5零星分布，尚无实质接触。",
+      "shapes": [],
+      "local_tags": [
+        "待发展",
+        "低冲突"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "Q4",
+        "R5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R6/Q6与白R5/Q4/R8形成局部纠缠，黑R6受白R5压制，白R8为高台支援点。",
+      "shapes": [
+        "corner_pressure"
+      ],
+      "local_tags": [
+        "白高位压制",
+        "黑低位受制"
+      ],
+      "key_points": [
+        "R6",
+        "Q6",
+        "R5",
+        "Q4",
+        "R8"
+      ],
+      "group_status": [
+        "白R5-Q4-R8呼应",
+        "黑R6气紧"
+      ]
+    }
+  ]
+}

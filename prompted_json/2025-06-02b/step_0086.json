@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_085",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 85,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "H18"
+      },
+      {
+        "color": 1,
+        "point": "H16"
+      },
+      {
+        "color": 0,
+        "point": "J17"
+      },
+      {
+        "color": 1,
+        "point": "H14"
+      },
+      {
+        "color": 0,
+        "point": "G12"
+      },
+      {
+        "color": 1,
+        "point": "E14"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "M10",
+      "N11",
+      "O11",
+      "R12",
+      "S12",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "N12",
+      "S13",
+      "S14",
+      "C15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中腹潜力",
+      "下边实地与外势平衡"
+    ],
+    "global_summary_cn": "第85手，黑方执子，局面进入中盘关键阶段。右上角（H16–J17–E14）形成复杂攻防，黑棋连续打入白棋势力范围；下边（R12–T18）黑棋大龙已活但略显凝重，白棋在C15–S19一带构筑厚壁；中央（G10–M10–N11）双方势力交错，F15为当前最佳侵消点。",
+    "phase_explanation": "中盘中后期，双方在多个战场同时施压，尚未进入明显收官，胜负取决于局部战斗结果与中央潜力转化效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑占K2/K4/K5/K6/L6/M6，白占L3/M3/N3/L4/N4/L5/M5/O5，属黑小实地、白外势结构。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "黑小目守角",
+        "白高中国流"
+      ],
+      "key_points": [
+        "K2",
+        "L3",
+        "K4",
+        "L4"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段（D16–J17–Q17）激烈接触：白有D16/J17/R17/S17/T17，黑有E17/G17/Q17/H18/Q18/R18/T18，形成缠斗带。",
+      "shapes": [
+        "side_fight",
+        "ladder_like"
+      ],
+      "local_tags": [
+        "攻防转换",
+        "白厚势压迫",
+        "黑棋腾挪"
+      ],
+      "key_points": [
+        "H18",
+        "J17",
+        "E17",
+        "G17"
+      ],
+      "group_status": [
+        "未净活",
+        "对杀中"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角核心战场：黑H16/E14/H14/Q16，白J17/G12/S14/R15/S15/S16/R16/T16，F15为待落关键点。",
+      "shapes": [
+        "fighting_eye_shape",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "F15侵消"
+      ],
+      "key_points": [
+        "H16",
+        "J17",
+        "E14",
+        "F15",
+        "G12"
+      ],
+      "group_status": [
+        "双活雏形",
+        "未定型"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹（C3–C8–E8–E9）黑C3/F8/G10，白C5/C7/C8/E6/E8/E9，白棋厚实封锁，黑棋孤子试探。",
+      "shapes": [
+        "wall",
+        "probe"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑轻吊",
+        "联络试探"
+      ],
+      "key_points": [
+        "C3",
+        "C5",
+        "E8",
+        "G10"
+      ],
+      "group_status": [
+        "白厚",
+        "黑薄"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央（F8–M10–N11–O11）黑F8/G10/M10/N11/O11，白E9/N10/L11/M11，呈犬牙交错状，无明确活形。",
+      "shapes": [
+        "crossroads",
+        "influence_intersection"
+      ],
+      "local_tags": [
+        "势力交汇",
+        "潜在眼位",
+        "攻防枢纽"
+      ],
+      "key_points": [
+        "G10",
+        "N10",
+        "N11",
+        "O11"
+      ],
+      "group_status": [
+        "未安定",
+        "可治孤"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边中腹（Q3–R14–S13）黑Q3/O4/P4/R4/R12/R13/R14/Q15/Q16/T16，白P2/N4/O5/N12/S13/S14，黑棋大块成空但气紧。",
+      "shapes": [
+        "large_group",
+        "territory_with_pressure"
+      ],
+      "local_tags": [
+        "黑大空",
+        "白外围施压",
+        "气紧风险"
+      ],
+      "key_points": [
+        "R12",
+        "R13",
+        "R14",
+        "Q15"
+      ],
+      "group_status": [
+        "黑活",
+        "白未断"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角（B4–D7）黑B4/B5/B6/C6/D7，白C3/D4/D6/E6/C7/C8，黑取角，白取边，结构清晰。",
+      "shapes": [
+        "corner",
+        "side"
+      ],
+      "local_tags": [
+        "黑无忧角",
+        "白拆二",
+        "定型完毕"
+      ],
+      "key_points": [
+        "B4",
+        "D4",
+        "D6",
+        "D7"
+      ],
+      "group_status": [
+        "黑活",
+        "白活"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹（F3–G12）黑F3/G12？——实际G12为白，黑无子；白F3/K3/L3/M3/N3/D4/E6/C7/C8/E8/E9，黑仅F3？校验：F3为白，黑无此点；该区黑空薄弱，白占据主导。",
+      "shapes": [
+        "white_wall",
+        "black_weak_side"
+      ],
+      "local_tags": [
+        "白厚势延伸",
+        "黑无根据地",
+        "实地不足"
+      ],
+      "key_points": [
+        "F3",
+        "K3",
+        "D4",
+        "E6"
+      ],
+      "group_status": [
+        "白厚",
+        "黑缺"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角（Q3–T19）黑Q3/R4/O4/P4/R12–T18，白P2/S19/S18/S16/S15/R15/R16/T17，黑大模样但被白多点侵入，实地未固。",
+      "shapes": [
+        "moyo",
+        "invasion_points"
+      ],
+      "local_tags": [
+        "黑大模样",
+        "白多点渗透",
+        "未封口"
+      ],
+      "key_points": [
+        "Q3",
+        "R12",
+        "S13",
+        "S19"
+      ],
+      "group_status": [
+        "黑未封",
+        "白侵入"
+      ]
+    }
+  ]
+}

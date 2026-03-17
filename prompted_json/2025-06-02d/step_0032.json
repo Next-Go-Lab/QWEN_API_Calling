@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_031",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 31,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "N8"
+      },
+      {
+        "color": 0,
+        "point": "M4"
+      },
+      {
+        "color": 1,
+        "point": "J17"
+      },
+      {
+        "color": 0,
+        "point": "H4"
+      },
+      {
+        "color": 1,
+        "point": "D4"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "N8",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C3"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "左上黑大龙未净活",
+      "中央白厚味辐射"
+    ],
+    "global_summary_cn": "第31手，轮白（Ueno Asami）行棋。黑棋在左上（J17）、右下（R16、Q15）及中腹（N8、M4附近）多处落子，但右下黑棋（R16、R11、R10、Q9白夹击）面临强攻；白棋在右下（Q9、R8、Q10）、左下（L16、P17）、中腹（N10、O4）形成厚势，D4一子为最新打入，意图侵消黑棋中腹潜力。全局呈白棋主动掌控节奏态势。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，白棋通过连续压迫掌握主动权，黑棋尚未完成大模样构筑，局部存在数块未安定棋形。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋J17单官守角，白无应手，属黑轻灵守势区域。",
+      "shapes": [],
+      "local_tags": [
+        "守角",
+        "单官"
+      ],
+      "key_points": [
+        "J17"
+      ],
+      "group_status": [
+        "安定"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边基本空旷，仅黑D16、白L16、P17散落，白P17与L16呼应构成低位厚势雏形。",
+      "shapes": [],
+      "local_tags": [
+        "低位厚势",
+        "散落子"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "厚势",
+        "未连络"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角空旷，无子，属未开发区域，潜在大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑F3-E4-F4-D4-K4连片，但D4刚被白H4-M4-C4包围，黑棋此块受攻，气紧。",
+      "shapes": [
+        "直线型黑阵"
+      ],
+      "local_tags": [
+        "受攻黑棋",
+        "气紧",
+        "包围圈初成"
+      ],
+      "key_points": [
+        "D4",
+        "E4",
+        "F4",
+        "H4",
+        "M4",
+        "C4"
+      ],
+      "group_status": [
+        "危险",
+        "未活"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑N8、白N10、Q10对峙，构成中腹势力分界线；黑Q6-R6-P7与白R5-Q4-O4形成上下对称攻防结构。",
+      "shapes": [
+        "对峙线",
+        "对称结构"
+      ],
+      "local_tags": [
+        "中腹对峙",
+        "势力平衡点"
+      ],
+      "key_points": [
+        "N8",
+        "N10",
+        "Q10",
+        "Q6",
+        "R6",
+        "P7",
+        "R5",
+        "Q4",
+        "O4"
+      ],
+      "group_status": [
+        "未定型",
+        "对峙"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R10-R11-R16-Q15连成大块，但被白Q9-R8-Q10三面夹击，眼位不足，存死活危机。",
+      "shapes": [
+        "L形黑阵"
+      ],
+      "local_tags": [
+        "被夹击",
+        "死活危机",
+        "大块未净活"
+      ],
+      "key_points": [
+        "R10",
+        "R11",
+        "R16",
+        "Q15",
+        "Q9",
+        "R8",
+        "Q10"
+      ],
+      "group_status": [
+        "危险",
+        "未活"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D3白D3/E3/C4形成典型小目定式后续，白已得实地，黑F3孤立。",
+      "shapes": [
+        "小目定式"
+      ],
+      "local_tags": [
+        "定式完成",
+        "白实利",
+        "黑孤子"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "E3",
+        "F3"
+      ],
+      "group_status": [
+        "白安定",
+        "黑孤棋"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑K4与白O4-Q4-R5形成横向拉锯，黑M4被白H4、M4、O4围住，成为双方争夺焦点。",
+      "shapes": [
+        "横向拉锯"
+      ],
+      "local_tags": [
+        "焦点争夺",
+        "被围白子"
+      ],
+      "key_points": [
+        "K4",
+        "M4",
+        "H4",
+        "O4",
+        "Q4",
+        "R5"
+      ],
+      "group_status": [
+        "对杀未明",
+        "焦点"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑P12、Q6、R6与白R5、Q4、O4构成复杂缠斗，黑P12似欲出头但受制于白厚势。",
+      "shapes": [
+        "缠斗区"
+      ],
+      "local_tags": [
+        "缠斗",
+        "出头受阻"
+      ],
+      "key_points": [
+        "P12",
+        "Q6",
+        "R6",
+        "R5",
+        "Q4",
+        "O4"
+      ],
+      "group_status": [
+        "未定型",
+        "缠斗"
+      ]
+    }
+  ]
+}

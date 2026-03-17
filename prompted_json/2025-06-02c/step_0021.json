@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_020",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 20,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "P14"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R12"
+      },
+      {
+        "color": 0,
+        "point": "P17"
+      },
+      {
+        "color": 1,
+        "point": "Q17"
+      },
+      {
+        "color": 0,
+        "point": "P16"
+      },
+      {
+        "color": 1,
+        "point": "Q14"
+      },
+      {
+        "color": 0,
+        "point": "P14"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R12",
+      "Q14",
+      "R16",
+      "F17",
+      "L17",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "Q10",
+      "C14",
+      "P14",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘初段",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋轻灵"
+    ],
+    "strategic_focus": [
+      "右上角攻防",
+      "中央潜力争夺",
+      "P14附近接触战"
+    ],
+    "global_summary_cn": "第20手，黑方行棋，局面处于中盘初段。右上角（P14–Q17一带）形成激烈接触战，白棋占据P14、P16、P17、Q14等要点，构筑厚势；黑棋在R12、Q14、R16、Q17落子试图渗透与分断。左下黑棋O3/Q3/R4/R5形成低位双飞燕雏形，右下白棋D4与C14遥相呼应。全局未见明显死活危机，但中腹Q13为双方潜在焦点。",
+    "phase_explanation": "当前为布局向中盘过渡阶段，双方尚未大规模展开中腹战斗，但边角接触已引发局部复杂性，尤其右上形成多点纠缠，后续可能向中央蔓延。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，仅黑F17、白D16各一子，呈高低呼应，无直接接触。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "高低配"
+      ],
+      "key_points": [
+        "F17",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑L17单子孤立，白无近邻，属缓急待定区域。",
+      "shapes": [],
+      "local_tags": [
+        "孤子",
+        "缓手区"
+      ],
+      "key_points": [
+        "L17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角高度密集：白P14/P16/P17/Q10/Q5/Q6/R6，黑Q14/Q17/R12/R16形成缠斗核心，Q13为关键虚眼位。",
+      "shapes": [
+        "小目守角",
+        "侵消阵型",
+        "三连星式压迫"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "厚薄对比",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "P14",
+        "Q14",
+        "Q13",
+        "P16",
+        "P17",
+        "Q17",
+        "R16"
+      ],
+      "group_status": [
+        "白厚势",
+        "黑两块未净活"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "中腹左侧空旷，仅黑O3/Q3/R4/R5构成低位双飞燕雏形，白无子，黑有发展潜力。",
+      "shapes": [
+        "双飞燕雏形"
+      ],
+      "local_tags": [
+        "低位构型",
+        "潜力区"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "黑未定型"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央完全空旷，无任何着子，但Q13为双方共同关注点，是未来势力辐射中心。",
+      "shapes": [],
+      "local_tags": [
+        "真空带",
+        "战略制高点"
+      ],
+      "key_points": [
+        "Q13"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "中右部稀疏：白Q10独立存在，黑R12与其形成斜线牵制，尚无实质交锋。",
+      "shapes": [],
+      "local_tags": [
+        "牵制关系",
+        "未激活"
+      ],
+      "key_points": [
+        "R12",
+        "Q10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角D4白子为小目守角，黑无应手，属典型布局定式区域，目前平静。",
+      "shapes": [
+        "小目"
+      ],
+      "local_tags": [
+        "定式区",
+        "静稳"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "白安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中部空旷，黑白均无子，属待开发地带。",
+      "shapes": [],
+      "local_tags": [
+        "空白带",
+        "后发潜力"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R4/R5与白Q5/Q6/R6形成低位对峙，黑O3/Q3延伸，白有拆二趋势，略显紧凑。",
+      "shapes": [
+        "低位对峙"
+      ],
+      "local_tags": [
+        "紧凑",
+        "低空争夺"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "未定型对峙"
+      ]
+    }
+  ]
+}

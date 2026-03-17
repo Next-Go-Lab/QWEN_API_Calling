@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_086",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 86,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F14"
+      },
+      {
+        "color": 0,
+        "point": "J11"
+      },
+      {
+        "color": 1,
+        "point": "J12"
+      },
+      {
+        "color": 0,
+        "point": "K12"
+      },
+      {
+        "color": 1,
+        "point": "J10"
+      },
+      {
+        "color": 0,
+        "point": "K11"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "J10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "H11",
+      "C12",
+      "G12",
+      "J12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "F14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "F9",
+      "G9",
+      "H9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "J11",
+      "K11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "K12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央厚势争夺",
+      "右下角未定型",
+      "黑棋大龙治孤"
+    ],
+    "global_summary_cn": "第86手，黑方行棋，局面处于中盘关键阶段。白棋凭借中央厚势与右下实地占据明显优势，黑棋在中央及右上存在数块未安定棋形，尤其J10-K12一带形成激烈接触战；G13为当前焦点落点，意在强化中央黑势或侵消白棋潜力。",
+    "phase_explanation": "当前为中盘中后期，双方在中央及右半盘展开密集攻防，白棋掌握主动权，黑棋需通过治孤或转换寻求逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈冲突。",
+      "shapes": [],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "B5",
+        "B4",
+        "C4",
+        "C5",
+        "B6",
+        "B7",
+        "C7"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋Q13-Q14-R12-R16形成浮动势力，白棋P14-P16-Q10-Q6施加压力。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "黑厚势",
+        "白压迫"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "R12",
+        "R16",
+        "P14",
+        "P16",
+        "Q10"
+      ],
+      "group_status": [
+        "黑未净活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑H16-K16、白K15-M15形成对峙，黑棋有打入试探迹象。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "角部未定",
+        "试探性打入"
+      ],
+      "key_points": [
+        "H16",
+        "K16",
+        "K15",
+        "M15"
+      ],
+      "group_status": [
+        "双活可能",
+        "未封口"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑C10-C12-D11-E11-F11-G11-H11连成厚壁，白D10-E10-F12-G12等贴身缠斗。",
+      "shapes": [
+        "wall"
+      ],
+      "local_tags": [
+        "黑厚壁",
+        "白侵消"
+      ],
+      "key_points": [
+        "C10",
+        "D11",
+        "E11",
+        "F11",
+        "G11",
+        "H11",
+        "D10",
+        "E10",
+        "F12",
+        "G12"
+      ],
+      "group_status": [
+        "黑厚",
+        "白薄"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域激烈交锋：黑J10-J12-G12、白J11-K11-K12-L12形成十字绞杀，G13为关键腾挪点。",
+      "shapes": [
+        "cross",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "主战场",
+        "生死攸关",
+        "G13焦点"
+      ],
+      "key_points": [
+        "J10",
+        "J11",
+        "J12",
+        "K11",
+        "K12",
+        "G13",
+        "G12",
+        "L12"
+      ],
+      "group_status": [
+        "黑大龙未安",
+        "白攻击中"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑M13、白F13-K14-P14构成潜在对攻线，黑棋缺乏坚实根据地。",
+      "shapes": [
+        "loose_group"
+      ],
+      "local_tags": [
+        "黑漂浮",
+        "白联络好"
+      ],
+      "key_points": [
+        "M13",
+        "F13",
+        "K14",
+        "P14"
+      ],
+      "group_status": [
+        "黑孤棋",
+        "白厚实"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑O3-Q3-R4-R5、白F3-Q5-Q6-R6已大致定型，黑稍厚但实地不足。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完毕",
+        "黑厚实"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "R4",
+        "R5",
+        "F3",
+        "Q5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "黑活",
+        "白活"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑D6-D7-E7-G7、白E8-E9-F9-G9-H9形成典型上下对称攻防结构，黑略显被动。",
+      "shapes": [
+        "ladder_like"
+      ],
+      "local_tags": [
+        "黑受压",
+        "白厚势"
+      ],
+      "key_points": [
+        "D6",
+        "D7",
+        "E7",
+        "G7",
+        "E8",
+        "E9",
+        "F9",
+        "G9",
+        "H9"
+      ],
+      "group_status": [
+        "黑薄",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q17、白P17-D16构成未收尽官子，白棋实地领先明显，黑难有作为。",
+      "shapes": [
+        "endgame"
+      ],
+      "local_tags": [
+        "白优势",
+        "官子阶段"
+      ],
+      "key_points": [
+        "Q17",
+        "P17",
+        "D16"
+      ],
+      "group_status": [
+        "白活",
+        "黑小块"
+      ]
+    }
+  ]
+}

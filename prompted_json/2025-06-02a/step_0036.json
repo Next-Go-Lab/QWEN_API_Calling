@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_035",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 35,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "B3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C2"
+      },
+      {
+        "color": 1,
+        "point": "B5"
+      },
+      {
+        "color": 0,
+        "point": "C8"
+      },
+      {
+        "color": 1,
+        "point": "B2"
+      },
+      {
+        "color": 0,
+        "point": "B1"
+      },
+      {
+        "color": 1,
+        "point": "B3"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "corner_fight",
+      "side_invasion",
+      "life_and_death_tension"
+    ],
+    "strategic_focus": [
+      "bottom_left_corner",
+      "right_side_framework",
+      "center_influence_balance"
+    ],
+    "global_summary_cn": "黑棋在左下角形成厚势并持续施压，白棋在右上构筑模样但根基未稳；中腹双方势力交错，G2为关键打入点。",
+    "phase_explanation": "序盘末期转入中盘初段，局部战斗密集，全局尚未定型，胜负关键在于对左下角攻防与中央潜力的争夺。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋D16、F17、O17构成大模样雏形，黑棋Q16单官守角，白势厚但空未实。",
+      "shapes": [
+        "territory_outline"
+      ],
+      "local_tags": [
+        "white_framework",
+        "light_black_response"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段平静，无密集子力，仅黑R14与白O17遥相呼应，属过渡缓冲区。",
+      "shapes": [],
+      "local_tags": [
+        "quiet_zone",
+        "influence_transition"
+      ],
+      "key_points": [
+        "R14",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16守角，白F17、O17外势延伸，黑P4与白Q4形成边路对峙，潜在拆二或逼入点。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "black_corner",
+        "white_outside",
+        "side_tension"
+      ],
+      "key_points": [
+        "Q16",
+        "P4",
+        "Q4",
+        "F17",
+        "O17"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_floating"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B5-C5-D5连片，白C6-D6-B7-C8形成夹击态势，B3-B2-C2-C3构成激烈接触战核心。",
+      "shapes": [
+        "ladder_attempt",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "black_thick",
+        "white_squeeze",
+        "fighting_center"
+      ],
+      "key_points": [
+        "B2",
+        "B3",
+        "C2",
+        "C3",
+        "B5",
+        "C5",
+        "D5",
+        "C6",
+        "D6",
+        "B7",
+        "C8"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑E4-F4-G4-G5与白E5-F5-H5形成斜向对峙，G2为双方均关注的打入要冲。",
+      "shapes": [
+        "influence_balance"
+      ],
+      "local_tags": [
+        "central_influence",
+        "key_point_target"
+      ],
+      "key_points": [
+        "E4",
+        "F4",
+        "G4",
+        "G5",
+        "E5",
+        "F5",
+        "H5",
+        "G2"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑R6孤子，白Q4、P4呼应，黑R14与白O17形成远距离牵制，此处为潜在攻击方向。",
+      "shapes": [
+        "isolated_stone",
+        "long_range_pressure"
+      ],
+      "local_tags": [
+        "black_lonely",
+        "white_connectivity"
+      ],
+      "key_points": [
+        "R6",
+        "Q4",
+        "P4",
+        "R14",
+        "O17"
+      ],
+      "group_status": [
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角激战核心区：黑B1已失，白B1、C2、D3、D4、E2围住黑B2-B3-C3-C4-D5等子，黑G2为唯一腾挪入口。",
+      "shapes": [
+        "surrounding_net",
+        "vital_point"
+      ],
+      "local_tags": [
+        "white_encirclement",
+        "black_life_and_death"
+      ],
+      "key_points": [
+        "B1",
+        "C2",
+        "D3",
+        "D4",
+        "E2",
+        "B2",
+        "B3",
+        "C3",
+        "C4",
+        "G2"
+      ],
+      "group_status": [
+        "black_critical",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑G3-G4-G5与白G6形成纵向对峙，E4-F4-F5-E5构成小规模交叉控制，局面紧凑。",
+      "shapes": [
+        "vertical_line"
+      ],
+      "local_tags": [
+        "stone_chain",
+        "mutual_control"
+      ],
+      "key_points": [
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "E4",
+        "F4",
+        "E5",
+        "F5"
+      ],
+      "group_status": [
+        "even"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角空旷，仅黑Q3、P4与白Q4轻碰，无实质争夺，属待开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "quiet_corner",
+        "future_invasion_zone"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "Q4"
+      ],
+      "group_status": []
+    }
+  ]
+}

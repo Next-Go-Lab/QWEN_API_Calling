@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_037",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 37,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "P3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C3"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      },
+      {
+        "color": 0,
+        "point": "H2"
+      },
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "H6"
+      },
+      {
+        "color": 1,
+        "point": "P3"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "E7",
+      "P7",
+      "N8",
+      "L10",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "H6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "P4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力构建",
+      "P4点试探"
+    ],
+    "global_summary_cn": "第37手，轮白（Ueno Asami）行棋，黑棋刚于P3落子，白棋在右下角（H2、H4、Q4、R5等）形成厚势，黑棋在左上（D4-E4-F4）、中腹（L10、E7）及右上（Q15、R16）多处布子但略显分散；P4为关键急所，意在压迫白棋右下角根基。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，白棋掌握主动权，黑棋需寻求治孤或转换机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋小飞守角（D4-E4-F4），白棋C4、C6构成低位侵消，黑J17高挂呼应，局面平稳。",
+      "shapes": [
+        "corner_enclosure",
+        "low_invasion"
+      ],
+      "local_tags": [
+        "黑守角",
+        "白侵消"
+      ],
+      "key_points": [
+        "D4",
+        "C4",
+        "C6",
+        "J17"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，仅黑Q15、R16与白L16、P17形成高低配置，尚未定型，属潜在大场。",
+      "shapes": [
+        "floating_group",
+        "potential_framework"
+      ],
+      "local_tags": [
+        "未定型",
+        "大场候选"
+      ],
+      "key_points": [
+        "Q15",
+        "R16",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "unclear",
+        "light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R10-R11-Q15-R16构成大模样雏形，白Q9、Q10、N10嵌入其中，形成复杂对杀前兆。",
+      "shapes": [
+        "framework",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑模様",
+        "白打入"
+      ],
+      "key_points": [
+        "R10",
+        "R11",
+        "Q15",
+        "Q9",
+        "Q10",
+        "N10"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑K4、E7、H6与白C6、H4形成交错，黑F3-D4-E4连片但气紧，白C3-D3-E3成厚壁。",
+      "shapes": [
+        "ladder_like",
+        "wall_vs_cluster"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑薄味"
+      ],
+      "key_points": [
+        "K4",
+        "E7",
+        "H6",
+        "C6",
+        "H4",
+        "C3",
+        "D3",
+        "E3"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑L10、E7、P7与白M4、O4、Q4呈辐射状分布，尚未形成明确势力范围，是后续战略要冲。",
+      "shapes": [
+        "radiating_groups",
+        "neutral_zone"
+      ],
+      "local_tags": [
+        "中腹未定",
+        "势力待建"
+      ],
+      "key_points": [
+        "L10",
+        "E7",
+        "P7",
+        "M4",
+        "O4",
+        "Q4"
+      ],
+      "group_status": [
+        "all_light"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P3、Q6、R6与白Q4、R5、P17形成上下夹击态势；P3刚落，白亟需应对，P4为最直接反制点。",
+      "shapes": [
+        "contact_fight",
+        "pressing_point"
+      ],
+      "local_tags": [
+        "P4急所",
+        "黑P3新子",
+        "白厚势"
+      ],
+      "key_points": [
+        "P3",
+        "Q6",
+        "R6",
+        "Q4",
+        "R5",
+        "P4"
+      ],
+      "group_status": [
+        "black_new",
+        "white_thick",
+        "tension_high"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角空旷，仅黑D16、白L16散落，无实质交集，属暂时平静区。",
+      "shapes": [
+        "empty_corner",
+        "isolated_stones"
+      ],
+      "local_tags": [
+        "寂静",
+        "无争"
+      ],
+      "key_points": [
+        "D16",
+        "L16"
+      ],
+      "group_status": [
+        "quiet"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F3、白H2-H4-C3-D3-E3构成密集对抗带，黑F3孤立，白H2-H4成铁壁，黑需补强或弃子。",
+      "shapes": [
+        "edge_wall",
+        "single_stone_vulnerability"
+      ],
+      "local_tags": [
+        "白边壁",
+        "黑孤子"
+      ],
+      "key_points": [
+        "F3",
+        "H2",
+        "H4",
+        "C3",
+        "D3",
+        "E3"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白H2、H4、Q4、R5、O4围出坚实阵地，黑P3、Q6、R6试图侵入但尚未深入；P4为白最佳应手，可封锁黑棋出路。",
+      "shapes": [
+        "territorial_base",
+        "invasion_response"
+      ],
+      "local_tags": [
+        "白实空",
+        "黑试探",
+        "P4关键"
+      ],
+      "key_points": [
+        "H2",
+        "H4",
+        "Q4",
+        "R5",
+        "O4",
+        "P3",
+        "P4"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_preliminary"
+      ]
+    }
+  ]
+}

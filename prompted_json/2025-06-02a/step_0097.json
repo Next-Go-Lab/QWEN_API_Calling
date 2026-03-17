@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_096",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 96,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q15"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S2"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "F8"
+      },
+      {
+        "color": 0,
+        "point": "E9"
+      },
+      {
+        "color": 1,
+        "point": "T4"
+      },
+      {
+        "color": 0,
+        "point": "Q15"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "R15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力平衡",
+      "Q15附近对杀未定"
+    ],
+    "global_summary_cn": "第96手，黑方即将落子，局面处于中盘关键阶段。白棋在右下（Q15）与左上形成厚势，黑棋则在右上、中腹及左下多处展开渗透与联络。双方在Q15附近存在未定型对杀，R15为当前最优选点，意在压迫白棋右下眼位并试探弱点。",
+    "phase_explanation": "中盘后期，实地与外势博弈白热化；黑棋稍占实地优势（最终B+3.5），但白棋外势雄厚，需谨慎处理中央与边角衔接。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白A3-A5-A6-A7与黑A8形成小雪崩变例余味，白棋厚实但略显凝重。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "定式余味",
+        "白厚势",
+        "黑轻灵"
+      ],
+      "key_points": [
+        "A3",
+        "A5",
+        "A8"
+      ],
+      "group_status": [
+        "white_firm",
+        "black_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑F8、白E8/Q8/R8构成横向牵制，黑有向中腹跳入意图。",
+      "shapes": [
+        "side_influence_line"
+      ],
+      "local_tags": [
+        "势力线",
+        "黑主动调形"
+      ],
+      "key_points": [
+        "F8",
+        "E8",
+        "Q8"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16单官守角，白R17/F17/O17呈斜飞阵势，但尚未完全成空，黑可伺机打入。",
+      "shapes": [
+        "flying_wedge",
+        "single_point_eye"
+      ],
+      "local_tags": [
+        "白大模样",
+        "黑守角",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "Q16",
+        "R17",
+        "F17"
+      ],
+      "group_status": [
+        "white_influential",
+        "black_secure"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑B2–C3–B5–A7与白B1–C2–D3–A4–C6等交错，形成复杂接触战，黑棋联络尚不稳固。",
+      "shapes": [
+        "ladder_fragment",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "缠斗区",
+        "黑需联络"
+      ],
+      "key_points": [
+        "B2",
+        "C3",
+        "C6",
+        "A7"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元一带空旷，黑无明显据点，白亦未深入，属战略缓冲带；R15若落子将辐射影响中腹与右下。",
+      "shapes": [
+        "neutral_zone"
+      ],
+      "local_tags": [
+        "战略要冲",
+        "辐射中心"
+      ],
+      "key_points": [
+        "R15"
+      ],
+      "group_status": [
+        "empty"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P2–Q2–S2–T4与白R2–S3–S4–Q4–Q5–Q6–Q7–Q8形成密集对抗，Q15为白最新一手，黑亟待反击。",
+      "shapes": [
+        "side_wall",
+        "eye_space_pressure"
+      ],
+      "local_tags": [
+        "对杀前沿",
+        "白眼位受压",
+        "黑攻击要点"
+      ],
+      "key_points": [
+        "Q15",
+        "T4",
+        "Q4",
+        "Q7"
+      ],
+      "group_status": [
+        "white_under_attack",
+        "black_aggressive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑A3–B3–C3–C4–B5–C5–D5–B6与白A4–C2–D1–D2–E2–F2–G2–D3–E5–F5–C6–D6–E6构成大型混战，黑已活出但仍有薄味。",
+      "shapes": [
+        "living_group_with_weakness"
+      ],
+      "local_tags": [
+        "黑苦活",
+        "白厚势包围"
+      ],
+      "key_points": [
+        "A3",
+        "D5",
+        "E5",
+        "C6"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑G1–H1–H2–G3–G4–G5–G7与白G2–J2–J3–H5–H6–R7–T7形成纵向拉锯，黑棋根基较稳。",
+      "shapes": [
+        "central_column"
+      ],
+      "local_tags": [
+        "黑主战场",
+        "白侧翼支援"
+      ],
+      "key_points": [
+        "G1",
+        "H2",
+        "G4",
+        "H6"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_supportive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角激烈对杀：黑R14–Q16–S2–T4–S5–R5–R6–R7–T7与白Q15–S3–S4–Q4–Q5–Q6–Q7–S7–T8–S9–D16–O17形成生死未判区域，R15是黑方最佳续攻点。",
+      "shapes": [
+        "life_and_death",
+        "sacrifice_feel"
+      ],
+      "local_tags": [
+        "对杀核心",
+        "R15决胜点",
+        "白两眼未净"
+      ],
+      "key_points": [
+        "R14",
+        "Q15",
+        "R15",
+        "S3",
+        "T8"
+      ],
+      "group_status": [
+        "critical_ld",
+        "white_unsettled",
+        "black_dominant_intent"
+      ]
+    }
+  ]
+}

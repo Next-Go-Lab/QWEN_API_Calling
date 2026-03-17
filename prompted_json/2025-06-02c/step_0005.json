@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_004",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 4,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "D4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "D16"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16"
+    ],
+    "white_stones": [
+      "D4",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "F17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布阵",
+      "双小目对角",
+      "快速占角"
+    ],
+    "strategic_focus": [
+      "角部定式雏形",
+      "边路张势",
+      "中央影响力预留"
+    ],
+    "global_summary_cn": "双方前四手完成经典双小目对角布局：黑占右上Q3与左上R16，白占左下D4与右下D16；四角初定，尚未接触，全局呈对称扩张态势。",
+    "phase_explanation": "处于布局初期（第4手），双方均未进入任何定式变化，所有落子均为独立占角，无攻防互动，棋形开放，后续发展高度依赖第五手方向选择。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋占据R16高位小目，构成左上角基础，空旷无干扰。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑小目",
+        "高位占角"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空域广阔，无子，属典型未开发天元辐射区。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据Q3小目，构成右上角基础，与R16呼应成对角布局。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑小目",
+        "对角呼应"
+      ],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空域为主，但临近左下白D4，未来可能成为白方拆二或黑方夹击区域。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "潜在拆边区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，为全局战略制高点，尚未被任何一方影响。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "中枢空域",
+        "未介入"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空域为主，临近右上黑Q3，未来可能成为黑方跳、飞或白方打入点。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "潜在发展带"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋占据D4小目，构成左下角基础，与D16形成低位对角。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白小目",
+        "低位占角"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空域开阔，连接左右两白角，是未来白方中腹行棋或黑方分投的关键通道。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "联络通道",
+        "分投候选"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋占据D16小目，构成右下角基础，与D4形成对角，奠定白方低位双角格局。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白小目",
+        "对角布局"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    }
+  ]
+}

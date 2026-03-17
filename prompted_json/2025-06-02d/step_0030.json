@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_029",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 29,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "J17"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q9"
+      },
+      {
+        "color": 1,
+        "point": "P12"
+      },
+      {
+        "color": 0,
+        "point": "N10"
+      },
+      {
+        "color": 1,
+        "point": "N8"
+      },
+      {
+        "color": 0,
+        "point": "M4"
+      },
+      {
+        "color": 1,
+        "point": "J17"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "N8",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "M4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右上攻防",
+      "左下实地交锋",
+      "中央潜力"
+    ],
+    "global_summary_cn": "第29手，轮白（Ueno Asami）行棋，局面进入中盘关键阶段。白棋在右上（J17附近）形成厚势并压制黑棋外势，左下（M4、L16）存在实地与势力转换；黑棋Q9、P12、N8等子构成不完整大模样，但J17一子略显单薄；H4为政策目标点，暗示中央潜在打入或分断意图。",
+    "phase_explanation": "当前为中盘战斗期，双方在多个局部展开接触战，尚未进入官子。白棋凭借连续压迫占据主动，黑棋需在中央或右下寻求腾挪或反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未定型"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "D16、L16、P17为白棋高位配置，D16黑子孤立，L16-P17白子呼应成势，牵制黑上方发展。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "高位白势",
+        "黑孤子"
+      ],
+      "key_points": [
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "J17为白最新一手，强化右上外势；Q15黑子受压，R16黑子与R10-R11构成松散联络，但易被分割。",
+      "shapes": [
+        "chain"
+      ],
+      "local_tags": [
+        "外势扩张",
+        "黑棋薄弱"
+      ],
+      "key_points": [
+        "J17",
+        "Q15",
+        "R16",
+        "R11",
+        "R10"
+      ],
+      "group_status": [
+        "white_sente_move",
+        "black_weak_chain"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "M4为白关键一手，侵消黑左下潜力；E4-F4-F3黑三角与C4-D3-E3白三角对峙，形成典型小目定式后续缠斗。",
+      "shapes": [
+        "triangle",
+        "mirror"
+      ],
+      "local_tags": [
+        "侵消",
+        "定式余味",
+        "对称对抗"
+      ],
+      "key_points": [
+        "M4",
+        "E4",
+        "F4",
+        "F3",
+        "C4",
+        "D3",
+        "E3"
+      ],
+      "group_status": [
+        "white_invasive",
+        "black_compact"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，H4为政策目标点，暗示未来打入或轻吊可能；N8、P12、Q9、N10构成交叉影响带，但无实质连接。",
+      "shapes": [],
+      "local_tags": [
+        "战略要点",
+        "待开发"
+      ],
+      "key_points": [
+        "H4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "Q6-R6-P7黑三子呈斜形结构，但被Q4-R5-O4白子封锁；Q9、Q10、R8白子形成横向厚壁，压制黑棋向中腹发展。",
+      "shapes": [
+        "diagonal",
+        "wall"
+      ],
+      "local_tags": [
+        "白厚壁",
+        "黑受封"
+      ],
+      "key_points": [
+        "Q6",
+        "R6",
+        "P7",
+        "Q4",
+        "R5",
+        "O4",
+        "Q9",
+        "Q10",
+        "R8"
+      ],
+      "group_status": [
+        "white_wall",
+        "black_confined"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "C6白子深入黑阵下方，与D3-E3-C4构成低位配合；K4黑子孤立，暂无明确联络。",
+      "shapes": [
+        "invasion"
+      ],
+      "local_tags": [
+        "低位侵入",
+        "黑孤子"
+      ],
+      "key_points": [
+        "C6",
+        "D3",
+        "E3",
+        "C4",
+        "K4"
+      ],
+      "group_status": [
+        "white_invasive",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "N10、O4、Q4、R5等白子控制下边中段，黑仅Q6-R6略具潜力，但整体白占优。",
+      "shapes": [
+        "territory_outline"
+      ],
+      "local_tags": [
+        "白控边",
+        "实地领先"
+      ],
+      "key_points": [
+        "N10",
+        "O4",
+        "Q4",
+        "R5"
+      ],
+      "group_status": [
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "P7、Q6、R6、R10、R11、Q15黑子分散，缺乏有效连接；R8、Q9、Q10白子形成稳固右下阵势。",
+      "shapes": [
+        "scattered",
+        "framework"
+      ],
+      "local_tags": [
+        "黑分散",
+        "白框架"
+      ],
+      "key_points": [
+        "P7",
+        "Q6",
+        "R6",
+        "R10",
+        "R11",
+        "Q15",
+        "R8",
+        "Q9",
+        "Q10"
+      ],
+      "group_status": [
+        "black_disconnected",
+        "white_framework"
+      ]
+    }
+  ]
+}

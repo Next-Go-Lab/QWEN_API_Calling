@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_077",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 77,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H11"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "F13"
+      },
+      {
+        "color": 1,
+        "point": "G14"
+      },
+      {
+        "color": 0,
+        "point": "G11"
+      },
+      {
+        "color": 1,
+        "point": "G10"
+      },
+      {
+        "color": 0,
+        "point": "H10"
+      },
+      {
+        "color": 1,
+        "point": "H11"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C6",
+      "D6",
+      "D7",
+      "E7",
+      "G7",
+      "B8",
+      "C8",
+      "D8",
+      "C10",
+      "F10",
+      "G10",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "C12",
+      "G12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "G14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "B4",
+      "C4",
+      "D4",
+      "C5",
+      "Q5",
+      "B6",
+      "Q6",
+      "R6",
+      "B7",
+      "C7",
+      "E8",
+      "E9",
+      "G9",
+      "D10",
+      "E10",
+      "H10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "F12",
+      "L12",
+      "B13",
+      "F13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "F9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "中央势力争夺",
+      "右下角未定型",
+      "黑棋大龙治孤"
+    ],
+    "global_summary_cn": "第77手，轮白（Ueno Risa）行棋。局面进入中盘关键阶段，双方在中央及右下展开激烈攻防；黑棋G10-H11一线与白棋H10-G9-E9形成缠斗，黑大龙尚未安定；白棋在右下Q10-P16一带构筑厚势，全局实地领先，胜率占优。",
+    "phase_explanation": "当前为中盘中后期，胜负焦点集中于中央战斗结果与右下实地归属。黑棋需借攻击中央白子寻求补偿，白棋则力求巩固优势并限制黑棋腾挪空间。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑O3-Q3-R4与白F3-B4-C4形成低中国流开局遗留结构，无明显冲突。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式余味",
+        "低中国流"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "B4",
+        "C4"
+      ],
+      "group_status": [
+        "settled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑J14-K14-Q14与白K15-P14-Q10形成宽广接触，白棋略占主动，黑棋有拆二潜力。",
+      "shapes": [
+        "side",
+        "influence"
+      ],
+      "local_tags": [
+        "势力对比",
+        "高位拆逼"
+      ],
+      "key_points": [
+        "J14",
+        "K14",
+        "P14",
+        "Q14"
+      ],
+      "group_status": [
+        "influencing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R12-R16-Q17与白Q5-Q6-R6-Q10构成复杂边空博弈，白Q10为重要据点，黑R16存劫材隐患。",
+      "shapes": [
+        "corner",
+        "side"
+      ],
+      "local_tags": [
+        "边空未定",
+        "劫争伏笔"
+      ],
+      "key_points": [
+        "R12",
+        "R16",
+        "Q17",
+        "Q10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边黑B5-C6-D6-D7-E7与白B6-B7-C7形成经典‘小目·无忧角’对抗，黑棋厚实但效率偏低，白棋保持弹性。",
+      "shapes": [
+        "side",
+        "ladder"
+      ],
+      "local_tags": [
+        "厚势",
+        "低效围空"
+      ],
+      "key_points": [
+        "B5",
+        "D7",
+        "B6",
+        "C7"
+      ],
+      "group_status": [
+        "solid"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心战场：黑G14-G12-F11-E11-D11与白G9-E9-E10-D10-F13-G10-H10-H11激烈绞杀，黑大龙气紧，白棋掌握主动权。",
+      "shapes": [
+        "fighting",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "对杀",
+        "大龙未活",
+        "气紧"
+      ],
+      "key_points": [
+        "G14",
+        "G10",
+        "H11",
+        "F13",
+        "E10"
+      ],
+      "group_status": [
+        "critical_fight"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑J15-K16与白K15-M15-L12形成牵制，白M15-K15为坚实外势支点，黑J15孤立待援。",
+      "shapes": [
+        "influence",
+        "probe"
+      ],
+      "local_tags": [
+        "外势支撑",
+        "孤子"
+      ],
+      "key_points": [
+        "J15",
+        "K16",
+        "K15",
+        "M15"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑D18-C13-D13-C12与白B11-C11-B12-D12构成典型‘迷你中国流’攻防，黑棋根基稳固，白棋难以深入。",
+      "shapes": [
+        "corner",
+        "territory"
+      ],
+      "local_tags": [
+        "实地扎实",
+        "守势完备"
+      ],
+      "key_points": [
+        "D18",
+        "C13",
+        "B11",
+        "D12"
+      ],
+      "group_status": [
+        "secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F17-L17与白P17-P16-D16形成东西对峙，白棋P16-D16一线厚势压制黑L17，黑F17为薄弱跳点。",
+      "shapes": [
+        "side",
+        "thickness"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "单关跳"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "P16",
+        "D16"
+      ],
+      "group_status": [
+        "pressured"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q13-Q14与白Q5-Q6-R6-P14-P16构成大型未定型区域，白棋占据实地主导，黑棋Q13存打入试探可能，目标点F9即为此处关联一手。",
+      "shapes": [
+        "corner",
+        "invasion"
+      ],
+      "local_tags": [
+        "实地领先",
+        "潜在打入",
+        "目标关联"
+      ],
+      "key_points": [
+        "Q13",
+        "Q14",
+        "P14",
+        "P16",
+        "F9"
+      ],
+      "group_status": [
+        "unresolved"
+      ]
+    }
+  ]
+}

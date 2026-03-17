@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_118",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 118,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E11"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q12"
+      },
+      {
+        "color": 0,
+        "point": "K13"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      },
+      {
+        "color": 0,
+        "point": "B13"
+      },
+      {
+        "color": 1,
+        "point": "D12"
+      },
+      {
+        "color": 0,
+        "point": "E11"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "B12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋实地导向"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中央势力对峙",
+      "左上薄味处理"
+    ],
+    "global_summary_cn": "第118手，黑方行棋，局面处于中盘关键阶段。黑棋在右下和右上占据较多实地，白棋则在中腹与左侧构建厚势；双方在E11、D12、K13等处连续接触，局部战斗密集。黑棋最新一手Q12意在强化右边，白棋刚于E11落子形成对黑D12、J12等子的间接压迫。",
+    "phase_explanation": "当前为中盘中后期，胜负焦点集中于中央势力消长与边角收官效率。黑棋领先但需防范白棋借厚势侵消；白棋虽落后，但中腹潜力大，存在逆转机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白C3、C5、C8与黑B4、B5、B6形成低空对峙，白C15、D16略带外势，黑D18、E17构成小堡垒。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式收束",
+        "白厚黑实"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "C5",
+        "B5",
+        "C8",
+        "D18"
+      ],
+      "group_status": [
+        "白活",
+        "黑活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段激烈争夺：黑Q3、R4、S12-S13与白P2、N3、S14-S16形成上下夹击，白S19孤子待援，黑T16、T18构成边空雏形。",
+      "shapes": [
+        "side_wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "边空雏形",
+        "白孤棋",
+        "黑厚势"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S19"
+      ],
+      "group_status": [
+        "黑厚",
+        "白孤"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q15-Q18、R14-R18与白R15-R17、S15-S16形成复杂接触战，黑T16、T18为眼位要点，白S19为弱子。",
+      "shapes": [
+        "corner_contact",
+        "eye_space"
+      ],
+      "local_tags": [
+        "接触战",
+        "眼位争夺",
+        "白弱"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "S15",
+        "S16",
+        "S19",
+        "T16",
+        "T18"
+      ],
+      "group_status": [
+        "黑活",
+        "白危"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑K2-K6-L6-M6-N6与白K3-L3-M3-N3-D4-E6-C7-C8形成大规模对杀雏形，黑K10-K11-J11与白J10-K9构成中央牵制点。",
+      "shapes": [
+        "ladder",
+        "influence_chain"
+      ],
+      "local_tags": [
+        "对杀雏形",
+        "中央牵制"
+      ],
+      "key_points": [
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "M3",
+        "M5",
+        "M6",
+        "N3",
+        "N4",
+        "N5",
+        "N6",
+        "J10",
+        "K9",
+        "K10",
+        "K11",
+        "J11"
+      ],
+      "group_status": [
+        "黑厚",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域高度密集：黑G10-H10-K10-L10-M10-N11-O11-P11与白J10-N10-E11-L11-M11形成多层包围网，E11为最新白子，正威胁黑D12、J12。",
+      "shapes": [
+        "web",
+        "surrounding_net"
+      ],
+      "local_tags": [
+        "中央绞杀",
+        "新点压迫"
+      ],
+      "key_points": [
+        "G10",
+        "H10",
+        "J10",
+        "K10",
+        "L10",
+        "M10",
+        "N10",
+        "E11",
+        "L11",
+        "M11",
+        "N11",
+        "O11",
+        "P11",
+        "D12",
+        "J12"
+      ],
+      "group_status": [
+        "黑受压",
+        "白主动"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边中段黑Q12-R12-S12与白P12-O12-N12-M12-K12-H12-G12-E12形成横向拉锯，黑Q12为最新强手，意图巩固右边并瞄向中央。",
+      "shapes": [
+        "side_ladder",
+        "extension"
+      ],
+      "local_tags": [
+        "横向拉锯",
+        "黑强手"
+      ],
+      "key_points": [
+        "Q12",
+        "R12",
+        "S12",
+        "P12",
+        "O12",
+        "N12",
+        "M12",
+        "K12",
+        "H12",
+        "G12",
+        "E12"
+      ],
+      "group_status": [
+        "黑厚",
+        "白薄"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C3、C6、D7与白D4、D6、E6、C7、E9构成典型低位缠斗，黑F8、G10与白E9、K9形成斜向呼应，黑势略优。",
+      "shapes": [
+        "low_side_fight",
+        "diagonal_influence"
+      ],
+      "local_tags": [
+        "低位缠斗",
+        "斜向呼应"
+      ],
+      "key_points": [
+        "C3",
+        "D4",
+        "C6",
+        "D6",
+        "E6",
+        "C7",
+        "D7",
+        "E9",
+        "F8",
+        "G10",
+        "K9"
+      ],
+      "group_status": [
+        "黑稍厚",
+        "白可战"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E14-E15-F16-H14-H15-H16与白E16-F15-G15构成实地与外势对抗，黑E17-G17与白D17-J17形成对峙线。",
+      "shapes": [
+        "territory_vs_influence"
+      ],
+      "local_tags": [
+        "实地vs外势",
+        "对峙线"
+      ],
+      "key_points": [
+        "E14",
+        "E15",
+        "F15",
+        "F16",
+        "G15",
+        "H14",
+        "H15",
+        "H16",
+        "E16",
+        "D17",
+        "E17",
+        "G17",
+        "J17"
+      ],
+      "group_status": [
+        "黑实",
+        "白势"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R13-R14-R15-R16-R17与白S13-S14-S15-S16-S17-S18-S19形成典型‘大猪嘴’式攻防，黑R18-T18为活形关键，白S19孤立。",
+      "shapes": [
+        "big_eye_shape",
+        "isolation"
+      ],
+      "local_tags": [
+        "大猪嘴",
+        "白孤死",
+        "黑活形"
+      ],
+      "key_points": [
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "T18"
+      ],
+      "group_status": [
+        "黑活",
+        "白死"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_151",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 151,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "L14"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O11"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "Q12"
+      },
+      {
+        "color": 1,
+        "point": "R13"
+      },
+      {
+        "color": 0,
+        "point": "N15"
+      },
+      {
+        "color": 1,
+        "point": "L14"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "R11",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "L14",
+      "O14",
+      "P14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "C16",
+      "J16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "B18",
+      "D18",
+      "M18"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "O11",
+      "P11",
+      "Q12",
+      "C13",
+      "O13",
+      "P13",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "N15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "E18",
+      "J18",
+      "L18",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "targets": {
+    "policy_target": "P15"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_group_life",
+      "center_influence_vs_territory",
+      "bottom_right_eye_space"
+    ],
+    "global_summary_cn": "全局进入收官关键阶段，黑棋在右上与中腹形成厚势但存在眼位隐患，白棋在右下和中腹有数块未净活棋，双方围绕L14、Q12、R13等近期落子点展开劫争与做活争夺；黑方领先半目，白方需强手逆转。",
+    "phase_explanation": "第151手，黑方刚于L14落子，是针对右上白棋大龙的致命搜根一击；此前六手形成局部劫争雏形（O11–R14–Q12–R13–N15–L14），当前局面重心在middle_right与top_right区域的生死对杀，同时bottom_right存在潜在双活可能。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守小空，无激烈战斗。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "quiet"
+      ],
+      "key_points": [
+        "D1",
+        "C2",
+        "B3",
+        "A4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋连片厚势（K2–K3–J4–J5），压制白棋K4/L4/M4等子，但白有M3/N4等跳点保持弹性。",
+      "shapes": [
+        "side_wall",
+        "influence_line"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_flexibility"
+      ],
+      "key_points": [
+        "J4",
+        "K4",
+        "K5",
+        "M3"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激战核心：黑Q2/R2/R3/Q3/P4/R4等构成攻击阵型；白R3/O4/Q4/P5等被围，L14为最新打入点，威胁白大龙眼位。",
+      "shapes": [
+        "attacking_net",
+        "vulnerable_group"
+      ],
+      "local_tags": [
+        "life_and_death",
+        "critical_ko",
+        "eye_space_pressure"
+      ],
+      "key_points": [
+        "Q2",
+        "R3",
+        "O4",
+        "Q4",
+        "L14"
+      ],
+      "group_status": [
+        "white_unsettled",
+        "black_attacking"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋D10/D11/C11/C13/D13/E14/F14等呈斜向厚壁，白C9/C10/C13等孤子受压，但白D16/F16/K16构成另一条防线。",
+      "shapes": [
+        "diagonal_wall",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "black_influence",
+        "white_weak_group"
+      ],
+      "key_points": [
+        "D10",
+        "C11",
+        "C13",
+        "D16"
+      ],
+      "group_status": [
+        "black_solid",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑M6/G7/Q7/S7与白G6/H6/J6/N6等交错，形成模糊势力圈；黑Q13/R13与白P13/O13/N14形成接触战前沿。",
+      "shapes": [
+        "floating_groups",
+        "influence_contest"
+      ],
+      "local_tags": [
+        "unclear_territory",
+        "mutual_influence"
+      ],
+      "key_points": [
+        "M6",
+        "G7",
+        "Q7",
+        "N14"
+      ],
+      "group_status": [
+        "both_uncertain"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "中右腹为本局胜负焦点：黑N12/N13/O14/P14/R14与白O11/P11/Q12/P13/O13/N15/Q14等密集交火；L14为黑方最新搜根手，直指白棋眼形缺陷。",
+      "shapes": [
+        "fighting_cluster",
+        "ko_battle_zone"
+      ],
+      "local_tags": [
+        "ko_threat",
+        "eye_deficiency",
+        "urgent_life"
+      ],
+      "key_points": [
+        "O11",
+        "Q12",
+        "N13",
+        "L14",
+        "N15",
+        "Q14"
+      ],
+      "group_status": [
+        "white_in_atari_risk",
+        "black_pressuring"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下黑B15/C15/D15/B16/C16与白B16/C17/D17等形成低地对峙，黑有B17/M17/N17/O17等外势呼应，白E18/J18等略显单薄。",
+      "shapes": [
+        "low_side_fight",
+        "outer_support"
+      ],
+      "local_tags": [
+        "territory_balance",
+        "light_white"
+      ],
+      "key_points": [
+        "B15",
+        "C17",
+        "B17",
+        "E18"
+      ],
+      "group_status": [
+        "both_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑D18/M18与白E18/L18/N18/O18/P18形成绵长对峙线，黑棋稍厚但未完全封锁，白有腾挪余地。",
+      "shapes": [
+        "side_race",
+        "flexible_shape"
+      ],
+      "local_tags": [
+        "territory_contest",
+        "white_mobility"
+      ],
+      "key_points": [
+        "D18",
+        "M18",
+        "N18",
+        "P18"
+      ],
+      "group_status": [
+        "both_fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑Q16/R16/S16/S17/Q17/R17与白R17/Q17/P18等形成复杂双活/劫争边缘，S9/R9/C9等白子构成潜在劫材库。",
+      "shapes": [
+        "dual_life_possibility",
+        "ko_material"
+      ],
+      "local_tags": [
+        "potential_seki",
+        "hidden_ko_stones"
+      ],
+      "key_points": [
+        "Q16",
+        "S16",
+        "S9",
+        "R9",
+        "C9"
+      ],
+      "group_status": [
+        "unclear_outcome"
+      ]
+    }
+  ]
+}

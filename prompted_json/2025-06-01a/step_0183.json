@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_182",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 182,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "B10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "P16"
+      },
+      {
+        "color": 0,
+        "point": "J15"
+      },
+      {
+        "color": 1,
+        "point": "J14"
+      },
+      {
+        "color": 0,
+        "point": "B11"
+      },
+      {
+        "color": 1,
+        "point": "B12"
+      },
+      {
+        "color": 0,
+        "point": "B10"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "B12",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "L10",
+      "B11",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "N9"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "attacking white group around B10–B12",
+      "defending black moyo on left side"
+    ],
+    "global_summary_cn": "对局进入收官阶段，黑方以0.5目优势领先。白棋刚在B10落子，试图搅乱左下黑棋阵型；黑方上一手P16强化右上势力，当前焦点集中在N9这一潜在劫材与中央联络要点。全局呈现黑白大龙对峙、边角实地争夺胶着态势。",
+    "phase_explanation": "Move 182为黑方回合，属官子阶段中期。双方在左下（B10–D11）、右上（P16–Q16）及中央（J14–J15）形成多处未定形局部，N9是影响中腹厚势与左右联络的关键点。白棋在B10连续侵消后，黑需兼顾守角与破眼。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋占据A4–C4一线实空，黑棋C2–D3构成小堡垒；白B3、C4与黑C2、D3形成接触战前沿。",
+      "shapes": [
+        "line",
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "white_territory",
+        "black_invasion_attempt"
+      ],
+      "key_points": [
+        "B3",
+        "C2",
+        "D3",
+        "C4"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋J16、K16、L16、P16、Q16、R16连成厚势，白棋B16、D16、F16、K17等呈零散守势；中央上方存在潜在打入点。",
+      "shapes": [
+        "wall",
+        "floating_group"
+      ],
+      "local_tags": [
+        "black_thickness",
+        "white_floating"
+      ],
+      "key_points": [
+        "J16",
+        "P16",
+        "B16",
+        "K17"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋R19、S18、S17、R17、Q17与白棋S17、R17、Q17形成复杂共活边界；S16、R16属黑厚势延伸。",
+      "shapes": [
+        "borderline",
+        "shared_life"
+      ],
+      "local_tags": [
+        "mutual_life",
+        "edge_fighting"
+      ],
+      "key_points": [
+        "R19",
+        "S18",
+        "S17",
+        "R17"
+      ],
+      "group_status": [
+        "unclear_life_status"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋B10–B12–C11–D11–D10与白棋B10、B11、C10、L10形成激烈攻防；黑在此处有未净活大块，白持续施压。",
+      "shapes": [
+        "ladder",
+        "attack_defense"
+      ],
+      "local_tags": [
+        "life_and_death",
+        "black_eye_shape_uncertain"
+      ],
+      "key_points": [
+        "B10",
+        "B11",
+        "C11",
+        "D11",
+        "L10"
+      ],
+      "group_status": [
+        "black_must_live",
+        "white_attacking"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "J14–J15–K15–L14–M14一带为双方交错薄味区；N9为空缺要点，牵动中腹厚薄与左右联络。",
+      "shapes": [
+        "junction",
+        "vital_point_zone"
+      ],
+      "local_tags": [
+        "vital_point_N9",
+        "central_influence"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "K15",
+        "N9"
+      ],
+      "group_status": [
+        "unstable",
+        "influence_contest"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋Q13–R13–R14–Q14与白棋Q14–P13–O13构成右中腹对峙；黑Q13–R13似有断点，白可于O12或P12施加压力。",
+      "shapes": [
+        "side_wall",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "black_side_wall",
+        "white_cutting_chance"
+      ],
+      "key_points": [
+        "Q13",
+        "R13",
+        "Q14",
+        "P13"
+      ],
+      "group_status": [
+        "black_needs_connection",
+        "white_waiting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋D1–E1–C2–F2–C3–D3–E3与白棋D2–E2–B3–E3形成经典低段角部对抗；黑已围出坚实实地，白仅存微弱侵分可能。",
+      "shapes": [
+        "solid_territory",
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "black_secure_corner",
+        "white_no_threat"
+      ],
+      "key_points": [
+        "D1",
+        "C2",
+        "D2",
+        "B3"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_dead_or_small"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋F4–G5–F6–G7–G8与白棋G6–H6–H7–N7构成中腹下方厚势对比；黑G7–G8为高效率外势支点。",
+      "shapes": [
+        "stone_chain",
+        "thickness_anchor"
+      ],
+      "local_tags": [
+        "black_outside_influence",
+        "white_scattered"
+      ],
+      "key_points": [
+        "F4",
+        "G5",
+        "G7",
+        "G8",
+        "H6"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_thin"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋P2–Q2–R2–S4–R4–S7–S8与白棋R3–S3–S9–R9构成庞大右下角争夺；黑已控制大部分实地，白R9–S9为最后挣扎点。",
+      "shapes": [
+        "large_territory",
+        "endgame_reduction"
+      ],
+      "local_tags": [
+        "black_dominant",
+        "white_endgame_effort"
+      ],
+      "key_points": [
+        "P2",
+        "R2",
+        "S4",
+        "R9",
+        "S9"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_minimal_chance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_013",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 13,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "O3"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "Q5"
+      },
+      {
+        "color": 1,
+        "point": "R5"
+      },
+      {
+        "color": 0,
+        "point": "R6"
+      },
+      {
+        "color": 1,
+        "point": "R4"
+      },
+      {
+        "color": 0,
+        "point": "Q6"
+      },
+      {
+        "color": 1,
+        "point": "O3"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "R5",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_development",
+      "corner_fight_in_top_right",
+      "black_invasion_attempt"
+    ],
+    "strategic_focus": [
+      "top_right_corner",
+      "center_influence",
+      "bottom_right_sente_potential"
+    ],
+    "global_summary_cn": "第13手，黑方刚于O3落子，白方即将在Q10应手。当前局面呈现明显不对称：白棋在左上（D4、C14、D16）与右上（Q5、Q6、R6）形成双角配置；黑棋则集中于右下（R16、Q3、O3、R4、R5）并延伸至左上（F17、L17），其中O3为深入白阵的试探性侵消。中心空旷，Q10为双方争夺影响力的要点。",
+    "phase_explanation": "布局早期，双方尚未完成定式收束，右上角（Q5–R6）与右下角（O3–R5）形成局部对峙；黑棋Q3–O3–R4–R5构成不完整‘小猪嘴’雏形但未闭气；白棋Q5–Q6–R6呈‘三连星’压缩态势；全局无死活问题，焦点在于势力消长与先手归属。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋D4与C14、D16构成高低配合，D4为无忧角雏形，C14/D16为拆二守势；黑棋F17、L17分散，暂未形成联动。",
+      "shapes": [
+        "corner",
+        "low_extension"
+      ],
+      "local_tags": [
+        "white_foundation",
+        "black_scattered"
+      ],
+      "key_points": [
+        "D4",
+        "C14",
+        "D16",
+        "F17",
+        "L17"
+      ],
+      "group_status": [
+        "white_stable",
+        "black_unconnected"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷区域，无子力分布，属双方未来势力辐射交汇带，潜在大场。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "neutral",
+        "influence_boundary"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋Q5、Q6、R6构成紧凑三角阵势，压制黑棋R16一子；黑R16孤立，暂无援军，处于被攻击位置。",
+      "shapes": [
+        "triangle",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "white_pressure",
+        "black_weak"
+      ],
+      "key_points": [
+        "Q5",
+        "Q6",
+        "R6",
+        "R16"
+      ],
+      "group_status": [
+        "white_connected",
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "全空，仅靠近左上与中腹过渡区，尚未出现接触战，属待开发战略缓冲带。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "quiet",
+        "future_framework"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无任何着子，是全局最大空白区域，Q10即位于此区偏右位置，为当前最急迫大场。",
+      "shapes": [
+        "central_void"
+      ],
+      "local_tags": [
+        "critical_point",
+        "sente_target"
+      ],
+      "key_points": [
+        "Q10"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋Q3、R4、R5、O3形成斜向集群，呈‘刀把五’雏形但气未紧；白棋无子，此处为当前主战场。",
+      "shapes": [
+        "diagonal_cluster",
+        "invasion_shape"
+      ],
+      "local_tags": [
+        "black_invasion",
+        "white_vulnerable"
+      ],
+      "key_points": [
+        "Q3",
+        "O3",
+        "R4",
+        "R5"
+      ],
+      "group_status": [
+        "black_partially_connected"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "全空，无任何棋子，属冷区，暂无战略意义。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "inactive"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "全空，无子，与中腹连通性强，未来可能成为厚势根基或打入点。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "potential_framework"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑棋R16位于此区顶部边缘，但实际归属top_right；本区完全空旷，无子，为远期潜力区。",
+      "shapes": [
+        "empty_zone"
+      ],
+      "local_tags": [
+        "dormant"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

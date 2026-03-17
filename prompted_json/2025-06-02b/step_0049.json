@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_048",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 48,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "K3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "B4"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "E6"
+      },
+      {
+        "color": 1,
+        "point": "K4"
+      },
+      {
+        "color": 0,
+        "point": "K3"
+      }
+    ],
+    "black_stones": [
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "C6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "N10",
+      "L11",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "K2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "K2点入试探"
+    ],
+    "global_summary_cn": "第48手，黑方即将落子K2，试探白棋右下角薄弱处；白棋在右下（K3、L4、M3等）形成厚势但存在断点，黑棋在右上（Q15–R18）与左上（B4、C6）均有成空潜力，全局呈实地与外势对峙格局。",
+    "phase_explanation": "中盘阶段，双方在多个局部持续接触，尚未进入官子；黑方掌握主动，正通过K2一着寻求打破平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B4、C6构成小堡垒，白棋D4、F3呼应；局部平稳，黑略占先。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑小堡垒",
+        "白轻吊"
+      ],
+      "key_points": [
+        "B4",
+        "C6",
+        "D4"
+      ],
+      "group_status": [
+        "black_alive",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑棋Q15–S19连片大空雏形，白棋D16、J16、R16、S18、S19施加压力；黑空未净，白有侵消余地。",
+      "shapes": [
+        "side_wall",
+        "potential_eye_shape"
+      ],
+      "local_tags": [
+        "黑大模样",
+        "白侵削"
+      ],
+      "key_points": [
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S18",
+        "S19",
+        "D16",
+        "J16",
+        "R16"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_pressing"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋S13–S14、R15、R17与黑棋R12–R14、Q15形成犬牙交错；局部激烈对杀未定，黑稍紧。",
+      "shapes": [
+        "ladder_fragment",
+        "fighting_edge"
+      ],
+      "local_tags": [
+        "对杀前沿",
+        "气紧"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "Q15",
+        "S13",
+        "S14",
+        "R15",
+        "R17"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋K5、L6、M6、N6与白棋L4、L5、M5、O5围绕中腹展开拉锯；黑棋D7–E6–D6一线形成斜向势力，白棋K3为孤子但有联络可能。",
+      "shapes": [
+        "diagonal_influence",
+        "central_fight"
+      ],
+      "local_tags": [
+        "中腹拉锯",
+        "斜势延伸"
+      ],
+      "key_points": [
+        "D6",
+        "E6",
+        "D7",
+        "K3",
+        "K5",
+        "L4",
+        "L5",
+        "L6",
+        "M5",
+        "M6",
+        "N5",
+        "N6",
+        "O5"
+      ],
+      "group_status": [
+        "black_influential",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，无密集子力；黑棋N10、L11与白棋N10、L11构成潜在对峙点，是未来中腹作战枢纽。",
+      "shapes": [
+        "empty_crossroads"
+      ],
+      "local_tags": [
+        "中腹枢纽",
+        "待开发"
+      ],
+      "key_points": [
+        "N10",
+        "L11"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑棋J3、K4、O4、P4、R4与白棋P2、M3、N3、L4、N4构成复杂右下角结构；白棋厚实但K3孤立，黑棋K4–J3–O4呈包围态势。",
+      "shapes": [
+        "encirclement",
+        "thick_wall"
+      ],
+      "local_tags": [
+        "右下角战",
+        "白厚黑围"
+      ],
+      "key_points": [
+        "J3",
+        "K3",
+        "K4",
+        "L4",
+        "M3",
+        "N3",
+        "N4",
+        "O4",
+        "P4",
+        "R4"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_surrounding"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "近乎空白，仅黑棋Q3、白棋P2零星分布；属战略缓区，暂无直接冲突。",
+      "shapes": [
+        "empty"
+      ],
+      "local_tags": [
+        "空旷",
+        "无争"
+      ],
+      "key_points": [
+        "Q3",
+        "P2"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑棋K2为待落点，是当前焦点；其周边K3（白）、J3（黑）、K4（黑）、L3（空）、K1（空）构成典型‘打入试探’结构。",
+      "shapes": [
+        "invasion_point",
+        "vital_point"
+      ],
+      "local_tags": [
+        "K2点入",
+        "胜负手候选"
+      ],
+      "key_points": [
+        "K2",
+        "K3",
+        "J3",
+        "K4"
+      ],
+      "group_status": [
+        "critical_tension"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋S13–S14、R15、R16、R17、S18、S19与黑棋R12–R14、Q15、Q16、Q17、Q18、R18形成庞大右上—右下联动战场；白棋外势雄厚但空虚，黑棋实地扎实。",
+      "shapes": [
+        "large_side_framework",
+        "influence_vs_territory"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑实地"
+      ],
+      "key_points": [
+        "R12",
+        "S12",
+        "R13",
+        "R14",
+        "Q15",
+        "Q16",
+        "Q17",
+        "Q18",
+        "R18",
+        "S13",
+        "S14",
+        "R15",
+        "R16",
+        "R17",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "white_influential",
+        "black_territorial"
+      ]
+    }
+  ]
+}

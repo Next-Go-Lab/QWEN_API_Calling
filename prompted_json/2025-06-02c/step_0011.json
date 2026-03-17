@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_010",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 10,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R6"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F17"
+      },
+      {
+        "color": 0,
+        "point": "C14"
+      },
+      {
+        "color": 1,
+        "point": "L17"
+      },
+      {
+        "color": 0,
+        "point": "Q5"
+      },
+      {
+        "color": 1,
+        "point": "R5"
+      },
+      {
+        "color": 0,
+        "point": "R6"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R5",
+      "R16",
+      "F17",
+      "L17"
+    ],
+    "white_stones": [
+      "D4",
+      "Q5",
+      "R6",
+      "C14",
+      "D16"
+    ]
+  },
+  "targets": {
+    "policy_target": "R4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "asymmetric_fighting",
+      "corner_invasion"
+    ],
+    "strategic_focus": [
+      "right_side_pressure",
+      "top_right_framework",
+      "center_influence_balance"
+    ],
+    "global_summary_cn": "黑方在右上角与白方形成局部对攻，R5与Q5、R6构成紧凑接触战；左上黑棋F17、L17呼应，但白D16施加牵制；右下黑Q3孤立，白D4守角稳固；全局尚未形成大模样，双方侧重实地与外势的初步平衡。",
+    "phase_explanation": "第10手，开局阶段，双方落子集中于边角，尚未进入中盘战斗，但右下R4（policy_target）已显露黑方意图侵消白右下势力或扩展自身联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑F17、L17呈斜飞布局，白D16靠压试探，黑未连络，存在薄味。",
+      "shapes": [
+        "diagonal_flight"
+      ],
+      "local_tags": [
+        "black_flight",
+        "white_pressure"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "D16"
+      ],
+      "group_status": [
+        "black_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属战略缓冲区，未来可能成为黑上方拆二或白中腹发展起点。",
+      "shapes": [],
+      "local_tags": [
+        "empty_zone",
+        "potential_expansion"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "激烈接触战区域：黑R16、R5，白Q5、R6形成短兵相接，R5为黑跳入要点，Q5/R6为白封锁组合。",
+      "shapes": [
+        "contact_fight",
+        "ladder_shape_hint"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "black_invasion",
+        "white_containment"
+      ],
+      "key_points": [
+        "R16",
+        "R5",
+        "Q5",
+        "R6"
+      ],
+      "group_status": [
+        "both_unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，仅黑C14一子深入，白无应手，属黑潜在拆逼或引征方向。",
+      "shapes": [
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "black_probe",
+        "quiet_zone"
+      ],
+      "key_points": [
+        "C14"
+      ],
+      "group_status": [
+        "black_isolated"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，无子，当前无直接战略动作，但为后续影响力辐射核心。",
+      "shapes": [],
+      "local_tags": [
+        "neutral_core",
+        "future_influence"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑Q3孤子位于低线，白Q5、R6对其形成间接压制；R4（target）为黑下一着关键侵分点。",
+      "shapes": [
+        "low_line_isolation",
+        "invasion_target"
+      ],
+      "local_tags": [
+        "black_weak_group",
+        "white_control"
+      ],
+      "key_points": [
+        "Q3",
+        "Q5",
+        "R6",
+        "R4"
+      ],
+      "group_status": [
+        "black_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "空旷，无子，属冷区，暂无战术意义。",
+      "shapes": [],
+      "local_tags": [
+        "silent_corner"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，无子，与右下角联动弱，当前无争夺。",
+      "shapes": [],
+      "local_tags": [
+        "empty_territory"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白D4守角扎实，黑无子，构成典型白方坚实根据地，与右上战斗形成内外呼应。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "white_secure",
+        "foundation"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "white_alive"
+      ]
+    }
+  ]
+}

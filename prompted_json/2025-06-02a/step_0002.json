@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_001",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 1,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      }
+    ],
+    "black_stones": [
+      "Q16"
+    ],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "D4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "黑先",
+      "星位布局"
+    ],
+    "strategic_focus": [
+      "右上角",
+      "势力扩张",
+      "外势构建"
+    ],
+    "global_summary_cn": "黑方首手落于右上角星位Q16，典型小目或星位开局选择，意在快速占据大场、构建外势；白方尚未落子，全局处于最初始阶段。",
+    "phase_explanation": "棋局处于第一手之后的初始阶段，仅有一枚黑子位于Q16，无接触战、无死活问题、无攻防关系，纯属布局起点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角空旷，无子力，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中央区域空旷，临近黑子Q16但尚未形成影响。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑子Q16位于此区左下角（近边线），构成星位落点，是当前唯一着子区域，具备开局锚点意义。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑先手",
+        "大场"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，远离当前着子点，无任何战略关联。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "棋盘中心完全空旷，尚未介入任何布局意图。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右方中腹空旷，与Q16存在潜在连络或拆边空间，但尚未显现。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角全空，无子力，属远端未启动区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中央空旷，与当前局面无直接联系。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角全空，对称于Q16所在右上角，暂无呼应。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

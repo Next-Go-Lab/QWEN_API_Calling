@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_033",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 33,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E7"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "M4"
+      },
+      {
+        "color": 1,
+        "point": "J17"
+      },
+      {
+        "color": 0,
+        "point": "H4"
+      },
+      {
+        "color": 1,
+        "point": "D4"
+      },
+      {
+        "color": 0,
+        "point": "C3"
+      },
+      {
+        "color": 1,
+        "point": "E7"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "E7",
+      "P7",
+      "N8",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "H2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角争夺",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力",
+      "左上白厚壁"
+    ],
+    "global_summary_cn": "第33手，轮白（Ueno Asami）行棋。黑棋在右下（R5-R8-Q9-Q10-N10）与左上（J17-D16-P17-L16）形成两块未安定大龙；白棋在右上（Q4-R5）、中腹（M4-O4）、左下（C3-C4-D3-E3）占据实地并构筑厚势。最新一手黑E7意在扩张中腹，但白H2为潜在打入点。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，黑棋需处理右下与左上两块孤棋，白棋掌握主动权，厚势广阔且有多个攻击方向。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋L16、P17与黑D16、J17构成对峙，白厚壁成形，黑J17略显单薄。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "厚势",
+        "单官守角",
+        "黑孤棋"
+      ],
+      "key_points": [
+        "D16",
+        "J17",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "白厚",
+        "黑未连络"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，仅黑Q15孤立一子，无直接冲突，属战略预备区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略预备"
+      ],
+      "key_points": [
+        "Q15"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白R16、R11、R10、Q15与黑Q15、P12、R10形成交错，右上角尚未定型。",
+      "shapes": [
+        "side"
+      ],
+      "local_tags": [
+        "角部未定",
+        "黑白交错"
+      ],
+      "key_points": [
+        "R10",
+        "R11",
+        "R16",
+        "Q15",
+        "P12"
+      ],
+      "group_status": [
+        "黑未活净",
+        "白有侵消余地"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑F3-F4-E4-D4-C3与白C3-C4-D3-E3形成经典小目互挂后对杀雏形，黑E7新落子强化中腹联络。",
+      "shapes": [
+        "ladder",
+        "connection"
+      ],
+      "local_tags": [
+        "小目定式后续",
+        "对杀雏形",
+        "联络要点"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "E3",
+        "C4",
+        "D4",
+        "E4",
+        "F3",
+        "F4",
+        "E7"
+      ],
+      "group_status": [
+        "黑可连络",
+        "白厚实"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹开阔，黑E7、P7、N8与白M4、O4构成势力对比，黑试图张势，白保持弹性。",
+      "shapes": [
+        "influence"
+      ],
+      "local_tags": [
+        "中腹影响力",
+        "势力对抗"
+      ],
+      "key_points": [
+        "E7",
+        "M4",
+        "O4",
+        "P7",
+        "N8"
+      ],
+      "group_status": [
+        "黑势初张",
+        "白灵活"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑Q6、R6与白Q4、R5、Q9、Q10、N10形成右下复杂攻防，黑R6-Q6受白Q4-R5压制，Q9-Q10为白眼位关键。",
+      "shapes": [
+        "attack",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "攻防焦点",
+        "眼位争夺",
+        "黑受攻"
+      ],
+      "key_points": [
+        "Q4",
+        "R5",
+        "Q6",
+        "R6",
+        "Q9",
+        "Q10",
+        "N10"
+      ],
+      "group_status": [
+        "黑未活",
+        "白有望杀"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白C3-C4-D3-E3与黑F3-F4-E4-D4构成密集接触，已成实地化局部，黑稍亏但安定。",
+      "shapes": [
+        "territory"
+      ],
+      "local_tags": [
+        "实地定型",
+        "低效交换"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4",
+        "E3",
+        "E4",
+        "F3",
+        "F4"
+      ],
+      "group_status": [
+        "双方安定"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑H4与白H4同点？校验：输入中黑无H4，白有H4；故H4为白子，孤立于低位，或为试应手/引征伏笔。",
+      "shapes": [
+        "probe"
+      ],
+      "local_tags": [
+        "试应手",
+        "引征伏笔"
+      ],
+      "key_points": [
+        "H4"
+      ],
+      "group_status": [
+        "白单子"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白R8与黑P7、N8、Q6形成纵向牵制，R8为白外势支点，黑右下大龙生死未卜。",
+      "shapes": [
+        "framework"
+      ],
+      "local_tags": [
+        "外势支点",
+        "大龙安危"
+      ],
+      "key_points": [
+        "R8",
+        "P7",
+        "N8",
+        "Q6"
+      ],
+      "group_status": [
+        "黑大龙未活",
+        "白控外围"
+      ]
+    }
+  ]
+}

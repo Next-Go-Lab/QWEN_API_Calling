@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_029",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 29,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "N6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N4"
+      },
+      {
+        "color": 1,
+        "point": "N5"
+      },
+      {
+        "color": 0,
+        "point": "O5"
+      },
+      {
+        "color": 1,
+        "point": "O4"
+      },
+      {
+        "color": 0,
+        "point": "M5"
+      },
+      {
+        "color": 1,
+        "point": "N6"
+      }
+    ],
+    "black_stones": [
+      "M4",
+      "O4",
+      "P4",
+      "R4",
+      "N5",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "N3",
+      "D4",
+      "N4",
+      "M5",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "L4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋侵消"
+    ],
+    "strategic_focus": [
+      "右下角攻防",
+      "中腹潜力争夺",
+      "白棋外势向中央延伸"
+    ],
+    "global_summary_cn": "第29手，黑方刚于N6落子，形成右下角复杂接触战；白棋在N3、N4、M5、O5、O4等点构筑局部厚壁，黑棋则以M4、P4、R4及N5、N6反向压迫，双方在D4–S19大范围内展开边角与中腹联动。全局呈白取实地、黑争外势态势，但黑棋在右下持续施压，意图破空。",
+    "phase_explanation": "处于中盘战斗高峰期，局部尚未定型，关键胜负点集中在右下角（N4–O5一带）及中腹潜力区域；黑棋执先（to_play=0为黑），正尝试通过L4（policy_target）一着打入或分断白棋联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白棋D4、D16占据双星位，黑棋无子，属白棋势力范围起点。",
+      "shapes": [],
+      "local_tags": [
+        "白棋双星布局",
+        "空旷"
+      ],
+      "key_points": [
+        "D4",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段白棋J16、R16–S19构成厚势，黑棋Q15–Q18、R12–R14形成小规模阵势，但被白棋压制。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "白棋厚势",
+        "黑棋弱阵"
+      ],
+      "key_points": [
+        "J16",
+        "Q15",
+        "R16",
+        "S18"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_weak_group"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋Q17–Q18–R18–S19与白棋R17–S19激烈交错，已形成对杀雏形，但尚未紧气。",
+      "shapes": [
+        "corner_fighting"
+      ],
+      "local_tags": [
+        "对杀初现",
+        "气紧"
+      ],
+      "key_points": [
+        "Q17",
+        "R17",
+        "S19",
+        "R18"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹空旷，仅白棋J16略作呼应，无实质交战，属战略预备区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "未开发"
+      ],
+      "key_points": [
+        "J16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央开阔，黑白均无成形集团，但黑棋N5、N6与白棋M5、O5形成横向接触带，是未来中腹作战导火索。",
+      "shapes": [
+        "contact_line"
+      ],
+      "local_tags": [
+        "接触带",
+        "中腹前哨"
+      ],
+      "key_points": [
+        "M5",
+        "N5",
+        "N6",
+        "O5"
+      ],
+      "group_status": [
+        "mutual_influence"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右下角核心战场：黑M4、N5、N6、O4 vs 白N3、N4、M5、O5，密集对峙，L4为黑棋下一招关键打入点。",
+      "shapes": [
+        "fighting_cluster"
+      ],
+      "local_tags": [
+        "主战场",
+        "多点接触",
+        "打入预备"
+      ],
+      "key_points": [
+        "M4",
+        "N3",
+        "N4",
+        "M5",
+        "N5",
+        "O4",
+        "O5",
+        "L4"
+      ],
+      "group_status": [
+        "unstable",
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下全空，无任何棋子，属完全未涉足区域。",
+      "shapes": [],
+      "local_tags": [
+        "全空",
+        "未落子"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，仅黑R4、P4、S12–S14零星分布，未构成有效联络，白棋无子。",
+      "shapes": [],
+      "local_tags": [
+        "零星黑子",
+        "松散"
+      ],
+      "key_points": [
+        "P4",
+        "R4",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "group_status": [
+        "black_loose"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角延伸至底部：黑R12–R14、S12–S14与白S13–S14、R15–R17形成上下夹击态势，黑棋试图从下方渗透。",
+      "shapes": [
+        "vertical_pressure"
+      ],
+      "local_tags": [
+        "黑棋下方渗透",
+        "白棋横向封锁"
+      ],
+      "key_points": [
+        "R12",
+        "R14",
+        "S12",
+        "S14",
+        "R15",
+        "R17"
+      ],
+      "group_status": [
+        "black_pressing",
+        "white_wall"
+      ]
+    }
+  ]
+}

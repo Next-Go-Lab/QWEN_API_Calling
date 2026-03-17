@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_000",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 0,
+    "to_play": 1,
+    "last_move": null,
+    "recent_moves": [],
+    "black_stones": [],
+    "white_stones": []
+  },
+  "targets": {
+    "policy_target": "Q16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "opening",
+      "empty_board",
+      "first_move_target"
+    ],
+    "strategic_focus": [
+      "corner_play",
+      "influence_balance"
+    ],
+    "global_summary_cn": "棋局初始状态，十九路空盘，黑方即将落子，目标点为Q16（右上角小目位）。",
+    "phase_explanation": "处于布局阶段起始点，无任何着子，双方尚未展开势力范围，典型对角星或小目开局预备态。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "目标点Q16位于此区域，属典型小目位置，预示黑方可能在此构建右上角势力。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "target_corner",
+        "small_eye"
+      ],
+      "key_points": [
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_100",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 100,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C7"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "T4"
+      },
+      {
+        "color": 0,
+        "point": "Q15"
+      },
+      {
+        "color": 1,
+        "point": "R15"
+      },
+      {
+        "color": 0,
+        "point": "T5"
+      },
+      {
+        "color": 1,
+        "point": "D7"
+      },
+      {
+        "color": 0,
+        "point": "C7"
+      }
+    ],
+    "black_stones": [
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "T6",
+      "A7",
+      "D7",
+      "E7",
+      "G7",
+      "R7",
+      "T7",
+      "A8",
+      "D8",
+      "F8",
+      "R14",
+      "R15",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "R2",
+      "D3",
+      "R3",
+      "S3",
+      "T3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "S4",
+      "A5",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "T5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C7",
+      "Q7",
+      "S7",
+      "C8",
+      "E8",
+      "Q8",
+      "R8",
+      "T8",
+      "B9",
+      "D9",
+      "E9",
+      "S9",
+      "Q15",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "T4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官阶段",
+      "实地争夺激烈",
+      "右下角大劫未定",
+      "黑棋厚势向中腹延伸"
+    ],
+    "strategic_focus": [
+      "右下角C7附近攻防",
+      "左上角A3-A5白空潜力",
+      "中央D7-E7黑厚味辐射",
+      "T4点三三引发新战线"
+    ],
+    "global_summary_cn": "第100手，黑方即将落子，局面处于中盘向官子过渡的关键节点。黑棋在左下、中腹及右上形成厚势，白棋在右下角（C7、Q7、S7）与黑棋形成复杂对杀，T4点三三为最新打入手段，意在破坏白棋右下实空。全局实地大致均衡，但黑棋厚势更具后续发展潜力。",
+    "phase_explanation": "当前为中盘收官混合阶段：局部存在未定死活（如右下角），同时多处开始收束边空（如左上A3-A5、右上Q15-R15）。T4点三三属典型收官前试探性打入，考验对方应对效率。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在A1-A5构筑小空，黑棋A3/B3/C3嵌入，形成浅消。白C2/D2/E2连片稳固，黑G1/H1/H2略显单薄。",
+      "shapes": [
+        "corner_triangle"
+      ],
+      "local_tags": [
+        "浅消",
+        "小空",
+        "白棋安定"
+      ],
+      "key_points": [
+        "A3",
+        "C2",
+        "D1"
+      ],
+      "group_status": [
+        "white_alive",
+        "black_weak"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋Q4/Q5/Q6/Q7/Q8与R8/S7/T8构成右上厚壁，黑Q3/R4/R5/R6/R7/R14/R15/Q16反向侵消，形成厚薄对比。",
+      "shapes": [
+        "wall",
+        "invasion_chain"
+      ],
+      "local_tags": [
+        "厚壁",
+        "反向侵消",
+        "Q15-R15对峙"
+      ],
+      "key_points": [
+        "Q15",
+        "R15",
+        "Q16",
+        "R8"
+      ],
+      "group_status": [
+        "white_thick",
+        "black_invasive"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白S9/T8/T3与黑S2/S3/S4/S5形成角部拉锯；T4为黑最新打入点，直指白棋空腹，威胁S7/T5等眼位。",
+      "shapes": [
+        "invasion_point",
+        "eye_space_threat"
+      ],
+      "local_tags": [
+        "点三三",
+        "眼位争夺",
+        "T4急所"
+      ],
+      "key_points": [
+        "T4",
+        "S7",
+        "T5",
+        "S9"
+      ],
+      "group_status": [
+        "unclear_life_death"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑A7/B6/B7/C5/C6/D5/D6/E7/F6/G3-G7连成中腹厚势，白A6/C7/B7形成接触战焦点，C7为白最新扳头。",
+      "shapes": [
+        "central_thickness",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "厚势辐射",
+        "C7扳头",
+        "中腹影响力"
+      ],
+      "key_points": [
+        "C7",
+        "D7",
+        "E7",
+        "B6"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_compromised"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑F4/G4/G5/G7与白E5/F5/H5形成虚势对峙；无明确大块，但黑厚味持续向中央施压。",
+      "shapes": [
+        "influence_zone"
+      ],
+      "local_tags": [
+        "虚势主导",
+        "中央辐射源"
+      ],
+      "key_points": [
+        "F4",
+        "G5",
+        "E5"
+      ],
+      "group_status": [
+        "black_influence_dominant"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "白O4/O6/Q4/Q5/Q6与黑O3/O6/P2/P4/P5形成中右纠缠；P5黑子孤悬，白Q7/S7具攻击意图。",
+      "shapes": [
+        "entanglement",
+        "loose_group"
+      ],
+      "local_tags": [
+        "O6对峙",
+        "P5孤棋",
+        "Q7压迫"
+      ],
+      "key_points": [
+        "O6",
+        "P5",
+        "Q7",
+        "S7"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_pressuring"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑A1-B3-C3-D3与白B1-C2-D2-D3密集交接；黑A7-A8与白A4/A5/A6构成上下呼应，左下实地基本定型。",
+      "shapes": [
+        "territorial_base"
+      ],
+      "local_tags": [
+        "左下定型",
+        "A4-A6白空",
+        "A7黑镇头"
+      ],
+      "key_points": [
+        "A4",
+        "A7",
+        "B1",
+        "D3"
+      ],
+      "group_status": [
+        "both_stable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑E4/F4/G4/G5与白E2/F2/G2/G5形成中下对称结构；H5白子为联络要点，黑H6略显重复。",
+      "shapes": [
+        "symmetric_structure"
+      ],
+      "local_tags": [
+        "对称布局",
+        "H5联络点",
+        "G5共用眼位"
+      ],
+      "key_points": [
+        "E4",
+        "G5",
+        "H5",
+        "H6"
+      ],
+      "group_status": [
+        "balanced"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角高度复杂：黑C7/D7/E7 vs 白B7/C7/Q7/S7/T5；C7为双方最后接触点，存在劫争或对杀可能；T6/T7黑子构成外势支点。",
+      "shapes": [
+        "life_death_complex",
+        "ko_candidate"
+      ],
+      "local_tags": [
+        "右下大劫雏形",
+        "C7扳粘未定",
+        "T6外势支点"
+      ],
+      "key_points": [
+        "C7",
+        "T6",
+        "T7",
+        "T5"
+      ],
+      "group_status": [
+        "critical_unclear"
+      ]
+    }
+  ]
+}

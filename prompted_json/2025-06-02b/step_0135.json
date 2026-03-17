@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_134",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 134,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "N8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S17"
+      },
+      {
+        "color": 0,
+        "point": "J9"
+      },
+      {
+        "color": 1,
+        "point": "L9"
+      },
+      {
+        "color": 0,
+        "point": "L8"
+      },
+      {
+        "color": 1,
+        "point": "H11"
+      },
+      {
+        "color": 0,
+        "point": "N8"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F7",
+      "F8",
+      "C9",
+      "L9",
+      "B10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "D13",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "F16",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "S17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "L8",
+      "N8",
+      "B9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "O9",
+      "J10",
+      "N10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "D16",
+      "E16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "H8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘收官",
+      "实地争夺",
+      "厚势对攻"
+    ],
+    "strategic_focus": [
+      "右下角劫争余波",
+      "中央白大龙未净活",
+      "黑棋全局厚实但稍显滞重"
+    ],
+    "global_summary_cn": "第134手，黑方行棋，局面进入中后盘关键转换期。黑棋在右上、中腹及左下占据厚势，白棋则在右下、中腹局部形成复杂对杀与劫争；H8为黑方意图侵消白棋中腹潜力的关键点。",
+    "phase_explanation": "当前处于中盘向官子过渡阶段，双方在多个区域存在未定型战斗，尤其N8附近刚结束一轮接触战，H8是黑方针对白棋中腹薄弱处的精准打入点。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑C3/C6/B4/B5/B6/B10/C12/D12/D13/E14/E15/D16/D17/D18与白C5/C7/C8/B9/C13构成典型中国流开局余势，黑厚实但无明显攻击目标。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定型完成",
+        "黑厚势"
+      ],
+      "key_points": [
+        "C3",
+        "B4",
+        "C5",
+        "B9",
+        "C13"
+      ],
+      "group_status": [
+        "black_stable",
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段激烈争夺，黑Q3/R4/P4/O4/N5/N6/M6/L6/K6/K5/K4与白L3/M3/N3/L4/N4/O5/M5/L5形成缠斗带；S17为黑最新打入点，威胁白S13/S14/S15/S16/S18/S19整块孤棋。",
+      "shapes": [
+        "side_fighting_band",
+        "invasion"
+      ],
+      "local_tags": [
+        "黑主动侵消",
+        "白边空未固"
+      ],
+      "key_points": [
+        "S17",
+        "S13",
+        "S14",
+        "R14",
+        "Q15",
+        "S15",
+        "S16",
+        "S18",
+        "S19"
+      ],
+      "group_status": [
+        "black_active",
+        "white_weak_side"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16/Q17/R17/T16/T18与白R16/S16/R15/S15/R14/S14形成大模样对峙；白S19为孤子，黑Q18/R18施压，但白有J17等援兵，尚未决断。",
+      "shapes": [
+        "moyo",
+        "floating_group"
+      ],
+      "local_tags": [
+        "黑模样",
+        "白孤子"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "R17",
+        "T16",
+        "T18",
+        "S19",
+        "J17",
+        "R15"
+      ],
+      "group_status": [
+        "black_moyo",
+        "white_floating"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑G10/H10/J11/K11/J12/G12/H12与白E11/E12/G12/H12/K12形成交错厚壁；黑E14/H14/K14与白F15/G15构成小规模攻防，黑略占主动。",
+      "shapes": [
+        "wall",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "双厚壁对峙",
+        "黑略优"
+      ],
+      "key_points": [
+        "G10",
+        "H10",
+        "J11",
+        "K11",
+        "J12",
+        "H12",
+        "E11",
+        "E12",
+        "F15",
+        "G15"
+      ],
+      "group_status": [
+        "black_thick",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心地带黑H11/K10/L10/M10/N11/O11/P11与白L11/M11/E11/L12/M12/N12/O12/P12形成密集混战区；N8为白最新一子，黑H8为待落点，此处将爆发决定性接触战。",
+      "shapes": [
+        "central_battlefield",
+        "potential_eye_space"
+      ],
+      "local_tags": [
+        "主战场",
+        "H8打入点"
+      ],
+      "key_points": [
+        "H11",
+        "K10",
+        "L10",
+        "M10",
+        "N11",
+        "O11",
+        "P11",
+        "L11",
+        "M11",
+        "N12",
+        "O12",
+        "P12",
+        "N8",
+        "H8"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "black_to_play"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K2/K3/K4/K5/K6/L6/M6/N6与白K3/L3/M3/N3/L4/N4/L5/M5/O5形成早期交界；黑J3/J9/J10/J11/J12/J13与白J9/J10/K9/M9/O9构成局部攻防链，黑J11与白J9已交换，黑略得实地。",
+      "shapes": [
+        "junction",
+        "exchange_chain"
+      ],
+      "local_tags": [
+        "早期定式延伸",
+        "黑实地优先"
+      ],
+      "key_points": [
+        "J3",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "K3",
+        "K9",
+        "M9",
+        "O9"
+      ],
+      "group_status": [
+        "black_local_advantage",
+        "white_compensated"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B4/B5/B6/C6/C3与白C5/D4/D6/E6/C7/E7/C8/E8形成经典低位小目定式演变；黑B10/B12/C12/D12/D13与白B13/C13构成后续压迫，黑已围出坚实实地。",
+      "shapes": [
+        "corner",
+        "territory"
+      ],
+      "local_tags": [
+        "黑实空稳固",
+        "白外势薄弱"
+      ],
+      "key_points": [
+        "B4",
+        "B5",
+        "B6",
+        "C3",
+        "C5",
+        "D4",
+        "D6",
+        "E6",
+        "C7",
+        "E7",
+        "C8",
+        "E8",
+        "B10",
+        "B12",
+        "C12",
+        "D12",
+        "D13",
+        "B13",
+        "C13"
+      ],
+      "group_status": [
+        "black_secure",
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F7/F8/G10/H10与白E6/E7/E8/F3/G12/H12形成宽广对峙；黑H14/H15/H16与白H12/H16/J16/M16构成高低呼应，白H16为联络要点，黑暂未深入。",
+      "shapes": [
+        "side_wall",
+        "loose_connection"
+      ],
+      "local_tags": [
+        "黑高墙",
+        "白联络待补"
+      ],
+      "key_points": [
+        "F7",
+        "F8",
+        "G10",
+        "H10",
+        "H14",
+        "H15",
+        "H16",
+        "H12",
+        "J16",
+        "M16"
+      ],
+      "group_status": [
+        "black_wall",
+        "white_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑O4/P4/Q3/R4与白P2/N3/M3/L3/L4/N4/M5/O5形成大规模接触战；黑N5/N6/M6/L6与白L8/N8/M9/O9构成劫争余波，白N8为最新守角手，黑H8为跨区域策应点。",
+      "shapes": [
+        "corner_fight",
+        "ko_aftermath"
+      ],
+      "local_tags": [
+        "劫争未尽",
+        "白角不稳"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "Q3",
+        "R4",
+        "N5",
+        "N6",
+        "M6",
+        "L6",
+        "L8",
+        "N8",
+        "M9",
+        "O9",
+        "H8"
+      ],
+      "group_status": [
+        "black_pressuring",
+        "white_unsettled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_054",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 54,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "E8"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "D14"
+      },
+      {
+        "color": 0,
+        "point": "C15"
+      },
+      {
+        "color": 1,
+        "point": "C10"
+      },
+      {
+        "color": 0,
+        "point": "B11"
+      },
+      {
+        "color": 1,
+        "point": "F10"
+      },
+      {
+        "color": 0,
+        "point": "E8"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "C10",
+      "F10",
+      "D11",
+      "E11",
+      "F11",
+      "C12",
+      "R12",
+      "C13",
+      "D13",
+      "M13",
+      "Q13",
+      "D14",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "E8",
+      "D10",
+      "E10",
+      "Q10",
+      "B11",
+      "C11",
+      "B12",
+      "D12",
+      "E12",
+      "L12",
+      "B13",
+      "C14",
+      "K14",
+      "P14",
+      "C15",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "D8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "白棋优势",
+      "中央对攻",
+      "右下厚势"
+    ],
+    "strategic_focus": [
+      "压制黑棋中腹潜力",
+      "巩固右下实地",
+      "限制黑棋C10-F11集团发展"
+    ],
+    "global_summary_cn": "第54手，轮黑方行棋。当前局面白棋略优，右下角与右边形成厚势，黑棋在左上、中腹及右上零散成空但联络薄弱；白棋E8一子刚落，意在加强中腹控制并威胁黑棋D11-E11-F11三子；全局焦点集中于中腹与右上攻防。",
+    "phase_explanation": "中盘阶段后期，双方大龙未定型但局部战斗密集，白棋通过连续压迫已掌握主动权，黑棋需在D8（政策目标点）附近寻求腾挪或反击机会。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋B5、C4白占角，黑C13-D13-C12等构成左上薄味，白C14-C15-B13-B12形成压迫链。",
+      "shapes": [
+        "corner_invasion",
+        "pressing_wall"
+      ],
+      "local_tags": [
+        "黑薄",
+        "白压迫",
+        "角部未净"
+      ],
+      "key_points": [
+        "B5",
+        "C4",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "group_status": [
+        "black_weak_group",
+        "white_sente_pressure"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑J14-J15-H16-K16、白K14-K15-M15构成右上复杂接触战，黑棋试图围空但白有侵消手段。",
+      "shapes": [
+        "side_framework",
+        "contact_fight"
+      ],
+      "local_tags": [
+        "未定型",
+        "双侧厚薄交错",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "J14",
+        "J15",
+        "H16",
+        "K16",
+        "K14",
+        "K15",
+        "M15"
+      ],
+      "group_status": [
+        "unclear_life_death",
+        "mutual_threats"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白Q3-R4-R5-Q5-Q6-R6、黑O3-Q3-R4-R5-R12-Q13-Q14-Q17等形成右上大模样，但白P14-P16-P17已深入，黑空不实。",
+      "shapes": [
+        "large_framework",
+        "invasion"
+      ],
+      "local_tags": [
+        "白深入",
+        "黑空虚",
+        "边空未封"
+      ],
+      "key_points": [
+        "Q3",
+        "R4",
+        "R5",
+        "Q5",
+        "Q6",
+        "R6",
+        "P14",
+        "P16",
+        "P17"
+      ],
+      "group_status": [
+        "white_invasive_group",
+        "black_unstable_framework"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑C10-F10-D11-E11-F11、白D10-E10-B11-C11-D12-E12构成中腹核心战场，白E8新落子强化此带控制力。",
+      "shapes": [
+        "central_battle",
+        "eye_shape_threat"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "E8关键一手"
+      ],
+      "key_points": [
+        "C10",
+        "F10",
+        "D11",
+        "E11",
+        "F11",
+        "D10",
+        "E10",
+        "B11",
+        "E8"
+      ],
+      "group_status": [
+        "fighting_groups",
+        "white_gaining_control"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空点密集，D8为政策目标点，目前无子，是黑棋最佳腾挪/分断/做眼候选；周边黑F11、白E10/D10构成潜在征子与枷吃关系。",
+      "shapes": [
+        "vital_point",
+        "tesuji_zone"
+      ],
+      "local_tags": [
+        "D8要点",
+        "征子相关",
+        "潜在枷吃"
+      ],
+      "key_points": [
+        "D8",
+        "F11",
+        "E10",
+        "D10"
+      ],
+      "group_status": [
+        "critical_intersection",
+        "tactical_potential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑M13-L12-L17、白L12-M15构成中右纠缠，黑Q10白据点，黑Q13-Q14-Q17呈斜飞阵势但被白P14切断联络。",
+      "shapes": [
+        "disconnected_framework",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "联络问题",
+        "白Q10钉子",
+        "黑阵断裂"
+      ],
+      "key_points": [
+        "M13",
+        "L12",
+        "M15",
+        "Q10",
+        "Q13",
+        "Q14",
+        "Q17"
+      ],
+      "group_status": [
+        "black_separated_groups",
+        "white_stable_anchor"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑D18、白F3-C4-D4构成左下角定式余味，黑D18孤子待援，白F3-D4形成低位厚势。",
+      "shapes": [
+        "low_side_thickness",
+        "isolated_stone"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白厚势",
+        "低位坚实"
+      ],
+      "key_points": [
+        "D18",
+        "F3",
+        "C4",
+        "D4"
+      ],
+      "group_status": [
+        "black_isolated",
+        "white_thick_base"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑E11-F11-G11空缺，白F15、E8辐射影响此区；黑F17、L17与白D16形成下方势力对比，黑稍弱。",
+      "shapes": [
+        "influence_overlap",
+        "territorial_contest"
+      ],
+      "local_tags": [
+        "白影响力强",
+        "黑实地不足",
+        "下方未定"
+      ],
+      "key_points": [
+        "F17",
+        "L17",
+        "D16",
+        "F15",
+        "E8"
+      ],
+      "group_status": [
+        "white_dominant_influence",
+        "black_territorial_deficit"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白R6-R5-Q5-Q3、黑R4-R5-R12、白R16、黑R16同形对杀未决，右下角白厚而黑空小，白胜率领先主因之一。",
+      "shapes": [
+        "thick_corner",
+        "small_black_territory"
+      ],
+      "local_tags": [
+        "白厚势",
+        "黑空小",
+        "角部安定"
+      ],
+      "key_points": [
+        "R6",
+        "R5",
+        "Q5",
+        "Q3",
+        "R4",
+        "R12",
+        "R16"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_minimal_territory"
+      ]
+    }
+  ]
+}

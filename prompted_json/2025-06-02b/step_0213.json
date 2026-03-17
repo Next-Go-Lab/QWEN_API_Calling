@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_212",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 212,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "C4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "T12"
+      },
+      {
+        "color": 0,
+        "point": "K1"
+      },
+      {
+        "color": 1,
+        "point": "E2"
+      },
+      {
+        "color": 0,
+        "point": "D2"
+      },
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      }
+    ],
+    "black_stones": [
+      "B2",
+      "E2",
+      "G2",
+      "J2",
+      "K2",
+      "Q2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "F4",
+      "J4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "G6",
+      "H6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "S6",
+      "D7",
+      "F7",
+      "G7",
+      "O7",
+      "R7",
+      "F8",
+      "H8",
+      "P8",
+      "S8",
+      "L9",
+      "B10",
+      "F10",
+      "G10",
+      "H10",
+      "K10",
+      "L10",
+      "M10",
+      "O10",
+      "Q10",
+      "C11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "N11",
+      "O11",
+      "P11",
+      "R11",
+      "B12",
+      "C12",
+      "D12",
+      "J12",
+      "Q12",
+      "R12",
+      "S12",
+      "T12",
+      "D13",
+      "G13",
+      "R13",
+      "T13",
+      "E14",
+      "F14",
+      "H14",
+      "K14",
+      "R14",
+      "E15",
+      "H15",
+      "Q15",
+      "H16",
+      "Q16",
+      "C17",
+      "E17",
+      "G17",
+      "N17",
+      "Q17",
+      "T17",
+      "D18",
+      "F18",
+      "Q18",
+      "R18",
+      "C19"
+    ],
+    "white_stones": [
+      "K1",
+      "C2",
+      "D2",
+      "L2",
+      "P2",
+      "D3",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "C4",
+      "D4",
+      "G4",
+      "H4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "F6",
+      "J6",
+      "P6",
+      "R6",
+      "C7",
+      "E7",
+      "H7",
+      "J7",
+      "Q7",
+      "C8",
+      "E8",
+      "K8",
+      "L8",
+      "N8",
+      "Q8",
+      "B9",
+      "D9",
+      "E9",
+      "J9",
+      "K9",
+      "M9",
+      "N9",
+      "O9",
+      "P9",
+      "Q9",
+      "S9",
+      "A10",
+      "C10",
+      "J10",
+      "N10",
+      "S10",
+      "E11",
+      "L11",
+      "M11",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "K12",
+      "M12",
+      "N12",
+      "O12",
+      "P12",
+      "B13",
+      "C13",
+      "H13",
+      "J13",
+      "K13",
+      "L13",
+      "S13",
+      "P14",
+      "Q14",
+      "S14",
+      "C15",
+      "F15",
+      "G15",
+      "R15",
+      "S15",
+      "T15",
+      "D16",
+      "E16",
+      "G16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "B17",
+      "D17",
+      "F17",
+      "J17",
+      "R17",
+      "B18",
+      "C18",
+      "H18",
+      "S18",
+      "S19",
+      "T19"
+    ]
+  },
+  "targets": {
+    "policy_target": "F16"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_race",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "bottom_right_eye_space",
+      "center_influence_contest",
+      "top_side_sente_reduction"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋领先但存在多处需补棋的薄弱环节；白棋在右下角制造劫争威胁，中腹与右上仍有未定形区域；双方最近连续在边角小官子处落子，整体节奏紧凑。",
+    "phase_explanation": "第212手，黑方行棋，局面属典型终局收束期：大场已尽，焦点集中于局部眼位、劫材储备与单官价值判断；C4为白方最新一着，压缩黑右下角空间，引发后续F16政策目标点的潜在破眼或联络意图。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，白B9、A10与黑B10、C11形成平稳分界，无明显战斗。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "neutral_boundary"
+      ],
+      "key_points": [
+        "B9",
+        "A10",
+        "B10",
+        "C11"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑Q16、Q17、T17与白S16、S17、T19构成宽势对峙，黑厚势略占优但未实地化。",
+      "shapes": [
+        "side_thickness",
+        "floating_group"
+      ],
+      "local_tags": [
+        "influence",
+        "potential_invasion"
+      ],
+      "key_points": [
+        "Q16",
+        "Q17",
+        "T17",
+        "S16",
+        "S17",
+        "T19"
+      ],
+      "group_status": [
+        "strong",
+        "unsettled_periphery"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑H16、Q15与白J16、R15、S15形成复杂收官，白有S14、S15双关要点，黑需防断点。",
+      "shapes": [
+        "edge_fighting",
+        "endgame_sequence"
+      ],
+      "local_tags": [
+        "tesuji_zone",
+        "sente_opportunity"
+      ],
+      "key_points": [
+        "H16",
+        "Q15",
+        "J16",
+        "R15",
+        "S15",
+        "S14"
+      ],
+      "group_status": [
+        "vulnerable_edge"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑D13、E14、E15与白C13、C15、D16形成缠斗，黑F14、F15构成眼形基础，白有E12、F12侵消余地。",
+      "shapes": [
+        "central_fight",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "life_and_death",
+        "shape_efficiency"
+      ],
+      "key_points": [
+        "D13",
+        "E14",
+        "E15",
+        "C13",
+        "C15",
+        "D16",
+        "F14",
+        "F15",
+        "E12",
+        "F12"
+      ],
+      "group_status": [
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近黑K11、J11、H11与白L11、M11、K12形成对称厚壁，中央空虚，是双方最后可争之大场。",
+      "shapes": [
+        "central_void",
+        "framework"
+      ],
+      "local_tags": [
+        "influence_center",
+        "last_big_point"
+      ],
+      "key_points": [
+        "K11",
+        "J11",
+        "H11",
+        "L11",
+        "M11",
+        "K12"
+      ],
+      "group_status": [
+        "unclaimed"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O11、P11、Q11与白O12、P12、Q12呈平行对峙，黑Q10、R11与白Q9、Q8构成纵向联络战，白稍显凝重。",
+      "shapes": [
+        "side_ladder",
+        "connection_race"
+      ],
+      "local_tags": [
+        "light_vs_heavy",
+        "safety_check"
+      ],
+      "key_points": [
+        "O11",
+        "P11",
+        "Q11",
+        "Q10",
+        "R11",
+        "O12",
+        "P12",
+        "Q12",
+        "Q9",
+        "Q8"
+      ],
+      "group_status": [
+        "connected",
+        "overconcentrated_white"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑B2、C2、B3与白C2、D2、K1形成早期接触战遗留，黑B5、C6与白C4、D4构成局部劫争雏形，C4为白最新一着。",
+      "shapes": [
+        "corner_fight",
+        "ko_setup"
+      ],
+      "local_tags": [
+        "ko_threat",
+        "early_move_echo"
+      ],
+      "key_points": [
+        "B2",
+        "C2",
+        "D2",
+        "C3",
+        "B4",
+        "C4",
+        "D4",
+        "B5",
+        "C6",
+        "K1"
+      ],
+      "group_status": [
+        "ko_pending"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑E2、F4、F5与白D3、F3、G4形成密集接触，黑F4、F5、G5构成经典‘小飞守角’变体，白D4、E6施压但未破眼。",
+      "shapes": [
+        "corner_variation",
+        "eye_shape"
+      ],
+      "local_tags": [
+        "secure_life",
+        "efficiency_high"
+      ],
+      "key_points": [
+        "E2",
+        "F4",
+        "F5",
+        "G5",
+        "D3",
+        "F3",
+        "G4",
+        "D4",
+        "E6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑T12、S12、R13与白S13、R14、Q14激烈收官，黑T13、S14受攻，白C4落子后此区域成为全局唯一存劫/死活悬念点；F16为目标点，意在破眼或分断。",
+      "shapes": [
+        "life_and_death",
+        "ko_battle"
+      ],
+      "local_tags": [
+        "critical_eye_space",
+        "policy_target_zone",
+        "final_decider"
+      ],
+      "key_points": [
+        "T12",
+        "S12",
+        "R13",
+        "T13",
+        "S13",
+        "R14",
+        "Q14",
+        "S14",
+        "F16",
+        "C4"
+      ],
+      "group_status": [
+        "not_yet_alive"
+      ]
+    }
+  ]
+}

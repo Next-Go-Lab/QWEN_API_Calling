@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_095",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 95,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "K10"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O12"
+      },
+      {
+        "color": 1,
+        "point": "P11"
+      },
+      {
+        "color": 0,
+        "point": "M9"
+      },
+      {
+        "color": 1,
+        "point": "L10"
+      },
+      {
+        "color": 0,
+        "point": "K9"
+      },
+      {
+        "color": 1,
+        "point": "K10"
+      }
+    ],
+    "black_stones": [
+      "K2",
+      "C3",
+      "J3",
+      "Q3",
+      "B4",
+      "K4",
+      "O4",
+      "P4",
+      "R4",
+      "B5",
+      "K5",
+      "N5",
+      "B6",
+      "C6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "D7",
+      "F8",
+      "G10",
+      "K10",
+      "L10",
+      "M10",
+      "N11",
+      "O11",
+      "P11",
+      "R12",
+      "S12",
+      "G13",
+      "R13",
+      "E14",
+      "H14",
+      "R14",
+      "E15",
+      "Q15",
+      "H16",
+      "Q16",
+      "T16",
+      "E17",
+      "G17",
+      "Q17",
+      "D18",
+      "Q18",
+      "R18",
+      "T18"
+    ],
+    "white_stones": [
+      "P2",
+      "F3",
+      "K3",
+      "L3",
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "C5",
+      "L5",
+      "M5",
+      "O5",
+      "D6",
+      "E6",
+      "C7",
+      "C8",
+      "E8",
+      "E9",
+      "K9",
+      "M9",
+      "N10",
+      "L11",
+      "M11",
+      "G12",
+      "H12",
+      "N12",
+      "O12",
+      "S13",
+      "S14",
+      "C15",
+      "F15",
+      "R15",
+      "S15",
+      "D16",
+      "J16",
+      "M16",
+      "R16",
+      "S16",
+      "D17",
+      "J17",
+      "R17",
+      "T17",
+      "C18",
+      "H18",
+      "S18",
+      "S19"
+    ]
+  },
+  "targets": {
+    "policy_target": "J10"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "白棋厚势",
+      "黑棋渗透"
+    ],
+    "strategic_focus": [
+      "中央K10-L10-M10一线争夺",
+      "右下角O12-P11-M9-K9连锁攻防",
+      "黑棋J10点入意图破眼"
+    ],
+    "global_summary_cn": "第95手，黑方刚于K10落子，形成中央三连星厚势；白方上一手K9与黑K10形成直接对峙。全局进入中盘关键转换期，右下角（O12/P11/M9/K9/L10）密集交战，黑棋意图点入J10破坏白棋眼位，白棋在L11、M11、N10构成弹性防线。黑棋大龙已活但外围薄弱，白棋厚势遍布中腹与右下，胜负焦点集中于中央与右下交汇地带。",
+    "phase_explanation": "当前为中盘中后期，双方在右下与中央展开立体攻防，黑棋主动出击寻求转换，白棋依托厚势稳守反击，尚未进入官子阶段。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑B4/B5/B6/C6与白C5/C7/C8形成低挂守角结构，无激烈接触。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "B4",
+        "C5",
+        "C7"
+      ],
+      "group_status": [
+        "黑活",
+        "白活"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空旷，黑Q3/R4/S12/R13与白S13/S14/S15/S16/S18/S19构成边空拉锯，白棋外势厚实。",
+      "shapes": [
+        "side_wall",
+        "influence"
+      ],
+      "local_tags": [
+        "白外势",
+        "黑轻灵侵消"
+      ],
+      "key_points": [
+        "R13",
+        "S14",
+        "S16"
+      ],
+      "group_status": [
+        "白厚",
+        "黑未深入"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑Q16/Q17/T16/T18与白R16/R17/S16/S17/T17形成复杂大场，黑棋实地稍优但白有厚味。",
+      "shapes": [
+        "corner",
+        "influence"
+      ],
+      "local_tags": [
+        "黑实地",
+        "白厚味"
+      ],
+      "key_points": [
+        "Q16",
+        "R16",
+        "T17"
+      ],
+      "group_status": [
+        "黑活",
+        "白厚"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑D7/E14/E15/E17与白C8/D6/E6/E8/E9形成断点与联络争斗，黑D7孤子待援。",
+      "shapes": [
+        "floating",
+        "connection"
+      ],
+      "local_tags": [
+        "黑孤棋",
+        "白封锁"
+      ],
+      "key_points": [
+        "D7",
+        "E8",
+        "E9"
+      ],
+      "group_status": [
+        "黑弱",
+        "白控"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心战场：黑G10/K10/L10/M10/N11/O11/P11与白K9/L11/M11/N10形成密集对杀带，J10为黑方下一招点入要点。",
+      "shapes": [
+        "fighting_chain",
+        "eye_space_threat"
+      ],
+      "local_tags": [
+        "主战场",
+        "眼位争夺",
+        "点入要害"
+      ],
+      "key_points": [
+        "J10",
+        "K10",
+        "L10",
+        "M10",
+        "N10",
+        "L11"
+      ],
+      "group_status": [
+        "对杀中",
+        "未定"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑O4/P4/R4与白O5/N4/L4/M4构成低位攻防，黑棋已活但白有先手搜根余味。",
+      "shapes": [
+        "living_group",
+        "sente_potential"
+      ],
+      "local_tags": [
+        "黑活形",
+        "白搜根"
+      ],
+      "key_points": [
+        "O4",
+        "P4",
+        "O5"
+      ],
+      "group_status": [
+        "黑活",
+        "白待机"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑K2/K3/K4/K5/K6与白K3/L3/M3/N3形成典型小目高挂变化，黑棋实地扎实。",
+      "shapes": [
+        "corner",
+        "territory"
+      ],
+      "local_tags": [
+        "黑实地",
+        "定型完成"
+      ],
+      "key_points": [
+        "K2",
+        "K4",
+        "K6"
+      ],
+      "group_status": [
+        "黑活",
+        "白拆"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑F8/G10与白F3/G12/H12形成斜向呼应，黑G10为重要接应子，白H12具攻击性。",
+      "shapes": [
+        "bridge",
+        "attack_base"
+      ],
+      "local_tags": [
+        "黑联络点",
+        "白攻击据点"
+      ],
+      "key_points": [
+        "G10",
+        "H12",
+        "F8"
+      ],
+      "group_status": [
+        "黑稳",
+        "白待发"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前最激烈区域：黑O12/P11/M9/K9/L10与白O12/L11/M11/N10/K9形成六手连续攻防，黑棋强攻白棋眼位。",
+      "shapes": [
+        "fighting_cluster",
+        "life_death"
+      ],
+      "local_tags": [
+        "死活焦点",
+        "连续手",
+        "眼位危机"
+      ],
+      "key_points": [
+        "O12",
+        "P11",
+        "M9",
+        "K9",
+        "L10",
+        "N10"
+      ],
+      "group_status": [
+        "对杀中",
+        "未定"
+      ]
+    }
+  ]
+}

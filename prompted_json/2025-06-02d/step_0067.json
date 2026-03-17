@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_066",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 66,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O10"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "S8"
+      },
+      {
+        "color": 0,
+        "point": "N6"
+      },
+      {
+        "color": 1,
+        "point": "N9"
+      },
+      {
+        "color": 0,
+        "point": "N7"
+      },
+      {
+        "color": 1,
+        "point": "O8"
+      },
+      {
+        "color": 0,
+        "point": "O10"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "N8",
+      "O8",
+      "S8",
+      "N9",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "O10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "L8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角缠斗",
+      "白棋优势"
+    ],
+    "strategic_focus": [
+      "右下角争夺",
+      "中央厚势构建",
+      "黑棋大龙治孤"
+    ],
+    "global_summary_cn": "第66手，黑方轮下，局面进入中盘关键阶段。白棋在右下角O10一子强化外势，配合N6、N7、O6等子形成厚壁，对黑棋S8、N9、O8等集团构成压迫；黑棋L8为待落点，意图分断或侵消白棋中腹潜力。全局白棋实地稍优，黑棋需在中央寻求补偿。",
+    "phase_explanation": "当前为中盘攻防阶段，双方在右下与中腹展开激烈接触战，白棋凭借厚势掌握主动，黑棋面临治孤与反击的双重压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [],
+      "local_tags": [
+        "定式完成",
+        "平稳"
+      ],
+      "key_points": [
+        "D4",
+        "C3",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "group_status": [
+        "黑棋小飞守角",
+        "白棋无忧角"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较为空旷，黑棋J17、D16与白棋L16、P17形成高低呼应，暂无直接冲突。",
+      "shapes": [],
+      "local_tags": [
+        "势力对峙",
+        "未深入"
+      ],
+      "key_points": [
+        "J17",
+        "D16",
+        "L16",
+        "P17"
+      ],
+      "group_status": [
+        "黑棋低位拆边",
+        "白棋高位张势"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑棋R16、R12、Q15与白棋R11、Q11、R8形成复杂外势牵制，黑有向上扩张意图。",
+      "shapes": [],
+      "local_tags": [
+        "外势对抗",
+        "潜在打入点"
+      ],
+      "key_points": [
+        "R16",
+        "R12",
+        "Q15",
+        "R11",
+        "Q11",
+        "R8"
+      ],
+      "group_status": [
+        "黑棋厚势待用",
+        "白棋轻灵守角"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋F3–L3一线与白棋H2–H6形成上下夹击态势，黑K4、J5、K7与白H4、H5、H6构成局部对峙。",
+      "shapes": [],
+      "local_tags": [
+        "侧翼对攻",
+        "联络要点"
+      ],
+      "key_points": [
+        "F3",
+        "J3",
+        "K4",
+        "J5",
+        "K7",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "group_status": [
+        "黑棋三连星雏形",
+        "白棋一串守势"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "天元附近空旷，但受周边多处战斗辐射，是未来胜负关键区域；黑L8为本手，意在打入或分断。",
+      "shapes": [],
+      "local_tags": [
+        "战略要冲",
+        "待落点密集"
+      ],
+      "key_points": [
+        "L8",
+        "N9",
+        "O8",
+        "N7",
+        "O6",
+        "Q7"
+      ],
+      "group_status": [
+        "黑棋试探性靠近",
+        "白棋厚势辐射中心"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹为当前主战场：黑S8、N9、O8、N8与白R8、O9、Q9、N6、N7、O10激烈纠缠，攻防转换频繁。",
+      "shapes": [
+        "眼形雏形",
+        "扭羊头可能"
+      ],
+      "local_tags": [
+        "主战场",
+        "攻防焦点",
+        "气紧"
+      ],
+      "key_points": [
+        "S8",
+        "N9",
+        "O8",
+        "N8",
+        "R8",
+        "O9",
+        "Q9",
+        "N6",
+        "N7",
+        "O10"
+      ],
+      "group_status": [
+        "黑棋数子未活",
+        "白棋外势厚重"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑F3–P3与白C3–C6形成典型低中国流对抗，黑棋实地稍丰，白棋取势。",
+      "shapes": [
+        "中国流",
+        "低位守角"
+      ],
+      "local_tags": [
+        "实地优先",
+        "定式延伸"
+      ],
+      "key_points": [
+        "F3",
+        "P3",
+        "C3",
+        "C4",
+        "C6"
+      ],
+      "group_status": [
+        "黑棋厚实",
+        "白棋简明"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑E4–E7与白E3、H3–H6构成横向拉锯，黑E7为重要接应点，白H4–H6封锁意图明显。",
+      "shapes": [],
+      "local_tags": [
+        "横向封锁",
+        "联络战"
+      ],
+      "key_points": [
+        "E4",
+        "E7",
+        "E3",
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "group_status": [
+        "黑棋断点隐现",
+        "白棋封锁线成形"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为白棋优势区：白N2、O4–Q4、N6、N7、O10构筑坚实外势，黑Q6、R6、R9等子处于被压制状态，生存压力大。",
+      "shapes": [
+        "堡垒",
+        "厚势"
+      ],
+      "local_tags": [
+        "白棋胜势区",
+        "黑棋苦活"
+      ],
+      "key_points": [
+        "N2",
+        "O4",
+        "P4",
+        "Q4",
+        "N6",
+        "N7",
+        "O10",
+        "Q6",
+        "R6",
+        "R9"
+      ],
+      "group_status": [
+        "白棋铁壁",
+        "黑棋孤棋"
+      ]
+    }
+  ]
+}

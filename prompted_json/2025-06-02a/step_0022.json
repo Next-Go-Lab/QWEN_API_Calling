@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_021",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 21,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "E4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "B7"
+      },
+      {
+        "color": 1,
+        "point": "C5"
+      },
+      {
+        "color": 0,
+        "point": "D6"
+      },
+      {
+        "color": 1,
+        "point": "D5"
+      },
+      {
+        "color": 0,
+        "point": "E5"
+      },
+      {
+        "color": 1,
+        "point": "E4"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "E4",
+      "P4",
+      "C5",
+      "D5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "C6",
+      "D6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E2"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "early_game",
+      "corner_fighting",
+      "center_influence_building"
+    ],
+    "strategic_focus": [
+      "bottom_left_corner_interaction",
+      "central_eye_shape_potential",
+      "right_side_white_thickness"
+    ],
+    "global_summary_cn": "第21手，黑方刚落子E4，形成中央局部对杀雏形；白棋在右上与左下各有一块厚势，黑棋在左上与右下有实地基础；全局处于势力与实地初步平衡阶段。",
+    "phase_explanation": "开局向中盘过渡阶段，双方在多个角落完成初步定式，开始向中央扩展影响力，E4一子加剧D5-E5-D6三角区域的攻防张力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白F17、O17与黑Q16构成高位对峙，白棋略占外势，黑棋尚未深入拆边。",
+      "shapes": [
+        "point_group"
+      ],
+      "local_tags": [
+        "high_position",
+        "white_thickness"
+      ],
+      "key_points": [
+        "F17",
+        "O17",
+        "Q16"
+      ],
+      "group_status": [
+        "white_stable"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "中上区域空旷，无子落点，属双方未来拆边与侵消焦点。",
+      "shapes": [],
+      "local_tags": [
+        "empty_zone",
+        "future_invasion_target"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角仅白D16一子，孤立但位置高，具辐射潜力；黑无子，属白棋潜在模样的起点。",
+      "shapes": [
+        "single_stone"
+      ],
+      "local_tags": [
+        "isolated_white",
+        "potential_framework"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "white_light"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹B6、C5、C6、D6、D5、E5、E4密集交战，黑C3/C4/B6与白C6/D6/D4/D3形成典型‘小目·一间低夹’后续攻防。",
+      "shapes": [
+        "ladder_fragment",
+        "eye_shape_hint"
+      ],
+      "local_tags": [
+        "local_fight",
+        "black_eye_potential",
+        "white_sente_pressure"
+      ],
+      "key_points": [
+        "B6",
+        "C5",
+        "D5",
+        "E4",
+        "D6",
+        "E5"
+      ],
+      "group_status": [
+        "black_unsettled",
+        "white_connected"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，但E4-D5-E5三角已成战略支点，影响全局气合；黑若守则固势，白若断则生变。",
+      "shapes": [
+        "triangle"
+      ],
+      "local_tags": [
+        "strategic_nexus",
+        "influence_hub"
+      ],
+      "key_points": [
+        "D5",
+        "E4",
+        "E5"
+      ],
+      "group_status": [
+        "contested"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹P4、Q3、Q4、R6构成黑棋低位阵型，白无子，黑有实地基础但缺乏厚度。",
+      "shapes": [
+        "side_framework"
+      ],
+      "local_tags": [
+        "black_territorial",
+        "low_profile"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "Q4",
+        "R6"
+      ],
+      "group_status": [
+        "black_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角C3、C4、D3、D4四子构成经典‘双小目·互挂’定式残局，黑C3/C4与白D3/D4对峙，气紧且存在劫材关联。",
+      "shapes": [
+        "square",
+        "liberty_sensitive"
+      ],
+      "local_tags": [
+        "tight_fight",
+        "ko_possibility",
+        "corner_race"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "mutually_vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅黑E4延伸至此，是黑棋向中央连络或白棋打入要点；E2为当前政策目标点。",
+      "shapes": [
+        "extension_line"
+      ],
+      "local_tags": [
+        "key_extension",
+        "policy_target_zone"
+      ],
+      "key_points": [
+        "E4",
+        "E2"
+      ],
+      "group_status": [
+        "black_influencing"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R14、Q16与白无子，黑已占大场，但未封锁，属待巩固实地。",
+      "shapes": [
+        "sparse_territory"
+      ],
+      "local_tags": [
+        "black_owned",
+        "under_defended"
+      ],
+      "key_points": [
+        "R14",
+        "Q16"
+      ],
+      "group_status": [
+        "black_dominant"
+      ]
+    }
+  ]
+}

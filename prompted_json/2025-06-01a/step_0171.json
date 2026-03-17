@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_170",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 170,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "R18"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "K11"
+      },
+      {
+        "color": 0,
+        "point": "S3"
+      },
+      {
+        "color": 1,
+        "point": "S4"
+      },
+      {
+        "color": 0,
+        "point": "S17"
+      },
+      {
+        "color": 1,
+        "point": "T17"
+      },
+      {
+        "color": 0,
+        "point": "R18"
+      }
+    ],
+    "black_stones": [
+      "D1",
+      "E1",
+      "C2",
+      "F2",
+      "K2",
+      "M2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "M6",
+      "R6",
+      "G7",
+      "Q7",
+      "S7",
+      "G8",
+      "S8",
+      "D10",
+      "C11",
+      "D11",
+      "K11",
+      "M11",
+      "R11",
+      "L12",
+      "N12",
+      "D13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "L14",
+      "O14",
+      "P14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "Q16",
+      "R16",
+      "S16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18"
+    ],
+    "white_stones": [
+      "D2",
+      "E2",
+      "J2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "N7",
+      "P7",
+      "R7",
+      "R8",
+      "C9",
+      "R9",
+      "S9",
+      "C10",
+      "O11",
+      "P11",
+      "M12",
+      "Q12",
+      "C13",
+      "M13",
+      "O13",
+      "P13",
+      "M14",
+      "N14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "R18",
+      "M19"
+    ]
+  },
+  "targets": {
+    "policy_target": "R19"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "territory_race",
+      "ko_threats_absent",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "right_side_invasion_settlement",
+      "top_right_eye_space_fight",
+      "bottom_right_corner_securing"
+    ],
+    "global_summary_cn": "全局进入收官阶段，黑棋在右下角与白棋形成细微官子争夺，左上与中腹已基本定型；黑棋刚于K11落子，白棋最新一手R18意在压缩黑棋右上眼位，双方在右上角存在未净活的两眼问题。",
+    "phase_explanation": "第170手，黑方行棋。局面处于终局收束期，多数大场已占，剩余要点集中于边角细微处，尤其右上（R17–T17一带）与右下（R2–S18一带）存在数处需精确计算的官子及死活余味。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角黑棋D1–C3与白棋B3–A4形成安定结构，黑棋小飞守角完成，无明显战斗痕迹。",
+      "shapes": [
+        "corner_enclosure",
+        "small_knight_enclosure"
+      ],
+      "local_tags": [
+        "settled",
+        "black_foundation"
+      ],
+      "key_points": [
+        "D1",
+        "C2",
+        "B3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋J2–K3与白棋J3–K4对峙，黑棋K11为最新打入点，威胁白棋上边薄味；白棋L12、M12构成联络防御。",
+      "shapes": [
+        "side_framework",
+        "invasion_point"
+      ],
+      "local_tags": [
+        "tension",
+        "black_initiative"
+      ],
+      "key_points": [
+        "K11",
+        "J2",
+        "L12"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角激烈收官：黑T17、S17、R17与白S17、R18、Q17形成眼位争夺；黑棋尚未做活，白棋有扑入手段余味。",
+      "shapes": [
+        "eye_space_contest",
+        "edge_squeeze"
+      ],
+      "local_tags": [
+        "life_and_death",
+        "critical"
+      ],
+      "key_points": [
+        "T17",
+        "S17",
+        "R18",
+        "Q17"
+      ],
+      "group_status": [
+        "not_alive_yet"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左边中腹黑棋D10–D15与白棋C9–C13构成平行厚势对峙，黑棋D11–C11双关强化，白棋C10略显单薄。",
+      "shapes": [
+        "parallel_thickness",
+        "light_pressure"
+      ],
+      "local_tags": [
+        "thickness",
+        "quiet"
+      ],
+      "key_points": [
+        "D11",
+        "C10",
+        "C13"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，仅零星黑棋F6、G7与白棋E7、F7形成微弱接触，无实质攻防，属双方势力缓冲带。",
+      "shapes": [
+        "neutral_zone",
+        "sparse_contact"
+      ],
+      "local_tags": [
+        "quiet",
+        "no_conflict"
+      ],
+      "key_points": [
+        "F6",
+        "G7",
+        "E7"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右边中段黑棋P2–R6与白棋O4–Q6缠绕，黑棋R4–R6成愚形但坚实；白棋Q5–P6试图分断未果，现呈平稳对峙。",
+      "shapes": [
+        "side_wall",
+        "contact_fight_resolved"
+      ],
+      "local_tags": [
+        "solid",
+        "resolved"
+      ],
+      "key_points": [
+        "R4",
+        "Q5",
+        "P6"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋B15–D15与白棋B16–D16形成典型低中国流定式后续，黑棋D15尖顶后白棋D16挡，黑棋已获实地优势。",
+      "shapes": [
+        "low_chinese_followup",
+        "territory_secure"
+      ],
+      "local_tags": [
+        "black_advantage",
+        "settled"
+      ],
+      "key_points": [
+        "D15",
+        "D16",
+        "B15"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹黑棋M2–N3与白棋M3–N4形成交错，黑棋M2跳与白棋M3靠构成常见定式收束，目前双方均无弱点。",
+      "shapes": [
+        "side_exchange",
+        "balanced"
+      ],
+      "local_tags": [
+        "even",
+        "quiet"
+      ],
+      "key_points": [
+        "M2",
+        "M3",
+        "N3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为当前焦点：黑棋S4、R4、S3与白棋S3、R3、Q2等构成复杂收官；黑棋S4扳是最新试探，白棋S3粘后黑棋尚有R19一选（policy_target），意图扩张或搜根。",
+      "shapes": [
+        "corner_endgame",
+        "last_move_implication"
+      ],
+      "local_tags": [
+        "hotspot",
+        "policy_target_adjacent"
+      ],
+      "key_points": [
+        "S4",
+        "S3",
+        "R3",
+        "R19"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_221",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 221,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "M6"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "J12"
+      },
+      {
+        "color": 1,
+        "point": "J11"
+      },
+      {
+        "color": 0,
+        "point": "K17"
+      },
+      {
+        "color": 1,
+        "point": "J18"
+      },
+      {
+        "color": 0,
+        "point": "H18"
+      },
+      {
+        "color": 1,
+        "point": "M6"
+      }
+    ],
+    "black_stones": [
+      "A1",
+      "C1",
+      "F1",
+      "G1",
+      "H1",
+      "R1",
+      "B2",
+      "H2",
+      "P2",
+      "Q2",
+      "S2",
+      "T2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "F3",
+      "G3",
+      "J3",
+      "O3",
+      "Q3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "T4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "S5",
+      "B6",
+      "F6",
+      "H6",
+      "M6",
+      "O6",
+      "R6",
+      "T6",
+      "G7",
+      "L7",
+      "O7",
+      "R7",
+      "T7",
+      "F8",
+      "K8",
+      "H9",
+      "M9",
+      "F10",
+      "H10",
+      "O10",
+      "R10",
+      "B11",
+      "D11",
+      "E11",
+      "H11",
+      "J11",
+      "K11",
+      "O11",
+      "P11",
+      "Q11",
+      "R11",
+      "S11",
+      "F12",
+      "G12",
+      "L12",
+      "M12",
+      "Q12",
+      "R12",
+      "T12",
+      "K13",
+      "L13",
+      "N13",
+      "O13",
+      "P13",
+      "Q13",
+      "S13",
+      "C14",
+      "E14",
+      "H14",
+      "K14",
+      "Q14",
+      "R14",
+      "F15",
+      "H15",
+      "K15",
+      "P15",
+      "R15",
+      "J16",
+      "P16",
+      "Q16",
+      "J17",
+      "J18"
+    ],
+    "white_stones": [
+      "D1",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "A7",
+      "B7",
+      "C7",
+      "F7",
+      "K7",
+      "Q7",
+      "S7",
+      "A8",
+      "B8",
+      "C8",
+      "E8",
+      "L8",
+      "M8",
+      "N8",
+      "O8",
+      "P8",
+      "Q8",
+      "R8",
+      "T8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "N9",
+      "O9",
+      "R9",
+      "S9",
+      "C10",
+      "J10",
+      "K10",
+      "L10",
+      "N10",
+      "P10",
+      "Q10",
+      "S10",
+      "T10",
+      "F11",
+      "N11",
+      "T11",
+      "E12",
+      "J12",
+      "N12",
+      "O12",
+      "P12",
+      "E13",
+      "F13",
+      "J13",
+      "M13",
+      "D14",
+      "F14",
+      "J14",
+      "L14",
+      "M14",
+      "N14",
+      "O14",
+      "P14",
+      "J15",
+      "O15",
+      "S15",
+      "C16",
+      "D16",
+      "H16",
+      "K16",
+      "O16",
+      "R16",
+      "F17",
+      "H17",
+      "K17",
+      "O17",
+      "Q17",
+      "R17",
+      "H18"
+    ]
+  },
+  "targets": {
+    "policy_target": "J8"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "endgame",
+      "ko_threats",
+      "territory_defense",
+      "life_and_death_critical"
+    ],
+    "strategic_focus": [
+      "securing_bottom_right corner",
+      "reducing white's center influence",
+      "testing black group at J11–K11"
+    ],
+    "global_summary_cn": "对局进入官子阶段，黑方以M6一子强化中腹与右下联络，白方刚于H18落子巩固上边，当前焦点集中于右下角实地争夺及中腹J8附近潜在劫争。黑棋在右下拥有厚势但尚未净活，白棋在中腹存在数块未安定棋形。",
+    "phase_explanation": "Move 221 是黑方在右下关键位置M6的补强，意图切断白棋向中腹的渗透路径；此前连续六手均围绕右上至中腹展开攻防，显示双方正就J8目标点进行战略试探。全局已无大规模战斗，转入精细化收官与死活确认。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋在A1–C7形成稳固边空，黑棋仅零星占据A1、B2等要点，无明显冲突。",
+      "shapes": [
+        "rectangle"
+      ],
+      "local_tags": [
+        "white_territory",
+        "solid_wall"
+      ],
+      "key_points": [
+        "A1",
+        "C1",
+        "A7",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "黑白交错激烈：白占D9、E9、J10–Q10一线，黑控J11、K11、J12、K17、J18，J12为最新白子，J11为黑应手，局部呈对杀雏形。",
+      "shapes": [
+        "chain",
+        "ladder_fragment"
+      ],
+      "local_tags": [
+        "fighting_zone",
+        "recent_exchange",
+        "vulnerable_group"
+      ],
+      "key_points": [
+        "J11",
+        "J12",
+        "K11",
+        "K17",
+        "J18"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "白棋在P16–T12构筑厚壁，黑棋Q16、R16、Q14等子依附其上，但缺乏根据地；H18为白最新守角手，压缩黑上方发展空间。",
+      "shapes": [
+        "wall",
+        "leaning_position"
+      ],
+      "local_tags": [
+        "white_thickness",
+        "black_light_group"
+      ],
+      "key_points": [
+        "H18",
+        "Q16",
+        "R16",
+        "T12"
+      ],
+      "group_status": [
+        "alive",
+        "influence_only"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋F7–L7–K8–M9构成斜跳阵势，白棋F7、K7、L8等子嵌入其中；E11–F11–G12一带存断点，黑需防范白从E12切入。",
+      "shapes": [
+        "diagonal_framework",
+        "potential_cut"
+      ],
+      "local_tags": [
+        "framework",
+        "cutting_point",
+        "tension"
+      ],
+      "key_points": [
+        "F7",
+        "K7",
+        "L8",
+        "M9",
+        "E11",
+        "F11"
+      ],
+      "group_status": [
+        "semi_alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "空旷地带，仅散落少量子：黑O10、R10、Q12；白N10、P10、O12；J8为政策目标点，尚未落子，是双方下一阶段争夺中枢。",
+      "shapes": [
+        "sparse",
+        "target_zone"
+      ],
+      "local_tags": [
+        "neutral_zone",
+        "policy_target",
+        "future_fighting_ground"
+      ],
+      "key_points": [
+        "J8",
+        "O10",
+        "Q12",
+        "N10"
+      ],
+      "group_status": [
+        "empty"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑M6为最新一手，强化M6–O6–R6–R7–O7链条，直指白Q5–Q6–Q7薄味；白L12、M12、N12构成横向联络，但气紧。",
+      "shapes": [
+        "connection_chain",
+        "pressing_sequence"
+      ],
+      "local_tags": [
+        "black_pressure",
+        "white_weakness",
+        "recent_move_effect"
+      ],
+      "key_points": [
+        "M6",
+        "O6",
+        "R6",
+        "Q5",
+        "L12",
+        "M12"
+      ],
+      "group_status": [
+        "under_pressure"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑A1–C4密集占角，白D1–D4–C2–C7形成反夹，但黑B3–C3–C4已成活形；此区域已定型，无变数。",
+      "shapes": [
+        "living_corner",
+        "standard_pattern"
+      ],
+      "local_tags": [
+        "settled",
+        "corner_life",
+        "no_fight"
+      ],
+      "key_points": [
+        "A1",
+        "C1",
+        "C4",
+        "D1",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "黑F6–H6–H5–G4–F4构成右下大模样雏形，白E5–F5–E6–D6–C6嵌入其中，形成复杂对杀结构；M6补强后，黑对白E6–D6集团构成直接威胁。",
+      "shapes": [
+        "surrounding_shape",
+        "life_and_death"
+      ],
+      "local_tags": [
+        "critical_l&d",
+        "black_surrounding",
+        "white_eye_space_shortage"
+      ],
+      "key_points": [
+        "F6",
+        "H6",
+        "E6",
+        "D6",
+        "M6",
+        "G4"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑P2–T2–T4–R5–S5–T6–R7–T7围出巨大潜力，白仅Q4、Q5、Q6、Q7零星抵抗；黑J17–J18–K17构成上方呼应，整体呈‘天地板’构型，但右下角尚未完全净活。",
+      "shapes": [
+        "territory_outline",
+        "unconfirmed_life"
+      ],
+      "local_tags": [
+        "black_territory_potential",
+        "unclosed_corner",
+        "thickness_based"
+      ],
+      "key_points": [
+        "P2",
+        "T2",
+        "T7",
+        "J17",
+        "K17",
+        "J18"
+      ],
+      "group_status": [
+        "not_fully_alive"
+      ]
+    }
+  ]
+}

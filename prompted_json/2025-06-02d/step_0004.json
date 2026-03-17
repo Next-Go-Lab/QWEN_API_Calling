@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_003",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 3,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D16"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D16"
+      }
+    ],
+    "black_stones": [
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "C4"
+    ]
+  },
+  "targets": {
+    "policy_target": "Q4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局布局",
+      "星位定式",
+      "高低配合"
+    ],
+    "strategic_focus": [
+      "右上角星位展开",
+      "左下角潜在挂角点",
+      "中央势力雏形"
+    ],
+    "global_summary_cn": "黑棋在右上（R16）与左上（D16）各占一星位，形成高低呼应；白棋单守左下星位（C4），构成典型三连星开局雏形。全局尚处布局初期，无接触战，空旷区域多。",
+    "phase_explanation": "第三手，黑方刚落子D16，完成双星位配置；白方尚未回应右上，下一招大概率于Q16、P16或Q4附近展开挂角或守角。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "黑棋占据D16星位，属高位布阵，影响左上大场及边路发展。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "高位",
+        "黑棋"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，为未来双方大场争夺焦点，尤其Q16、P16等位置。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "大场"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据R16星位，构成右上角根基，具备守角或拆边潜力。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "黑棋",
+        "角地雏形"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，临近D16但距离适中，暂无直接关联，属中腹延伸预备区。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "中腹延伸"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未有任何着子，为全局战略中枢。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "中枢"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，临近R16，可能成为黑棋拆二或白棋夹击的区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "潜在拆边"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋占据C4星位，低位守角，构成稳固角地基础。",
+      "shapes": [
+        "point"
+      ],
+      "local_tags": [
+        "星位",
+        "白棋",
+        "守角"
+      ],
+      "key_points": [
+        "C4"
+      ],
+      "group_status": [
+        "single"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，远离现有子力，当前无战略紧迫性。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "完全空旷，无子，是未来可能的挂角、守角或侵消区域。",
+      "shapes": [],
+      "local_tags": [
+        "空旷"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

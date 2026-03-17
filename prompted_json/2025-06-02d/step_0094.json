@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_093",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 93,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "H8"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "N13"
+      },
+      {
+        "color": 1,
+        "point": "N15"
+      },
+      {
+        "color": 0,
+        "point": "K13"
+      },
+      {
+        "color": 1,
+        "point": "K11"
+      },
+      {
+        "color": 0,
+        "point": "K14"
+      },
+      {
+        "color": 1,
+        "point": "H8"
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "C7",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "H8",
+      "L8",
+      "N8",
+      "O8",
+      "S8",
+      "E9",
+      "H9",
+      "L9",
+      "N9",
+      "R9",
+      "J10",
+      "L10",
+      "R10",
+      "C11",
+      "D11",
+      "H11",
+      "K11",
+      "P11",
+      "R11",
+      "H12",
+      "P12",
+      "R12",
+      "O13",
+      "L14",
+      "N15",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "D6",
+      "H6",
+      "N6",
+      "O6",
+      "P6",
+      "N7",
+      "Q7",
+      "G8",
+      "R8",
+      "G9",
+      "K9",
+      "O9",
+      "Q9",
+      "G10",
+      "H10",
+      "N10",
+      "O10",
+      "Q10",
+      "E11",
+      "G11",
+      "Q11",
+      "D12",
+      "L12",
+      "N12",
+      "O12",
+      "K13",
+      "N13",
+      "K14",
+      "L16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘攻防",
+      "边角缠斗",
+      "白棋优势局面"
+    ],
+    "strategic_focus": [
+      "右下角实地争夺",
+      "中央黑棋大龙薄味",
+      "白棋厚势向中腹辐射"
+    ],
+    "global_summary_cn": "第93手，轮白（Ueno Asami）行棋。黑棋在右下与中央形成复杂接触战，白棋通过K13、K14、H8等连续压迫，强化自身厚势并限制黑棋眼位；E6为关键打入点，意图侵消黑棋中腹潜力。全局白棋实地稍优，黑棋需在中央寻求治孤或转换。",
+    "phase_explanation": "中盘后期，双方在右下角（N13–K14–H8一线）与中腹（E6目标点）展开战略对峙；白棋掌握主动，黑棋面临局部安定与全局平衡的双重压力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角基本定型，黑白各守一隅，无激烈战斗。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "定式完成",
+        "平静"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑棋（R9–R10–R11–R12）与白棋（Q9–Q10–Q11）形成平行势力，略有对峙但未接触。",
+      "shapes": [
+        "side_wall"
+      ],
+      "local_tags": [
+        "势力对峙",
+        "未接触"
+      ],
+      "key_points": [
+        "Q9",
+        "R9",
+        "Q11",
+        "R11"
+      ],
+      "group_status": [
+        "stable"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角白棋占据Q15、P17等高位，黑棋J17单官守角，白势略张。",
+      "shapes": [
+        "high_point",
+        "corner"
+      ],
+      "local_tags": [
+        "高位扩张",
+        "轻守"
+      ],
+      "key_points": [
+        "Q15",
+        "P17",
+        "J17"
+      ],
+      "group_status": [
+        "influence"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑棋C7–D11–C11与白棋C6–D6–C3–D3构成上下呼应，黑棋厚实但略显凝重。",
+      "shapes": [
+        "ladder",
+        "wall"
+      ],
+      "local_tags": [
+        "厚势",
+        "节奏偏缓"
+      ],
+      "key_points": [
+        "C7",
+        "D6",
+        "C11"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心区域空旷，E6为白棋预设打入点；黑棋H9–K11–H12–L12与白棋G10–H10–G11形成潜在对杀前沿。",
+      "shapes": [
+        "vital_point",
+        "potential_fight"
+      ],
+      "local_tags": [
+        "战略要冲",
+        "未定型"
+      ],
+      "key_points": [
+        "E6",
+        "H9",
+        "K11",
+        "G10"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹为当前主战场：黑棋N13–K14–N15–O13与白棋K13–K14–N12–O12密集交错，H8一子深入黑阵引发连锁反应。",
+      "shapes": [
+        "contact_fight",
+        "net"
+      ],
+      "local_tags": [
+        "激战区",
+        "攻防转换"
+      ],
+      "key_points": [
+        "N13",
+        "K13",
+        "K14",
+        "H8",
+        "N15"
+      ],
+      "group_status": [
+        "fighting"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑棋F3–L3–C7与白棋H2–C3–D3–E3形成典型低中国流对抗，黑棋实地稍大但外势薄弱。",
+      "shapes": [
+        "low_chinese",
+        "territory"
+      ],
+      "local_tags": [
+        "实地优先",
+        "外势不足"
+      ],
+      "key_points": [
+        "F3",
+        "H2",
+        "C7"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑棋P3–Q6–R6与白棋O4–P4–Q4–N6构成实地与厚势博弈，白棋O6–P6–Q6外围施压。",
+      "shapes": [
+        "side_fight",
+        "thickness_vs_territory"
+      ],
+      "local_tags": [
+        "厚薄对比",
+        "实地争夺"
+      ],
+      "key_points": [
+        "P3",
+        "O4",
+        "Q6"
+      ],
+      "group_status": [
+        "contested"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角为全盘焦点：黑棋S8–R9–R10–R11–R12与白棋R8–Q7–O9–O10–Q10形成大规模接触，L8–N8–N9–L9黑棋试图做活，白棋G8–G9–H10持续紧逼。",
+      "shapes": [
+        "life_and_death",
+        "surrounding"
+      ],
+      "local_tags": [
+        "死活难题",
+        "紧气压迫"
+      ],
+      "key_points": [
+        "S8",
+        "R8",
+        "G8",
+        "L8",
+        "N9"
+      ],
+      "group_status": [
+        "critical"
+      ]
+    }
+  ]
+}

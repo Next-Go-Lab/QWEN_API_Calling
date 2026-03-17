@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_003",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 3,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "Q3"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "Q16"
+      },
+      {
+        "color": 0,
+        "point": "D4"
+      },
+      {
+        "color": 1,
+        "point": "Q3"
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "targets": {
+    "policy_target": "D17"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "三手棋",
+      "角部优先",
+      "黑方主动"
+    ],
+    "strategic_focus": [
+      "右上角",
+      "左下角",
+      "星位与小目配置"
+    ],
+    "global_summary_cn": "对局进行至第三手，黑方连续占据右上Q16与Q3两处高位角点，白方应以D4小目守左下角，形成典型‘双高挂’开局雏形；全局空旷，尚未形成明显势力范围或战斗焦点。",
+    "phase_explanation": "处于布局初期，双方均在空角落子，未发生接触战，无死活或攻防判断需求，重心在于大场选择与子效平衡。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角完全空旷，无子。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待占"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，临近黑棋Q16一子但无延伸。",
+      "shapes": [],
+      "local_tags": [
+        "高位",
+        "潜在挂角位"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据Q16（星位）与Q3（小目上方一路），构成右上角高位双子配置，具外势潜力。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "黑角",
+        "高位布局",
+        "Q16",
+        "Q3"
+      ],
+      "key_points": [
+        "Q16",
+        "Q3"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹及四线以下区域空旷，无子分布。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "待发展"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "天元周边完全空旷，无任何着子。",
+      "shapes": [],
+      "local_tags": [
+        "中央",
+        "未涉足"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右侧中腹空旷，临近黑棋Q3但无连接，存在向边路或中央发展的可能。",
+      "shapes": [],
+      "local_tags": [
+        "邻近黑子",
+        "发展区"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "白棋占据D4（小目），构成左下角基本守角形态，为当前唯一白子。",
+      "shapes": [
+        "corner"
+      ],
+      "local_tags": [
+        "白角",
+        "小目",
+        "D4"
+      ],
+      "key_points": [
+        "D4"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段空旷，距D4约十路，尚无影响。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "远角"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角完全空旷，无子。",
+      "shapes": [],
+      "local_tags": [
+        "空角",
+        "待占"
+      ],
+      "key_points": [],
+      "group_status": []
+    }
+  ]
+}

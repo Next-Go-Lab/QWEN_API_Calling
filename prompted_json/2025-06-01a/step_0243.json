@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_242",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 242,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "O19"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "N19"
+      },
+      {
+        "color": 0,
+        "point": "T18"
+      },
+      {
+        "color": 1,
+        "point": "T19"
+      },
+      {
+        "color": 0,
+        "point": "Q19"
+      },
+      {
+        "color": 1,
+        "point": "T16"
+      },
+      {
+        "color": 0,
+        "point": "O19"
+      }
+    ],
+    "black_stones": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C2",
+      "F2",
+      "G2",
+      "K2",
+      "M2",
+      "O2",
+      "P2",
+      "Q2",
+      "R2",
+      "C3",
+      "D3",
+      "F3",
+      "H3",
+      "K3",
+      "L3",
+      "N3",
+      "O3",
+      "Q3",
+      "F4",
+      "J4",
+      "P4",
+      "R4",
+      "S4",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5",
+      "J5",
+      "N5",
+      "O5",
+      "P5",
+      "R5",
+      "F6",
+      "R6",
+      "G7",
+      "K7",
+      "L7",
+      "Q7",
+      "S7",
+      "F8",
+      "G8",
+      "L8",
+      "S8",
+      "G9",
+      "L9",
+      "N9",
+      "D10",
+      "G10",
+      "K10",
+      "M10",
+      "Q10",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "H11",
+      "J11",
+      "K11",
+      "L11",
+      "M11",
+      "N11",
+      "R11",
+      "S11",
+      "B12",
+      "G12",
+      "J12",
+      "L12",
+      "N12",
+      "B13",
+      "D13",
+      "G13",
+      "N13",
+      "Q13",
+      "R13",
+      "E14",
+      "F14",
+      "J14",
+      "L14",
+      "R14",
+      "B15",
+      "C15",
+      "D15",
+      "K15",
+      "Q15",
+      "C16",
+      "J16",
+      "L16",
+      "P16",
+      "Q16",
+      "R16",
+      "S16",
+      "T16",
+      "B17",
+      "J17",
+      "L17",
+      "M17",
+      "N17",
+      "O17",
+      "P17",
+      "T17",
+      "B18",
+      "D18",
+      "M18",
+      "S18",
+      "R19",
+      "T19"
+    ],
+    "white_stones": [
+      "B1",
+      "B2",
+      "D2",
+      "E2",
+      "H2",
+      "J2",
+      "N2",
+      "B3",
+      "E3",
+      "J3",
+      "M3",
+      "R3",
+      "S3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "Q4",
+      "B5",
+      "K5",
+      "M5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "G6",
+      "H6",
+      "J6",
+      "K6",
+      "L6",
+      "N6",
+      "P6",
+      "Q6",
+      "E7",
+      "F7",
+      "H7",
+      "M7",
+      "N7",
+      "P7",
+      "R7",
+      "H8",
+      "J8",
+      "K8",
+      "M8",
+      "R8",
+      "C9",
+      "D9",
+      "E9",
+      "H9",
+      "K9",
+      "M9",
+      "O9",
+      "P9",
+      "R9",
+      "S9",
+      "B10",
+      "C10",
+      "E10",
+      "F10",
+      "H10",
+      "J10",
+      "B11",
+      "O11",
+      "P11",
+      "H12",
+      "M12",
+      "Q12",
+      "C13",
+      "H13",
+      "M13",
+      "O13",
+      "P13",
+      "H14",
+      "M14",
+      "N14",
+      "Q14",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "J15",
+      "N15",
+      "O15",
+      "P15",
+      "B16",
+      "D16",
+      "F16",
+      "K16",
+      "C17",
+      "D17",
+      "F17",
+      "H17",
+      "K17",
+      "Q17",
+      "R17",
+      "S17",
+      "C18",
+      "E18",
+      "J18",
+      "K18",
+      "L18",
+      "N18",
+      "O18",
+      "P18",
+      "Q18",
+      "R18",
+      "B19",
+      "K19",
+      "M19",
+      "O19",
+      "Q19"
+    ]
+  },
+  "targets": {
+    "policy_target": "J13"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "收官阶段",
+      "细棋局面",
+      "白棋贴目压力"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "中腹厚势转化",
+      "边路实地收束"
+    ],
+    "global_summary_cn": "全局进入官子收束阶段，黑棋以微弱优势领先（B+0.5），右上角（Q19–T19一带）连续交换激烈，白刚在O19落子，黑需应对；中腹黑棋厚势明显但未完全转化为实地，左下与中腹交界处存在潜在劫争隐患；全盘无大龙生死，胜负系于数目的精确计算。",
+    "phase_explanation": "第242手，黑方行棋，属终局官子阶段。双方在右上角密集落子（N19→T18→T19→Q19→T16→O19），形成典型‘爬二路’与‘扳粘’收束序列；黑棋全局实地稍优，白棋需全力压缩中腹与右边潜力。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角已定型，黑白呈对称守角格局，黑占C1–F3、C5–E5等低位实地，白守A4–D4、B1–B3等小目结构，无战斗痕迹。",
+      "shapes": [
+        "corner",
+        "low-territory"
+      ],
+      "local_tags": [
+        "定型完成",
+        "低围实地"
+      ],
+      "key_points": [
+        "C1",
+        "D1",
+        "A4",
+        "B2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段较空旷，黑有K2–L3–K3–J4–J5等断续势力，白在J2–K4–K5–J6一线构成薄味联络，存在轻重判断空间。",
+      "shapes": [
+        "floating-group",
+        "influence-line"
+      ],
+      "local_tags": [
+        "薄味",
+        "影响力延伸"
+      ],
+      "key_points": [
+        "J2",
+        "J4",
+        "J5",
+        "J6"
+      ],
+      "group_status": [
+        "unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "当前焦点区域：近五手全部集中于此（N19/T18/T19/Q19/T16/O19），黑T19扳、白Q19挡、黑T16挖、白O19粘，形成典型二路收束定式，黑稍得利。",
+      "shapes": [
+        "edge-fight",
+        "two-line-sequence"
+      ],
+      "local_tags": [
+        "官子激战",
+        "二路爬",
+        "扳粘定式"
+      ],
+      "key_points": [
+        "N19",
+        "T18",
+        "T19",
+        "Q19",
+        "T16",
+        "O19"
+      ],
+      "group_status": [
+        "settled-with-gain"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹黑棋从D10–G12–G13–D13成势，白C13–H13–M13构成对应阵型，双方在此处保持平衡，黑厚而白活，暂无攻防动作。",
+      "shapes": [
+        "side-thickness",
+        "balanced-contact"
+      ],
+      "local_tags": [
+        "厚势",
+        "平稳接触"
+      ],
+      "key_points": [
+        "D10",
+        "G12",
+        "C13",
+        "H13"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央空旷，黑J11–K11–L11–M11–N11–R11与白J10–K10–L10–M10–N10–Q10形成对峙，黑厚势覆盖范围更广，但尚未围出实空，为潜在转换要点。",
+      "shapes": [
+        "central-influence",
+        "potential-territory"
+      ],
+      "local_tags": [
+        "厚势待用",
+        "中央潜力"
+      ],
+      "key_points": [
+        "J11",
+        "K10",
+        "M11",
+        "N10"
+      ],
+      "group_status": [
+        "influential"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑P16–Q16–R16–S16–T17与白P15–Q15–R17–S17–Q17形成复杂交错，黑在R19–T19已有根基，此处为厚势向边地渗透的关键通道。",
+      "shapes": [
+        "thickness-extension",
+        "edge-penetration"
+      ],
+      "local_tags": [
+        "厚势延伸",
+        "边地渗透"
+      ],
+      "key_points": [
+        "P16",
+        "Q16",
+        "R17",
+        "T17"
+      ],
+      "group_status": [
+        "semi-alive"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑C1–C3–D3–D5–E5与白B1–B3–C4–D4–E2构成经典‘无忧角vs小目’对抗，已定型，黑实地略优，白外势有限。",
+      "shapes": [
+        "corner",
+        "low-territory"
+      ],
+      "local_tags": [
+        "定型完成",
+        "实地优先"
+      ],
+      "key_points": [
+        "C1",
+        "C3",
+        "D4",
+        "B2"
+      ],
+      "group_status": [
+        "alive"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中段黑F1–G2–F3–F5–F6与白E2–E3–E6–F7–G6形成犬牙交错，黑F6–G7–G8–G9一线厚实，白E7–F7–H7构成薄形，存在后续搜根可能。",
+      "shapes": [
+        "edge-tension",
+        "weak-group"
+      ],
+      "local_tags": [
+        "薄形",
+        "搜根候选"
+      ],
+      "key_points": [
+        "F6",
+        "G7",
+        "E7",
+        "F7"
+      ],
+      "group_status": [
+        "vulnerable"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角黑R2–S4–R4–S7–S8与白R3–S3–R7–R8–S9构成大型接触战余波，黑占据R2–T1等高位，白守S9–R9底线，实地大致均势，但黑R11–S11–T11外势更强。",
+      "shapes": [
+        "corner-fight-remnant",
+        "outer-influence"
+      ],
+      "local_tags": [
+        "余味",
+        "外势主导"
+      ],
+      "key_points": [
+        "R2",
+        "S4",
+        "R7",
+        "S9"
+      ],
+      "group_status": [
+        "alive-with-influence"
+      ]
+    }
+  ]
+}

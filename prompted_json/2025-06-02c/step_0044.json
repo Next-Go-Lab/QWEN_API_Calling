@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_043",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 43,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "D13"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D11"
+      },
+      {
+        "color": 0,
+        "point": "C11"
+      },
+      {
+        "color": 1,
+        "point": "E11"
+      },
+      {
+        "color": 0,
+        "point": "E10"
+      },
+      {
+        "color": 1,
+        "point": "D13"
+      }
+    ],
+    "black_stones": [
+      "O3",
+      "Q3",
+      "R4",
+      "B5",
+      "R5",
+      "D11",
+      "E11",
+      "C12",
+      "R12",
+      "D13",
+      "M13",
+      "Q13",
+      "J14",
+      "Q14",
+      "J15",
+      "H16",
+      "K16",
+      "R16",
+      "F17",
+      "L17",
+      "Q17",
+      "D18"
+    ],
+    "white_stones": [
+      "F3",
+      "C4",
+      "D4",
+      "Q5",
+      "Q6",
+      "R6",
+      "D10",
+      "E10",
+      "Q10",
+      "C11",
+      "D12",
+      "L12",
+      "C14",
+      "K14",
+      "P14",
+      "F15",
+      "K15",
+      "M15",
+      "D16",
+      "P16",
+      "P17"
+    ]
+  },
+  "targets": {
+    "policy_target": "E12"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激斗",
+      "边角缠斗",
+      "白棋厚势",
+      "黑棋孤棋"
+    ],
+    "strategic_focus": [
+      "E12点攻防焦点",
+      "右下角实地争夺",
+      "中央黑棋联络隐患"
+    ],
+    "global_summary_cn": "第43手，轮白（Ueno Risa）行棋。黑棋在右上与中腹形成数块未安定棋形，白棋占据右下与左上实地并保持厚势；最新一手D13强化右上黑阵但暴露E12断点，成为全局胜负手候选。",
+    "phase_explanation": "中盘阶段，双方在多个局部展开接触战，尚未进入官子，胜负取决于关键断点E12的攻防结果及中腹黑棋能否有效联络。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白F3、D4、C4构成坚实小目守角，黑B5、H16、K16、R16等子呈高位配置，但缺乏直接压迫。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "白小目守角",
+        "黑高位布局"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "B5",
+        "H16"
+      ],
+      "group_status": [
+        "white_secure",
+        "black_influential"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段黑Q13、Q14、Q17与白Q10、Q5、Q6形成对峙，黑棋试图扩张但被白棋压缩，Q10为白棋眼位要点。",
+      "shapes": [
+        "side_wall",
+        "eye_space_contest"
+      ],
+      "local_tags": [
+        "白边墙",
+        "黑潜力受限"
+      ],
+      "key_points": [
+        "Q10",
+        "Q13",
+        "Q14",
+        "Q17"
+      ],
+      "group_status": [
+        "white_stable",
+        "black_unsettled"
+      ]
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上角黑R4、R5、R12、R16与白Q5、Q6、R6构成复杂接触部，黑棋有断点隐患，白棋Q6-R6一线具弹性。",
+      "shapes": [
+        "contact_fight",
+        "ladder_risk"
+      ],
+      "local_tags": [
+        "黑两子孤立",
+        "白棋厚味"
+      ],
+      "key_points": [
+        "R4",
+        "R5",
+        "Q6",
+        "R6"
+      ],
+      "group_status": [
+        "black_vulnerable",
+        "white_thick"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左侧中腹黑C11、C12、C14与白D10、D12、D16形成纵向拉锯，黑C11-C14呈断续薄形，白D12为关键封锁点。",
+      "shapes": [
+        "vertical_fight",
+        "cutting_point"
+      ],
+      "local_tags": [
+        "白控纵线",
+        "黑联络困难"
+      ],
+      "key_points": [
+        "C11",
+        "D12",
+        "C14",
+        "D16"
+      ],
+      "group_status": [
+        "black_weak",
+        "white_dominant"
+      ]
+    },
+    {
+      "region_id": "center",
+      "summary": "中央区域空旷，黑E11、D11、D13、M13、J14、J15与白E10、D10等子构成潜在战斗核心，E12为双方必争断点。",
+      "shapes": [
+        "vital_point_zone",
+        "potential_ladder"
+      ],
+      "local_tags": [
+        "E12决胜点",
+        "中腹未定型"
+      ],
+      "key_points": [
+        "E11",
+        "D11",
+        "E10",
+        "D13",
+        "E12"
+      ],
+      "group_status": [
+        "unclear",
+        "high_tension"
+      ]
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹黑K14、K15、K16、P14、P16与白L12、M15、F15形成交错，黑K14-P16呈斜向薄势，白M15为支撑点。",
+      "shapes": [
+        "diagonal_weakness",
+        "support_anchor"
+      ],
+      "local_tags": [
+        "黑斜飞不稳",
+        "白中腹据点"
+      ],
+      "key_points": [
+        "K14",
+        "M15",
+        "P14",
+        "P16"
+      ],
+      "group_status": [
+        "black_fragile",
+        "white_firm"
+      ]
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角黑D18、F17与白F3、D4构成远距呼应，但无直接接触；黑D18孤立，白F3-D4已成实地基础。",
+      "shapes": [
+        "isolated_stone",
+        "established_corner"
+      ],
+      "local_tags": [
+        "黑单子漂浮",
+        "白角地稳固"
+      ],
+      "key_points": [
+        "D18",
+        "F17",
+        "F3",
+        "D4"
+      ],
+      "group_status": [
+        "black_lonely",
+        "white_secure"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边中腹空旷，仅有黑O3、Q3、R4与白F3、C4等远端子力，尚未形成实质交锋，属战略预备区。",
+      "shapes": [
+        "quiet_area",
+        "strategic_reserve"
+      ],
+      "local_tags": [
+        "低冲突区",
+        "未来战场"
+      ],
+      "key_points": [
+        "O3",
+        "Q3",
+        "F3"
+      ],
+      "group_status": [
+        "neutral",
+        "dormant"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角白C4、D4、Q5、R6与黑Q3、R4构成典型小目vs高中国流对抗，白已围出坚实实地，黑仅存外势。",
+      "shapes": [
+        "corner_fight_resolved",
+        "territory_vs_influence"
+      ],
+      "local_tags": [
+        "白实利领先",
+        "黑外势单薄"
+      ],
+      "key_points": [
+        "C4",
+        "D4",
+        "Q3",
+        "R4"
+      ],
+      "group_status": [
+        "white_territorial",
+        "black_influential_only"
+      ]
+    }
+  ]
+}

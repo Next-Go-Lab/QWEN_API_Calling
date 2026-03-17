@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_004",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 4,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "Q4"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "R16"
+      },
+      {
+        "color": 0,
+        "point": "C4"
+      },
+      {
+        "color": 1,
+        "point": "D16"
+      },
+      {
+        "color": 0,
+        "point": "Q4"
+      }
+    ],
+    "black_stones": [
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "C4",
+      "Q4"
+    ]
+  },
+  "targets": {
+    "policy_target": "E4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局",
+      "对角布局",
+      "小目守角雏形"
+    ],
+    "strategic_focus": [
+      "左上与右下角部争夺",
+      "中央势力雏形"
+    ],
+    "global_summary_cn": "双方前四手形成对角布局：黑棋占R16、D16（右上与左下小目），白棋占C4、Q4（左上与右下小目），呈现典型‘对角星·小目’开局。当前无接触战，处于布子阶段。",
+    "phase_explanation": "第4手刚结束，属布局初期；双方均未展开拆边或挂角，重心在角部根基构建。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "白棋占据C4小目，构成稳固角地基础；附近无黑子，暂无压迫。",
+      "shapes": [
+        "small_enclosure"
+      ],
+      "local_tags": [
+        "white_corner",
+        "secure"
+      ],
+      "key_points": [
+        "C4"
+      ],
+      "group_status": [
+        "alive_in_place"
+      ]
+    },
+    {
+      "region_id": "top_center",
+      "summary": "空旷，无子，属双方未来拆边或挂角的潜在区域。",
+      "shapes": [],
+      "local_tags": [
+        "empty"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "黑棋占据R16小目，与白棋Q4形成对角呼应；二者间距较远，尚未构成直接互动。",
+      "shapes": [
+        "small_enclosure"
+      ],
+      "local_tags": [
+        "black_corner",
+        "symmetric"
+      ],
+      "key_points": [
+        "R16"
+      ],
+      "group_status": [
+        "alive_in_place"
+      ]
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "空旷，无子；位于白棋C4与黑棋D16之间，未来可能成为引征或分投要点。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "potential_influence_bridge"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "完全空旷，尚未受任何势力影响，为全局战略中枢。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "strategic_center"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "空旷，但临近黑棋R16与白棋Q4，未来易成双方势力延伸交汇带。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "influence_overlap_zone"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑棋占据D16（实为左下角，坐标系按标准GTP：A1=左下，S19=右上；故D16属左下角）小目，构成另一对角支点。",
+      "shapes": [
+        "small_enclosure"
+      ],
+      "local_tags": [
+        "black_corner",
+        "diagonal_pair"
+      ],
+      "key_points": [
+        "D16"
+      ],
+      "group_status": [
+        "alive_in_place"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，邻近黑棋D16，是其未来拆二或跳守的常见方向。",
+      "shapes": [],
+      "local_tags": [
+        "empty",
+        "black_influence_radius"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "白棋占据Q4（实为右下角），与黑棋D16构成对角；Q4位置略偏高，具一定外势倾向。",
+      "shapes": [
+        "small_enclosure"
+      ],
+      "local_tags": [
+        "white_corner",
+        "diagonal_pair",
+        "slight_outside_bias"
+      ],
+      "key_points": [
+        "Q4"
+      ],
+      "group_status": [
+        "alive_in_place"
+      ]
+    }
+  ]
+}

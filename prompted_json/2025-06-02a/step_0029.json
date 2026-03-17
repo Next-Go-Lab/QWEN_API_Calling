@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_028",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 28,
+    "to_play": 1,
+    "last_move": {
+      "color": 0,
+      "point": "H5"
+    },
+    "recent_moves": [
+      {
+        "color": 1,
+        "point": "F4"
+      },
+      {
+        "color": 0,
+        "point": "F5"
+      },
+      {
+        "color": 1,
+        "point": "G5"
+      },
+      {
+        "color": 0,
+        "point": "G6"
+      },
+      {
+        "color": 1,
+        "point": "G3"
+      },
+      {
+        "color": 0,
+        "point": "H5"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "P4",
+      "C5",
+      "D5",
+      "G5",
+      "B6",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "E2",
+      "D3",
+      "D4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "C6",
+      "D6",
+      "G6",
+      "B7",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "G4"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "中盘激战",
+      "中央对攻",
+      "边角牵制"
+    ],
+    "strategic_focus": [
+      "G4点位争夺",
+      "H5白棋孤子处理",
+      "F4-G5黑势扩张"
+    ],
+    "global_summary_cn": "第28手，黑方即将落子，局面处于中盘关键阶段。右下角（F4–H5一带）形成密集接触战，黑棋在F4、G3、G5连片施压，白棋H5为最新一子但略显孤立；左上与右上存在分散布局，全局厚薄尚均衡，中央尚未定型，G4是双方必争之要点。",
+    "phase_explanation": "当前为中盘战斗初期，局部接触频繁但未爆发大规模死活战，胜负焦点集中于下边中央的势力消长与孤棋安危。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上角白D16、F17与黑Q16形成远距离呼应，无直接接触，属平稳布阵区。",
+      "shapes": [],
+      "local_tags": [
+        "轻灵布局",
+        "大场预留"
+      ],
+      "key_points": [
+        "D16",
+        "F17",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "上边中段空旷，黑白均无子，属待开发区域，潜在大场。",
+      "shapes": [],
+      "local_tags": [
+        "空旷",
+        "战略预备"
+      ],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "右上O17白子单官守角，黑无应手，白角地初步成形。",
+      "shapes": [],
+      "local_tags": [
+        "守角完成",
+        "实地安定"
+      ],
+      "key_points": [
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "左中腹B6、B7白连片，C3–C5黑子低位展开，形成低姿态对峙。",
+      "shapes": [],
+      "local_tags": [
+        "低位缠斗",
+        "厚势对峙"
+      ],
+      "key_points": [
+        "B6",
+        "B7",
+        "C3",
+        "C5"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中央核心空旷，G4为当前最紧迫点，关系双方厚薄与眼位潜力。",
+      "shapes": [],
+      "local_tags": [
+        "战略要冲",
+        "眼位枢纽"
+      ],
+      "key_points": [
+        "G4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "右中腹R14黑子孤悬，Q4白子呼应，但尚未构成有效攻击，属浮动势力区。",
+      "shapes": [],
+      "local_tags": [
+        "孤子试探",
+        "呼应薄弱"
+      ],
+      "key_points": [
+        "R14",
+        "Q4"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "左下角C3–D6形成黑白交错小战场，E2白子为根基，黑C3–D5呈压迫态势。",
+      "shapes": [],
+      "local_tags": [
+        "角部缠斗",
+        "低位攻防"
+      ],
+      "key_points": [
+        "C3",
+        "D3",
+        "D4",
+        "E2",
+        "C5",
+        "D6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "下边核心战场：F4–H5密集交火，黑F4/G3/G5三子施压，白F5/G6/H5勉强连络但气紧。",
+      "shapes": [
+        "L形",
+        "直三"
+      ],
+      "local_tags": [
+        "接触战核心区",
+        "气紧孤棋",
+        "攻防转换点"
+      ],
+      "key_points": [
+        "F4",
+        "F5",
+        "G3",
+        "G5",
+        "G6",
+        "H5"
+      ],
+      "group_status": [
+        "白H5孤棋待救",
+        "黑F4–G5势力圈初成"
+      ]
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "右下角P4黑、Q3黑与R6黑构成斜线配置，白Q4为唯一干扰，整体黑势占优。",
+      "shapes": [
+        "斜线"
+      ],
+      "local_tags": [
+        "斜线势力",
+        "外势导向"
+      ],
+      "key_points": [
+        "Q3",
+        "P4",
+        "R6",
+        "Q4"
+      ],
+      "group_status": [
+        "黑外势厚实",
+        "白Q4单薄"
+      ]
+    }
+  ]
+}

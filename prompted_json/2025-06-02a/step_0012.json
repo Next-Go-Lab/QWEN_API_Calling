@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_011",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 11,
+    "to_play": 0,
+    "last_move": {
+      "color": 1,
+      "point": "C4"
+    },
+    "recent_moves": [
+      {
+        "color": 0,
+        "point": "O17"
+      },
+      {
+        "color": 1,
+        "point": "R14"
+      },
+      {
+        "color": 0,
+        "point": "F17"
+      },
+      {
+        "color": 1,
+        "point": "C3"
+      },
+      {
+        "color": 0,
+        "point": "D3"
+      },
+      {
+        "color": 1,
+        "point": "C4"
+      }
+    ],
+    "black_stones": [
+      "C3",
+      "Q3",
+      "C4",
+      "R6",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "D3",
+      "D4",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "targets": {
+    "policy_target": "C6"
+  },
+  "semantic_description": {
+    "global_tags": [
+      "开局定式",
+      "星位小目配合",
+      "白棋守角未稳",
+      "黑棋主动侵消"
+    ],
+    "strategic_focus": [
+      "右上角争夺",
+      "左下角厚势构建",
+      "中腹潜力扩张"
+    ],
+    "global_summary_cn": "第11手，黑方刚于C4点三三完成右下角侵分，白棋在D3、D4连扳试图反击但尚未形成稳固外势；黑棋Q16、R14构成高位配置，白棋O17、F17呈双飞燕雏形但尚未定型；全局尚处布局早期，双方侧重角部与边路势力平衡。",
+    "phase_explanation": "布局阶段中期，双方已完成基本占角，正进入边路展开与中腹呼应的关键过渡期。黑棋掌握主动权，白棋需在右上或左下择一加强。"
+  },
+  "regions": [
+    {
+      "region_id": "top_left",
+      "summary": "左上空旷，无子，属未开发区域。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "top_center",
+      "summary": "白棋F17、O17分占两侧，呈宽势雏形，但中间松散，尚未连接。",
+      "shapes": [
+        "line"
+      ],
+      "local_tags": [
+        "双飞燕意向",
+        "虚势待厚"
+      ],
+      "key_points": [
+        "F17",
+        "O17"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "top_right",
+      "summary": "完全空旷，无子，属战略预备区。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_left",
+      "summary": "黑棋Q3孤子单立，白棋D16遥相呼应，暂无直接接触。",
+      "shapes": [],
+      "local_tags": [
+        "单关跳守角",
+        "远距对峙"
+      ],
+      "key_points": [
+        "Q3",
+        "D16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "center",
+      "summary": "中腹空旷，仅黑R6略近中央，为未来势力辐射起点。",
+      "shapes": [],
+      "local_tags": [
+        "势力辐射点",
+        "潜在大模样"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "middle_right",
+      "summary": "黑R14、Q16构成高配，白无子，黑主导此带发展节奏。",
+      "shapes": [
+        "diagonal"
+      ],
+      "local_tags": [
+        "高配牵制",
+        "压制右上"
+      ],
+      "key_points": [
+        "R14",
+        "Q16"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_left",
+      "summary": "黑C3、C4与白D3、D4形成局部激烈接触战，黑刚点三三完成侵分。",
+      "shapes": [
+        "corner_enclosure"
+      ],
+      "local_tags": [
+        "三三侵分",
+        "连扳未定型",
+        "角部攻防"
+      ],
+      "key_points": [
+        "C3",
+        "C4",
+        "D3",
+        "D4"
+      ],
+      "group_status": [
+        "uncertain"
+      ]
+    },
+    {
+      "region_id": "bottom_center",
+      "summary": "空旷，仅黑Q3位于下边线，但距离较远，暂无实质影响。",
+      "shapes": [],
+      "local_tags": [],
+      "key_points": [
+        "Q3"
+      ],
+      "group_status": []
+    },
+    {
+      "region_id": "bottom_right",
+      "summary": "黑R6孤立存在，白无子，属黑棋低位伏兵。",
+      "shapes": [],
+      "local_tags": [
+        "低位伏兵",
+        "扩展支点"
+      ],
+      "key_points": [
+        "R6"
+      ],
+      "group_status": []
+    }
+  ]
+}
