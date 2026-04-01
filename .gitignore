@@ -13,6 +13,7 @@
 !README.md
 !output.log
 !simpleproto_qwen_tool.py
+!fit_shape.py
 
 # --- 允许跟踪的目录及其全部内容 ---
 !prompted_json/
