@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_026",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "N18",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "R16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "P18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "O18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "N18",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "右上角形成典型小目缔角后挂角攻防，我方白棋在角部厚势已成，对方黑棋数子浮于外侧呈薄形。",
+    "move_goal": "镇头压迫对方浮子，巩固角地并限制黑棋向边路发展。",
+    "move_location_hint": "角上刚落地一子的**正上方镇位**，落点位于黑棋R16与N17连线中腹延伸带",
+    "move_effect": "压缩黑棋眼位、制造打劫隐患，同时强化我方O18-P18-Q17厚势联动。",
+    "move_exclusivity": "若脱先，黑可尖冲M17或飞压M16，活形提速并反制我方角空。",
+    "move_style": [
+      "压迫",
+      "先手压迫"
+    ],
+    "move_priority": [
+      "中盘要点"
+    ],
+    "move_risk": [
+      "折中"
+    ]
+  }
+}

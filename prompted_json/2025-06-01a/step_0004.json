@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_003",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 3,
+    "to_play": "white",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "black",
+      "point": "Q3",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "Q16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "Q3",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "布局初期，我方双星位构型初成，角部与边路呼应，需巩固厚势并遏制对方右下挂角后的发展弹性。",
+    "move_goal": "镇头压迫对方右下挂角一子，限制其跳起成形空间。",
+    "move_location_hint": "右下角白棋挂角子的**上方镇头位**，落于Q16与角部连线延伸带",
+    "move_effect": "压缩对方角部发展空间，强化我方Q16与角上刚落地一子连线厚势，预防白棋跳起成模样。",
+    "move_exclusivity": "若脱先，白可轻松跳出扩张，我方厚势落空且失去先手压制节奏。",
+    "move_style": [
+      "压迫",
+      "围空"
+    ],
+    "move_priority": [
+      "布局要点"
+    ],
+    "move_risk": [
+      "稳健"
+    ]
+  }
+}

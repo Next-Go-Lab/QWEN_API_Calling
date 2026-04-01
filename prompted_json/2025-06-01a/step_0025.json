@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_024",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 24,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "O18",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "P17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "R17",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "R16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "P18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "O18",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "右上角形成复杂接触战，我方厚势环伺对方孤子，全局重心在压制与模样扩张的平衡。",
+    "move_goal": "镇头压迫对方角部弱形，兼顾中腹势力延伸。",
+    "move_location_hint": "对方上一手所在块上方的**镇位带**，落于白厚势辐射线与黑棋联络线交界处",
+    "move_effect": "封锁黑棋向上出路，强化白棋角部眼位与中腹控制力",
+    "move_exclusivity": "若脱先，黑可借P17-Q16-R16一线轻松整形，我方厚势成空花",
+    "move_style": [
+      "压迫",
+      "围空"
+    ],
+    "move_priority": [
+      "中盘要点"
+    ],
+    "move_risk": [
+      "折中"
+    ]
+  }
+}

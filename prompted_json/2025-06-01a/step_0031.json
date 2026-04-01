@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_030",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 30,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "C9",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "N17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "N18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "M17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "C10",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "D10",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "C9",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "D10",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "右上角形成厚薄对比，我方在角部构筑坚实外势，对方数子浮于二线需治孤；左下大场未定，全局重心偏向中腹与边路联动。",
+    "move_goal": "巩固角部厚势并指向中腹辐射，兼顾限制对方右上弱棋联络与整形空间。",
+    "move_location_hint": "对方上一手所在块的**上方镇头位**，落于白厚势延伸线与黑棋薄弱肩冲点交汇处",
+    "move_effect": "镇压黑棋出头、压缩其眼位潜力，同时强化我方模样张力与中央控制力",
+    "move_exclusivity": "若脱先，对方可借劲于D10-C11一线轻松腾挪，我方厚势成为空花",
+    "move_style": [
+      "压迫",
+      "扩张"
+    ],
+    "move_priority": [
+      "中盘要点"
+    ],
+    "move_risk": [
+      "折中"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_041",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 41,
+    "to_play": "white",
+    "game_phase": "middle_game",
+    "last_move": {
+      "color": "black",
+      "point": "R4",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "white",
+        "point": "L4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N3",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "Q4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "P4",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "R3",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "R4",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "N3",
+      "Q3",
+      "P4",
+      "R4",
+      "R6",
+      "D10",
+      "C11",
+      "D11",
+      "D13",
+      "E14",
+      "F14",
+      "B15",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "R3",
+      "D4",
+      "L4",
+      "Q4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "B16",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "右下角形成复杂攻防，我方在角部构筑厚势，对方数子浮于一线，气紧形薄。",
+    "move_goal": "镇头压迫对方角部弱棋，逼其就地做眼或出逃。",
+    "move_location_hint": "对方上一手所在块上方的**镇位**，落子于高位封锁线以控中央与边路联络",
+    "move_effect": "压缩对方眼位空间，强化我方厚势辐射力，为后续断、扑、点留出多重手段",
+    "move_exclusivity": "若脱先，对方可借爬、扳轻松整形；本手是维持角部主动权的唯一紧凑应对",
+    "move_style": [
+      "强攻",
+      "先手压迫"
+    ],
+    "move_priority": [
+      "中盘要点"
+    ],
+    "move_risk": [
+      "折中"
+    ]
+  }
+}

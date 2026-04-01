@@ -14,35 +14,43 @@
   },
   "state": {
     "move_number": 50,
-    "to_play": 1,
+    "to_play": "black",
+    "game_phase": "middle_game",
     "last_move": {
-      "color": 0,
-      "point": "N12"
+      "color": "white",
+      "point": "N12",
+      "is_pass": false
     },
     "recent_moves": [
       {
-        "color": 1,
-        "point": "L3"
+        "color": "black",
+        "point": "L3",
+        "is_pass": false
       },
       {
-        "color": 0,
-        "point": "N2"
+        "color": "white",
+        "point": "N2",
+        "is_pass": false
       },
       {
-        "color": 1,
-        "point": "K7"
+        "color": "black",
+        "point": "K7",
+        "is_pass": false
       },
       {
-        "color": 0,
-        "point": "O12"
+        "color": "white",
+        "point": "O12",
+        "is_pass": false
       },
       {
-        "color": 1,
-        "point": "O13"
+        "color": "black",
+        "point": "O13",
+        "is_pass": false
       },
       {
-        "color": 0,
-        "point": "N12"
+        "color": "white",
+        "point": "N12",
+        "is_pass": false
       }
     ],
     "black_stones": [
@@ -100,87 +108,14 @@
       "P17"
     ]
   },
-  "targets": {
-    "policy_target": "P11"
-  },
-  "semantic_description": {
-    "global_tags": [],
-    "strategic_focus": [],
-    "global_summary_cn": "",
-    "phase_explanation": ""
-  },
-  "regions": [
-    {
-      "region_id": "top_left",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "top_center",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "top_right",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "middle_left",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "center",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "middle_right",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_left",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_center",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_right",
-      "summary": "",
-      "shapes": [],
-      "local_tags": [],
-      "key_points": [],
-      "group_status": []
-    }
-  ]
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "",
+    "move_effect": "",
+    "move_exclusivity": "",
+    "move_style": "",
+    "move_priority": "",
+    "move_risk": ""
+  }
 }

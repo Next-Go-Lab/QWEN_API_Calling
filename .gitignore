@@ -1,0 +1,28 @@
+# 仅允许跟踪下列路径；其余文件不纳入 Git（不上传到 GitHub）
+# 若需增删允许项，在下面「取消忽略」段落维护
+
+# 先忽略几乎所有内容
+*
+
+# 允许遍历目录（否则无法纳入子目录里的文件）
+!*/
+
+!.gitignore
+
+# --- 允许跟踪的根文件 ---
+!README.md
+!output.log
+!simpleproto_qwen_tool.py
+
+# --- 允许跟踪的目录及其全部内容 ---
+!prompted_json/
+!prompted_json/**
+
+!simpleproto_from_sgf/
+!simpleproto_from_sgf/**
+
+# 以下即使 !*/ 会遍历目录，也明确排除（不上传）
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]

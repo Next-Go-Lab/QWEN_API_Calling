@@ -14,166 +14,28 @@
   },
   "state": {
     "move_number": 0,
-    "to_play": 1,
+    "to_play": "black",
+    "game_phase": "opening",
     "last_move": null,
     "recent_moves": [],
     "black_stones": [],
     "white_stones": []
   },
-  "targets": {
-    "policy_target": "Q16"
-  },
-  "semantic_description": {
-    "global_tags": [
-      "opening",
-      "empty_board",
-      "first_move_pending"
+  "semantic_context": {
+    "global_summary": "空枰开局，全局未落一子，双方均待占角缔势，布局重心在星位与小目体系。",
+    "move_goal": "抢占高效角地，奠定外势与实地平衡基础。",
+    "move_location_hint": "四角星位之一，优先选择利于后续中国流或迷你中国流展开的对角线位置",
+    "move_effect": "确立角部根据、牵制对方挂角方向、引导大场配置",
+    "move_exclusivity": "若不抢先占角，对方将主导布局节奏，我方易陷被动配子",
+    "move_style": [
+      "围空",
+      "扩张"
     ],
-    "strategic_focus": [
-      "corner_play",
-      "influence_balance",
-      "territorial_framework"
+    "move_priority": [
+      "布局要点"
     ],
-    "global_summary_cn": "棋局尚未开始，十九路空棋盘，黑方即将落子，全局无任何棋子，处于开局前的纯理论准备阶段。",
-    "phase_explanation": "对局起始状态，move_number为0，无历史着法，双方均未布子，属于标准开局前一刻。"
-  },
-  "regions": [
-    {
-      "region_id": "top_left",
-      "summary": "左上角空旷，传统小目/星位开局热点区域。",
-      "shapes": [],
-      "local_tags": [
-        "corner",
-        "potential_star",
-        "potential_small_33"
-      ],
-      "key_points": [
-        "D4",
-        "Q4",
-        "D16",
-        "Q16"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "top_center",
-      "summary": "上边中央开阔，尚无势力归属，未来可能发展为模样或实地争夺带。",
-      "shapes": [],
-      "local_tags": [
-        "side",
-        "influence_zone"
-      ],
-      "key_points": [
-        "K16",
-        "D16",
-        "Q16"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "top_right",
-      "summary": "右上角对称于左上，典型开局候选点密集区。",
-      "shapes": [],
-      "local_tags": [
-        "corner",
-        "potential_star",
-        "potential_small_33"
-      ],
-      "key_points": [
-        "D16",
-        "Q16",
-        "Q4"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "middle_left",
-      "summary": "左侧边路及中腹过渡区，当前完全空白。",
-      "shapes": [],
-      "local_tags": [
-        "side",
-        "transition"
-      ],
-      "key_points": [
-        "D10",
-        "K4"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "center",
-      "summary": "天元及周边八点构成核心中腹，全局战略制高点待占。",
-      "shapes": [],
-      "local_tags": [
-        "center",
-        "tengen_zone",
-        "influence_hub"
-      ],
-      "key_points": [
-        "K10"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "middle_right",
-      "summary": "右侧边路与中腹衔接部，对称于middle_left。",
-      "shapes": [],
-      "local_tags": [
-        "side",
-        "transition"
-      ],
-      "key_points": [
-        "Q10",
-        "K16"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_left",
-      "summary": "左下角，与top_left镜像，开局常见落点区域之一。",
-      "shapes": [],
-      "local_tags": [
-        "corner",
-        "potential_star",
-        "potential_small_33"
-      ],
-      "key_points": [
-        "D4",
-        "Q4",
-        "D16"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_center",
-      "summary": "下边中央，开阔地带，未来可能形成厚势或实地。",
-      "shapes": [],
-      "local_tags": [
-        "side",
-        "influence_zone"
-      ],
-      "key_points": [
-        "K4",
-        "D4",
-        "Q4"
-      ],
-      "group_status": []
-    },
-    {
-      "region_id": "bottom_right",
-      "summary": "右下角，四角中最晚被关注但潜力均衡的区域。",
-      "shapes": [],
-      "local_tags": [
-        "corner",
-        "potential_star",
-        "potential_small_33"
-      ],
-      "key_points": [
-        "Q4",
-        "D4",
-        "Q16"
-      ],
-      "group_status": []
-    }
-  ]
+    "move_risk": [
+      "稳健"
+    ]
+  }
 }
