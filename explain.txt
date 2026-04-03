@@ -1,0 +1,6 @@
+
+运行 re.bat 自动使用 label.py 对 simpleproto_from_sgf 中棋局进行识别
+
+标签写到 outputs 文件夹下 json 文件的 "move_location_hint" 中
+
+自动打开棋盘绘制网页展示棋局和标签
