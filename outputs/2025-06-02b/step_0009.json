@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_008",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 8,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "R16",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "R4",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D16",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "P4",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "R17",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "Q17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "R16",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "P4",
+      "R4",
+      "Q16",
+      "Q17"
+    ],
+    "white_stones": [
+      "D4",
+      "D16",
+      "R16",
+      "R17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "托",
+    "move_style": ""
+  }
+}

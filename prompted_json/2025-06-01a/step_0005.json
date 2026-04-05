@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_004",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 4,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "D17",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "Q16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "Q3",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D17",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "D17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "势均力敌，双方各占一空角，尚未挂角或缔角，角地尚浅。",
+    "move_goal": "白抢占左上角小目要点：压缩黑右上星位Q16势力范围，为后续拆边或夹击做准备；黑失先手难立即扩张。",
+    "move_location_hint": "左上角小目，相对该角星位D16向上一路（行号+1），紧邻黑棋未落子之空角顶点A19，非三三非高目。",
+    "move_style": "中性"
+  }
+}

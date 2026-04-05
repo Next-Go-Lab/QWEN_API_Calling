@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02c_move_006",
+    "game_name": "2025-06-02c",
+    "event": "81st Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Kojima Takaho",
+    "white_player": "Ueno Risa"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 6,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "C14",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "R16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D16",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "Q3",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "F17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "C14",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "R16",
+      "F17"
+    ],
+    "white_stones": [
+      "D4",
+      "C14",
+      "D16"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "飞",
+    "move_style": ""
+  }
+}

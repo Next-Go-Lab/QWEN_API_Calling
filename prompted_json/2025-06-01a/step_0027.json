@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_026",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 26,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "N18",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "R16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "P18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "O18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "N18",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "白小优，右上角白棋连压黑子形成厚势，全局实地与外势均衡。",
+    "move_goal": "上一手爬旨在紧贴黑棋O17一子向上延展，压缩黑角空、强化白势；对黑构成眼位缺陷压力，对白巩固右上控制权。",
+    "move_location_hint": "爬，右上角黑R16星位与O17小目之间，沿边线紧贴黑子向上行至第二路，距Q16星位右二上二。",
+    "move_style": "有点激进"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_028",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 28,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "C10",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "O17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "O18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "N18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "M17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "C10",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "M17",
+      "N17",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C10",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "N18",
+      "O18",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "势均力敌，双方角地初定而中腹未启，左下白厚势牵动全局厚薄。",
+    "move_goal": "上一手意在左下角肩冲黑C11一子：削弱黑角根基，逼其补形；同时为白D4星位援引外势，强化己方厚味。",
+    "move_location_hint": "碰，左下角黑C11小目一子之右侧二路、四线附近，距D4星位斜向远位，属典型肩冲型挂角着法。",
+    "move_style": "有点激进"
+  }
+}

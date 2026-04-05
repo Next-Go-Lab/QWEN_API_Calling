@@ -1,0 +1,4 @@
+# Qwen_Calling.py -- DashScope OpenAI-compatible API client
+# Install: pip install -r requirements.txt
+# User install (no admin): pip install --user -r requirements.txt
+openai>=1.40.0,<2

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_061",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 61,
+    "to_play": "white",
+    "game_phase": "middle_game",
+    "last_move": {
+      "color": "black",
+      "point": "S8",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "white",
+        "point": "O6",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "R9",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "P6",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O7",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "Q7",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "S8",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "J3",
+      "L3",
+      "M3",
+      "P3",
+      "D4",
+      "E4",
+      "F4",
+      "K4",
+      "J5",
+      "N5",
+      "Q6",
+      "R6",
+      "E7",
+      "K7",
+      "O7",
+      "P7",
+      "N8",
+      "S8",
+      "R9",
+      "L10",
+      "R10",
+      "P11",
+      "R11",
+      "P12",
+      "R12",
+      "O13",
+      "Q15",
+      "D16",
+      "R16",
+      "J17"
+    ],
+    "white_stones": [
+      "H2",
+      "N2",
+      "C3",
+      "D3",
+      "E3",
+      "H3",
+      "N3",
+      "C4",
+      "H4",
+      "M4",
+      "O4",
+      "P4",
+      "Q4",
+      "H5",
+      "R5",
+      "C6",
+      "H6",
+      "O6",
+      "P6",
+      "Q7",
+      "R8",
+      "O9",
+      "Q9",
+      "N10",
+      "Q10",
+      "Q11",
+      "N12",
+      "O12",
+      "L16",
+      "P17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "扳",
+    "move_style": ""
+  }
+}

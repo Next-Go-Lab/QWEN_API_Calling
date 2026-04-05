@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_002",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 2,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "D4",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "Q16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D4",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q16"
+    ],
+    "white_stones": [
+      "D4"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "势均力敌，空枰初布，双方各占一隅尚无接触。",
+    "move_goal": "白抢占左下星位争先手：压缩黑右上势力范围，确立角地根基；黑暂无实地而取势，全局未定。",
+    "move_location_hint": "左下角顶A1参照，四线四线交汇处，即该角标准星位，非小目非三三。",
+    "move_style": "中性"
+  }
+}

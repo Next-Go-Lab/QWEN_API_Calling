@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02d_move_028",
+    "game_name": "2025-06-02d",
+    "event": "44th Women's Honinbo",
+    "date": "2025-06-02",
+    "black_player": "Yoshida Mika",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "W+R"
+  },
+  "state": {
+    "move_number": 28,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "M4",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "R10",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "Q9",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "P12",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "N10",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N8",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "M4",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "F3",
+      "E4",
+      "F4",
+      "K4",
+      "Q6",
+      "R6",
+      "P7",
+      "N8",
+      "R10",
+      "R11",
+      "P12",
+      "Q15",
+      "D16",
+      "R16"
+    ],
+    "white_stones": [
+      "D3",
+      "E3",
+      "C4",
+      "M4",
+      "O4",
+      "Q4",
+      "R5",
+      "C6",
+      "R8",
+      "Q9",
+      "N10",
+      "Q10",
+      "L16",
+      "P17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "跳",
+    "move_style": ""
+  }
+}

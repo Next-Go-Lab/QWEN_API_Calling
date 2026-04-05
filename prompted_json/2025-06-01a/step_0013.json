@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_012",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 12,
+    "to_play": "black",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "white",
+      "point": "F15",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "black",
+        "point": "E16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "D16",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "D15",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "E15",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "E14",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "F15",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "E14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "D16",
+      "D17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "白小优，左上角形成白棋双飞燕雏形，黑棋E16与D15结构气紧易受攻。",
+    "move_goal": "上一手意在长出巩固左上势力：对黑E16施压迫其定型，为白D16与E15连络成势奠基；白获行棋主动权，黑需补强或脱先。",
+    "move_location_hint": "长，左上角相对星位D16向下一路、向右两路，即小目位D17正右邻点，属高目体系挂角延伸位。",
+    "move_style": "有点激进"
+  }
+}

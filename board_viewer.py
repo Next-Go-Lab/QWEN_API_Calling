@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 ROOT_DIR = Path(__file__).resolve().parent
-OUTPUTS_DIR = ROOT_DIR / "outputs"
+OUTPUTS_DIR = ROOT_DIR / "prompted_json"
 STEP_FILE_PATTERN = re.compile(r"step_(\d+)\.json$")
 HOST = "127.0.0.1"
 PORT = 8000

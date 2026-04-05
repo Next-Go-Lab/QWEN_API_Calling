@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02b_move_033",
+    "game_name": "2025-06-02b",
+    "event": "51st Tengen",
+    "date": "2025-06-02",
+    "black_player": "Yu Zhengqi",
+    "white_player": "Fujisawa Rina"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+R"
+  },
+  "state": {
+    "move_number": 33,
+    "to_play": "white",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "black",
+      "point": "K5",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "white",
+        "point": "M5",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "N6",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "L4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "M6",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "M3",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "K5",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "O4",
+      "P4",
+      "R4",
+      "K5",
+      "N5",
+      "M6",
+      "N6",
+      "R12",
+      "S12",
+      "R13",
+      "R14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "R18"
+    ],
+    "white_stones": [
+      "M3",
+      "N3",
+      "D4",
+      "L4",
+      "N4",
+      "M5",
+      "O5",
+      "S13",
+      "S14",
+      "R15",
+      "D16",
+      "J16",
+      "R16",
+      "R17",
+      "S18",
+      "S19"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "飞",
+    "move_style": ""
+  }
+}

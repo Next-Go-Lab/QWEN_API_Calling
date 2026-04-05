@@ -176,10 +176,6 @@
     "global_summary": "",
     "move_goal": "",
     "move_location_hint": "",
-    "move_effect": "",
-    "move_exclusivity": "",
-    "move_style": "",
-    "move_priority": "",
-    "move_risk": ""
+    "move_style": ""
   }
 }

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-02a_move_055",
+    "game_name": "2025-06-02a",
+    "event": "50th Meijin",
+    "date": "2025-06-02",
+    "black_player": "Kyo Kagen",
+    "white_player": "Hirose Yuichi"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+3.5"
+  },
+  "state": {
+    "move_number": 55,
+    "to_play": "white",
+    "game_phase": "middle_game",
+    "last_move": {
+      "color": "black",
+      "point": "O6",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "white",
+        "point": "P3",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "Q2",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "O4",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "P5",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "Q6",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O6",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "H1",
+      "B2",
+      "H2",
+      "Q2",
+      "B3",
+      "C3",
+      "G3",
+      "Q3",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "P4",
+      "R4",
+      "B5",
+      "C5",
+      "D5",
+      "G5",
+      "P5",
+      "R5",
+      "B6",
+      "F6",
+      "H6",
+      "O6",
+      "R6",
+      "G7",
+      "R14",
+      "Q16"
+    ],
+    "white_stones": [
+      "B1",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "J2",
+      "D3",
+      "P3",
+      "R3",
+      "A4",
+      "D4",
+      "O4",
+      "Q4",
+      "E5",
+      "F5",
+      "H5",
+      "Q5",
+      "C6",
+      "D6",
+      "E6",
+      "Q6",
+      "B7",
+      "C8",
+      "D16",
+      "F17",
+      "O17"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "",
+    "move_goal": "",
+    "move_location_hint": "尖",
+    "move_style": ""
+  }
+}

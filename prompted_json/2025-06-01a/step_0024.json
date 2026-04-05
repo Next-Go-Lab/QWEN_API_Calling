@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "sample_id": "game_2025-06-01a_move_023",
+    "game_name": "2025-06-01a",
+    "event": "73rd NHK Cup",
+    "date": "2025-06-01",
+    "black_player": "Son Makoto",
+    "white_player": "Ueno Asami"
+  },
+  "rules": {
+    "board_size": 19,
+    "komi": 6.5,
+    "result": "B+0.5"
+  },
+  "state": {
+    "move_number": 23,
+    "to_play": "white",
+    "game_phase": "opening",
+    "last_move": {
+      "color": "black",
+      "point": "O17",
+      "is_pass": false
+    },
+    "recent_moves": [
+      {
+        "color": "white",
+        "point": "Q17",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "P17",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "R17",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "R16",
+        "is_pass": false
+      },
+      {
+        "color": "white",
+        "point": "P18",
+        "is_pass": false
+      },
+      {
+        "color": "black",
+        "point": "O17",
+        "is_pass": false
+      }
+    ],
+    "black_stones": [
+      "Q3",
+      "C11",
+      "D13",
+      "E14",
+      "F14",
+      "C15",
+      "D15",
+      "E16",
+      "Q16",
+      "R16",
+      "O17",
+      "P17"
+    ],
+    "white_stones": [
+      "D4",
+      "C13",
+      "E15",
+      "F15",
+      "G15",
+      "H15",
+      "D16",
+      "D17",
+      "Q17",
+      "R17",
+      "P18"
+    ]
+  },
+  "semantic_context": {
+    "global_summary": "黑小优，右上角形成厚势牵制白棋，全局重心在右上与中腹交界处。",
+    "move_goal": "上一手意在长气扩张右上势力：黑巩固边空潜力，白右上三子被压低难成形。",
+    "move_location_hint": "长，右上角星位Q16正上方一格、左移两格处，即相对Q16向上一路、向左两路的交叉点。",
+    "move_style": "中性"
+  }
+}
